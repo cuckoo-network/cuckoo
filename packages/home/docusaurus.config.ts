@@ -112,7 +112,7 @@ const config: Config = {
           position: "right",
         },
         {
-          href: "https://cuckoo.network/staking",
+          href: "https://cuckoo.network/portal/staking",
           label: "Staking",
           position: "right",
         },
