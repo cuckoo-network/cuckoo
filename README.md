@@ -1,4 +1,4 @@
-# cuckoo
+![cuckoo-preview](https://github.com/cuckoo-network/cuckoo/assets/165338234/a92a2775-fd38-4690-ae17-65c6301ffc29)
 
 <p align="center">
   <a href="https://cuckoo.network">Cuckoo Network</a> ·
