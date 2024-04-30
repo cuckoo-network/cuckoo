@@ -1,0 +1,563 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Cuckoo AI Node",
+    "version": "1.0.0",
+    "description": "Content moderator API"
+  },
+  "servers": [
+    {
+      "url": "https://node.cuckoo.network"
+    }
+  ],
+  "paths": {
+    "/#getHealth": {
+      "post": {
+        "summary": "Health Check RPC",
+        "description": "Calls the health check method.",
+        "operationId": "getHealth",
+        "requestBody": {
+          "description": "JSON-RPC health check request",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "jsonrpc": {
+                    "type": "string",
+                    "example": "2.0"
+                  },
+                  "method": {
+                    "type": "string",
+                    "example": "getHealth"
+                  },
+                  "id": {
+                    "type": "integer",
+                    "example": 1
+                  }
+                },
+                "required": ["jsonrpc", "method", "id"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Health check response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "jsonrpc": {
+                      "type": "string"
+                    },
+                    "result": {
+                      "$ref": "#/components/schemas/HealthCheckResult"
+                    },
+                    "error": {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    "id": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": ["jsonrpc", "result", "id"]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/#listGPUProviders": {
+      "post": {
+        "summary": "List GPU Providers",
+        "description": "Retrieves a list of all GPU providers.",
+        "operationId": "listGPUProviders",
+        "requestBody": {
+          "description": "JSON-RPC request for listing all GPU providers",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "jsonrpc": {
+                    "type": "string",
+                    "example": "2.0"
+                  },
+                  "method": {
+                    "type": "string",
+                    "example": "listGPUProviders"
+                  },
+                  "id": {
+                    "type": "integer",
+                    "example": 1
+                  }
+                },
+                "required": ["jsonrpc", "method", "id"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response with an array of GPU providers",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "jsonrpc": {
+                      "type": "string"
+                    },
+                    "result": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/GPUProvider"
+                      }
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "error": {
+                      "$ref": "#/components/schemas/Error"
+                    }
+                  },
+                  "required": ["jsonrpc", "result", "id"]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/#listPendingTasks": {
+      "post": {
+        "summary": "List Pending Tasks",
+        "description": "Upserts a GPU provider and retrieves all pending image generation tasks.",
+        "operationId": "listPendingTasks",
+        "requestBody": {
+          "description": "JSON-RPC request for upserting a GPU provider and listing pending tasks",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "jsonrpc": {
+                    "type": "string",
+                    "example": "2.0"
+                  },
+                  "method": {
+                    "type": "string",
+                    "example": "listPendingTasks"
+                  },
+                  "params": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/GPUProvider"
+                    },
+                    "example": [
+                      {
+                        "walletAddress": "0x12345...",
+                        "platform": "Linux",
+                        "python": "3.8.5",
+                        "version": "1.0.0",
+                        "commit": "a1b2c3d4",
+                        "checksum": "e5f6g7h8",
+                        "os": "Ubuntu 20.04",
+                        "nvidia_gpu_models": "NVIDIA GeForce RTX 3080",
+                        "CPU": {
+                          "model": "x86_64",
+                          "count logical": 16,
+                          "count physical": 8
+                        },
+                        "RAM": {
+                          "total": "32GB",
+                          "used": "16GB",
+                          "free": "8GB",
+                          "active": "4GB",
+                          "inactive": "12GB",
+                          "buffers": "512MB",
+                          "cached": "2GB",
+                          "shared": "256MB"
+                        }
+                      }
+                    ]
+                  },
+                  "id": {
+                    "type": "integer",
+                    "example": 1
+                  }
+                },
+                "required": ["jsonrpc", "method", "params", "id"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response with an array of pending image generation tasks",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "jsonrpc": {
+                      "type": "string"
+                    },
+                    "result": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/TaskOffer"
+                      }
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "error": {
+                      "$ref": "#/components/schemas/Error"
+                    }
+                  },
+                  "required": ["jsonrpc", "result", "id"]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/#offerTask": {
+      "post": {
+        "summary": "Offer a task",
+        "operationId": "offerTask",
+        "description": "Offer a task. e.g. Generates an image based on the provided text prompt and parameters.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "jsonrpc": {
+                    "type": "string",
+                    "example": "2.0"
+                  },
+                  "method": {
+                    "type": "string",
+                    "example": "offerTask"
+                  },
+                  "params": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/OfferTaskRequest"
+                    }
+                  },
+                  "id": {
+                    "type": "string",
+                    "example": "1"
+                  }
+                },
+                "required": ["jsonrpc", "method", "params", "id"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The generated image result.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TaskResult"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/#submitTaskResult": {
+      "post": {
+        "summary": "Submit Task Result",
+        "operationId": "submitTaskResult",
+        "description": "Submits the result of a task to the store.",
+        "requestBody": {
+          "description": "Task result submission request",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "jsonrpc": {
+                    "type": "string",
+                    "example": "2.0"
+                  },
+                  "method": {
+                    "type": "string",
+                    "example": "submitTaskResult"
+                  },
+                  "params": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/SubmitTaskResultRequest"
+                    }
+                  },
+                  "id": {
+                    "type": "integer",
+                    "example": 1
+                  }
+                },
+                "required": ["jsonrpc", "method", "params", "id"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Submit Task response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "jsonrpc": {
+                      "type": "string"
+                    },
+                    "result": { },
+                    "error": {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    "id": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": ["jsonrpc", "result", "id"]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "SubmitTaskResultRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "VHn9nAvmHastotANYdJ8kiF6VBR2"
+          },
+          "coinSymbol": {
+            "$ref": "#/components/schemas/CoinSymbol"
+          },
+          "status": {
+            "$ref": "#/components/schemas/Status"
+          },
+          "payload": {
+            "type": "object",
+            "example": {
+              "images": ["iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANCSURBVEiJtZZPbBtFFMZ/M7ubXdtdb1xSFyeilBapySVU8h8OoFaooFSqiihIVIpQBKci6KEg9Q6H9kovIHoCIVQJJCKE1ENFjnAgcaSGC6rEnxBwA04Tx43t2FnvDAfjkNibxgHxnWb2e/u992bee7tCa00YFsffekFY+nUzFtjW0LrvjRXrCDIAaPLlW0nHL0SsZtVoaF98mLrx3pdhOqLtYPHChahZcYYO7KvPFxvRl5XPp1sN3adWiD1ZAqD6XYK1b/dvE5IWryTt2udLFedwc1+9kLp+vbbpoDh+6TklxBeAi9TL0taeWpdmZzQDry0AcO+jQ12RyohqqoYoo8RDwJrU+qXkjWtfi8Xxt58BdQuwQs9qC/afLwCw8tnQbqYAPsgxE1S6F3EAIXux2oQFKm0ihMsOF71dHYx+f3NND68ghCu1YIoePPQN1pGRABkJ6Bus96CutRZMydTl+TvuiRW1m3n0eDl0vRPcEysqdXn+jsQPsrHMquGeXEaY4Yk4wxWcY5V/9scqOMOVUFthatyTy8QyqwZ+kDURKoMWxNKr2EeqVKcTNOajqKoBgOE28U4tdQl5p5bwCw7BWquaZSzAPlwjlithJtp3pTImSqQRrb2Z8PHGigD4RZuNX6JYj6wj7O4TFLbCO/Mn/m8R+h6rYSUb3ekokRY6f/YukArN979jcW+V/S8g0eT/N3VN3kTqWbQ428m9/8k0P/1aIhF36PccEl6EhOcAUCrXKZXXWS3XKd2vc/TRBG9O5ELC17MmWubD2nKhUKZa26Ba2+D3P+4/MNCFwg59oWVeYhkzgN/JDR8deKBoD7Y+ljEjGZ0sosXVTvbc6RHirr2reNy1OXd6pJsQ+gqjk8VWFYmHrwBzW/n+uMPFiRwHB2I7ih8ciHFxIkd/3Omk5tCDV1t+2nNu5sxxpDFNx+huNhVT3/zMDz8usXC3ddaHBj1GHj/As08fwTS7Kt1HBTmyN29vdwAw+/wbwLVOJ3uAD1wi/dUH7Qei66PfyuRj4Ik9is+hglfbkbfR3cnZm7chlUWLdwmprtCohX4HUtlOcQjLYCu+fzGJH2QRKvP3UNz8bWk1qMxjGTOMThZ3kvgLI5AzFfo379UAAAAASUVORK5CYII="]
+            }
+          }
+        },
+        "required": ["TaskType", "Text2Image"]
+      },
+      "TaskResult": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "The unique identifier of the image generation task."
+          },
+          "payload": {
+            "type": "object"
+          },
+          "status": {
+            "$ref": "#/components/schemas/Status"
+          }
+        },
+        "required": ["id", "images"]
+      },
+      "OfferTaskRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "VHn9nAvmHastotANYdJ8kiF6VBR2"
+          },
+          "payload": {
+            "type": "object",
+            "example": {
+              "prompt": "cyberpunk women, high quality",
+              "negativePrompt": "lowquality, regular quality",
+              "steps": 20,
+              "sendImages": true,
+              "saveImages": false,
+              "width": 1024,
+              "height": 1024
+            }
+          },
+          "coinSymbol": {
+            "$ref": "#/components/schemas/CoinSymbol"
+          },
+          "maxOfferPrice": {
+            "type": "string",
+            "description": "Represented as a string to accommodate large numbers",
+            "example": "1000000000000000000"
+          }
+        },
+        "required": ["id", "prompt", "steps", "width", "height", "maxOfferPrice"]
+      },
+      "HealthCheckResult": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string"
+          }
+        },
+        "required": ["status"]
+      },
+      "Error": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "integer"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": "string"
+          }
+        }
+      },
+
+      "GPUProvider": {
+        "type": "object",
+        "properties": {
+          "walletAddress": {
+            "type": "string",
+            "description": "Primary key identifying the GPU provider"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "python": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          },
+          "commit": {
+            "type": "string"
+          },
+          "checksum": {
+            "type": "string"
+          },
+          "os": {
+            "type": "string"
+          },
+          "nvidia_gpu_models": {
+            "type": "string"
+          },
+          "CPU": {
+            "$ref": "#/components/schemas/CPUInfo"
+          },
+          "RAM": {
+            "$ref": "#/components/schemas/RAMInfo"
+          }
+        },
+        "required": ["walletAddress"]
+      },
+      "TaskOffer": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the task"
+          },
+          "status": {
+            "$ref": "#/components/schemas/Status"
+          },
+          "coinSymbol": {
+            "$ref": "#/components/schemas/CoinSymbol"
+          },
+          "maxOfferPrice": {
+            "type": "string",
+            "description": "Maximum offer price in a compatible numeric string format"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "payload": {
+            "type": "object"
+          }
+        },
+        "required": ["id", "status", "coinSymbol", "maxOfferPrice", "createdAt", "payload"]
+      },
+      "CPUInfo": {
+        "type": "object",
+        "properties": {
+          "model": {
+            "type": "string"
+          },
+          "count logical": {
+            "type": "integer"
+          },
+          "count physical": {
+            "type": "integer"
+          }
+        }
+      },
+      "CoinSymbol": {
+        "type": "string",
+        "enum": ["Unknown", "SD"],
+        "description": "The coin symbol of the model",
+        "example": "SD"
+      },
+      "Status": {
+        "type": "string",
+        "enum": ["Unknown", "Pending", "InProgress", "Completed", "Failed"],
+        "description": "The current status of the task",
+        "example": "Completed"
+      },
+      "RAMInfo": {
+        "type": "object",
+        "properties": {
+          "total": {
+            "type": "string"
+          },
+          "used": {
+            "type": "string"
+          },
+          "free": {
+            "type": "string"
+          },
+          "active": {
+            "type": "string"
+          },
+          "inactive": {
+            "type": "string"
+          },
+          "buffers": {
+            "type": "string"
+          },
+          "cached": {
+            "type": "string"
+          },
+          "shared": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

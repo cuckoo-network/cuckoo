@@ -1,0 +1,11 @@
+.heroA {
+  color: white!important;
+  text-decoration: none!important;
+}
+
+.h1 {
+  font-size: 60px;
+  @media (min-width: 576px) {
+    font-size: 80px;
+  }
+}

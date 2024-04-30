@@ -20,7 +20,4 @@
         <img alt="Discussion posts" src="https://img.shields.io/github/discussions/cuckoo-network/cuckoo?labelColor=%20%239b8afb&color=%20%237a5af8"></a>
 </p>
 
-Cuckoo is a Decentralized AI Platform. Cuckoo starts with GPU-sharing for text-to-image generation and LLM inference.
-
-<br/> <br/>
-# cuckoo
+Cuckoo is a Decentralized AI Platform, starting with GPU-sharing for text-to-image generation and LLM inference.

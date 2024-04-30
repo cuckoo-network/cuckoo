@@ -1,0 +1,3 @@
+[submodule "packages/cuckoo-explorer"]
+	path = packages/cuckoo-explorer
+	url = git@github.com:cuckoo-network/cuckoo-explorer.git
