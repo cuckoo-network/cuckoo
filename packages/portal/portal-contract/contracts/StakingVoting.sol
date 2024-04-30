@@ -2,8 +2,9 @@
 pragma solidity ^0.8.0;
 
 import "@thirdweb-dev/contracts/extension/ContractMetadata.sol";
+import "@thirdweb-dev/contracts/extension/Ownable.sol";
 
-contract VotingContract is ContractMetadata {
+contract VotingContract is ContractMetadata, Ownable {
   // Mapping from voter to the staker they voted for
   mapping(address => address) public votes;
   // Mapping from staker to a list of voters who voted for them
@@ -36,5 +37,13 @@ contract VotingContract is ContractMetadata {
   // Utility function to get all voters for a specific staker
   function getVotersForStaker(address staker) public view returns (address[] memory) {
     return voteesToVoters[staker];
+  }
+
+  function _canSetContractURI() internal view virtual override returns (bool) {
+    return msg.sender == owner();
+  }
+
+  function _canSetOwner() internal view virtual override returns (bool) {
+    return msg.sender == owner();
   }
 }

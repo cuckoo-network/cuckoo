@@ -7,11 +7,9 @@ export const chainConfig = {
       name: "Cuckoo Scan",
       url: "https://testnet-scan.cuckoo.network",
       standard: "EIP3091",
-    }
+    },
   ],
-  faucets: [
-    "https://cuckoo.network/tg"
-  ],
+  faucets: ["https://cuckoo.network/tg"],
   icon: {
     url: "https://cuckoo.network/img/favicon.svg",
     width: 600,

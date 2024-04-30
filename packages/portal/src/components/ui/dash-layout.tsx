@@ -4,13 +4,13 @@ import Link from "next/link";
 import {
   Bell,
   Bird,
-  CircleUser, Droplet,
+  CircleUser,
+  Droplet,
   Home,
   LineChart,
   Menu,
   Package,
   Package2,
-  Search,
   ShoppingCart,
   Users,
 } from "lucide-react";
@@ -32,15 +32,16 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { usePathname } from 'next/navigation'
+import { usePathname } from "next/navigation";
+import { ConnectWallet } from "@thirdweb-dev/react";
 
 const navigationItems = [
   { href: "/portal/staking", label: "Staking", icon: Home },
   { href: "/portal/faucet", label: "Faucet", icon: Droplet },
 ];
 
-export function DashLayout({children}: {children: React.ReactNode}) {
-  const pathname = usePathname()
+export function DashLayout({ children }: { children: React.ReactNode }) {
+  const pathname = usePathname();
 
   return (
     <div className="grid min-h-screen w-full md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr]">
@@ -68,7 +69,7 @@ export function DashLayout({children}: {children: React.ReactNode}) {
                 <Link
                   key={item.label}
                   href={item.href}
-                  className={`flex items-center gap-3 rounded-lg px-3 py-2 transition-all ${pathname === item.href ? 'bg-muted px-3 py-2 text-primary' : 'text-muted-foreground hover:text-primary'}`}
+                  className={`flex items-center gap-3 rounded-lg px-3 py-2 transition-all ${pathname === item.href ? "bg-muted px-3 py-2 text-primary" : "text-muted-foreground hover:text-primary"}`}
                 >
                   <item.icon className="h-4 w-4" />
                   {item.label}
@@ -178,22 +179,9 @@ export function DashLayout({children}: {children: React.ReactNode}) {
               </div>
             </SheetContent>
           </Sheet>
-          <div className="w-full flex-1">{/* TODO */}</div>
+          <div className="w-full flex-1">Cuckoo Testnet</div>
           <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="secondary" size="icon" className="rounded-full">
-                <CircleUser className="h-5 w-5" />
-                <span className="sr-only">Toggle user menu</span>
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
-              <DropdownMenuLabel>My Account</DropdownMenuLabel>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem>Settings</DropdownMenuItem>
-              <DropdownMenuItem>Support</DropdownMenuItem>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem>Logout</DropdownMenuItem>
-            </DropdownMenuContent>
+            <ConnectWallet />
           </DropdownMenu>
         </header>
         <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
