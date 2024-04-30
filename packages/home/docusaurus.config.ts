@@ -100,6 +100,7 @@ const config: Config = {
         },
         { to: "/about-us", label: "About", position: "left" },
         { to: "/blog", label: "Blog", position: "left" },
+        { to: "https://github.com/cuckoo-network/cuckoo", label: "Github", position: "left" },
         {
           href: "https://scan.cuckoo.network/",
           label: "Testnet Pre Alpha",

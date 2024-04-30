@@ -18,6 +18,8 @@
         <img alt="Issues closed" src="https://img.shields.io/github/issues-search?query=repo%3Acuckoo-network%2Fcuckoo%20is%3Aclosed&label=issues%20closed&labelColor=%20%237d89b0&color=%20%235d6b98"></a>
     <a href="https://github.com/cuckoo-network/cuckoo/discussions/" target="_blank">
         <img alt="Discussion posts" src="https://img.shields.io/github/discussions/cuckoo-network/cuckoo?labelColor=%20%239b8afb&color=%20%237a5af8"></a>
+    <a href="https://cuckoo.network/tg" target="_blank">
+        <img alt="Telegram" src="https://img.shields.io/badge/Telegram-%40CuckooNetworkOfficial-%2326A5E4?logo=telegram&style=flat"></a>
 </p>
 
 Cuckoo is a Decentralized AI Platform, starting with GPU-sharing for text-to-image generation and LLM inference.
