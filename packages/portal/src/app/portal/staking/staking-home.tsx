@@ -16,15 +16,9 @@ import {
 import { Input } from "@/components/ui/input";
 import { VoteStaker } from "@/app/portal/staking/vote-staker";
 import { StakingCard } from "./staking-card";
+import {web3BtnOutlineStyle, web3BtnPrimaryStyle} from "@/components/ui/web3-button-style";
 
 const stakingContractAddress = "0x40977db70eCE7DC7A4538151aD3AB8cb7490226B";
-
-const web3BtnStyle = {
-  backgroundColor: "rgba(30, 41, 59, 0.835)",
-  color: "white",
-  height: "36px",
-  lineHeight: "20px",
-};
 
 export function StakingHome() {
   const address = useAddress();
@@ -86,6 +80,7 @@ export function StakingHome() {
             onChange={(e: any) => setAmountToStake(e.target.value)}
           />
           <Web3Button
+            style={web3BtnPrimaryStyle}
             contractAddress={stakingContractAddress}
             action={async (contract) => {
               await stakingToken?.setAllowance(
@@ -106,7 +101,7 @@ export function StakingHome() {
           balance={ethers.utils.formatEther(stakeInfo?.[0] || 0)}
         >
           <Web3Button
-            style={web3BtnStyle}
+            style={web3BtnOutlineStyle}
             contractAddress={stakingContractAddress}
             action={async (contract) => {
               await contract.call("withdraw", [
@@ -124,7 +119,7 @@ export function StakingHome() {
           balance={ethers.utils.formatEther(stakeInfo?.[1] || 0)}
         >
           <Web3Button
-            style={web3BtnStyle}
+            style={web3BtnOutlineStyle}
             contractAddress={stakingContractAddress}
             action={async (contract) => {
               await contract.call("claimRewards", []);

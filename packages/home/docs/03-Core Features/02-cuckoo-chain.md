@@ -18,7 +18,8 @@ Testnet Alpha explorer is released at https://scan.cuckoo.network/.
 ## Cuckoo Sepolia Testnet
 
 * Chain ID: 1210
-* RPC: https://testnet-rpc.cuckoo.network
+* Official RPC: https://testnet-rpc.cuckoo.network
+* Commercial RPC: https://blockeden.xyz/api-marketplace/cuckoo-chain
 * Explorer: https://testnet-scan.cuckoo.network
 
 ERC20

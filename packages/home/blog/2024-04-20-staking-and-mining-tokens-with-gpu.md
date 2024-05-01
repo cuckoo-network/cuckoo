@@ -5,28 +5,28 @@ tags: [company]
 published: false
 ---
 
-Cuckoo Network is the first decentralized AI-to-Earn platform rewarding AI enthusiasts, developers, and GPU miners with crypto tokens.On our platform, miners share their GPUs with generative AI app builders, aka coordinators, in order to run inference for end customers, so that all the contributors can earn crypto tokens.
+Cuckoo Network is the first decentralized AI-to-Earn platform rewarding AI enthusiasts, developers, and GPU miners with crypto tokens. On our platform, miners share their GPUs with generative AI app builders, aka coordinators, in order to run inference for end customers, so that all the contributors can earn crypto tokens.
 
 ![Staking and mining tokens with GPU](https://cuckoo-network.b-cdn.net/staking-and-mining-tokens-with-gpu.webp "Staking and mining tokens with GPU")
 
 When miners share their GPUs, how to ensure they are not faking results? Cuckoo Network establishes trust and integrity through staking, rewards, and slashing. Today we are glad to announce that stakers can join our testnet and secure trust for this decentralized AI network.
 
-## **Join the network today**
+## **Join the testnet today**
 
 For stakers
 
-1. Get CUC tokens from faucet
-2. Stake tokens at the staking portal
+1. Get CUC tokens from [faucet](https://cuckoo.network/portal/faucet)
+2. Stake tokens at the [staking portal](https://cuckoo.network/portal/staking)
 3. Vote for coordinators or miners
 
-For GPU miners
+For GPU miners (development in progress)
 
 1. Get CUC tokens from faucet
 2. Stake > 20K tokens at the staking portal
 3. Register minerAddress and introduction information. The minerAddress is recommended to be different from your staker address.
 4. Run miner node with the minerAddress’s private key
 
-For Coordinators
+For Coordinators (development in progress)
 
 1. Get CUC tokens from the faucet
 2. Stake > 2M tokens at the staking portal

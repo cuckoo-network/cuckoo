@@ -1,19 +1,21 @@
-import { Button } from "@/components/ui/button";
 import { DashLayout } from "@/components/ui/dash-layout";
+import StepsForm from "@/app/portal/faucet/steps-form";
+import {CardDescription, CardTitle} from "@/components/ui/card";
+
 export default function FaucetPage() {
   return (
     <DashLayout>
-      <div className="flex items-center">
-        <h1 className="text-lg font-semibold md:text-2xl">Faucet</h1>
+      <div className="flex flex-col">
+        <CardTitle className="text-lg font-semibold md:text-2xl">
+          Faucet
+        </CardTitle>
+        <CardDescription>
+          Complete a series of steps below to get CUC.
+        </CardDescription>
       </div>
-      <div
-        className="flex flex-1 items-center justify-center rounded-lg border border-dashed shadow-sm"
-        x-chunk="dashboard-02-chunk-1"
-      >
-        <div className="flex flex-col items-center gap-1 text-center">
-          <h3 className="text-2xl font-bold tracking-tight">Coming Soon</h3>
-        </div>
-      </div>
+
+      <StepsForm/>
+
     </DashLayout>
   );
 }

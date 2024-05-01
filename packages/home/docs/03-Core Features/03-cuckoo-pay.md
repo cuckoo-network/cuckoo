@@ -2,6 +2,8 @@
 
 **Decentralizing AI economically**
 
+> Cuckoo Pay will **NOT** be included in the initial release of mainnet.
+
 Cuckoo Pay demo mode is now available at https://payton.so/o/demo. Payton is still a work in progress. We are adding pay-in, payout, and team management features. However, here is a demo of what we are working with the company network3 to pilot the crypto checkout use case.
 
 #### Getting Started

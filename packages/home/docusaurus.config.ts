@@ -5,7 +5,7 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 const config: Config = {
   title: "Cuckoo Network",
-  tagline: "Decentralized AI-to-Earn Platform",
+  tagline: "Decentralized Multimodal AI Model Serving",
   customFields: {
     description:
       "The first decentralized AI-to-Earn platform rewarding AI enthusiasts, developers, and GPU miners with ERC20 tokens. Cuckoo starts with GPU-sharing for text-to-image generation and LLM inference",

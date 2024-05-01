@@ -24,6 +24,7 @@ sidebar_position: 1
 2. Value generation and sharing
 3. Reward the contributors (builders, partners, and users)
 4. Governance
+5. Decoupled with miner task rewards
 
 🌊 Get Cuckoo Testnet Token
 

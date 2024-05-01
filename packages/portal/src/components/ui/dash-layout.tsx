@@ -25,15 +25,11 @@ import {
 } from "@/components/ui/card";
 import {
   DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { usePathname } from "next/navigation";
 import { ConnectWallet } from "@thirdweb-dev/react";
+import {web3BtnPrimaryStyle} from "@/components/ui/web3-button-style";
 
 const navigationItems = [
   { href: "/portal/staking", label: "Staking", icon: Home },
@@ -89,6 +85,7 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
               <CardContent className="p-2 pt-0 md:p-4 md:pt-0">
                 <Button
                   size="sm"
+                  variant={"outline"}
                   className="w-full"
                   target={"_blank"}
                   href={"https://cuckoo.network/dc"}
@@ -181,7 +178,7 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
           </Sheet>
           <div className="w-full flex-1">Cuckoo Testnet</div>
           <DropdownMenu>
-            <ConnectWallet />
+            <ConnectWallet style={web3BtnPrimaryStyle} />
           </DropdownMenu>
         </header>
         <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
