@@ -176,7 +176,8 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
               </div>
             </SheetContent>
           </Sheet>
-          <div className="w-full flex-1">Cuckoo Testnet</div>
+          <div className="w-full flex-1">
+            <Badge>Testnet Sepolia</Badge></div>
           <DropdownMenu>
             <ConnectWallet style={web3BtnPrimaryStyle} />
           </DropdownMenu>
