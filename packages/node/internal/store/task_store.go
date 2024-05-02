@@ -234,6 +234,11 @@ func (store *InMemoryTaskStore) GetAllPendingTasks() []*TaskOffer {
 func (store *InMemoryTaskStore) GetPendingTasksByWeights(weights []WalletWeight, walletAddress string) []*TaskOffer {
 	offers := store.GetAllPendingTasks()
 	total := totalWeight(weights)
+	// TODO: what if no weight at all? just return all tasks for now
+	if total.Cmp(big.NewInt(0)) == 0 {
+		return offers
+	}
+
 	accumulatedWeight, walletWeight := findWeight(walletAddress, weights)
 
 	// Sort offers deterministically based on hash of (walletAddress + offer ID)

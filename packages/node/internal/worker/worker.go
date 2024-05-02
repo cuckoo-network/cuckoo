@@ -102,7 +102,7 @@ func (s *Service) claimTask(ctx context.Context, gpu *plugins.GPUProvider) (*nod
 		return nil, errors.Errorf("failed to ListPendingTasks JSON200: %+v", string(resp.Body))
 	}
 	if resp.JSON200.Error != nil {
-		return nil, errors.Errorf("failed to ListPendingTasks JSON200.Error: %+v", resp.JSON200.Error.Message)
+		return nil, errors.Errorf("failed to ListPendingTasks JSON200.Error: %s", *resp.JSON200.Error.Message)
 	}
 
 	if len(resp.JSON200.Result) == 0 {
