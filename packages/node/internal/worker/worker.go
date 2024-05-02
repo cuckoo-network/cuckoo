@@ -13,6 +13,7 @@ import (
 	"github.com/stellar/go/support/errors"
 	"github.com/stellar/go/support/log"
 	"math/rand"
+	"os"
 	"sync"
 	"time"
 )
@@ -39,7 +40,11 @@ func NewService(cfg Config) *Service {
 }
 
 func newService(cfg Config) *Service {
-	cli, err := nodegen.NewClientWithResponses("https://ai-content-moderator-node.cuckoo.network")
+	coordinatorURL := os.Getenv("COORDINATOR_URL")
+	if coordinatorURL == "" {
+		coordinatorURL = "https://ai-content-moderator-node.cuckoo.network"
+	}
+	cli, err := nodegen.NewClientWithResponses(coordinatorURL)
 	if err != nil {
 		cfg.Logger.WithError(err).Error(`failed to new nodecli`)
 	}
