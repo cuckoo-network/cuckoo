@@ -19,16 +19,18 @@ For stakers
 2. Stake tokens at the [staking portal](https://cuckoo.network/portal/staking)
 3. Vote for coordinators or miners
 
-For GPU miners (development in progress)
+![Cuckoo Portal - Staking](https://cuckoo-network.b-cdn.net/staking-portal-screenshot.webp "Cuckoo Portal - Staking")
 
-1. Get CUC tokens from faucet
+For GPU miners
+
+1. Get CUC tokens by contacting admins from https://cuckoo.network/tg or https://cuckoo.network/dc
 2. Stake > 20K tokens at the staking portal
 3. Register minerAddress and introduction information. The minerAddress is recommended to be different from your staker address.
 4. Run miner node with the minerAddress’s private key
 
-For Coordinators (development in progress)
+For Coordinators
 
-1. Get CUC tokens from the faucet
+1. Get CUC tokens by contacting admins from https://cuckoo.network/tg or https://cuckoo.network/dc
 2. Stake > 2M tokens at the staking portal
 3. Register coordinatorAddress and introduction information. The coordinatorAddress is recommended to be different from your staker address.
 4. Run the coordinator node with the minerAddress’s private key
