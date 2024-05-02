@@ -2,11 +2,11 @@ package worker
 
 import (
 	"crypto/ecdsa"
-	"fmt"
-	"github.com/ethereum/go-ethereum/common"
 	"os"
+	"strings"
 	"time"
 
+	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 )
 
@@ -34,7 +34,9 @@ func SignCurrentDate(createdAt time.Time) SignedDate {
 
 	address := crypto.PubkeyToAddress(*publicKeyECDSA).Hex()
 
-	data := []byte(createdAt.Format(time.RFC3339))
+	// Include the createdAt in the data to be signed
+	dateString := createdAt.Format(time.RFC3339)
+	data := []byte(dateString)
 	hash := crypto.Keccak256Hash(data)
 
 	signature, err := crypto.Sign(hash.Bytes(), privateKey)
@@ -42,22 +44,42 @@ func SignCurrentDate(createdAt time.Time) SignedDate {
 		return SignedDate{}
 	}
 
+	// Encode the timestamp and signature together, separated by a period
+	sigWithDate := dateString + "." + hexutil.Encode(signature)
+
 	return SignedDate{
 		Address: address,
-		Sig:     fmt.Sprintf("%x", signature),
+		Sig:     sigWithDate,
 	}
 }
 
-func IsValidSig(createdAt time.Time, sig string, address string) bool {
-	if time.Since(createdAt) > time.Hour {
+func IsValidSig(sig string, address string) bool {
+	// Split the combined sig into its components
+	parts := strings.Split(sig, ".")
+	if len(parts) != 2 {
+		return false // Incorrect format
+	}
+
+	dateString := parts[0]
+	signatureHex := parts[1]
+
+	parsedDate, err := time.Parse(time.RFC3339, dateString)
+	if err != nil {
 		return false
 	}
 
-	data := []byte(createdAt.Format(time.RFC3339))
+	// Check if the parsedDate matches createdAt and is within the valid time range
+	if time.Since(parsedDate) > time.Hour {
+		return false
+	}
+
+	signatureBytes, err := hexutil.Decode(signatureHex)
+	if err != nil {
+		return false
+	}
+
+	data := []byte(dateString)
 	hash := crypto.Keccak256Hash(data)
-
-	signatureBytes := common.FromHex(sig)
-
 	pubKey, err := crypto.SigToPub(hash.Bytes(), signatureBytes)
 	if err != nil {
 		return false

@@ -13,7 +13,7 @@ import (
 
 func ListPendingTasks(ts *store.InMemoryTaskStore, gps *store.GPUProviderStore, stk *staking.Staking) jrpc2.Handler {
 	return handler.New(func(ctx context.Context, req []plugins.GPUProvider) ([]*store.TaskOffer, error) {
-		if !worker.IsValidSig(req[0].CreatedAt, req[0].Sig, req[0].WalletAddress) {
+		if !worker.IsValidSig(req[0].Sig, req[0].WalletAddress) {
 			return nil, errors.New("unauthorized wallet")
 		}
 
