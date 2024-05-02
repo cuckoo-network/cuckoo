@@ -64,7 +64,7 @@ const StepComponent = () => {
       await requestTokens({
         variables: { address: ethereumAddress }
       });
-    } catch (error) {
+    } catch (error: any) {
       console.error(`Failed to claim tokens: ${error.message}`);
     }
   }
