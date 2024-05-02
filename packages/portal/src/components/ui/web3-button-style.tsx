@@ -6,8 +6,6 @@ export const web3BtnOutlineStyle = {
 };
 
 export const web3BtnPrimaryStyle = {
-  backgroundColor: "white",
-  color: "black",
   height: "36px",
   lineHeight: "20px",
 };
