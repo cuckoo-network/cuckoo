@@ -446,6 +446,10 @@
             "type": "string",
             "description": "Primary key identifying the GPU provider"
           },
+          "sig": {
+            "type": "string",
+            "description": "signature of the createdAt field"
+          },
           "platform": {
             "type": "string"
           },

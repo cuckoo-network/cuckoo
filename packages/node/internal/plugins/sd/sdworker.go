@@ -131,13 +131,7 @@ func (w *Worker) checkAndUpdateGPUProvider(ctx context.Context) *plugins.GPUProv
 			createdAt = w.gpuProvider.CreatedAt
 		}
 
-		addr := os.Getenv("WALLET_ADDRESS")
-		if addr == "" {
-			// TODO: pad for now
-			addr = "0x4847b796EF3122108306bA1e5d78D1d275d7A6A1"
-		}
 		w.gpuProvider = &plugins.GPUProvider{
-			WalletAddress:   addr,
 			Platform:        resp.Platform,
 			Python:          resp.Python,
 			Version:         resp.Version,

@@ -58,7 +58,10 @@ type GPUProvider struct {
 	Os              *string  `json:"os,omitempty"`
 	Platform        *string  `json:"platform,omitempty"`
 	Python          *string  `json:"python,omitempty"`
-	Version         *string  `json:"version,omitempty"`
+
+	// Sig signature of the createdAt field
+	Sig     *string `json:"sig,omitempty"`
+	Version *string `json:"version,omitempty"`
 
 	// WalletAddress Primary key identifying the GPU provider
 	WalletAddress string `json:"walletAddress"`

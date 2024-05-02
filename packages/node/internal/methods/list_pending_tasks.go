@@ -5,29 +5,18 @@ import (
 	"github.com/creachadair/jrpc2"
 	"github.com/creachadair/jrpc2/handler"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/plugins"
-	"github.com/cuckoo-network/cuckoo/packages/node/internal/plugins/sd/sdcli"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/staking"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/store"
-	"time"
+	"github.com/cuckoo-network/cuckoo/packages/node/internal/worker"
+	"github.com/stellar/go/support/errors"
 )
-
-type GPUProvider struct {
-	WalletAddress   string                `json:"walletAddress"` // primary key
-	Platform        string                `json:"platform"`
-	Python          string                `json:"python"`
-	Version         string                `json:"version"`
-	Commit          string                `json:"commit"`
-	Checksum        string                `json:"checksum"`
-	OS              string                `json:"os"`
-	NvidiaGPUModles sdcli.NvidiaGPUModels `json:"nvidia_gpu_models"`
-	CPU             sdcli.CPUInfo         `json:"CPU"`
-	RAM             sdcli.RAMInfo         `json:"RAM"`
-	CreatedAt       time.Time             `json:"createdAt"`
-	UpdatedAt       time.Time             `json:"updatedAt"`
-}
 
 func ListPendingTasks(ts *store.InMemoryTaskStore, gps *store.GPUProviderStore, stk *staking.Staking) jrpc2.Handler {
 	return handler.New(func(ctx context.Context, req []plugins.GPUProvider) ([]*store.TaskOffer, error) {
+		if !worker.IsValidSig(req[0].CreatedAt, req[0].Sig, req[0].WalletAddress) {
+			return nil, errors.New("unauthorized wallet")
+		}
+
 		gps.Upsert(&req[0])
 
 		allProviders := gps.ListAllProviders()

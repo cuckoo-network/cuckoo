@@ -44,6 +44,7 @@ func CoinSymbolFromString(s string) CoinSymbol {
 
 type GPUProvider struct {
 	WalletAddress   string                `json:"walletAddress"` // primary key
+	Sig             string                `json:"sig"`
 	Platform        string                `json:"platform"`
 	Python          string                `json:"python"`
 	Version         string                `json:"version"`
