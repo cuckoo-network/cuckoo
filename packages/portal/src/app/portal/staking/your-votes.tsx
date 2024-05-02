@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import { useAddress, useContract } from "@thirdweb-dev/react";
 import { StakingCard } from "@/app/portal/staking/staking-card";
-import {votingContractABI, votingContractAddress} from "@/app/portal/staking/voting-contract-artifacts";
+import {
+  votingContractABI,
+  votingContractAddress,
+} from "@/app/portal/staking/voting-contract-artifacts";
+import {shortenAddress} from "@/app/portal/staking/lib/shorten-address";
 
 export const YourVotes = () => {
   const { contract: voting, isLoading: isStakingLoading } = useContract(
@@ -35,17 +39,9 @@ export const YourVotes = () => {
       title={"You Voted for"}
       balance={
         loading
-          ? shortenHash("0x000000000000000000000000000000000000000000")
-          : shortenHash(vote) || "No vote found"
+          ? shortenAddress("0x000000000000000000000000000000000000000000")
+          : shortenAddress(vote) || "No vote found"
       }
     />
   );
 };
-
-function shortenHash(addr: string): string {
-  try {
-    return `${addr.slice(0, 8)}-${addr.slice(addr.length - 6, addr.length)}`;
-  } catch (err) {
-    return "";
-  }
-}

@@ -11,6 +11,7 @@ import { GPUList } from "@/app/portal/staking/gpu-list";
 import { VoteButton } from "@/app/portal/staking/vote-button";
 import { useFetchGPUProviders } from "@/app/portal/staking/hooks/use-fetch-gpu-providers";
 import { CardDescription, CardTitle } from "@/components/ui/card";
+import { shortenAddress } from "@/app/portal/staking/lib/shorten-address";
 
 interface CPUInfo {
   "count logical": number;
@@ -33,10 +34,6 @@ function parseRAMUsage(used: string, total: string): string {
   const usedGB = parseFloat(used.replace("GB", ""));
   const totalGB = parseFloat(total.replace("GB", ""));
   return ((usedGB / totalGB) * 100).toFixed(2) + "%";
-}
-
-function shortenAddress(address: string): string {
-  return `${address.slice(0, 6)}...${address.slice(-4)}`;
 }
 
 export const MinerTable: React.FC = () => {
