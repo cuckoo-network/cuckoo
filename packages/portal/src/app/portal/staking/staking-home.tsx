@@ -14,9 +14,10 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { VoteStaker } from "@/app/portal/staking/vote-staker";
+import { YourVotes } from "@/app/portal/staking/your-votes";
 import { StakingCard } from "./staking-card";
 import {web3BtnOutlineStyle, web3BtnPrimaryStyle} from "@/components/ui/web3-button-style";
+import {MinerTable} from "@/app/portal/staking/miner-table";
 
 const stakingContractAddress = "0x40977db70eCE7DC7A4538151aD3AB8cb7490226B";
 
@@ -129,8 +130,10 @@ export function StakingHome() {
             Claim rewards
           </Web3Button>
         </StakingCard>
-        <VoteStaker />
+        <YourVotes />
       </div>
+
+      <MinerTable/>
     </>
   );
 }
