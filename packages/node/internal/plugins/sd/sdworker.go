@@ -118,7 +118,7 @@ func (w *Worker) ExecuteTask(payload json.RawMessage) (json.RawMessage, error) {
 // checkAndUpdateGPUProvider checks if the gpuProviderUpdatedAt is older than 5 minutes, and calls getGPUProvider if it is.
 func (w *Worker) checkAndUpdateGPUProvider(ctx context.Context) *plugins.GPUProvider {
 	if w.gpuProvider == nil || time.Since(w.gpuProvider.UpdatedAt) > 5*time.Minute {
-		ctx, cancel := context.WithTimeout(ctx, time.Second*5)
+		ctx, cancel := context.WithTimeout(ctx, time.Second*15)
 		defer cancel()
 		resp, err := w.sdCli.SysInfo(ctx)
 		if err != nil {
