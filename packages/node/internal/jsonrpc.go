@@ -21,7 +21,8 @@ import (
 )
 
 type HandlerParams struct {
-	Logger *log.Entry
+	Logger    *log.Entry
+	TaskStore *store.InMemoryTaskStore
 }
 
 // maxHTTPRequestSize defines the largest request size that the http handler
@@ -88,8 +89,8 @@ func logResponse(logger *log.Entry, reqID string, duration time.Duration, status
 
 // NewJSONRPCHandler constructs a Handler instance
 func NewJSONRPCHandler(params HandlerParams) Handler {
+	taskStore := params.TaskStore
 	// TODO(lark): should cleanup
-	taskStore := store.NewInMemoryTaskStore()
 	gps := store.NewGPUProviderStore()
 	stk, err := staking.NewStaking(params.Logger)
 	if err != nil {

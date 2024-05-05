@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal"
+	"github.com/cuckoo-network/cuckoo/packages/node/internal/methods"
+	"github.com/cuckoo-network/cuckoo/packages/node/internal/store"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/worker"
 	"github.com/go-errors/errors"
 	"github.com/joho/godotenv"
@@ -48,10 +50,13 @@ func main() {
 		"commit":  "config.CommitHash",
 		"addr":    Addr,
 	}).Info("starting JSON RPC server")
+	taskStore := store.NewInMemoryTaskStore()
 	jsonRPCHandler := internal.NewJSONRPCHandler(internal.HandlerParams{
-		Logger: logger,
+		Logger:    logger,
+		TaskStore: taskStore,
 	})
 	httpHandler := supporthttp.NewAPIMux(logger)
+	httpHandler.Handle("/offer_task/sd", methods.OfferTaskHandler(taskStore))
 	httpHandler.Handle("/", jsonRPCHandler)
 	server := &http.Server{
 		Addr:        Addr,

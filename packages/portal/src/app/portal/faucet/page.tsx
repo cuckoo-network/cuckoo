@@ -1,7 +1,6 @@
 import { DashLayout } from "@/components/ui/dash-layout";
 import StepsForm from "@/app/portal/faucet/steps-form";
 import { CardDescription, CardTitle } from "@/components/ui/card";
-import { SeoHead } from "@/components/seo-head";
 import {Metadata} from "next";
 
 const cfg = {
@@ -20,7 +19,6 @@ export const metadata: Metadata = {
 export default function FaucetPage() {
   return (
     <DashLayout>
-      <SeoHead />
       <div className="flex flex-col">
         <CardTitle className="text-lg font-semibold md:text-2xl">
           Faucet
