@@ -4,15 +4,9 @@ import Link from "next/link";
 import {
   Bell,
   Bird,
-  CircleUser,
   Droplet,
   Home,
-  LineChart,
   Menu,
-  Package,
-  Package2,
-  ShoppingCart,
-  Users,
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -28,6 +22,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { usePathname } from "next/navigation";
 import { ConnectWallet } from "@thirdweb-dev/react";
 import { web3BtnPrimaryStyle } from "@/components/ui/web3-button-style";
+import {GoogleAnalytics} from "@next/third-parties/google";
 
 const navigationItems = [
   { href: "/portal/staking", label: "Staking", icon: Home },
@@ -39,6 +34,7 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="grid min-h-screen w-full md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr]">
+      <GoogleAnalytics gaId="G-8W6N8HXQ4R" />
       <div className="hidden border-r bg-muted/40 md:block">
         <div className="flex h-full max-h-screen flex-col gap-2">
           <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
