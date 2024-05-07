@@ -23,3 +23,5 @@
 </p>
 
 Cuckoo is a Decentralized AI Platform, starting with GPU-sharing for text-to-image generation and LLM inference.
+
+Generate image now in Telegram https://cuckoo.network/tg or Discord https://cuckoo.network/dc
