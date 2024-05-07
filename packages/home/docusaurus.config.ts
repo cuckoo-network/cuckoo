@@ -5,7 +5,7 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 const config: Config = {
   title: "Cuckoo Network",
-  tagline: "Decentralized AI Model Serving Marketplace",
+  tagline: "Cuckoo AI Decentralized Model Serving Marketplace",
   customFields: {
     description:
       "Share your GPU or CPU with Gen AI App builders to generate image and perform LLM inference",
@@ -125,6 +125,22 @@ const config: Config = {
             {
               label: "Discord",
               href: "https://cuckoo.network/dc",
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              label: "Github",
+              href: "https://github.com/cuckoo-network/cuckoo",
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              label: "Forum",
+              href: "https://github.com/orgs/cuckoo-network/discussions",
             },
           ],
         },
