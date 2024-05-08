@@ -232,6 +232,10 @@ func (store *InMemoryTaskStore) GetAllPendingTasks() []*TaskOffer {
 }
 
 func (store *InMemoryTaskStore) GetPendingTasksByWeights(weights []WalletWeight, walletAddress string) []*TaskOffer {
+	// sort weights
+	sort.Sort(ByWeightDesc(weights))
+
+	// get offers from store
 	offers := store.GetAllPendingTasks()
 	total := totalWeight(weights)
 	// TODO: what if no weight at all? just return all tasks for now
@@ -239,14 +243,14 @@ func (store *InMemoryTaskStore) GetPendingTasksByWeights(weights []WalletWeight,
 		return offers
 	}
 
-	accumulatedWeight, walletWeight := findWeight(walletAddress, weights)
-
 	// Sort offers deterministically based on hash of (walletAddress + offer ID)
 	sort.SliceStable(offers, func(i, j int) bool {
 		hashI := sha256.Sum256([]byte(offers[i].Id))
 		hashJ := sha256.Sum256([]byte(offers[j].Id))
 		return binary.BigEndian.Uint64(hashI[:]) < binary.BigEndian.Uint64(hashJ[:])
 	})
+
+	accumulatedWeight, walletWeight := findWeight(walletAddress, weights)
 
 	// Calculate the number of tasks to assign based on the total number of offers
 	numTasks := new(big.Int).Mul(big.NewInt(int64(len(offers))), walletWeight)

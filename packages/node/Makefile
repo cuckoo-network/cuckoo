@@ -4,7 +4,12 @@ dev:
 
 .PHONY: test
 test:
+ifdef f
+	go test -v -run $(f) ./...
+else
 	go test -v ./...
+endif
+
 
 .PHONY: codegen
 codegen:
