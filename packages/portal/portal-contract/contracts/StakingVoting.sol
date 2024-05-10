@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "@thirdweb-dev/contracts/extension/ContractMetadata.sol";
 import "@thirdweb-dev/contracts/extension/Ownable.sol";
 
-contract VotingContract is ContractMetadata, Ownable {
+contract StakingVoting is ContractMetadata, Ownable {
   // Mapping from voter to the staker they voted for
   mapping(address => address) public votes;
   // Mapping from staker to a list of voters who voted for them

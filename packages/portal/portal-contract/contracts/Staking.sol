@@ -43,7 +43,7 @@ import { CurrencyTransferLib } from "@thirdweb-dev/contracts/lib/CurrencyTransfe
 //        Additional functionality such as deposit functions, reward-minting, etc.
 //        must be implemented by the deployer of this contract, as needed for their use-case.
 
-contract Staking20Base is ContractMetadata, Multicall, Ownable, Staking20 {
+contract Staking is ContractMetadata, Multicall, Ownable, Staking20 {
   /// @dev ERC20 Reward Token address. See {_mintRewards} below.
   address public rewardToken;
 

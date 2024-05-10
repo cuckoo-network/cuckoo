@@ -119,36 +119,7 @@ export function Ecosystem() {
             {/* Boxes */}
             <div
               className="max-w-sm mx-auto sm:max-w-none grid gap-12 sm:grid-cols-1 md:grid-cols-4 sm:gap-x-6 sm:gap-y-8 items-start">
-              {/* 5th Box */}
-              <a
-                className={`block relative before:content-[''] before:bg-gray-800 before:absolute before:-z-10 before:inset-0 p-6 group ${!["1"].includes(category) && "hidden"}`}
-                target={"_blank"}
-                href="https://www.magicwand.so"
-              >
-                <div
-                  className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
-                  <svg
-                    className="fill-blue-500 group-hover:fill-gray-200 transition duration-150 ease-in-out"
-                    width="23"
-                    height="23"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M4.924 19h6.927l5.128 1.386 3.399-12.548L16 6.654V4.582l5.859 1.586a1 1 0 0 1 .704 1.226l-3.913 14.48a1 1 0 0 1-1.226.705l-12.55-3.393.05-.186Z"
-                      fillRule="nonzero"
-                      fillOpacity=".64"
-                    />
-                    <rect width="14" height="17" rx="1"/>
-                  </svg>
-                </div>
-                <div className="font-uncut-sans text-xl text-gray-100 font-semibold">
-                  Magic Wand
-                </div>
-                <p className="text-gray-100">
-                  Create quality visual assets for your projects with quality
-                  and speed.
-                </p>
-              </a>
+
               {/* 1st Box */}
               <a
                 className={`block relative before:content-[''] before:bg-gray-800 before:absolute before:-z-10 before:inset-0 p-6 group ${!["1"].includes(category) && "hidden"}`}
@@ -255,6 +226,35 @@ export function Ecosystem() {
                 </div>
                 <p className="text-gray-100">
                   RPC node, API marketplace, and staking infrastructure.
+                </p>
+              </a>
+              {/* 5th Box */}
+              <a
+                className={`block relative before:content-[''] before:bg-gray-800 before:absolute before:-z-10 before:inset-0 p-6 group ${!["1"].includes(category) && "hidden"}`}
+                target={"_blank"}
+                href="https://www.magicwand.so"
+              >
+                <div
+                  className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
+                  <svg
+                    className="fill-blue-500 group-hover:fill-gray-200 transition duration-150 ease-in-out"
+                    width="23"
+                    height="23"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.924 19h6.927l5.128 1.386 3.399-12.548L16 6.654V4.582l5.859 1.586a1 1 0 0 1 .704 1.226l-3.913 14.48a1 1 0 0 1-1.226.705l-12.55-3.393.05-.186Z"
+                      fillRule="nonzero"
+                      fillOpacity=".64"
+                    />
+                    <rect width="14" height="17" rx="1"/>
+                  </svg>
+                </div>
+                <div className="font-uncut-sans text-xl text-gray-100 font-semibold">
+                  Magic Wand
+                </div>
+                <p className="text-gray-100">
+                  [Ecosystem][Work in progress] Create quality visual assets.
                 </p>
               </a>
               {/* 6th Box */}
