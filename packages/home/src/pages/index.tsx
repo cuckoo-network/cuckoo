@@ -4,6 +4,7 @@ import { Hero } from "@site/src/components/hero";
 import React from "react";
 import { Features } from "@site/src/components/features";
 import { Ecosystem } from "@site/src/components/ecosystem";
+import { News } from "../components/news";
 // import Clients from "@site/src/components/clients";
 
 export default function Home(): JSX.Element {
@@ -18,6 +19,7 @@ export default function Home(): JSX.Element {
       <main>
         <Ecosystem />
         <Features />
+        <News />
       </main>
     </Layout>
   );

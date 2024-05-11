@@ -2,6 +2,8 @@
 title: Decentralizing text-to-image generation with Cuckoo
 authors: [lark]
 tags: [company]
+image: https://cuckoo-network.b-cdn.net/decentralizing-text-to-image-gen.webp
+description: Artificial Intelligence (AI) systems hold unprecedented potential to reshape industries, yet their development has been stifled by issues inherent to centralized frameworks. These range from significant privacy concerns to limitations in computational accuracy and a vulnerability to censorship.
 ---
 
 **Breaking New Ground in AI with Cuckoo**
@@ -25,7 +27,6 @@ Artificial Intelligence (AI) systems hold unprecedented potential to reshape ind
   />
 </div>
 
-
 ### Why are we building the Cuckoo Platform?
 
 Cuckoo represents an innovative leap forward, establishing a decentralized AI infrastructure that fosters a community-driven governance model. This approach addresses the critical aspects of safety, funding, strategic alignment, and the sustainable evolution of AI models, paving the way for a new era of decentralized intelligence.
@@ -48,11 +49,7 @@ Cuckoo introduces rigorous validation protocols that enhance the authenticity an
 
 Leveraging blockchain technology, the Cuckoo AI ecosystem distributes AI tasks across a network of Miners while Coordinators oversee the quality and relevance of the outputs. The ecosystem operates on Cuckoo Pay, a blockchain-based payment system that facilitates smooth transactions within the platform.
 
-
-
 <img src="/img/cuckoo-ai-architecture.webp" className="rounded border-2" alt="Cuckoo Decentralized Multimodal AI Platform"/>
-
-
 
 #### Key Components of the Cuckoo Ecosystem
 
@@ -94,7 +91,6 @@ style={{ border: "1px solid #EEE", background: "white" }}
 frameBorder={0}
 scrolling="no"
 />
-
 
 ### Conclusion
 
