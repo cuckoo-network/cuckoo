@@ -11,7 +11,9 @@ export function Ecosystem() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-8 md:pb-12">
-            <h3 className="h3 font-uncut-sans">Getting Started</h3>
+            <h3 className="h3 font-uncut-sans">
+              Experience Decentralized AI Now
+            </h3>
           </div>
           {/* Content */}
           <div>
@@ -117,17 +119,14 @@ export function Ecosystem() {
               </div>
             </div>
             {/* Boxes */}
-            <div
-              className="max-w-sm mx-auto sm:max-w-none grid gap-12 sm:grid-cols-1 md:grid-cols-4 sm:gap-x-6 sm:gap-y-8 items-start">
-
+            <div className="max-w-sm mx-auto sm:max-w-none grid gap-12 sm:grid-cols-1 md:grid-cols-4 sm:gap-x-6 sm:gap-y-8 items-start">
               {/* 1st Box */}
               <a
                 className={`block relative before:content-[''] before:bg-gray-800 before:absolute before:-z-10 before:inset-0 p-6 group ${!["1"].includes(category) && "hidden"}`}
                 target={"_blank"}
                 href="https://cuckoo.network/tg"
               >
-                <div
-                  className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
+                <div className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                   <svg
                     className="fill-blue-500 group-hover:fill-gray-200 transition duration-150 ease-in-out"
                     width="26"
@@ -154,8 +153,7 @@ export function Ecosystem() {
                 target={"_blank"}
                 href="#0"
               >
-                <div
-                  className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
+                <div className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                   <svg
                     className="fill-blue-500 group-hover:fill-gray-200 transition duration-150 ease-in-out"
                     width="24"
@@ -181,8 +179,7 @@ export function Ecosystem() {
                 target={"_blank"}
                 href="#0"
               >
-                <div
-                  className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
+                <div className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                   <svg
                     className="fill-blue-500 group-hover:fill-gray-200 transition duration-150 ease-in-out"
                     width="22"
@@ -205,8 +202,7 @@ export function Ecosystem() {
                 target={"_blank"}
                 href="https://blockeden.xyz/api-marketplace/cuckoo-ai"
               >
-                <div
-                  className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
+                <div className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                   <svg
                     className="fill-blue-500 group-hover:fill-gray-200 transition duration-150 ease-in-out"
                     width="23"
@@ -218,7 +214,7 @@ export function Ecosystem() {
                       fillRule="nonzero"
                       fillOpacity=".64"
                     />
-                    <rect width="14" height="17" rx="1"/>
+                    <rect width="14" height="17" rx="1" />
                   </svg>
                 </div>
                 <div className="font-uncut-sans text-xl text-gray-100 font-semibold mb-1">
@@ -234,8 +230,7 @@ export function Ecosystem() {
                 target={"_blank"}
                 href="https://www.magicwand.so"
               >
-                <div
-                  className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
+                <div className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                   <svg
                     className="fill-blue-500 group-hover:fill-gray-200 transition duration-150 ease-in-out"
                     width="23"
@@ -247,7 +242,7 @@ export function Ecosystem() {
                       fillRule="nonzero"
                       fillOpacity=".64"
                     />
-                    <rect width="14" height="17" rx="1"/>
+                    <rect width="14" height="17" rx="1" />
                   </svg>
                 </div>
                 <div className="font-uncut-sans text-xl text-gray-100 font-semibold">
@@ -263,8 +258,7 @@ export function Ecosystem() {
                 target={"_blank"}
                 href="https://karmapi.ai/"
               >
-                <div
-                  className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
+                <div className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                   <svg
                     className="fill-blue-500 group-hover:fill-gray-200 transition duration-150 ease-in-out"
                     width="22"
@@ -281,8 +275,7 @@ export function Ecosystem() {
                   Karma Protocol
                 </div>
                 <p className="text-gray-100">
-                  A revolutionary prediction market, driven by
-                  Community.
+                  A revolutionary prediction market, driven by Community.
                 </p>
               </a>
               {/* 4th Box */}
@@ -291,8 +284,7 @@ export function Ecosystem() {
                 target={"_blank"}
                 href="https://github.com/cuckoo-network/cuckoo"
               >
-                <div
-                  className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
+                <div className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                   <svg
                     className="fill-blue-500 group-hover:fill-gray-200 transition duration-150 ease-in-out"
                     width="24"
@@ -317,8 +309,7 @@ export function Ecosystem() {
                 target={"_blank"}
                 href="https://github.com/cuckoo-network/cuckoo/tree/main/packages/node"
               >
-                <div
-                  className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
+                <div className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                   <svg
                     className="fill-blue-500 group-hover:fill-gray-200 transition duration-150 ease-in-out"
                     width="24"
@@ -335,8 +326,7 @@ export function Ecosystem() {
                   Cuckoo Node
                 </div>
                 <p className="text-gray-100">
-                  Node for mining tokens, distributed with Docker
-                  images.
+                  Node for mining tokens, distributed with Docker images.
                 </p>
               </a>
 
@@ -346,8 +336,7 @@ export function Ecosystem() {
                 target={"_blank"}
                 href="https://cuckoo.network/staking"
               >
-                <div
-                  className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
+                <div className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                   <svg
                     className="fill-blue-500 group-hover:fill-gray-200 transition duration-150 ease-in-out"
                     width="23"
@@ -359,15 +348,14 @@ export function Ecosystem() {
                       fillRule="nonzero"
                       fillOpacity=".64"
                     />
-                    <rect width="14" height="17" rx="1"/>
+                    <rect width="14" height="17" rx="1" />
                   </svg>
                 </div>
                 <div className="font-uncut-sans text-xl text-gray-100 font-semibold">
                   Staking Portal
                 </div>
                 <p className="text-gray-100">
-                  Stake your token to vote for Node operators you
-                  trust
+                  Stake your token to vote for Node operators you trust
                 </p>
               </a>
             </div>

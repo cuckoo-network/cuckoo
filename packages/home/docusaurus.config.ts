@@ -86,21 +86,19 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/cuckoo-social-card.webp",
     navbar: {
-      title: "Cuckoo",
+      title: "",
       logo: {
         alt: "Cuckoo Network Logo",
-        src: "img/favicon.png",
+        src: "https://cuckoo-network.b-cdn.net/white-full-logo.svg",
       },
       items: [
         {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
-          position: "left",
           label: "Docs",
+          position: "right",
         },
-        { to: "/about-us", label: "About", position: "left" },
-        { to: "/blog", label: "Blog", position: "left" },
-        { to: "https://github.com/cuckoo-network/cuckoo", label: "Github", position: "left" },
+        { to: "/blog", label: "Blog", position: "right" },
         {
           href: "https://scan.cuckoo.network/",
           label: "Testnet Pre Alpha",
@@ -131,8 +129,24 @@ const config: Config = {
           title: "Navigate",
           items: [
             {
+              label: "Staking",
+              to: "https://cuckoo.network/portal/staking",
+            },
+            {
+              label: "Faucet",
+              to: "https://cuckoo.network/portal/faucet",
+            },
+            {
               label: "About Us",
               to: "/about-us",
+            },
+            {
+              label: "Testnet Pre Alpha",
+              to: "https://scan.cuckoo.network/",
+            },
+            {
+              label: "Testnet Sepolia",
+              to: "https://testnet-scan.cuckoo.network/",
             },
           ],
         },
@@ -192,13 +206,11 @@ const config: Config = {
               label: "Terms of Service",
               href: "/terms-of-service",
             },
-
           ],
         },
         {
           title: "Ecosystem Showcase",
           items: [
-
             {
               label: "BlockEden.xyz",
               href: "https://blockeden.xyz/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
