@@ -86,7 +86,7 @@ export default function Clients() {
                     style={{
                       width: "120px",
                       height: "36px",
-                      filter: "grayscale(1)",
+                      filter: "grayscale(100%) brightness(200%) contrast(100%)",
                     }}
                   />
                 </div>
