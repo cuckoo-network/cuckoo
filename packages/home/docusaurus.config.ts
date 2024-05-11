@@ -119,57 +119,108 @@ const config: Config = {
       ],
     },
     footer: {
+      logo: {
+        href: "/",
+        src: "/img/favicon.png",
+        srcDark: "/img/favicon.png",
+        alt: "BlockEden.xyz",
+        height: "36px",
+      },
       links: [
         {
+          title: "Navigate",
+          items: [
+            {
+              label: "About Us",
+              to: "/about-us",
+            },
+          ],
+        },
+        {
+          title: "Contact",
           items: [
             {
               label: "Discord",
               href: "https://cuckoo.network/dc",
             },
-          ],
-        },
-        {
-          items: [
             {
               label: "Github",
               href: "https://github.com/cuckoo-network/cuckoo",
             },
-          ],
-        },
-        {
-          items: [
             {
               label: "Forum",
               href: "https://github.com/orgs/cuckoo-network/discussions",
             },
-          ],
-        },
-        {
-          items: [
             {
               label: "Telegram",
               href: "https://cuckoo.network/tg",
             },
-          ],
-        },
-        {
-          items: [
             {
               label: "X",
               href: "https://cuckoo.network/x",
             },
+            {
+              label: "Email: hello@cuckoo.network",
+              to: "mailto:hello@cuckoo.network",
+            },
           ],
         },
         {
+          title: "Resources",
           items: [
             {
-              html: "<p>hello@cuckoo.network</p>",
+              label: "Brand Assets",
+              href: "/brand-assets",
+            },
+            {
+              label: "GitHub",
+              href: "https://github.com/cuckoo-network/cuckoo",
+            },
+            {
+              label: "Documentation",
+              to: "/docs/cuckoo-network",
+            },
+            {
+              label: "Blog",
+              to: "/blog",
+            },
+            {
+              label: "Privacy Policy",
+              href: "/privacy-policy",
+            },
+            {
+              label: "Terms of Service",
+              href: "/terms-of-service",
+            },
+
+          ],
+        },
+        {
+          title: "Ecosystem Showcase",
+          items: [
+
+            {
+              label: "BlockEden.xyz",
+              href: "https://blockeden.xyz/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
+            },
+            {
+              label: "Karma Protocol",
+              href: "https://karmapi.ai/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
+            },
+            {
+              label: "Magic Wand",
+              href: "https://magicwand.so/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
+            },
+            {
+              label: "Beancount",
+              href: "https://beancount.io/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Cuckoo Network. All Rights Reserved.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Cuckoo`,
     },
+
     prism: {
       // theme: prismThemes.dracula,
       darkTheme: prismThemes.dracula,
