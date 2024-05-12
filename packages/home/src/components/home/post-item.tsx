@@ -14,8 +14,8 @@ export default function PostItem({ ...props }) {
             <img
               className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
               src={props.metadata.frontMatter.image}
-              width={396}
-              height={198}
+              width={151}
+              height={176}
               alt={props.title}
             />
           </figure>

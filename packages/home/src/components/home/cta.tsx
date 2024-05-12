@@ -1,4 +1,4 @@
-import Illustration from "./svg/cta-illustration.svg";
+import Illustration from "../svg/cta-illustration.svg";
 
 export function Cta() {
   return (

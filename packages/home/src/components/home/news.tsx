@@ -2,7 +2,7 @@ import PostItem from "./post-item";
 
 const {
   blogPosts,
-} = require("../../.docusaurus/docusaurus-plugin-content-blog/default/blog-archive-80c.json");
+} = require("../../../.docusaurus/docusaurus-plugin-content-blog/default/blog-archive-80c.json");
 
 export function News() {
   const posts = blogPosts.slice(0, 3);

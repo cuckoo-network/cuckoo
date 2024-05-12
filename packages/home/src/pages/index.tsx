@@ -1,14 +1,13 @@
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import { Hero } from "@site/src/components/hero";
+import { Hero } from "@site/src/components/home/hero";
 import React from "react";
-import { Features } from "@site/src/components/features";
-import { Ecosystem } from "@site/src/components/ecosystem";
-import { News } from "../components/news";
-import Clients from "@site/src/components/clients";
-import { Cta } from "../components/cta";
-import Target from "@site/src/components/target";
-import { Process } from "@site/src/components/process";
+import { Ecosystem } from "@site/src/components/home/ecosystem";
+import { News } from "../components/home/news";
+import Clients from "@site/src/components/home/clients";
+import { Cta } from "../components/home/cta";
+import Target from "@site/src/components/home/target";
+import { Process } from "@site/src/components/home/process";
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();

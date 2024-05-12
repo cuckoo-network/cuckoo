@@ -24,8 +24,9 @@ export default function Target() {
                 <img
                   className="mx-auto md:max-w-none"
                   src={"/img/features-02-image.png"}
-                  width={540}
-                  height={520}
+                  style={{
+                    width: "100%"
+                  }}
                   alt="Features 02"
                 />
               </div>

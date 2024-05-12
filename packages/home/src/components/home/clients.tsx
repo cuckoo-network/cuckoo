@@ -2,15 +2,15 @@
 
 import { useEffect } from "react";
 
-import Client01 from "./svg/client-01.svg";
-import Client02 from "./svg/client-02.svg";
-import Client03 from "./svg/client-03.svg";
-import Client04 from "./svg/client-04.svg";
-import Client05 from "./svg/client-05.svg";
-import Client06 from "./svg/client-06.svg";
-import Client07 from "./svg/client-07.svg";
-import Client08 from "./svg/client-08.svg";
-import Client09 from "./svg/client-09.svg";
+import Client01 from "../svg/client-01.svg";
+import Client02 from "../svg/client-02.svg";
+import Client03 from "../svg/client-03.svg";
+import Client04 from "../svg/client-04.svg";
+import Client05 from "../svg/client-05.svg";
+import Client06 from "../svg/client-06.svg";
+import Client07 from "../svg/client-07.svg";
+import Client08 from "../svg/client-08.svg";
+import Client09 from "../svg/client-09.svg";
 import { useAos } from "@site/src/hooks/use-aos";
 
 // Import Swiper
