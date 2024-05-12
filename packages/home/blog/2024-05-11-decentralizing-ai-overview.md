@@ -7,6 +7,8 @@ image: https://cuckoo-network.b-cdn.net/decentralizing-ai-an-overview.png
 
 The combination of blockchain and AI is gaining significant market attention. With ChatGPT amassing hundreds of millions of users quickly and Nvidia’s stock soaring eightfold in 2023, AI has firmly established itself as a dominant trend. This influence is spilling into adjacent sectors like blockchain, where AI applications are being explored.
 
+![Decentralizing AI: An Overview](https://cuckoo-network.b-cdn.net/decentralizing-ai-an-overview.png "Decentralizing AI: An Overview")
+
 Currently, crypto plays a complementary role in AI, offering significant potential for growth. Most organizations are still in the exploratory phase, focusing on the tokenization of computing power (cloud and marketplace), models (AI agents), and data storage.
 
 **Decentralized crypto technology doesn’t directly boost efficiency or reduce costs in AI training but facilitates asset trading, attracting previously unused computing power**. This is profitable in today’s compute-scarce environment. Tokenizing models enables decentralized community ownership or usage, reducing barriers and offering an alternative to centralized AI. However, decentralized data remains challenging to tokenize, requiring further exploration.
