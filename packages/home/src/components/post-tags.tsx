@@ -7,13 +7,13 @@ export default function PostTags({
 }) {
   const tagColor = (tag: string) => {
     switch (tag) {
-      case "Engineering":
+      case "engineering":
         return "text-gray-100 bg-blue-500 hover:bg-blue-600";
-      case "Design":
+      case "research":
         return "text-gray-100 bg-pink-500 hover:bg-pink-600";
-      case "Tutorials and articles":
+      case "tutorial":
         return "text-gray-100 bg-teal-500 hover:bg-teal-600";
-      case "Culture":
+      case "culture":
         return "text-gray-100 bg-green-500 hover:bg-green-600";
       default:
         return "text-gray-100 bg-purple-600 hover:bg-purple-700";

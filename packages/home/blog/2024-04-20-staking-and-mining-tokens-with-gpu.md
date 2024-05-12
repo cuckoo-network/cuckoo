@@ -2,7 +2,6 @@
 title: Staking and mining tokens with GPU
 authors: [lark]
 tags: [company]
-published: false
 image: https://cuckoo-network.b-cdn.net/staking-and-mining-tokens.webp
 ---
 
