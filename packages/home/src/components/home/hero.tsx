@@ -33,10 +33,18 @@ export function Hero() {
             <div data-aos="zoom-out">
               <div className="relative text-sm text-gray-300 bg-gray-800 rounded-full inline-block px-4 py-1 mb-6 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                 <div className="text-gray-400">
-                  Staking and mining tokens with GPU {' '}
-                  <Link className={clsx("font-medium text-blue-500 inline-flex items-center transition duration-150 ease-in-out group", styles.heroA)} href="/blog/2024/04/20/staking-and-mining-tokens-with-gpu">
-                    Learn More{' '}
-                    <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">→</span>
+                  Staking and mining tokens with GPU{" "}
+                  <Link
+                    className={clsx(
+                      "font-medium text-blue-500 inline-flex items-center transition duration-150 ease-in-out group",
+                      styles.heroA,
+                    )}
+                    href="/blog/2024/04/20/staking-and-mining-tokens-with-gpu"
+                  >
+                    Learn More{" "}
+                    <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+                      →
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -61,19 +69,18 @@ export function Hero() {
               data-aos-delay="300"
             >
               <div>
-                <a
+                <Link
                   className={clsx(
                     "button btn text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group",
                     styles.heroA,
                   )}
-                  href="https://t.me/CuckooNetworkOfficial"
-                  target="_blank"
+                  href="/cuckoo-bot"
                 >
                   Generate Image{" "}
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     →
                   </span>
-                </a>
+                </Link>
               </div>
               <div>
                 <Link

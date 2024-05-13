@@ -1,3 +1,5 @@
+import Link from "@docusaurus/Link";
+
 export function Process() {
   return (
     <section>
@@ -67,8 +69,9 @@ export function Process() {
                 <span className="text-gray-400">1</span>. Trust
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                GPU miners, developers, and stakers use blockchain smart
-                contracts to establish trust.
+                GPU miners, developers, and stakers{" "}
+                <a href="/portal/staking">stake and vote</a> with blockchain
+                smart contracts to establish trust.
               </p>
             </div>
 
