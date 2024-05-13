@@ -100,8 +100,8 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "right" },
         {
-          href: "https://scan.cuckoo.network/",
-          label: "Testnet Pre Alpha",
+          href: "/cuckoo-bot",
+          label: "Image Gen",
           position: "right",
         },
         {

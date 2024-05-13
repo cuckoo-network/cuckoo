@@ -23,9 +23,9 @@ export default function Target() {
               >
                 <img
                   className="mx-auto md:max-w-none"
-                  src={"/img/features-02-image.png"}
+                  src={"https://cuckoo-network.b-cdn.net/cuckoo-home-demo.webp"}
                   style={{
-                    width: "100%"
+                    width: "100%",
                   }}
                   alt="Features 02"
                 />
