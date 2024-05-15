@@ -15,24 +15,29 @@ type SignedDate struct {
 	Sig     string
 }
 
-func SignCurrentDate(createdAt time.Time) SignedDate {
-	privateKeyHex := os.Getenv("ETH_PRIVATE_KEY")
+func WalletAddress() (string, *ecdsa.PrivateKey) {
+	var privateKeyHex = os.Getenv("ETH_PRIVATE_KEY")
 	if privateKeyHex == "" {
-		return SignedDate{}
+		return "", nil
 	}
 
 	privateKey, err := crypto.HexToECDSA(privateKeyHex)
 	if err != nil {
-		return SignedDate{}
+		return "", nil
 	}
 
 	publicKey := privateKey.Public()
 	publicKeyECDSA, ok := publicKey.(*ecdsa.PublicKey)
 	if !ok {
-		return SignedDate{}
+		return "", nil
 	}
 
 	address := crypto.PubkeyToAddress(*publicKeyECDSA).Hex()
+	return address, privateKey
+}
+
+func SignCurrentDate(createdAt time.Time) SignedDate {
+	address, privateKey := WalletAddress()
 
 	// Include the createdAt in the data to be signed
 	dateString := createdAt.Format(time.RFC3339)

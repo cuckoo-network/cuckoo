@@ -44,12 +44,13 @@ func main() {
 	if port == "" {
 		port = "6387"
 	}
-	Addr := "0.0.0.0:" + port
+	addr := "0.0.0.0:" + port
+	walletAddress, _ := worker.WalletAddress()
 	logger.WithFields(supportlog.F{
 		"version": "config.Version",
 		"commit":  "config.CommitHash",
-		"addr":    Addr,
-	}).Info("starting JSON RPC server")
+		"addr":    addr,
+	}).Info("starting JSON RPC server with " + walletAddress)
 	taskStore := store.NewInMemoryTaskStore()
 	jsonRPCHandler := internal.NewJSONRPCHandler(internal.HandlerParams{
 		Logger:    logger,
@@ -59,7 +60,7 @@ func main() {
 	httpHandler.Handle("/offer_task/sd", methods.OfferTaskHandler(taskStore))
 	httpHandler.Handle("/", jsonRPCHandler)
 	server := &http.Server{
-		Addr:        Addr,
+		Addr:        addr,
 		Handler:     httpHandler,
 		ReadTimeout: 25 * time.Second,
 	}

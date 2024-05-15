@@ -2,6 +2,10 @@
 dev:
 	go run *.go
 
+.PHONY: build
+build:
+	go build -tags netgo -ldflags '-s -w' -o app
+
 .PHONY: test
 test:
 ifdef f
