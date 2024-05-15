@@ -29,15 +29,16 @@ func main() {
 		logger.WithError(err).Debug("could not run ingestion. Retrying")
 	}
 
+	wks := worker.NewService(worker.Config{
+		Logger:         logger,
+		OnRunTaskRetry: onIngestionRetry,
+	})
 	nodeType := os.Getenv("NODE_TYPE")
 	if nodeType != "COORDINATOR" {
 		if err != nil {
 			logger.WithError(err).Error("failed to new sd client")
 		}
-		worker.NewService(worker.Config{
-			Logger:         logger,
-			OnRunTaskRetry: onIngestionRetry,
-		})
+		wks.StartPolling()
 	}
 
 	port := os.Getenv("PORT")
@@ -55,6 +56,7 @@ func main() {
 	jsonRPCHandler := internal.NewJSONRPCHandler(internal.HandlerParams{
 		Logger:    logger,
 		TaskStore: taskStore,
+		Worker:    wks.Worker,
 	})
 	httpHandler := supporthttp.NewAPIMux(logger)
 	httpHandler.Handle("/offer_task/sd", methods.OfferTaskHandler(taskStore))

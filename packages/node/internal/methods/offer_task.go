@@ -9,6 +9,7 @@ import (
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/store"
 	"github.com/stellar/go/support/errors"
 	"math/big"
+	"os"
 	"time"
 )
 
@@ -66,8 +67,15 @@ func (o *OfferTaskRequest) UnmarshalJSON(data []byte) error {
 	return nil
 }
 
-func OfferTask(ts *store.InMemoryTaskStore) jrpc2.Handler {
+func OfferTask(ts *store.InMemoryTaskStore, wk plugins.IWorker) jrpc2.Handler {
 	return handler.New(func(ctx context.Context, request []OfferTaskRequest) (store.TaskResult, error) {
+		nodeType := os.Getenv("NODE_TYPE")
+		if nodeType != "COORDINATOR" {
+			// local mode
+			res, err := wk.ExecuteTask(request[0].Payload)
+			return store.TaskResult{Payload: res, Id: request[0].ID, Status: store.Completed}, err
+		}
+
 		task := &store.TaskOffer{
 			Id:                request[0].ID,
 			Status:            store.Pending,

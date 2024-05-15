@@ -8,6 +8,7 @@ import (
 	"github.com/creachadair/jrpc2/jhttp"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/methods"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/network"
+	"github.com/cuckoo-network/cuckoo/packages/node/internal/plugins"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/staking"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/store"
 	"github.com/go-chi/chi/middleware"
@@ -15,6 +16,7 @@ import (
 	"github.com/rs/cors"
 	"github.com/stellar/go/support/log"
 	"net/http"
+	"os"
 	"strconv"
 	"strings"
 	"time"
@@ -23,6 +25,15 @@ import (
 type HandlerParams struct {
 	Logger    *log.Entry
 	TaskStore *store.InMemoryTaskStore
+	Worker    plugins.IWorker
+}
+
+type HandlerCfg struct {
+	methodName           string
+	underlyingHandler    jrpc2.Handler
+	queueLimit           uint
+	longName             string
+	requestDurationLimit time.Duration
 }
 
 // maxHTTPRequestSize defines the largest request size that the http handler
@@ -102,13 +113,7 @@ func NewJSONRPCHandler(params HandlerParams) Handler {
 			Logger: func(text string) { params.Logger.Debug(text) },
 		},
 	}
-	handlers := []struct {
-		methodName           string
-		underlyingHandler    jrpc2.Handler
-		queueLimit           uint
-		longName             string
-		requestDurationLimit time.Duration
-	}{
+	sharedHandlers := []HandlerCfg{
 		{
 			methodName:           "getHealth",
 			underlyingHandler:    methods.NewHealthCheck(),
@@ -117,8 +122,39 @@ func NewJSONRPCHandler(params HandlerParams) Handler {
 			requestDurationLimit: 5 * time.Second,
 		},
 		{
+			methodName:           "listGPUProviders",
+			underlyingHandler:    methods.ListGPUProviders(gps, stk, params.Worker),
+			longName:             "list_gpu_providers",
+			queueLimit:           uint(1000),
+			requestDurationLimit: 5 * time.Second,
+		},
+		{
 			methodName:           "offerTask",
-			underlyingHandler:    methods.OfferTask(taskStore),
+			underlyingHandler:    methods.OfferTask(taskStore, params.Worker),
+			longName:             "offer_task",
+			queueLimit:           uint(1000),
+			requestDurationLimit: cfg.MaxOfferTaskExecutionDuration, // sync task may take super long time
+		},
+	}
+
+	coordinatorHandlers := []HandlerCfg{
+		{
+			methodName:           "listPendingTasks",
+			underlyingHandler:    methods.ListPendingTasks(taskStore, gps, stk),
+			longName:             "list_pending_tasks",
+			queueLimit:           uint(1000),
+			requestDurationLimit: 5 * time.Second,
+		},
+		{
+			methodName:           "submitTaskResult",
+			underlyingHandler:    methods.SubmitTaskResult(taskStore, params.Logger),
+			longName:             "submit_task_result",
+			queueLimit:           uint(1000),
+			requestDurationLimit: cfg.MaxOfferTaskExecutionDuration, // sync task may take super long time
+		},
+		{
+			methodName:           "offerTask",
+			underlyingHandler:    methods.OfferTask(taskStore, params.Worker),
 			longName:             "offer_task",
 			queueLimit:           uint(1000),
 			requestDurationLimit: cfg.MaxOfferTaskExecutionDuration, // sync task may take super long time
@@ -130,23 +166,14 @@ func NewJSONRPCHandler(params HandlerParams) Handler {
 			queueLimit:           uint(1000),
 			requestDurationLimit: cfg.MaxOfferTaskExecutionDuration, // sync task may take super long time
 		},
-		{
-			methodName:           "listPendingTasks",
-			underlyingHandler:    methods.ListPendingTasks(taskStore, gps, stk),
-			longName:             "list_pending_tasks",
-			queueLimit:           uint(1000),
-			requestDurationLimit: 5 * time.Second,
-		},
-		{
-			methodName:           "listGPUProviders",
-			underlyingHandler:    methods.ListGPUProviders(gps, stk),
-			longName:             "list_gpu_providers",
-			queueLimit:           uint(1000),
-			requestDurationLimit: 5 * time.Second,
-		},
 	}
+
+	if os.Getenv("NODE_TYPE") == "COORDINATOR" {
+		sharedHandlers = append(sharedHandlers, coordinatorHandlers...)
+	}
+
 	handlersMap := handler.Map{}
-	for _, handler := range handlers {
+	for _, handler := range sharedHandlers {
 		queueLimiterGaugeName := handler.longName + "_inflight_requests"
 		queueLimiterGaugeHelp := "Number of concurrenty in-flight " + handler.methodName + " requests"
 

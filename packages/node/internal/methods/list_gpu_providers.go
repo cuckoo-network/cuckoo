@@ -4,9 +4,11 @@ import (
 	"context"
 	"github.com/creachadair/jrpc2"
 	"github.com/creachadair/jrpc2/handler"
+	"github.com/cuckoo-network/cuckoo/packages/node/internal/plugins"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/plugins/sd/sdcli"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/staking"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/store"
+	"os"
 	"time"
 )
 
@@ -26,8 +28,29 @@ type MinerInfo struct {
 	UpdatedAt       time.Time             `json:"updatedAt"`
 }
 
-func ListGPUProviders(gps *store.GPUProviderStore, stk *staking.Staking) jrpc2.Handler {
+func ListGPUProviders(gps *store.GPUProviderStore, stk *staking.Staking, wk plugins.IWorker) jrpc2.Handler {
 	return handler.New(func(ctx context.Context) ([]*MinerInfo, error) {
+		nodeType := os.Getenv("NODE_TYPE")
+		if nodeType != "COORDINATOR" {
+			p := wk.SysInfo()
+			votes, _ := stk.TotalVotedStakesCached(p.WalletAddress)
+			return []*MinerInfo{{
+				WalletAddress:   p.WalletAddress,
+				Votes:           votes.String(),
+				Platform:        p.Platform,
+				Python:          p.Python,
+				Version:         p.Version,
+				Commit:          p.Commit,
+				Checksum:        p.Checksum,
+				OS:              p.OS,
+				NvidiaGPUModles: p.NvidiaGPUModles,
+				CPU:             p.CPU,
+				RAM:             p.RAM,
+				CreatedAt:       p.CreatedAt,
+				UpdatedAt:       p.UpdatedAt,
+			}}, nil
+		}
+
 		providers := gps.ListAllProviders()
 		miners := make([]*MinerInfo, len(providers))
 		for i, p := range providers {

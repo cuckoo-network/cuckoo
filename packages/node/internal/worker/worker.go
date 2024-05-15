@@ -26,16 +26,16 @@ type Config struct {
 }
 
 type Service struct {
-	logger     *log.Entry
-	done       context.CancelFunc
-	wg         sync.WaitGroup
-	nodeClient *nodegen.ClientWithResponses
-	sdWorker   plugins.IWorker
+	logger         *log.Entry
+	done           context.CancelFunc
+	wg             sync.WaitGroup
+	nodeClient     *nodegen.ClientWithResponses
+	Worker         plugins.IWorker
+	onRunTaskRetry backoff.Notify
 }
 
 func NewService(cfg Config) *Service {
 	service := newService(cfg)
-	startService(service, cfg)
 	return service
 }
 
@@ -51,10 +51,11 @@ func newService(cfg Config) *Service {
 
 	service := &Service{
 		logger: cfg.Logger,
-		sdWorker: sd.MustNew(sd.Config{
+		Worker: sd.MustNew(sd.Config{
 			Logger: cfg.Logger,
 		}),
-		nodeClient: cli,
+		nodeClient:     cli,
+		onRunTaskRetry: cfg.OnRunTaskRetry,
 	}
 	return service
 }
@@ -165,7 +166,7 @@ func (s *Service) run(ctx context.Context) error {
 		return errors.Wrap(err, "failed to json.Marshal(task.Payload)")
 	}
 
-	res, err := s.sdWorker.ExecuteTask(jsonBytes)
+	res, err := s.Worker.ExecuteTask(jsonBytes)
 	if err != nil {
 		return errors.Wrap(err, "failed to ExecuteTask")
 	}
@@ -208,7 +209,7 @@ func (s *Service) run(ctx context.Context) error {
 
 func (s *Service) connectToGPU() (*plugins.GPUProvider, error) {
 	s.logger.Info("connect to GPU")
-	gpu := s.sdWorker.SysInfo()
+	gpu := s.Worker.SysInfo()
 	if gpu == nil {
 		s.logger.Error("failed to get GPU info")
 		return nil, errors.New("failed to get GPU info")
@@ -216,11 +217,11 @@ func (s *Service) connectToGPU() (*plugins.GPUProvider, error) {
 	return gpu, nil
 }
 
-func startService(service *Service, cfg Config) {
+func (service *Service) StartPolling() {
 	ctx, done := context.WithCancel(context.Background())
 	service.done = done
 	service.wg.Add(1)
-	panicGroup := util.UnrecoverablePanicGroup.Log(cfg.Logger)
+	panicGroup := util.UnrecoverablePanicGroup.Log(service.logger)
 	panicGroup.Go(func() {
 		defer service.wg.Done()
 		// Retry running ingestion every second for 5 seconds.
@@ -237,7 +238,7 @@ func startService(service *Service, cfg Config) {
 				return err
 			},
 			contextBackoff,
-			cfg.OnRunTaskRetry)
+			service.onRunTaskRetry)
 		if err != nil && !e.Is(err, context.Canceled) {
 			service.logger.WithError(err).Fatal("could not run ingestion")
 		}
