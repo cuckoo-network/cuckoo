@@ -8,7 +8,7 @@ const config: Config = {
   tagline: "Cuckoo AI Decentralized Model Serving Marketplace",
   customFields: {
     description:
-      "Share your GPU or CPU with Gen AI App builders to generate image and perform LLM inference",
+      "Share your GPU or CPU with Gen AI App builders to generate images and perform LLM inference",
   },
   titleDelimiter: "-",
   favicon: "img/favicon.png",
