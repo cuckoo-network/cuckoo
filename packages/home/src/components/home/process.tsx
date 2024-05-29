@@ -65,7 +65,7 @@ export function Process() {
                   strokeLinecap="square"
                 />
               </svg>
-              <h4 className="h4 mb-2">
+              <h4 className="h4 mb-2 text-center">
                 <span className="text-gray-400">1</span>. Trust
               </h4>
               <p className="text-lg text-gray-400 text-center">
@@ -118,7 +118,7 @@ export function Process() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">
+              <h4 className="h4 mb-2 text-center">
                 <span className="text-gray-400">2</span>. Tasks & Rewards
               </h4>
               <p className="text-lg text-gray-400 text-center">
@@ -159,7 +159,7 @@ export function Process() {
                   strokeLinecap="square"
                 />
               </svg>
-              <h4 className="h4 mb-2">
+              <h4 className="h4 mb-2 text-center">
                 <span className="text-gray-400">3</span>. Modular Support
               </h4>
               <p className="text-lg text-gray-400 text-center">
