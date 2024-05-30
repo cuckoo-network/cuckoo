@@ -43,7 +43,7 @@ Cuckoo Token $CUC is the meme / utility token for Cuckoo Network.
         <strong>Mining Rewards</strong>: 30% for GPU miners.
       </li>
       <li>
-        <strong>Staking Rewards</strong>: 10% for network stakers.
+        <strong>Staking Rewards</strong>: 11% for network stakers.
       </li>
       <li>
         <strong>Airdrops</strong>: 5% to early adopters and active community
