@@ -1,6 +1,6 @@
 # Token
 
-Cuckoo Token $CUC is the utility / meme token for Cuckoo Network.
+Cuckoo Token $CUC is the meme / utility token for Cuckoo Network.
 
 ## Utility
 

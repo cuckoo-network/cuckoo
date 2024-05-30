@@ -85,7 +85,7 @@ export default function Target() {
                       <span className="text-pink-500">.</span> For GPU Miners
                     </h4>
                     <p className="text-lg text-gray-400">
-                      Run a task node, stake to join the network, and earn
+                      Run a miner node, stake to join the network, and earn
                       staking rewards. Share your GPU resources, complete
                       assigned tasks, and maintain reliable service to earn
                       tokens.

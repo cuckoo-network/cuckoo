@@ -35,7 +35,7 @@ Cuckoo incentivizes GPU miners to serve AI models to generative App builders. We
 - **For AI Consumers**: Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.
 
 - **For App Builders/Coordinators**: Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.
-- **For GPU Miners**: Run a task node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.
+- **For GPU Miners**: Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.
 - **For Token Holders**: Vote for trusted coordinators or miners and earn rewards by supporting the network.
 
 ## Why us?
