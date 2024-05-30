@@ -1,13 +1,12 @@
 # Cuckoo Chain
 
-**Decentralizing AI with a dedicated ecosystem**
+**Decentralizing AI with a dedicated blockchain ecosystem**
 
-Cuckoo chain is a proof-of-stake and EVM-compatible blockchain or an Ethereum OP L2. Cuckoo Chain empowers users by
-distributing control and data ownership, fostering innovation in the realm of artificial intelligence while maintaining
-robustness and efficiency.
+Cuckoo Chain is a proof-of-stake, EVM-compatible blockchain, also functioning as an Ethereum Layer 2 solution. It empowers users by distributing control and data ownership, fostering innovation in artificial intelligence while maintaining robustness and efficiency.
 
-- Staking as the proof of trust: Task scheduling in Cuckoo network is established by staking CUC token.
-- AI Models as ERC20: Each AI model inference is rewarded as ERC20 from coordinators to miners.
+
+- **Staking for Trust**: Task scheduling in the Cuckoo Network is secured through staking $CUC tokens, establishing a proof of trust.
+- **AI Models as ERC20 Tokens**: Each AI model inference is rewarded with ERC20 tokens, facilitating transparent and efficient transactions between coordinators and miner
 
 
 ## Cuckoo Alpha Testnet
@@ -28,3 +27,9 @@ ERC20
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | CUC ERC20 token contract | <pre>[0x975db16cDD2Ac7CF149a7Bb4093cD78532745310](https://testnet-scan.cuckoo.network/token/0x975db16cDD2Ac7CF149a7Bb4093cD78532745310/)</pre>  |
 | Staking contract         | <pre>[0x40977db70eCE7DC7A4538151aD3AB8cb7490226B](https://testnet-scan.cuckoo.network/address/0x40977db70eCE7DC7A4538151aD3AB8cb7490226B)</pre> |
+
+## Cuckoo Mainnet
+
+As we progress with the AI network, we will plan the next steps for the Cuckoo Chain mainnet, ensuring a seamless transition and continued innovation.
+
+Follow us on [X](https://cuckoo.network/x) to stay updated.

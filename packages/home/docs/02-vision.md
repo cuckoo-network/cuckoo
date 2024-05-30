@@ -27,7 +27,17 @@ Our decentralized marketplace directly connects GPU miners with generative AI bu
 
 ![](/img/cuckoo-better-way.webp)
 
+## Why should GPU miners choose us?
 
+**Easy to Run and Immediate Earning**:
+
+Get started quickly with minimal setup and begin earning immediately by serving AI models, maximizing your hardware investment from day one.
+
+## Why should Gen AI App builders choose us?
+
+**Effortless Integration and Cost Efficiency**:
+
+Experience seamless integration with our API-ready, user-friendly platform, allowing you to quickly deploy and scale AI applications. Additionally, benefit from significant cost reductions of up to 60%, making your development process more efficient and budget-friendly.
 
 ---------------------
 
