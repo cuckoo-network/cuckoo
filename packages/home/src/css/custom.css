@@ -37,6 +37,8 @@
   "Helvetica Neue", "Ubuntu", sans-serif, Microsoft YaHei !important;
 
   --ifm-font-size-base: 18px;
+  --ifm-list-paragraph-margin: 0;
+  --ifm-paragraph-margin-bottom: 0;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
