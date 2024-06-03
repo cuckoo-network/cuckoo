@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 const config: Config = {
-  title: "Cuckoo Network",
+  title: "Cuckoo AI",
   tagline: "Cuckoo AI Decentralized Model Serving Marketplace",
   customFields: {
     description:

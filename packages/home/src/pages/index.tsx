@@ -13,7 +13,7 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} - ${siteConfig.tagline}`}
+      title={siteConfig.tagline}
       description={siteConfig.customFields.description as string}
     >
       <Hero />
