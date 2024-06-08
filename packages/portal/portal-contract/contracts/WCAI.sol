@@ -13,7 +13,7 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-pragma solidity >=0.4.22 <0.6;
+pragma solidity ^0.8.0;
 
 contract WCAI {
   string public name     = "Wrapped Cuckoo AI";
@@ -28,17 +28,19 @@ contract WCAI {
   mapping (address => uint)                       public  balanceOf;
   mapping (address => mapping (address => uint))  public  allowance;
 
-  function() external payable {
+  receive() external payable {
     deposit();
   }
+
   function deposit() public payable {
     balanceOf[msg.sender] += msg.value;
     emit Deposit(msg.sender, msg.value);
   }
+
   function withdraw(uint wad) public {
-    require(balanceOf[msg.sender] >= wad);
+    require(balanceOf[msg.sender] >= wad, "Insufficient balance");
     balanceOf[msg.sender] -= wad;
-    msg.sender.transfer(wad);
+    payable(msg.sender).transfer(wad);
     emit Withdrawal(msg.sender, wad);
   }
 
@@ -60,10 +62,10 @@ contract WCAI {
   public
   returns (bool)
   {
-    require(balanceOf[src] >= wad);
+    require(balanceOf[src] >= wad, "Insufficient balance");
 
-    if (src != msg.sender && allowance[src][msg.sender] != uint(-1)) {
-      require(allowance[src][msg.sender] >= wad);
+    if (src != msg.sender && allowance[src][msg.sender] != type(uint).max) {
+      require(allowance[src][msg.sender] >= wad, "Allowance exceeded");
       allowance[src][msg.sender] -= wad;
     }
 
