@@ -1,4 +1,4 @@
-# Cuckoo AI
+# AI Overview
 
 **Decentralizing AI technically**
 
