@@ -19,9 +19,8 @@ import {
 } from "@/components/ui/web3-button-style";
 import { MinerTable } from "@/app/portal/staking/miner-table";
 import { TokenWrapper } from "@/app/portal/staking/token-wrapper";
-import { TokenUnwrapper } from "@/app/portal/staking/token-unwrapper";
+import {stakingContractAddress, TokenUnwrapper} from "@/app/portal/staking/token-unwrapper";
 
-const stakingContractAddress = "0x4a32b8dEdA26902591aBc00c9DaC82bf6dc90124";
 const tokenSymbol = "WCAI";
 
 export function StakingHome() {

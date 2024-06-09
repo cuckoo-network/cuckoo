@@ -16,7 +16,7 @@ import { StakingCard } from "@/app/portal/staking/staking-card";
 import React, { useState } from "react";
 
 const wrapContractAddress = "0x7bd97d61DcE3608b2F93D493FD0f42D8C77fB8E9";
-const stakingContractAddress = "0x4a32b8dEdA26902591aBc00c9DaC82bf6dc90124";
+export const stakingContractAddress = "0x4a32b8dEdA26902591aBc00c9DaC82bf6dc90124";
 
 export function TokenUnwrapper() {
   const address = useAddress();
