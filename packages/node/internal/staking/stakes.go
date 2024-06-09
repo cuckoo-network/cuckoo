@@ -42,7 +42,7 @@ func (s *Staking) Stakes(stakerAddr string) (big.Int, error) {
 
 const rpcURL = "https://testnet-rpc.cuckoo.network"
 
-const stakingContractAddress = "0x40977db70eCE7DC7A4538151aD3AB8cb7490226B"
+const stakingContractAddress = "0x4a32b8dEdA26902591aBc00c9DaC82bf6dc90124"
 
 const stakingContractABI = `[
     {

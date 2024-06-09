@@ -48,7 +48,7 @@ func (s *Staking) VotersForStaker(votee string) ([]string, error) {
 	return resultStrArr, nil
 }
 
-const votingContractAddress = "0xb67546A23f64bA855dff44F07B8d69b547D521b8"
+const votingContractAddress = "0xbf4D6eE528f2F7BE1A04AA280e5E27Be15897c9e"
 
 const votingContractABI = `[
     {
