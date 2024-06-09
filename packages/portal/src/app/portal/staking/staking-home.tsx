@@ -1,70 +1,15 @@
 "use client";
 
-import {
-  useAddress,
-  useContract,
-  useContractRead,
-  useTokenBalance,
-  Web3Button,
-} from "@thirdweb-dev/react";
-import { ethers } from "ethers";
-import { useCallback, useEffect, useState } from "react";
 import { CardDescription, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { YourVotes } from "@/app/portal/staking/your-votes";
-import { StakingCard } from "./staking-card";
-import {
-  web3BtnOutlineStyle,
-  web3BtnPrimaryStyle,
-} from "@/components/ui/web3-button-style";
-import { MinerTable } from "@/app/portal/staking/miner-table";
+import { BalanceCard } from "./balance-card";
+import { UntakeCard } from "./untake-card";
+import { ClaimableRewardCard } from "./claimable-reward-card";
 import { TokenWrapper } from "@/app/portal/staking/token-wrapper";
-import {stakingContractAddress, TokenUnwrapper} from "@/app/portal/staking/token-unwrapper";
-
-const tokenSymbol = "WCAI";
+import { TokenUnwrapper } from "@/app/portal/staking/token-unwrapper";
+import { MinerTable } from "@/app/portal/staking/miner-table";
+import { YourVotes } from "@/app/portal/staking/your-votes";
 
 export function StakingHome() {
-  const address = useAddress();
-
-  const { contract: staking, isLoading: isStakingLoading } = useContract(
-    stakingContractAddress,
-    "custom",
-  );
-  const { contract: stakingToken, isLoading: isStakingTokenLoading } =
-    useContract(useContractRead(staking, "stakingToken").data, "token");
-  const { contract: rewardToken, isLoading: isRewardTokenLoading } =
-    useContract(useContractRead(staking, "rewardToken").data, "token");
-
-  const { data: stakingTokenBalance, isLoading: isStakingTokenBalanceLoading } =
-    useTokenBalance(stakingToken, address);
-
-  const stakeInfo = useContractRead(staking, "getStakeInfo", [
-    address || "0",
-  ]).data;
-
-  const refetchData = useCallback(() => {
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    useTokenBalance(stakingToken, address).refetch();
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    useTokenBalance(rewardToken, address).refetch();
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    useContractRead(staking, "getStakeInfo", [address || "0"]).refetch();
-  }, [address, rewardToken, staking, stakingToken]);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      refetchData();
-    }, 10000);
-    return () => clearInterval(interval);
-  }, [refetchData]);
-  const [amountToStake, setAmountToStake] = useState(0);
-
-  const isLoading =
-    isStakingTokenLoading ||
-    isStakingLoading ||
-    isRewardTokenLoading ||
-    isStakingTokenBalanceLoading;
-
   return (
     <>
       <div className="flex flex-col">
@@ -77,79 +22,29 @@ export function StakingHome() {
         </CardDescription>
       </div>
 
+      <h4 className={"text-lg"}>
+        {
+          "To start staking and earning, you'll need WCAI. Don't have WCAI? Convert your CAI to WCAI."
+        }
+      </h4>
       <div className="grid auto-rows-max items-start sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:col-span-2 lg:gap-8">
         <TokenWrapper />
-
         <TokenUnwrapper />
+      </div>
 
-        <StakingCard
-          title="WCAI balance"
-          balance={(stakingTokenBalance?.displayValue ?? 0) + ` ${tokenSymbol}`}
-          isLoading={isLoading}
-        >
-          <Input
-            type="number"
-            placeholder=""
-            autoFocus
-            value={amountToStake}
-            onChange={(e: any) => setAmountToStake(e.target.value)}
-          />
-          <Web3Button
-            style={web3BtnPrimaryStyle}
-            contractAddress={stakingContractAddress}
-            action={async (contract) => {
-              await stakingToken?.setAllowance(
-                stakingContractAddress,
-                amountToStake,
-              );
-              await contract.call("stake", [
-                ethers.utils.parseEther(String(amountToStake)),
-              ]);
-              alert("Tokens staked successfully!");
-            }}
-          >
-            Stake
-          </Web3Button>
-        </StakingCard>
-        <StakingCard
-          isLoading={isLoading}
-          title="Staked amount"
-          balance={
-            ethers.utils.formatEther(stakeInfo?.[0] || 0) + ` ${tokenSymbol}`
-          }
-        >
-          <Web3Button
-            style={web3BtnOutlineStyle}
-            contractAddress={stakingContractAddress}
-            action={async (contract) => {
-              await contract.call("withdraw", [
-                ethers.utils.parseEther(String(amountToStake)),
-              ]);
-              alert("Tokens unstaked successfully!");
-            }}
-          >
-            Unstake
-          </Web3Button>
-        </StakingCard>
+      <h4 className={"text-lg"}>
+        {"Tools to help you stake and unstake WCAI."}
+      </h4>
+      <div className="grid auto-rows-max items-start sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:col-span-2 lg:gap-8">
+        <BalanceCard />
+        <UntakeCard />
+      </div>
 
-        <StakingCard
-          isLoading={isLoading}
-          title="Claimable reward"
-          balance={
-            ethers.utils.formatEther(stakeInfo?.[1] || 0) + ` ${tokenSymbol}`
-          }
-        >
-          <Web3Button
-            style={web3BtnOutlineStyle}
-            contractAddress={stakingContractAddress}
-            action={async (contract) => {
-              await contract.call("claimRewards", []);
-              alert("Rewards claimed successfully!");
-            }}
-          >
-            Claim rewards
-          </Web3Button>
-        </StakingCard>
+      <h4 className={"text-lg"}>
+        {"Once staked, you can check your rewards or vote for a miner."}
+      </h4>
+      <div className="grid auto-rows-max items-start sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:col-span-2 lg:gap-8">
+        <ClaimableRewardCard />
         <YourVotes />
       </div>
 

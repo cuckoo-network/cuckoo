@@ -5,26 +5,27 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Skeleton } from "@/components/ui/skeleton"
+import { Skeleton } from "@/components/ui/skeleton";
 
-type Props = { title: string, balance?: string, children?: React.ReactNode, isLoading: boolean }
+type Props = {
+  title?: string;
+  balance?: string;
+  children?: React.ReactNode;
+  isLoading: boolean;
+};
 
 export function StakingCard({ title, balance, children, isLoading }: Props) {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>{title}</CardTitle>
+        {title && <CardTitle>{title}</CardTitle>}
         <CardDescription>
-          {isLoading ? (
-            <Skeleton className="h-4 w-[200px]" />
-          ) : (balance)}
+          {isLoading ? <Skeleton className="h-4 w-[200px]" /> : balance}
         </CardDescription>
       </CardHeader>
       <CardContent>
         <div className="grid gap-6 col-auto auto-cols-auto">
-          {isLoading ? (
-            <Skeleton className="h-8 w-100" />
-          ) : (children)}
+          {isLoading ? <Skeleton className="h-8 w-100" /> : children}
         </div>
       </CardContent>
     </Card>

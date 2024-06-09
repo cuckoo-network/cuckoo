@@ -5,7 +5,7 @@ import {
   votingContractABI,
   votingContractAddress,
 } from "@/app/portal/staking/voting-contract-artifacts";
-import {shortenAddress} from "@/app/portal/staking/lib/shorten-address";
+import { shortenAddress } from "@/app/portal/staking/lib/shorten-address";
 
 export const YourVotes = () => {
   const { contract: voting, isLoading: isStakingLoading } = useContract(
@@ -37,12 +37,13 @@ export const YourVotes = () => {
   return (
     <StakingCard
       isLoading={loading}
-      title={"You Voted for"}
       balance={
         loading
           ? shortenAddress("0x000000000000000000000000000000000000000000")
           : shortenAddress(vote) || "No vote found"
       }
-    />
+    >
+      Address Voted
+    </StakingCard>
   );
 };

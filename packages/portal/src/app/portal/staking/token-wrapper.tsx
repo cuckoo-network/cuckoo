@@ -7,8 +7,10 @@ import {
 import { ethers } from "ethers";
 import { StakingCard } from "@/app/portal/staking/staking-card";
 import React, { useState } from "react";
+import { InputWithUnit } from "@/components/ui/input-with-unit";
 
 const wrapContractAddress = "0x7bd97d61DcE3608b2F93D493FD0f42D8C77fB8E9";
+const tokenSymbol = "CAI";
 
 export function TokenWrapper() {
   const [amountToOperate, setAmountToOperate] = useState(0);
@@ -16,11 +18,11 @@ export function TokenWrapper() {
 
   return (
     <StakingCard
-      title="CAI balance"
-      balance={`${balanceData?.displayValue} CAI`}
+      balance={"Available " + `${balanceData?.displayValue} ${tokenSymbol}`}
       isLoading={isLoading}
     >
-      <Input
+      <InputWithUnit
+        unit={tokenSymbol}
         type="number"
         placeholder=""
         autoFocus
