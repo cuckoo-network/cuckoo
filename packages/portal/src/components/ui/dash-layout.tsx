@@ -15,8 +15,6 @@ import { DropdownMenu } from "@/components/ui/dropdown-menu";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { usePathname } from "next/navigation";
 import { ConnectWallet } from "@thirdweb-dev/react";
-import { web3BtnPrimaryStyle } from "@/components/ui/web3-button-style";
-import { GoogleAnalytics } from "@next/third-parties/google";
 
 const navigationItems = [
   { href: "/portal/staking", label: "Staking", icon: Home },

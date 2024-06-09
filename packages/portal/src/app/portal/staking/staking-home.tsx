@@ -8,6 +8,7 @@ import { TokenWrapper } from "@/app/portal/staking/token-wrapper";
 import { TokenUnwrapper } from "@/app/portal/staking/token-unwrapper";
 import { MinerTable } from "@/app/portal/staking/miner-table";
 import { YourVotes } from "@/app/portal/staking/your-votes";
+import { ConnectWalletWrapper } from "@/app/portal/staking/connect-wallet-wrapper";
 
 export function StakingHome() {
   return (
@@ -21,6 +22,8 @@ export function StakingHome() {
           get 4~12% yearly.
         </CardDescription>
       </div>
+
+      <ConnectWalletWrapper />
 
       <h4 className={"text-lg"}>
         {
