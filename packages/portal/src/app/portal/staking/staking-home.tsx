@@ -25,17 +25,17 @@ const tokenSymbol = "WCAI";
 export function StakingHome() {
   const address = useAddress();
 
-  const staking = useContract(stakingContractAddress, "custom", ).contract;
-  const stakingToken = useContract(
+  const {contract: staking, isLoading: isStakingLoading} = useContract(stakingContractAddress, "custom", );
+  const {contract: stakingToken, isLoading: isStakingTokenLoading} = useContract(
     useContractRead(staking, "stakingToken").data,
     "token",
-  ).contract;
-  const rewardToken = useContract(
+  );
+  const {contract: rewardToken, isLoading: isRewardTokenLoading} = useContract(
     useContractRead(staking, "rewardToken").data,
     "token",
-  ).contract;
+  );
 
-  const stakingTokenBalance = useTokenBalance(stakingToken, address).data;
+  const {data: stakingTokenBalance, isLoading: isStakingTokenBalanceLoading} = useTokenBalance(stakingToken, address);
 
   const stakeInfo = useContractRead(staking, "getStakeInfo", [
     address || "0",
@@ -58,6 +58,8 @@ export function StakingHome() {
   }, [refetchData]);
   const [amountToStake, setAmountToStake] = useState(0);
 
+  const isLoading = isStakingTokenLoading || isStakingLoading || isRewardTokenLoading || isStakingTokenBalanceLoading;
+
   return (
     <>
       <div className="flex flex-col">
@@ -73,6 +75,7 @@ export function StakingHome() {
         <StakingCard
           title="Your token balance"
           balance={(stakingTokenBalance?.displayValue ?? 0) + ` ${tokenSymbol}`}
+          isLoading={isLoading}
         >
           <Input
             type="number"
@@ -99,6 +102,7 @@ export function StakingHome() {
           </Web3Button>
         </StakingCard>
         <StakingCard
+          isLoading={isLoading}
           title="Staked amount"
           balance={ethers.utils.formatEther(stakeInfo?.[0] || 0)  + ` ${tokenSymbol}`}
         >
@@ -117,6 +121,7 @@ export function StakingHome() {
         </StakingCard>
 
         <StakingCard
+          isLoading={isLoading}
           title="Claimable reward"
           balance={ethers.utils.formatEther(stakeInfo?.[1] || 0)  + ` ${tokenSymbol}`}
         >

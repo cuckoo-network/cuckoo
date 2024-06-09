@@ -36,6 +36,7 @@ export const YourVotes = () => {
 
   return (
     <StakingCard
+      isLoading={loading}
       title={"You Voted for"}
       balance={
         loading
