@@ -18,8 +18,8 @@ export function StakingHome() {
           Staking
         </CardTitle>
         <CardDescription>
-          Stake WCAI (Wrapped CAI) to secure the decentralized AI Platform and
-          get 4~12% yearly.
+          Stake WCAI (Wrapped CAI) to secure the decentralized AI platform and
+          earn 4-12% annually.
         </CardDescription>
       </div>
 
@@ -35,9 +35,7 @@ export function StakingHome() {
         <TokenUnwrapper />
       </div>
 
-      <h4 className={"text-lg"}>
-        {"Tools to help you stake and unstake WCAI."}
-      </h4>
+      <h4 className={"text-lg"}>{"Stake and unstake WCAI to get rewards."}</h4>
       <div className="grid auto-rows-max items-start sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:col-span-2 lg:gap-8">
         <StakeCard />
         <UntakeCard />
