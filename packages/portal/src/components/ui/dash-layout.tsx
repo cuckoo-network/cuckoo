@@ -1,13 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import {
-  Bell,
-  Bird,
-  Droplet,
-  Home,
-  Menu,
-} from "lucide-react";
+import { Bell, Bird, Droplet, Home, Menu } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -22,7 +16,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { usePathname } from "next/navigation";
 import { ConnectWallet } from "@thirdweb-dev/react";
 import { web3BtnPrimaryStyle } from "@/components/ui/web3-button-style";
-import {GoogleAnalytics} from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const navigationItems = [
   { href: "/portal/staking", label: "Staking", icon: Home },
@@ -33,9 +27,8 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
 
   return (
-    <div className="grid min-h-screen w-full md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr]">
-      <GoogleAnalytics gaId="G-8W6N8HXQ4R" />
-      <div className="hidden border-r bg-muted/40 md:block">
+    <div className="flex min-h-screen w-full flex-col bg-muted/40">
+      <aside className="fixed inset-y-0 left-0 z-10 hidden w-64 flex-col border-r bg-background md:flex">
         <div className="flex h-full max-h-screen flex-col gap-2">
           <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
             <Link href="/" className="flex items-center gap-2 font-semibold">
@@ -90,8 +83,9 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
             </Card>
           </div>
         </div>
-      </div>
-      <div className="flex flex-col">
+      </aside>
+
+      <div className="flex flex-col md:gap-4 md:pl-64">
         <header className="flex h-14 items-center gap-4 border-b bg-muted/40 px-4 lg:h-[60px] lg:px-6">
           <Sheet>
             <SheetTrigger asChild>
@@ -148,13 +142,19 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
               Testnet Sepolia
             </Badge>
             <Badge variant={"warning"} className="hidden md:inline-flex">
-              Testnet Sepolia - You are in test mode. All operations here are simulated and hold no real value.
+              Testnet Sepolia - You are in test mode. All operations here are
+              simulated and hold no real value.
             </Badge>
           </div>
           <DropdownMenu>
-            <ConnectWallet style={web3BtnPrimaryStyle} />
+            <ConnectWallet
+              style={{
+                height: "48px",
+              }}
+            />
           </DropdownMenu>
         </header>
+
         <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
           {children}
         </main>

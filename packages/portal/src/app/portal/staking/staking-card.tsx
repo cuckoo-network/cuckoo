@@ -25,7 +25,7 @@ export function StakingCard({ title, balance, children, isLoading }: Props) {
       </CardHeader>
       <CardContent>
         <div className="grid gap-6 col-auto auto-cols-auto">
-          {isLoading ? <Skeleton className="h-8 w-100" /> : children}
+          {isLoading ? <Skeleton className="h-8 w-full" /> : children}
         </div>
       </CardContent>
     </Card>
