@@ -25,7 +25,6 @@ export function TokenWrapper() {
         unit={tokenSymbol}
         type="number"
         placeholder=""
-        autoFocus
         max={balanceData?.displayValue}
         value={amountToOperate}
         onChange={(e: any) => setAmountToOperate(e.target.value)}

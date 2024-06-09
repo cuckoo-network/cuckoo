@@ -48,7 +48,6 @@ export function TokenUnwrapper() {
         unit={tokenSymbol}
         type="number"
         placeholder=""
-        autoFocus
         max={stakingTokenBalance?.displayValue}
         value={amountToOperate}
         onChange={(e: any) => setAmountToOperate(e.target.value)}

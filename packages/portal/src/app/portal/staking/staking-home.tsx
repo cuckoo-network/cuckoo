@@ -1,7 +1,7 @@
 "use client";
 
 import { CardDescription, CardTitle } from "@/components/ui/card";
-import { BalanceCard } from "./balance-card";
+import { StakeCard } from "./stake-card";
 import { UntakeCard } from "./untake-card";
 import { ClaimableRewardCard } from "./claimable-reward-card";
 import { TokenWrapper } from "@/app/portal/staking/token-wrapper";
@@ -39,7 +39,7 @@ export function StakingHome() {
         {"Tools to help you stake and unstake WCAI."}
       </h4>
       <div className="grid auto-rows-max items-start sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:col-span-2 lg:gap-8">
-        <BalanceCard />
+        <StakeCard />
         <UntakeCard />
       </div>
 

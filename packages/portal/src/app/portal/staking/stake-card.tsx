@@ -17,9 +17,9 @@ import { InputWithUnit } from "@/components/ui/input-with-unit";
 const stakingContractAddress = "0x4a32b8dEdA26902591aBc00c9DaC82bf6dc90124";
 const tokenSymbol = "WCAI";
 
-export function BalanceCard() {
+export function StakeCard() {
   const address = useAddress();
-  const { contract: staking } = useContract(stakingContractAddress, "custom");
+  const { contract: staking, isLoading: isStakingLoading } = useContract(stakingContractAddress, "custom");
   const { contract: stakingToken, isLoading: isStakingTokenLoading } =
     useContract(useContractRead(staking, "stakingToken").data, "token");
   const { data: stakingTokenBalance } = useTokenBalance(stakingToken, address);
@@ -32,7 +32,7 @@ export function BalanceCard() {
         (stakingTokenBalance?.displayValue ?? 0) +
         ` ${tokenSymbol}`
       }
-      isLoading={isStakingTokenLoading}
+      isLoading={isStakingLoading || isStakingTokenLoading}
     >
       <InputWithUnit
         type="number"
@@ -45,14 +45,18 @@ export function BalanceCard() {
         style={web3BtnPrimaryStyle}
         contractAddress={stakingContractAddress}
         action={async (contract) => {
-          await stakingToken?.setAllowance(
-            stakingContractAddress,
-            amountToStake,
-          );
-          await contract.call("stake", [
-            ethers.utils.parseEther(String(amountToStake)),
-          ]);
-          alert("Tokens staked successfully!");
+          try {
+            await stakingToken?.setAllowance(
+              stakingContractAddress,
+              amountToStake,
+            );
+            await contract.call("stake", [
+              ethers.utils.parseEther(String(amountToStake)),
+            ]);
+            alert("Tokens staked successfully!");
+          } catch (e) {
+            console.error(e)
+          }
         }}
       >
         Stake

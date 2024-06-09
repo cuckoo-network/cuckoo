@@ -29,7 +29,7 @@ export function ClaimableRewardCard() {
     <StakingCard
       isLoading={isStakeInfoLoading}
       balance={
-        "Available " +
+        "Rewarded " +
         ethers.utils.formatEther(stakeInfo?.[1] || 0) +
         ` ${tokenSymbol}`
       }

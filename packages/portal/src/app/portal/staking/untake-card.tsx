@@ -33,7 +33,7 @@ export function UntakeCard() {
     <StakingCard
       isLoading={isStakeInfoLoading}
       balance={
-        "Available " +
+        "Staked " +
         ethers.utils.formatEther(stakeInfo?.[0] || 0) +
         ` ${tokenSymbol}`
       }
@@ -41,7 +41,6 @@ export function UntakeCard() {
       <InputWithUnit
         type="number"
         placeholder=""
-        autoFocus
         value={amountToStake}
         unit={tokenSymbol}
         onChange={(e: any) => setAmountToStake(e.target.value)}
