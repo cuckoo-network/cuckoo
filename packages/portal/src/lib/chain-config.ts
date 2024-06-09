@@ -1,6 +1,6 @@
 export const chainConfig = {
-  name: "Cuckoo Sepolia Testnet",
-  chain: "Cuckoo",
+  name: "Cuckoo Sepolia",
+  chain: "Cuckoo Sepolia",
   rpc: ["https://testnet-rpc.cuckoo.network"],
   explorers: [
     {
@@ -17,11 +17,11 @@ export const chainConfig = {
     format: "svg",
   },
   nativeCurrency: {
-    name: "Ethereum",
-    symbol: "ETH",
+    name: "Cuckoo AI",
+    symbol: "CAI",
     decimals: 18,
   },
-  shortName: "ETH",
+  shortName: "CAI",
   chainId: 1210,
   testnet: true,
   slug: "cuckoo-sepolia",

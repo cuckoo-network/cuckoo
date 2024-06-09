@@ -19,7 +19,8 @@ import { StakingCard } from "./staking-card";
 import {web3BtnOutlineStyle, web3BtnPrimaryStyle} from "@/components/ui/web3-button-style";
 import {MinerTable} from "@/app/portal/staking/miner-table";
 
-const stakingContractAddress = "0x40977db70eCE7DC7A4538151aD3AB8cb7490226B";
+const stakingContractAddress = "0x4a32b8dEdA26902591aBc00c9DaC82bf6dc90124";
+const tokenSymbol = "WCAI";
 
 export function StakingHome() {
   const address = useAddress();
@@ -64,14 +65,14 @@ export function StakingHome() {
           Staking
         </CardTitle>
         <CardDescription>
-          Stake CUC to secure the decentralized AI Platform and get 6% yearly.
+          Stake WCAI (Wrapped CAI) to secure the decentralized AI Platform and get 4~12% yearly.
         </CardDescription>
       </div>
 
       <div className="grid auto-rows-max items-start sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:col-span-2 lg:gap-8">
         <StakingCard
           title="Your token balance"
-          balance={stakingTokenBalance?.displayValue}
+          balance={(stakingTokenBalance?.displayValue ?? 0) + ` ${tokenSymbol}`}
         >
           <Input
             type="number"
@@ -99,7 +100,7 @@ export function StakingHome() {
         </StakingCard>
         <StakingCard
           title="Staked amount"
-          balance={ethers.utils.formatEther(stakeInfo?.[0] || 0)}
+          balance={ethers.utils.formatEther(stakeInfo?.[0] || 0)  + ` ${tokenSymbol}`}
         >
           <Web3Button
             style={web3BtnOutlineStyle}
@@ -117,7 +118,7 @@ export function StakingHome() {
 
         <StakingCard
           title="Claimable reward"
-          balance={ethers.utils.formatEther(stakeInfo?.[1] || 0)}
+          balance={ethers.utils.formatEther(stakeInfo?.[1] || 0)  + ` ${tokenSymbol}`}
         >
           <Web3Button
             style={web3BtnOutlineStyle}

@@ -144,7 +144,12 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
             </SheetContent>
           </Sheet>
           <div className="w-full flex-1">
-            <Badge>Testnet Sepolia</Badge>
+            <Badge variant={"warning"} className="inline-flex md:hidden">
+              Testnet Sepolia
+            </Badge>
+            <Badge variant={"warning"} className="hidden md:inline-flex">
+              Testnet Sepolia - You are in test mode. All operations here are simulated and hold no real value.
+            </Badge>
           </div>
           <DropdownMenu>
             <ConnectWallet style={web3BtnPrimaryStyle} />

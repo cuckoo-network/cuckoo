@@ -23,10 +23,12 @@ Testnet Alpha explorer is released at https://scan.cuckoo.network/.
 
 ERC20
 
-| Name                     | Contract Address                                                                                                                                |
-|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| CUC ERC20 token contract | <pre>[TODO](https://testnet-scan.cuckoo.network/token/TODO/)</pre>                                        |
-| Staking contract         | <pre>[TODO](https://testnet-scan.cuckoo.network/address/TODO)</pre> |
+| Name                        | Contract Address                                             |
+| --------------------------- | ------------------------------------------------------------ |
+| WCAI wrapped token contract | <pre>[0x7bd97d61DcE3608b2F93D493FD0f42D8C77fB8E9](https://testnet-scan.cuckoo.network/token/0x7bd97d61DcE3608b2F93D493FD0f42D8C77fB8E9/)</pre> |
+| Staking contract            | <pre>[0x4a32b8dEdA26902591aBc00c9DaC82bf6dc90124](https://testnet-scan.cuckoo.network/address/0x4a32b8dEdA26902591aBc00c9DaC82bf6dc90124/)</pre> |
+| Staking Voting              | <pre>[0xbf4D6eE528f2F7BE1A04AA280e5E27Be15897c9e](https://testnet-scan.cuckoo.network/address/0xbf4D6eE528f2F7BE1A04AA280e5E27Be15897c9e)</pre> |
+
 
 ## Cuckoo Mainnet
 
