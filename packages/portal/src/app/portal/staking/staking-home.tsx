@@ -8,16 +8,18 @@ import {
   Web3Button,
 } from "@thirdweb-dev/react";
 import { ethers } from "ethers";
-import {useCallback, useEffect, useState} from "react";
-import {
-  CardDescription,
-  CardTitle,
-} from "@/components/ui/card";
+import { useCallback, useEffect, useState } from "react";
+import { CardDescription, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { YourVotes } from "@/app/portal/staking/your-votes";
 import { StakingCard } from "./staking-card";
-import {web3BtnOutlineStyle, web3BtnPrimaryStyle} from "@/components/ui/web3-button-style";
-import {MinerTable} from "@/app/portal/staking/miner-table";
+import {
+  web3BtnOutlineStyle,
+  web3BtnPrimaryStyle,
+} from "@/components/ui/web3-button-style";
+import { MinerTable } from "@/app/portal/staking/miner-table";
+import { TokenWrapper } from "@/app/portal/staking/token-wrapper";
+import { TokenUnwrapper } from "@/app/portal/staking/token-unwrapper";
 
 const stakingContractAddress = "0x4a32b8dEdA26902591aBc00c9DaC82bf6dc90124";
 const tokenSymbol = "WCAI";
@@ -25,17 +27,17 @@ const tokenSymbol = "WCAI";
 export function StakingHome() {
   const address = useAddress();
 
-  const {contract: staking, isLoading: isStakingLoading} = useContract(stakingContractAddress, "custom", );
-  const {contract: stakingToken, isLoading: isStakingTokenLoading} = useContract(
-    useContractRead(staking, "stakingToken").data,
-    "token",
+  const { contract: staking, isLoading: isStakingLoading } = useContract(
+    stakingContractAddress,
+    "custom",
   );
-  const {contract: rewardToken, isLoading: isRewardTokenLoading} = useContract(
-    useContractRead(staking, "rewardToken").data,
-    "token",
-  );
+  const { contract: stakingToken, isLoading: isStakingTokenLoading } =
+    useContract(useContractRead(staking, "stakingToken").data, "token");
+  const { contract: rewardToken, isLoading: isRewardTokenLoading } =
+    useContract(useContractRead(staking, "rewardToken").data, "token");
 
-  const {data: stakingTokenBalance, isLoading: isStakingTokenBalanceLoading} = useTokenBalance(stakingToken, address);
+  const { data: stakingTokenBalance, isLoading: isStakingTokenBalanceLoading } =
+    useTokenBalance(stakingToken, address);
 
   const stakeInfo = useContractRead(staking, "getStakeInfo", [
     address || "0",
@@ -58,7 +60,11 @@ export function StakingHome() {
   }, [refetchData]);
   const [amountToStake, setAmountToStake] = useState(0);
 
-  const isLoading = isStakingTokenLoading || isStakingLoading || isRewardTokenLoading || isStakingTokenBalanceLoading;
+  const isLoading =
+    isStakingTokenLoading ||
+    isStakingLoading ||
+    isRewardTokenLoading ||
+    isStakingTokenBalanceLoading;
 
   return (
     <>
@@ -67,13 +73,18 @@ export function StakingHome() {
           Staking
         </CardTitle>
         <CardDescription>
-          Stake WCAI (Wrapped CAI) to secure the decentralized AI Platform and get 4~12% yearly.
+          Stake WCAI (Wrapped CAI) to secure the decentralized AI Platform and
+          get 4~12% yearly.
         </CardDescription>
       </div>
 
       <div className="grid auto-rows-max items-start sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:col-span-2 lg:gap-8">
+        <TokenWrapper />
+
+        <TokenUnwrapper />
+
         <StakingCard
-          title="Your token balance"
+          title="WCAI balance"
           balance={(stakingTokenBalance?.displayValue ?? 0) + ` ${tokenSymbol}`}
           isLoading={isLoading}
         >
@@ -104,7 +115,9 @@ export function StakingHome() {
         <StakingCard
           isLoading={isLoading}
           title="Staked amount"
-          balance={ethers.utils.formatEther(stakeInfo?.[0] || 0)  + ` ${tokenSymbol}`}
+          balance={
+            ethers.utils.formatEther(stakeInfo?.[0] || 0) + ` ${tokenSymbol}`
+          }
         >
           <Web3Button
             style={web3BtnOutlineStyle}
@@ -123,7 +136,9 @@ export function StakingHome() {
         <StakingCard
           isLoading={isLoading}
           title="Claimable reward"
-          balance={ethers.utils.formatEther(stakeInfo?.[1] || 0)  + ` ${tokenSymbol}`}
+          balance={
+            ethers.utils.formatEther(stakeInfo?.[1] || 0) + ` ${tokenSymbol}`
+          }
         >
           <Web3Button
             style={web3BtnOutlineStyle}
@@ -139,7 +154,7 @@ export function StakingHome() {
         <YourVotes />
       </div>
 
-      <MinerTable/>
+      <MinerTable />
     </>
   );
 }
