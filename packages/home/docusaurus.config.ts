@@ -148,6 +148,10 @@ const config: Config = {
               label: "Testnet Sepolia",
               to: "https://testnet-scan.cuckoo.network/",
             },
+            {
+              label: "FAQ",
+              to: "/faq",
+            },
           ],
         },
         {

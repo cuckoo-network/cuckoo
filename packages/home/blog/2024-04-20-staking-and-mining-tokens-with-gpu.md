@@ -7,7 +7,7 @@ image: https://cuckoo-network.b-cdn.net/staking-and-mining-tokens.webp
 
 Cuckoo Network is the first Decentralized AI Model Serving Marketplace rewarding AI enthusiasts, developers, and GPU miners with crypto tokens. On our platform, miners share their GPUs with generative AI app builders, aka coordinators, in order to run inference for end customers, so that all the contributors can earn crypto tokens.
 
-![Staking and mining tokens with GPU](https://cuckoo-network.b-cdn.net/staking-and-mining-tokens-with-gpu.webp "Staking and mining tokens with GPU")
+![Staking and mining tokens with GPU](https://cuckoo-network.b-cdn.net/staking-and-mining-tokens.webp "Staking and mining tokens with GPU")
 
 When miners share their GPUs, how to ensure they are not faking results? Cuckoo Network establishes trust and integrity through staking, rewards, and slashing. Today we are glad to announce that stakers can join our testnet and secure trust for this decentralized AI network.
 
