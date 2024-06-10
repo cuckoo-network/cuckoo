@@ -6,7 +6,7 @@
   - [x] Cuckoo Network official website
   - [x] Cuckoo Chain Testnet Alpha for metering computing unit credits
   - [x] Whitepaper and initial documentation
-  - [ ] ~~Cuckoo Pay initial demo~~
+  - [x] ~~Cuckoo Pay initial demo~~
   - [x] Cuckoo AI initial demo
 - [ ] Testnet
   - [ ] Introduce bridges
