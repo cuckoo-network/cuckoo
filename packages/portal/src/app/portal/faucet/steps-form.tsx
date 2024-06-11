@@ -118,7 +118,7 @@ const StepComponent = () => {
             target="_blank"
             href={`https://testnet-scan.cuckoo.network/tx/${successMessage.nativeTokenTransferHash}`}
           >
-            https://testnet-scan.cuckoo.network/tx/$
+            https://testnet-scan.cuckoo.network/tx/
             {successMessage.nativeTokenTransferHash}
           </a>
         </p>
@@ -129,7 +129,10 @@ const StepComponent = () => {
           <a
             target="_blank"
             href={`https://testnet-scan.cuckoo.network/tx/${successMessage.erc20TokenTransferHash}`}
-          >{`https://testnet-scan.cuckoo.network/tx/${successMessage.erc20TokenTransferHash}`}</a>
+          >
+            https://testnet-scan.cuckoo.network/tx/
+            {successMessage.erc20TokenTransferHash}
+          </a>
         </p>
       )}
     </div>

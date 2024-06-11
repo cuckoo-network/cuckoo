@@ -36,14 +36,14 @@ export default function Target() {
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div
                     className="font-architects-daughter text-xl text-purple-600 mb-2"
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-anchor="[data-aos-id-target]"
                   >
                     Get rewarded by contributing to Gen AI
                   </div>
                   <div
                     className="mt-6"
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-delay="200"
                     data-aos-anchor="[data-aos-id-target]"
                   >
@@ -60,7 +60,7 @@ export default function Target() {
                   </div>
                   <div
                     className="mt-6"
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-delay="400"
                     data-aos-anchor="[data-aos-id-target]"
                   >
@@ -77,7 +77,7 @@ export default function Target() {
                   </div>
                   <div
                     className="mt-6"
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-delay="600"
                     data-aos-anchor="[data-aos-id-target]"
                   >
