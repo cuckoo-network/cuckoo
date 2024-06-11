@@ -11,6 +11,7 @@ const InputWithUnit = React.forwardRef<HTMLInputElement, InputWithUnitProps>(
     return (
       <div className="relative flex items-center">
         <Input
+          min={0}
           type={type}
           className={cn("pr-16", className)} // Ensure padding on the right for the unit
           ref={ref}
