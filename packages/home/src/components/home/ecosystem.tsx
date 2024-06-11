@@ -143,7 +143,7 @@ export function Ecosystem() {
                   Cuckoo Telegram
                 </div>
                 <p className="text-gray-100">
-                  A telegram bot for texting to image and manage your CUC
+                  A telegram bot for texting to image and manage your CAI
                   tokens.
                 </p>
               </a>
@@ -170,7 +170,7 @@ export function Ecosystem() {
                   Cuckoo Discord
                 </div>
                 <p className="text-gray-100">
-                  A discord bot for texting to image and manage your CUC tokens.
+                  A discord bot for texting to image and manage your CAI tokens.
                 </p>
               </a>
               {/* 3rd Box */}

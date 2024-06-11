@@ -15,7 +15,7 @@ When miners share their GPUs, how to ensure they are not faking results? Cuckoo 
 
 For stakers
 
-1. Get CUC tokens from [faucet](https://cuckoo.network/portal/faucet)
+1. Get CAI tokens from [faucet](https://cuckoo.network/portal/faucet)
 2. Stake tokens at the [staking portal](https://cuckoo.network/portal/staking)
 3. Vote for coordinators or miners
 
@@ -23,14 +23,14 @@ For stakers
 
 For GPU miners
 
-1. Get CUC tokens by contacting admins from https://cuckoo.network/tg or https://cuckoo.network/dc
+1. Get CAI tokens by contacting admins from https://cuckoo.network/tg or https://cuckoo.network/dc
 2. Stake > 20K tokens at the staking portal
 3. Register minerAddress and introduction information. The minerAddress is recommended to be different from your staker address.
 4. Run miner node with the minerAddress’s private key
 
 For Coordinators
 
-1. Get CUC tokens by contacting admins from https://cuckoo.network/tg or https://cuckoo.network/dc
+1. Get CAI tokens by contacting admins from https://cuckoo.network/tg or https://cuckoo.network/dc
 2. Stake > 2M tokens at the staking portal
 3. Register coordinatorAddress and introduction information. The coordinatorAddress is recommended to be different from your staker address.
 4. Run the coordinator node with the minerAddress’s private key
@@ -39,8 +39,8 @@ For Coordinators
 
 The entire system takes a couple of roles to work together:
 
-- **GPU Miner Staker:** Individuals or entities running computation resources to execute AI tasks. They hold CUC tokens with a wallet to stake in the network. The more they stake, the higher the chances that they will get assigned GPU tasks.
-- **App Builders (Coordinator Staker):** Developers creating AI applications on top of Cuckoo Network, overseeing task distribution and quality control. They carry CUC tokens with a wallet to stake in the network. The more they stake, the higher the chances that they will get GPU miners who are willing to work with them.
+- **GPU Miner Staker:** Individuals or entities running computation resources to execute AI tasks. They hold CAI tokens with a wallet to stake in the network. The more they stake, the higher the chances that they will get assigned GPU tasks.
+- **App Builders (Coordinator Staker):** Developers creating AI applications on top of Cuckoo Network, overseeing task distribution and quality control. They carry CAI tokens with a wallet to stake in the network. The more they stake, the higher the chances that they will get GPU miners who are willing to work with them.
 - **Stakers:** Participants who stake tokens to vote for trustworthy Miners and coordinators. They will be rewarded for their stakes.
 - **Staking Contract:** A smart contract where Miners and coordinators register and stakers vote for them.
 - **Coordinator Node**: Generative AI applications call APIs of this node to offer GPU tasks like prompt to generate images in the network.

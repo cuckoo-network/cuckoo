@@ -1,12 +1,12 @@
 ---
 title: "Proof of Sampling Protocol: Incentivizing Honesty and Penalizing Dishonesty in Decentralized AI Inference"
 authors: [lark]
-tags: [company]
+tags: [research]
 image: https://cuckoo-network.b-cdn.net/proof-of-sampling-posp-protocol-decentralized-ai.webp
 description: Learn about the Proof of Sampling (PoSP) protocol's unique approach to incentivizing honest behavior and penalizing dishonesty among GPU providers, ensuring the security and reliability of decentralized AI inference systems.
 ---
 
-In decentralized AI, ensuring the integrity and reliability of GPU providers is crucial. The Proof of Sampling (PoSP) protocol, as outlined in recent research, provides a sophisticated mechanism to incentivize good actors while slashing bad ones. Let's see how this protocol works, its economic incentives, penalties, and its application to decentralized AI inference.
+In decentralized AI, ensuring the integrity and reliability of GPU providers is crucial. The Proof of Sampling (PoSP) protocol, as outlined in recent research from Holistic AI, provides a sophisticated mechanism to incentivize good actors while slashing bad ones. Let's see how this protocol works, its economic incentives, penalties, and its application to decentralized AI inference.
 
 ## Incentives for Honest Behavior
 
@@ -100,3 +100,7 @@ The spML (sampling-based Machine Learning) protocol is an implementation of the 
 ## Summary
 
 The Proof of Sampling (PoSP) protocol effectively balances the need to incentivize good actors and deter bad ones, ensuring the overall security and reliability of decentralized systems. By combining economic rewards with stringent penalties, PoSP fosters an environment where honest behavior is not only encouraged but necessary for success. As decentralized AI continues to grow, protocols like PoSP will be essential in maintaining the integrity and trustworthiness of these advanced systems.
+
+- source: https://cuckoo.network/blog/2024/06/17/proof-of-sampling-posp-protocol-decentralized-ai
+- telegram: https://cuckoo.network/tg
+- discord: https://cuckoo.network/dc
