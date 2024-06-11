@@ -50,3 +50,8 @@ Cuckoo Chain is redefining what’s possible with blockchain technology. Its unm
 
 
 
+This pull request adds the [Cuckoo Network](https://cuckoo.network)'s Testnet Sepolia to the chains registration. The explorer is available at [testnet-scan.cuckoo.network](https://testnet-scan.cuckoo.network/) and is EIP3091-compliant.
+
+- source: https://cuckoo.network/blog/2024/06/11/cuckoo-the-blockchain-for-ai
+- telegram: https://cuckoo.network/tg
+- discord: https://cuckoo.network/dc
