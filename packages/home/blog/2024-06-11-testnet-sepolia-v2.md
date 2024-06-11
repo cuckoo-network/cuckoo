@@ -2,7 +2,7 @@
 title: "Announcing Cuckoo Sepolia V2 on Arbitrum"
 authors: [dora]
 tags: [research]
-image: https://cuckoo-network.b-cdn.net/decentralizing-ai-an-overview.png
+image: https://cuckoo-network.b-cdn.net/cuckoo-sepolia-v2.webp
 ---
 We are thrilled to announce the launch of Cuckoo Sepolia V2, an upgraded testnet built on Arbitrum. This significant transition is a direct response to the valuable feedback from our community, aiming to enhance the utility and scalability of our platform.
 
