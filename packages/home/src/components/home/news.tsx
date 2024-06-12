@@ -1,4 +1,5 @@
 import PostItem from "./post-item";
+import Link from "@docusaurus/Link";
 
 const {
   blogPosts,
@@ -29,6 +30,13 @@ export function News() {
               ))}
             </div>
           </div>
+
+          <Link className="float-right hover:text-white" href="/blog">
+            Read more
+            <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+              -&gt;
+            </span>
+          </Link>
         </div>
       </div>
     </section>

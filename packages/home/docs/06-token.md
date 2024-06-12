@@ -1,4 +1,4 @@
-# Token Economy
+# Token
 
 Cuckoo Token $CUC is the meme / utility token for Cuckoo Network.
 
@@ -94,11 +94,8 @@ Cuckoo Token $CUC is the meme / utility token for Cuckoo Network.
     </ul>
   </li>
 </ul>
-
 </div>
 </div>
-
-
 
 ## Key Principles of a Fair Launch
 
@@ -110,3 +107,14 @@ Cuckoo Token $CUC is the meme / utility token for Cuckoo Network.
    - All participants have the same opportunity to acquire tokens. This can be achieved through mechanisms like initial liquidity mining, airdrops, or public listing without preferential pricing.
 4. **Decentralized Control**:
    - From the beginning, the project is governed in a decentralized manner, often using a Decentralized Autonomous Organization (DAO) where token holders have a say in the governance and future direction of the project.
+
+## Misc Token FAQ
+
+<details class="p-4 bg-white rounded-lg shadow hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
+  <summary class="cursor-pointer text-xl font-semibold">
+    Where is Cuckoo Chain registered?
+  </summary>
+  <p class="mt-2">
+    Testnet Sepolia Chain ID: https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-1210.json
+  </p>
+</details>
