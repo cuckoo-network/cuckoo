@@ -18,7 +18,7 @@ export default function Blog() {
 
   useAos();
 
-  const title = "Web3 + AI Blogs";
+  const title = "Cuckoo Network Blogs";
 
   return (
     <Layout
@@ -136,7 +136,7 @@ export default function Blog() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <iframe
             src="https://cuckoonetwork.substack.com/embed"
-            width={480}
+            width={"100%"}
             height={320}
             style={{ border: "0px solid #EEE", background: "#111827" }}
             frameBorder={0}
