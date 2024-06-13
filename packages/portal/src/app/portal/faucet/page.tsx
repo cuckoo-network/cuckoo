@@ -4,11 +4,11 @@ import { CardDescription, CardTitle } from "@/components/ui/card";
 import { Metadata } from "next";
 
 const cfg = {
-  title: "Cuckoo AI Network Faucet - Cuckoo Portal",
+  title: "Cuckoo Sepolia Faucet - Cuckoo Portal",
   site: "@CuckooNetworkHQ",
   images: ["https://cuckoo-network.b-cdn.net/cuckoo-social-card.webp"],
   description:
-    "Complete a series of steps below to get CAI and WCAI. Cuckoo Portal is the management portal for Cuckoo decentralized AI platform",
+    "Follow the steps below to receive CAI and WCAI tokens on Cuckoo Sepolia, the leading testnet for Cuckoo AI. Manage your decentralized AI platform efficiently with the Cuckoo Portal.",
 };
 
 export const metadata: Metadata = {
@@ -22,10 +22,10 @@ export default function FaucetPage() {
     <DashLayout>
       <div className="flex flex-col">
         <CardTitle className="text-lg font-semibold md:text-2xl">
-          Faucet
+          Cuckoo Sepolia Faucet
         </CardTitle>
         <CardDescription>
-          Complete a series of steps below to get {faucetUnits} CAI and {faucetUnits} WCAI.
+          Follow the steps below to receive {faucetUnits} CAI and {faucetUnits} WCAI.
         </CardDescription>
       </div>
 
