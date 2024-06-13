@@ -24,14 +24,14 @@ export function News() {
 
           {/* Articles list */}
           <div className="max-w-sm mx-auto md:max-w-none">
-            <div className="grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
+            <div className="grid gap-12 md:grid-cols-2 md:gap-x-3 md:gap-y-8 items lg:grid-cols-3 lg:gap-x-6 lg:gap-y-8 items-start">
               {posts.map((post) => (
                 <PostItem key={post.id} {...post} />
               ))}
             </div>
           </div>
 
-          <Link className="float-right hover:text-white" href="/blog">
+          <Link className="float-right hover:text-white" href="/blogs">
             Read more
             <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
               -&gt;

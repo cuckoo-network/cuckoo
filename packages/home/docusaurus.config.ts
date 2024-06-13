@@ -98,7 +98,7 @@ const config: Config = {
           label: "Docs",
           position: "right",
         },
-        { to: "/blog", label: "Blog", position: "right" },
+        { to: "/blogs", label: "Blogs", position: "right" },
         {
           href: "/cuckoo-bot",
           label: "Image Gen",
@@ -199,8 +199,8 @@ const config: Config = {
               to: "/docs/cuckoo-network",
             },
             {
-              label: "Blog",
-              to: "/blog",
+              label: "Blogs",
+              to: "/blogs",
             },
             {
               label: "Privacy Policy",
