@@ -1,5 +1,5 @@
 import { DashLayout } from "@/components/ui/dash-layout";
-import StepsForm from "@/app/portal/faucet/steps-form";
+import StepsForm, {faucetUnits} from "@/app/portal/faucet/steps-form";
 import { CardDescription, CardTitle } from "@/components/ui/card";
 import { Metadata } from "next";
 
@@ -25,7 +25,7 @@ export default function FaucetPage() {
           Faucet
         </CardTitle>
         <CardDescription>
-          Complete a series of steps below to get 1 CAI and 1 WCAI.
+          Complete a series of steps below to get {faucetUnits} CAI and {faucetUnits} WCAI.
         </CardDescription>
       </div>
 

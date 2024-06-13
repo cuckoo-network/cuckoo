@@ -5,6 +5,8 @@ import { useMutation, gql } from "@apollo/client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
+export const faucetUnits = "10";
+
 const REQUEST_TOKENS = gql`
   mutation RequestTokens($address: String!) {
     requestTokens(address: $address) {
@@ -18,7 +20,7 @@ const stepConfig = [
   { label: "Follow us on X", url: "https://cuckoo.network/x" },
   { label: "Join Discord", url: "https://cuckoo.network/dc" },
   { label: "Join Telegram", url: "https://cuckoo.network/tg" },
-  { label: "Claim 1000 CAI", url: null }, // This step triggers the faucet request
+  { label: `Claim ${faucetUnits} CAI`, url: null }, // This step triggers the faucet request
 ];
 
 const StepComponent = () => {
