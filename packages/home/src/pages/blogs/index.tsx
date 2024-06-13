@@ -18,10 +18,12 @@ export default function Blog() {
 
   useAos();
 
+  const title = "Web3 + AI Blogs";
+
   return (
     <Layout
-      title={siteConfig.tagline}
-      description={siteConfig.customFields.description as string}
+      title={title}
+      description={"Announcements, best practices and success stories for achieving your goals with Cuckoo Network."}
     >
       <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -29,7 +31,7 @@ export default function Blog() {
             {/*  Page header */}
             <div className="max-w-3xl pb-12 md:pb-20 text-center md:text-left">
               <h1 className="h1 text-5xl" data-aos="fade-up">
-                Refreshing news for developers and designers
+                {title}
               </h1>
             </div>
 
