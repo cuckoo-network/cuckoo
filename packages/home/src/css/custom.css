@@ -66,9 +66,6 @@
   border-top: 1px solid var(--ifm-color-gray-800);
 }
 
-.container .col.col--3 {
-  display: none;
-}
 
 a:hover {
   text-decoration: none;
