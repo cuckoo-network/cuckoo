@@ -12,9 +12,9 @@ sidebar_position: 1
   - **Coordinator Nodes** schedule inference tasks based on customer needs
   - **GPU Miner Nodes** perform inference by sharing GPU resources
 - **Cuckoo Chain** an Arbitrum Orbit rollup for decentralized AI
-- **$CUC**, the native coin for computing unit credits
+- **$CAI**, the native coin for computing unit credits
 
-💎 **$CUC** Overview:
+💎 **$CAI** Overview:
 
 1. Stake to establish trust in the AI network
 2. Generate and share value

@@ -1,6 +1,6 @@
-# Token
+# $CAI Token
 
-Cuckoo Token $CUC is the meme / utility token for Cuckoo Network.
+Cuckoo Token $CAI is the meme / utility token for Cuckoo Network.
 
 <div className="row">
   <div className="col"><h2>Total supply</h2></div>

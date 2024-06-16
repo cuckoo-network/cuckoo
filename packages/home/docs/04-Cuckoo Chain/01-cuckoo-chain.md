@@ -5,7 +5,7 @@
 Cuckoo Chain, developed by Offchain Labs and managed by the Cuckoo Foundation, is optimized for decentralized AI model serving. Designed for scalability, it offers developers enhanced computational resources and flexible contracts, while providing users with a seamless experience. Leveraging Ethereum's security, Cuckoo Network ensures robust protection against threats, fostering trust and transparency in a fully decentralized ecosystem.
 
 
-- **Staking for Trust**: Task scheduling in the Cuckoo Network is secured through staking $CUC tokens, establishing a proof of trust.
+- **Staking for Trust**: Task scheduling in the Cuckoo Network is secured through staking $CAI tokens, establishing a proof of trust.
 - **AI Models as ERC20 Tokens**: Each AI model inference is rewarded with ERC20 tokens, facilitating transparent and efficient transactions between coordinators and miner
 
 
