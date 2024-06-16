@@ -5,7 +5,7 @@ tags: [product]
 image: https://cuckoo-network.b-cdn.net/cuckoo-network-bridge-seamless-asset-transfers.webp
 ---
 
-In Web3, the ability to transfer assets seamlessly across different blockchain networks is crucial. At Cuckoo.Network, we get it. We understand the pressing need for efficiency, security, and simplicity in these transactions. That's why we're thrilled to introduce our latest innovation: the Cuckoo Bridge.
+In Web3, the ability to transfer assets seamlessly across different blockchain networks is crucial. At Cuckoo.Network, we get it. We understand the pressing need for efficiency, security, and simplicity in these transactions. That's why we're thrilled to introduce our latest innovation: Cuckoo Bridge https://bridge.cuckoo.network/.
 
 ![](https://cuckoo-network.b-cdn.net/cuckoo-network-bridge-seamless-asset-transfers.webp)
 
@@ -23,7 +23,7 @@ In Web3, the ability to transfer assets seamlessly across different blockchain n
 
 3. **Secure Transactions:** Built with top-notch security standards, the Cuckoo Network Bridge ensures your assets are safe throughout the transfer process.
 
-![](https://cuckoo-network.b-cdn.net/cuckoo-bridge-screenshot.webp)
+[![](https://cuckoo-network.b-cdn.net/cuckoo-bridge-screenshot.webp)](https://bridge.cuckoo.network/)
 
 ## How It Works
 
@@ -39,5 +39,5 @@ The Cuckoo Network Bridge is here to improve your cross-chain experience in the 
 
 ## Join Our Community
 
-For more information, visit our website or join our vibrant community on [Discord](https://cuckoo.network/dc), [Telegram](https://cuckoo.network/tg), and [X / Twitter](https://cuckoo.network/x). Let's bridge the gap in the Web3 world together.
+For more information, visit our website https://bridge.cuckoo.network/ or join our vibrant community on [Discord](https://cuckoo.network/dc), [Telegram](https://cuckoo.network/tg), and [X / Twitter](https://cuckoo.network/x). Let's bridge the gap in the Web3 world together.
 
