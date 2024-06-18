@@ -1,6 +1,5 @@
 import {
   useAddress,
-  useBalance,
   useContract,
   useContractRead,
   useTokenBalance,
@@ -8,20 +7,19 @@ import {
 } from "@thirdweb-dev/react";
 import {
   web3BtnOutlineStyle,
-  web3BtnPrimaryStyle,
 } from "@/components/ui/web3-button-style";
 import { ethers } from "ethers";
 import { StakingCard } from "@/app/portal/staking/staking-card";
 import React, { useState } from "react";
 import { InputWithUnit } from "@/components/ui/input-with-unit";
-
-const wrapContractAddress = "0x7bd97d61DcE3608b2F93D493FD0f42D8C77fB8E9";
-export const stakingContractAddress =
-  "0x4a32b8dEdA26902591aBc00c9DaC82bf6dc90124";
+import {useStakingContractAddress} from "@/app/portal/staking/contract/staking-contract-artifacts";
+import {useWrapContractAddress} from "@/app/portal/staking/contract/wrap-contract-artifacts";
 
 const tokenSymbol = "WCAI";
 
 export function TokenUnwrapper() {
+  const wrapContractAddress = useWrapContractAddress();
+  const stakingContractAddress = useStakingContractAddress();
   const address = useAddress();
   const [amountToOperate, setAmountToOperate] = useState(0);
 

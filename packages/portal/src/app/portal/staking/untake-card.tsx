@@ -12,11 +12,12 @@ import { web3BtnOutlineStyle } from "@/components/ui/web3-button-style";
 import { ethers } from "ethers";
 import { Input } from "@/components/ui/input";
 import { InputWithUnit } from "@/components/ui/input-with-unit";
+import {useStakingContractAddress} from "@/app/portal/staking/contract/staking-contract-artifacts";
 
-const stakingContractAddress = "0x4a32b8dEdA26902591aBc00c9DaC82bf6dc90124";
 const tokenSymbol = "WCAI";
 
 export function UntakeCard() {
+  const stakingContractAddress = useStakingContractAddress();
   const address = useAddress();
   const { contract: staking, isLoading: isStakingLoading } = useContract(
     stakingContractAddress,

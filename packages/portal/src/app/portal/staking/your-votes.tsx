@@ -2,12 +2,13 @@ import { useEffect, useState } from "react";
 import { useAddress, useContract } from "@thirdweb-dev/react";
 import { StakingCard } from "@/app/portal/staking/staking-card";
 import {
+  useVotingContractAddress,
   votingContractABI,
-  votingContractAddress,
-} from "@/app/portal/staking/voting-contract-artifacts";
+} from "@/app/portal/staking/contract/voting-contract-artifacts";
 import { shortenAddress } from "@/app/portal/staking/lib/shorten-address";
 
 export const YourVotes = () => {
+  const votingContractAddress = useVotingContractAddress();
   const { contract: voting, isLoading: isStakingLoading } = useContract(
     votingContractAddress,
     votingContractABI,
@@ -22,7 +23,7 @@ export const YourVotes = () => {
 
       setLoading(true);
       try {
-        const result = await voting?.call("votes", [address]);
+        const result = await voting?.call("getMinersForVoter", [address]);
         setVote(result);
         setLoading(false);
       } catch (error) {
@@ -39,8 +40,8 @@ export const YourVotes = () => {
       isLoading={loading}
       balance={
         loading
-          ? shortenAddress("0x000000000000000000000000000000000000000000")
-          : shortenAddress(vote) || "No vote found"
+          ? ("0x000000000000000000000000000000000000000000")
+          : vote || "No vote found"
       }
     >
       Address Voted

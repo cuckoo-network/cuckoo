@@ -9,12 +9,13 @@ import {
 import { StakingCard } from "./staking-card";
 import { web3BtnOutlineStyle } from "@/components/ui/web3-button-style";
 import { ethers } from "ethers";
+import {useStakingContractAddress} from "@/app/portal/staking/contract/staking-contract-artifacts";
 
-const stakingContractAddress = "0x4a32b8dEdA26902591aBc00c9DaC82bf6dc90124";
 const tokenSymbol = "WCAI";
 
 export function ClaimableRewardCard() {
   const address = useAddress();
+  const stakingContractAddress = useStakingContractAddress();
   const { contract: staking, isLoading: isStakingLoading } = useContract(
     stakingContractAddress,
     "custom",

@@ -8,11 +8,13 @@ import { ethers } from "ethers";
 import { StakingCard } from "@/app/portal/staking/staking-card";
 import React, { useState } from "react";
 import { InputWithUnit } from "@/components/ui/input-with-unit";
+import {useStakingContractAddress} from "@/app/portal/staking/contract/staking-contract-artifacts";
+import {useWrapContractAddress} from "@/app/portal/staking/contract/wrap-contract-artifacts";
 
-const wrapContractAddress = "0x7bd97d61DcE3608b2F93D493FD0f42D8C77fB8E9";
 const tokenSymbol = "CAI";
 
 export function TokenWrapper() {
+  const wrapContractAddress = useWrapContractAddress();
   const [amountToOperate, setAmountToOperate] = useState(0);
   const { data: balanceData, isLoading } = useBalance();
 
