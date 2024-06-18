@@ -50,7 +50,7 @@ export function DashLayout({
                 size="icon"
                 className="ml-auto h-8 w-8"
                 target={"_blank"}
-                href={"https://cuckoo.network/blog"}
+                href={"https://cuckoo.network/blogs"}
               >
                 <Bell className="h-4 w-4" />
                 <span className="sr-only">Toggle notifications</span>
