@@ -4,7 +4,7 @@ import { ThirdwebProvider } from "@thirdweb-dev/react";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import { chainConfig } from "@/lib/chain-config";
+import { chainConfigs } from "@/lib/chain-configs";
 import { ApolloProvider } from "@apollo/client";
 import { apolloClient } from "@/lib/apollo-client";
 import { GoogleAnalytics } from "@next/third-parties/google";
@@ -20,8 +20,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <ApolloProvider client={apolloClient}>
           <ThirdwebProvider
-            activeChain={chainConfig}
-            supportedChains={[chainConfig]}
+            activeChain={chainConfigs[0]}
+            supportedChains={chainConfigs}
             clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}
           >
             <ThemeProvider

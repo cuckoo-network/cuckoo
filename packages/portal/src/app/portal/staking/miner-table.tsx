@@ -71,13 +71,9 @@ export const MinerTable: React.FC = () => {
               <TableRow key={miner.walletAddress}>
                 <TableCell>{index + 1}</TableCell>
                 <TableCell>
-                  <span
-                    title={miner.walletAddress}
-                    onClick={() => copyToClipboard(miner.walletAddress)}
-                    style={{ cursor: "pointer", textDecoration: "underline" }}
-                  >
-                    {shortenAddress(miner.walletAddress)}
-                  </span>
+                  <pre>
+                    {miner.walletAddress}
+                  </pre>
                 </TableCell>
                 <TableCell>
                   {(

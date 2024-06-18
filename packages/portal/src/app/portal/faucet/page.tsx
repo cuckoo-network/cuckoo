@@ -1,10 +1,10 @@
 import { DashLayout } from "@/components/ui/dash-layout";
-import StepsForm, {faucetUnits} from "@/app/portal/faucet/steps-form";
+import StepsForm, { faucetUnits } from "@/app/portal/faucet/steps-form";
 import { CardDescription, CardTitle } from "@/components/ui/card";
 import { Metadata } from "next";
 
 const cfg = {
-  title: "Cuckoo Sepolia Faucet - Cuckoo Portal",
+  title: "Cuckoo Sepolia Testnet Faucet - Cuckoo Portal",
   site: "@CuckooNetworkHQ",
   images: ["https://cuckoo-network.b-cdn.net/cuckoo-social-card.webp"],
   description:
@@ -22,10 +22,11 @@ export default function FaucetPage() {
     <DashLayout>
       <div className="flex flex-col">
         <CardTitle className="text-lg font-semibold md:text-2xl">
-          Cuckoo Sepolia Faucet
+          Cuckoo Sepolia Testnet Faucet
         </CardTitle>
         <CardDescription>
-          Follow the steps below to receive {faucetUnits} CAI and {faucetUnits} WCAI.
+          Follow the steps below to receive {faucetUnits} CAI and {faucetUnits}{" "}
+          WCAI.
         </CardDescription>
       </div>
 

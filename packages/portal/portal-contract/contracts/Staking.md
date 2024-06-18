@@ -1,5 +1,19 @@
 # Recommended Setup for Staking Contract
 
+## Mainnet
+
+
+| param                   | val                                        |
+|-------------------------|--------------------------------------------|
+| _timeUnit               | 365 * 24 * 3600 = 31536000                 |
+| _rewardRatioNumerator   | 4                                          |
+| _rewardRatioDenominator | 100                                        |
+| _stakingToken           | 0x142AB2B626cB26A1F2584b166D4eEd0c47cEB9ac |
+| _rewardToken            | 0x142AB2B626cB26A1F2584b166D4eEd0c47cEB9ac |
+| _nativeTokenWrapper     | 0x142AB2B626cB26A1F2584b166D4eEd0c47cEB9ac |
+
+## Testnet
+
 | param                   | val                                        |
 |-------------------------|--------------------------------------------|
 | _timeUnit               | 365 * 24 * 3600 = 31536000                 |

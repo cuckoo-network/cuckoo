@@ -19,9 +19,9 @@ export function StakingCard({ title, balance, children, isLoading }: Props) {
     <Card>
       <CardHeader>
         {title && <CardTitle>{title}</CardTitle>}
-        <CardDescription>
-          {isLoading ? <Skeleton className="h-4 w-[200px]" /> : balance}
-        </CardDescription>
+
+          {isLoading ? <Skeleton className="h-4 w-full" /> : <CardDescription className="break-words">{balance}</CardDescription>}
+
       </CardHeader>
       <CardContent>
         <div className="grid gap-6 col-auto auto-cols-auto">
