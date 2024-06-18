@@ -24,7 +24,7 @@ func (s *Staking) VotersForStaker(votee string) ([]string, error) {
 	voteeAddress := common.HexToAddress(votee)
 	callOpts := &bind.CallOpts{Context: context.Background()}
 
-	err := s.votingContract.Call(callOpts, &rawResult, "getVotersForStaker", voteeAddress)
+	err := s.votingContract.Call(callOpts, &rawResult, "getVotersForMiner", voteeAddress)
 	if err != nil {
 		return nil, err
 	}
@@ -48,18 +48,130 @@ func (s *Staking) VotersForStaker(votee string) ([]string, error) {
 	return resultStrArr, nil
 }
 
-const votingContractAddress = "0xbf4D6eE528f2F7BE1A04AA280e5E27Be15897c9e"
+const votingContractAddress = "0x376bcdBcc649Df441B5F5AE420D6b79a2fCe92A3"
 
 const votingContractABI = `[
+    {
+      "inputs": [],
+      "name": "ContractMetadataUnauthorized",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "OwnableUnauthorized",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "prevURI",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "newURI",
+          "type": "string"
+        }
+      ],
+      "name": "ContractURIUpdated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "prevOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnerUpdated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "voter",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "miner",
+          "type": "address"
+        }
+      ],
+      "name": "VoteRemoved",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "voter",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "miner",
+          "type": "address"
+        }
+      ],
+      "name": "Voted",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address[]",
+          "name": "miners",
+          "type": "address[]"
+        }
+      ],
+      "name": "batchVoteForMiners",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "contractURI",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
     {
       "inputs": [
         {
           "internalType": "address",
-          "name": "staker",
+          "name": "voter",
           "type": "address"
         }
       ],
-      "name": "getVotersForStaker",
+      "name": "getMinersForVoter",
       "outputs": [
         {
           "internalType": "address[]",
@@ -74,11 +186,80 @@ const votingContractABI = `[
       "inputs": [
         {
           "internalType": "address",
-          "name": "staker",
+          "name": "miner",
           "type": "address"
         }
       ],
-      "name": "voteForStaker",
+      "name": "getVotersForMiner",
+      "outputs": [
+        {
+          "internalType": "address[]",
+          "name": "",
+          "type": "address[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "voter",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "miner",
+          "type": "address"
+        }
+      ],
+      "name": "hasVotedForMiner",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "miner",
+          "type": "address"
+        }
+      ],
+      "name": "removeVoteForMiner",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_uri",
+          "type": "string"
+        }
+      ],
+      "name": "setContractURI",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
@@ -87,43 +268,26 @@ const votingContractABI = `[
       "inputs": [
         {
           "internalType": "address",
-          "name": "",
-          "type": "address"
-        },
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "name": "voteesToVoters",
-      "outputs": [
-        {
-          "internalType": "address",
-          "name": "",
+          "name": "_newOwner",
           "type": "address"
         }
       ],
-      "stateMutability": "view",
+      "name": "setOwner",
+      "outputs": [],
+      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
       "inputs": [
         {
           "internalType": "address",
-          "name": "",
+          "name": "miner",
           "type": "address"
         }
       ],
-      "name": "votes",
-      "outputs": [
-        {
-          "internalType": "address",
-          "name": "",
-          "type": "address"
-        }
-      ],
-      "stateMutability": "view",
+      "name": "voteForMiner",
+      "outputs": [],
+      "stateMutability": "nonpayable",
       "type": "function"
     }
   ]`

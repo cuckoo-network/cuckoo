@@ -40,9 +40,9 @@ func (s *Staking) Stakes(stakerAddr string) (big.Int, error) {
 	return *big.NewInt(0), fmt.Errorf("first value is not a *big.Int")
 }
 
-const rpcURL = "https://testnet-rpc.cuckoo.network"
+const rpcURL = "https://mainnet-rpc.cuckoo.network"
 
-const stakingContractAddress = "0x4a32b8dEdA26902591aBc00c9DaC82bf6dc90124"
+const stakingContractAddress = "0x47EC8202018447B424C8F6B4f6e5b603Be0c35CD"
 
 const stakingContractABI = `[
     {
