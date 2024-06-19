@@ -19,7 +19,8 @@ import { chainConfigs } from "@/lib/chain-configs";
 
 const navigationItems = [
   { href: "/portal/staking", label: "Staking", icon: Home },
-  { href: "/portal/faucet", label: "Faucet", icon: Droplet },
+  { href: "/portal/staking/testnet", label: "Testnet Staking", icon: Home },
+  { href: "/portal/faucet", label: "Testnet Faucet", icon: Droplet },
 ];
 
 export function DashLayout({

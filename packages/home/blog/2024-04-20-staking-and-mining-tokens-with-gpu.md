@@ -15,8 +15,8 @@ When miners share their GPUs, how to ensure they are not faking results? Cuckoo 
 
 For stakers
 
-1. Get CAI tokens from [faucet](https://cuckoo.network/portal/faucet)
-2. Stake tokens at the [staking portal](https://cuckoo.network/portal/staking)
+1. Get CAI tokens from [testnet faucet](https://cuckoo.network/portal/faucet)
+2. Stake tokens at the [staking portal / testnet staking](https://cuckoo.network/portal/staking/testnet)
 3. Vote for coordinators or miners
 
 ![Cuckoo Portal - Staking](https://cuckoo-network.b-cdn.net/staking-portal-screenshot.webp "Cuckoo Portal - Staking")

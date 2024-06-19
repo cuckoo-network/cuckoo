@@ -18,11 +18,11 @@ Cuckoo Chain, developed by Offchain Labs and managed by the Cuckoo Foundation, i
 
 ERC20
 
-| Name                        | Contract Address                                             |
-| --------------------------- | ------------------------------------------------------------ |
+| Name                        | Contract Address                                                                                                                                |
+| --------------------------- |-------------------------------------------------------------------------------------------------------------------------------------------------|
 | WCAI wrapped token contract | <pre>[0x142AB2B626cB26A1F2584b166D4eEd0c47cEB9ac](https://mainnet-scan.cuckoo.network/address/0x142AB2B626cB26A1F2584b166D4eEd0c47cEB9ac)</pre> |
-| Staking contract            | <pre>[0x47EC8202018447B424C8F6B4f6e5b603Be0c35CD](https://mainnet-scan.cuckoo.network/address/0x47EC8202018447B424C8F6B4f6e5b603Be0c35CD/)</pre> |
-| Voting contract             | <pre>[0xbf4D6eE528f2F7BE1A04AA280e5E27Be15897c9e](https://testnet-scan.cuckoo.network/address/0xbf4D6eE528f2F7BE1A04AA280e5E27Be15897c9e)</pre> |
+| Staking contract            | <pre>[0x47EC8202018447B424C8F6B4f6e5b603Be0c35CD](https://mainnet-scan.cuckoo.network/address/0x47EC8202018447B424C8F6B4f6e5b603Be0c35CD)</pre> |
+| Voting contract             | <pre>[0x376bcdBcc649Df441B5F5AE420D6b79a2fCe92A3](https://mainnet-scan.cuckoo.network/address/0x376bcdBcc649Df441B5F5AE420D6b79a2fCe92A3)</pre> |
 
 
 
@@ -44,10 +44,10 @@ Testnet Alpha explorer is released at https://scan.cuckoo.network/.
 ERC20
 
 | Name                        | Contract Address                                             |
-| --------------------------- | ------------------------------------------------------------ |
+|-----------------------------| ------------------------------------------------------------ |
 | WCAI wrapped token contract | <pre>[0x7bd97d61DcE3608b2F93D493FD0f42D8C77fB8E9](https://testnet-scan.cuckoo.network/address/0x7bd97d61DcE3608b2F93D493FD0f42D8C77fB8E9/)</pre> |
 | Staking contract            | <pre>[0x4a32b8dEdA26902591aBc00c9DaC82bf6dc90124](https://testnet-scan.cuckoo.network/address/0x4a32b8dEdA26902591aBc00c9DaC82bf6dc90124/)</pre> |
-| Staking Voting              | <pre>[0xbf4D6eE528f2F7BE1A04AA280e5E27Be15897c9e](https://testnet-scan.cuckoo.network/address/0xbf4D6eE528f2F7BE1A04AA280e5E27Be15897c9e)</pre> |
+| Voting contract             | <pre>[0xc0c94B94924e253022E39D1B589DEe9d53150e95](https://testnet-scan.cuckoo.network/address/0xbf4D6eE528f2F7BE1A04AA280e5E27Be15897c9e)</pre> |
 
 
 ## Cuckoo Mainnet

@@ -13,6 +13,8 @@ export default function PostTags({
         return "text-gray-100 bg-pink-500 hover:bg-pink-600";
       case "cuckoo chain":
         return "text-gray-100 bg-teal-500 hover:bg-teal-600";
+      case "airdrop":
+        return "text-gray-100 bg-orange-500 hover:bg-orange-600";
       case "culture":
         return "text-gray-100 bg-green-500 hover:bg-green-600";
       default:
