@@ -115,6 +115,18 @@ Cuckoo Token $CAI is the meme / utility token for Cuckoo Network.
     Where is Cuckoo Chain registered?
   </summary>
   <p class="mt-2">
+    Mainnet Chain ID: https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-1200.json
+  </p>
+  <p class="mt-2">
     Testnet Sepolia Chain ID: https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-1210.json
+  </p>
+</details>
+
+<details class="p-4 bg-white rounded-lg shadow hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
+  <summary class="cursor-pointer text-xl font-semibold">
+    What are the airdrop terms and conditions of Cuckoo Network?
+  </summary>
+  <p class="mt-2">
+    https://cuckoo.network/airdrop-terms-of-service
   </p>
 </details>
