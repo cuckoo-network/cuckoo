@@ -13,7 +13,7 @@ export const useFetchGPUProviders = () => {
 
       try {
         const response = await axios.post(
-          "https://api.blockeden.xyz/cuckoo/testnet/ai/e1CNojhFfpSMrGrgcafg/#listGPUProviders",
+          "https://api.blockeden.xyz/cuckoo/mainnet/ai/e1CNojhFfpSMrGrgcafg/#listGPUProviders",
           {
             jsonrpc: "2.0",
             method: "listGPUProviders",
