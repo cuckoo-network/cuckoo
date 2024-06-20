@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Cuckoo Network Community",
+    "links": [
+      {
+        "text": "Telegram",
+        "url": "https://cuckoo.network/tg"
+      },
+      {
+        "text": "Discord",
+        "url": "https://cuckoo.network/dc"
+      },
+      {
+        "text": "Twitter",
+        "url": "https://cuckoo.network/x"
+      }
+    ]
+  },
+  {
+    "title": "Cuckoo Developers",
+    "links": [
+      {
+        "text": "Documentation",
+        "url": "https://cuckoo.network/docs/cuckoo-network"
+      },
+      {
+        "text": "GitHub",
+        "url": "https://github.com/cuckoo-network/cuckoo"
+      }
+    ]
+  }
+]
