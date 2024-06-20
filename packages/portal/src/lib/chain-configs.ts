@@ -6,7 +6,7 @@ export const chainConfigs = [
     explorers: [
       {
         name: "Cuckoo Scan",
-        url: "https://mainnet-scan.cuckoo.network",
+        url: "https://scan.cuckoo.network",
         standard: "EIP3091",
       },
     ],

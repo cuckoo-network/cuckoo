@@ -14,15 +14,15 @@ Cuckoo Chain, developed by Offchain Labs and managed by the Cuckoo Foundation, i
 * Chain ID: 1200
 * Currency Symbol: CAI
 * Official RPC: https://mainnet-rpc.cuckoo.network
-* Explorer: https://mainnet-scan.cuckoo.network
+* Explorer: https://scan.cuckoo.network
 
 ERC20
 
 | Name                        | Contract Address                                                                                                                                |
 | --------------------------- |-------------------------------------------------------------------------------------------------------------------------------------------------|
-| WCAI wrapped token contract | <pre>[0x142AB2B626cB26A1F2584b166D4eEd0c47cEB9ac](https://mainnet-scan.cuckoo.network/address/0x142AB2B626cB26A1F2584b166D4eEd0c47cEB9ac)</pre> |
-| Staking contract            | <pre>[0x47EC8202018447B424C8F6B4f6e5b603Be0c35CD](https://mainnet-scan.cuckoo.network/address/0x47EC8202018447B424C8F6B4f6e5b603Be0c35CD)</pre> |
-| Voting contract             | <pre>[0x376bcdBcc649Df441B5F5AE420D6b79a2fCe92A3](https://mainnet-scan.cuckoo.network/address/0x376bcdBcc649Df441B5F5AE420D6b79a2fCe92A3)</pre> |
+| WCAI wrapped token contract | <pre>[0x142AB2B626cB26A1F2584b166D4eEd0c47cEB9ac](https://scan.cuckoo.network/address/0x142AB2B626cB26A1F2584b166D4eEd0c47cEB9ac)</pre> |
+| Staking contract            | <pre>[0x47EC8202018447B424C8F6B4f6e5b603Be0c35CD](https://scan.cuckoo.network/address/0x47EC8202018447B424C8F6B4f6e5b603Be0c35CD)</pre> |
+| Voting contract             | <pre>[0x376bcdBcc649Df441B5F5AE420D6b79a2fCe92A3](https://scan.cuckoo.network/address/0x376bcdBcc649Df441B5F5AE420D6b79a2fCe92A3)</pre> |
 
 
 
