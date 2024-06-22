@@ -37,7 +37,7 @@ function parseRAMUsage(used: string, total: string): string {
 }
 
 export const MinerTable: React.FC = () => {
-  const { providers: miners, isLoading } = useFetchGPUProviders();
+  const { providers: miners = [], isLoading } = useFetchGPUProviders();
 
   if (isLoading) {
     return <></>;
@@ -65,7 +65,7 @@ export const MinerTable: React.FC = () => {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {miners
+          {(miners ?? [])
             .sort((a: any, b: any) => b.votes - a.votes)
             .map((miner: any, index: number) => (
               <TableRow key={miner.walletAddress}>
