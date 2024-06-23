@@ -107,8 +107,8 @@ const config: Config = {
           position: "right",
         },
         {
-          href: "https://testnet-scan.cuckoo.network/",
-          label: "Testnet Sepolia",
+          href: "https://scan.cuckoo.network/",
+          label: "Cuckoo Scan",
           position: "right",
         },
         {
@@ -143,11 +143,11 @@ const config: Config = {
               to: "/about-us",
             },
             {
-              label: "Testnet Pre Alpha",
+              label: "Cuckoo Scan",
               to: "https://scan.cuckoo.network/",
             },
             {
-              label: "Testnet Sepolia",
+              label: "Cuckoo Sepolia (Testnet) Scan",
               to: "https://testnet-scan.cuckoo.network/",
             },
             {
