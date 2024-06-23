@@ -38,7 +38,7 @@ offchainlabs/nitro-node:v2.3.4-b4cc111
       -p 0.0.0.0:8547:8547 \
       -p 0.0.0.0:8548:8548 \
       offchainlabs/nitro-node:v2.3.3-6a1c1a7 \
-      --parent-chain.connection.url=wss://arbitrum-one-rpc.publicnode.com \
+      --parent-chain.connection.url=https://arbitrum-one-rpc.publicnode.com \
       --chain.id=1200 \
       --chain.name="Cuckoo Chain" \
       --http.api=net,web3,eth \
