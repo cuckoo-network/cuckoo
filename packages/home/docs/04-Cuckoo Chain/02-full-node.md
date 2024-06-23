@@ -141,3 +141,13 @@ chmod -fR 777 /path-to-data/
       --node.feed.input.url=wss://testnet-sequencer-feed.cuckoo.network \
       --chain.info-json="[{\"chain-id\":1210,\"parent-chain-id\":421614,\"parent-chain-is-arbitrum\":true,\"chain-name\":\"Cuckoo Sepolia\",\"chain-config\":{\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":true,\"InitialArbOSVersion\":11,\"GenesisBlockNum\":0,\"MaxCodeSize\":24576,\"MaxInitCodeSize\":49152,\"InitialChainOwner\":\"0xF66eE80aC2331914F0193a56cdd3511F66f531d5\"},\"chainId\":1210},\"rollup\":{\"bridge\":\"0x84c599703Fd5d3031c2AaF0a32c3a89bB64Ad89A\",\"inbox\":\"0x31Ec68f7B326a45D8CDC3644569230A322bA9C50\",\"sequencer-inbox\":\"0x904b97f741BFD8d00c7D7644E05fFAF71985b5c1\",\"rollup\":\"0xA5f8EA23030F2cDE95f8ffeb56315BaF86f2E64c\",\"validator-utils\":\"0xB11EB62DD2B352886A4530A9106fE427844D515f\",\"validator-wallet-creator\":\"0xEb9885B6c0e117D339F47585cC06a2765AaE2E0b\",\"deployed-at\":51326201}}]"
     ```
+
+3. **Check Node Status**
+
+   Verify that the node is running and check the block height with the following command:
+
+    ```sh
+    curl -X POST http://localhost:8547/ \
+    -H "Content-Type: application/json" \
+    -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
+    ```
