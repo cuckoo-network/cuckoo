@@ -21,8 +21,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "cuckoo-network", // Usually your GitHub org/user name.
+  projectName: "cuckoo", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -66,6 +66,8 @@ const config: Config = {
           trackingID: "G-8W6N8HXQ4R",
         },
         docs: {
+          editUrl:
+            "https://github.com/cuckoo-network/cuckoo/edit/main/packages/home",
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
