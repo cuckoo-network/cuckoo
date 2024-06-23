@@ -5,6 +5,7 @@ import (
 	"github.com/cuckoo-network/cuckoo/packages/node/internal"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/methods"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/store"
+	"github.com/cuckoo-network/cuckoo/packages/node/internal/util"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/worker"
 	"github.com/go-errors/errors"
 	"github.com/joho/godotenv"
@@ -24,6 +25,8 @@ func main() {
 
 	logger := supportlog.New()
 	logger.SetLevel(logrus.InfoLevel)
+
+	util.KeyGenIfNeeded(logger)
 
 	onIngestionRetry := func(err error, dur time.Duration) {
 		logger.WithError(err).Debug("could not run ingestion. Retrying")

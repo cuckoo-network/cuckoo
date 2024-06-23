@@ -68,3 +68,9 @@
 a:hover {
   text-decoration: none;
 }
+
+em {
+  background-color: yellow;
+  font-style: normal;
+  color: black;
+}

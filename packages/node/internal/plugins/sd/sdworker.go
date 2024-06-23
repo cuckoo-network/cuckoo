@@ -20,9 +20,6 @@ type Config struct {
 
 func MustNew(cfg Config) plugins.IWorker {
 	sdURL := os.Getenv("SD_URL")
-	if sdURL == "" {
-		sdURL = "https://localhost.magicwand.so"
-	}
 	sdCli, err := sdcli.New(sdURL)
 	if err != nil {
 		cfg.Logger.Panicf("failed to create adcli")
