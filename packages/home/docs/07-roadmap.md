@@ -9,11 +9,10 @@
 - [x] Testnet
   - [x] Introduce bridges
   - [x] Cuckoo Portal and smart contracts
-- [ ] Pilot Alpha
-  - [ ] Token generation event
+- [ ] Mainnet
+  - [x] Initial Launch
   - [ ] Onboard one AI project to Cuckoo Pay
   - [ ] Onboard one AI project to Cuckoo AI
-- [ ] Mainnet Dry Run
   - [ ] incentive validator program
 - [ ] Mainnet
   - [ ] ecosystem and grants
