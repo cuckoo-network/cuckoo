@@ -1,7 +1,7 @@
 ---
-title: "Cuckoo Chain: The Premier Blockchain for AI and Web3"
+title: "Cuckoo Chain: The Premier Blockchain for AI"
 authors: [lark]
-tags: [company]
+tags: [company, cuckoo chain]
 image: https://cuckoo-network.b-cdn.net/cuckoo-chain-blockchain-for-ai.webp
 description: Cuckoo Chain is redefining the blockchain landscape with its cutting-edge infrastructure designed for AI and Web3. As an Arbitrum L2 in the Ethereum ecosystem, Cuckoo Chain offers lightning-fast transaction speeds, minimal costs, and robust AI capabilities, making it the ideal choice for developers and innovators in the Web3 space.
 ---
@@ -44,14 +44,35 @@ Cuckoo Chain enables the embedding of ML models directly on-chain. It provides t
 
 Cuckoo Chain is more than just a blockchain; it's a community-driven ecosystem. By joining the Cuckoo DAO, you become part of a dynamic and innovative network that is shaping the future of Web3. Connect with us on Discord, Telegram, and GitHub to stay updated and contribute to the development of this groundbreaking platform.
 
+## Call for developers
+
+Web3 and AI developers are welcomed to join our permissionless network
+
+* Run a node: https://cuckoo.network/docs/Cuckoo%20Chain/full-node
+
+Cuckoo Chain Mainnet
+
+- Name: Cuckoo Chain
+- Chain ID: 1200
+- Currency Symbol: CAI
+- Official RPC: [https://mainnet-rpc.cuckoo.network](https://mainnet-rpc.cuckoo.network/)
+- Explorer: [https://scan.cuckoo.network](https://scan.cuckoo.network/)
+- Faucet: https://cuckoo.network/tg
+
+Cuckoo Sepolia Testnet
+
+- Name: Cuckoo Sepolia
+- Chain ID: 1210
+- Currency Symbol: CAI
+- Official RPC: [https://testnet-rpc.cuckoo.network](https://testnet-rpc.cuckoo.network/)
+- Commercial RPC: https://blockeden.xyz/api-marketplace/cuckoo-chain
+- Explorer: [https://testnet-scan.cuckoo.network](https://testnet-scan.cuckoo.network/)
+- Faucet: https://cuckoo.network/portal/faucet
+
 ## Summary
 
 Cuckoo Chain is redefining what’s possible with blockchain technology. Its unmatched speed, cost-efficiency, and AI optimization make it the ideal platform for developers looking to push the boundaries of Web3. As we continue to innovate and expand, we invite you to join us on this journey. Develop with Cuckoo Chain today and experience the future of AI blockchain.
 
-
-
-This pull request adds the [Cuckoo Network](https://cuckoo.network)'s Testnet Sepolia to the chains registration. The explorer is available at [testnet-scan.cuckoo.network](https://testnet-scan.cuckoo.network/) and is EIP3091-compliant.
-
-- source: https://cuckoo.network/blog/2024/06/11/cuckoo-the-blockchain-for-ai
+- source: https://cuckoo.network/blog/2024/06/24/cuckoo-the-blockchain-for-ai
 - telegram: https://cuckoo.network/tg
 - discord: https://cuckoo.network/dc
