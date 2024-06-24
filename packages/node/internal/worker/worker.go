@@ -199,7 +199,7 @@ func (s *Service) run(ctx context.Context) error {
 		return errors.Wrap(err, "failed to SubmitTaskResultWithResponse")
 	}
 	if finalSubmission.JSON200 != nil && finalSubmission.JSON200.Error != nil {
-		return errors.Errorf("failed to SubmitTaskResultWithResponse to completed: %+v", finalSubmission.JSON200.Error)
+		return errors.Errorf("failed to SubmitTaskResultWithResponse to completed: %+v", *finalSubmission.JSON200.Error.Message)
 	}
 
 	s.logger.Infof("submitted")
@@ -234,6 +234,8 @@ func (service *Service) StartPolling() {
 				if e.Is(err, errEmptyTasks) {
 					// keep retrying until history archives are published
 					constantBackoff.Reset()
+				} else {
+					service.logger.WithError(err).Error("failed to poll tasks")
 				}
 				return err
 			},

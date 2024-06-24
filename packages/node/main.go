@@ -62,7 +62,7 @@ func main() {
 		Worker:    wks.Worker,
 	})
 	httpHandler := supporthttp.NewAPIMux(logger)
-	httpHandler.Handle("/offer_task/sd", methods.OfferTaskHandler(taskStore))
+	httpHandler.Handle("/task/*", methods.OfferTaskHandler(taskStore))
 	httpHandler.Handle("/", jsonRPCHandler)
 	server := &http.Server{
 		Addr:        addr,

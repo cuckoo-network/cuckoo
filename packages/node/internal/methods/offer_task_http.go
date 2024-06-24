@@ -5,38 +5,66 @@ import (
 	"encoding/json"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/plugins"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/store"
-	"io/ioutil"
-	"math/big"
+	"github.com/cuckoo-network/cuckoo/packages/node/internal/util"
+	"github.com/go-chi/chi"
+	"io"
 	"net/http"
+	"strings"
 	"time"
 )
 
+type OfferTaskRequestPayload struct {
+	Method string          `json:"Method"`
+	Path   string          `json:"Path"`
+	Body   json.RawMessage `json:"Body"`
+}
+
 func OfferTaskHandler(ts *store.InMemoryTaskStore) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
-		id := r.Header.Get("X-Id")
-		coinSymbol := r.Header.Get("X-Coin-Symbol")
-		maxOfferPrice := r.Header.Get("X-MaxOfferPrice")
+		allTheRestSegments := strings.Split(chi.URLParam(r, "*"), "/")
 
-		// Read and parse the JSON body
-		body, err := ioutil.ReadAll(r.Body)
+		coinSymbolStr := allTheRestSegments[0]
+		coin := plugins.CoinSymbolFromString(strings.ToUpper(coinSymbolStr))
+		forwardedURLPath := "/" + strings.Join(allTheRestSegments[1:], "/")
+
+		id := r.Header.Get("X-Id")
+		if id == "" {
+			id = util.TaskID()
+		}
+		maxOfferPrice := r.Header.Get("X-Max-Offer-Price")
+
+		// Read and parse the JSON Body
+		body, err := io.ReadAll(r.Body)
 		if err != nil {
-			http.Error(w, "Failed to read request body", http.StatusBadRequest)
+			http.Error(w, "Failed to read request Body", http.StatusBadRequest)
 			return
 		}
 		defer r.Body.Close()
 
-		var request OfferTaskRequest
-		if err := json.Unmarshal(body, &request); err != nil {
-			http.Error(w, "Failed to parse JSON body", http.StatusBadRequest)
+		rp := OfferTaskRequestPayload{
+			Method: r.Method,
+			Path:   forwardedURLPath,
+			Body:   body,
+		}
+		rpBytes, err := json.Marshal(rp)
+		if err != nil {
+			http.Error(w, "Failed to marshal offer task request payload", http.StatusBadRequest)
 			return
 		}
 
-		// Create a new task based on the headers and parsed body
+		request := OfferTaskRequest{
+			ID:            id,
+			Payload:       rpBytes,
+			CoinSymbol:    coin,
+			MaxOfferPrice: util.NewBigIntFromString(maxOfferPrice),
+		}
+
+		// Create a new task based on the headers and parsed Body
 		task := &store.TaskOffer{
 			Id:                id,
 			Status:            store.Pending,
-			CoinSymbol:        plugins.CoinSymbolFromString(coinSymbol),
-			MaxOfferPrice:     newBigIntFromString(maxOfferPrice),
+			CoinSymbol:        coin,
+			MaxOfferPrice:     util.NewBigIntFromString(maxOfferPrice),
 			CreatedAt:         time.Now(),
 			ResultPayloadChan: make(chan json.RawMessage),
 			Payload:           request.Payload,
@@ -62,12 +90,4 @@ func OfferTaskHandler(ts *store.InMemoryTaskStore) http.HandlerFunc {
 			http.Error(w, "Request cancelled by the client", http.StatusRequestTimeout)
 		}
 	}
-}
-
-func newBigIntFromString(s string) *big.Int {
-	bigInt := new(big.Int)
-	if _, ok := bigInt.SetString(s, 10); !ok {
-		return big.NewInt(0)
-	}
-	return bigInt
 }
