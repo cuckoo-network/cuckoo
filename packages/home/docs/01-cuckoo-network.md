@@ -1,14 +1,16 @@
 # Cuckoo Network
 
-⚡️ **Cuckoo AI** is a decentralized model-serving marketplace enabling GPU and CPU miners to share their resources with generative AI app builders for image generation and LLM inference.
+**Cuckoo Network = Cuckoo AI Decentralized Inference + Cuckoo Chain**
 
-🧠 **Cuckoo AI** offers three key innovations:
+⚡️ **Cuckoo AI** is a decentralized model-serving marketplace enabling GPU and CPU miners to share their resources with generative AI app builders for image generation and LLM inference on Cuckoo Chain.
 
-- **Decentralized Multimodal Inference**:
+🧠 **Cuckoo Network** offers three key innovations:
+
+- **Decentralized Inference**:
   - **Coordinator Nodes** schedule inference tasks based on customer needs
   - **GPU Miner Nodes** perform inference by sharing GPU resources
 - **Cuckoo Chain** an Arbitrum Orbit rollup for decentralized AI
-- **$CAI**, the native coin for computing unit credits
+- **$CAI**, the native gas token for Cuckoo Chain
 
 💎 **$CAI** Overview:
 
