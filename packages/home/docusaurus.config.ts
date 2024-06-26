@@ -5,10 +5,10 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 const config: Config = {
   title: "Cuckoo AI",
-  tagline: "Cuckoo AI Decentralized Model Serving Marketplace",
+  tagline: "Cuckoo AI Decentralized Model Serving",
   customFields: {
     description:
-      "Share your GPU or CPU with Gen AI App builders to generate images and perform LLM inference",
+      "Share your GPU or CPU with Gen AI App builders to generate images and perform LLM inference on Cuckoo Chain",
   },
   titleDelimiter: "-",
   favicon: "img/favicon.png",
@@ -143,11 +143,11 @@ const config: Config = {
               to: "/about-us",
             },
             {
-              label: "Cuckoo Scan",
+              label: "Cuckoo Scan (Mainnet)",
               to: "https://scan.cuckoo.network/",
             },
             {
-              label: "Cuckoo Sepolia (Testnet) Scan",
+              label: "Cuckoo Sepolia Scan (Testnet)",
               to: "https://testnet-scan.cuckoo.network/",
             },
             {

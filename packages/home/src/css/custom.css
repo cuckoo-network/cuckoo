@@ -1,11 +1,10 @@
-@import './additional-styles/utility-patterns.css';
-@import './additional-styles/range-slider.css';
-@import './additional-styles/toggle-switch.css';
-@import './additional-styles/theme.css';
+@import "./additional-styles/utility-patterns.css";
+@import "./additional-styles/range-slider.css";
+@import "./additional-styles/toggle-switch.css";
+@import "./additional-styles/theme.css";
 
 @tailwind base;
 @tailwind components;
-
 
 @tailwind utilities;
 
@@ -27,20 +26,19 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
-
   --ifm-navbar-background-color: rgb(17, 24, 39);
-  --ifm-background-color: rgb(17, 24, 39)!important;
+  --ifm-background-color: rgb(17, 24, 39) !important;
   --ifm-footer-background-color: rgb(17, 24, 39);
   --ifm-hero-background-color: rgb(17, 24, 39);
 
-  --ifm-font-family-base: -apple-system, Inter, BlinkMacSystemFont, "Segoe UI", "Roboto",
-  "Helvetica Neue", "Ubuntu", sans-serif, Microsoft YaHei !important;
+  --ifm-font-family-base: -apple-system, Inter, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Helvetica Neue", "Ubuntu", sans-serif, Microsoft YaHei !important;
 
-  --ifm-font-size-base: 18px;
+  --ifm-font-size-base: 16px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #3b82f6;
   --ifm-color-primary-dark: #2372f5;
   --ifm-color-primary-darker: #0b63f3;
@@ -51,7 +49,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
   --ifm-navbar-background-color: rgb(17, 24, 39);
-  --ifm-background-color: rgb(17, 24, 39)!important;
+  --ifm-background-color: rgb(17, 24, 39) !important;
   --ifm-footer-background-color: rgb(17, 24, 39);
   --ifm-hero-background-color: rgb(17, 24, 39);
 }
@@ -63,7 +61,6 @@
 .footer {
   border-top: 1px solid var(--ifm-color-gray-800);
 }
-
 
 a:hover {
   text-decoration: none;

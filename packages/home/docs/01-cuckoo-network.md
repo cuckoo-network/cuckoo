@@ -1,8 +1,4 @@
----
-sidebar_position: 1
----
-
-# Cuckoo AI Overview
+# Cuckoo Network
 
 ⚡️ **Cuckoo AI** is a decentralized model-serving marketplace enabling GPU and CPU miners to share their resources with generative AI app builders for image generation and LLM inference.
 
@@ -33,6 +29,7 @@ sidebar_position: 1
 🔗 Useful links:
 
 - Website: https://cuckoo.network/
+- Blogs: https://cuckoo.network/blogs
 - X: https://cuckoo.network/x
 - WP: https://cuckoo.network/docs/cuckoo-network
 - Dc: https://cuckoo.network/dc
