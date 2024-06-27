@@ -22,6 +22,7 @@ const navigationItems = [
   { href: "/portal/staking", label: "Staking", icon: Home },
   { href: "/portal/staking/testnet", label: "Testnet Staking", icon: Home },
   { href: "/portal/faucet", label: "Testnet Faucet", icon: Droplet },
+  // { href: "/portal/airdrop", label: "Airdrop", icon: Droplet },
 ];
 
 export function DashLayout({

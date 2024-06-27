@@ -6971,6 +6971,11 @@ react-is@^16.13.1, react-is@^16.7.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-oauth2-code-pkce@^1.20.1:
+  version "1.20.1"
+  resolved "https://registry.yarnpkg.com/react-oauth2-code-pkce/-/react-oauth2-code-pkce-1.20.1.tgz#832ee8e5e0c6edaa551fae3f84da94a22b3dd25c"
+  integrity sha512-HX/OpIKX6cnvKy80rqEgRfX8N+mXuM+266meoYGOi83I7vqcfPePdr+4Cwtly7DDDeHL9FeB91LV1Nk6BSLZVA==
+
 react-remove-scroll-bar@^2.3.3:
   version "2.3.6"
   resolved "https://registry.yarnpkg.com/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.6.tgz#3e585e9d163be84a010180b18721e851ac81a29c"
