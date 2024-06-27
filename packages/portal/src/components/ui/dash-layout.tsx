@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Bell, Bird, Droplet, Home, Menu } from "lucide-react";
+import { Bell, Bird, Droplet, FileImage, Home, Menu } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -18,6 +18,7 @@ import { ConnectWallet, ThirdwebProvider } from "@thirdweb-dev/react";
 import { chainConfigs } from "@/lib/chain-configs";
 
 const navigationItems = [
+  { href: "/portal/art", label: "Cuckoo Art", icon: FileImage },
   { href: "/portal/staking", label: "Staking", icon: Home },
   { href: "/portal/staking/testnet", label: "Testnet Staking", icon: Home },
   { href: "/portal/faucet", label: "Testnet Faucet", icon: Droplet },
