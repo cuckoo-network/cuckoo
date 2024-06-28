@@ -1,7 +1,7 @@
 ---
 title: "Cuckoo Chain: The Premier Blockchain for AI"
 authors: [lark]
-tags: [company, cuckoo chain]
+tags: [company, cuckoo chain, roadmap]
 image: https://cuckoo-network.b-cdn.net/cuckoo-chain-blockchain-for-ai.webp
 description: Cuckoo Chain is redefining the blockchain landscape with its cutting-edge infrastructure designed for AI and Web3. As an Arbitrum L2 in the Ethereum ecosystem, Cuckoo Chain offers lightning-fast transaction speeds, minimal costs, and robust AI capabilities, making it the ideal choice for developers and innovators in the Web3 space.
 ---

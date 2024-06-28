@@ -1,7 +1,7 @@
 ---
 title: Decentralizing text-to-image generation with Cuckoo
 authors: [lark]
-tags: [company]
+tags: [company, roadmap]
 image: https://cuckoo-network.b-cdn.net/decentralizing-text-to-image-gen.webp
 description: Artificial Intelligence (AI) systems hold unprecedented potential to reshape industries, yet their development has been stifled by issues inherent to centralized frameworks. These range from significant privacy concerns to limitations in computational accuracy and a vulnerability to censorship.
 ---

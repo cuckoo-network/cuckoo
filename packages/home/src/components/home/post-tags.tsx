@@ -15,7 +15,7 @@ export default function PostTags({
         return "text-gray-100 bg-teal-500 hover:bg-teal-600";
       case "airdrop":
         return "text-gray-100 bg-orange-500 hover:bg-orange-600";
-      case "culture":
+      case "roadmap":
         return "text-gray-100 bg-green-500 hover:bg-green-600";
       default:
         return "text-gray-100 bg-purple-600 hover:bg-purple-700";

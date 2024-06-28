@@ -1,7 +1,7 @@
 ---
 title: "Introducing Cuckoo Network Bridge: Seamless Asset Transfers Across Chains"
 authors: [lark]
-tags: [product]
+tags: [product, roadmap]
 image: https://cuckoo-network.b-cdn.net/cuckoo-network-bridge-seamless-asset-transfers.webp
 ---
 
@@ -39,5 +39,5 @@ The Cuckoo Network Bridge is here to improve your cross-chain experience in the 
 
 ## Join Our Community
 
-For more information, visit our website https://bridge.cuckoo.network/ or join our vibrant community on [Discord](https://cuckoo.network/dc), [Telegram](https://cuckoo.network/tg), and [X / Twitter](https://cuckoo.network/x). Let's bridge the gap in the Web3 world together.
+For more information, visit our website https://bridge.cuckoo.network/ or join our vibrant community on [Discord](https://cuckoo.network/dc), [Telegram](https://cuckoo.network/tg), and [X / Twitter](https://cuckoo.network/x). Let's bridge the gap in the Web3 + AI world together.
 

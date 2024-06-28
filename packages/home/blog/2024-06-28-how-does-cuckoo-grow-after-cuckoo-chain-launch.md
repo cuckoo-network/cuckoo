@@ -1,7 +1,7 @@
 ---
 title: "How Cuckoo AI Grows After the Cuckoo Chain Launch"
 authors: [lark]
-tags: [company]
+tags: [company, roadmap]
 image: https://cuckoo-network.b-cdn.net/how-does-cuckoo-grow-after-cuckoo-chain-launch.webp
 description: Since the launch of Cuckoo Chain, Cuckoo Network has experienced significant growth. This blog explores the enhanced Holder, Miner, and DeAI builder experiences driving this transformation.
 ---
@@ -66,6 +66,6 @@ To achieve mass adoption, we must blend the best of web2 experiences with web3 i
 Cuckoo is poised for significant growth with the launch of Cuckoo Chain. By focusing on the experiences of holders, miners, and AI developers, we are building a vibrant, resilient, and decentralized ecosystem. Join us in redefining the future of AI.
 
 
-- source: https://cuckoo.network/TODO
+- source: https://cuckoo.network/blog/2024/06/28/how-does-cuckoo-grow-after-cuckoo-chain-launch
 - telegram: https://cuckoo.network/tg
 - discord: https://cuckoo.network/dc
