@@ -107,8 +107,8 @@ const config: Config = {
           position: "right",
         },
         {
-          href: "https://scan.cuckoo.network/",
-          label: "Cuckoo Scan",
+          href: "/cuckoo-chain",
+          label: "Blockchain",
           position: "right",
         },
         {
@@ -203,6 +203,10 @@ const config: Config = {
             {
               label: "Blogs",
               to: "/blogs",
+            },
+            {
+              label: "Help Center",
+              to: "/help-center",
             },
             {
               label: "Privacy Policy",

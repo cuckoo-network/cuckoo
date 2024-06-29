@@ -71,7 +71,7 @@ export function Hero() {
               <div>
                 <Link
                   className={clsx(
-                    "button btn text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group",
+                    "button btn text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group uppercase",
                     styles.heroA,
                   )}
                   href="/cuckoo-bot"
@@ -85,7 +85,7 @@ export function Hero() {
               <div>
                 <Link
                   className={clsx(
-                    "button btn text-gray-300 bg-gradient-to-t from-gray-800 to-gray-700 hover:to-gray-800 w-full shadow-lg",
+                    "button btn text-gray-300 bg-gradient-to-t from-gray-800 to-gray-700 hover:to-gray-800 w-full shadow-lg uppercase",
                     styles.heroA,
                   )}
                   href="/docs/cuckoo-network"
