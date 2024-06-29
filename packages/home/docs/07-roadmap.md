@@ -11,21 +11,22 @@
 
   - [x] [How Cuckoo AI Grows After the Cuckoo Chain Launch](/blog/2024/06/28/how-does-cuckoo-grow-after-cuckoo-chain-launch)
   - [ ] DeAI users
+    - [ ] Onboard one AI project to Cuckoo AI (2024-07-A)
     - [ ] Onboard one AI project to Cuckoo Pay
-    - [ ] Onboard one AI project to Cuckoo AI (2024-07-B)
     - [ ] [The Future of AI Anime: Cuckoo Art Business Plan](/future-releases/generative-art)
 
-  - [ ] Node operator program (2024-07-A)
+  - [ ] Node operator program (2024-07-B)
     - [ ] [Node registration on Cuckoo Portal](/future-releases/cuckoo-network-node-leaderboard)
     - [ ] Cuckoo Chain Developer
     - [ ] Network Stats Monitor
 
-  - [ ] Holder's Airdrop Portal and Referral Program
+  - [ ] Holder's Airdrop Portal and Referral Program (2024-08-A)
+    - [ ] Telegram integration
 
 
 ## Future
 
-- [ ] DAO Gov
+- [ ] DAO Gov (2024-08-B)
 - [ ] Incentivize DeFi Infras
 - [ ] Ecosystem
   - [ ] ecosystem and grants
