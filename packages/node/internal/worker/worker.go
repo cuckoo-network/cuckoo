@@ -225,16 +225,13 @@ func (service *Service) StartPolling() {
 	panicGroup.Go(func() {
 		defer service.wg.Done()
 		// Retry running ingestion every second for 5 seconds.
-		constantBackoff := backoff.WithMaxRetries(backoff.NewConstantBackOff(1*time.Second), 5)
+		constantBackoff := backoff.NewConstantBackOff(2 * time.Second)
 		// Don't want to keep retrying if the context gets canceled.
 		contextBackoff := backoff.WithContext(constantBackoff, ctx)
 		err := backoff.RetryNotify(
 			func() error {
 				err := service.run(ctx)
-				if e.Is(err, errEmptyTasks) {
-					// keep retrying until history archives are published
-					constantBackoff.Reset()
-				} else {
+				if !e.Is(err, errEmptyTasks) {
 					service.logger.WithError(err).Error("failed to poll tasks")
 				}
 				return err
