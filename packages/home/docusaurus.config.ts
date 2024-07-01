@@ -139,6 +139,10 @@ const config: Config = {
               to: "https://cuckoo.network/portal/faucet",
             },
             {
+              label: "Bridge",
+              to: "https://bridge.cuckoo.network/",
+            },
+            {
               label: "About Us",
               to: "/about-us",
             },

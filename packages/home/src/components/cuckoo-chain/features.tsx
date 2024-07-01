@@ -10,6 +10,7 @@ const FeaturesIcon04 = "/img/cuckoo-chain/features-icon-04.svg";
 // Import Swiper
 import Swiper, { Autoplay, Navigation } from "swiper";
 import "swiper/swiper.min.css";
+import Link from "@docusaurus/Link";
 Swiper.use([Autoplay, Navigation]);
 
 export default function Features() {
@@ -61,12 +62,11 @@ export default function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 font-hkgrotesk mb-4">
-              Many tools to express your creativity
+              Many tools to decentralized AI with Cuckoo Chain
             </h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-slate-500">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est.
+                The best resources for building an end-to-end Cuckoo Chain dApp.
               </p>
             </div>
           </div>
@@ -85,23 +85,23 @@ export default function Features() {
                 />
                 <div className="grow">
                   <div className="font-hkgrotesk font-bold text-xl">
-                    Collaboration
+                    Cuckoo Network Bridge
                   </div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore.
+                    Transfer assets seamlessly across Arbitrum One and Cuckoo
+                    Chain with minimal fees and secure transactions.
                   </div>
                 </div>
                 <div className="text-right">
-                  <a
+                  <Link
                     className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group"
-                    href="#0"
+                    href="/docs/Cuckoo%20Chain/bridge"
                   >
                     Learn More{" "}
                     <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                       -&gt;
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded">
@@ -114,23 +114,23 @@ export default function Features() {
                 />
                 <div className="grow">
                   <div className="font-hkgrotesk font-bold text-xl">
-                    Experiences
+                    Thirdweb
                   </div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore.
+                    Full-stack, open-source web3 development platform. Fullstack
+                    tools to build complete web3 apps.
                   </div>
                 </div>
                 <div className="text-right">
-                  <a
+                  <Link
                     className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group"
-                    href="#0"
+                    href="https://thirdweb.com/cuckoo-chain"
                   >
                     Learn More{" "}
                     <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                       -&gt;
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded">
@@ -143,17 +143,17 @@ export default function Features() {
                 />
                 <div className="grow">
                   <div className="font-hkgrotesk font-bold text-xl">
-                    Animation
+                    ChainList
                   </div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore.
+                    ChainList is a list of EVM networks. Users can use the info
+                    to connect their wallets and Web3 middleware providers
                   </div>
                 </div>
                 <div className="text-right">
                   <a
                     className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group"
-                    href="#0"
+                    href="https://chainlist.org/chain/1200"
                   >
                     Learn More{" "}
                     <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
@@ -172,11 +172,11 @@ export default function Features() {
                 />
                 <div className="grow">
                   <div className="font-hkgrotesk font-bold text-xl">
-                    Modeling
+                    Cuckoo Scan
                   </div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore.
+                    Blockchain explorer to inspect Cuckoo Chain transactions,
+                    tokens, and coins. RESTful and GraphQL API available.
                   </div>
                 </div>
                 <div className="text-right">
@@ -195,7 +195,7 @@ export default function Features() {
           </div>
           {/* Arrows */}
           <div className="flex mt-12 space-x-4 justify-end">
-            <button className="carousel-prev relative z-20 w-14 h-14 rounded-full flex items-center justify-center group border border-slate-700 bg-slate-800 hover:bg-slate-700 transition duration-150 ease-in-out">
+            <button className="cursor-pointer carousel-prev relative z-20 w-14 h-14 rounded-full flex items-center justify-center group border-none border-slate-700 bg-slate-800 hover:bg-slate-700 transition duration-150 ease-in-out">
               <span className="sr-only">Previous</span>
               <svg
                 className="w-4 h-4 fill-slate-400 transition duration-150 ease-in-out"
@@ -205,7 +205,7 @@ export default function Features() {
                 <path d="M6.7 14.7l1.4-1.4L3.8 9H16V7H3.8l4.3-4.3-1.4-1.4L0 8z" />
               </svg>
             </button>
-            <button className="carousel-next relative z-20 w-14 h-14 rounded-full flex items-center justify-center group border border-slate-700 bg-slate-800 hover:bg-slate-700 transition duration-150 ease-in-out">
+            <button className="cursor-pointer carousel-next relative z-20 w-14 h-14 rounded-full flex items-center justify-center group border-none border-slate-700 bg-slate-800 hover:bg-slate-700 transition duration-150 ease-in-out">
               <span className="sr-only">Next</span>
               <svg
                 className="w-4 h-4 fill-slate-400 transition duration-150 ease-in-out"

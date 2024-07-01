@@ -41,3 +41,6 @@ The Cuckoo Network Bridge is here to improve your cross-chain experience in the 
 
 For more information, visit our website https://bridge.cuckoo.network/ or join our vibrant community on [Discord](https://cuckoo.network/dc), [Telegram](https://cuckoo.network/tg), and [X / Twitter](https://cuckoo.network/x). Let's bridge the gap in the Web3 + AI world together.
 
+- source: https://cuckoo.network/blog/2024/07/01/cuckoo-network-bridge-seamless-asset-transfers
+- telegram: https://cuckoo.network/tg
+- discord: https://cuckoo.network/dc

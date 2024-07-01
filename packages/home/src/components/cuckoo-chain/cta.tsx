@@ -37,7 +37,7 @@ export default function Cta() {
             <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <div data-aos="fade-up" data-aos-delay="100">
                 <Link
-                  className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group uppercase"
+                  className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group uppercase hover:text-white"
                   href="https://scan.cuckoo.network"
                 >
                   Explore Chain{" "}
@@ -48,7 +48,7 @@ export default function Cta() {
               </div>
               <div data-aos="fade-up" data-aos-delay="200">
                 <Link
-                  className="btn text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600 w-full shadow-sm uppercase"
+                  className="btn text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600 w-full shadow-sm uppercase hover:text-white"
                   href="/docs/Cuckoo%20Chain/cuckoo-chain"
                 >
                   Read Docs

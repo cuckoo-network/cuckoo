@@ -43,6 +43,11 @@ const sidebars: SidebarsConfig = {
           id: "Cuckoo Chain/full-node",
           label: " How to Run a Cuckoo Chain Node",
         },
+        {
+          type: "doc",
+          id: "Cuckoo Chain/bridge",
+          label: " Cuckoo Bridge",
+        },
       ],
     },
     {
