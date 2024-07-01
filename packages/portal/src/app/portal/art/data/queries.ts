@@ -11,7 +11,7 @@ export const queryTrendingPosts = gql`
         postState
         contentRating
         photoMedia {
-          uuid
+          id
           url
           sortOrder
           width
@@ -24,7 +24,7 @@ export const queryTrendingPosts = gql`
         profile {
           name
           profilePhoto {
-            uuid
+            id
             url
             sortOrder
             width

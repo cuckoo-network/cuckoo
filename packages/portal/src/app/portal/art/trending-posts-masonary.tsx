@@ -13,28 +13,30 @@ export const TrendingPostsMasonary = () => {
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-4">
-      {postGroups.map((group, ii) => (
+      {postGroups.map((group, ii) => {
+        return (
         <div className="gap-4" key={ii}>
-          {group.map((p: any) => (
+          {group.map((p: any) => {
+            return (
             <div key={p.id} className={"mb-4"}>
               <img
                 className="h-auto max-w-full rounded-lg"
-                src={p.photoMedia[0].url}
+                src={p.photoMedia?.at(0)?.url}
                 alt=""
               />
             </div>
-          ))}
+          )})}
         </div>
-      ))}
+      )})}
     </div>
   );
 };
 
 function groupIntertwined<T>(items: T[]): T[][] {
-  const groups: T[][] = [[], [], [], [], [], []];
+  const groups: T[][] = [[], [], [], [], []];
 
   for (let i = 0; i < items.length; i++) {
-    const groupIndex = i % 6;
+    const groupIndex = i % 5;
     groups[groupIndex].push(items[i]);
   }
 
