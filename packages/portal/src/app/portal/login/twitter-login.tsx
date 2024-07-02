@@ -11,25 +11,29 @@ import { useContext } from "react";
 import { LoaderCircle, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import * as React from "react";
-import {useRouter} from "next/navigation";
+import { useRouter } from "next/navigation";
 
 const LoginInner = ({ isLoading }: { isLoading: boolean }) => {
-  const {
-    logOut,
-    error,
-    logIn,
-    loginInProgress,
-    idToken,
-  }: IAuthContext = useContext(AuthContext);
+  const { logOut, error, logIn, loginInProgress, idToken }: IAuthContext =
+    useContext(AuthContext);
   const router = useRouter();
 
-  useEffect(() => {
-    if (idToken && typeof localStorage !== "undefined") {
-      logOut();
-      localStorage.setItem("cuckoo:token", idToken);
-      router.push("/portal/art");
-    }
-  }, [idToken, logOut, router]);
+  useEffect(
+    function postLogin() {
+      if (idToken && typeof localStorage !== "undefined") {
+        logOut();
+        localStorage.setItem("cuckoo:token", idToken);
+        let postLoginPath = "/portal/art";
+        const prevPosition = localStorage.getItem("cuckoo:prevLocation");
+        if (prevPosition?.startsWith("/portal/")) {
+          postLoginPath = prevPosition;
+        }
+
+        router.push(postLoginPath);
+      }
+    },
+    [idToken, logOut, router],
+  );
 
   if (error) {
     return (
