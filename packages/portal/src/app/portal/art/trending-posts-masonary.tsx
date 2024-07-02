@@ -2,7 +2,7 @@
 
 import React from "react";
 import {useTrendingPosts} from "@/app/portal/art/hooks/use-trending-posts";
-import {Button} from "@/components/ui/button";
+// import {Button} from "@/components/ui/button";
 
 export const TrendingPostsMasonary = () => {
   const {dataTrendingPosts, loadingTrendingPosts} = useTrendingPosts();
@@ -15,7 +15,7 @@ export const TrendingPostsMasonary = () => {
   return (
     <>
       <div className={"flex gap-1"}>
-        <Button variant={"secondary"} href={"/portal/art/create-post"}>Creat Post</Button>
+        {/*<Button variant={"secondary"} href={"/portal/art/create-post"}>Creat Post</Button>*/}
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-4">

@@ -41,7 +41,7 @@
 
 - [x] Testnet (2024-05)
   - [x] Introduce bridges
-    - [ ] [Introducing Cuckoo Network Bridge: Seamless Asset Transfers Across Chains](/future-releases/2024-06-28-cuckoo-network-bridge-seamless-asset-transfers)
+    - [x] [Introducing Cuckoo Network Bridge: Seamless Asset Transfers Across Chains](/blog/2024/07/01/cuckoo-network-bridge-seamless-asset-transfers)
   - [x] Cuckoo Portal and smart contracts
     - [x] [Staking and mining tokens with GPU](https://cuckoo.network/blog/2024/04/20/staking-and-mining-tokens-with-gpu)
     - [x] [Announcing Cuckoo Sepolia V2 on Arbitrum](https://cuckoo.network/blog/2024/06/11/testnet-sepolia-v2)

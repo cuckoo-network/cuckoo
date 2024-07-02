@@ -228,7 +228,7 @@ export function Ecosystem() {
               <a
                 className={`block relative before:content-[''] before:bg-gray-800 before:absolute before:-z-10 before:inset-0 p-6 group ${!["1"].includes(category) && "hidden"}`}
                 target={"_blank"}
-                href="https://www.magicwand.so"
+                href="https://cuckoo.network/portal/art"
               >
                 <div className="relative h-12 w-12 rounded-full bg-gradient-to-t from-gray-800 to-gray-700 flex items-center justify-center shadow-lg mb-3 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                   <svg
@@ -246,10 +246,10 @@ export function Ecosystem() {
                   </svg>
                 </div>
                 <div className="font-uncut-sans text-xl text-gray-100 font-semibold">
-                  Magic Wand
+                  Cuckoo Art
                 </div>
                 <p className="text-gray-100">
-                  [Ecosystem][Work in progress] Create quality visual assets.
+                  Discover AI arts created in our network.
                 </p>
               </a>
               {/* 6th Box */}
