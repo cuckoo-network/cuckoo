@@ -11,6 +11,7 @@ import { useContext } from "react";
 import { LoaderCircle, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import * as React from "react";
+import {useRouter} from "next/navigation";
 
 const LoginInner = ({ isLoading }: { isLoading: boolean }) => {
   const {
@@ -18,7 +19,17 @@ const LoginInner = ({ isLoading }: { isLoading: boolean }) => {
     error,
     logIn,
     loginInProgress,
+    idToken,
   }: IAuthContext = useContext(AuthContext);
+  const router = useRouter();
+
+  useEffect(() => {
+    if (idToken && typeof localStorage !== "undefined") {
+      logOut();
+      localStorage.setItem("cuckoo:token", idToken);
+      router.push("/portal/art");
+    }
+  }, [idToken, logOut, router]);
 
   if (error) {
     return (
@@ -72,12 +83,8 @@ export const TwitterLogin = ({ isLoading }: { isLoading: boolean }) => {
       redirectUri: `${redirectUriUrlBase}/portal/login`,
       scope: "users.read tweet.read",
       state: "don't-care",
-      decodeToken: true,
+      decodeToken: false,
       autoLogin: false,
-      postLogin: async () => {
-        console.log("post login!");
-        window.location.replace("/portal/art");
-      },
     }),
     [redirectUriUrlBase, tokenEndpointUrlBase],
   );

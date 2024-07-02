@@ -1,6 +1,7 @@
 "use client";
 
 import {useEffect, useRef, useState} from "react";
+import {Authenticated} from "@/containers/authentication/authenticated";
 
 const UploadButton: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -79,6 +80,7 @@ export function CreatePost() {
   };
 
   return (
+    <Authenticated>
     <div className="">
       <div className="grid grid-cols-2 gap-6">
         <div className="col-span-2 sm:col-span-1">
@@ -126,6 +128,7 @@ export function CreatePost() {
         </div>
       </div>
     </div>
+    </Authenticated>
   );
 
 }
