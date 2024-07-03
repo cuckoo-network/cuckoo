@@ -8,6 +8,7 @@ import Faqs from "@site/src/components/cuckoo-chain/faqs";
 import Cta from "@site/src/components/cuckoo-chain/cta";
 import Layout from "@theme/Layout";
 import { useAos } from "@site/src/hooks/use-aos";
+import {News} from "@site/src/components/home/news";
 const Illustration = "/img/cuckoo-chain/hero-illustration.svg";
 
 export default function Home() {
@@ -41,6 +42,7 @@ export default function Home() {
         {/*<Integrations />*/}
         <Pricing />
         <Faqs />
+        <News tag={"cuckoo chain"}/>
         <Cta />
       </main>
     </Layout>

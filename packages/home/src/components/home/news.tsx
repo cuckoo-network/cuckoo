@@ -5,8 +5,12 @@ const {
   blogPosts,
 } = require("../../../.docusaurus/docusaurus-plugin-content-blog/default/blog-archive-80c.json");
 
-export function News() {
-  const posts = blogPosts.slice(0, 3);
+export function News({tag}: {tag?: string}) {
+  let filtered = blogPosts;
+  if (tag) {
+    filtered = filtered.filter(it => it.metadata.tags.some(t => t.label === tag));
+  }
+  const posts = filtered.slice(0, 3);
 
   return (
     <section>
@@ -31,7 +35,7 @@ export function News() {
             </div>
           </div>
 
-          <Link className="float-right hover:text-white" href="/blogs">
+          <Link className="float-right hover:text-white" href={tag ? `/blog/tags/${slugify(tag)}` : "/blogs/"}>
             Read more
             <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
               -&gt;
@@ -41,4 +45,12 @@ export function News() {
       </div>
     </section>
   );
+}
+
+function slugify(input: string): string {
+  return input
+    .toLowerCase()
+    .trim()
+    .replace(/[\s\W-]+/g, '-')
+    .replace(/^-+|-+$/g, '');
 }
