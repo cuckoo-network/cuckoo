@@ -8,6 +8,8 @@ description: Participate in the Cuckoo Network Airdrop this June 2024. Interact 
 
 The Cuckoo Network is excited to announce our June 2024 airdrop. A total of 30,000 $CAI tokens will be distributed among users who actively engage with our [Alpha](https://scan.cuckoo.network/) and [Sepolia Testnets](https://testnet-scan.cuckoo.network/). This is your opportunity to be rewarded for your support and participation.
 
+> Update of July 3rd: Rewards of Airdrop June 2024 have been distributed through [0x17...E2](https://scan.cuckoo.network/address/0x17Ee826fB6E9Cf7Bc1433a50215A62Ff49999CE2) and [0xE9...b4](https://scan.cuckoo.network/address/0xE92f753D70B650424677B206Afd616A895D32eb4). Thank you for your support! Follow us on https://cuckoo.network/x to check future airdrops!
+
 ## How to Participate
 
 1. **Get Development Tokens:** Visit our [faucet](https://cuckoo.network/portal/faucet/) to receive your development tokens.
