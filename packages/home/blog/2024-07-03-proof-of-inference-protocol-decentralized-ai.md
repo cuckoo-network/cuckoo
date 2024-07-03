@@ -2,11 +2,13 @@
 title: "Understanding Proof of Inference Protocol"
 authors: [lark]
 tags: [research]
-image: https://cuckoo-network.b-cdn.net/proof-of-sampling-posp-protocol-decentralized-ai.webp
+image: https://cuckoo-network.b-cdn.net/2024-07-03-proof-of-inference-protocol-decentralized-ai.webp
 description: Dive into the innovative Proof of Inference Protocol, designed to secure and verify AI inference on decentralized networks. Learn how this protocol addresses the unique challenges of distributed AI compute.
 ---
 
 The rise of large language models (LLMs) and decentralized computing has introduced significant challenges, especially regarding the verification and integrity of AI computations across distributed systems. The 6079 Proof of Inference Protocol (PoIP) addresses these challenges by establishing a robust framework for decentralized AI inference, ensuring reliable and secure computations.
+
+![](https://cuckoo-network.b-cdn.net/2024-07-03-proof-of-inference-protocol-decentralized-ai.webp)
 
 ## The Challenge: Security in Decentralized AI Inference
 
@@ -67,7 +69,7 @@ The PoIP operates across five main layers: Service Layer, Control Layer, Transac
 
 The 6079 Proof of Inference Protocol represents an interesting advancement in the field of decentralized AI. By ensuring the security and reliability of AI computations across distributed networks, PoIP indicates a new way for broader adoption and innovation in decentralized AI applications. As we move towards a more decentralized future, protocols like PoIP will be useful in maintaining trust and integrity in AI-powered systems.
 
-- source: https://cuckoo.network/blog/2024/06/24/proof-of-inference-protocol-decentralized-ai
+- source: https://cuckoo.network/blog/2024/07/03/proof-of-inference-protocol-decentralized-ai
 - telegram: https://cuckoo.network/tg
 - discord: https://cuckoo.network/dc
 
