@@ -56,7 +56,7 @@ const Button = React.forwardRef<
       <Comp
         className={cn(buttonVariants({ variant, size, className }))}
         ref={ref}
-        href={href}
+        href={href ?? ""}
         target={target}
         {...props}
       />
