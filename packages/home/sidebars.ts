@@ -51,6 +51,8 @@ const sidebars: SidebarsConfig = {
         {
           type: "category",
           label: " Deploy Smart Contract",
+          collapsed: true,
+          collapsible: true,
           items: [
             {
               type: "doc",
