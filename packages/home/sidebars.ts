@@ -48,6 +48,32 @@ const sidebars: SidebarsConfig = {
           id: "Cuckoo Chain/bridge",
           label: " Cuckoo Bridge",
         },
+        {
+          type: "category",
+          label: " Deploy Smart Contract",
+          items: [
+            {
+              type: "doc",
+              id: "deploy-smart-contract/using-hardhat",
+              label: "Using Hardhat",
+            },
+            {
+              type: "doc",
+              id: "deploy-smart-contract/using-thirdweb",
+              label: "Using Thirdweb",
+            },
+            {
+              type: "doc",
+              id: "deploy-smart-contract/using-foundry",
+              label: "Using Foundry",
+            },
+            {
+              type: "doc",
+              id: "deploy-smart-contract/using-remix",
+              label: "Using Remix",
+            },
+          ],
+        },
       ],
     },
     {
