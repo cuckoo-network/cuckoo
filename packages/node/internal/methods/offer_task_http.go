@@ -82,9 +82,8 @@ func OfferTaskHandler(ts *store.InMemoryTaskStore) http.HandlerFunc {
 		select {
 		case p := <-task.ResultPayloadChan:
 			ts.Delete(task.Id)
-			result := store.TaskResult{Payload: p, Id: task.Id, Status: store.Completed}
 			w.Header().Set("Content-Type", "application/json")
-			json.NewEncoder(w).Encode(result)
+			json.NewEncoder(w).Encode(p)
 		case <-ctx.Done():
 			ts.Delete(task.Id)
 			http.Error(w, "Request cancelled by the client", http.StatusRequestTimeout)
