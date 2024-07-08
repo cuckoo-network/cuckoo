@@ -1,10 +1,15 @@
+---
+title: "LinguaLinked: Empowering Mobile Devices with Distributed Large Language Models"
+authors: [lark]
+tags: [research]
+image: https://cuckoo-network.b-cdn.net/2024-07-08-lingualinked.webp
+description: The demand for deploying large language models (LLMs) on mobile devices is rising, driven by the need for privacy, reduced latency, and efficient bandwidth usage. However, the extensive memory and computational requirements of LLMs pose significant challenges.
+---
 
 
-### LinguaLinked: Empowering Mobile Devices with Distributed Large Language Models
+The demand for deploying large language models (LLMs) on mobile devices is rising, driven by the need for privacy, reduced latency, and efficient bandwidth usage. However, the extensive memory and computational requirements of LLMs pose significant challenges. Enter **LinguaLinked**, a new system, developed by a group of researchers from UC Irvine, designed to enable decentralized, distributed LLM inference across multiple mobile devices, leveraging their collective capabilities to perform complex tasks efficiently.
 
-## Introduction
-
-The demand for deploying large language models (LLMs) on mobile devices is rising, driven by the need for privacy, reduced latency, and efficient bandwidth usage. However, the extensive memory and computational requirements of LLMs pose significant challenges. Enter **LinguaLinked**, a groundbreaking system, developed by a group of researchers from UC Irvine, designed to enable decentralized, distributed LLM inference across multiple mobile devices, leveraging their collective capabilities to perform complex tasks efficiently.
+![](https://cuckoo-network.b-cdn.net/2024-07-08-lingualinked.webp)
 
 ## The Challenge
 
@@ -19,15 +24,15 @@ Deploying LLMs like GPT-3 or BLOOM on mobile devices is challenging due to:
 
 LinguaLinked addresses these challenges with three key strategies:
 
-1. **Optimized Model Assignment**: 
+1. **Optimized Model Assignment**:
    - The system segments LLMs into smaller subgraphs using linear optimization to match each segment with a device's capabilities.
    - This ensures efficient use of resources and minimizes inter-device data transmission.
 
-2. **Runtime Load Balancing**: 
+2. **Runtime Load Balancing**:
    - LinguaLinked actively monitors device performance and redistributes tasks to prevent bottlenecks.
    - This dynamic approach ensures efficient use of all available resources, enhancing overall system responsiveness.
 
-3. **Optimized Communication**: 
+3. **Optimized Communication**:
    - Efficient data transmission maps guide the flow of information between devices, maintaining the model's structural integrity.
    - This method reduces latency and ensures timely data processing across the network of mobile devices.
 
