@@ -19,13 +19,25 @@ export default function Home(): JSX.Element {
       <Hero />
       <Clients />
       <main>
-        <Process />
-        <Ecosystem />
-        <Target />
-        <News />
-        <Cta />
+        <Process/>
+        <Ecosystem/>
+        <Target/>
+        <News/>
+        <Cta/>
+        <section>
+          <div className="max-w-6xl mx-auto px-4 sm:px-6">
+            <iframe
+              src="https://cuckoonetwork.substack.com/embed"
+              width={"100%"}
+              height={320}
+              style={{border: "0px solid #EEE", background: "#111827"}}
+              frameBorder={0}
+              scrolling="no"
+            />
+          </div>
+        </section>
       </main>
-      <br />
+      <br/>
     </Layout>
   );
 }

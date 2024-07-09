@@ -180,7 +180,7 @@ const config: Config = {
               href: "https://cuckoo.network/tg",
             },
             {
-              label: "X",
+              label: "𝕏",
               href: "https://cuckoo.network/x",
             },
             {

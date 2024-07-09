@@ -47,54 +47,87 @@ Follow these steps to set up and run your Stable Diffusion Miner:
 
 Ensure you have the required hardware and follow the setup instructions carefully. Stay tuned for updates as we continue to develop and enhance the miner node functionality.
 
-Here’s the improved version of your document:
 
-## Appendix
+<details class="p-4 bg-white rounded-lg shadow hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
+  <summary class="cursor-pointer text-xl font-semibold">
+    How to setup for Bare Metal Ubuntu Server?
+  </summary>
+  # Bare Metal Ubuntu Server
 
-### Bare-metal Ubuntu Server
+### Install Nvidia Container Toolkit
 
-#### Check NVIDIA GPU Information
+If you encounter the following error when running `make start`:
 
-To check the NVIDIA GPU information, use the following command:
-
-```shell
-nvidia-smi
+```text
+[+] Running 1/2
+ ✔ Container webui-docker-relay-node-1  Running                                                                                                                                             0.0s
+ ⠹ Container webui-docker-auto-1        Starting                                                                                                                                            0.3s
+Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error running hook #0: error running hook: exit status 1, stdout: , stderr: Auto-detected mode as 'legacy'
+nvidia-container-cli: initialization error: load library failed: libnvidia-ml.so.1: cannot open shared object file: no such file or directory: unknown
+make: *** [Makefile:11: start] Error 1
 ```
 
-If you encounter an error stating `NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.`, follow the steps below to resolve the issue.
+It means the Nvidia Container Toolkit is not installed. Follow the [official instructions to install the toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html).
 
-#### Clean Up Existing NVIDIA Drivers
+### Custom Docker Daemon Configuration
 
-Remove existing NVIDIA drivers:
+To use a custom configuration file for Docker, follow these steps:
 
-```shell
-sudo apt remove --purge '^nvidia-.*'
-sudo apt autoremove
-sudo apt clean
-```
+1. **Prepare Custom Configuration File**
+   Ensure your custom configuration file is located at `$HOME/.config/docker/daemon.json`.
 
-#### Check Available NVIDIA Drivers
+2. **Modify Docker systemd Service**
+   If the `daemon.json` file contains `nvidia` but running `sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi` results in `docker: Error response from daemon: unknown or invalid runtime name: nvidia.`, modify the Docker systemd service file:
 
-List the available drivers:
+  1. Create a systemd drop-in directory for the Docker service:
+     ```bash
+     sudo mkdir -p /etc/systemd/system/docker.service.d
+     ```
 
-```shell
-ubuntu-drivers devices
-```
+  2. Create or edit the `override.conf` file in this directory:
+     ```bash
+     sudo nano /etc/systemd/system/docker.service.d/override.conf
+     ```
 
-Choose a recommended driver from the list. For example, to install `nvidia-driver-535`:
+  3. Add the following configuration to specify the custom config file path:
+     ```ini
+     [Service]
+     ExecStart=
+     ExecStart=/usr/bin/dockerd --config-file=/home/your-username/.config/docker/daemon.json
+     ```
+     Replace `your-username` with your actual username. Use the full path instead of `$HOME`.
 
-```shell
-sudo add-apt-repository ppa:graphics-drivers/ppa
-sudo apt update
-sudo apt install nvidia-driver-535
-```
+3. **Apply the Changes**
+   Reload the systemd manager configuration and restart Docker:
+   ```bash
+   sudo systemctl daemon-reload
+   sudo systemctl restart docker
+   ```
 
-#### Reboot the Server
+4. **Verify Configuration**
+   Check if Docker is using your custom configuration:
+   ```bash
+   sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
+   ```
 
-After successfully installing the driver, reboot the server:
+### Troubleshooting: Failed to Initialize NVML
 
-```shell
-sudo reboot
-```
+If you encounter `Failed to initialize NVML: Unknown Error`, follow these steps:
 
-This may resolve issues with the NVIDIA drivers on your Ubuntu server.
+1. Edit the Nvidia container runtime configuration:
+   ```bash
+   sudo vim /etc/nvidia-container-runtime/config.toml
+   ```
+   Change `no-cgroups` to `false` and save the file.
+
+2. Restart the Docker daemon:
+   ```bash
+   sudo systemctl restart docker
+   ```
+
+3. Test the configuration:
+   ```bash
+   sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
+   ```
+
+</details>
