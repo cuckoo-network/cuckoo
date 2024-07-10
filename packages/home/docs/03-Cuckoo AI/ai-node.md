@@ -2,7 +2,7 @@
 
 Miner nodes are integral to our network, taking on tasks and earning rewards through inference.
 
-> Please note that miner nodes are still in heavy development and subject to substantial changes. Consequently, _there are no miner rewards available for now_.
+> Please note that miner nodes are still in heavy development and subject to substantial changes. The current GPU mining rewards are 300 $CAI per GPU per day.
 
 ## Stable Diffusion Miner
 

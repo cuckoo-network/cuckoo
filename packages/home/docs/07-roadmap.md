@@ -10,7 +10,7 @@
   - [x] Initial Launch (2024-06)
 
     - [x] [Cuckoo Chain: The Premier Blockchain for AI](http://localhost:3000/blog/2024/06/24/cuckoo-the-blockchain-for-ai)
-    - [ ] Smart contract tutorials
+    - [x] Smart contract tutorials
 
   - [x] [How Cuckoo AI Grows After the Cuckoo Chain Launch](/blog/2024/06/28/how-does-cuckoo-grow-after-cuckoo-chain-launch)
   - [ ] DeAI users
@@ -21,6 +21,7 @@
 
   - [ ] Node operator program (2024-07-B)
 
+    - [ ] [Cuckoo network mining with GPU](/future-releases/2024-07-15-cuckoo-network-mining-gpu-july-2024)
     - [ ] [Node registration on Cuckoo Portal](/future-releases/cuckoo-network-node-leaderboard)
     - [ ] Cuckoo Chain Developer
     - [ ] Network Stats Monitor

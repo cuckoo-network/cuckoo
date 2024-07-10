@@ -9,6 +9,8 @@ Cuckoo Network is the first Decentralized AI Model Serving Marketplace rewarding
 
 ![Staking and mining tokens with GPU](https://cuckoo-network.b-cdn.net/staking-and-mining-tokens.webp "Staking and mining tokens with GPU")
 
+> 2024-07-09 update: This post is for testnet. Check [this post](/future-releases/2024-07-15-cuckoo-network-mining-gpu-july-2024) for mainnet.
+
 When miners share their GPUs, how to ensure they are not faking results? Cuckoo Network establishes trust and integrity through staking, rewards, and slashing. Today we are glad to announce that stakers can join our testnet and secure trust for this decentralized AI network.
 
 ## **Join the testnet today**
