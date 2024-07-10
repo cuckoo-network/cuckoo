@@ -64,7 +64,7 @@ func (s *Service) claimTask(ctx context.Context, gpu *plugins.GPUProvider) (*nod
 	s.logger.Info("check pending tasks")
 	rand.New(rand.NewSource(time.Now().UnixNano()))
 	randomInt := rand.Intn(1_000_000_000)
-	signed := SignCurrentDate(time.Now())
+	signed := util.SignCurrentDate(time.Now())
 	lptReq := nodegen.ListPendingTasksJSONRequestBody{
 		Id:      randomInt,
 		Jsonrpc: "2.0",

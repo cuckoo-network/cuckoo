@@ -9,8 +9,10 @@ import (
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/methods"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/network"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/plugins"
+	"github.com/cuckoo-network/cuckoo/packages/node/internal/rewards"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/staking"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/store"
+	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/go-chi/chi/middleware"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/rs/cors"
@@ -21,6 +23,8 @@ import (
 	"strings"
 	"time"
 )
+
+const rpcURL = "https://mainnet-rpc.cuckoo.network"
 
 type HandlerParams struct {
 	Logger    *log.Entry
@@ -103,9 +107,21 @@ func NewJSONRPCHandler(params HandlerParams) Handler {
 	taskStore := params.TaskStore
 	// TODO(lark): should cleanup
 	gps := store.NewGPUProviderStore()
-	stk, err := staking.NewStaking(params.Logger)
+	ethC, err := ethclient.Dial(rpcURL)
+	if err != nil {
+		params.Logger.WithError(err).Error("failed to initiate eth client")
+	}
+	stk, err := staking.NewStaking(params.Logger, ethC)
 	if err != nil {
 		params.Logger.WithError(err).Error("failed to NewStaking")
+	}
+	ethPrivateKey := os.Getenv("ETH_PRIVATE_KEY")
+	if ethPrivateKey != "" {
+		params.Logger.Info("ETH_PRIVATE_KEY already set in the environment variables")
+	}
+	rwd, err := rewards.NewRewarder(ethC, ethPrivateKey)
+	if err != nil {
+		params.Logger.WithError(err).Error("failed to NewRewarder")
 	}
 
 	bridgeOptions := jhttp.BridgeOptions{
@@ -114,6 +130,13 @@ func NewJSONRPCHandler(params HandlerParams) Handler {
 		},
 	}
 	sharedHandlers := []HandlerCfg{
+		{
+			methodName:           "reward",
+			underlyingHandler:    methods.NewRewardHandler(gps, rwd),
+			longName:             "reward",
+			queueLimit:           uint(1000),
+			requestDurationLimit: 5 * time.Minute,
+		},
 		{
 			methodName:           "getHealth",
 			underlyingHandler:    methods.NewHealthCheck(),

@@ -1,8 +1,8 @@
-package worker_test
+package util_test
 
 import (
 	"crypto/ecdsa"
-	"github.com/cuckoo-network/cuckoo/packages/node/internal/worker"
+	"github.com/cuckoo-network/cuckoo/packages/node/internal/util"
 	"os"
 	"testing"
 	"time"
@@ -29,27 +29,27 @@ func TestIsValidSig(t *testing.T) {
 
 	// Create a signature
 	createdAt := time.Now()
-	signedData := worker.SignCurrentDate(createdAt)
+	signedData := util.SignCurrentDate(createdAt)
 
 	// Test 1: Valid signature
-	if !worker.IsValidSig(signedData.Sig, address) {
+	if !util.IsValidSig(signedData.Sig, address) {
 		t.Error("Expected signature to be valid")
 	}
 
 	// Test 2: Invalid address
-	if worker.IsValidSig(signedData.Sig, "0x1234567890123456789012345678901234567890") {
+	if util.IsValidSig(signedData.Sig, "0x1234567890123456789012345678901234567890") {
 		t.Error("Expected signature with wrong address to be invalid")
 	}
 
 	// Test 3: Old timestamp
 	oldDate := time.Now().Add(-2 * time.Hour)
-	oldSigData := worker.SignCurrentDate(oldDate)
-	if worker.IsValidSig(oldSigData.Sig, address) {
+	oldSigData := util.SignCurrentDate(oldDate)
+	if util.IsValidSig(oldSigData.Sig, address) {
 		t.Error("Expected old signature to be invalid")
 	}
 
 	// Test 4: Incorrectly formatted signature
-	if worker.IsValidSig("not_a_real_signature", address) {
+	if util.IsValidSig("not_a_real_signature", address) {
 		t.Error("Expected incorrectly formatted signature to be invalid")
 	}
 }

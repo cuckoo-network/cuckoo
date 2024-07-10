@@ -49,7 +49,7 @@ func main() {
 		port = "6387"
 	}
 	addr := "0.0.0.0:" + port
-	walletAddress, _ := worker.WalletAddress()
+	walletAddress, _ := util.WalletAddress()
 	logger.WithFields(supportlog.F{
 		"version": "config.Version",
 		"commit":  "config.CommitHash",

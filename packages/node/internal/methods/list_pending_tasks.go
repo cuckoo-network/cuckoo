@@ -7,13 +7,13 @@ import (
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/plugins"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/staking"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/store"
-	"github.com/cuckoo-network/cuckoo/packages/node/internal/worker"
+	"github.com/cuckoo-network/cuckoo/packages/node/internal/util"
 	"github.com/stellar/go/support/errors"
 )
 
 func ListPendingTasks(ts *store.InMemoryTaskStore, gps *store.GPUProviderStore, stk *staking.Staking) jrpc2.Handler {
 	return handler.New(func(ctx context.Context, req []plugins.GPUProvider) ([]*store.TaskOffer, error) {
-		if !worker.IsValidSig(req[0].Sig, req[0].WalletAddress) {
+		if !util.IsValidSig(req[0].Sig, req[0].WalletAddress) {
 			return nil, errors.New("unauthorized wallet")
 		}
 

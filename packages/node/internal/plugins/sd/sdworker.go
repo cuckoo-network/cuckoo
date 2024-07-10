@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/plugins"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/plugins/sd/sdcli"
+	"github.com/cuckoo-network/cuckoo/packages/node/internal/util"
 	"github.com/stellar/go/support/errors"
 	"github.com/stellar/go/support/log"
 	"io"
@@ -128,7 +129,9 @@ func (w *Worker) checkAndUpdateGPUProvider(ctx context.Context) *plugins.GPUProv
 			createdAt = w.gpuProvider.CreatedAt
 		}
 
+		addr, _ := util.WalletAddress()
 		w.gpuProvider = &plugins.GPUProvider{
+			WalletAddress:   addr,
 			Platform:        resp.Platform,
 			Python:          resp.Python,
 			Version:         resp.Version,

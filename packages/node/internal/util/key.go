@@ -1,4 +1,4 @@
-package worker
+package util
 
 import (
 	"crypto/ecdsa"

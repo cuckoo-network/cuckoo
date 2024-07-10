@@ -23,12 +23,7 @@ type Staking struct {
 	cacheLock       sync.Mutex
 }
 
-func NewStaking(logger *log.Entry) (*Staking, error) {
-	client, err := ethclient.Dial(rpcURL)
-	if err != nil {
-		return nil, err
-	}
-
+func NewStaking(logger *log.Entry, client *ethclient.Client) (*Staking, error) {
 	stakingContract, err := stakingContract(client)
 	if err != nil {
 		return nil, err
