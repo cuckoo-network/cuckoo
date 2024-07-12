@@ -48,6 +48,10 @@ export const TrendingPostsMasonary = () => {
 };
 
 function groupIntertwined<T>(items: T[]): T[][] {
+  if (!items) {
+    return [[]];
+  }
+
   const groups: T[][] = [[], [], [], [], []];
 
   for (let i = 0; i < items.length; i++) {

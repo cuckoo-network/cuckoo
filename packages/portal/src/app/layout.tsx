@@ -8,6 +8,7 @@ import { chainConfigs } from "@/lib/chain-configs";
 import { ApolloProvider } from "@apollo/client";
 import { apolloClient } from "@/lib/apollo-client";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { Provider } from "jotai";
 
 const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({
@@ -31,7 +32,7 @@ export default function RootLayout({
               disableTransitionOnChange
             >
               <GoogleAnalytics gaId="G-8W6N8HXQ4R" />
-              {children}
+              <Provider>{children}</Provider>
             </ThemeProvider>
           </ThirdwebProvider>
         </ApolloProvider>

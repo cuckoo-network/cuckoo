@@ -8,13 +8,16 @@ import { useCreatePost } from "@/app/portal/art/hooks/use-create-post";
 import { Button } from "@/components/ui/button";
 import { LoaderCircle } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { useAtom } from "jotai";
+import { genImgBase64Atom } from "@/app/portal/art/text-to-image/art-generator";
 
 export function CreatePost() {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [hashtags, setHashtags] = useState("");
   const [isSensitive, setIsSensitive] = useState(false);
-  const [imageFile, setImageFile] = useState<File | null>(null);
+  const [genImgBase64] = useAtom(genImgBase64Atom);
+  const [imageFile, setImageFile] = useState<File | null | undefined>(null);
   const [imageDimensions, setImageDimensions] = useState<{
     width: number;
     height: number;
@@ -23,9 +26,8 @@ export function CreatePost() {
   const router = useRouter();
 
   const handleImageUpload = (
-    imageData: string,
     dimensions: { width: number; height: number },
-    file: File,
+    file?: File | null | undefined,
   ) => {
     setImageFile(file);
     setImageDimensions(dimensions);
@@ -86,7 +88,10 @@ export function CreatePost() {
     <Authenticated>
       <div className="">
         <div className="flex flex-col md:gap-8 lg:flex-row lg:gap-16">
-          <UploadButton onImageUpload={handleImageUpload} />
+          <UploadButton
+            onImageUpload={handleImageUpload}
+            initialImageBase64={genImgBase64}
+          />
           <div className="relative flex grow flex-col justify-between self-stretch">
             <div className={"flex flex-col"}>
               <div className="">

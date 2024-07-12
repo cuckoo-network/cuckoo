@@ -142,6 +142,6 @@ export const postStabilityTask = async ({
       "Error in postTask:",
       axios.isAxiosError(error) ? error.response?.data : error,
     );
-    return error;
+    throw error;
   }
 };
