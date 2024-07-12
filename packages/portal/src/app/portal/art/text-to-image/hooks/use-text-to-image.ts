@@ -124,6 +124,7 @@ export const postStabilityTask = async ({
     ...sizes[size],
     override_settings: {
       sd_model_checkpoint: "animagineXLV31_v31.safetensors",
+      webp_lossless: true,
     },
   };
 

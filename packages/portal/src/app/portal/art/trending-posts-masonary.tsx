@@ -21,6 +21,10 @@ export const TrendingPostsMasonary = () => {
           <Button variant={"secondary"} href={"/portal/art/create-post"}>
             Creat Post
           </Button>
+
+          <Button variant={"secondary"} href={"/portal/art/text-to-image"}>
+            Text to Image
+          </Button>
         </div>
       )}
 

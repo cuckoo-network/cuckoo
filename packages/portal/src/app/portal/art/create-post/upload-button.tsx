@@ -1,39 +1,15 @@
 "use client";
 
-import { useRef, useState, useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
+import { convertBase64PngToWebP } from "@/app/portal/art/create-post/utils/convert-to-webp";
+import { base64ToFile } from "@/app/portal/art/create-post/utils/base64-to-file";
 
 interface UploadButtonProps {
   onImageUpload: (
     dimensions: { width: number; height: number },
     file?: File | undefined | null,
   ) => void;
-  initialImageBase64: string; // Add initial prop
-}
-
-function base64ToFile(
-  base64: string | null | undefined,
-  filename: string = "file.png",
-  mimeType: string = "image/png",
-): File | null {
-  if (!base64) {
-    return null;
-  }
-
-  // Decode the base64 string
-  const binaryString = atob(base64);
-  const len = binaryString.length;
-  const bytes = new Uint8Array(len);
-
-  // Convert the binary string to a Uint8Array
-  for (let i = 0; i < len; i++) {
-    bytes[i] = binaryString.charCodeAt(i);
-  }
-
-  // Create a Blob from the Uint8Array
-  const blob = new Blob([bytes], { type: mimeType });
-
-  // Convert the Blob to a File
-  return new File([blob], filename, { type: mimeType });
+  initialImageBase64: string;
 }
 
 const UploadButton: React.FC<UploadButtonProps> = ({
@@ -50,11 +26,21 @@ const UploadButton: React.FC<UploadButtonProps> = ({
   useEffect(() => {
     if (initialImageBase64) {
       const img = new Image();
-      img.onload = () => {
+      img.onload = async () => {
         const dimensions = { width: img.width, height: img.height };
         setImageDimensions(dimensions);
         setSelectedImage(`data:text/plain;base64,${initialImageBase64}`);
-        const file = base64ToFile(initialImageBase64)
+
+        let result = `data:text/plain;base64,${initialImageBase64}`;
+        try {
+          result = await convertBase64PngToWebP(
+            `data:text/plain;base64,${initialImageBase64}`,
+          );
+        } catch (err) {
+          console.error(`failed to convert to webp: ${err}`);
+        }
+
+        const file = base64ToFile(result);
         onImageUpload(dimensions, file);
       };
       img.src = `data:text/plain;base64,${initialImageBase64}`;
