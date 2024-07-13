@@ -8,6 +8,7 @@ import {
   postStabilityTask,
 } from "@/app/portal/art/text-to-image/hooks/use-text-to-image";
 import { atom, useAtom } from "jotai";
+import { Authenticated } from "@/containers/authentication/authenticated";
 
 export const genImgBase64Atom = atom("");
 
@@ -41,10 +42,10 @@ const ArtGenerator: React.FC = () => {
   };
 
   return (
-    <div>
+    <Authenticated>
       <PromptForm onSubmit={handleGenerateArt} loading={loading} />
       <ArtDisplay artUrl={artUrl} />
-    </div>
+    </Authenticated>
   );
 };
 
