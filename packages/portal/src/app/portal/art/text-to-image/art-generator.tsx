@@ -3,7 +3,10 @@
 import React, { useState } from "react";
 import { PromptForm } from "@/app/portal/art/text-to-image/prompt-form";
 import { ArtDisplay } from "@/app/portal/art/text-to-image/art-display";
-import { postStabilityTask } from "@/app/portal/art/text-to-image/hooks/use-text-to-image";
+import {
+  ICanvasSize,
+  postStabilityTask,
+} from "@/app/portal/art/text-to-image/hooks/use-text-to-image";
 import { atom, useAtom } from "jotai";
 
 export const genImgBase64Atom = atom("");
@@ -17,12 +20,14 @@ const ArtGenerator: React.FC = () => {
     highPriority: boolean;
     negativePrompt: string;
     prompt: string;
+    canvasSize: ICanvasSize;
   }) => {
     setLoading(true);
     try {
       const data = await postStabilityTask({
         prompt: prompt.prompt,
         negative_prompt: prompt.negativePrompt,
+        canvasSize: prompt.canvasSize,
       });
       const base64 = data[0];
       const genImgUrl = `data:text/plain;base64,${base64}`;

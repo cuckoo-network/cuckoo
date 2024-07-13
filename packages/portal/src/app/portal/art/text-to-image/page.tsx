@@ -10,7 +10,7 @@ export default function TextToImagePage() {
         <CardTitle className="text-lg font-semibold md:text-2xl">
           Text to Image
         </CardTitle>
-        <CardDescription>Create AI art by prmpting.</CardDescription>
+        <CardDescription>Create AI art by prompting.</CardDescription>
       </div>
       <ArtGenerator />
     </DashLayout>

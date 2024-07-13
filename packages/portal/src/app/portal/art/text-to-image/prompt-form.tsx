@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { Textarea } from "@/components/ui/textarea";
 import {
   Accordion,
@@ -14,31 +14,49 @@ import {
 } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
+import { CanvasSize } from "@/app/portal/art/text-to-image/canvas-size";
+import serialize from "form-serialize";
+import { ICanvasSize } from "@/app/portal/art/text-to-image/hooks/use-text-to-image";
 
 interface PromptFormProps {
-  onSubmit: (params: any) => void;
+  onSubmit: (params: {
+    highPriority: boolean;
+    negativePrompt: string;
+    prompt: string;
+    canvasSize: ICanvasSize;
+  }) => void;
   loading: boolean;
 }
+
+const prompts = {
+  a: {
+    prompt: "(masterpiece), best quality, expressive eyes, perfect face",
+    negativePrompt:
+      "lowres, (bad), text, error, fewer, extra, missing, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, chromatic aberration, signature, extra digits, artistic error, username, scan, [abstract]",
+  },
+};
+
+const defaultPrompt = prompts.a;
 
 export const PromptForm: React.FC<PromptFormProps> = ({
   onSubmit,
   loading,
 }) => {
-  const [prompt, setPrompt] = useState(
-    "(masterpiece), best quality, expressive eyes, perfect face",
-  );
-  const [negativePrompt, setNegativePrompt] = useState(
-    "nsfw, lowres, (bad), text, error, fewer, extra, missing, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, chromatic aberration, signature, extra digits, artistic error, username, scan, [abstract]",
-  );
-  const [highPriority, setHighPriority] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
 
   const handleSubmit = (event: React.FormEvent) => {
+    const obj = serialize(formRef.current!, { hash: true });
     event.preventDefault();
-    onSubmit({ prompt, negativePrompt, highPriority });
+    onSubmit({
+      prompt: obj.prompt as string,
+      negativePrompt: obj.negativePrompt as string,
+      highPriority: obj.highPriority === "on",
+      canvasSize: obj.canvasSize as ICanvasSize,
+    });
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} ref={formRef}>
       <div>
         <label htmlFor="prompt" className="font-bold flex items-center gap-2">
           Prompt{" "}
@@ -55,14 +73,24 @@ export const PromptForm: React.FC<PromptFormProps> = ({
         </label>
         <Textarea
           id="prompt"
+          name="prompt"
           className="m-1"
-          value={prompt}
-          onChange={(e) => setPrompt(e.target.value)}
+          defaultValue={defaultPrompt.prompt}
         />
       </div>
 
       <div className="flex items-center gap-2 my-4">
-        <Checkbox id="highPriority" />
+        <label
+          htmlFor="canvasSize"
+          className="cursor-pointer text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+        >
+          Canvas Size
+        </label>
+        <CanvasSize />
+      </div>
+
+      <div className="flex items-center gap-2 my-4">
+        <Checkbox id="highPriority" name={"highPriority"} />
         <label
           htmlFor="highPriority"
           className="cursor-pointer text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -108,8 +136,8 @@ export const PromptForm: React.FC<PromptFormProps> = ({
             <div className="m-1">
               <Textarea
                 id="negativePrompt"
-                value={negativePrompt}
-                onChange={(e) => setNegativePrompt(e.target.value)}
+                name={"negativePrompt"}
+                defaultValue={defaultPrompt.negativePrompt}
               />
             </div>
           </AccordionContent>

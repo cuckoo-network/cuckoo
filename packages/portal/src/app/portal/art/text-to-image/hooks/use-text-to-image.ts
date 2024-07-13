@@ -56,7 +56,7 @@ interface Txt2ImgRequest {
   alwayson_scripts?: Record<string, any>;
 }
 
-const sizes = {
+export const textToImageSizes: Record<string, {width: number, height: number}> = {
   sdxlPortrait: {
     width: 896,
     height: 1152,
@@ -103,25 +103,25 @@ const defaultTxt2ImgRequest: Txt2ImgRequest = {
   batch_size: 1,
   send_images: true,
   save_images: false,
-  ...sizes.sdxlPortrait,
+  ...textToImageSizes.sdxlPortrait,
 };
 
-type Size = keyof typeof sizes;
+export type ICanvasSize = keyof typeof textToImageSizes;
 
 export const postStabilityTask = async ({
   prompt,
   negative_prompt,
-  size = "sdxlPortrait",
+  canvasSize = "sdxlPortrait",
 }: {
   prompt: string;
   negative_prompt: string;
-  size?: Size;
+  canvasSize?: ICanvasSize;
 }): Promise<string[]> => {
   const requestBody: Txt2ImgRequest = {
     ...defaultTxt2ImgRequest,
     negative_prompt,
     prompt,
-    ...sizes[size],
+    ...textToImageSizes[canvasSize],
     override_settings: {
       sd_model_checkpoint: "animagineXLV31_v31.safetensors",
       webp_lossless: true,
