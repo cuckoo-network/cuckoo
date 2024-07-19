@@ -10,7 +10,8 @@ import { MinerTable } from "@/app/portal/staking/miner-table";
 import { ConnectWalletWrapper } from "@/app/portal/staking/connect-wallet-wrapper";
 import { chainConfigs } from "@/lib/chain-configs";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
-import {YourVotes} from "@/app/portal/staking/your-votes";
+import { YourVotes } from "@/app/portal/staking/your-votes";
+import { TestnetBadge } from "@/components/testnet-badge";
 
 type Props = {
   isTestnet?: boolean;
@@ -33,6 +34,11 @@ export function StakingHome({ isTestnet }: Props) {
           earn 4-12% annually.
         </CardDescription>
       </div>
+      {isTestnet && (
+        <div>
+          <TestnetBadge />
+        </div>
+      )}
       <ConnectWalletWrapper />
       <h4 className={"text-lg"}>
         {

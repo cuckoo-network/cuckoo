@@ -25,6 +25,7 @@ const LoginInner = ({ isLoading }: { isLoading: boolean }) => {
         localStorage.setItem("cuckoo:token", idToken);
         let postLoginPath = "/portal/art";
         const prevPosition = localStorage.getItem("cuckoo:prevLocation");
+        localStorage.removeItem("cuckoo:prevLocation");
         if (prevPosition?.startsWith("/portal/")) {
           postLoginPath = prevPosition;
         }

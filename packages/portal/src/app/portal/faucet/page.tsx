@@ -2,6 +2,7 @@ import { DashLayout } from "@/components/ui/dash-layout";
 import StepsForm, { faucetUnits } from "@/app/portal/faucet/steps-form";
 import { CardDescription, CardTitle } from "@/components/ui/card";
 import { Metadata } from "next";
+import { TestnetBadge } from "@/components/testnet-badge";
 
 const cfg = {
   title: "Cuckoo Sepolia Testnet Faucet - Cuckoo Portal",
@@ -28,6 +29,10 @@ export default function FaucetPage() {
           Follow the steps below to receive {faucetUnits} CAI and {faucetUnits}{" "}
           WCAI.
         </CardDescription>
+      </div>
+
+      <div>
+        <TestnetBadge />
       </div>
 
       <StepsForm />

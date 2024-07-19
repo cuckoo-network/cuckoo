@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { LoaderCircle, Github, Twitter } from "lucide-react";
-import { TwitterLogin } from "@/app/portal/login/twitter-login";
+import { TwitterLogin } from "@/containers/authentication/twitter-login";
 
 interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 export default function StakingPage() {
   return (
-    <DashLayout isTestnet>
+    <DashLayout>
       <StakingHome isTestnet />
     </DashLayout>
   );

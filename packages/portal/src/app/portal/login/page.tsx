@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
-import { UserAuthForm } from "@/app/portal/login/user-auth-form";
+import { UserAuthForm } from "@/containers/authentication/user-auth-form";
 import { Bird } from "lucide-react";
 
 export const metadata: Metadata = {
