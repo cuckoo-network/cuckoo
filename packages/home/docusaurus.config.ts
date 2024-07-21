@@ -158,6 +158,10 @@ const config: Config = {
               label: "FAQ",
               to: "/faq",
             },
+            {
+              label: "roadmap",
+              to: "/docs/roadmap",
+            },
           ],
         },
         {
