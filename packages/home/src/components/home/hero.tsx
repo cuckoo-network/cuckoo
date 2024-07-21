@@ -74,9 +74,9 @@ export function Hero() {
                     "button btn text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group uppercase",
                     styles.heroA,
                   )}
-                  href="/cuckoo-bot"
+                  href="https://cuckoo.network/portal/art"
                 >
-                  Generate Image{" "}
+                  Explore{" "}
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     →
                   </span>

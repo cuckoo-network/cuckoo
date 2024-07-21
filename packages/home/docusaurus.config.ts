@@ -5,10 +5,10 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 const config: Config = {
   title: "Cuckoo AI",
-  tagline: "Cuckoo AI Decentralized Model Serving",
+  tagline: "Cuckoo AI Onchain Creative Platform for Anime Fandom",
   customFields: {
     description:
-      "Share your GPU or CPU with Gen AI App builders to generate images and perform LLM inference on Cuckoo Chain",
+      "Create and share your gen AI arts. Share your GPU or CPU with Gen AI App builders to generate images and perform LLM inference on Cuckoo Chain.",
   },
   titleDelimiter: "-",
   favicon: "img/favicon.png",

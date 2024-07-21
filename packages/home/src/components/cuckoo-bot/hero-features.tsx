@@ -1,4 +1,5 @@
 import { useAos } from "@site/src/hooks/use-aos";
+import Link from "@docusaurus/Link";
 
 export default function HeroFeatures() {
   useAos();
@@ -59,9 +60,18 @@ export default function HeroFeatures() {
               available in the following communities.
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+              <div data-aos="fade-up" data-aos-delay="200">
+                <Link
+                  className="button btn text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group uppercase mb-4 sm:w-auto sm:mb-0 hover:text-white"
+                  target="_blank"
+                  href="https://cuckoo.network/portal/art/text-to-image"
+                >
+                  Web
+                </Link>
+              </div>
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
-                  className="btn text-white bg-gray-700 hover:bg-gray-800 w-full mb-4 sm:w-auto sm:mb-0 hover:text-white"
+                  className="btn text-white bg-gray-700 hover:bg-gray-800 w-full mb-4 sm:w-auto uppercase sm:ml-4 sm:mb-0 hover:text-white"
                   target="_blank"
                   href="https://cuckoo.network/dc"
                 >
@@ -70,7 +80,7 @@ export default function HeroFeatures() {
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <a
-                  className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4 hover:text-white"
+                  className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto uppercase sm:ml-4 hover:text-white"
                   target="_blank"
                   href="https://cuckoo.network/tg"
                 >
