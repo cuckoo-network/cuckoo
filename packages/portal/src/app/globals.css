@@ -74,3 +74,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+em {
+  background-color: yellow;
+  color: black;
+  font-style: normal;
+}
