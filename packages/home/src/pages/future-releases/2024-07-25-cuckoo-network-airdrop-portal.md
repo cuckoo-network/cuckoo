@@ -25,7 +25,7 @@ Earning rewards with the Cuckoo Network Airdrop Portal is straightforward. Hereâ
 | Login                  | 1 ~ 10                   | First-time sign up or sign in                  |
 | Refer                  | 30% of referee's rewards | Earn a percentage of your referee's rewards    |
 | Add Email              | 10                       | Receive latest news and benefits               |
-| Daily Check-in         | 0 ~ 5 Daily              | Stay updated on the mission of onchain AI      |
+| Daily Claim            | 0 ~ 5 Daily              | Stay updated on the mission of onchain AI      |
 | Follow X               | 5                        | Follow us on X to stay connected               |
 | Bind Discord           | 5                        | Join and link your Discord account             |
 | Bind Telegram          | 5                        | Join and link your Telegram account            |
