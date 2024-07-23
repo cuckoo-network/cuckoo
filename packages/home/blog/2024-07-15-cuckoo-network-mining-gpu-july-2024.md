@@ -44,11 +44,17 @@ The Cuckoo Network is still in active development, which means changes to the mi
 
 ### FAQs
 
-**Q: What is $CAI?** A: $CAI is the native cryptocurrency of the Cuckoo Network, used for transactions and rewarding miners within the ecosystem.
+**Q: What is $CAI?**
 
-**Q: How much can I earn from GPU mining on Cuckoo Network?** A: Starting in July 2024, you can earn 300 $CAI per day per GPU. Actual earnings may vary based on network conditions and hardware performance.
+A: $CAI is the native cryptocurrency of the Cuckoo Network, used for transactions and rewarding miners within the ecosystem.
 
-**Q: What are the system requirements for GPU mining on Cuckoo Network?** A: You’ll need a GPU with at least 8GB VRAM, such as an NVIDIA GTX NVIDIA 3080, L4,  or above, and a stable internet connection.
+**Q: How much can I earn from GPU mining on Cuckoo Network?**
+
+A: Starting in July 2024, you can earn 300 $CAI per day per GPU. Actual earnings may vary based on network conditions and hardware performance.
+
+**Q: What are the system requirements for GPU mining on Cuckoo Network?**
+
+A: You’ll need a GPU with at least 8GB VRAM, such as an NVIDIA GTX NVIDIA 3080, L4,  or above, and a stable internet connection.
 
 ### Wrapping Up
 
