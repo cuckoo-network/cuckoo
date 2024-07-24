@@ -4,6 +4,7 @@ import { cva, type VariantProps } from "class-variance-authority";
 
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import { LoaderCircle } from "lucide-react";
 
 const buttonVariants = cva(
   "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
@@ -40,6 +41,7 @@ export interface ButtonProps
   asChild?: boolean;
   href?: string; // Adding href for link behavior
   target?: string; // Adding target for controlling how the link opens
+  isLoading?: boolean;
 }
 
 const Button = React.forwardRef<
@@ -47,7 +49,17 @@ const Button = React.forwardRef<
   ButtonProps
 >(
   (
-    { className, variant, size, asChild = false, href, target, ...props },
+    {
+      className,
+      variant,
+      size,
+      asChild = false,
+      href,
+      target,
+      children,
+      isLoading,
+      ...props
+    },
     ref,
   ) => {
     const Comp = asChild ? Slot : href ? Link : "button"; // Determines the component type based on href
@@ -59,7 +71,10 @@ const Button = React.forwardRef<
         href={href ?? ""}
         target={target}
         {...props}
-      />
+      >
+        {isLoading && <LoaderCircle className="mr-2 h-4 w-4 animate-spin" />}
+        {children}
+      </Comp>
     );
   },
 );

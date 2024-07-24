@@ -131,10 +131,11 @@ export function CreatePost() {
               </div>
             </div>
             <div className="mt-6 flex justify-end">
-              <Button onClick={handleCreatePost} disabled={loading}>
-                {loading && (
-                  <LoaderCircle className="mr-2 h-4 w-4 animate-spin" />
-                )}
+              <Button
+                onClick={handleCreatePost}
+                disabled={loading}
+                isLoading={isLoading}
+              >
                 Create Post
               </Button>
             </div>

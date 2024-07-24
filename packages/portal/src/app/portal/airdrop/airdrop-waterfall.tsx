@@ -10,48 +10,20 @@ import {
 import { Button } from "@/components/ui/button";
 import { useAirdropHistory } from "@/app/portal/airdrop/hooks/use-airdrop-history";
 import { useIsLoggedIn } from "@/containers/authentication/hooks/use-is-logged-in";
-import { LoaderCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useRedirectLogin } from "@/containers/authentication/hooks/use-redirect-login";
 import { useCallback } from "react";
-
-enum AirdropType {
-  LOGIN = "LOGIN",
-  REFER = "REFER",
-  ADD_EMAIL = "ADD_EMAIL",
-  DAILY_CLAIM = "DAILY_CLAIM",
-  FOLLOW_X = "FOLLOW_X",
-  CREATE_1ST_IMAGE = "CREATE_1ST_IMAGE",
-  STAKE_CAI = "STAKE_CAI",
-  MINE_FIRST_GPU = "MINE_FIRST_GPU",
-}
-
-function selectHistoryItems(historyItems: any) {
-  return {
-    login: historyItems?.some((item: any) => item.type === AirdropType.LOGIN),
-    refer: historyItems?.some((item: any) => item.type === AirdropType.REFER),
-    addEmail: historyItems?.some(
-      (item: any) => item.type === AirdropType.ADD_EMAIL,
-    ),
-    dailyClaim: historyItems?.some(
-      (item: any) => item.type === AirdropType.DAILY_CLAIM,
-    ),
-    followX: historyItems?.some(
-      (item: any) => item.type === AirdropType.FOLLOW_X,
-    ),
-    create1stImage: historyItems?.some(
-      (item: any) => item.type === AirdropType.CREATE_1ST_IMAGE,
-    ),
-    stakeCai: historyItems?.some(
-      (item: any) => item.type === AirdropType.STAKE_CAI,
-    ),
-    mineFirstGpu: historyItems?.some(
-      (item: any) => item.type === AirdropType.MINE_FIRST_GPU,
-    ),
-  };
-}
+import { useRequestAirdrop } from "@/app/portal/airdrop/hooks/use-request-airdrop";
+import { useToast } from "@/components/ui/use-toast";
+import { EmailVerifyOtpDialog } from "@/app/portal/airdrop/email-verify-otp-dialog";
+import {
+  AirdropType,
+  selectHistoryItems,
+} from "@/app/portal/airdrop/selectors/select-history-items";
 
 export const AirdropWaterfall = () => {
+  const { toast } = useToast();
+  const { requestAirdrop, requestAirdropLoading } = useRequestAirdrop();
   const { isLoggedIn, isLoggedInLoading } = useIsLoggedIn();
   const { airdropHistoryData, airdropHistoryLoading } = useAirdropHistory();
   const historyItems = airdropHistoryData?.airdropHistory;
@@ -64,24 +36,58 @@ export const AirdropWaterfall = () => {
     create1stImage,
     stakeCai,
     mineFirstGpu,
+    joinTelegram,
+    joinDiscord,
   } = selectHistoryItems(historyItems);
   const redirectLogin = useRedirectLogin();
 
-  const isLoading = airdropHistoryLoading || isLoggedInLoading;
+  const isLoading =
+    airdropHistoryLoading || isLoggedInLoading || requestAirdropLoading;
 
-  const onClaimLogin = useCallback(() => {
-    if (!isLoggedIn) {
-      redirectLogin();
-    }
-  }, [isLoggedIn, redirectLogin]);
+  const onClaim = useCallback(
+    async (type: AirdropType, amount?: number) => {
+      if (!isLoggedIn) {
+        redirectLogin();
+      }
 
-  const btnStyle = cn(
-    "w-full",
-    login && "bg-green-600 text-white hover:bg-green-800",
+      try {
+        const requestAirdropData = await requestAirdrop({
+          variables: {
+            data: {
+              amount: amount || null,
+              type: type,
+            },
+          },
+        });
+
+        if (requestAirdropData.data.requestAirdrop) {
+          toast({
+            title: "Congratulations!",
+            description: "You have claimed the airdrop",
+          });
+        } else {
+          toast({
+            variant: "destructive",
+            title: "Failed to claim",
+            description: "Criteria unmet",
+          });
+        }
+      } catch (err) {
+        toast({
+          variant: "destructive",
+          title: "Failed to claim",
+          description: "Reason unknown",
+        });
+      }
+    },
+    [isLoggedIn, redirectLogin, requestAirdrop, toast],
   );
 
+  const getDoneBtnStyle = (done: boolean) =>
+    cn("w-full", done && "bg-green-600 text-white hover:bg-green-800");
+
   return (
-    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 3xl:grid-cols-4 gap-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4">
       <div className="grid gap-4">
         <Card>
           <CardHeader>
@@ -92,14 +98,12 @@ export const AirdropWaterfall = () => {
 
           <CardFooter>
             <Button
-              onClick={onClaimLogin}
-              className={btnStyle}
+              onClick={() => onClaim(AirdropType.LOGIN)}
+              className={getDoneBtnStyle(login)}
               variant="secondary"
-              disabled={isLoading}
+              disabled={isLoading || login}
+              isLoading={isLoading}
             >
-              {isLoading && (
-                <LoaderCircle className="mr-2 h-4 w-4 animate-spin" />
-              )}
               {login ? "Claimed" : "Claim"}
             </Button>
           </CardFooter>
@@ -119,7 +123,7 @@ export const AirdropWaterfall = () => {
             </p>
           </CardContent>
           <CardFooter>
-            <Button className={btnStyle} variant="secondary">
+            <Button className="w-full" variant="secondary">
               Copy your referral link
             </Button>
           </CardFooter>
@@ -134,13 +138,37 @@ export const AirdropWaterfall = () => {
             <p>10 $CAI</p>
           </CardContent>
           <CardFooter>
-            <Button className={btnStyle} variant="secondary">
-              Verify to Claim
-            </Button>
+            <EmailVerifyOtpDialog done={addEmail} isLoading={isLoading} />
           </CardFooter>
         </Card>
       </div>
       <div className="grid gap-4">
+        <Card>
+          <CardHeader>
+            <CardTitle>Join Telegram</CardTitle>
+            <CardDescription>
+              Join and link your Telegram account
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>5 $CAI</p>
+          </CardContent>
+          <CardFooter>
+            <Button
+              disabled={joinTelegram}
+              isLoading={isLoading}
+              className={getDoneBtnStyle(joinTelegram)}
+              variant="secondary"
+              onClick={async () => {
+                window.open("https://cuckoo.network/tg");
+                await onClaim(AirdropType.JOIN_TELEGRAM);
+              }}
+            >
+              {joinTelegram ? "Claimed" : "Claim"}
+            </Button>{" "}
+          </CardFooter>
+        </Card>
+
         <Card>
           <CardHeader>
             <CardTitle>Daily Check-in</CardTitle>
@@ -150,8 +178,14 @@ export const AirdropWaterfall = () => {
             <p>0 ~ 5 $CAI Randomly </p>
           </CardContent>
           <CardFooter>
-            <Button className={btnStyle} variant="secondary">
-              Claim
+            <Button
+              onClick={() => onClaim(AirdropType.DAILY_CLAIM)}
+              className={getDoneBtnStyle(dailyClaim)}
+              variant="secondary"
+              isLoading={isLoading}
+              disabled={dailyClaim}
+            >
+              {dailyClaim ? "Claimed" : "Claim"}
             </Button>
           </CardFooter>
         </Card>
@@ -172,19 +206,27 @@ export const AirdropWaterfall = () => {
           <CardFooter className={"gap-2"}>
             {!create1stImage && (
               <Button
-                className={btnStyle}
+                className="w-full"
                 variant="secondary"
                 href="/portal/art/text-to-image"
               >
                 Create Image
               </Button>
             )}
-            <Button className={btnStyle} variant="secondary">
-              Claim
+            <Button
+              className={getDoneBtnStyle(create1stImage)}
+              variant="secondary"
+              onClick={() => onClaim(AirdropType.CREATE_1ST_IMAGE)}
+              disabled={isLoading || create1stImage}
+              isLoading={isLoading}
+            >
+              {create1stImage ? "Claimed" : "Claim"}
             </Button>
           </CardFooter>
         </Card>
+      </div>
 
+      <div className="grid gap-4">
         <Card>
           <CardHeader>
             <CardTitle>Stake $CAI </CardTitle>
@@ -195,15 +237,28 @@ export const AirdropWaterfall = () => {
           <CardContent>
             <p>20 $CAI</p>
           </CardContent>
-          <CardFooter>
-            <Button className={btnStyle} variant="secondary">
-              Claim
+          <CardFooter className={"gap-2"}>
+            {!stakeCai && (
+              <Button
+                className="w-full"
+                variant="secondary"
+                href="/portal/staking"
+              >
+                Stake $CAI
+              </Button>
+            )}
+            <Button
+              onClick={() => onClaim(AirdropType.STAKE_CAI)}
+              className={getDoneBtnStyle(stakeCai)}
+              variant="secondary"
+              isLoading={isLoading}
+              disabled={stakeCai}
+            >
+              {stakeCai ? "Claimed" : "Claim"}
             </Button>
           </CardFooter>
         </Card>
-      </div>
 
-      <div className="grid gap-4">
         <Card>
           <CardHeader>
             <CardTitle>Follow X</CardTitle>
@@ -213,7 +268,18 @@ export const AirdropWaterfall = () => {
             <p>5 $CAI</p>
           </CardContent>
           <CardFooter>
-            <p>Card Footer</p>
+            <Button
+              disabled={followX}
+              onClick={async () => {
+                window.open("https://cuckoo.network/x");
+                await onClaim(AirdropType.FOLLOW_X);
+              }}
+              className={getDoneBtnStyle(followX)}
+              variant="secondary"
+              isLoading={isLoading}
+            >
+              {followX ? "Claimed" : "Claim"}
+            </Button>
           </CardFooter>
         </Card>
 
@@ -228,22 +294,18 @@ export const AirdropWaterfall = () => {
             <p>5 $CAI</p>
           </CardContent>
           <CardFooter>
-            <p>Card Footer</p>
-          </CardFooter>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <CardTitle>Join Telegram</CardTitle>
-            <CardDescription>
-              Join and link your Telegram account
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <p>5 $CAI</p>
-          </CardContent>
-          <CardFooter>
-            <p>Card Footer</p>
+            <Button
+              disabled={joinDiscord}
+              isLoading={isLoading}
+              onClick={async () => {
+                window.open("https://cuckoo.network/dc");
+                await onClaim(AirdropType.JOIN_DISCORD);
+              }}
+              className={getDoneBtnStyle(joinDiscord)}
+              variant="secondary"
+            >
+              {joinDiscord ? "Claimed" : "Claim"}
+            </Button>
           </CardFooter>
         </Card>
       </div>
