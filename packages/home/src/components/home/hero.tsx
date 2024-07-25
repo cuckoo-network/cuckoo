@@ -89,9 +89,9 @@ export function Hero() {
                     "button btn text-gray-300 bg-gradient-to-t from-gray-800 to-gray-700 hover:to-gray-800 w-full shadow-lg uppercase",
                     styles.heroA,
                   )}
-                  href="/docs/cuckoo-network"
+                  href="https://cuckoo.network/portal/airdrop"
                 >
-                  Discover Docs
+                  Earn
                 </Link>
               </div>
             </div>
