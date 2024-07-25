@@ -33,13 +33,14 @@ export function Hero() {
             <div data-aos="zoom-out">
               <div className="relative text-sm text-gray-300 bg-gray-800 rounded-full inline-block px-4 py-1 mb-6 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                 <div className="text-gray-400">
-                  Cuckoo Chain: The Premier Blockchain for AI{" "}
+                  Introducing Cuckoo Network Airdrop Portal{" "}
+                  <span className="ml-1"> </span>
                   <Link
                     className={clsx(
                       "font-medium text-blue-500 inline-flex items-center transition duration-150 ease-in-out group",
                       styles.heroA,
                     )}
-                    href="/blog/2024/06/24/cuckoo-the-blockchain-for-ai"
+                    href="/blog/2024/07/25/cuckoo-network-airdrop-portal"
                   >
                     Learn More{" "}
                     <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">

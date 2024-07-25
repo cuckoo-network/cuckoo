@@ -71,3 +71,13 @@ em {
   font-style: normal;
   color: black;
 }
+
+blockquote {
+  margin: 24px 0;
+  padding: 24px !important;
+  display: block;
+  border-radius: 4px;
+  background: var(--ifm-code-background);
+  border: 0;
+  color: var(--ifm-font-color-base);
+}

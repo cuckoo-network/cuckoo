@@ -95,6 +95,11 @@ const config: Config = {
       },
       items: [
         {
+          href: "https://cuckoo.network/portal/airdrop",
+          label: "Airdrop",
+          position: "right",
+        },
+        {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           label: "Docs",
