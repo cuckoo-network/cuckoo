@@ -3,6 +3,7 @@ import { mutateRequestAirdrop } from "@/app/portal/airdrop/data/mutations";
 import {
   queryAirdropHistory,
   queryAirdropStats,
+  queryWalletAccount,
 } from "@/app/portal/airdrop/data/queries";
 
 export const useRequestAirdrop = () => {
@@ -12,6 +13,7 @@ export const useRequestAirdrop = () => {
       refetchQueries: [
         { query: queryAirdropHistory },
         { query: queryAirdropStats },
+        { query: queryWalletAccount },
       ],
     },
   );
