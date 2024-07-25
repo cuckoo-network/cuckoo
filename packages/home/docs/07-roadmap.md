@@ -27,7 +27,7 @@
     - [ ] Network Stats Monitor
 
   - [ ] Holder's Airdrop Portal and Referral Program (2024-08-A)
-    - [ ] [Airdrop Portal](/blog/2024/07/25/cuckoo-network-airdrop-portal)
+    - [x] [Airdrop Portal](/blog/2024/07/25/cuckoo-network-airdrop-portal)
     - [ ] Telegram integration
 
 ## Future
