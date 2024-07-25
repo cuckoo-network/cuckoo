@@ -5,6 +5,7 @@ import { Metadata } from "next";
 import { TestnetBadge } from "@/components/testnet-badge";
 import { AirdropWaterfall } from "@/app/portal/airdrop/airdrop-waterfall";
 import { AirdropOverallStats } from "@/app/portal/airdrop/airdrop-overall-stats";
+import { Suspense } from "react";
 
 const cfg = {
   title: "Cuckoo Network Airdrop",
@@ -30,7 +31,9 @@ export default function AirdropPage() {
       </div>
 
       <AirdropOverallStats />
-      <AirdropWaterfall />
+      <Suspense>
+        <AirdropWaterfall />
+      </Suspense>
     </DashLayout>
   );
 }

@@ -3,20 +3,12 @@
 import * as React from "react";
 import { cn } from "@/lib/utils";
 import { TwitterLogin } from "@/containers/authentication/twitter-login";
-import { useSearchParams } from "next/navigation";
-import { useEffect } from "react";
+import { useReferQueryParams } from "@/containers/authentication/hooks/use-referer-query-param";
 
 interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 
 export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
-  const searchParams = useSearchParams();
-
-  useEffect(() => {
-    const referer = searchParams.get("referer");
-    if (referer && typeof localStorage !== "undefined") {
-      localStorage.setItem("referer", referer);
-    }
-  }, [searchParams]);
+  useReferQueryParams();
 
   const [isLoading, setIsLoading] = React.useState<boolean>(false);
 

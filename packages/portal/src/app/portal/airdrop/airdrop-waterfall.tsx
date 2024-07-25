@@ -25,6 +25,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useUser } from "@/containers/authentication/hooks/use-user";
+import { useReferQueryParams } from "@/containers/authentication/hooks/use-referer-query-param";
 
 export const AirdropWaterfall = () => {
   const { loadingUser, dataUser } = useUser();
@@ -33,6 +34,7 @@ export const AirdropWaterfall = () => {
   const { isLoggedIn, isLoggedInLoading } = useIsLoggedIn();
   const { airdropHistoryData, airdropHistoryLoading } = useAirdropHistory();
   const historyItems = airdropHistoryData?.airdropHistory;
+  useReferQueryParams();
   const {
     login,
     refer,
@@ -61,7 +63,7 @@ export const AirdropWaterfall = () => {
     linkAccountLoading ||
     loadingUser;
 
-  const referLink = `https://cuckoo.network/portal/login?referer=${dataUser?.user.username}`;
+  const referLink = `https://cuckoo.network/portal/airdrop?referer=${dataUser?.user.username}`;
 
   const copyToClipboard = async (text: string): Promise<void> => {
     await navigator.clipboard.writeText(text);
