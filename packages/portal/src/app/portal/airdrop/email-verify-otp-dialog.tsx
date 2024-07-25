@@ -11,35 +11,38 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
-import { useLinkAccount } from "@/app/portal/airdrop/hooks/use-link-account";
+import { useUpdateAccount } from "@/app/portal/airdrop/hooks/use-update-account";
 import { useRef, useState } from "react";
 import serialize from "form-serialize";
 import { useToast } from "@/components/ui/use-toast";
 import { useRequestAirdrop } from "@/app/portal/airdrop/hooks/use-request-airdrop";
-import { AirdropType } from "@/app/portal/airdrop/airdrop-waterfall";
 import { useUser } from "@/containers/authentication/hooks/use-user";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { AlertCircle } from "lucide-react";
-import { useRouter } from "next/navigation";
+import { AirdropType } from "@/app/portal/airdrop/selectors/select-history-items";
 
 const doneButtonStyle = (done: boolean) =>
   cn("w-full", done && "bg-green-600 text-white hover:bg-green-800");
 
 export function EmailVerifyOtpDialog({
   done,
-  isLoading,
+  isLoading: parentIsLoading,
 }: {
   isLoading: boolean;
   done: boolean;
 }) {
-  const router = useRouter();
   const formRef = useRef<HTMLFormElement>(null);
   const { dataUser, loadingUser } = useUser();
-  const { linkAccountData, linkAccountLoading, linkAccount } = useLinkAccount();
+  const { linkAccountLoading, updateAccount } = useUpdateAccount();
   const { requestAirdrop, requestAirdropLoading } = useRequestAirdrop();
   const { toast } = useToast();
   const [otpSent, setOtpSent] = useState(false);
   const [error, setError] = useState<string>("");
+  const isLoading =
+    parentIsLoading ||
+    linkAccountLoading ||
+    requestAirdropLoading ||
+    linkAccountLoading;
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -94,7 +97,7 @@ export function EmailVerifyOtpDialog({
 
                   try {
                     const formObj = serialize(formRef.current!, { hash: true });
-                    const resp = await linkAccount({
+                    const resp = await updateAccount({
                       variables: {
                         data: {
                           email: formObj.email,
@@ -108,7 +111,7 @@ export function EmailVerifyOtpDialog({
                     toast({
                       title: "4-digit Code Sent",
                     });
-                  } catch (err) {
+                  } catch (err: any) {
                     setError(
                       err?.graphQLErrors[0].extensions?.validationErrors[0]
                         .constraints?.isEmail || "err?.errors?[0].message",
@@ -136,12 +139,14 @@ export function EmailVerifyOtpDialog({
         </form>
         <DialogFooter>
           <Button
+            isLoading={isLoading}
+            disabled={!otpSent || requestAirdropLoading}
             onClick={async (e) => {
               e.preventDefault();
 
               try {
                 const formObj = serialize(formRef.current!, { hash: true });
-                const resp = await linkAccount({
+                const resp = await updateAccount({
                   variables: {
                     data: {
                       email: formObj.email,
@@ -151,7 +156,7 @@ export function EmailVerifyOtpDialog({
                   },
                 });
 
-                if (!resp.data.linkAccount.ok) {
+                if (!resp.data.updateAccount.ok) {
                   setError("Incorrect code");
                   return;
                 }
@@ -184,12 +189,11 @@ export function EmailVerifyOtpDialog({
                     description: "Criteria unmet",
                   });
                 }
-              } catch (err) {
-                console.error(err);
+              } catch (err: any) {
+                console.error("failed to verify email OTP", err);
                 setError(err?.graphQLErrors?.at(0).message || "Unknown error");
               }
             }}
-            disabled={!otpSent}
             type="submit"
           >
             Verify and Claim

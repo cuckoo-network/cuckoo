@@ -6,12 +6,20 @@ export const mutateRequestAirdrop = gql`
   }
 `;
 
-export const mutateLinkAccount = gql`
-  mutation LinkAccount($data: LinkAccountInput!) {
-    linkAccount(data: $data) {
+export const mutateUpdateAccount = gql`
+  mutation UpdateAccount($data: UpdateAccountInput!) {
+    updateAccount(data: $data) {
       type
       erc4361Message
       ok
+    }
+  }
+`;
+
+export const mutateSendTransaction = gql`
+  mutation SendTransaction($transaction: TransactionRequest!) {
+    sendTransaction(transaction: $transaction) {
+      hash
     }
   }
 `;

@@ -1,4 +1,14 @@
 "use client";
+import { useAirdropHistory } from "@/app/portal/airdrop/hooks/use-airdrop-history";
+import { useIsLoggedIn } from "@/containers/authentication/hooks/use-is-logged-in";
+import { useRedirectLogin } from "@/containers/authentication/hooks/use-redirect-login";
+import { useRequestAirdrop } from "@/app/portal/airdrop/hooks/use-request-airdrop";
+import { useToast } from "@/components/ui/use-toast";
+import { EmailVerifyOtpDialog } from "@/app/portal/airdrop/email-verify-otp-dialog";
+import {
+  AirdropType,
+  selectHistoryItems,
+} from "@/app/portal/airdrop/selectors/select-history-items";
 import {
   Card,
   CardContent,
@@ -7,21 +17,17 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { useAirdropHistory } from "@/app/portal/airdrop/hooks/use-airdrop-history";
-import { useIsLoggedIn } from "@/containers/authentication/hooks/use-is-logged-in";
-import { cn } from "@/lib/utils";
-import { useRedirectLogin } from "@/containers/authentication/hooks/use-redirect-login";
-import { useCallback } from "react";
-import { useRequestAirdrop } from "@/app/portal/airdrop/hooks/use-request-airdrop";
-import { useToast } from "@/components/ui/use-toast";
-import { EmailVerifyOtpDialog } from "@/app/portal/airdrop/email-verify-otp-dialog";
+import { useOnClaim } from "@/app/portal/airdrop/hooks/use-on-claim";
 import {
-  AirdropType,
-  selectHistoryItems,
-} from "@/app/portal/airdrop/selectors/select-history-items";
+  AddressType,
+  useOnClaimLinkingWallet,
+} from "@/app/portal/airdrop/hooks/use-on-claim-linking-wallet";
+import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
+import { useUser } from "@/containers/authentication/hooks/use-user";
 
 export const AirdropWaterfall = () => {
+  const { loadingUser, dataUser } = useUser();
   const { toast } = useToast();
   const { requestAirdrop, requestAirdropLoading } = useRequestAirdrop();
   const { isLoggedIn, isLoggedInLoading } = useIsLoggedIn();
@@ -40,54 +46,32 @@ export const AirdropWaterfall = () => {
     joinDiscord,
   } = selectHistoryItems(historyItems);
   const redirectLogin = useRedirectLogin();
-
-  const isLoading =
-    airdropHistoryLoading || isLoggedInLoading || requestAirdropLoading;
-
-  const onClaim = useCallback(
-    async (type: AirdropType, amount?: number) => {
-      if (!isLoggedIn) {
-        redirectLogin();
-      }
-
-      try {
-        const requestAirdropData = await requestAirdrop({
-          variables: {
-            data: {
-              amount: amount || null,
-              type: type,
-            },
-          },
-        });
-
-        if (requestAirdropData.data.requestAirdrop) {
-          toast({
-            title: "Congratulations!",
-            description: "You have claimed the airdrop",
-          });
-        } else {
-          toast({
-            variant: "destructive",
-            title: "Failed to claim",
-            description: "Criteria unmet",
-          });
-        }
-      } catch (err) {
-        toast({
-          variant: "destructive",
-          title: "Failed to claim",
-          description: "Reason unknown",
-        });
-      }
-    },
-    [isLoggedIn, redirectLogin, requestAirdrop, toast],
-  );
-
   const getDoneBtnStyle = (done: boolean) =>
     cn("w-full", done && "bg-green-600 text-white hover:bg-green-800");
 
+  const onClaim = useOnClaim(isLoggedIn, redirectLogin, requestAirdrop, toast);
+
+  const { linkAccountLoading, onClaimLinkingWallet } =
+    useOnClaimLinkingWallet(onClaim);
+
+  const isLoading =
+    airdropHistoryLoading ||
+    isLoggedInLoading ||
+    requestAirdropLoading ||
+    linkAccountLoading ||
+    loadingUser;
+
+  const referLink = `https://cuckoo.network/portal/login?referer=${dataUser?.user.username}`;
+
+  const copyToClipboard = async (text: string): Promise<void> => {
+    await navigator.clipboard.writeText(text);
+    toast({
+      title: "Copied to clipboard",
+    });
+  };
+
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-4">
       <div className="grid gap-4">
         <Card>
           <CardHeader>
@@ -117,13 +101,17 @@ export const AirdropWaterfall = () => {
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <p>
-              Earn <em>30%</em> of your referees' rewards by sharing
-              https://cuckoo.network/portal/login/?refererId=
+            <p className="break-words">
+              Earn <em>30%</em> of your referees&apos; rewards by sharing{" "}
+              {referLink}
             </p>
           </CardContent>
           <CardFooter>
-            <Button className="w-full" variant="secondary">
+            <Button
+              className="w-full"
+              variant="secondary"
+              onClick={() => copyToClipboard(referLink)}
+            >
               Copy your referral link
             </Button>
           </CardFooter>
@@ -199,8 +187,8 @@ export const AirdropWaterfall = () => {
           </CardHeader>
           <CardContent>
             <p>
-              10 $CAI. If you haven't create your first gen AI art, go to create
-              image first and then claim your reward.
+              10 $CAI. If you haven&apos;t create your first gen AI art, go to
+              create image first and then claim your reward.
             </p>
           </CardContent>
           <CardFooter className={"gap-2"}>
@@ -248,7 +236,9 @@ export const AirdropWaterfall = () => {
               </Button>
             )}
             <Button
-              onClick={() => onClaim(AirdropType.STAKE_CAI)}
+              onClick={() =>
+                onClaimLinkingWallet(AddressType.STAKER_WALLET_ADDRESS)
+              }
               className={getDoneBtnStyle(stakeCai)}
               variant="secondary"
               isLoading={isLoading}

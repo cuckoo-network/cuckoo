@@ -7,6 +7,7 @@ export const queryUser = gql`
       email
       name
       isAdmin
+      username
     }
   }
 `;

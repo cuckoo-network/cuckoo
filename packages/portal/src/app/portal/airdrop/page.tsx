@@ -4,6 +4,7 @@ import { CardDescription, CardTitle } from "@/components/ui/card";
 import { Metadata } from "next";
 import { TestnetBadge } from "@/components/testnet-badge";
 import { AirdropWaterfall } from "@/app/portal/airdrop/airdrop-waterfall";
+import { AirdropOverallStats } from "@/app/portal/airdrop/airdrop-overall-stats";
 
 const cfg = {
   title: "Cuckoo Network Airdrop",
@@ -18,16 +19,17 @@ export const metadata: Metadata = {
   openGraph: cfg,
 };
 
-export default function FaucetPage() {
+export default function AirdropPage() {
   return (
     <DashLayout>
       <div className="flex flex-col">
-        <CardTitle className="text-lg font-semibold md:text-2xl">
+        <h1 className="leading-none tracking-tight text-lg font-semibold md:text-2xl">
           {cfg.title}
-        </CardTitle>
+        </h1>
         <CardDescription>{cfg.description}</CardDescription>
       </div>
 
+      <AirdropOverallStats />
       <AirdropWaterfall />
     </DashLayout>
   );

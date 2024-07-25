@@ -11,6 +11,13 @@ export enum AirdropType {
   MINE_FIRST_GPU = "MINE_FIRST_GPU",
 }
 
+function isWithinLast24Hours(date: Date): boolean {
+  const now = new Date();
+  const timeDifference = now.getTime() - date.getTime();
+  const hoursDifference = timeDifference / (1000 * 60 * 60);
+  return hoursDifference <= 24;
+}
+
 export function selectHistoryItems(historyItems: any) {
   return {
     login: historyItems?.some((item: any) => item.type === AirdropType.LOGIN),
@@ -19,7 +26,9 @@ export function selectHistoryItems(historyItems: any) {
       (item: any) => item.type === AirdropType.ADD_EMAIL,
     ),
     dailyClaim: historyItems?.some(
-      (item: any) => item.type === AirdropType.DAILY_CLAIM,
+      (item: any) =>
+        item.type === AirdropType.DAILY_CLAIM &&
+        isWithinLast24Hours(new Date(item.createdAt)),
     ),
     followX: historyItems?.some(
       (item: any) => item.type === AirdropType.FOLLOW_X,
@@ -40,4 +49,12 @@ export function selectHistoryItems(historyItems: any) {
       (item: any) => item.type === AirdropType.JOIN_TELEGRAM,
     ),
   };
+}
+
+export function selectSumAmount(historyItems: any): number {
+  return (
+    historyItems?.reduce((sum: any, item: any) => {
+      return Number(sum) + Number(item.rewards);
+    }, 0) || 0
+  );
 }

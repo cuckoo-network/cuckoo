@@ -12,28 +12,54 @@ import { LoaderCircle, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import * as React from "react";
 import { useRouter } from "next/navigation";
+import { useUpdateAccount } from "@/app/portal/airdrop/hooks/use-update-account";
 
 const LoginInner = ({ isLoading }: { isLoading: boolean }) => {
   const { logOut, error, logIn, loginInProgress, idToken }: IAuthContext =
     useContext(AuthContext);
   const router = useRouter();
 
+  const { updateAccount } = useUpdateAccount();
+
   useEffect(
     function postLogin() {
-      if (idToken && typeof localStorage !== "undefined") {
-        logOut();
-        localStorage.setItem("cuckoo:token", idToken);
-        let postLoginPath = "/portal/art";
-        const prevPosition = localStorage.getItem("cuckoo:prevLocation");
-        localStorage.removeItem("cuckoo:prevLocation");
-        if (prevPosition?.startsWith("/portal/")) {
-          postLoginPath = prevPosition;
-        }
+      (async () => {
+        if (idToken && typeof localStorage !== "undefined") {
+          logOut();
+          localStorage.setItem("cuckoo:token", idToken);
+          let postLoginPath = "/portal/art";
+          const prevPosition = localStorage.getItem("cuckoo:prevLocation");
+          localStorage.removeItem("cuckoo:prevLocation");
+          if (prevPosition?.startsWith("/portal/")) {
+            postLoginPath = prevPosition;
+          }
 
-        router.push(postLoginPath);
-      }
+          if (typeof localStorage !== undefined) {
+            const referer = localStorage.getItem("referer");
+
+            if (referer) {
+              try {
+                await updateAccount({
+                  variables: {
+                    data: {
+                      type: "REFERER_USERNAME",
+                      referrerUsername: referer,
+                    },
+                  },
+                });
+              } catch (err) {
+                console.error("failed to update referer", err);
+              }
+
+              localStorage.removeItem("referer");
+            }
+          }
+
+          router.push(postLoginPath);
+        }
+      })();
     },
-    [idToken, logOut, router],
+    [idToken, logOut, router, updateAccount],
   );
 
   if (error) {

@@ -9,7 +9,7 @@ import { TokenUnwrapper } from "@/app/portal/staking/token-unwrapper";
 import { MinerTable } from "@/app/portal/staking/miner-table";
 import { ConnectWalletWrapper } from "@/app/portal/staking/connect-wallet-wrapper";
 import { chainConfigs } from "@/lib/chain-configs";
-import { ThirdwebProvider } from "@thirdweb-dev/react";
+import { ConnectWallet, ThirdwebProvider } from "@thirdweb-dev/react";
 import { YourVotes } from "@/app/portal/staking/your-votes";
 import { TestnetBadge } from "@/components/testnet-badge";
 
@@ -33,6 +33,13 @@ export function StakingHome({ isTestnet }: Props) {
           Stake WCAI (Wrapped CAI) to secure the decentralized AI platform and
           earn 4-12% annually.
         </CardDescription>
+      </div>
+      <div>
+        <ConnectWallet
+          style={{
+            height: "48px",
+          }}
+        />
       </div>
       {isTestnet && (
         <div>

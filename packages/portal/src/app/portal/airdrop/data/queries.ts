@@ -21,6 +21,17 @@ export const queryAirdropHistory = gql`
       type
       rewards
       receiptUrl
+      createdAt
+    }
+  }
+`;
+
+export const queryWalletAccount = gql`
+  query WalletAccount {
+    walletAccount {
+      address
+      balance
+      transactionCount
     }
   }
 `;

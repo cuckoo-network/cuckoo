@@ -1,16 +1,13 @@
 import { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 
-import { cn } from "@/lib/utils";
-import { buttonVariants } from "@/components/ui/button";
 import { UserAuthForm } from "@/containers/authentication/user-auth-form";
-import { Bird } from "lucide-react";
+import {Suspense} from "react";
 
 export const metadata: Metadata = {
-  title: "Login to Cuckoo",
+  title: "Cuckoo Network Login / Cuckoo Network Sign Up",
   description:
-    "Join our AI art platform to create stunning art with our image generator and share it with other anime fans!",
+    "Join our AI art platform to create stunning art with our image generator and share it with other anime fans and enjoy Cuckoo Airdrop!",
 };
 
 export default function AuthenticationPage() {
@@ -48,7 +45,9 @@ export default function AuthenticationPage() {
                 Welcome to Cuckoo
               </h1>
             </div>
+            <Suspense>
             <UserAuthForm />
+            </Suspense>
             <p className="px-8 text-center text-sm text-muted-foreground">
               By clicking continue, you agree to our{" "}
               <Link
@@ -56,6 +55,13 @@ export default function AuthenticationPage() {
                 className="underline underline-offset-4 hover:text-primary"
               >
                 Terms of Service
+              </Link>
+              ,{" "}
+              <Link
+                href="https://cuckoo.network/airdrop-terms-of-service"
+                className="underline underline-offset-4 hover:text-primary"
+              >
+                Airdrop Terms of Service
               </Link>{" "}
               and{" "}
               <Link
