@@ -6,7 +6,6 @@ import { Authenticated } from "@/containers/authentication/authenticated";
 import { UploadButton } from "./upload-button";
 import { useCreatePost } from "@/app/portal/art/hooks/use-create-post";
 import { Button } from "@/components/ui/button";
-import { LoaderCircle } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useAtom } from "jotai";
 import { genImgBase64Atom } from "@/app/portal/art/text-to-image/art-generator";
@@ -131,10 +130,11 @@ export function CreatePost() {
               </div>
             </div>
             <div className="mt-6 flex justify-end">
-              <Button onClick={handleCreatePost} disabled={loading}>
-                {loading && (
-                  <LoaderCircle className="mr-2 h-4 w-4 animate-spin" />
-                )}
+              <Button
+                onClick={handleCreatePost}
+                disabled={loading}
+                isLoading={loading}
+              >
                 Create Post
               </Button>
             </div>

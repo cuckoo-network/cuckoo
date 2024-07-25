@@ -16,6 +16,7 @@ import { useIsLoggedIn } from "@/containers/authentication/hooks/use-is-logged-i
 
 const navigationItems = [
   { href: "/portal/art", label: "Cuckoo Art", icon: FileImage },
+  { href: "/portal/airdrop", label: "Airdrop", icon: FileImage },
   { href: "/portal/staking", label: "Staking", icon: Home },
   { href: "/portal/staking/testnet", label: "Testnet Staking", icon: Home },
   { href: "/portal/faucet", label: "Testnet Faucet", icon: Droplet },

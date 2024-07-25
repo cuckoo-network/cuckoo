@@ -1,23 +1,19 @@
 import { useUser } from "@/containers/authentication/hooks/use-user";
 import { useEffect } from "react";
-import { usePathname, useRouter } from "next/navigation";
+import { useRedirectLogin } from "@/containers/authentication/hooks/use-redirect-login";
 
 export const Authenticated = ({ children }: { children: React.ReactNode }) => {
   const { errorUser } = useUser();
-  const router = useRouter();
-  const path = usePathname();
+  const redirectLogin = useRedirectLogin();
 
   useEffect(() => {
     if (
       errorUser?.message === "Access denied! Please login to continue!" &&
       typeof localStorage
     ) {
-      localStorage.setItem("cuckoo:prevLocation", path);
-      router.push(`/portal/login`, {
-        scroll: true,
-      });
+      redirectLogin();
     }
-  }, [errorUser?.message, path, router]);
+  }, [errorUser?.message, redirectLogin]);
 
   return <>{children}</>;
 };

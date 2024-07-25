@@ -9,6 +9,7 @@ import { ApolloProvider } from "@apollo/client";
 import { apolloClient } from "@/lib/apollo-client";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Provider } from "jotai";
+import { Toaster } from "@/components/ui/toaster";
 
 const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({
@@ -36,6 +37,8 @@ export default function RootLayout({
             </ThemeProvider>
           </ThirdwebProvider>
         </ApolloProvider>
+
+        <Toaster />
       </body>
     </html>
   );

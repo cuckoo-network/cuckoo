@@ -2,15 +2,22 @@
 
 import * as React from "react";
 import { cn } from "@/lib/utils";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
-import { LoaderCircle, Github, Twitter } from "lucide-react";
 import { TwitterLogin } from "@/containers/authentication/twitter-login";
+import { useSearchParams } from "next/navigation";
+import { useEffect } from "react";
 
 interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 
 export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    const referer = searchParams.get("referer");
+    if (referer && typeof localStorage !== "undefined") {
+      localStorage.setItem("referer", referer);
+    }
+  }, [searchParams]);
+
   const [isLoading, setIsLoading] = React.useState<boolean>(false);
 
   async function onSubmit(event: React.SyntheticEvent) {
