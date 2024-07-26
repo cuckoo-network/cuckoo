@@ -81,7 +81,7 @@ export function EmailVerifyOtpDialog({
               id="email"
               name="email"
               type={"email"}
-              defaultValue={dataUser?.user.email}
+              defaultValue={dataUser?.user.email || ""}
               placeholder="email@example.com"
               className="col-span-3"
             />
@@ -156,7 +156,7 @@ export function EmailVerifyOtpDialog({
                   },
                 });
 
-                if (!resp.data.updateAccount.ok) {
+                if (!resp.data?.updateAccount.ok) {
                   setError("Incorrect code");
                   return;
                 }
@@ -171,7 +171,7 @@ export function EmailVerifyOtpDialog({
                   },
                 });
 
-                if (requestAirdropData.data.requestAirdrop) {
+                if (requestAirdropData.data?.requestAirdrop) {
                   toast({
                     title: "Congratulations!",
                     description: "You have claimed the airdrop",

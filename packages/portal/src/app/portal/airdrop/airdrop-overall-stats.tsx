@@ -46,7 +46,7 @@ export const AirdropOverallStats = () => {
           {airdropStatsLoading ? (
             <Skeleton className="h-4 w-12" />
           ) : (
-            (airdropStatsData.airdropStats.totalRewards || 0).toFixed(1) +
+            (airdropStatsData?.airdropStats.totalRewards || 0).toFixed(1) +
             " $CAI"
           )}
         </div>
@@ -63,9 +63,11 @@ export const AirdropOverallStats = () => {
               walletAccountData?.walletAccount?.balance || 0,
             ) + " $CAI "
           )}
-          {!walletAccountLoading && dataUser?.user && (
+          {!walletAccountLoading && dataUser?.user && walletAccountData && (
             <WithdrawCaiDialog
-              nonce={walletAccountData?.walletAccount?.transactionCount}
+              nonce={String(
+                walletAccountData?.walletAccount?.transactionCount || 0,
+              )}
               walletAddress={walletAccountData?.walletAccount?.address}
               amount={walletAccountData?.walletAccount?.balance}
             />

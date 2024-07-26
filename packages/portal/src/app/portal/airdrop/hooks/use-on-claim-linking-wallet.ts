@@ -27,11 +27,7 @@ export function useOnClaimLinkingWallet(
       (async () => {
         await connect(metamaskConfig);
 
-        const {
-          data: {
-            updateAccount: { erc4361Message },
-          },
-        } = await updateAccount({
+        const updateAccountResult = await updateAccount({
           variables: {
             data: {
               type: "ERC4361_GET_MESSAGE",
@@ -40,15 +36,19 @@ export function useOnClaimLinkingWallet(
           },
         });
 
+        const erc4361Message =  updateAccountResult.data?.updateAccount.erc4361Message;
+        if (!erc4361Message) {
+          console.error(`failed to get erc4361Message`);
+          return;
+        }
+
         console.log("erc4361Message: ", erc4361Message);
 
         const signature = await signer!.signMessage(erc4361Message);
 
         console.log("Signature:", signature);
 
-        const {
-          data: { updateAccount: linkResult },
-        } = await updateAccount({
+        const updateAccountResult2 = await updateAccount({
           variables: {
             data: {
               type: "ERC4361_VERIFY_SIG",
@@ -60,7 +60,7 @@ export function useOnClaimLinkingWallet(
           },
         });
 
-        console.log("linkResult: ", linkResult);
+        console.log("updateAccountResult2: ", updateAccountResult2);
 
         await onClaim(AirdropType.STAKE_CAI);
       })();

@@ -4,17 +4,12 @@ import React, { useEffect, useState } from "react";
 import { useMutation, gql } from "@apollo/client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import {mutateRequestTokens} from "@/app/portal/faucet/data/queries";
+import {RequestTokensMutation} from "@/gql/graphql";
 
 export const faucetUnits = "10";
 
-const REQUEST_TOKENS = gql`
-  mutation RequestTokens($address: String!) {
-    requestTokens(address: $address) {
-      erc20TokenTransferHash
-      nativeTokenTransferHash
-    }
-  }
-`;
+
 
 const stepConfig = [
   { label: "Follow us on X", url: "https://cuckoo.network/x" },
@@ -30,7 +25,7 @@ const StepComponent = () => {
     erc20TokenTransferHash: "",
     nativeTokenTransferHash: "",
   });
-  const [requestTokens, { loading, error }] = useMutation(REQUEST_TOKENS, {
+  const [requestTokens, { loading, error }] = useMutation<RequestTokensMutation>(mutateRequestTokens, {
     onCompleted: (resp) => {
       setSuccessMessage({
         erc20TokenTransferHash: resp.requestTokens.erc20TokenTransferHash,

@@ -5,9 +5,10 @@ import {
   queryAirdropStats,
   queryWalletAccount,
 } from "@/app/portal/airdrop/data/queries";
+import {RequestAirdropMutation} from "@/gql/graphql";
 
 export const useRequestAirdrop = () => {
-  const [requestAirdrop, { data, loading }] = useMutation(
+  const [requestAirdrop, { data, loading }] = useMutation<RequestAirdropMutation>(
     mutateRequestAirdrop,
     {
       refetchQueries: [

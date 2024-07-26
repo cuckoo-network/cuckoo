@@ -59,7 +59,7 @@ export function CreatePost() {
       });
 
       // Then, if the image file is selected, upload it to the S3 URL
-      if (imageFile && resp.data?.createSocialPost?.photoMedia[0].url) {
+      if (imageFile && resp.data?.createSocialPost?.photoMedia?.at(0)?.url) {
         const imageResponse = await axios.put(
           resp.data?.createSocialPost?.photoMedia[0].url,
           imageFile,

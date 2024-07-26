@@ -10,7 +10,9 @@ export const TrendingPostsMasonary = () => {
     return <></>;
   }
 
-  const postGroups = groupIntertwined(dataTrendingPosts?.trendingPosts.posts);
+  const postGroups = groupIntertwined(
+    dataTrendingPosts?.trendingPosts.posts || [],
+  );
 
   return (
     <>

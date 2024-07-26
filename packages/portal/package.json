@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next export",
-    "deploy": "next build && next export && npx thirdweb@latest upload out"
+    "deploy": "next build && next export && npx thirdweb@latest upload out",
+    "codegen": "graphql-codegen --config codegen.ts"
   },
   "dependencies": {
     "@apollo/client": "^3.10.1",
@@ -42,6 +43,9 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "5.0.2",
+    "@graphql-codegen/client-preset": "4.3.2",
+    "@graphql-codegen/introspection": "^4.0.3",
     "@types/form-serialize": "^0.7.4",
     "@types/node": "^20",
     "@types/react": "^18",

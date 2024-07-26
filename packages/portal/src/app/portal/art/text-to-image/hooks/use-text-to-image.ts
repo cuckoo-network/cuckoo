@@ -56,7 +56,10 @@ interface Txt2ImgRequest {
   alwayson_scripts?: Record<string, any>;
 }
 
-export const textToImageSizes: Record<string, {width: number, height: number}> = {
+export const textToImageSizes: Record<
+  string,
+  { width: number; height: number }
+> = {
   sdxlPortrait: {
     width: 896,
     height: 1152,

@@ -15,7 +15,7 @@ export const queryAirdropStats = gql`
 `;
 
 export const queryAirdropHistory = gql`
-  query Query {
+  query AirdropHistory {
     airdropHistory {
       id
       type
