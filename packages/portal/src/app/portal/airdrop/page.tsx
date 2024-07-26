@@ -1,8 +1,6 @@
 import { DashLayout } from "@/components/ui/dash-layout";
-import StepsForm, { faucetUnits } from "@/app/portal/faucet/steps-form";
 import { CardDescription, CardTitle } from "@/components/ui/card";
 import { Metadata } from "next";
-import { TestnetBadge } from "@/components/testnet-badge";
 import { AirdropWaterfall } from "@/app/portal/airdrop/airdrop-waterfall";
 import { AirdropOverallStats } from "@/app/portal/airdrop/airdrop-overall-stats";
 import { Suspense } from "react";

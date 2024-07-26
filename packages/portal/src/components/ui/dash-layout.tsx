@@ -1,7 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { Bell, Bird, Droplet, FileImage, Home, Menu } from "lucide-react";
+import {
+  Bell,
+  Bird,
+  Droplet,
+  FileImage,
+  GemIcon,
+  HandCoins,
+  Menu,
+  Pickaxe,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -16,9 +25,9 @@ import { useIsLoggedIn } from "@/containers/authentication/hooks/use-is-logged-i
 
 const navigationItems = [
   { href: "/portal/art", label: "Cuckoo Art", icon: FileImage },
-  { href: "/portal/airdrop", label: "Airdrop", icon: FileImage },
-  { href: "/portal/staking", label: "Staking", icon: Home },
-  { href: "/portal/staking/testnet", label: "Testnet Staking", icon: Home },
+  { href: "/portal/airdrop", label: "Airdrop", icon: HandCoins },
+  { href: "/portal/staking", label: "Staking", icon: GemIcon },
+  { href: "/portal/mining", label: "Mining", icon: Pickaxe },
   { href: "/portal/faucet", label: "Testnet Faucet", icon: Droplet },
 ];
 

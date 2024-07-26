@@ -12,6 +12,7 @@ import { VoteButton } from "@/app/portal/staking/vote-button";
 import { useFetchGPUProviders } from "@/app/portal/staking/hooks/use-fetch-gpu-providers";
 import { CardDescription, CardTitle } from "@/components/ui/card";
 import { shortenAddress } from "@/app/portal/staking/lib/shorten-address";
+import Link from "next/link";
 
 interface CPUInfo {
   "count logical": number;
@@ -71,9 +72,13 @@ export const MinerTable: React.FC = () => {
               <TableRow key={miner.walletAddress}>
                 <TableCell>{index + 1}</TableCell>
                 <TableCell>
-                  <pre>
-                    {miner.walletAddress}
-                  </pre>
+                  <Link
+                    className={"cursor-pointer underline"}
+                    target="_blank"
+                    href={`https://scan.cuckoo.network/address/${miner.walletAddress}`}
+                  >
+                    <pre>{miner.walletAddress}</pre>
+                  </Link>
                 </TableCell>
                 <TableCell>
                   {(
