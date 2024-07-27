@@ -2,6 +2,7 @@ package staking_test
 
 import (
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/staking"
+	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/stellar/go/support/log"
 	"github.com/stretchr/testify/require"
 	"math/big"
@@ -23,7 +24,8 @@ func TestStakes(t *testing.T) {
 	stakerAddress := "0xFc4d0EBB074F2d664aEF0bbcc8Ea770253661908"
 
 	// Test the Stakes function
-	s, err := staking.NewStaking(log.New())
+	ethC, err := ethclient.Dial("rpcURL")
+	s, err := staking.NewStaking(log.New(), ethC)
 	stake, err := s.Stakes(stakerAddress)
 	require.NoError(t, err)
 	require.NotNil(t, stake)

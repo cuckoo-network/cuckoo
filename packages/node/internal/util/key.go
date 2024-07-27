@@ -83,6 +83,16 @@ func IsValidSig(sig string, address string) bool {
 		return false
 	}
 
+	// Ensure the signature is in the correct format
+	if len(signatureBytes) != 65 {
+		return false
+	}
+
+	// Adjust the recovery id (v value)
+	if signatureBytes[64] >= 27 {
+		signatureBytes[64] -= 27
+	}
+
 	data := []byte(dateString)
 	hash := crypto.Keccak256Hash(data)
 	pubKey, err := crypto.SigToPub(hash.Bytes(), signatureBytes)
@@ -92,5 +102,5 @@ func IsValidSig(sig string, address string) bool {
 
 	recoveredAddr := crypto.PubkeyToAddress(*pubKey).Hex()
 
-	return recoveredAddr == address
+	return strings.EqualFold(recoveredAddr, address)
 }
