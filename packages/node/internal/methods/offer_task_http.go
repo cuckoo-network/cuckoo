@@ -32,6 +32,7 @@ func OfferTaskHandler(ts *store.InMemoryTaskStore) http.HandlerFunc {
 			id = util.TaskID()
 		}
 		maxOfferPrice := r.Header.Get("X-Max-Offer-Price")
+		assignedWorkers := r.Header.Get("X-Assigned-Workers")
 
 		// Read and parse the JSON Body
 		body, err := io.ReadAll(r.Body)
@@ -68,6 +69,10 @@ func OfferTaskHandler(ts *store.InMemoryTaskStore) http.HandlerFunc {
 			CreatedAt:         time.Now(),
 			ResultPayloadChan: make(chan json.RawMessage),
 			Payload:           request.Payload,
+			AssignedWorkerWalletAddresses: util.StringArrayFilter(
+				strings.Split(assignedWorkers, ","), func(it string) bool {
+					return it != ""
+				}),
 		}
 		ts.Create(task)
 

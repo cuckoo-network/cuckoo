@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/plugins"
+	"github.com/cuckoo-network/cuckoo/packages/node/internal/util"
 	"github.com/stellar/go/support/errors"
 	"math/big"
 	"sort"
@@ -110,7 +111,8 @@ type TaskOffer struct {
 	CreatedAt         time.Time            `json:"createdAt"`
 	ResultPayloadChan chan json.RawMessage `json:"-"` // Omitted from JSON
 
-	Payload json.RawMessage `json:"payload"`
+	Payload                       json.RawMessage `json:"payload"`
+	AssignedWorkerWalletAddresses []string
 }
 
 // Custom JSON marshaling for TaskOffer
@@ -237,6 +239,12 @@ func (store *InMemoryTaskStore) GetPendingTasksByWeights(weights []WalletWeight,
 
 	// get offers from store
 	offers := store.GetAllPendingTasks()
+
+	// taskOfferArrayFilter by AssignedWorkerWalletAddresses
+	offers = taskOfferArrayFilter(offers, func(t *TaskOffer) bool {
+		return len(t.AssignedWorkerWalletAddresses) == 0 || util.StringArrayContains(t.AssignedWorkerWalletAddresses, walletAddress)
+	})
+
 	total := totalWeight(weights)
 	// TODO: what if no weight at all? just return all tasks for now
 	if total.Cmp(big.NewInt(0)) == 0 {
@@ -322,4 +330,14 @@ func findWeight(walletAddress string, weights []WalletWeight) (*big.Int, *big.In
 type WalletWeight struct {
 	WalletAddress string
 	Weight        *big.Int
+}
+
+func taskOfferArrayFilter(slice []*TaskOffer, predicate func(*TaskOffer) bool) []*TaskOffer {
+	var result []*TaskOffer
+	for _, v := range slice {
+		if predicate(v) {
+			result = append(result, v)
+		}
+	}
+	return result
 }
