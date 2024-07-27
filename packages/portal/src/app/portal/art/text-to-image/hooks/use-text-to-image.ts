@@ -136,7 +136,11 @@ export const postStabilityTask = async ({
       CUCKOO_API_URL + "/sdapi/v1/txt2img",
       requestBody,
       {
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          "X-Assigned-Workers":
+            "0x2E665A4fb314a5d6F1d23fb5bed68a888c829650,0x079dFDf2680eB2001F4C9ce4F9cE192c5F6791C8",
+        },
       },
     );
 

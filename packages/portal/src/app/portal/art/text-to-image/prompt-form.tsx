@@ -100,13 +100,14 @@ export const PromptForm: React.FC<PromptFormProps> = ({
       </div>
 
       <div>
-        <button
+        <Button
           type="submit"
           disabled={loading}
+          isLoading={loading}
           className="px-4 py-2 bg-pink-600 text-white rounded-md"
         >
           {loading ? "Generating..." : "Generate"}
-        </button>
+        </Button>
       </div>
 
       <Accordion type="single" collapsible>
