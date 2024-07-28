@@ -56,4 +56,5 @@ type GPUProvider struct {
 	RAM             sdcli.RAMInfo         `json:"RAM"`
 	CreatedAt       time.Time             `json:"createdAt"`
 	UpdatedAt       time.Time             `json:"updatedAt"`
+	IP              string
 }

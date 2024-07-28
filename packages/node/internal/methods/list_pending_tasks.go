@@ -16,6 +16,7 @@ func ListPendingTasks(ts *store.InMemoryTaskStore, gps *store.GPUProviderStore, 
 		if !util.IsValidSig(req[0].Sig, req[0].WalletAddress) {
 			return nil, errors.New("unauthorized wallet")
 		}
+		req[0].IP, _ = ctx.Value("client-ip").(string)
 
 		gps.Upsert(&req[0])
 

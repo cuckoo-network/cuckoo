@@ -278,9 +278,21 @@ func NewJSONRPCHandler(params HandlerParams) Handler {
 	})
 
 	return Handler{
-		bridge:  bridge,
-		logger:  params.Logger,
-		Handler: corsMiddleware.Handler(handler),
+		bridge: bridge,
+		logger: params.Logger,
+		Handler: corsMiddleware.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+			// Extract IP and headers
+			clientIP := r.RemoteAddr
+			headers := r.Header
+
+			// Create a new context with the IP and headers
+			ctx := context.WithValue(r.Context(), "client-ip", clientIP)
+			ctx = context.WithValue(ctx, "headers", headers)
+
+			// Pass the new context with the request
+			r = r.WithContext(ctx)
+			handler.ServeHTTP(w, r)
+		})),
 	}
 }
 
