@@ -8,6 +8,7 @@ import (
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/plugins"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/store"
 	"github.com/stellar/go/support/errors"
+	"google.golang.org/grpc/metadata"
 	"math/big"
 	"os"
 	"time"
@@ -67,24 +68,29 @@ func (o *OfferTaskRequest) UnmarshalJSON(data []byte) error {
 	return nil
 }
 
+type paramsAndHeaders2 struct {
+	Headers metadata.MD        `json:"headers,omitempty"`
+	Params  []OfferTaskRequest `json:"params"`
+}
+
 func OfferTask(ts *store.InMemoryTaskStore, wk plugins.IWorker) jrpc2.Handler {
-	return handler.New(func(ctx context.Context, request []OfferTaskRequest) (store.TaskResult, error) {
+	return handler.New(func(ctx context.Context, request paramsAndHeaders2) (store.TaskResult, error) {
 		nodeType := os.Getenv("NODE_TYPE")
 		if nodeType != "COORDINATOR" {
 			// local mode
-			res, err := wk.ExecuteTask(request[0].Payload)
-			return store.TaskResult{Payload: res, Id: request[0].ID, Status: store.Completed}, err
+			res, err := wk.ExecuteTask(request.Params[0].Payload)
+			return store.TaskResult{Payload: res, Id: request.Params[0].ID, Status: store.Completed}, err
 		}
 
 		task := &store.TaskOffer{
-			Id:                request[0].ID,
+			Id:                request.Params[0].ID,
 			Status:            store.Pending,
-			CoinSymbol:        request[0].CoinSymbol,
-			MaxOfferPrice:     request[0].MaxOfferPrice,
+			CoinSymbol:        request.Params[0].CoinSymbol,
+			MaxOfferPrice:     request.Params[0].MaxOfferPrice,
 			CreatedAt:         time.Now(),
 			ResultPayloadChan: make(chan json.RawMessage),
 
-			Payload: request[0].Payload,
+			Payload: request.Params[0].Payload,
 		}
 		ts.Create(task)
 

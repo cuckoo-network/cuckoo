@@ -9,21 +9,27 @@ import (
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/store"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/util"
 	"github.com/stellar/go/support/errors"
+	"google.golang.org/grpc/metadata"
 )
 
+type paramsAndHeaders struct {
+	Headers metadata.MD           `json:"headers,omitempty"`
+	Params  []plugins.GPUProvider `json:"params"`
+}
+
 func ListPendingTasks(ts *store.InMemoryTaskStore, gps *store.GPUProviderStore, stk *staking.Staking) jrpc2.Handler {
-	return handler.New(func(ctx context.Context, req []plugins.GPUProvider) ([]*store.TaskOffer, error) {
-		if !util.IsValidSig(req[0].Sig, req[0].WalletAddress) {
+	return handler.New(func(ctx context.Context, req paramsAndHeaders) ([]*store.TaskOffer, error) {
+		if !util.IsValidSig(req.Params[0].Sig, req.Params[0].WalletAddress) {
 			return nil, errors.New("unauthorized wallet")
 		}
-		req[0].IP, _ = ctx.Value("client-ip").(string)
+		req.Params[0].IP = req.Headers.Get("X-Forwarded-For")[0]
 
-		gps.Upsert(&req[0])
+		gps.Upsert(&req.Params[0])
 
 		allProviders := gps.ListAllProviders()
 		weights := weights(allProviders, stk)
 
-		tasks := ts.GetPendingTasksByWeights(weights, req[0].WalletAddress)
+		tasks := ts.GetPendingTasksByWeights(weights, req.Params[0].WalletAddress)
 
 		return tasks, nil
 	})

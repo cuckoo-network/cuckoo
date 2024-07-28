@@ -17,6 +17,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/rs/cors"
 	"github.com/stellar/go/support/log"
+	"google.golang.org/grpc/metadata"
+	"io"
 	"net/http"
 	"os"
 	"strconv"
@@ -38,6 +40,26 @@ type HandlerCfg struct {
 	queueLimit           uint
 	longName             string
 	requestDurationLimit time.Duration
+}
+
+type paramsAndHeaders struct {
+	Headers metadata.MD     `json:"headers,omitempty"`
+	Params  json.RawMessage `json:"params"`
+}
+
+func headersToMetadata(r *http.Request) metadata.MD {
+	headersMap := make(map[string]string)
+
+	for _, header := range []string{"Authorization", "X-Forwarded-For"} {
+		canonicalHeader := http.CanonicalHeaderKey(header)
+		if v, ok := r.Header[canonicalHeader]; ok {
+			if len(v) > 0 {
+				headersMap[strings.ToLower(canonicalHeader)] = v[0]
+			}
+		}
+	}
+
+	return metadata.New(headersMap)
 }
 
 // maxHTTPRequestSize defines the largest request size that the http handler
@@ -127,6 +149,35 @@ func NewJSONRPCHandler(params HandlerParams) Handler {
 	bridgeOptions := jhttp.BridgeOptions{
 		Server: &jrpc2.ServerOptions{
 			Logger: func(text string) { params.Logger.Debug(text) },
+		},
+
+		ParseRequest: func(req *http.Request) ([]*jrpc2.ParsedRequest, error) {
+			body, err := io.ReadAll(req.Body)
+			if err != nil {
+				return nil, err
+			}
+
+			prs, err := jrpc2.ParseRequests(body)
+			if err != nil {
+				return nil, err
+			}
+
+			// Decorate the incoming request parameters with the headers.
+			for _, pr := range prs {
+				// TODO(lark): if there is no params then there won't be headers neither
+				if pr.Params == nil {
+					continue
+				}
+				w, err := json.Marshal(paramsAndHeaders{
+					Headers: headersToMetadata(req),
+					Params:  pr.Params,
+				})
+				if err != nil {
+					return nil, err
+				}
+				pr.Params = w
+			}
+			return prs, nil
 		},
 	}
 	sharedHandlers := []HandlerCfg{
@@ -281,16 +332,11 @@ func NewJSONRPCHandler(params HandlerParams) Handler {
 		bridge: bridge,
 		logger: params.Logger,
 		Handler: corsMiddleware.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-			// Extract IP and headers
 			clientIP := r.RemoteAddr
-			headers := r.Header
+			if r.Header.Get("X-Forwarded-For") == "" {
+				r.Header.Add("X-Forwarded-For", clientIP)
 
-			// Create a new context with the IP and headers
-			ctx := context.WithValue(r.Context(), "client-ip", clientIP)
-			ctx = context.WithValue(ctx, "headers", headers)
-
-			// Pass the new context with the request
-			r = r.WithContext(ctx)
+			}
 			handler.ServeHTTP(w, r)
 		})),
 	}

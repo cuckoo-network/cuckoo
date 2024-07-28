@@ -9,6 +9,7 @@ import (
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/plugins"
 	s "github.com/cuckoo-network/cuckoo/packages/node/internal/store"
 	"github.com/stellar/go/support/log"
+	"google.golang.org/grpc/metadata"
 )
 
 type SubmitTaskResultRequest struct {
@@ -63,17 +64,22 @@ func (r *SubmitTaskResultRequest) UnmarshalJSON(data []byte) error {
 type SubmitTaskResultResult struct {
 }
 
+type paramsAndHeaders4 struct {
+	Headers metadata.MD               `json:"headers,omitempty"`
+	Params  []SubmitTaskResultRequest `json:"params"`
+}
+
 func SubmitTaskResult(store *s.InMemoryTaskStore, logger *log.Entry) jrpc2.Handler {
-	return handler.New(func(ctx context.Context, request []SubmitTaskResultRequest) (*SubmitTaskResultResult, error) {
-		if request[0].CoinSymbol == plugins.SD {
-			result := request[0]
+	return handler.New(func(ctx context.Context, request paramsAndHeaders4) (*SubmitTaskResultResult, error) {
+		if request.Params[0].CoinSymbol == plugins.SD {
+			result := request.Params[0]
 			storedTask, err := store.Read(result.Id)
 			if err != nil {
 				logger.WithError(err).Error("failed to read from task store")
 				return nil, jrpc2.Errorf(jrpc2.InvalidParams, "task id %s not recognized", result.Id)
 			}
 
-			status := request[0].Status
+			status := request.Params[0].Status
 
 			if status == s.Completed {
 				storedTask.ResultPayloadChan <- result.Payload
@@ -86,6 +92,6 @@ func SubmitTaskResult(store *s.InMemoryTaskStore, logger *log.Entry) jrpc2.Handl
 			return nil, nil
 		}
 
-		return nil, jrpc2.Errorf(jrpc2.InvalidParams, "task type %s not recognized", request[0].CoinSymbol)
+		return nil, jrpc2.Errorf(jrpc2.InvalidParams, "task type %s not recognized", request.Params[0].CoinSymbol)
 	})
 }

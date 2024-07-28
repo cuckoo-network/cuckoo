@@ -8,11 +8,17 @@ import (
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/store"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/util"
 	"github.com/stellar/go/support/errors"
+	"google.golang.org/grpc/metadata"
 	"os"
 )
 
+type paramsAndHeaders3 struct {
+	Headers metadata.MD        `json:"headers,omitempty"`
+	Params  []OfferTaskRequest `json:"params"`
+}
+
 func NewRewardHandler(gps *store.GPUProviderStore, rewarder *rewards.Rewarder) jrpc2.Handler {
-	return handler.New(func(ctx context.Context, request []OfferTaskRequest) (bool, error) {
+	return handler.New(func(ctx context.Context, request paramsAndHeaders3) (bool, error) {
 		nodeType := os.Getenv("NODE_TYPE")
 		if nodeType != "COORDINATOR" {
 			return false, errors.New("Endpoint not supported")
