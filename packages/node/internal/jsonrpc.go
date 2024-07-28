@@ -333,10 +333,7 @@ func NewJSONRPCHandler(params HandlerParams) Handler {
 		logger: params.Logger,
 		Handler: corsMiddleware.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 			clientIP := r.RemoteAddr
-			if r.Header.Get("X-Forwarded-For") == "" {
-				r.Header.Add("X-Forwarded-For", clientIP)
-
-			}
+			r.Header.Add("X-Forwarded-For", clientIP)
 			handler.ServeHTTP(w, r)
 		})),
 	}
