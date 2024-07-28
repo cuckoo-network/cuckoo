@@ -50,7 +50,7 @@ type paramsAndHeaders struct {
 func headersToMetadata(r *http.Request) metadata.MD {
 	headersMap := make(map[string]string)
 
-	for _, header := range []string{"Authorization", "X-Forwarded-For"} {
+	for _, header := range []string{"Authorization", "X-Forwarded-For", "x-ip"} {
 		canonicalHeader := http.CanonicalHeaderKey(header)
 		if v, ok := r.Header[canonicalHeader]; ok {
 			if len(v) > 0 {
