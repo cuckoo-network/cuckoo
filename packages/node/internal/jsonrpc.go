@@ -332,8 +332,7 @@ func NewJSONRPCHandler(params HandlerParams) Handler {
 		bridge: bridge,
 		logger: params.Logger,
 		Handler: corsMiddleware.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-			ips := strings.Split(r.RemoteAddr, ",")
-			r.Header.Add("x-ip", ips[0])
+			r.Header.Add("x-ip", r.RemoteAddr)
 			handler.ServeHTTP(w, r)
 		})),
 	}
