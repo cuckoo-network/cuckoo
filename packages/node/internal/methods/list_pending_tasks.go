@@ -22,7 +22,7 @@ func ListPendingTasks(ts *store.InMemoryTaskStore, gps *store.GPUProviderStore, 
 		if !util.IsValidSig(req.Params[0].Sig, req.Params[0].WalletAddress) {
 			return nil, errors.New("unauthorized wallet")
 		}
-		req.Params[0].IP = req.Headers.Get("X-Forwarded-For")[0]
+		req.Params[0].IP = req.Headers.Get("x-ip")[0]
 
 		gps.Upsert(&req.Params[0])
 
