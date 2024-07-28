@@ -26,6 +26,7 @@ type MinerInfo struct {
 	RAM             sdcli.RAMInfo         `json:"RAM"`
 	CreatedAt       time.Time             `json:"createdAt"`
 	UpdatedAt       time.Time             `json:"updatedAt"`
+	IP              string                `json:"ip"`
 }
 
 func ListGPUProviders(gps *store.GPUProviderStore, stk *staking.Staking, wk plugins.IWorker) jrpc2.Handler {
@@ -69,6 +70,7 @@ func ListGPUProviders(gps *store.GPUProviderStore, stk *staking.Staking, wk plug
 				RAM:             p.RAM,
 				CreatedAt:       p.CreatedAt,
 				UpdatedAt:       p.UpdatedAt,
+				IP:              p.IP,
 			}
 		}
 		return miners, nil
