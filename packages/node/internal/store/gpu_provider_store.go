@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	providerTTL = 1 * time.Minute
+	providerTTL = 2 * time.Minute
 )
 
 type GPUProviderStore struct {
