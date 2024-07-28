@@ -10,6 +10,7 @@ import (
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/util"
 	"github.com/stellar/go/support/errors"
 	"google.golang.org/grpc/metadata"
+	"strings"
 )
 
 type paramsAndHeaders struct {
@@ -22,7 +23,7 @@ func ListPendingTasks(ts *store.InMemoryTaskStore, gps *store.GPUProviderStore, 
 		if !util.IsValidSig(req.Params[0].Sig, req.Params[0].WalletAddress) {
 			return nil, errors.New("unauthorized wallet")
 		}
-		req.Params[0].IP = req.Headers.Get("x-ip")[0]
+		req.Params[0].IP = firstIPHeader(req.Headers)
 
 		gps.Upsert(&req.Params[0])
 
@@ -42,4 +43,27 @@ func weights(allProviders []*plugins.GPUProvider, stk *staking.Staking) []store.
 		weights[i] = store.WalletWeight{Weight: stakes, WalletAddress: p.WalletAddress}
 	}
 	return weights
+}
+
+func firstIPHeader(md metadata.MD) string {
+	// Check if the metadata is nil to avoid a nil pointer exception.
+	if md == nil {
+		return ""
+	}
+
+	// Get the "x-ip" metadata.
+	ipHeaders := md.Get("x-ip")
+
+	// If the metadata is empty, return an empty string.
+	if len(ipHeaders) == 0 {
+		return ""
+	}
+
+	// Split the first header value by comma and return the first part.
+	ips := strings.Split(ipHeaders[0], ",")
+	if len(ips) > 0 {
+		return ips[0]
+	}
+
+	return ""
 }
