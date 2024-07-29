@@ -11,7 +11,7 @@ export const ArtDisplay: React.FC<ArtDisplayProps> = ({ artUrl }) => {
   const router = useRouter();
   return (
     <>
-      <div className="mt-4 border rounded md:flex hidden">
+      <div className="mt-4 border rounded md:flex">
         <div className="relative grow flex-col items-center">
           {artUrl ? (
             <img
