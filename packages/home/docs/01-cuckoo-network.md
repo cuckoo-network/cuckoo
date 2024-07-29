@@ -20,13 +20,17 @@
 4. Facilitate governance
 5. Separate from stable-coin miner task rewards
 
-🌊 Get Cuckoo Testnet Token
+🪂 Airdrop:
+
+- Get free $CAI from https://cuckoo.network/portal/airdrop?referer=CuckooNetworkHQ
+- Refer friends with your referral link, get _30%_ of their airdrops.
+
+🌊 For Developers, Get Cuckoo Testnet Token
 
 - Visit the [Faucet](https://cuckoo.network/tg)
 - Use the `/faucet` command
 - Check your transaction at [Cuckoo Scan](https://scan.cuckoo.network/)
 - Generate images with `/imagine a cute dog`
-- Done!
 
 🔗 Useful links:
 

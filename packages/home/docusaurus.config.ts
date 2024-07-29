@@ -164,7 +164,7 @@ const config: Config = {
               to: "/faq",
             },
             {
-              label: "roadmap",
+              label: "Roadmap",
               to: "/docs/roadmap",
             },
           ],
@@ -226,6 +226,10 @@ const config: Config = {
               href: "/privacy-policy",
             },
             {
+              label: "Airdrop Terms of Service",
+              href: "/airdrop-terms-of-service",
+            },
+            {
               label: "Terms of Service",
               href: "/terms-of-service",
             },
@@ -243,12 +247,16 @@ const config: Config = {
               href: "https://karmapi.ai/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
             },
             {
-              label: "Magic Wand",
-              href: "https://magicwand.so/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
-            },
-            {
               label: "Beancount",
               href: "https://beancount.io/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
+            },
+            {
+              label: "Miners",
+              href: "https://cuckoo.network/portal/mining",
+            },
+            {
+              label: "Cuckoo Art",
+              href: "https://cuckoo.network/portal/art",
             },
           ],
         },
