@@ -30,7 +30,7 @@ interface PromptFormProps {
 
 const prompts = {
   a: {
-    prompt: "(masterpiece), best quality, expressive eyes, perfect face",
+    prompt: "(masterpiece), best quality, beautiful eyes, perfect face, portrait, cyberpunk",
     negativePrompt:
       "lowres, (bad), text, error, fewer, extra, missing, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, chromatic aberration, signature, extra digits, artistic error, username, scan, [abstract]",
   },
