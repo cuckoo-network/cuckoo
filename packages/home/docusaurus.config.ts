@@ -196,6 +196,10 @@ const config: Config = {
               label: "Email: hello@cuckoo.network",
               to: "mailto:hello@cuckoo.network",
             },
+            {
+              label: "Careers",
+              to: "/careers",
+            },
           ],
         },
         {
