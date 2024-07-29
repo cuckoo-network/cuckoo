@@ -7,40 +7,17 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { GPUList } from "@/app/portal/staking/gpu-list";
 import { VoteButton } from "@/app/portal/staking/vote-button";
-import { useFetchGPUProviders } from "@/app/portal/staking/hooks/use-fetch-gpu-providers";
 import { CardDescription, CardTitle } from "@/components/ui/card";
-import { shortenAddress } from "@/app/portal/staking/lib/shorten-address";
 import Link from "next/link";
-
-interface CPUInfo {
-  "count logical": number;
-}
-
-interface RAMInfo {
-  total: string;
-  used: string;
-}
-
-interface Miner {
-  walletAddress: string;
-  votes: string;
-  nvidia_gpu_models: string[] | null;
-  CPU: CPUInfo;
-  RAM: RAMInfo;
-}
-
-function parseRAMUsage(used: string, total: string): string {
-  const usedGB = parseFloat(used.replace("GB", ""));
-  const totalGB = parseFloat(total.replace("GB", ""));
-  return ((usedGB / totalGB) * 100).toFixed(2) + "%";
-}
+import { useMiners } from "@/app/portal/staking/hooks/use-miners";
 
 export const MinerTable: React.FC = () => {
-  const { providers: miners = [], isLoading } = useFetchGPUProviders();
+  const { minersData, minersLoading } = useMiners();
 
-  if (isLoading) {
+  const minerList = minersData?.miners || [];
+
+  if (minersLoading) {
     return <></>;
   }
 
@@ -59,25 +36,25 @@ export const MinerTable: React.FC = () => {
             <TableHead>Rank</TableHead>
             <TableHead>Miner</TableHead>
             <TableHead>Votes</TableHead>
-            <TableHead>GPUs</TableHead>
-            <TableHead>CPUs</TableHead>
-            <TableHead>RAM Usage</TableHead>
+            <TableHead>Location</TableHead>
+            <TableHead>System Info</TableHead>
             <TableHead>Action</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
-          {(miners ?? [])
-            .sort((a: any, b: any) => b.votes - a.votes)
-            .map((miner: any, index: number) => (
+          {[...minerList]
+            .sort((a, b) => Number(b.votes) - Number(a.votes))
+            .map((miner, index: number) => (
               <TableRow key={miner.walletAddress}>
                 <TableCell>{index + 1}</TableCell>
                 <TableCell>
+                  <div>{miner.gpuModels}</div>
                   <Link
                     className={"cursor-pointer underline"}
                     target="_blank"
                     href={`https://scan.cuckoo.network/address/${miner.walletAddress}`}
                   >
-                    <pre>{miner.walletAddress}</pre>
+                    <pre className={"text-xs"}>{miner.walletAddress}</pre>
                   </Link>
                 </TableCell>
                 <TableCell>
@@ -85,12 +62,13 @@ export const MinerTable: React.FC = () => {
                     BigInt(miner.votes) / BigInt("1000000000000000000")
                   ).toString()}
                 </TableCell>
+                <TableCell>{miner.location}</TableCell>
                 <TableCell>
-                  <GPUList models={miner.nvidia_gpu_models} />
-                </TableCell>
-                <TableCell>{miner.CPU["count logical"]}</TableCell>
-                <TableCell>
-                  {parseRAMUsage(miner.RAM.used, miner.RAM.total)}
+                  <div className={"text-xs"}>
+                    {miner.gpuModels.split(",").length} GPU(s) {miner.cpuCount}{" "}
+                    CPU(s)
+                  </div>
+                  <div className={"text-xs"}>RAM: {miner.ramUsed}</div>
                 </TableCell>
                 <TableCell>
                   <VoteButton address={miner.walletAddress} />
@@ -102,12 +80,3 @@ export const MinerTable: React.FC = () => {
     </div>
   );
 };
-
-function copyToClipboard(text: string) {
-  const textarea = document.createElement("textarea");
-  textarea.value = text;
-  document.body.appendChild(textarea);
-  textarea.select();
-  document.execCommand("copy");
-  document.body.removeChild(textarea);
-}
