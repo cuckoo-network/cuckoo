@@ -176,6 +176,25 @@ func (s *Service) run(ctx context.Context) error {
 		return errors.Wrap(err, "Error unmarshaling json.RawMessage")
 	}
 
+	// compress png to webp if possible
+	// Check if there is a field "images" that is a string array
+	if images, ok := resObj["images"].([]interface{}); ok {
+		for i, img := range images {
+			if base64PNG, ok := img.(string); ok {
+				base64WebP, err := convertBase64PNGToBase64WebP(base64PNG)
+				if err != nil {
+					return errors.Wrap(err, "failed to convertBase64PNGToBase64WebP")
+				}
+				// Replace the PNG string with the WebP string
+				images[i] = base64WebP
+			} else {
+				return errors.New("Invalid image format")
+			}
+		}
+		// Convert the updated image array back to the original map
+		resObj["images"] = images
+	}
+
 	s.logger.Info("submit result")
 	rand.New(rand.NewSource(time.Now().UnixNano()))
 	randomInt := rand.Intn(1_000_000_000)
