@@ -76,7 +76,7 @@ export function Hero() {
                     "button btn text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group uppercase",
                     styles.heroA,
                   )}
-                  href="https://cuckoo.network/portal/airdrop"
+                  href="https://cuckoo.network/portal/art/text-to-image"
                 >
                   <Sparkles className={"mr-1"} size={18}/>{" "}
                   Generate AI Art
@@ -92,7 +92,7 @@ export function Hero() {
                     "button btn text-gray-300 bg-gradient-to-t from-gray-800 to-gray-700 hover:to-gray-800 w-full shadow-lg uppercase",
                     styles.heroA,
                   )}
-                  href="https://cuckoo.network/portal/art/text-to-image"
+                  href="https://cuckoo.network/portal/art"
                 >
                   <Newspaper className={"mr-1"} size={18}/>{" "}
                   Explore{" "}
