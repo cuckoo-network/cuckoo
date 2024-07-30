@@ -22,6 +22,7 @@
     "aos": "^3.0.0-beta.6",
     "autoprefixer": "^10.4.16",
     "clsx": "^2.0.0",
+    "lucide-react": "^0.417.0",
     "postcss": "^8.4.33",
     "prettier": "^3.3.2",
     "pretty-quick": "^4.0.0",

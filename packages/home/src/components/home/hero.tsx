@@ -3,6 +3,7 @@ import clsx from "clsx";
 import styles from "./hero.modules.css";
 import { useAos } from "@site/src/hooks/use-aos";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import {HandCoins, Newspaper, Sparkles} from "lucide-react";
 
 export function Hero() {
   useAos();
@@ -75,10 +76,12 @@ export function Hero() {
                     "button btn text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group uppercase",
                     styles.heroA,
                   )}
-                  href="https://cuckoo.network/portal/art"
+                  href="https://cuckoo.network/portal/airdrop"
                 >
-                  Explore{" "}
-                  <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+                  <Sparkles className={"mr-1"} size={18}/>{" "}
+                  Generate AI Art
+                  <span
+                    className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     →
                   </span>
                 </Link>
@@ -89,8 +92,22 @@ export function Hero() {
                     "button btn text-gray-300 bg-gradient-to-t from-gray-800 to-gray-700 hover:to-gray-800 w-full shadow-lg uppercase",
                     styles.heroA,
                   )}
+                  href="https://cuckoo.network/portal/art/text-to-image"
+                >
+                  <Newspaper className={"mr-1"} size={18}/>{" "}
+                  Explore{" "}
+
+                </Link>
+              </div>
+              <div>
+                <Link
+                  className={clsx(
+                    "button btn text-gray-300 bg-gradient-to-t from-gray-800 to-gray-700 hover:to-gray-800 w-full shadow-lg uppercase",
+                    styles.heroA,
+                  )}
                   href="https://cuckoo.network/portal/airdrop"
                 >
+                  <HandCoins className={"mr-1"} size={18}/>{" "}
                   Earn
                 </Link>
               </div>

@@ -21,10 +21,13 @@
 
   - [ ] Node operator program (2024-07-B)
 
-    - [ ] [Cuckoo network mining with GPU](/blog/2024/07/15/cuckoo-network-mining-gpu-july-2024)
+    - [x] [Cuckoo network mining with GPU](/blog/2024/07/15/cuckoo-network-mining-gpu-july-2024)
     - [ ] [Node registration on Cuckoo Portal](/future-releases/cuckoo-network-node-leaderboard)
     - [ ] Cuckoo Chain Developer
     - [ ] Network Stats Monitor
+      - [ ] version management
+      - [ ] Authorization
+      - [ ] webp compression
 
   - [ ] Holder's Airdrop Portal and Referral Program (2024-08-A)
     - [x] [Airdrop Portal](/blog/2024/07/25/cuckoo-network-airdrop-portal)

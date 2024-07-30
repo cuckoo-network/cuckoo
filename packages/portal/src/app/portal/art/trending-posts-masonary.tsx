@@ -3,6 +3,7 @@
 import React from "react";
 import { useTrendingPosts } from "@/app/portal/art/hooks/use-trending-posts";
 import { Button } from "@/components/ui/button";
+import {ImagePlus, Sparkles} from "lucide-react";
 
 export const TrendingPostsMasonary = () => {
   const { dataTrendingPosts, loadingTrendingPosts } = useTrendingPosts();
@@ -18,10 +19,12 @@ export const TrendingPostsMasonary = () => {
     <>
       <div className={"flex gap-1"}>
         <Button variant={"secondary"} href={"/portal/art/create-post"}>
+          <ImagePlus className={"mr-1"} size={18}/>{" "}
           Creat Post
         </Button>
 
         <Button variant={"secondary"} href={"/portal/art/text-to-image"}>
+          <Sparkles className={"mr-1"} size={18}/>{" "}
           Text to Image
         </Button>
       </div>
