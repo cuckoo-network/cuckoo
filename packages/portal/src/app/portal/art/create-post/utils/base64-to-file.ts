@@ -1,7 +1,7 @@
 export function base64ToFile(
   base64: string | null | undefined,
-  filename: string = "file.png",
-  mimeType: string = "image/png",
+  filename: string = "file.webp",
+  mimeType: string = "image/webp",
 ): File | null {
   if (!base64) {
     return null;

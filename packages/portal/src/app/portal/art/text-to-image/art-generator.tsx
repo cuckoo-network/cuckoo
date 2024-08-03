@@ -1,50 +1,49 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { PromptForm } from "@/app/portal/art/text-to-image/prompt-form";
 import { ArtDisplay } from "@/app/portal/art/text-to-image/art-display";
-import {
-  ICanvasSize,
-  postStabilityTask,
-} from "@/app/portal/art/text-to-image/hooks/use-text-to-image";
-import { atom, useAtom } from "jotai";
+import { useGenerateArt } from "@/app/portal/art/text-to-image/hooks/use-text-to-image";
 import { Authenticated } from "@/containers/authentication/authenticated";
-
-export const genImgBase64Atom = atom("");
+import { useFindOneTextToImageItem } from "@/app/portal/art/text-to-image/history/hooks/use-text-to-image-history";
+import { CreatedTextToImageHistoryItem } from "@/gql/graphql";
+import { usePathname, useSearchParams, useRouter } from "next/navigation";
+import { selectTtih } from "@/app/portal/art/text-to-image/selectors/select-ttih";
 
 const ArtGenerator: React.FC = () => {
-  const [artUrl, setArtUrl] = useState<string>("");
-  const [loading, setLoading] = useState(false);
-  const [, setImgBase64] = useAtom<string>(genImgBase64Atom);
+  const sp = useSearchParams();
+  const prefilledTtihId = sp.get("id");
+  const router = useRouter();
+  const path = usePathname();
 
-  const handleGenerateArt = async (prompt: {
-    highPriority: boolean;
-    negativePrompt: string;
-    prompt: string;
-    canvasSize: ICanvasSize;
-  }) => {
-    setLoading(true);
-    try {
-      const data = await postStabilityTask({
-        prompt: prompt.prompt,
-        negative_prompt: prompt.negativePrompt,
-        canvasSize: prompt.canvasSize,
-      });
-      const base64 = data[0];
-      const genImgUrl = `data:text/plain;base64,${base64}`;
-      setArtUrl(genImgUrl);
-      setImgBase64(base64);
-    } catch (error) {
-      console.error("Error generating art:", error);
-    } finally {
-      setLoading(false);
-    }
-  };
+  const { ttih: createdTtih, loading, handleGenerateArt } = useGenerateArt();
+  const { textToImageHistoryData } = useFindOneTextToImageItem(prefilledTtihId);
+  const ttih = selectTtih(textToImageHistoryData);
+
+  // Ensure hooks are called correctly and update the state when data changes
+  const [currentTtih, setCurrentTtih] = useState<
+    CreatedTextToImageHistoryItem | undefined
+  >(undefined);
+
+  useEffect(() => {
+    (async () => {
+      if (createdTtih) {
+        router.push(`${path}?id=${createdTtih.id}`);
+        setCurrentTtih(createdTtih);
+      } else if (ttih) {
+        setCurrentTtih(ttih);
+      }
+    })();
+  }, [createdTtih, path, router, ttih]);
 
   return (
     <Authenticated>
-      <PromptForm onSubmit={handleGenerateArt} loading={loading} />
-      <ArtDisplay artUrl={artUrl} />
+      <PromptForm
+        onSubmit={handleGenerateArt}
+        loading={loading}
+        ttih={currentTtih}
+      />
+      <ArtDisplay loading={loading} ttih={currentTtih} />
     </Authenticated>
   );
 };

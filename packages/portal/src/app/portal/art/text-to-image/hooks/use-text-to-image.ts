@@ -1,4 +1,11 @@
 import axios from "axios";
+import { useState } from "react";
+import {
+  useCreateTextToImage,
+  useSetPhotoUploaded,
+} from "@/app/portal/art/text-to-image/hooks/use-create-text-to-image";
+import { base64ToFile } from "@/app/portal/art/create-post/utils/base64-to-file";
+import { CreatedTextToImageHistoryItem } from "@/gql/graphql";
 
 const CUCKOO_API_URL =
   "https://ai-content-moderator-node.cuckoo.network/task/sd";
@@ -98,6 +105,26 @@ export const textToImageSizes: Record<
   },
 };
 
+export const sizeChoices = Object.keys(textToImageSizes);
+
+export function getKeyBySize({
+  width,
+  height,
+}: {
+  width: number;
+  height: number;
+}): string {
+  for (const key in textToImageSizes) {
+    if (
+      textToImageSizes[key].width === width &&
+      textToImageSizes[key].height === height
+    ) {
+      return key;
+    }
+  }
+  return sizeChoices[0];
+}
+
 const defaultTxt2ImgRequest: Txt2ImgRequest = {
   prompt: "cyberpunk women, high quality",
   negative_prompt:
@@ -111,26 +138,92 @@ const defaultTxt2ImgRequest: Txt2ImgRequest = {
 
 export type ICanvasSize = keyof typeof textToImageSizes;
 
-export const postStabilityTask = async ({
-  prompt,
-  negative_prompt,
-  canvasSize = "sdxlPortrait",
-}: {
-  prompt: string;
-  negative_prompt: string;
-  canvasSize?: ICanvasSize;
-}): Promise<string[]> => {
-  const requestBody: Txt2ImgRequest = {
-    ...defaultTxt2ImgRequest,
-    negative_prompt,
-    prompt,
-    ...textToImageSizes[canvasSize],
-    override_settings: {
-      sd_model_checkpoint: "animagineXLV31_v31.safetensors",
-      webp_lossless: true,
-    },
+export const useGenerateArt = () => {
+  const [ttih, setTtih] = useState<undefined | CreatedTextToImageHistoryItem>(
+    undefined,
+  );
+  const [loading, setLoading] = useState(false);
+  const { createTextToImage } = useCreateTextToImage();
+  const { setPhotoUploaded } = useSetPhotoUploaded();
+
+  const handleGenerateArt = async (prompt: {
+    highPriority: boolean;
+    negativePrompt: string;
+    prompt: string;
+    canvasSize: ICanvasSize;
+  }) => {
+    setLoading(true);
+    try {
+      // create art
+      const sdRequest: Txt2ImgRequest = {
+        ...defaultTxt2ImgRequest,
+        negative_prompt: prompt.negativePrompt,
+        prompt: prompt.prompt,
+        ...textToImageSizes[prompt.canvasSize],
+        override_settings: {
+          sd_model_checkpoint: "animagineXLV31_v31.safetensors",
+          webp_lossless: true,
+        },
+      };
+      const data = await postStabilityTask(sdRequest);
+      const base64 = data[0];
+
+      const file = base64ToFile(base64);
+      if (!file) {
+        throw new Error("cannot encode base64 to file");
+      }
+
+      // record history
+      const createdTtih = await createTextToImage({
+        variables: {
+          data: {
+            height: sdRequest.height,
+            negativePrompt: sdRequest.negative_prompt,
+            prompt: sdRequest.prompt,
+            samplingSteps: sdRequest.steps,
+            width: sdRequest.width,
+            photoMedia: [
+              {
+                ext: "webp",
+                height: sdRequest.height,
+                sortOrder: 0,
+                width: sdRequest.width,
+              },
+            ],
+          },
+        },
+      });
+
+      const pm = createdTtih.data?.createTextToImage?.photoMedia?.at(0);
+      await axios.put(pm.writeUrl, file, {
+        headers: {
+          "Content-Type": file.type,
+        },
+      });
+
+      await setPhotoUploaded({
+        variables: {
+          setPhotoUploadedId: pm.id,
+        },
+      });
+      setTtih(createdTtih.data?.createTextToImage);
+    } catch (error) {
+      console.error("Error generating art:", error);
+    } finally {
+      setLoading(false);
+    }
   };
 
+  return {
+    loading,
+    ttih,
+    handleGenerateArt,
+  };
+};
+
+const postStabilityTask = async (
+  requestBody: Txt2ImgRequest,
+): Promise<string[]> => {
   try {
     const response = await axios.post(
       CUCKOO_API_URL + "/sdapi/v1/txt2img",

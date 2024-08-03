@@ -3,7 +3,7 @@
 > Check our roadmap releases at https://cuckoo.network/blog/tags/roadmap.
 > Check our future releases at https://github.com/cuckoo-network/cuckoo/tree/main/packages/home/src/pages/future-releases.
 
-## Current Focus
+## Q3/2024 Current Focus
 
 - [ ] Mainnet Basics 2024-Q3
 
@@ -15,7 +15,7 @@
   - [x] [How Cuckoo AI Grows After the Cuckoo Chain Launch](/blog/2024/06/28/how-does-cuckoo-grow-after-cuckoo-chain-launch)
   - [ ] DeAI users
 
-    - [ ] Onboard one AI project to Cuckoo AI (2024-07-A)
+    - [ ] Cuckoo Art (2024-07-A)
     - [ ] Onboard one AI project to Cuckoo Pay
     - [ ] [The Future of AI Anime: Cuckoo Art Business Plan](/future-releases/generative-art)
 
@@ -42,7 +42,7 @@
   - [ ] hackathons
   - [ ] native stablecoin
 
-## Past
+## Q2/2024
 
 - [x] Testnet (2024-05)
   - [x] Introduce bridges

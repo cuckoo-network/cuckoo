@@ -8,6 +8,7 @@ import {
   FileImage,
   GemIcon,
   HandCoins,
+  History,
   Menu,
   Pickaxe,
 } from "lucide-react";
@@ -156,6 +157,16 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
             </SheetContent>
           </Sheet>
           <div className="w-full flex-1"></div>
+
+          {!isLoggedInLoading && isLoggedIn && (
+            <Button
+              variant="secondary"
+              href={"/portal/art/text-to-image/history"}
+            >
+              <History />
+            </Button>
+          )}
+
           {!isLoggedInLoading && isLoggedIn ? (
             <Button variant="ghost" href={"/portal/logout"}>
               Logout

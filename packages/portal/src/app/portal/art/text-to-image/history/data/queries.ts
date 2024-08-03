@@ -1,8 +1,8 @@
 import { gql } from "@apollo/client";
 
-export const mutateCreateText2Image = gql`
-  mutation CreateTextToImage($data: TextToImageInput!) {
-    createTextToImage(data: $data) {
+export const queryTextToImageHistory = gql`
+  query TextToImageHistory($data: TextToImageHistoryRequest!) {
+    textToImageHistory(data: $data) {
       id
       prompt
       negativePrompt

@@ -1,21 +1,30 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import { Authenticated } from "@/containers/authentication/authenticated";
 import { UploadButton } from "./upload-button";
 import { useCreatePost } from "@/app/portal/art/hooks/use-create-post";
 import { Button } from "@/components/ui/button";
-import { useRouter } from "next/navigation";
-import { useAtom } from "jotai";
-import { genImgBase64Atom } from "@/app/portal/art/text-to-image/art-generator";
+import { useRouter, useSearchParams } from "next/navigation";
+import {
+  useFindOneTextToImageItem,
+  useTextToImageHistory,
+} from "@/app/portal/art/text-to-image/history/hooks/use-text-to-image-history";
+import { selectTtih } from "@/app/portal/art/text-to-image/selectors/select-ttih";
+
+function useTtihQueryParam() {
+  const searchParams = useSearchParams();
+  const ttihId = searchParams.get("ttihId");
+  const { textToImageHistoryData } = useFindOneTextToImageItem(ttihId);
+  return selectTtih(textToImageHistoryData);
+}
 
 export function CreatePost() {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [hashtags, setHashtags] = useState("");
   const [isSensitive, setIsSensitive] = useState(false);
-  const [genImgBase64] = useAtom(genImgBase64Atom);
   const [imageFile, setImageFile] = useState<File | null | undefined>(null);
   const [imageDimensions, setImageDimensions] = useState<{
     width: number;
@@ -23,6 +32,13 @@ export function CreatePost() {
   } | null>(null);
   const [loading, setLoading] = useState(false);
   const router = useRouter();
+
+  const ttih = useTtihQueryParam();
+  useEffect(() => {
+    if (ttih) {
+      setDescription(`Prompt: ${ttih.prompt}`);
+    }
+  }, [ttih]);
 
   const handleImageUpload = (
     dimensions: { width: number; height: number },
@@ -43,12 +59,20 @@ export function CreatePost() {
             description: description,
             hashtags: hashtags,
             nsfw: false,
+            ...(imageFile || !ttih
+              ? {}
+              : {
+                  textToImageHistoryItemId: ttih.id,
+                }),
             photoMedia: [
               ...(imageFile
                 ? [
                     {
                       id: imageFile?.name,
                       sortOrder: 0,
+                      // TODO(lark)
+                      width: imageDimensions?.width,
+                      height: imageDimensions?.height,
                     },
                   ]
                 : []),
@@ -89,7 +113,7 @@ export function CreatePost() {
         <div className="flex flex-col md:gap-8 lg:flex-row lg:gap-16">
           <UploadButton
             onImageUpload={handleImageUpload}
-            initialImageBase64={genImgBase64}
+            initialImgUrl={ttih?.photoMedia[0]?.readUrl}
           />
           <div className="relative flex grow flex-col justify-between self-stretch">
             <div className={"flex flex-col"}>
