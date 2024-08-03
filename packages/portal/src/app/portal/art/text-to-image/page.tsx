@@ -1,6 +1,6 @@
 import { ArtGenerator } from "@/app/portal/art/text-to-image/art-generator";
 import { CardDescription, CardTitle } from "@/components/ui/card";
-import React from "react";
+import React, { Suspense } from "react";
 import { DashLayout } from "@/components/ui/dash-layout";
 
 export default function TextToImagePage() {
@@ -12,7 +12,9 @@ export default function TextToImagePage() {
         </CardTitle>
         <CardDescription>Create AI art by prompting.</CardDescription>
       </div>
-      <ArtGenerator />
+      <Suspense>
+        <ArtGenerator />
+      </Suspense>
     </DashLayout>
   );
 }

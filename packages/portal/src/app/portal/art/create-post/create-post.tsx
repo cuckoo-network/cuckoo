@@ -7,10 +7,7 @@ import { UploadButton } from "./upload-button";
 import { useCreatePost } from "@/app/portal/art/hooks/use-create-post";
 import { Button } from "@/components/ui/button";
 import { useRouter, useSearchParams } from "next/navigation";
-import {
-  useFindOneTextToImageItem,
-  useTextToImageHistory,
-} from "@/app/portal/art/text-to-image/history/hooks/use-text-to-image-history";
+import { useFindOneTextToImageItem } from "@/app/portal/art/text-to-image/history/hooks/use-text-to-image-history";
 import { selectTtih } from "@/app/portal/art/text-to-image/selectors/select-ttih";
 
 function useTtihQueryParam() {

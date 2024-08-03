@@ -195,6 +195,9 @@ export const useGenerateArt = () => {
       });
 
       const pm = createdTtih.data?.createTextToImage?.photoMedia?.at(0);
+      if (!pm) {
+        throw new Error("failed to create ttih");
+      }
       await axios.put(pm.writeUrl, file, {
         headers: {
           "Content-Type": file.type,
