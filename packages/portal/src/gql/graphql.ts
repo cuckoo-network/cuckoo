@@ -69,18 +69,6 @@ export type CreateSocialPostResponse = {
   photoMedia?: Maybe<Array<PhotoMediaToUpload>>;
 };
 
-export type CreatedTextToImageHistoryItem = {
-  __typename?: 'CreatedTextToImageHistoryItem';
-  createdAt: Scalars['DateTimeISO']['output'];
-  height: Scalars['Int']['output'];
-  id: Scalars['ID']['output'];
-  negativePrompt: Scalars['String']['output'];
-  photoMedia: Array<PhotoMedia2>;
-  prompt: Scalars['String']['output'];
-  samplingSteps: Scalars['Int']['output'];
-  width: Scalars['Int']['output'];
-};
-
 export type LoginResponse = {
   __typename?: 'LoginResponse';
   token: Scalars['String']['output'];
@@ -102,7 +90,7 @@ export type Mutation = {
   __typename?: 'Mutation';
   createPhotoMedia: PhotoMedia2;
   createSocialPost: CreateSocialPostResponse;
-  createTextToImage: CreatedTextToImageHistoryItem;
+  createTextToImage: TextToImageHistoryItem;
   login: LoginResponse;
   logout: Scalars['Boolean']['output'];
   requestAirdrop: Scalars['Boolean']['output'];
@@ -167,21 +155,21 @@ export type MutationUpdateAccountArgs = {
   data: UpdateAccountInput;
 };
 
-export type Page = {
-  __typename?: 'Page';
-  current: Scalars['Int']['output'];
-  size: Scalars['Int']['output'];
-  totalPages: Scalars['Int']['output'];
-  totalResults: Scalars['Int']['output'];
+export type PageInfo = {
+  __typename?: 'PageInfo';
+  endCursor?: Maybe<Scalars['String']['output']>;
+  hasNextPage: Scalars['Boolean']['output'];
+  hasPreviousPage: Scalars['Boolean']['output'];
+  startCursor?: Maybe<Scalars['String']['output']>;
 };
 
 export type PhotoMedia = {
   __typename?: 'PhotoMedia';
-  height: Scalars['Int']['output'];
+  height?: Maybe<Scalars['Int']['output']>;
   id: Scalars['String']['output'];
   sortOrder: Scalars['Int']['output'];
   url: Scalars['String']['output'];
-  width: Scalars['Int']['output'];
+  width?: Maybe<Scalars['Int']['output']>;
 };
 
 export type PhotoMedia2 = {
@@ -197,10 +185,10 @@ export type PhotoMedia2 = {
 };
 
 export type PhotoMediaInput = {
-  height: Scalars['Float']['input'];
+  height?: InputMaybe<Scalars['Int']['input']>;
   id: Scalars['String']['input'];
   sortOrder: Scalars['Float']['input'];
-  width: Scalars['Float']['input'];
+  width?: InputMaybe<Scalars['Int']['input']>;
 };
 
 export type PhotoMediaInput2 = {
@@ -217,8 +205,57 @@ export type PhotoMediaToUpload = {
   url: Scalars['String']['output'];
 };
 
-export type Post = {
-  __typename?: 'Post';
+export type PostConnection = {
+  __typename?: 'PostConnection';
+  edges: Array<PostEdge>;
+  pageInfo: PageInfo;
+};
+
+export type PostEdge = {
+  __typename?: 'PostEdge';
+  /** Used in `before` and `after` args */
+  cursor: Scalars['String']['output'];
+  node: SocialPost;
+};
+
+export type Query = {
+  __typename?: 'Query';
+  airdropHistory?: Maybe<Array<AirdropHistoryItem>>;
+  airdropStats: AirdropStats;
+  /** is the server healthy? */
+  health: Scalars['String']['output'];
+  miners: Array<MinerInfo>;
+  socialPosts: PostConnection;
+  textToImageHistory: TextToImageHistoryItemConnection;
+  user: User;
+  walletAccount: WalletAccountResponse;
+};
+
+
+export type QuerySocialPostsArgs = {
+  after?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Float']['input']>;
+};
+
+
+export type QueryTextToImageHistoryArgs = {
+  after?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Float']['input']>;
+  id?: InputMaybe<Scalars['ID']['input']>;
+};
+
+export type RequestAirdropInput = {
+  amount?: InputMaybe<Scalars['Float']['input']>;
+  type: AirdropType;
+};
+
+export type SignUpResponse = {
+  __typename?: 'SignUpResponse';
+  token: Scalars['String']['output'];
+};
+
+export type SocialPost = {
+  __typename?: 'SocialPost';
   collects: Scalars['Float']['output'];
   comments: Scalars['Float']['output'];
   contentRating: Scalars['String']['output'];
@@ -237,47 +274,29 @@ export type Post = {
   userId: Scalars['String']['output'];
 };
 
-export type PostsResponse = {
-  __typename?: 'PostsResponse';
-  page: Page;
-  posts: Array<Post>;
+export type TextToImageHistoryItem = {
+  __typename?: 'TextToImageHistoryItem';
+  createdAt: Scalars['DateTimeISO']['output'];
+  height: Scalars['Int']['output'];
+  id: Scalars['ID']['output'];
+  negativePrompt: Scalars['String']['output'];
+  photoMedia: Array<PhotoMedia2>;
+  prompt: Scalars['String']['output'];
+  samplingSteps: Scalars['Int']['output'];
+  width: Scalars['Int']['output'];
 };
 
-export type Query = {
-  __typename?: 'Query';
-  airdropHistory?: Maybe<Array<AirdropHistoryItem>>;
-  airdropStats: AirdropStats;
-  /** is the server healthy? */
-  health: Scalars['String']['output'];
-  miners: Array<MinerInfo>;
-  textToImageHistory: Array<CreatedTextToImageHistoryItem>;
-  trendingPosts: PostsResponse;
-  user: User;
-  walletAccount: WalletAccountResponse;
+export type TextToImageHistoryItemConnection = {
+  __typename?: 'TextToImageHistoryItemConnection';
+  edges: Array<TextToImageHistoryItemEdge>;
+  pageInfo: PageInfo;
 };
 
-
-export type QueryTextToImageHistoryArgs = {
-  data?: InputMaybe<TextToImageHistoryRequest>;
-};
-
-
-export type QueryTrendingPostsArgs = {
-  page?: Scalars['Int']['input'];
-};
-
-export type RequestAirdropInput = {
-  amount?: InputMaybe<Scalars['Float']['input']>;
-  type: AirdropType;
-};
-
-export type SignUpResponse = {
-  __typename?: 'SignUpResponse';
-  token: Scalars['String']['output'];
-};
-
-export type TextToImageHistoryRequest = {
-  id?: InputMaybe<Scalars['ID']['input']>;
+export type TextToImageHistoryItemEdge = {
+  __typename?: 'TextToImageHistoryItemEdge';
+  /** Used in `before` and `after` args */
+  cursor: Scalars['String']['output'];
+  node: TextToImageHistoryItem;
 };
 
 export type TextToImageInput = {
@@ -399,10 +418,10 @@ export type CreatePostMutationVariables = Exact<{
 
 export type CreatePostMutation = { __typename?: 'Mutation', createSocialPost: { __typename?: 'CreateSocialPostResponse', photoMedia?: Array<{ __typename?: 'PhotoMediaToUpload', id: string, url: string, sortOrder: number }> | null } };
 
-export type TrendingPostsQueryVariables = Exact<{ [key: string]: never; }>;
+export type SocialPostsQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type TrendingPostsQuery = { __typename?: 'Query', trendingPosts: { __typename?: 'PostsResponse', posts: Array<{ __typename?: 'Post', id: string, userId: string, title?: string | null, description?: string | null, postState: string, contentRating: string, hashtags?: Array<string> | null, likes: number, collects: number, comments: number, liked: boolean, deletedAt?: any | null, createdAt: any, updatedAt: any, photoMedia?: Array<{ __typename?: 'PhotoMedia', id: string, url: string, sortOrder: number, width: number, height: number }> | null, profile: { __typename?: 'UserProfile', name: string, following: boolean, profilePhoto: { __typename?: 'PhotoMedia', id: string, url: string, sortOrder: number, width: number, height: number } } }> } };
+export type SocialPostsQuery = { __typename?: 'Query', socialPosts: { __typename?: 'PostConnection', pageInfo: { __typename?: 'PageInfo', hasNextPage: boolean, endCursor?: string | null, hasPreviousPage: boolean, startCursor?: string | null }, edges: Array<{ __typename?: 'PostEdge', cursor: string, node: { __typename?: 'SocialPost', id: string, userId: string, title?: string | null, description?: string | null, postState: string, contentRating: string, hashtags?: Array<string> | null, likes: number, collects: number, comments: number, liked: boolean, deletedAt?: any | null, createdAt: any, updatedAt: any, photoMedia?: Array<{ __typename?: 'PhotoMedia', id: string, url: string, sortOrder: number, width?: number | null, height?: number | null }> | null, profile: { __typename?: 'UserProfile', name: string, following: boolean, profilePhoto: { __typename?: 'PhotoMedia', id: string, url: string, sortOrder: number, width?: number | null, height?: number | null } } } }> } };
 
 export type CreatePhotoMediaMutationVariables = Exact<{
   data: PhotoMediaInput2;
@@ -423,14 +442,16 @@ export type CreateTextToImageMutationVariables = Exact<{
 }>;
 
 
-export type CreateTextToImageMutation = { __typename?: 'Mutation', createTextToImage: { __typename?: 'CreatedTextToImageHistoryItem', id: string, prompt: string, negativePrompt: string, samplingSteps: number, width: number, height: number, createdAt: any, photoMedia: Array<{ __typename?: 'PhotoMedia2', id: string, sortOrder: number, width: number, height: number, readUrl: string, writeUrl: string, postId?: string | null, textToImageId?: string | null }> } };
+export type CreateTextToImageMutation = { __typename?: 'Mutation', createTextToImage: { __typename?: 'TextToImageHistoryItem', id: string, prompt: string, negativePrompt: string, samplingSteps: number, width: number, height: number, createdAt: any, photoMedia: Array<{ __typename?: 'PhotoMedia2', id: string, sortOrder: number, width: number, height: number, readUrl: string, writeUrl: string, postId?: string | null, textToImageId?: string | null }> } };
 
 export type TextToImageHistoryQueryVariables = Exact<{
-  data: TextToImageHistoryRequest;
+  after?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Float']['input']>;
+  id?: InputMaybe<Scalars['ID']['input']>;
 }>;
 
 
-export type TextToImageHistoryQuery = { __typename?: 'Query', textToImageHistory: Array<{ __typename?: 'CreatedTextToImageHistoryItem', id: string, prompt: string, negativePrompt: string, samplingSteps: number, width: number, height: number, createdAt: any, photoMedia: Array<{ __typename?: 'PhotoMedia2', id: string, sortOrder: number, width: number, height: number, readUrl: string, writeUrl: string, postId?: string | null, textToImageId?: string | null }> }> };
+export type TextToImageHistoryQuery = { __typename?: 'Query', textToImageHistory: { __typename?: 'TextToImageHistoryItemConnection', pageInfo: { __typename?: 'PageInfo', hasNextPage: boolean, endCursor?: string | null, hasPreviousPage: boolean, startCursor?: string | null }, edges: Array<{ __typename?: 'TextToImageHistoryItemEdge', cursor: string, node: { __typename?: 'TextToImageHistoryItem', id: string, prompt: string, negativePrompt: string, samplingSteps: number, width: number, height: number, createdAt: any, photoMedia: Array<{ __typename?: 'PhotoMedia2', id: string, sortOrder: number, width: number, height: number, readUrl: string, writeUrl: string, postId?: string | null, textToImageId?: string | null }> } }> } };
 
 export type RequestTokensMutationVariables = Exact<{
   address: Scalars['String']['input'];
@@ -462,11 +483,11 @@ export const AirdropStatsDocument = {"kind":"Document","definitions":[{"kind":"O
 export const AirdropHistoryDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"AirdropHistory"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"airdropHistory"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"type"}},{"kind":"Field","name":{"kind":"Name","value":"rewards"}},{"kind":"Field","name":{"kind":"Name","value":"receiptUrl"}},{"kind":"Field","name":{"kind":"Name","value":"createdAt"}}]}}]}}]} as unknown as DocumentNode<AirdropHistoryQuery, AirdropHistoryQueryVariables>;
 export const WalletAccountDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"WalletAccount"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"walletAccount"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"address"}},{"kind":"Field","name":{"kind":"Name","value":"balance"}},{"kind":"Field","name":{"kind":"Name","value":"transactionCount"}}]}}]}}]} as unknown as DocumentNode<WalletAccountQuery, WalletAccountQueryVariables>;
 export const CreatePostDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"CreatePost"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"data"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"CreateSocialPostInput"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"createSocialPost"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"data"},"value":{"kind":"Variable","name":{"kind":"Name","value":"data"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"photoMedia"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"sortOrder"}}]}}]}}]}}]} as unknown as DocumentNode<CreatePostMutation, CreatePostMutationVariables>;
-export const TrendingPostsDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"TrendingPosts"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"trendingPosts"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"posts"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"userId"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"postState"}},{"kind":"Field","name":{"kind":"Name","value":"contentRating"}},{"kind":"Field","name":{"kind":"Name","value":"photoMedia"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"sortOrder"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}}]}},{"kind":"Field","name":{"kind":"Name","value":"hashtags"}},{"kind":"Field","name":{"kind":"Name","value":"likes"}},{"kind":"Field","name":{"kind":"Name","value":"collects"}},{"kind":"Field","name":{"kind":"Name","value":"comments"}},{"kind":"Field","name":{"kind":"Name","value":"profile"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"profilePhoto"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"sortOrder"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}}]}},{"kind":"Field","name":{"kind":"Name","value":"following"}}]}},{"kind":"Field","name":{"kind":"Name","value":"liked"}},{"kind":"Field","name":{"kind":"Name","value":"deletedAt"}},{"kind":"Field","name":{"kind":"Name","value":"createdAt"}},{"kind":"Field","name":{"kind":"Name","value":"updatedAt"}}]}}]}}]}}]} as unknown as DocumentNode<TrendingPostsQuery, TrendingPostsQueryVariables>;
+export const SocialPostsDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"SocialPosts"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"socialPosts"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"pageInfo"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"hasNextPage"}},{"kind":"Field","name":{"kind":"Name","value":"endCursor"}},{"kind":"Field","name":{"kind":"Name","value":"hasPreviousPage"}},{"kind":"Field","name":{"kind":"Name","value":"startCursor"}}]}},{"kind":"Field","name":{"kind":"Name","value":"edges"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"node"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"userId"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"postState"}},{"kind":"Field","name":{"kind":"Name","value":"contentRating"}},{"kind":"Field","name":{"kind":"Name","value":"photoMedia"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"sortOrder"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}}]}},{"kind":"Field","name":{"kind":"Name","value":"hashtags"}},{"kind":"Field","name":{"kind":"Name","value":"likes"}},{"kind":"Field","name":{"kind":"Name","value":"collects"}},{"kind":"Field","name":{"kind":"Name","value":"comments"}},{"kind":"Field","name":{"kind":"Name","value":"profile"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"profilePhoto"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"sortOrder"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}}]}},{"kind":"Field","name":{"kind":"Name","value":"following"}}]}},{"kind":"Field","name":{"kind":"Name","value":"liked"}},{"kind":"Field","name":{"kind":"Name","value":"deletedAt"}},{"kind":"Field","name":{"kind":"Name","value":"createdAt"}},{"kind":"Field","name":{"kind":"Name","value":"updatedAt"}}]}},{"kind":"Field","name":{"kind":"Name","value":"cursor"}}]}}]}}]}}]} as unknown as DocumentNode<SocialPostsQuery, SocialPostsQueryVariables>;
 export const CreatePhotoMediaDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"CreatePhotoMedia"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"data"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"PhotoMediaInput2"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"createPhotoMedia"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"data"},"value":{"kind":"Variable","name":{"kind":"Name","value":"data"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"sortOrder"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"readUrl"}},{"kind":"Field","name":{"kind":"Name","value":"writeUrl"}},{"kind":"Field","name":{"kind":"Name","value":"postId"}},{"kind":"Field","name":{"kind":"Name","value":"textToImageId"}}]}}]}}]} as unknown as DocumentNode<CreatePhotoMediaMutation, CreatePhotoMediaMutationVariables>;
 export const SetPhotoUploadedDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"SetPhotoUploaded"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"setPhotoUploadedId"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"String"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"setPhotoUploaded"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"id"},"value":{"kind":"Variable","name":{"kind":"Name","value":"setPhotoUploadedId"}}}]}]}}]} as unknown as DocumentNode<SetPhotoUploadedMutation, SetPhotoUploadedMutationVariables>;
 export const CreateTextToImageDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"CreateTextToImage"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"data"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"TextToImageInput"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"createTextToImage"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"data"},"value":{"kind":"Variable","name":{"kind":"Name","value":"data"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"prompt"}},{"kind":"Field","name":{"kind":"Name","value":"negativePrompt"}},{"kind":"Field","name":{"kind":"Name","value":"samplingSteps"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"createdAt"}},{"kind":"Field","name":{"kind":"Name","value":"photoMedia"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"sortOrder"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"readUrl"}},{"kind":"Field","name":{"kind":"Name","value":"writeUrl"}},{"kind":"Field","name":{"kind":"Name","value":"postId"}},{"kind":"Field","name":{"kind":"Name","value":"textToImageId"}}]}}]}}]}}]} as unknown as DocumentNode<CreateTextToImageMutation, CreateTextToImageMutationVariables>;
-export const TextToImageHistoryDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"TextToImageHistory"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"data"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"TextToImageHistoryRequest"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"textToImageHistory"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"data"},"value":{"kind":"Variable","name":{"kind":"Name","value":"data"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"prompt"}},{"kind":"Field","name":{"kind":"Name","value":"negativePrompt"}},{"kind":"Field","name":{"kind":"Name","value":"samplingSteps"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"createdAt"}},{"kind":"Field","name":{"kind":"Name","value":"photoMedia"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"sortOrder"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"readUrl"}},{"kind":"Field","name":{"kind":"Name","value":"writeUrl"}},{"kind":"Field","name":{"kind":"Name","value":"postId"}},{"kind":"Field","name":{"kind":"Name","value":"textToImageId"}}]}}]}}]}}]} as unknown as DocumentNode<TextToImageHistoryQuery, TextToImageHistoryQueryVariables>;
+export const TextToImageHistoryDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"TextToImageHistory"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"after"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"String"}}},{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"first"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"Float"}}},{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"id"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"ID"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"textToImageHistory"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"after"},"value":{"kind":"Variable","name":{"kind":"Name","value":"after"}}},{"kind":"Argument","name":{"kind":"Name","value":"first"},"value":{"kind":"Variable","name":{"kind":"Name","value":"first"}}},{"kind":"Argument","name":{"kind":"Name","value":"id"},"value":{"kind":"Variable","name":{"kind":"Name","value":"id"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"pageInfo"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"hasNextPage"}},{"kind":"Field","name":{"kind":"Name","value":"endCursor"}},{"kind":"Field","name":{"kind":"Name","value":"hasPreviousPage"}},{"kind":"Field","name":{"kind":"Name","value":"startCursor"}}]}},{"kind":"Field","name":{"kind":"Name","value":"edges"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"cursor"}},{"kind":"Field","name":{"kind":"Name","value":"node"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"prompt"}},{"kind":"Field","name":{"kind":"Name","value":"negativePrompt"}},{"kind":"Field","name":{"kind":"Name","value":"samplingSteps"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"createdAt"}},{"kind":"Field","name":{"kind":"Name","value":"photoMedia"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"sortOrder"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"readUrl"}},{"kind":"Field","name":{"kind":"Name","value":"writeUrl"}},{"kind":"Field","name":{"kind":"Name","value":"postId"}},{"kind":"Field","name":{"kind":"Name","value":"textToImageId"}}]}}]}}]}}]}}]}}]} as unknown as DocumentNode<TextToImageHistoryQuery, TextToImageHistoryQueryVariables>;
 export const RequestTokensDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"RequestTokens"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"address"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"String"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"requestTokens"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"address"},"value":{"kind":"Variable","name":{"kind":"Name","value":"address"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"erc20TokenTransferHash"}},{"kind":"Field","name":{"kind":"Name","value":"nativeTokenTransferHash"}}]}}]}}]} as unknown as DocumentNode<RequestTokensMutation, RequestTokensMutationVariables>;
 export const MinersDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"Miners"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"miners"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"type"}},{"kind":"Field","name":{"kind":"Name","value":"walletAddress"}},{"kind":"Field","name":{"kind":"Name","value":"votes"}},{"kind":"Field","name":{"kind":"Name","value":"gpuModels"}},{"kind":"Field","name":{"kind":"Name","value":"cpuCount"}},{"kind":"Field","name":{"kind":"Name","value":"ramUsed"}},{"kind":"Field","name":{"kind":"Name","value":"location"}}]}}]}}]} as unknown as DocumentNode<MinersQuery, MinersQueryVariables>;
 export const LogoutDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"Logout"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"logout"}}]}}]} as unknown as DocumentNode<LogoutMutation, LogoutMutationVariables>;

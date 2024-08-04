@@ -5,7 +5,7 @@ import {
   useSetPhotoUploaded,
 } from "@/app/portal/art/text-to-image/hooks/use-create-text-to-image";
 import { base64ToFile } from "@/app/portal/art/create-post/utils/base64-to-file";
-import { CreatedTextToImageHistoryItem } from "@/gql/graphql";
+import { TextToImageHistoryItem } from "@/gql/graphql";
 
 const CUCKOO_API_URL =
   "https://ai-content-moderator-node.cuckoo.network/task/sd";
@@ -139,7 +139,7 @@ const defaultTxt2ImgRequest: Txt2ImgRequest = {
 export type ICanvasSize = keyof typeof textToImageSizes;
 
 export const useGenerateArt = () => {
-  const [ttih, setTtih] = useState<undefined | CreatedTextToImageHistoryItem>(
+  const [ttih, setTtih] = useState<undefined | TextToImageHistoryItem>(
     undefined,
   );
   const [loading, setLoading] = useState(false);

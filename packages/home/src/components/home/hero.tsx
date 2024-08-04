@@ -3,7 +3,7 @@ import clsx from "clsx";
 import styles from "./hero.modules.css";
 import { useAos } from "@site/src/hooks/use-aos";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import {HandCoins, Newspaper, Sparkles} from "lucide-react";
+import { HandCoins, Newspaper, Sparkles } from "lucide-react";
 
 export function Hero() {
   useAos();
@@ -70,7 +70,7 @@ export function Hero() {
               data-aos="zoom-out"
               data-aos-delay="300"
             >
-              <div>
+              <div className="md:block sm:hidden">
                 <Link
                   className={clsx(
                     "button btn text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group uppercase",
@@ -78,10 +78,8 @@ export function Hero() {
                   )}
                   href="https://cuckoo.network/portal/art/text-to-image"
                 >
-                  <Sparkles className={"mr-1"} size={18}/>{" "}
-                  Generate AI Art
-                  <span
-                    className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+                  <Sparkles className={"mr-1"} size={18} /> Create AI Art
+                  <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     →
                   </span>
                 </Link>
@@ -94,9 +92,7 @@ export function Hero() {
                   )}
                   href="https://cuckoo.network/portal/art"
                 >
-                  <Newspaper className={"mr-1"} size={18}/>{" "}
-                  Explore{" "}
-
+                  <Newspaper className={"mr-1"} size={18} /> Explore{" "}
                 </Link>
               </div>
               <div>
@@ -107,8 +103,7 @@ export function Hero() {
                   )}
                   href="https://cuckoo.network/portal/airdrop"
                 >
-                  <HandCoins className={"mr-1"} size={18}/>{" "}
-                  Earn
+                  <HandCoins className={"mr-1"} size={18} /> Earn
                 </Link>
               </div>
             </div>

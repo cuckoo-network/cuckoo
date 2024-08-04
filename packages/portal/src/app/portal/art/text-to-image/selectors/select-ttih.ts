@@ -1,10 +1,7 @@
-import {
-  CreatedTextToImageHistoryItem,
-  TextToImageHistoryQuery,
-} from "@/gql/graphql";
+import { TextToImageHistoryItem, TextToImageHistoryQuery } from "@/gql/graphql";
 
 export function selectTtih(
   textToImageHistoryData: TextToImageHistoryQuery | undefined,
-): CreatedTextToImageHistoryItem | undefined {
-  return textToImageHistoryData?.textToImageHistory?.at(0);
+): TextToImageHistoryItem | undefined {
+  return textToImageHistoryData?.textToImageHistory?.edges.at(0)?.node;
 }

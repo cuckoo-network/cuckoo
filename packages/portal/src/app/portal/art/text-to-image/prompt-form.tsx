@@ -21,7 +21,7 @@ import {
   sizeChoices,
   textToImageSizes,
 } from "@/app/portal/art/text-to-image/hooks/use-text-to-image";
-import { CreatedTextToImageHistoryItem } from "@/gql/graphql";
+import { TextToImageHistoryItem } from "@/gql/graphql";
 import {
   Select,
   SelectContent,
@@ -39,7 +39,7 @@ interface PromptFormProps {
     canvasSize: ICanvasSize;
   }) => void;
   loading: boolean;
-  ttih?: CreatedTextToImageHistoryItem;
+  ttih?: TextToImageHistoryItem;
 }
 
 const prompts = {

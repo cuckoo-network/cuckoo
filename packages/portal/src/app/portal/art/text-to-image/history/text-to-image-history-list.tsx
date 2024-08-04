@@ -3,6 +3,7 @@
 import { useTextToImageHistory } from "@/app/portal/art/text-to-image/history/hooks/use-text-to-image-history";
 import Image from "next/image";
 import Link from "next/link";
+import { TextToImageHistoryQuery } from "@/gql/graphql";
 
 function resizeImage(
   h: number,
@@ -19,10 +20,18 @@ function resizeImage(
   return [targetWidth, newHeight];
 }
 
+function selectTtihItems(
+  textToImageHistoryData: TextToImageHistoryQuery | undefined,
+) {
+  return (
+    textToImageHistoryData?.textToImageHistory.edges.map((ed) => ed.node) || []
+  );
+}
+
 export const TextToImageHistoryList = () => {
   const { textToImageHistoryData } = useTextToImageHistory();
 
-  const items = textToImageHistoryData?.textToImageHistory;
+  const items = selectTtihItems(textToImageHistoryData);
 
   return (
     <>

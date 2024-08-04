@@ -6,7 +6,7 @@ import { ArtDisplay } from "@/app/portal/art/text-to-image/art-display";
 import { useGenerateArt } from "@/app/portal/art/text-to-image/hooks/use-text-to-image";
 import { Authenticated } from "@/containers/authentication/authenticated";
 import { useFindOneTextToImageItem } from "@/app/portal/art/text-to-image/history/hooks/use-text-to-image-history";
-import { CreatedTextToImageHistoryItem } from "@/gql/graphql";
+import { TextToImageHistoryItem } from "@/gql/graphql";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
 import { selectTtih } from "@/app/portal/art/text-to-image/selectors/select-ttih";
 
@@ -22,7 +22,7 @@ const ArtGenerator: React.FC = () => {
 
   // Ensure hooks are called correctly and update the state when data changes
   const [currentTtih, setCurrentTtih] = useState<
-    CreatedTextToImageHistoryItem | undefined
+    TextToImageHistoryItem | undefined
   >(undefined);
 
   useEffect(() => {

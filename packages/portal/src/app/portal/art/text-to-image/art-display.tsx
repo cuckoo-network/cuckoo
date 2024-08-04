@@ -2,10 +2,10 @@ import React from "react";
 import { Image as ImageIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
-import { CreatedTextToImageHistoryItem } from "@/gql/graphql";
+import { TextToImageHistoryItem } from "@/gql/graphql";
 
 interface ArtDisplayProps {
-  ttih?: CreatedTextToImageHistoryItem;
+  ttih?: TextToImageHistoryItem;
   loading?: boolean;
 }
 
