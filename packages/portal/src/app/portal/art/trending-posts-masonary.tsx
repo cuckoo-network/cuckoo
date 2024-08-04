@@ -41,7 +41,7 @@ export const TrendingPostsMasonary = () => {
                 const photo = post.photoMedia?.at(0);
                 return (
                   <div key={post.id} className={"mb-4"}>
-                    {photo?.width ? (
+                    {(photo?.width && photo?.height) ? (
                       <Image
                         alt={post.title || ""}
                         width={photo.width}
