@@ -7,8 +7,8 @@ export const useSocialPosts = (first: number, after: string) => {
     querySocialPosts,
     {
       variables: {
-        // first,
-        // after,
+        first,
+        after,
       },
     },
   );
