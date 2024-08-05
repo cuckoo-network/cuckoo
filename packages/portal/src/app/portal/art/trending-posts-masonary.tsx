@@ -1,31 +1,48 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useSocialPosts } from "@/app/portal/art/hooks/use-social-posts";
 import { Button } from "@/components/ui/button";
 import { ImagePlus, Sparkles } from "lucide-react";
 import { SocialPostsQuery } from "@/gql/graphql";
 import Image from "next/image";
+import InfiniteScroll from "react-infinite-scroll-component";
 
 function selectSocialPosts(dataTrendingPosts: SocialPostsQuery | undefined) {
   return dataTrendingPosts?.socialPosts.edges.map((ed) => ed.node);
 }
 
 export const TrendingPostsMasonary = () => {
-  const { dataTrendingPosts, loadingTrendingPosts } = useSocialPosts();
-  if (loadingTrendingPosts) {
-    return <></>;
-  }
+  const [cursor, setCursor] = useState<string | null | undefined>("0");
+  const [posts, setPosts] = useState<any[]>([]);
+  const [hasMore, setHasMore] = useState<boolean>(true);
 
-  const postGroups = groupIntertwined(
-    selectSocialPosts(dataTrendingPosts) || [],
-  );
+  const { dataTrendingPosts, loadingTrendingPosts } = useSocialPosts(1000, cursor);
+
+  useEffect(() => {
+    if (dataTrendingPosts) {
+      const newPosts = selectSocialPosts(dataTrendingPosts) || [];
+      setPosts((prevPosts) => [...prevPosts, ...newPosts]);
+
+      const newCursor = dataTrendingPosts.socialPosts.pageInfo.endCursor;
+      setCursor(newCursor);
+      setHasMore(newPosts.length > 0);
+    }
+  }, [dataTrendingPosts]);
+
+  const fetchMoreData = () => {
+    if (cursor && !loadingTrendingPosts) {
+      setCursor(cursor);
+    }
+  };
+
+  const postGroups = groupIntertwined(posts);
 
   return (
     <>
       <div className={"flex gap-1"}>
         <Button variant={"secondary"} href={"/portal/art/create-post"}>
-          <ImagePlus className={"mr-1"} size={18} /> Creat Post
+          <ImagePlus className={"mr-1"} size={18} /> Create Post
         </Button>
 
         <Button variant={"secondary"} href={"/portal/art/text-to-image"}>
