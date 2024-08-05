@@ -105,10 +105,14 @@ export const TwitterLogin = ({ isLoading }: { isLoading: boolean }) => {
     process && process.env.NODE_ENV !== "production"
       ? "http://localhost:3000"
       : "https://cuckoo.network";
+  const clientId =
+    process && process.env.NODE_ENV !== "production"
+      ? "ZWJxWDlPUDY3MkdMY0xlS3VtbWM6MTpjaQ"
+      : "SjhJM1A1RUlFNzg3N1g5cUp5YnE6MTpjaQ";
 
   const authConfig: TAuthConfig = useMemo(
     () => ({
-      clientId: "SjhJM1A1RUlFNzg3N1g5cUp5YnE6MTpjaQ",
+      clientId: clientId,
       authorizationEndpoint: "https://twitter.com/i/oauth2/authorize",
       tokenEndpoint: `${tokenEndpointUrlBase}/api-gateway/twitter/2/oauth2/token`,
       redirectUri: `${redirectUriUrlBase}/portal/login`,
@@ -117,7 +121,7 @@ export const TwitterLogin = ({ isLoading }: { isLoading: boolean }) => {
       decodeToken: false,
       autoLogin: false,
     }),
-    [redirectUriUrlBase, tokenEndpointUrlBase],
+    [clientId, redirectUriUrlBase, tokenEndpointUrlBase],
   );
 
   if (typeof window === "undefined") {
