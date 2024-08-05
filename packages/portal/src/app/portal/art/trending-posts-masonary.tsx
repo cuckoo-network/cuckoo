@@ -12,7 +12,7 @@ function selectSocialPosts(dataTrendingPosts: SocialPostsQuery | undefined) {
 }
 
 export const TrendingPostsMasonary = () => {
-  const { dataTrendingPosts, loadingTrendingPosts } = useSocialPosts();
+  const { dataTrendingPosts, loadingTrendingPosts } = useSocialPosts(1000, "0");
   if (loadingTrendingPosts) {
     return <></>;
   }
