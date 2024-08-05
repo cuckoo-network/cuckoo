@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useSocialPosts } from "@/app/portal/art/hooks/use-social-posts";
 import { Button } from "@/components/ui/button";
 import { ImagePlus, Sparkles } from "lucide-react";
@@ -12,36 +12,20 @@ function selectSocialPosts(dataTrendingPosts: SocialPostsQuery | undefined) {
 }
 
 export const TrendingPostsMasonary = () => {
-  const [cursor, setCursor] = useState<string | null | undefined>("0");
-  const [posts, setPosts] = useState<any[]>([]);
-  const [hasMore, setHasMore] = useState<boolean>(true);
+  const { dataTrendingPosts, loadingTrendingPosts } = useSocialPosts();
+  if (loadingTrendingPosts) {
+    return <></>;
+  }
 
-  const { dataTrendingPosts, loadingTrendingPosts } = useSocialPosts(1000, cursor || "0");
-
-  useEffect(() => {
-    if (dataTrendingPosts) {
-      const newPosts = selectSocialPosts(dataTrendingPosts) || [];
-      setPosts((prevPosts) => [...prevPosts, ...newPosts]);
-
-      const newCursor = dataTrendingPosts.socialPosts.pageInfo.endCursor;
-      setCursor(newCursor);
-      setHasMore(newPosts.length > 0);
-    }
-  }, [dataTrendingPosts]);
-
-  const fetchMoreData = () => {
-    if (cursor && !loadingTrendingPosts) {
-      setCursor(cursor);
-    }
-  };
-
-  const postGroups = groupIntertwined(posts);
+  const postGroups = groupIntertwined(
+    selectSocialPosts(dataTrendingPosts) || [],
+  );
 
   return (
     <>
       <div className={"flex gap-1"}>
         <Button variant={"secondary"} href={"/portal/art/create-post"}>
-          <ImagePlus className={"mr-1"} size={18} /> Create Post
+          <ImagePlus className={"mr-1"} size={18} /> Creat Post
         </Button>
 
         <Button variant={"secondary"} href={"/portal/art/text-to-image"}>
