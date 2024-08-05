@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { ImagePlus, Sparkles } from "lucide-react";
 import { SocialPostsQuery } from "@/gql/graphql";
 import Image from "next/image";
-import InfiniteScroll from "react-infinite-scroll-component";
 
 function selectSocialPosts(dataTrendingPosts: SocialPostsQuery | undefined) {
   return dataTrendingPosts?.socialPosts.edges.map((ed) => ed.node);
@@ -17,7 +16,7 @@ export const TrendingPostsMasonary = () => {
   const [posts, setPosts] = useState<any[]>([]);
   const [hasMore, setHasMore] = useState<boolean>(true);
 
-  const { dataTrendingPosts, loadingTrendingPosts } = useSocialPosts(1000, cursor);
+  const { dataTrendingPosts, loadingTrendingPosts } = useSocialPosts(1000, cursor || "0");
 
   useEffect(() => {
     if (dataTrendingPosts) {
