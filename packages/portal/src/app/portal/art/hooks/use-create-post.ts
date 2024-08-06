@@ -6,7 +6,7 @@ import { CreatePostMutation } from "@/gql/graphql";
 export const useCreatePost = () => {
   const [createPost, { data, loading, error }] =
     useMutation<CreatePostMutation>(mutateCreatePost, {
-      refetchQueries: [{ query: querySocialPosts }],
+      refetchQueries: [{ query: querySocialPosts, fetchPolicy: "network-only" }],
     });
 
   return {
