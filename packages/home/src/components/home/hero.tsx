@@ -4,6 +4,7 @@ import styles from "./hero.modules.css";
 import { useAos } from "@site/src/hooks/use-aos";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { HandCoins, Newspaper, Sparkles } from "lucide-react";
+import Translate, { translate } from '@docusaurus/Translate';
 
 export function Hero() {
   useAos();
@@ -24,7 +25,10 @@ export function Hero() {
           src={"/img/hero-illustration.svg"}
           className="max-w-none"
           priority
-          alt="Hero Illustration"
+          alt={translate({
+            message: 'Hero Illustration',
+            description: 'The alt text for the hero illustration'
+          })}
         />
       </div>
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
@@ -34,7 +38,7 @@ export function Hero() {
             <div data-aos="zoom-out">
               <div className="relative text-sm text-gray-300 bg-gray-800 rounded-full inline-block px-4 py-1 mb-6 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                 <div className="text-gray-400">
-                  Introducing Cuckoo Network Airdrop Portal{" "}
+                  <Translate>Introducing Cuckoo Network Airdrop Portal</Translate>{" "}
                   <span className="ml-1"> </span>
                   <Link
                     className={clsx(
@@ -43,7 +47,7 @@ export function Hero() {
                     )}
                     href="/blog/2024/07/25/cuckoo-network-airdrop-portal"
                   >
-                    Learn More{" "}
+                    <Translate>Learn More</Translate>{" "}
                     <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                       →
                     </span>
@@ -56,14 +60,20 @@ export function Hero() {
               data-aos="zoom-out"
               data-aos-delay="100"
             >
-              {siteConfig.tagline}
+              {translate({
+                message: siteConfig.tagline,
+                description: 'Site tagline'
+              })}
             </h1>
             <p
               className="text-lg text-gray-400 mb-10"
               data-aos="zoom-out"
               data-aos-delay="200"
             >
-              {siteConfig.customFields.description as string}
+              {translate({
+                message: siteConfig.customFields.description as string,
+                description: 'Site description'
+              })}
             </p>
             <div
               className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4"
@@ -78,7 +88,7 @@ export function Hero() {
                   )}
                   href="https://cuckoo.network/portal/art/text-to-image"
                 >
-                  <Sparkles className={"mr-1"} size={18} /> Create AI Art
+                  <Sparkles className={"mr-1"} size={18} /> <Translate>Create AI Art</Translate>
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     →
                   </span>
@@ -92,7 +102,7 @@ export function Hero() {
                   )}
                   href="https://cuckoo.network/portal/art"
                 >
-                  <Newspaper className={"mr-1"} size={18} /> Explore{" "}
+                  <Newspaper className={"mr-1"} size={18} /> <Translate>Explore</Translate>{" "}
                 </Link>
               </div>
               <div>
@@ -103,7 +113,7 @@ export function Hero() {
                   )}
                   href="https://cuckoo.network/portal/airdrop"
                 >
-                  <HandCoins className={"mr-1"} size={18} /> Earn
+                  <HandCoins className={"mr-1"} size={18} /> <Translate>Earn</Translate>
                 </Link>
               </div>
             </div>
