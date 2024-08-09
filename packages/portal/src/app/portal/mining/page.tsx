@@ -1,6 +1,6 @@
 import React from "react";
 import { DashLayout } from "@/components/ui/dash-layout";
-import { TrendingPostsMasonary } from "@/app/portal/art/trending-posts-masonary";
+import { TrendingPostsMasonry } from "@/app/portal/art/trending-posts-masonry";
 import { CardDescription, CardTitle } from "@/components/ui/card";
 import { MiningHome } from "@/app/portal/mining/mining-home";
 import { Metadata } from "next";

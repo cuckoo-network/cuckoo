@@ -3,7 +3,7 @@ import { querySocialPosts } from "@/app/portal/art/data/queries";
 import { SocialPostsQuery } from "@/gql/graphql";
 
 export const useSocialPosts = (first: number, after: string) => {
-  const { loading, data, error } = useQuery<SocialPostsQuery>(
+  const { loading, data, error, fetchMore } = useQuery<SocialPostsQuery>(
     querySocialPosts,
     {
       variables: {
@@ -17,5 +17,6 @@ export const useSocialPosts = (first: number, after: string) => {
     loadingTrendingPosts: loading,
     dataTrendingPosts: data,
     errorTrendingPosts: error,
+    fetchMoreTrendingPosts: fetchMore,
   };
 };

@@ -69,7 +69,6 @@ export const TextToImageHistoryList = () => {
       next={loadMoreItems}
       hasMore={hasNextPage}
       loader={<h4>Loading...</h4>}
-      scrollableTarget="scrollableDiv"
     >
       {!items?.length && !textToImageHistoryLoading && (
         <p>

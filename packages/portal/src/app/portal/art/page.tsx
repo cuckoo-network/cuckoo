@@ -1,6 +1,6 @@
 import React from "react";
 import { DashLayout } from "@/components/ui/dash-layout";
-import { TrendingPostsMasonary } from "@/app/portal/art/trending-posts-masonary";
+import { TrendingPostsMasonry } from "@/app/portal/art/trending-posts-masonry";
 import { CardDescription, CardTitle } from "@/components/ui/card";
 import { Metadata } from "next";
 
@@ -26,7 +26,7 @@ export default function ArtPage() {
         </CardTitle>
         <CardDescription>AI arts created in our network.</CardDescription>
       </div>
-      <TrendingPostsMasonary />
+      <TrendingPostsMasonry />
     </DashLayout>
   );
 }
