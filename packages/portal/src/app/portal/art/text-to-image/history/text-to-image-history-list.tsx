@@ -1,24 +1,26 @@
 "use client";
 
+import { useState, useEffect, useCallback } from "react";
 import { useTextToImageHistory } from "@/app/portal/art/text-to-image/history/hooks/use-text-to-image-history";
 import Image from "next/image";
 import Link from "next/link";
-import { TextToImageHistoryQuery } from "@/gql/graphql";
+import {
+  TextToImageHistoryQuery,
+  TextToImageHistoryQueryVariables,
+} from "@/gql/graphql";
+import InfiniteScroll from "react-infinite-scroll-component";
 
 function resizeImage(
   h: number,
   w: number,
   targetWidth: number,
 ): [width: number, height: number] {
-  // Calculate the aspect ratio
   const aspectRatio = h / w;
-
-  // Calculate the new height based on the target width and aspect ratio
   const newHeight = targetWidth * aspectRatio;
-
-  // Return the new dimensions as a tuple
   return [targetWidth, newHeight];
 }
+
+const pageSize = 5;
 
 function selectTtihItems(
   textToImageHistoryData: TextToImageHistoryQuery | undefined,
@@ -29,13 +31,47 @@ function selectTtihItems(
 }
 
 export const TextToImageHistoryList = () => {
-  const { textToImageHistoryData } = useTextToImageHistory();
+  const { textToImageHistoryData, fetchMore, textToImageHistoryLoading } =
+    useTextToImageHistory(pageSize, "0");
+  const [items, setItems] = useState(selectTtihItems(textToImageHistoryData));
+  const [endCursor, setEndCursor] = useState<string | null | undefined>(
+    textToImageHistoryData?.textToImageHistory.pageInfo.endCursor || null,
+  );
+  const [hasNextPage, setHasNextPage] = useState(true);
 
-  const items = selectTtihItems(textToImageHistoryData);
+  useEffect(() => {
+    if (textToImageHistoryData) {
+      setItems(selectTtihItems(textToImageHistoryData));
+      setEndCursor(
+        textToImageHistoryData.textToImageHistory.pageInfo.endCursor,
+      );
+    }
+  }, [textToImageHistoryData]);
+
+  const loadMoreItems = useCallback(async () => {
+    if (hasNextPage) {
+      const newData = await fetchMore({
+        variables: {
+          after: endCursor,
+          first: pageSize,
+        } as TextToImageHistoryQueryVariables,
+      });
+      const newItems = selectTtihItems(newData.data);
+      setItems((prevItems) => [...prevItems, ...newItems]);
+      setEndCursor(newData.data.textToImageHistory.pageInfo.endCursor);
+      setHasNextPage(newData.data.textToImageHistory.pageInfo.hasNextPage);
+    }
+  }, [endCursor, fetchMore, hasNextPage]);
 
   return (
-    <>
-      {!items?.length && (
+    <InfiniteScroll
+      dataLength={items.length}
+      next={loadMoreItems}
+      hasMore={hasNextPage}
+      loader={<h4>Loading...</h4>}
+      scrollableTarget="scrollableDiv"
+    >
+      {!items?.length && !textToImageHistoryLoading && (
         <p>
           You have not created any AI art.{" "}
           <Link className={"text-blue-400"} href={"/portal/art/text-to-image/"}>
@@ -61,15 +97,14 @@ export const TextToImageHistoryList = () => {
               height={size[1]}
               key={it.photoMedia[0].id}
               src={it.photoMedia[0].readUrl}
-            ></Image>
+            />
             <div>
               <div className="mb-2 ml-5 transition-all">{it.prompt}</div>
-
               <div className="mb-2 ml-5 transition-all">{it.createdAt}</div>
             </div>
           </Link>
         );
       })}
-    </>
+    </InfiniteScroll>
   );
 };
