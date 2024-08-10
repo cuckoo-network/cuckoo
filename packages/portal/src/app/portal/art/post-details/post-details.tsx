@@ -77,9 +77,9 @@ export function PostDetails({
                       >
                         {post?.photoMedia?.at(0)?.width ? (
                           <Image
-                            src={post?.photoMedia?.at(0)?.url}
-                            width={post?.photoMedia?.at(0)?.width}
-                            height={post?.photoMedia?.at(0)?.height}
+                            src={post?.photoMedia?.at(0)?.url || ""}
+                            width={post?.photoMedia?.at(0)?.width || 0}
+                            height={post?.photoMedia?.at(0)?.height || 0}
                             alt="post image"
                             className="image-gallery-image"
                           />
@@ -286,7 +286,7 @@ export function PostDetails({
                             Eduardo
                           </div>
                         </div>
-                        <p>A dark "victory" for conservatives.</p>
+                        <p>A dark &quot;victory&quot; for conservatives.</p>
                       </div>
                       <div className="flex items-start">
                         <div className="ml-3 flex items-center gap-2 text-center">
