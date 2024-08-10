@@ -17,6 +17,42 @@ export const useSocialPosts = (first: number, after: string) => {
     loadingTrendingPosts: loading,
     dataTrendingPosts: data,
     errorTrendingPosts: error,
-    fetchMoreTrendingPosts: fetchMore,
+    fetchMoreSocialPosts: (first: number, after: string) => {
+      return fetchMore({
+        variables: {
+          first,
+          after,
+        },
+        updateQuery: (previousResult, { fetchMoreResult }) => {
+          const previousEntry = previousResult.socialPosts;
+          const newProducts = fetchMoreResult.socialPosts;
+          return {
+            socialPosts: {
+              pageInfo: newProducts.pageInfo,
+              edges: [...previousEntry.edges, ...newProducts.edges],
+            },
+          };
+        },
+      });
+    },
+  };
+};
+
+export const useSocialPost = (id?: string) => {
+  const { loading, data, error, refetch } = useQuery<SocialPostsQuery>(
+    querySocialPosts,
+    {
+      variables: {
+        id,
+      },
+      skip: !id,
+      fetchPolicy: "network-only",
+    },
+  );
+  return {
+    loadingTrendingPost: loading,
+    dataTrendingPost: data,
+    errorTrendingPost: error,
+    fetchTrendingPost: refetch,
   };
 };

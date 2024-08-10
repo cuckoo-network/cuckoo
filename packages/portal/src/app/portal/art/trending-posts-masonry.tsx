@@ -11,6 +11,7 @@ import {
 } from "@/gql/graphql";
 import Image from "next/image";
 import InfiniteScroll from "react-infinite-scroll-component";
+import { PostDetails } from "@/app/portal/art/post-details/post-details";
 
 function selectSocialPosts(dataTrendingPosts: SocialPostsQuery | undefined) {
   return dataTrendingPosts?.socialPosts.edges.map((ed) => ed.node) || [];
@@ -18,76 +19,59 @@ function selectSocialPosts(dataTrendingPosts: SocialPostsQuery | undefined) {
 
 function PostItem(props: { photo: any; post: SocialPost }) {
   return (
-    <div className={"mb-4"}>
-      {props.photo?.width && props.photo?.height ? (
-        <Image
-          alt={props.post.title || ""}
-          width={props.photo.width}
-          height={props.photo.height}
-          src={props.photo?.url}
-        />
-      ) : (
-        <img
-          className="h-auto max-w-full rounded-lg"
-          src={props.photo?.url}
-          alt=""
-        />
-      )}
-      <div className="break-word w-full text-white no-underline">
-        {props.post.title}
-      </div>
+    <PostDetails post={props.post}>
+      <div className={"mb-4"}>
+        {props.photo?.width && props.photo?.height ? (
+          <Image
+            alt={props.post.title || ""}
+            width={props.photo.width}
+            height={props.photo.height}
+            src={props.photo?.url}
+          />
+        ) : (
+          <img
+            className="h-auto max-w-full rounded-lg"
+            src={props.photo?.url}
+            alt=""
+          />
+        )}
+        <div className="break-word w-full text-white no-underline">
+          {props.post.title}
+        </div>
 
-      <div className="mt-2 flex max-w-[calc(100%-65px)] items-center gap-1">
-        <Image
-          className="h-6 w-6 shrink-0 rounded-full object-cover sm:h-8 sm:w-8"
-          width={32}
-          height={32}
-          alt={props.post.profile.name}
-          src={`https://api.dicebear.com/9.x/thumbs/svg?seed=${encodeURIComponent(props.post.profile.name)}`}
-        />
+        <div className="mt-2 flex max-w-[calc(100%-65px)] items-center gap-1">
+          <Image
+            className="h-6 w-6 shrink-0 rounded-full object-cover sm:h-8 sm:w-8"
+            width={32}
+            height={32}
+            alt={props.post.profile.name}
+            src={props.post.profile.profilePhoto.url}
+          />
 
-        {props.post.profile.name}
+          {props.post.profile.name}
+        </div>
       </div>
-    </div>
+    </PostDetails>
   );
 }
 
-const pageSize = 15;
+const pageSize = 20;
 
 export const TrendingPostsMasonry = () => {
-  const [hasNextPage, setHasNextPage] = useState(true);
-  const { dataTrendingPosts, loadingTrendingPosts, fetchMoreTrendingPosts } =
+  const { dataTrendingPosts, loadingTrendingPosts, fetchMoreSocialPosts } =
     useSocialPosts(pageSize, "0");
-  const [socialPosts, setSocialPosts] = useState(
-    selectSocialPosts(dataTrendingPosts),
-  );
-  const [endCursor, setEndCursor] = useState<string | null | undefined>(
-    dataTrendingPosts?.socialPosts.pageInfo.endCursor || null,
-  );
 
-  useEffect(() => {
-    if (dataTrendingPosts) {
-      setSocialPosts(selectSocialPosts(dataTrendingPosts));
-      setEndCursor(dataTrendingPosts.socialPosts.pageInfo.endCursor);
-    }
-  }, [dataTrendingPosts]);
-
-  const postGroups = groupIntertwined(socialPosts || []);
+  const postGroups = groupIntertwined(
+    selectSocialPosts(dataTrendingPosts) || [],
+  );
+  const endCursor = dataTrendingPosts?.socialPosts.pageInfo.endCursor || "";
+  const hasNext = !!dataTrendingPosts?.socialPosts.pageInfo.hasNextPage;
 
   const loadMoreItems = useCallback(async () => {
-    if (hasNextPage) {
-      const newData = await fetchMoreTrendingPosts({
-        variables: {
-          after: endCursor,
-          first: pageSize,
-        } as TextToImageHistoryQueryVariables,
-      });
-      const newItems = selectSocialPosts(newData.data);
-      setSocialPosts((prevItems) => [...prevItems, ...newItems]);
-      setEndCursor(newData.data.socialPosts.pageInfo.endCursor);
-      setHasNextPage(newData.data.socialPosts.pageInfo.hasNextPage);
+    if (hasNext) {
+      await fetchMoreSocialPosts(pageSize, endCursor);
     }
-  }, [endCursor, fetchMoreTrendingPosts, hasNextPage]);
+  }, [endCursor, hasNext, fetchMoreSocialPosts]);
 
   if (loadingTrendingPosts) {
     return <></>;
@@ -107,18 +91,14 @@ export const TrendingPostsMasonry = () => {
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-4">
         {postGroups.map((group, ii) => {
           if (ii === 0) {
-            console.log({
-              key: ii,
-              dataLength: group.length,
-              next: loadMoreItems,
-              hasMore: hasNextPage,
-            });
             return (
               <div key={ii}>
                 <InfiniteScroll
                   dataLength={group.length}
                   next={loadMoreItems}
-                  hasMore={hasNextPage}
+                  hasMore={
+                    !!dataTrendingPosts?.socialPosts.pageInfo.hasNextPage
+                  }
                   loader={<h4>Loading...</h4>}
                 >
                   {group.map((post) => {

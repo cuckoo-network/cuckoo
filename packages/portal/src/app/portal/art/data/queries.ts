@@ -1,8 +1,8 @@
 import { gql } from "@apollo/client";
 
 export const querySocialPosts = gql`
-  query SocialPosts($after: String, $first: Float) {
-    socialPosts(after: $after, first: $first) {
+  query SocialPosts($after: String, $first: Float, $id: ID) {
+    socialPosts(after: $after, first: $first, id: $id) {
       pageInfo {
         hasNextPage
         endCursor

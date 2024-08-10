@@ -13,7 +13,24 @@ export const useTextToImageHistory = (first: number, after: string) => {
     },
   );
   return {
-    fetchMore,
+    fetchMoreTextToImageHistory: (first: number, after: string) => {
+      return fetchMore({
+        variables: {
+          first,
+          after,
+        },
+        updateQuery: (previousResult, { fetchMoreResult }) => {
+          const previousEntry = previousResult.textToImageHistory;
+          const newProducts = fetchMoreResult.textToImageHistory;
+          return {
+            textToImageHistory: {
+              pageInfo: newProducts.pageInfo,
+              edges: [...previousEntry.edges, ...newProducts.edges],
+            },
+          };
+        },
+      });
+    },
     textToImageHistoryData: data,
     textToImageHistoryError: error,
     textToImageHistoryLoading: loading,

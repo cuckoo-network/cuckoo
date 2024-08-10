@@ -31,37 +31,22 @@ function selectTtihItems(
 }
 
 export const TextToImageHistoryList = () => {
-  const { textToImageHistoryData, fetchMore, textToImageHistoryLoading } =
-    useTextToImageHistory(pageSize, "0");
-  const [items, setItems] = useState(selectTtihItems(textToImageHistoryData));
-  const [endCursor, setEndCursor] = useState<string | null | undefined>(
-    textToImageHistoryData?.textToImageHistory.pageInfo.endCursor || null,
-  );
-  const [hasNextPage, setHasNextPage] = useState(true);
-
-  useEffect(() => {
-    if (textToImageHistoryData) {
-      setItems(selectTtihItems(textToImageHistoryData));
-      setEndCursor(
-        textToImageHistoryData.textToImageHistory.pageInfo.endCursor,
-      );
-    }
-  }, [textToImageHistoryData]);
+  const {
+    textToImageHistoryData,
+    fetchMoreTextToImageHistory,
+    textToImageHistoryLoading,
+  } = useTextToImageHistory(pageSize, "0");
+  const hasNextPage =
+    !!textToImageHistoryData?.textToImageHistory.pageInfo.hasNextPage;
+  const endCursor =
+    textToImageHistoryData?.textToImageHistory.pageInfo.endCursor || "";
+  const items = selectTtihItems(textToImageHistoryData);
 
   const loadMoreItems = useCallback(async () => {
     if (hasNextPage) {
-      const newData = await fetchMore({
-        variables: {
-          after: endCursor,
-          first: pageSize,
-        } as TextToImageHistoryQueryVariables,
-      });
-      const newItems = selectTtihItems(newData.data);
-      setItems((prevItems) => [...prevItems, ...newItems]);
-      setEndCursor(newData.data.textToImageHistory.pageInfo.endCursor);
-      setHasNextPage(newData.data.textToImageHistory.pageInfo.hasNextPage);
+      await fetchMoreTextToImageHistory(pageSize, endCursor);
     }
-  }, [endCursor, fetchMore, hasNextPage]);
+  }, [endCursor, fetchMoreTextToImageHistory, hasNextPage]);
 
   return (
     <InfiniteScroll
