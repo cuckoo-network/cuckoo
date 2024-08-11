@@ -8,18 +8,18 @@ import Clients from "@site/src/components/home/clients";
 import { Cta } from "../components/home/cta";
 import Target from "@site/src/components/home/target";
 import { Process } from "@site/src/components/home/process";
-import Translate, { translate } from '@docusaurus/Translate';
+import { translate } from '@docusaurus/Translate';
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={translate({
-        message: siteConfig.tagline,
+        message: "Cuckoo AI Onchain Creative Platform for Anime Fandom",
         description: 'The site tagline',
       })}
       description={translate({
-        message: siteConfig.customFields.description as string,
+        message: "Create and share your gen AI arts. Share your GPU or CPU with Gen AI App builders to generate images and perform LLM inference on Cuckoo Chain.",
         description: 'The site description',
       })}
     >

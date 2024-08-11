@@ -1,95 +1,91 @@
-# $CAI Token
+# $CAI 代币
 
-Cuckoo Token $CAI is the meme / utility token for Cuckoo Network.
+Cuckoo 代币 $CAI 是 Cuckoo Network 的模因/实用代币。
 
 <div className="row">
-  <div className="col"><h2>Total supply</h2></div>
+  <div className="col"><h2>总供应量</h2></div>
   <div className="col">
 1,000,000,000
   </div>
 </div>
 
 <div className="row">
-  <div className="col"><h2>Utility</h2></div>
+  <div className="col"><h2>用途</h2></div>
   <div className="col">
 <ul>
-<li><strong>Staking</strong>: For network participation and earning rewards.</li>
-<li><strong>Meme:</strong> Let the spirit fly!</li>
-<li><strong>Payments</strong>: For transactions within the Cuckoo Network.</li>
-<li><strong>Governance</strong>: To vote on key decisions and protocol upgrades.</li>
-<li><strong>Rewards</strong>: For miners, app builders, and users who contribute to the ecosystem.</li>
+<li><strong>质押</strong>：用于网络参与和获取奖励。</li>
+<li><strong>模因</strong>：让精神自由飞翔！</li>
+<li><strong>支付</strong>：用于 Cuckoo Network 内的交易。</li>
+<li><strong>治理</strong>：用于投票决策和协议升级。</li>
+<li><strong>奖励</strong>：奖励矿工、应用构建者和对生态系统做出贡献的用户。</li>
 </ul>
   </div>
 </div>
 <div className="row">
-  <div className="col"><h2>Incentives</h2></div>
+  <div className="col"><h2>激励措施</h2></div>
   <div className="col">
 <ul>
-<li><strong>Mining Rewards</strong>: A portion of the tokens should be allocated to incentivize miners to contribute GPU resources.</li>
-<li><strong>Staking Rewards</strong>: Allocate tokens for rewarding stakers who help secure the network.</li>
-<li><strong>Developer Grants</strong>: Encourage development by providing grants to builders who create on the Cuckoo Network.</li>
+<li><strong>挖矿奖励</strong>：分配一部分代币激励矿工贡献 GPU 资源。</li>
+<li><strong>质押奖励</strong>：分配代币奖励帮助保障网络安全的质押者。</li>
+<li><strong>开发者资助</strong>：通过向在 Cuckoo Network 上创建的开发者提供资助来鼓励开发。</li>
 </ul>
   </div>
 </div>
 
 <div className="row">
-  <div className="col"><h2>Fair launch</h2></div>
+  <div className="col"><h2>公平启动</h2></div>
   <div className="col">
 <ul>
   <li>
-    Community Allocation : 51%
+    社区分配：51%
     <ul>
       <li>
-        <strong>Mining Rewards</strong>: 30% for GPU miners.
+        <strong>挖矿奖励</strong>：30% 分配给 GPU 矿工。
       </li>
       <li>
-        <strong>Staking Rewards</strong>: 11% for network stakers.
+        <strong>质押奖励</strong>：11% 分配给网络质押者。
       </li>
       <li>
-        <strong>Airdrops</strong>: 5% to early adopters and active community
-        members.
+        <strong>空投</strong>：5% 分配给早期采用者和活跃的社区成员。
       </li>
       <li>
-        <strong>Developer Grants</strong>: 5% to incentivize development.
+        <strong>开发者资助</strong>：5% 用于激励开发。
       </li>
     </ul>
   </li>
   <li>
-    Team and Advisors: 20%
+    团队与顾问：20%
     <ul>
       <li>
-        <strong>Team</strong>: 15% vested over 4 years.
+        <strong>团队</strong>：15% 在4年内逐步释放。
       </li>
       <li>
-        <strong>Advisors</strong>: 5% vested over 2 years.
+        <strong>顾问</strong>：5% 在2年内逐步释放。
       </li>
     </ul>
   </li>
   <li>
-    Ecosystem Fund: 20%
+    生态基金：20%
     <ul>
       <li>
-        <strong>Partnerships</strong>: 10% for strategic partnerships and
-        collaborations.
+        <strong>合作伙伴</strong>：10% 用于战略合作与协作。
       </li>
       <li>
-        <strong>Marketing and Community Building</strong>: 5% to grow the user
-        base.
+        <strong>市场与社区建设</strong>：5% 用于增长用户基础。
       </li>
       <li>
-        <strong>Liquidity Provision</strong>: 5% to ensure liquidity on
-        exchanges.
+        <strong>流动性提供</strong>：5% 用于确保交易所的流动性。
       </li>
     </ul>
   </li>
   <li>
-    Reserve : 9%
+    储备金：9%
     <ul>
       <li>
-        <strong>Future Development</strong>: 5% for unforeseen future needs.
+        <strong>未来发展</strong>：5% 用于未来不可预见的需求。
       </li>
       <li>
-        <strong>Emergency Fund</strong>: 5% for critical situations.
+        <strong>紧急基金</strong>：5% 用于应对紧急情况。
       </li>
     </ul>
   </li>
@@ -97,34 +93,34 @@ Cuckoo Token $CAI is the meme / utility token for Cuckoo Network.
 </div>
 </div>
 
-## Key Principles of a Fair Launch
+## 公平启动的关键原则
 
-1. **No Pre-Mining or Insider Allocations**:
-   - There are no tokens mined or allocated before the public launch. This means that neither the team nor any insiders have an advantage over the community in acquiring the tokens.
-2. **Transparent and Open Distribution**:
-   - The process for acquiring tokens is transparent and open to everyone. Methods include public mining, open staking, or public listing where everyone has equal access.
-3. **Equal Opportunity**:
-   - All participants have the same opportunity to acquire tokens. This can be achieved through mechanisms like initial liquidity mining, airdrops, or public listing without preferential pricing.
-4. **Decentralized Control**:
-   - From the beginning, the project is governed in a decentralized manner, often using a Decentralized Autonomous Organization (DAO) where token holders have a say in the governance and future direction of the project.
+1. **无预挖或内部分配**：
+  - 在公开启动前没有代币被挖矿或分配。这意味着团队或任何内部人员在获取代币方面没有比社区更大的优势。
+2. **透明和开放的分配**：
+  - 获取代币的过程是透明和对所有人开放的。方法包括公开挖矿、开放质押或公开上市，所有人都有平等的访问机会。
+3. **平等机会**：
+  - 所有参与者都有同样的机会获取代币。这可以通过初始流动性挖矿、空投或没有优先定价的公开上市来实现。
+4. **去中心化控制**：
+  - 从一开始，项目以去中心化的方式治理，通常使用去中心化自治组织 (DAO)，代币持有者可以参与项目的治理和未来方向。
 
-## Misc Token FAQ
+## 其他代币常见问题
 
 <details class="p-4 bg-white rounded-lg shadow hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
   <summary class="cursor-pointer text-xl font-semibold">
-    Where is Cuckoo Chain registered?
+    Cuckoo Chain 在哪里注册？
   </summary>
   <p class="mt-2">
-    Mainnet Chain ID: https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-1200.json
+    主网 Chain ID: https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-1200.json
   </p>
   <p class="mt-2">
-    Testnet Sepolia Chain ID: https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-1210.json
+    测试网 Sepolia Chain ID: https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-1210.json
   </p>
 </details>
 
 <details class="p-4 bg-white rounded-lg shadow hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
   <summary class="cursor-pointer text-xl font-semibold">
-    What are the airdrop terms and conditions of Cuckoo Network?
+    Cuckoo Network 的空投条款和条件是什么？
   </summary>
   <p class="mt-2">
     https://cuckoo.network/airdrop-terms-of-service

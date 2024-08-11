@@ -1,26 +1,26 @@
-# How does Cuckoo work?
+# Cuckoo 如何运作？
 
-## Key Steps
+## 关键步骤
 
-1. **Trust**: GPU miners, developers, and stakers use blockchain smart contracts to establish a trusted environment.
-2. **Tasks & Rewards**: Generative AI apps assign tasks to GPU miners via the Cuckoo AI node, with daily ERC20 payments based on task completion and results.
-3. **Modular Support**: Our modular components ensure that AI remains accessible, transparent, anti-censorship, and privacy-preserving.
+1. **信任**：GPU 矿工、开发者和质押者使用区块链智能合约来建立一个可信的环境。
+2. **任务与奖励**：生成式 AI 应用通过 Cuckoo AI 节点向 GPU 矿工分配任务，并根据任务完成情况和结果每日支付 ERC20 代币奖励。
+3. **模块化支持**：我们的模块化组件确保 AI 的可访问性、透明性、反审查和隐私保护。
 
-## Design Goals
+## 设计目标
 
-### For End Customers
+### 对于终端用户
 
-- **Access to AI Apps**: Enjoy a variety of AI apps by contributing to the ecosystem or paying with crypto via Cuckoo Pay. If an app is blocked in their region, they can switch to another coordinator within the decentralized network.
+- **访问 AI 应用**：通过参与生态系统或使用加密货币通过 Cuckoo Pay 支付，享受各种 AI 应用。如果某个应用在他们所在的地区被封锁，他们可以切换到去中心化网络中的另一个协调者。
 
-### For AI App Builders/Coordinators
+### 对于 AI 应用构建者/协调者
 
-- **Run a Coordinator Node**: Stake to join the network, reduce GPU costs, and attract customers from various blockchain ecosystems.
-- **Task Management**: Assign tasks to miners, validate results, and handle reward distribution.
+- **运行协调者节点**：质押以加入网络，降低 GPU 成本，并吸引来自各种区块链生态系统的客户。
+- **任务管理**：向矿工分配任务，验证结果并处理奖励分配。
 
-### For Miners
+### 对于矿工
 
-- **Run a Task Node**: Stake to join the network and share GPU resources. Earn tokens by completing assigned tasks and maintaining reliable service.
+- **运行任务节点**：质押以加入网络并共享 GPU 资源。通过完成分配的任务和保持可靠的服务来赚取代币。
 
-### For Stakers
+### 对于质押者
 
-- **Support the Network**: Vote for trusted coordinators or GPU providers and earn rewards by supporting the network.
+- **支持网络**：投票选出可信的协调者或 GPU 提供者，并通过支持网络赚取奖励。

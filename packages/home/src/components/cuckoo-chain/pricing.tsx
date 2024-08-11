@@ -1,10 +1,12 @@
 "use client";
 
-import { useState } from "react";
-const Illustration = "/img/cuckoo-chain/pricing-illustration.svg";
+import React, { useState } from "react";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import Translate, { translate } from '@docusaurus/Translate';
 
 export default function Pricing() {
   const [annual, setAnnual] = useState<boolean>(true);
+  const Illustration = useBaseUrl("/img/cuckoo-chain/pricing-illustration.svg");
 
   return (
     <section className="relative">
@@ -16,7 +18,10 @@ export default function Pricing() {
         <img
           src={Illustration}
           className="max-w-none"
-          alt="Pricing Illustration"
+          alt={translate({
+            message: "Pricing Illustration",
+            description: "Alt text for the pricing section illustration",
+          })}
         />
       </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -24,10 +29,14 @@ export default function Pricing() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 font-hkgrotesk mb-4">
-              Fundamentally Aligned with Ethereum
+              <Translate description="Title for the pricing section">
+                Fundamentally Aligned with Ethereum
+              </Translate>
             </h2>
             <p className="text-xl text-slate-500">
-              But optimized for performance and on-chain AI
+              <Translate description="Description for the pricing section">
+                But optimized for performance and on-chain AI
+              </Translate>
             </p>
           </div>
           {/* Pricing tables */}
@@ -36,7 +45,9 @@ export default function Pricing() {
             <div className="flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:col-span-3">
               <div className="flex justify-center md:justify-start items-center space-x-4 hidden">
                 <div className="text-sm text-slate-500 font-medium min-w-[6rem] md:min-w-0 text-right">
-                  Monthly
+                  <Translate description="Label for the monthly payment option">
+                    Monthly
+                  </Translate>
                 </div>
                 <div className="form-switch shrink-0">
                   <input
@@ -48,11 +59,17 @@ export default function Pricing() {
                   />
                   <label className="bg-slate-900" htmlFor="toggle">
                     <span className="bg-slate-200" aria-hidden="true" />
-                    <span className="sr-only">Pay annually</span>
+                    <span className="sr-only">
+                      <Translate description="Screen reader label for toggling to pay annually">
+                        Pay annually
+                      </Translate>
+                    </span>
                   </label>
                 </div>
                 <div className="text-sm text-slate-500 font-medium min-w-[6rem]">
-                  Yearly <span className="text-emerald-500">(-20%)</span>
+                  <Translate description="Label for the yearly payment option">
+                    Yearly
+                  </Translate> <span className="text-emerald-500">(-20%)</span>
                 </div>
               </div>
             </div>
@@ -73,37 +90,53 @@ export default function Pricing() {
             {/* Infra label */}
             <div className="hidden md:flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-700 bg-opacity-25 md:col-span-3">
               <span className="text-xs uppercase font-semibold text-slate-500">
-                Infra
+                <Translate description="Infra section label">
+                  Infra
+                </Translate>
               </span>
             </div>
             <div className="flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-700 bg-opacity-25 md:border-l border-slate-700 order-1 md:order-none">
               <span className="md:hidden text-xs uppercase font-semibold text-slate-500">
-                Infra
+                <Translate description="Infra section label for mobile view">
+                  Infra
+                </Translate>
               </span>
             </div>
             <div className="flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-700 bg-opacity-25 md:border-l border-slate-700 order-2 md:order-none">
               <span className="md:hidden text-xs uppercase font-semibold text-slate-500">
-                Infra
+                <Translate description="Infra section label for mobile view">
+                  Infra
+                </Translate>
               </span>
             </div>
             <div className="flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-700 bg-opacity-25 md:border-l border-slate-700 order-3 md:order-none">
               <span className="md:hidden text-xs uppercase font-semibold text-slate-500">
-                Infra
+                <Translate description="Infra section label for mobile view">
+                  Infra
+                </Translate>
               </span>
             </div>
             {/* Admins & Members */}
             <div className="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:col-span-3">
-              <div className="text-slate-200">Max Theoretical TPS</div>
+              <div className="text-slate-200">
+                <Translate description="Label for maximum theoretical transactions per second">
+                  Max Theoretical TPS
+                </Translate>
+              </div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-1 md:order-none">
               <div className="md:hidden text-slate-200">
-                Max Theoretical TPS
+                <Translate description="Label for maximum theoretical transactions per second in mobile view">
+                  Max Theoretical TPS
+                </Translate>
               </div>
               <div className="text-sm font-medium text-slate-200 text-center"></div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-2 md:order-none">
               <div className="md:hidden text-slate-200">
-                Max Theoretical TPS
+                <Translate description="Label for maximum theoretical transactions per second in mobile view">
+                  Max Theoretical TPS
+                </Translate>
               </div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 119 tx/s
@@ -111,7 +144,9 @@ export default function Pricing() {
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none">
               <div className="md:hidden text-slate-200">
-                Max Theoretical TPS
+                <Translate description="Label for maximum theoretical transactions per second in mobile view">
+                  Max Theoretical TPS
+                </Translate>
               </div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 40,000 tx/s
@@ -119,40 +154,72 @@ export default function Pricing() {
             </div>
             {/* Fastest Block Time */}
             <div className="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:col-span-3">
-              <div className="text-slate-200">Fastest Block Time</div>
+              <div className="text-slate-200">
+                <Translate description="Label for the fastest block time">
+                  Fastest Block Time
+                </Translate>
+              </div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:border-l border-slate-700 order-1 md:order-none">
-              <div className="md:hidden text-slate-200">Fastest Block Time</div>
+              <div className="md:hidden text-slate-200">
+                <Translate description="Label for the fastest block time in mobile view">
+                  Fastest Block Time
+                </Translate>
+              </div>
               <div className="text-sm font-medium text-slate-200 text-center"></div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:border-l border-slate-700 order-2 md:order-none">
-              <div className="md:hidden text-slate-200">Fastest Block Time</div>
+              <div className="md:hidden text-slate-200">
+                <Translate description="Label for the fastest block time in mobile view">
+                  Fastest Block Time
+                </Translate>
+              </div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 12.04s
               </div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:border-l border-slate-700 order-3 md:order-none">
-              <div className="md:hidden text-slate-200">Fastest Block Time</div>
+              <div className="md:hidden text-slate-200">
+                <Translate description="Label for the fastest block time in mobile view">
+                  Fastest Block Time
+                </Translate>
+              </div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 0.25s
               </div>
             </div>
             {/* Governance Model */}
             <div className="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:col-span-3">
-              <div className="text-slate-200">Governance Model</div>
+              <div className="text-slate-200">
+                <Translate description="Label for the governance model">
+                  Governance Model
+                </Translate>
+              </div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-1 md:order-none">
-              <div className="md:hidden text-slate-200">Governance Model</div>
+              <div className="md:hidden text-slate-200">
+                <Translate description="Label for the governance model in mobile view">
+                  Governance Model
+                </Translate>
+              </div>
               <div className="text-sm font-medium text-slate-200 text-center"></div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-2 md:order-none">
-              <div className="md:hidden text-slate-200">Governance Model</div>
+              <div className="md:hidden text-slate-200">
+                <Translate description="Label for the governance model in mobile view">
+                  Governance Model
+                </Translate>
+              </div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 Off-chain
               </div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none">
-              <div className="md:hidden text-slate-200">Governance Model</div>
+              <div className="md:hidden text-slate-200">
+                <Translate description="Label for the governance model in mobile view">
+                  Governance Model
+                </Translate>
+              </div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 On-chain
               </div>
@@ -160,54 +227,90 @@ export default function Pricing() {
             {/* Features label */}
             <div className="hidden md:flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-700 bg-opacity-25 md:col-span-3">
               <span className="text-xs uppercase font-semibold text-slate-500">
-                Features
+                <Translate description="Label for the features section">
+                  Features
+                </Translate>
               </span>
             </div>
             <div className="flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-700 bg-opacity-25 md:border-l border-slate-700 order-1 md:order-none">
               <span className="md:hidden text-xs uppercase font-semibold text-slate-500">
-                Features
+                <Translate description="Label for the features section in mobile view">
+                  Features
+                </Translate>
               </span>
             </div>
             <div className="flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-700 bg-opacity-25 md:border-l border-slate-700 order-2 md:order-none">
               <span className="md:hidden text-xs uppercase font-semibold text-slate-500">
-                Features
+                <Translate description="Label for the features section in mobile view">
+                  Features
+                </Translate>
               </span>
             </div>
             <div className="flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-700 bg-opacity-25 md:border-l border-slate-700 order-3 md:order-none">
               <span className="md:hidden text-xs uppercase font-semibold text-slate-500">
-                Features
+                <Translate description="Label for the features section in mobile view">
+                  Features
+                </Translate>
               </span>
             </div>
             {/* Avg. Gas Price */}
             <div className="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:col-span-3">
-              <div className="text-slate-200">Avg. Gas Price</div>
+              <div className="text-slate-200">
+                <Translate description="Label for the average gas price">
+                  Avg. Gas Price
+                </Translate>
+              </div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-1 md:order-none">
-              <div className="md:hidden text-slate-200">Avg. Gas Price</div>
+              <div className="md:hidden text-slate-200">
+                <Translate description="Label for the average gas price in mobile view">
+                  Avg. Gas Price
+                </Translate>
+              </div>
               <div className="text-sm font-medium text-slate-200 text-center"></div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-2 md:order-none">
-              <div className="md:hidden text-slate-200">Avg. Gas Price</div>
+              <div className="md:hidden text-slate-200">
+                <Translate description="Label for the average gas price in mobile view">
+                  Avg. Gas Price
+                </Translate>
+              </div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 $0.2493
               </div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none">
-              <div className="md:hidden text-slate-200">Avg. Gas Price</div>
+              <div className="md:hidden text-slate-200">
+                <Translate description="Label for the average gas price in mobile view">
+                  Avg. Gas Price
+                </Translate>
+              </div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 $0.000000004
               </div>
             </div>
             {/* EVM Compatible */}
             <div className="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:col-span-3">
-              <div className="text-slate-200">EVM Compatible</div>
+              <div className="text-slate-200">
+                <Translate description="Label for EVM compatibility">
+                  EVM Compatible
+                </Translate>
+              </div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:border-l border-slate-700 order-1 md:order-none">
-              <div className="md:hidden text-slate-200">EVM Compatible</div>
+              <div className="md:hidden text-slate-200">
+                <Translate description="Label for EVM compatibility in mobile view">
+                  EVM Compatible
+                </Translate>
+              </div>
               <div className="text-sm font-medium text-slate-200 text-center"></div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:border-l border-slate-700 order-2 md:order-none">
-              <div className="md:hidden text-slate-200">EVM Compatible</div>
+              <div className="md:hidden text-slate-200">
+                <Translate description="Label for EVM compatibility in mobile view">
+                  EVM Compatible
+                </Translate>
+              </div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 <svg
                   className="inline-flex fill-emerald-400"
@@ -224,7 +327,11 @@ export default function Pricing() {
               </div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:border-l border-slate-700 order-3 md:order-none">
-              <div className="md:hidden text-slate-200">EVM Compatible</div>
+              <div className="md:hidden text-slate-200">
+                <Translate description="Label for EVM compatibility in mobile view">
+                  EVM Compatible
+                </Translate>
+              </div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 <svg
                   className="inline-flex fill-emerald-400"
@@ -242,17 +349,25 @@ export default function Pricing() {
             </div>
             {/* Decentralized Ledger */}
             <div className="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:col-span-3">
-              <div className="text-slate-200">Decentralized Ledger</div>
+              <div className="text-slate-200">
+                <Translate description="Label for decentralized ledger">
+                  Decentralized Ledger
+                </Translate>
+              </div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-1 md:order-none">
               <div className="md:hidden text-slate-200">
-                Decentralized Ledger
+                <Translate description="Label for decentralized ledger in mobile view">
+                  Decentralized Ledger
+                </Translate>
               </div>
               <div className="text-sm font-medium text-slate-200 text-center"></div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-2 md:order-none">
               <div className="md:hidden text-slate-200">
-                Decentralized Ledger
+                <Translate description="Label for decentralized ledger in mobile view">
+                  Decentralized Ledger
+                </Translate>
               </div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 <svg
@@ -271,7 +386,9 @@ export default function Pricing() {
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none">
               <div className="md:hidden text-slate-200">
-                Decentralized Ledger
+                <Translate description="Label for decentralized ledger in mobile view">
+                  Decentralized Ledger
+                </Translate>
               </div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 <svg

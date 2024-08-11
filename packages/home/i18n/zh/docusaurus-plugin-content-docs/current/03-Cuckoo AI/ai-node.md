@@ -1,62 +1,61 @@
-# How to Run a Miner Node
+# 如何运行矿工节点
 
-Miner nodes are integral to our network, taking on tasks and earning rewards through inference.
+矿工节点是我们网络的重要组成部分，负责执行任务并通过推理赚取奖励。
 
-> Please note that miner nodes are still in heavy development and subject to substantial changes. The current GPU mining rewards are 300 $CAI per GPU per day.
+> 请注意，矿工节点仍在开发中，可能会有重大更改。目前，GPU 矿工的奖励为每个 GPU 每天 300 $CAI。
 
-## Stable Diffusion Miner
+## 稳定扩散矿工
 
-### Minimum Hardware Configuration
+### 最低硬件配置
 
-| Component          | Requirement               |
-|--------------------|---------------------------|
-| **GPU**            | NVIDIA L4, 3080           |
-| **RAM**            | 8-16 GB                   |
-| **CPU**            | 1 core                    |
-| **Storage**        | Depends on traffic volume |
+| 组件     | 要求            |
+| -------- | --------------- |
+| **GPU**  | NVIDIA L4, 3080 |
+| **RAM**  | 8-16 GB         |
+| **CPU**  | 1 核心          |
+| **存储** | 取决于流量量    |
 
-### Getting Started
+### 开始使用
 
-Follow these steps to set up and run your Stable Diffusion Miner:
+按照以下步骤设置并运行您的稳定扩散矿工：
 
-1. **Clone the Repository**
+1. **克隆存储库**
 
     ```sh
     git clone https://github.com/cuckoo-network/stable-diffusion-miner-docker.git
     ```
 
-2. **Navigate to the Project Directory**
+2. **导航到项目目录**
 
     ```sh
     cd stable-diffusion-miner-docker
     ```
 
-3. **Download the Necessary Files**
+3. **下载必要的文件**
 
     ```sh
     make download
     ```
 
-4. **Start the Miner**
+4. **启动矿工**
 
-   Add your private key to the command below and start the miner:
+   将您的私钥添加到以下命令中并启动矿工：
 
     ```sh
     ETH_PRIVATE_KEY="" make start
     ```
 
-Ensure you have the required hardware and follow the setup instructions carefully. Stay tuned for updates as we continue to develop and enhance the miner node functionality.
-
+请确保您拥有所需的硬件，并仔细按照设置说明进行操作。随着我们继续开发和改进矿工节点功能，请随时关注更新。
 
 <details class="p-4 bg-white rounded-lg shadow hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
   <summary class="cursor-pointer text-xl font-semibold">
-    How to setup for Bare Metal Ubuntu Server?
+    如何设置裸金属 Ubuntu 服务器？
   </summary>
-  # Bare Metal Ubuntu Server
+  # 裸金属 Ubuntu 服务器
 
-### Install Nvidia Container Toolkit
+### 安装 Nvidia 容器工具包
 
-If you encounter the following error when running `make start`:
+如果在运行 `make start` 时遇到以下错误：
 
 ```text
 [+] Running 1/2
@@ -67,65 +66,65 @@ nvidia-container-cli: initialization error: load library failed: libnvidia-ml.so
 make: *** [Makefile:11: start] Error 1
 ```
 
-It means the Nvidia Container Toolkit is not installed. Follow the [official instructions to install the toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html).
+这意味着 Nvidia 容器工具包未安装。请按照[官方说明安装工具包](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)。
 
-### Custom Docker Daemon Configuration
+### 自定义 Docker 守护进程配置
 
-To use a custom configuration file for Docker, follow these steps:
+要使用自定义的 Docker 配置文件，请按照以下步骤操作：
 
-1. **Prepare Custom Configuration File**
-   Ensure your custom configuration file is located at `$HOME/.config/docker/daemon.json`.
+1. **准备自定义配置文件**
+   确保您的自定义配置文件位于 `$HOME/.config/docker/daemon.json`。
 
-2. **Modify Docker systemd Service**
-   If the `daemon.json` file contains `nvidia` but running `sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi` results in `docker: Error response from daemon: unknown or invalid runtime name: nvidia.`, modify the Docker systemd service file:
+2. **修改 Docker systemd 服务**
+   如果 `daemon.json` 文件包含 `nvidia` 但运行 `sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi` 结果显示 `docker: Error response from daemon: unknown or invalid runtime name: nvidia.`，请修改 Docker systemd 服务文件：
 
-  1. Create a systemd drop-in directory for the Docker service:
+  1. 为 Docker 服务创建一个 systemd drop-in 目录：
      ```bash
      sudo mkdir -p /etc/systemd/system/docker.service.d
      ```
 
-  2. Create or edit the `override.conf` file in this directory:
+  2. 在此目录中创建或编辑 `override.conf` 文件：
      ```bash
      sudo nano /etc/systemd/system/docker.service.d/override.conf
      ```
 
-  3. Add the following configuration to specify the custom config file path:
+  3. 添加以下配置以指定自定义配置文件路径：
      ```ini
      [Service]
      ExecStart=
      ExecStart=/usr/bin/dockerd --config-file=/home/your-username/.config/docker/daemon.json
      ```
-     Replace `your-username` with your actual username. Use the full path instead of `$HOME`.
+     将 `your-username` 替换为您的实际用户名。使用完整路径而不是 `$HOME`。
 
-3. **Apply the Changes**
-   Reload the systemd manager configuration and restart Docker:
+3. **应用更改**
+   重新加载 systemd 管理器配置并重新启动 Docker：
    ```bash
    sudo systemctl daemon-reload
    sudo systemctl restart docker
    ```
 
-4. **Verify Configuration**
-   Check if Docker is using your custom configuration:
+4. **验证配置**
+   检查 Docker 是否正在使用您的自定义配置：
    ```bash
    sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
    ```
 
-### Troubleshooting: Failed to Initialize NVML
+### 故障排除：无法初始化 NVML
 
-If you encounter `Failed to initialize NVML: Unknown Error`, follow these steps:
+如果遇到 `Failed to initialize NVML: Unknown Error`，请按照以下步骤操作：
 
-1. Edit the Nvidia container runtime configuration:
+1. 编辑 Nvidia 容器运行时配置：
    ```bash
    sudo vim /etc/nvidia-container-runtime/config.toml
    ```
-   Change `no-cgroups` to `false` and save the file.
+   将 `no-cgroups` 更改为 `false` 并保存文件。
 
-2. Restart the Docker daemon:
+2. 重启 Docker 守护进程：
    ```bash
    sudo systemctl restart docker
    ```
 
-3. Test the configuration:
+3. 测试配置：
    ```bash
    sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
    ```

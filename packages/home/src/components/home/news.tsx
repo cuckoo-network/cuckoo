@@ -1,5 +1,6 @@
 import PostItem from "./post-item";
 import Link from "@docusaurus/Link";
+import Translate from "@docusaurus/Translate";
 
 const {
   blogPosts,
@@ -22,7 +23,11 @@ export function News({tag}: {tag?: string}) {
               className="h3 font-uncut-sans aos-init aos-animate"
               data-aos="fade-up"
             >
-              Refreshing news from community
+              <Translate
+                description="Title for the news section"
+              >
+                Refreshing news from the community
+              </Translate>
             </h3>
           </div>
 
@@ -36,7 +41,11 @@ export function News({tag}: {tag?: string}) {
           </div>
 
           <Link className="float-right hover:text-white" href={tag ? `/blog/tags/${slugify(tag)}` : "/blogs/"}>
-            Read more
+            <Translate
+              description="Read more link text"
+            >
+              Read more
+            </Translate>
             <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
               -&gt;
             </span>

@@ -1,0 +1,30 @@
+{
+  "logo.alt": {
+    "message": "Cuckoo Network ロゴ",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Airdrop": {
+    "message": "エアドロップ",
+    "description": "Navbar item with label Airdrop"
+  },
+  "item.label.Docs": {
+    "message": "ドキュメント",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Blogs": {
+    "message": "ブログ",
+    "description": "Navbar item with label Blogs"
+  },
+  "item.label.Image Gen": {
+    "message": "画像生成",
+    "description": "Navbar item with label Image Gen"
+  },
+  "item.label.Blockchain": {
+    "message": "ブロックチェーン",
+    "description": "Navbar item with label Blockchain"
+  },
+  "item.label.Staking": {
+    "message": "ステーキング",
+    "description": "Navbar item with label Staking"
+  }
+}

@@ -1,24 +1,24 @@
-# Using Remix
+# 使用 Remix 在 Cuckoo Chain 上部署智能合约
 
-**How to Deploy with Remix IDE on Cuckoo Chain**
+**如何使用 Remix IDE 在 Cuckoo Chain 上部署**
 
-Cuckoo Chain is an Arbitrum Layer-2 designed for hyper-growth. As it is built with the Arbitrum, Cuckoo Chain is EVM compatible, allowing you to easily port your existing Ethereum-based smart contracts without modifying the code.
+Cuckoo Chain 是一个专为超高速增长设计的 Arbitrum Layer-2 解决方案。由于其基于 Arbitrum 构建，Cuckoo Chain 具备 EVM 兼容性，允许您轻松移植现有的基于以太坊的智能合约，而无需修改代码。
 
-In this guide, we will show you how to deploy a smart contract on Cuckoo Chain using the [Remix IDE](https://remix.ethereum.org/).
+在本指南中，我们将向您展示如何使用 [Remix IDE](https://remix.ethereum.org/) 在 Cuckoo Chain 上部署智能合约。
 
-This tutorial assumes you have Sepolia ETH and have bridged it to the Cuckoo Testnet Network.
+本教程假定您已经拥有 Sepolia ETH 并已将其桥接至 Cuckoo 测试网。
 
-## 1. Deploy Using Remix
+## 1. 使用 Remix 部署
 
-First, ensure you have added the Cuckoo network to your MetaMask. Follow the step-by-step guide to add the Cuckoo Testnet to MetaMask.
+首先，确保您已将 Cuckoo 网络添加到您的 MetaMask。请按照分步指南将 Cuckoo 测试网添加到 MetaMask。
 
-Now we are ready to begin!
+现在我们可以开始了！
 
-[Remix](https://remix.ethereum.org/) is a no-setup tool with a graphical interface for developing smart contracts. It allows for easy deployment, debugging, interaction with smart contracts, and more. It's an excellent tool for testing quick changes and interacting with deployed contracts.
+[Remix](https://remix.ethereum.org/) 是一个无需配置的工具，具有图形界面，用于开发智能合约。它允许轻松部署、调试、与智能合约交互等。这是一个非常适合快速测试更改和与已部署合约交互的工具。
 
-![This is a screenshot showing Remix IDE. There is a basic smart contract that will be used for the tutorial.](https://cuckoo-network.b-cdn.net/using-remix2.webp)
+![这是一个显示 Remix IDE 的截图。将使用一个基本的智能合约进行本教程。](https://cuckoo-network.b-cdn.net/using-remix2.webp)
 
-For this tutorial, we will deploy the '1_Storage.sol' smart contract that comes as an example in Remix, but you can use your own code. Here is the sample code you can paste into any `.sol` file:
+在本教程中，我们将部署 Remix 中提供的示例智能合约 `1_Storage.sol`，但您也可以使用自己的代码。以下是您可以粘贴到任何 `.sol` 文件中的示例代码：
 
 ### 1_Storage.sol
 
@@ -29,7 +29,7 @@ pragma solidity >=0.8.2 <0.9.0;
 
 contract Storage {
     uint256 number;
-    
+
     function store(uint256 num) public {
         number = num;
     }
@@ -40,65 +40,52 @@ contract Storage {
 }
 ```
 
-To compile your smart contract, go to the Solidity Compiler tab and select the contract you want to compile. Click on "Compile". You can also enable "Auto Compile" for automatic compilation whenever you change the contract code.
+要编译您的智能合约，请转到 Solidity 编译器选项卡并选择您要编译的合约。点击 "Compile"。您也可以启用 "Auto Compile" 以在更改合约代码时自动编译。
 
-Make sure to open the advanced configurations and set the EVM version to London. This is to avoid issues with the PUSH0 opcode. You can read more on the issue with Optimism chains [here](https://community.optimism.io/docs/developers/build/differences/#opcode-differences).
-
-
+请确保打开高级配置并将 EVM 版本设置为 London。这是为了避免与 PUSH0 操作码相关的问题。您可以在 [此处](https://community.optimism.io/docs/developers/build/differences/#opcode-differences) 阅读更多关于 Optimism 链的问题。
 
 <img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} />
 
+### Solidity 编译器选项卡
 
+智能合约成功编译后，切换到 "Deploy & Run Transactions" 选项卡。
 
-### Solidity Compiler Tab
+在 "Environment" 下拉菜单中，选择 "Injected Provider - MetaMask"。这将使您的 MetaMask 连接到 Remix，并允许您从连接的钱包中进行交易。
 
-Once the smart contract is compiled successfully, switch to the "Deploy & Run Transactions" tab.
-
-In the "Environment" dropdown menu, select "Injected Provider - MetaMask". This will connect your MetaMask to Remix and allow you to make transactions from the connected wallet.
-
-Make sure to have Cuckoo Chain as your selected network in MetaMask before deploying.
+在部署之前，请确保在 MetaMask 中选择 Cuckoo Chain 作为您的网络。
 
 <img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} />
 
 <img src="https://cuckoo-network.b-cdn.net/using-remix4.webp" style={{height: "500px"}} />
 
+选择您要部署的编译好的合约，然后点击 'Deploy'。
 
-
-Select the compiled contract you want to deploy and click 'Deploy'.
-
-Now, MetaMask should pop up and ask you to confirm the transaction with super low fees.
+现在，MetaMask 应该会弹出，要求您确认交易，并且费用非常低。
 
 <img src="https://cuckoo-network.b-cdn.net/using-remix5.webp" style={{height: "500px"}} />
 
-
-
-**CONGRATULATIONS! You just deployed your first smart contract to Cuckoo Chain.**
+**恭喜！您刚刚将第一个智能合约部署到 Cuckoo Chain 上。**
 
 ------
 
-### 2. How to Explore and Interact with Your Deployed Smart Contract
+### 2. 如何探索和与您的已部署智能合约进行交互
 
-Now that you have deployed your first smart contract to Cuckoo Chain, let's see how to interact with it.
+现在您已经将第一个智能合约部署到 Cuckoo Chain 上，让我们看看如何与它进行交互。
 
-You will see your deployed smart contract below in the 'Deploy & Run Transactions' tab. You can use the Remix interface to call the methods defined in your smart contract and access its public variables.
+您将在 "Deploy & Run Transactions" 选项卡下看到您的已部署智能合约。您可以使用 Remix 界面调用智能合约中定义的方法，并访问其公共变量。
 
-We can also find our deployed smart contract in [Blockscout](https://testnet-scan.cuckoo.network/), the Cuckoo block scanner. Copy the contract address from Remix, go to [Blockscout](https://testnet-scan.cuckoo.network/), and paste it into the search bar.
+我们还可以在 [Blockscout](https://testnet-scan.cuckoo.network/) 中找到我们已部署的智能合约，这是 Cuckoo 的区块浏览器。将合约地址从 Remix 复制，然后访问 [Blockscout](https://testnet-scan.cuckoo.network/) 并将其粘贴到搜索栏中。
 
 <img src="https://cuckoo-network.b-cdn.net/using-remix6.webp" style={{height: "500px"}} />
 
+下面的截图显示了我们已部署的智能合约，您可以在其中看到所有交易、创建者钱包、余额等信息！
 
-
-The screenshot below shows our deployed smart contract, where you can see all transactions, the creator wallet, balance, and more!
-
-Notice that if you call one of the smart contract methods in Remix, you should see the transaction pop up in this explorer. You can directly interact with your deployed smart contract with Remix.
+请注意，如果您在 Remix 中调用智能合约的方法，您应该会在该浏览器中看到弹出的交易。您可以直接使用 Remix 与您已部署的智能合约进行交互。
 
 ![img](https://cuckoo-network.b-cdn.net/using-remix7.webp)
 
-**You have now learned how to deploy a smart contract on Cuckoo Chain using the Remix online IDE!**
+**您现在已经学会了如何使用 Remix 在线 IDE 在 Cuckoo Chain 上部署智能合约！**
 
-In this tutorial, we also covered the Cuckoo bridge, block explorer, and how to interact with your contract.
+在本教程中，我们还涵盖了 Cuckoo 桥接、区块浏览器以及如何与您的合约进行交互。
 
-To learn more about
-
- Cuckoo Chain and how to turn your code into a business, join our [Discord](https://cuckoo.network/dc) and say hello 👋
-
+要了解更多关于 Cuckoo Chain 的信息，以及如何将代码转化为业务，请加入我们的 [Discord](https://cuckoo.network/dc) 并向我们打个招呼 👋。

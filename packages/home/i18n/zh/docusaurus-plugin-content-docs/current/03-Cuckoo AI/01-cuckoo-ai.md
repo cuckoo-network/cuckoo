@@ -1,51 +1,51 @@
 # Cuckoo AI
 
-**Decentralized Model Serving **
+**去中心化模型服务**
 
-As we embark on the journey to decentralize artificial intelligence technically, this document aims to provide a comprehensive guide to developers, Miners, app builders, and stakeholders involved in the Cuckoo AI ecosystem. Here, we outline the core components, interactions, and procedures critical to ensuring a seamless and trustworthy decentralized AI network.
+随着我们在技术上迈向人工智能去中心化的旅程，本文件旨在为 Cuckoo AI 生态系统中的开发者、矿工、应用构建者和利益相关者提供全面指南。我们在此概述了确保去中心化 AI 网络无缝且值得信赖的核心组件、交互和流程。
 
-## Overview
+## 概述
 
-Cuckoo AI leverages blockchain technology to create a decentralized platform where AI tasks are distributed among a network of Miners, while app builders and coordinators ensure the quality and relevance of AI outputs. This ecosystem is powered by the Cuckoo Pay, a blockchain-based payment system facilitating transactions within the platform.
+Cuckoo AI 利用区块链技术创建了一个去中心化平台，在该平台中，AI 任务被分配给矿工网络，而应用构建者和协调者则确保 AI 输出的质量和相关性。该生态系统由 Cuckoo Pay 提供支持，这是一种基于区块链的支付系统，用于平台内的交易。
 
-### Key Components
+### 关键组件
 
-1. **Miners:** Individuals or entities running computation resources to execute AI tasks.
-2. **App Builders (Coordinator Nodes):** Developers creating AI applications on top of Cuckoo AI, overseeing task distribution and quality control.
-3. **Stakers:** Participants who stake tokens to vote for trustworthy Miners and coordinators.
-4. **Staking Contract:** A smart contract where Miners and coordinators register and stakers vote for them.
-5. **Blob Storage:** A decentralized storage solution for saving the output of AI tasks.
-6. **Cuckoo Pay:** The payment system for transactions within the Cuckoo AI ecosystem.
+1. **矿工：** 运行计算资源以执行 AI 任务的个人或实体。
+2. **应用构建者（协调节点）：** 在 Cuckoo AI 上创建 AI 应用程序的开发者，负责任务分配和质量控制。
+3. **质押者：** 质押代币以投票支持可信矿工和协调者的参与者。
+4. **质押合约：** 矿工和协调者注册的智能合约，质押者在此为他们投票。
+5. **Blob 存储：** 用于保存 AI 任务输出的去中心化存储解决方案。
+6. **Cuckoo Pay：** 用于 Cuckoo AI 生态系统内交易的支付系统。
 
-### Workflow
+### 工作流程
 
-1. Miners register themselves with the staking contract and stake tokens.
-2. App builders register their coordinator nodes with the staking contract.
-3. Stakers vote for the Miners and coordinators they trust.
-4. Coordinators consult the staking info to assign tasks to the queue.
-5. Miners are assigned tasks by coordinators, execute them, and upload the results to the blob storage.
-6. Coordinators validate the results from the blob storage and initiate payments to the Miners.
-7. Miners periodically check for payments and can block malicious coordinators.
-8. Customers from various blockchains pay for AI services using Cuckoo Pay.
+1. 矿工在质押合约中注册并质押代币。
+2. 应用构建者在质押合约中注册他们的协调节点。
+3. 质押者为他们信任的矿工和协调者投票。
+4. 协调者参考质押信息以将任务分配到队列中。
+5. 矿工由协调者分配任务，执行任务并将结果上传至 Blob 存储。
+6. 协调者从 Blob 存储中验证结果并启动对矿工的支付。
+7. 矿工定期检查支付情况，并可阻止恶意的协调者。
+8. 来自各种区块链的客户使用 Cuckoo Pay 支付 AI 服务费用。
 
-## Task Assignment
+## 任务分配
 
-Task assignment and scheduler is a critical function within the Cuckoo AI ecosystem, ensuring efficient and fair distribution of tasks from coordinators to Miners.
+任务分配和调度器是 Cuckoo AI 生态系统中的关键功能，确保协调者与矿工之间的任务高效且公平地分配。
 
-Task Offering: Content coordinators list AI tasks with specified parameters and an offering price.
+任务提供：内容协调者列出具有指定参数和报价的 AI 任务。
 
-Task Bidding: Miners select tasks based on a weighted system, considering their stake relative to the total, and place bids at potentially lower prices. Content coordinators then select up to four bidders to execute the task based on the bids and the Miners' account balances, providing the details.
+任务竞标：矿工根据权重系统选择任务，考虑其相对于总量的质押，并以可能更低的价格出价。内容协调者然后根据竞标和矿工的账户余额选择最多四个投标者执行任务，并提供详细信息。
 
-Settlement: At the day's end, coordinators distribute settlement tokens to the Miners, completing the payment process for executed tasks.
+结算：在一天结束时，协调者向矿工分发结算代币，完成执行任务的支付过程。
 
-## Governance
+## 治理
 
-The Cuckoo AI platform incorporates mechanisms to maintain trust and integrity within the ecosystem through slashing conditions for non-compliant behavior.
+Cuckoo AI 平台通过削减条件来维护生态系统的信任和完整性。
 
-### Slashing Conditions
+### 削减条件
 
-For Bad Coordinators that fails to pay for completed tasks, Cuckoo DAO will rate down or even blocklist the coordinator.
+对于未能支付已完成任务的恶意协调者，Cuckoo DAO 将降低其评级，甚至将其列入黑名单。
 
-For Bad Miners that fail to execute or upload unsatisfactory results, coordinator will cease to pay tokens.
+对于未能执行任务或上传不满意结果的恶意矿工，协调者将停止支付代币。
 
-In cases of disputes, Miners can submit proof to designated slashers and initiate a block against non-compliant coordinators, safeguarding the ecosystem's integrity.
+在出现争议的情况下，矿工可以向指定的削减者提交证据，并对不合规的协调者发起封锁，以维护生态系统的完整性。

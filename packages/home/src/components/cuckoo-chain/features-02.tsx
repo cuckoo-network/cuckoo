@@ -1,10 +1,12 @@
 "use client";
 
 import { useState } from "react";
-const Illustration = "/img/cuckoo-chain/features-illustration-02.svg";
-const FeaturesImage = "/img/cuckoo-chain/features-image.png";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 export default function Features02() {
+  const Illustration = useBaseUrl("/img/cuckoo-chain/features-illustration-02.svg");
+  const FeaturesImage = useBaseUrl("/img/cuckoo-chain/features-image.png");
+
   const [category, setCategory] = useState<string>("1");
 
   return (

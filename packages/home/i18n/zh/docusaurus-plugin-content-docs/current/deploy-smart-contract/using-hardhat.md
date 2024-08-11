@@ -1,53 +1,56 @@
-# Deploying a Smart Contract on Cuckoo Chain with Hardhat
+---
+title: "使用 Hardhat 在 Cuckoo Chain 上部署智能合约"
+description: "使用 Hardhat 和 TypeScript 在 Cuckoo Chain 的以太坊 L2 上部署智能合约的指南。"
+---
 
-This guide walks you through deploying a smart contract on Cuckoo Chain’s Ethereum L2 using Hardhat and TypeScript.
+本指南将带您逐步完成在 Cuckoo Chain 的以太坊 L2 上使用 Hardhat 和 TypeScript 部署智能合约的过程。
 
-#### Prerequisites
+#### 前提条件
 
-- **Node.js and npm:** Ensure both are installed. [Download here](https://nodejs.org/).
+- **Node.js 和 npm：** 确保已安装。 [点击这里下载](https://nodejs.org/)。
 
-- **Ethereum Wallet:** A private key for the Cuckoo Testnet that has testnet $CAI. Get it from [Testnet Faucets](https://cuckoo.network/portal/faucet/). Use a new wallet without real funds for security.
+- **以太坊钱包：** 需要一个包含测试网 $CAI 的 Cuckoo 测试网私钥。可从 [测试网水龙头](https://cuckoo.network/portal/faucet/) 获取。为了安全起见，请使用没有真实资金的新钱包。
 
-- **Basic Solidity and CLI knowledge:** Helpful but not mandatory!
+- **基础的 Solidity 和 CLI 知识：** 有帮助，但不是必须的！
 
-## What You'll Learn
+## 您将学到什么
 
-- Setting up a TypeScript-based Hardhat project.
-- Writing a simple Ethereum smart contract.
-- Configuring Hardhat for Cuckoo Testnet.
-- Deploying your smart contract on Cuckoo.
+- 设置基于 TypeScript 的 Hardhat 项目。
+- 编写一个简单的以太坊智能合约。
+- 配置 Hardhat 以支持 Cuckoo 测试网。
+- 在 Cuckoo 上部署您的智能合约。
 
-## Step 1: Initialize a Hardhat TypeScript Project
+## 步骤 1：初始化 Hardhat TypeScript 项目
 
-Open your terminal and create a new project directory, then navigate into it:
+打开您的终端并创建一个新的项目目录，然后进入该目录：
 
 ```bash
 mkdir my-hardhat-project && cd my-hardhat-project
 ```
 
-Initialize an npm project:
+初始化一个 npm 项目：
 
 ```bash
 npm init -y
 ```
 
-Install the necessary packages for Hardhat and TypeScript:
+安装 Hardhat 和 TypeScript 所需的包：
 
 ```bash
 npm install --save-dev hardhat ts-node typescript @nomiclabs/hardhat-ethers ethers
 ```
 
-Start a new Hardhat project with TypeScript:
+使用 TypeScript 启动一个新的 Hardhat 项目：
 
 ```bash
 npx hardhat init
 ```
 
-Follow the prompts:
+按照提示操作：
 
-- Choose "Create a TypeScript project".
-- Select "Yes" for adding a `.gitignore`.
-- Select "Yes" for installing the sample project's dependencies.
+- 选择“创建一个 TypeScript 项目”。
+- 选择“是”以添加 `.gitignore`。
+- 选择“是”以安装示例项目的依赖项。
 
 ```bash
 [~/Cuckoo/my-hardhat-project]$ npx hardhat
@@ -61,17 +64,17 @@ Follow the prompts:
 888    888 888  888 888    Y88b 888 888  888 888  888 Y88b.
 888    888  Y888888 888      Y88888 888  888  Y888888  Y888
 
-👷 Welcome to Hardhat v2.18.2 👷‍
+👷 欢迎使用 Hardhat v2.18.2 👷‍
 
-✔ What do you want to do? · Create a TypeScript project
-✔ Hardhat project root: · /Users/Cuckoo/my-hardhat-project
-✔ Do you want to add a .gitignore? (Y/n) · y
-✔ Do you want to install this sample project's dependencies with npm (@nomicfoundation/hardhat-toolbox)? (Y/n) · y
+✔ 您想做什么？ · 创建一个 TypeScript 项目
+✔ Hardhat 项目根目录： · /Users/Cuckoo/my-hardhat-project
+✔ 您想添加一个 .gitignore 吗？(Y/n) · y
+✔ 您想使用 npm 安装这个示例项目的依赖项吗？ (@nomicfoundation/hardhat-toolbox)？(Y/n) · y
 ```
 
-## Step 2: Write the Smart Contract
+## 步骤 2：编写智能合约
 
-In the `contracts` directory, delete `Lock.sol` and create a new file `HelloWorld.sol`:
+在 `contracts` 目录中，删除 `Lock.sol` 并创建一个新的文件 `HelloWorld.sol`：
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -90,9 +93,9 @@ contract HelloWorld {
 }
 ```
 
-## Step 3: Configure Hardhat for Cuckoo
+## 步骤 3：配置 Hardhat 以支持 Cuckoo
 
-Edit the `hardhat.config.ts` file to include Cuckoo Testnet settings:
+编辑 `hardhat.config.ts` 文件以包含 Cuckoo 测试网设置：
 
 ```typescript
 import "@nomiclabs/hardhat-ethers";
@@ -103,7 +106,7 @@ const config: HardhatUserConfig = {
     cuckoo: {
       url: "https://testnet-rpc.cuckoo.network",
       chainId: 1210,
-      accounts: ["YOUR_PRIVATE_KEY_HERE"] // Replace with your private key
+      accounts: ["YOUR_PRIVATE_KEY_HERE"] // 替换为您的私钥
     }
   },
   solidity: "0.8.0",
@@ -112,19 +115,19 @@ const config: HardhatUserConfig = {
 export default config;
 ```
 
-Replace `YOUR_PRIVATE_KEY_HERE` with your Cuckoo Testnet private key. **Do not share your private key or push it to GitHub.**
+将 `YOUR_PRIVATE_KEY_HERE` 替换为您的 Cuckoo 测试网私钥。**不要分享您的私钥或将其推送到 GitHub。**
 
-## Step 4: Compile the Smart Contract
+## 步骤 4：编译智能合约
 
-Compile the smart contract:
+编译智能合约：
 
 ```bash
 npx hardhat compile
 ```
 
-## Step 5: Deploy the Smart Contract
+## 步骤 5：部署智能合约
 
-In the `scripts` directory, create a new file `deploy.ts`:
+在 `scripts` 目录中，创建一个新文件 `deploy.ts`：
 
 ```typescript
 import { ethers } from "hardhat";
@@ -135,7 +138,7 @@ async function main() {
     const gasLimit = 500000;
     const helloWorld = await HelloWorld.deploy({ gasPrice: gasPrice, gasLimit: gasLimit });
     await helloWorld.deployed();
-    console.log("HelloWorld deployed to:", helloWorld.address);
+    console.log("HelloWorld 部署到:", helloWorld.address);
 }
 
 main()
@@ -146,18 +149,18 @@ main()
   });
 ```
 
-Adjust `gasPrice` and `gasLimit` as needed. Check [BlockScout](https://testnet-scan.cuckoo.network/) for chain details.
+根据需要调整 `gasPrice` 和 `gasLimit`。请查看 [BlockScout](https://testnet-scan.cuckoo.network/) 以获取链的详细信息。
 
-Deploy the smart contract to the Cuckoo Testnet:
+将智能合约部署到 Cuckoo 测试网：
 
 ```bash
 npx hardhat run scripts/deploy.ts --network cuckoo
 ```
 
-## Step 6: Verify Deployment
+## 步骤 6：验证部署
 
-Verify your smart contract's deployment on the Cuckoo Testnet block explorer: [BlockScout](https://testnet-scan.cuckoo.network/). Use the contract address from the console to view its details.
+在 Cuckoo 测试网区块浏览器 [BlockScout](https://testnet-scan.cuckoo.network/) 上验证智能合约的部署。使用控制台中的合约地址查看其详细信息。
 
-## Conclusion
+## 结论
 
-Congratulations! You've successfully deployed a smart contract on the Cuckoo Testnet using Hardhat and TypeScript. To learn more about Cuckoo and how to turn your code into a business, join our [Discord](https://cuckoo.network/dc) and say hello 👋.	
+恭喜！您已成功使用 Hardhat 和 TypeScript 在 Cuckoo 测试网上部署了一个智能合约。要了解更多关于 Cuckoo 的信息以及如何将代码转化为业务，欢迎加入我们的 [Discord](https://cuckoo.network/dc) 与我们打个招呼 👋。

@@ -36,7 +36,7 @@
     "description": "The label for the doc item  Network Details in sidebar tutorialSidebar, linking to the doc Cuckoo Chain/cuckoo-chain"
   },
   "sidebar.tutorialSidebar.doc. How to Run a Cuckoo Chain Node": {
-    "message": " 如何运行Cuckoo链节点",
+    "message": " 如何运行 Cuckoo Chain 节点",
     "description": "The label for the doc item  How to Run a Cuckoo Chain Node in sidebar tutorialSidebar, linking to the doc Cuckoo Chain/full-node"
   },
   "sidebar.tutorialSidebar.doc. Cuckoo Bridge": {
@@ -44,23 +44,23 @@
     "description": "The label for the doc item  Cuckoo Bridge in sidebar tutorialSidebar, linking to the doc Cuckoo Chain/bridge"
   },
   "sidebar.tutorialSidebar.doc.Using Hardhat": {
-    "message": "使用Hardhat",
+    "message": "使用 Hardhat",
     "description": "The label for the doc item Using Hardhat in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-hardhat"
   },
   "sidebar.tutorialSidebar.doc.Using Thirdweb": {
-    "message": "使用Thirdweb",
+    "message": "使用 Thirdweb",
     "description": "The label for the doc item Using Thirdweb in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-thirdweb"
   },
   "sidebar.tutorialSidebar.doc.Using Foundry": {
-    "message": "使用Foundry",
+    "message": "使用 Foundry",
     "description": "The label for the doc item Using Foundry in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-foundry"
   },
   "sidebar.tutorialSidebar.doc.Using Remix": {
-    "message": "使用Remix",
+    "message": "使用 Remix",
     "description": "The label for the doc item Using Remix in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-remix"
   },
   "sidebar.tutorialSidebar.doc. How does Cuckoo work": {
-    "message": " Cuckoo如何工作",
+    "message": " Cuckoo 如何工作",
     "description": "The label for the doc item  How does Cuckoo work in sidebar tutorialSidebar, linking to the doc How does Cuckoo work"
   },
   "sidebar.tutorialSidebar.doc. $CAI": {

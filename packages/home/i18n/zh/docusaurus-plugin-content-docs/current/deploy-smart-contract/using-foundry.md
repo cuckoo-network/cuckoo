@@ -1,44 +1,47 @@
-# Deploying with Foundry on Cuckoo Chain
+---
+title: "使用 Foundry 在 Cuckoo Chain 上部署"
+description: "使用 Foundry 在 Cuckoo Chain 上部署 ERC20 代币的教程。"
+---
 
-This tutorial will guide you through deploying an ERC20 token on Cuckoo Chain using [Foundry](https://book.getfoundry.sh/). Foundry is a Rust-based smart contract development toolchain that manages dependencies, compiles projects, runs tests, deploys, and allows interaction with the chain via command-line and Solidity scripts.
+本教程将指导您使用 [Foundry](https://book.getfoundry.sh/) 在 Cuckoo Chain 上部署 ERC20 代币。Foundry 是一个基于 Rust 的智能合约开发工具链，管理依赖项、编译项目、运行测试、部署，并允许通过命令行和 Solidity 脚本与链交互。
 
-Given Cuckoo Chain's foundation on the Arbitrum and Ethereum Stack and its EVM compatibility, Ethereum-based smart contracts can be ported easily with minimal adjustments.
+鉴于 Cuckoo Chain 基于 Arbitrum 和 Ethereum 技术栈，并且具备 EVM 兼容性，以太坊智能合约可以轻松移植，只需进行少量调整。
 
-## Prerequisites
+## 前提条件
 
-You need to complete the following steps, which should take around 10 minutes:
+您需要完成以下步骤，这些步骤大约需要 10 分钟：
 
-- **Get $CAI on Cuckoo Testnet Network:** Use [this faucet](https://cuckoo.network/portal/faucet/) to claim some CAI.
+- **获取 Cuckoo 测试网络的 $CAI：** 使用 [这个水龙头](https://cuckoo.network/portal/faucet/) 领取一些 CAI。
 
-- **Install Rust:** If Rust is not installed, follow [this guide](https://doc.rust-lang.org/book/ch01-01-installation.html).
+- **安装 Rust：** 如果尚未安装 Rust，请按照 [此指南](https://doc.rust-lang.org/book/ch01-01-installation.html) 安装。
 
-- **Install Foundry:** If Foundry is not installed, follow [this guide](https://book.getfoundry.sh/getting-started/installation).
+- **安装 Foundry：** 如果尚未安装 Foundry，请按照 [此指南](https://book.getfoundry.sh/getting-started/installation) 安装。
 
-Let's get started!
+让我们开始吧！
 
-## Step 1: Setting Up the Project
+## 步骤 1：设置项目
 
-### 1.1 Initialize a New Foundry Project
+### 1.1 初始化一个新的 Foundry 项目
 
-Open a terminal and run:
+打开终端并运行：
 
 ```bash
 forge init my-project
 ```
 
-### 1.2 Install OpenZeppelin Contracts
+### 1.2 安装 OpenZeppelin 合约
 
-Add the OpenZeppelin contracts library to your project:
+将 OpenZeppelin 合约库添加到您的项目中：
 
 ```bash
 forge install OpenZeppelin/openzeppelin-contracts
 ```
 
-## Step 2: Writing the ERC20 Token Contract
+## 步骤 2：编写 ERC20 代币合约
 
-### 2.1 Create the Contract File
+### 2.1 创建合约文件
 
-In the `/src` directory, create a file named `MyERC20.sol` and add the following code:
+在 `/src` 目录中，创建一个名为 `MyERC20.sol` 的文件，并添加以下代码：
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -51,71 +54,71 @@ contract MyERC20 is ERC20 {
 }
 ```
 
-This simple ERC20 token is named "MyToken" with the symbol "MTK". You can modify the name and symbol as desired. 
+这个简单的 ERC20 代币名为 "MyToken"，符号为 "MTK"。您可以根据需要修改名称和符号。
 
-Here's what your project should look like so far:
+您的项目现在应该如下所示：
 
 ![img](https://cuckoo-network.b-cdn.net/using-hardhat-1.webp)
 
-## Step 3: Building the Contract
+## 步骤 3：编译合约
 
-### 3.1 Compile the Smart Contract
+### 3.1 编译智能合约
 
-Use Foundry to compile your contract:
+使用 Foundry 编译您的合约：
 
 ```bash
 forge build
 ```
 
-## Step 4: Deploying the ERC20 Token Contract
+## 步骤 4：部署 ERC20 代币合约
 
-### 4.1 Deploy the Contract
+### 4.1 部署合约
 
-To deploy your contract, run the following command, replacing `<YOUR_PRIVATE_KEY>` with your actual private key:
+要部署您的合约，运行以下命令，并将 `<YOUR_PRIVATE_KEY>` 替换为您的实际私钥：
 
 ```bash
 forge create --rpc-url https://testnet-rpc.cuckoo.network --private-key <YOUR_PRIVATE_KEY> src/MyERC20.sol:MyERC20
 ```
 
-Never share your private key publicly. Store it safely to prevent unauthorized access.
+永远不要公开分享您的私钥。请妥善存储以防止未经授权的访问。
 
-### Optional: Verify the Contract During Deployment
+### 可选：在部署期间验证合约
 
-Add the `--verify` flag to verify your contract during deployment:
+在部署期间添加 `--verify` 标志以验证您的合约：
 
 ```bash
 forge create --rpc-url https://testnet-rpc.cuckoo.network --private-key <YOUR_PRIVATE_KEY> src/MyERC20.sol:MyERC20 --verify --verifier blockscout --verifier-url https://testnet-scan.cuckoo.network/api\?
 ```
 
-You should see an output similar to this:
+您应该会看到类似以下的输出：
 
 ```bash
-[⠢] Compiling... No files changed, compilation skipped 
-Deployer: 0x3F26b51E23D01b09f4079B2a9e00e6873a8409D8 
-Deployed to: 0x628F56856386A4De8414A4D8217D519bF94d03f0 
+[⠢] Compiling... No files changed, compilation skipped
+Deployer: 0x3F26b51E23D01b09f4079B2a9e00e6873a8409D8
+Deployed to: 0x628F56856386A4De8414A4D8217D519bF94d03f0
 Transaction hash: 0xbe2d27554f130a720c4dd82dad055c941ca44dee836f6333a8507d76022c158
 ```
 
-Copy and save the "Deployed to" address for later use.
+复制并保存 "Deployed to" 地址以备后用。
 
-## Step 5: Verifying the Contract After Deployment
+## 步骤 5：部署后验证合约
 
-### 5.1 Verify the Contract
+### 5.1 验证合约
 
-For contracts already deployed, use the `verify-contract` command:
+对于已经部署的合约，使用 `verify-contract` 命令：
 
 ```bash
 forge verify-contract <CONTRACT_ADDRESS> src/MyERC20.sol:MyERC20 --verifier blockscout --verifier-url https://testnet-scan.cuckoo.network/api\?
 ```
 
-## Step 6: Interacting with Your Deployed Contract
+## 步骤 6：与已部署合约交互
 
-Use [Blockscout](https://testnet-scan.cuckoo.network/) to view your contract's details. Paste the contract address from the deployment output into Blockscout's search bar. In the "Contract" tab, you will find your verified contract.
+使用 [Blockscout](https://testnet-scan.cuckoo.network/) 查看您的合约详情。将部署输出中的合约地址粘贴到 Blockscout 的搜索栏中。在“合约”选项卡中，您将找到已验证的合约。
 
 ![img](https://cuckoo-network.b-cdn.net/using-hardhat-2.webp)
 
 ---
 
-Congratulations! You've successfully deployed and verified a smart contract on Cuckoo Chain using Foundry. 
+恭喜！您已成功使用 Foundry 在 Cuckoo Chain 上部署并验证了智能合约。
 
-To learn more about Cuckoo Chain and explore business opportunities, join our [Discord](https://cuckoo.network/dc) and say hello 👋.
+要了解更多关于 Cuckoo Chain 的信息并探索商业机会，欢迎加入我们的 [Discord](https://cuckoo.network/dc) 与我们打个招呼 👋。

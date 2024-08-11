@@ -1,4 +1,5 @@
 import Illustration from "../svg/cta-illustration.svg";
+import Translate, { translate } from '@docusaurus/Translate';
 
 export function Cta() {
   return (
@@ -20,10 +21,10 @@ export function Cta() {
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
               <h3 className="text-4xl font-bold font-uncut-sans mb-2">
-                Experience Decentralized Model-Serving
+                <Translate>Experience Decentralized AI Model-Serving</Translate>
               </h3>
               <p className="text-blue-200">
-                Generate image now with Cuckoo Bot
+                <Translate>Generate image now with Cuckoo Bot</Translate>
               </p>
             </div>
             {/* CTA button */}
@@ -33,7 +34,7 @@ export function Cta() {
                 target="_blank"
                 href="https://cuckoo.network/dc"
               >
-                Join Discord{" "}
+                <Translate>Join Discord</Translate>{" "}
                 <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                   -&gt;
                 </span>

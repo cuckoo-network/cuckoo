@@ -1,89 +1,89 @@
-# Deploying a Smart Contract on Cuckoo with Thirdweb CLI & Dashboard
+# 使用 Thirdweb CLI 和仪表板在 Cuckoo 上部署智能合约
 
-Thirdweb is a robust web3 development framework designed to seamlessly connect your apps and games to decentralized networks. With the recent integration of Cuckoo, you can leverage Thirdweb's features to deploy and manage your smart contracts efficiently.
+Thirdweb 是一个强大的 Web3 开发框架，旨在将您的应用程序和游戏无缝连接到去中心化网络。随着 Cuckoo 的集成，您可以利用 Thirdweb 的功能高效地部署和管理智能合约。
 
-This guide assumes you have an **Ethereum Wallet** with a private key for the Cuckoo Testnet that has testnet $CAI. Get it from [Testnet Faucets](https://cuckoo.network/portal/faucet/). Use a new wallet without real funds for security.
+本指南假设您已拥有一个带有 Cuckoo 测试网私钥的 **以太坊钱包**，并且拥有测试网 $CAI。您可以从 [测试网水龙头](https://cuckoo.network/portal/faucet/) 获取它。为了安全起见，请使用没有真实资金的新钱包。
 
-## Step 1: Install Thirdweb CLI
+## 步骤 1：安装 Thirdweb CLI
 
-Begin by installing the Thirdweb CLI globally. Open your terminal and execute the following command:
+首先，在全球范围内安装 Thirdweb CLI。打开您的终端并执行以下命令：
 
 ```bash
 npm install -g thirdweb
 ```
 
-Verify the installation:
+验证安装：
 
 ```bash
 thirdweb --version
 ```
 
-For detailed instructions, refer to the [official documentation](https://portal.thirdweb.com/cli/create).
+有关详细说明，请参阅 [官方文档](https://portal.thirdweb.com/cli/create)。
 
-## Step 2: Set Up Your Local Environment
+## 步骤 2：设置本地环境
 
-Create a new project on your local machine:
+在您的本地计算机上创建一个新项目：
 
 ```bash
 npx thirdweb create
 ```
 
-Follow the prompts to set up your environment. In this tutorial, we will deploy an ERC-20 token with the Drop extension, enabling minting, burning, and airdropping tokens via the dashboard. Thirdweb provides audited contracts ready for deployment.
+按照提示设置您的环境。在本教程中，我们将部署一个带有 Drop 扩展的 ERC-20 代币，允许通过仪表板进行代币的铸造、销毁和空投。Thirdweb 提供了经过审计的合约，准备好进行部署。
 
-Refer to the screenshot below to create an example smart contract, or use your own code.
+参阅下面的截图以创建示例智能合约，或使用您自己的代码。
 
 ![img](https://cuckoo-network.b-cdn.net/using-thirdweb-1.webp)
 
-After setup, you will have a folder named "my-token" (or your chosen project name). Open this folder in your preferred code editor to view or modify the smart contract.
+设置完成后，您将拥有一个名为 "my-token"（或您选择的项目名称）的文件夹。使用您喜欢的代码编辑器打开该文件夹以查看或修改智能合约。
 
-## Step 3: Obtain a Thirdweb API Key
+## 步骤 3：获取 Thirdweb API 密钥
 
-Thirdweb services require an API key. Follow these steps to create one:
+Thirdweb 服务需要 API 密钥。按照以下步骤创建一个：
 
-1. Visit [Thirdweb API Keys](https://thirdweb.com/dashboard/settings/api-keys).
-2. Connect your wallet and sign the prompt in Metamask (or your preferred wallet).
-3. Switch to the Cuckoo network and create an API key.
+1. 访问 [Thirdweb API Keys](https://thirdweb.com/dashboard/settings/api-keys)。
+2. 连接您的钱包并在 Metamask（或您喜欢的钱包）中签署提示。
+3. 切换到 Cuckoo 网络并创建一个 API 密钥。
 
 ![img](https://cuckoo-network.b-cdn.net/using-thirdweb-2.webp)
 
-Follow the steps shown below:
+按照下面显示的步骤操作：
 
 ![img](https://cuckoo-network.b-cdn.net/using-thirdweb-3.webp)
 
 ![img](https://cuckoo-network.b-cdn.net/using-thirdweb-4.webp)
 
-Ensure you securely store your Client ID and Secret Key.
+确保安全存储您的 Client ID 和 Secret Key。
 
 ![img](https://cuckoo-network.b-cdn.net/using-thirdweb-5.webp)
 
-## Step 4: Deploy Your Smart Contract
+## 步骤 4：部署您的智能合约
 
-Run the following command at the root of your project to deploy your contract:
+在项目根目录运行以下命令以部署您的合约：
 
 ```bash
 npx thirdweb deploy
 ```
 
-You will see a prompt similar to this:
+您将看到类似如下的提示：
 
 ![img](https://cuckoo-network.b-cdn.net/using-thirdweb-6.webp)
 
-If your browser doesn't open automatically, copy the link from the terminal and paste it into your browser. Select the Cuckoo testnet network from the list.
+如果您的浏览器没有自动打开，请从终端复制链接并将其粘贴到浏览器中。从列表中选择 Cuckoo 测试网。
 
 ![img](https://cuckoo-network.b-cdn.net/using-thirdweb-7.webp)
 
-Fill in the contract parameters and click "Deploy Now". Ensure you have enough ETH on Cuckoo for gas fees. Tick the box to add a dashboard for the contract, enabling enhanced interaction features.
+填写合约参数并点击 "Deploy Now"。确保您在 Cuckoo 上有足够的 ETH 以支付 Gas 费用。勾选框以为合约添加仪表板，启用增强的交互功能。
 
 ![img](https://cuckoo-network.b-cdn.net/using-thirdweb-8.webp)
 
-You will need to sign a gasless transaction to approve the dashboard.
+您需要签署一个无 Gas 交易以批准仪表板。
 
-## Step 5: Utilize the Smart Contract Dashboard
+## 步骤 5：使用智能合约仪表板
 
-To manage your contracts, visit the [Thirdweb Contracts Dashboard](https://thirdweb.com/dashboard/contracts). Here, you can view all your deployed contracts.
+要管理您的合约，请访问 [Thirdweb 合约仪表板](https://thirdweb.com/dashboard/contracts)。在这里，您可以查看所有已部署的合约。
 
-Click on a contract to access its dashboard and start interacting with it. The explorer tab lets you view and use all the read-and-write methods of your contract.
+点击一个合约以访问其仪表板并开始与其互动。Explorer 选项卡允许您查看和使用合约的所有读写方法。
 
-One of the most useful features is the "Build" tab, which provides code snippets for programmatically connecting to your contract using various languages and frameworks, such as JavaScript, React, and Python.
+其中一个最有用的功能是 "Build" 选项卡，它提供了用于使用各种语言和框架（如 JavaScript、React 和 Python）以编程方式连接到合约的代码片段。
 
-Congratulations! You've successfully deployed a smart contract on Cuckoo using the Thirdweb CLI. To learn more about Cuckoo and its potential, join our [Discord](https://cuckoo.network/dc) and say hello 👋.
+恭喜！您已成功使用 Thirdweb CLI 在 Cuckoo 上部署了一个智能合约。要了解更多关于 Cuckoo 及其潜力的信息，请加入我们的 [Discord](https://cuckoo.network/dc) 并向我们打个招呼 👋。

@@ -1,50 +1,50 @@
-# Vision
+# 愿景
 
-## Problem
+## 问题
 
-- **Limited Model Exploration**: AI researchers and applications face restrictions due to resource-intensive infrastructure. Outsourcing to LLM API providers alleviates this but limits model variety.
-- **Unsustainable Open Source Innovation**: Independent ML engineers struggle to distribute and monetize their models. Reliance on major infrastructure providers diminishes incentives, hindering sustained innovation.
-- **Unequal Market Access**: Vertically integrated companies prioritize enterprise customers and top-tier models, making affordable inference for mid-tier models harder to find.
+- **有限的模型探索**：由于资源密集的基础设施，AI 研究人员和应用面临限制。虽然将任务外包给大型语言模型（LLM）API 提供商可以缓解这一问题，但会限制模型的多样性。
+- **不可持续的开源创新**：独立的机器学习工程师难以分发和盈利他们的模型。依赖主要的基础设施提供商会削弱激励，阻碍持续的创新。
+- **不平等的市场准入**：垂直整合的公司优先服务企业客户和顶级模型，这使得中端模型的经济实惠推理变得更加难以获得。
 
-## Landscape
+## 现状
 
-Centralized AI Inference
+集中式 AI 推理
 
-![Current AI Inference Landscape](/img/cuckoo-today.webp)
+![当前的 AI 推理现状](/img/cuckoo-today.webp)
 
-The Web3 industry tackles AI decentralization across various layers:
+Web3 行业在各个层面上解决 AI 去中心化的问题：
 
-- **Infrastructure-as-a-Service Cloud**: Akash Network, Ritual, Render, NetMind.AI
-- **Computing-Resource Marketplaces**: io.net, Gensyn, nimble, Kuzco, Morpheus AI
-- **Model Tokenization and Training**: SaharaLabs, Bittensor, MyShell
-- **AI Agents**: SingularityNET, Humans.ai, sensay, ChainGPT, AgentLayer
-- **Data Tokenization**: Synesis One, Grass.io, GagaNode, Ocean Protocol
-- **AI Applications**: inSure DeFi, Sleepless AI, NFPrompt, Hooked Protocol
+- **基础设施即服务云**：Akash Network、Ritual、Render、NetMind.AI
+- **计算资源市场**：io.net、Gensyn、nimble、Kuzco、Morpheus AI
+- **模型代币化和训练**：SaharaLabs、Bittensor、MyShell
+- **AI 代理**：SingularityNET、Humans.ai、sensay、ChainGPT、AgentLayer
+- **数据代币化**：Synesis One、Grass.io、GagaNode、Ocean Protocol
+- **AI 应用**：inSure DeFi、Sleepless AI、NFPrompt、Hooked Protocol
 
-We operate within the computing-resource marketplace sector but believe current solutions fail to optimize GPU resources and create immediate value for AI consumers.
+我们属于计算资源市场领域，但我们认为当前的解决方案未能优化 GPU 资源，也未能为 AI 消费者创造直接价值。
 
-## Our Unique Approach
+## 我们的独特方法
 
-Our decentralized marketplace connects GPU miners with generative AI builders, enabling miners to serve AI models from day one. This maximizes GPU efficiency, reduces centralization risks, and ensures immediate value for AI consumers. By leveraging a decentralized network, we can cut costs for generative AI builders by up to 60%.
+我们的去中心化市场将 GPU 矿工与生成式 AI 构建者连接起来，使矿工能够从第一天起就提供 AI 模型服务。这最大限度地提高了 GPU 效率，减少了中心化风险，并确保为 AI 消费者带来即时价值。通过利用去中心化网络，我们可以为生成式 AI 构建者节省多达 60% 的成本。
 
-![Our Better Way](/img/cuckoo-better-way.webp)
+![我们的更好方式](/img/cuckoo-better-way.webp)
 
-## Benefits for GPU Miners
+## 对 GPU 矿工的好处
 
-- **Easy Setup and Immediate Earnings**: Start quickly with minimal setup and earn immediately by serving AI models, maximizing hardware investment.
+- **简单设置和即时收益**：通过最少的设置快速开始，并通过提供 AI 模型服务立即获得收益，最大化硬件投资。
 
-## Benefits for Generative AI App Builders
+## 对生成式 AI 应用构建者的好处
 
-- **Effortless Integration and Cost Efficiency**: Integrate seamlessly with our API-ready, user-friendly platform. Deploy and scale AI applications quickly while benefiting from up to 60% cost reductions.
+- **无缝集成和成本效益**：通过我们的 API 就绪、用户友好的平台轻松集成。快速部署和扩展 AI 应用，同时受益于高达 60% 的成本削减。
 
-Specific Advantages:
+具体优势：
 
-- **Broadened Model Exploration**: Access a wider range of models without infrastructure cost constraints, fostering innovation across diverse AI applications.
-- **Support for Open Source Innovation**: Distribute and monetize models directly, reducing dependency on major providers and fostering a supportive ecosystem.
-- **Equitable Market Access**: Democratize AI model serving with affordable inference for both mid-tier and top-tier models on various hardware, supporting a balanced and competitive market.
+- **广泛的模型探索**：在不受基础设施成本限制的情况下，访问更广泛的模型，为各种 AI 应用的创新提供支持。
+- **支持开源创新**：直接分发和盈利模型，减少对主要提供商的依赖，促进一个支持性的生态系统。
+- **公平的市场准入**：通过经济实惠的推理服务，为中端和顶级模型在各种硬件上提供服务，支持平衡和竞争的市场。
 
 ---
 
-Join us to decentralize AI and empower a global community of creators and innovators!
+加入我们，去中心化 AI，赋能全球的创作者和创新者社区！
 
 - Telegram: [CuckooNetworkOfficial](https://t.me/CuckooNetworkOfficial)

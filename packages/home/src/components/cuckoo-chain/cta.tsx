@@ -1,7 +1,9 @@
 import Link from "@docusaurus/Link";
-const Illustration = "/img/cuckoo-chain/cta-illustration.svg";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import Translate from "@docusaurus/Translate";
 
 export default function Cta() {
+  const Illustration = useBaseUrl("/img/cuckoo-chain/cta-illustration.svg");
   return (
     <section className="relative border-t border-slate-800">
       {/* Bg gradient: top */}
@@ -17,7 +19,7 @@ export default function Cta() {
         <img
           src={Illustration}
           className="max-w-none"
-          alt="Features 01 Illustration"
+          alt={Translate({id: "Features 01 Illustration", message: "Features 01 Illustration", description: "Alt text for the features illustration"})}
         />
       </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -28,8 +30,9 @@ export default function Cta() {
             data-aos="fade-up"
           >
             <h2 className="h2 font-hkgrotesk">
-              It's time to join the thousands of creators, artists, and
-              developers using Cuckoo Chain.
+              <Translate description="CTA section main title">
+                It's time to join the thousands of creators, artists, and developers using Cuckoo Chain
+              </Translate>
             </h2>
           </div>
           {/* Buttons */}
@@ -40,7 +43,9 @@ export default function Cta() {
                   className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group uppercase hover:text-white"
                   href="https://scan.cuckoo.network"
                 >
-                  Explore Chain{" "}
+                  <Translate description="Button label to explore the Cuckoo Chain">
+                    Explore Chain
+                  </Translate>{" "}
                   <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
                   </span>
@@ -51,7 +56,9 @@ export default function Cta() {
                   className="btn text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600 w-full shadow-sm uppercase hover:text-white"
                   href="/docs/Cuckoo%20Chain/cuckoo-chain"
                 >
-                  Read Docs
+                  <Translate description="Button label to read the Cuckoo Chain documentation">
+                    Read Docs
+                  </Translate>
                 </Link>
               </div>
             </div>

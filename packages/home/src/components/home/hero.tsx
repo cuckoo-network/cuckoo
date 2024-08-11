@@ -5,6 +5,7 @@ import { useAos } from "@site/src/hooks/use-aos";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { HandCoins, Newspaper, Sparkles } from "lucide-react";
 import Translate, { translate } from '@docusaurus/Translate';
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 export function Hero() {
   useAos();
@@ -22,7 +23,7 @@ export function Hero() {
         aria-hidden="true"
       >
         <img
-          src={"/img/hero-illustration.svg"}
+          src={useBaseUrl("/img/hero-illustration.svg")}
           className="max-w-none"
           priority
           alt={translate({
@@ -38,7 +39,7 @@ export function Hero() {
             <div data-aos="zoom-out">
               <div className="relative text-sm text-gray-300 bg-gray-800 rounded-full inline-block px-4 py-1 mb-6 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                 <div className="text-gray-400">
-                  <Translate>Introducing Cuckoo Network Airdrop Portal</Translate>{" "}
+                  <Translate description={"Home page hero section's news message"}>Introducing Cuckoo Network Airdrop Portal</Translate>{" "}
                   <span className="ml-1"> </span>
                   <Link
                     className={clsx(
@@ -47,7 +48,7 @@ export function Hero() {
                     )}
                     href="/blog/2024/07/25/cuckoo-network-airdrop-portal"
                   >
-                    <Translate>Learn More</Translate>{" "}
+                    <Translate description={"Home page hero section's news message's CTA"}>Learn More</Translate>{" "}
                     <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                       →
                     </span>
@@ -61,7 +62,7 @@ export function Hero() {
               data-aos-delay="100"
             >
               {translate({
-                message: siteConfig.tagline,
+                message: "Cuckoo AI Onchain Creative Platform for Anime Fandom",
                 description: 'Site tagline'
               })}
             </h1>
@@ -71,7 +72,7 @@ export function Hero() {
               data-aos-delay="200"
             >
               {translate({
-                message: siteConfig.customFields.description as string,
+                message: "Create and share your gen AI arts. Share your GPU or CPU with Gen AI App builders to generate images and perform LLM inference on Cuckoo Chain.",
                 description: 'Site description'
               })}
             </p>
@@ -88,7 +89,7 @@ export function Hero() {
                   )}
                   href="https://cuckoo.network/portal/art/text-to-image"
                 >
-                  <Sparkles className={"mr-1"} size={18} /> <Translate>Create AI Art</Translate>
+                  <Sparkles className={"mr-1"} size={18} /> <Translate description={"homepage's hero section's main action CTA"}>Create AI Art</Translate>
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     →
                   </span>
@@ -102,7 +103,7 @@ export function Hero() {
                   )}
                   href="https://cuckoo.network/portal/art"
                 >
-                  <Newspaper className={"mr-1"} size={18} /> <Translate>Explore</Translate>{" "}
+                  <Newspaper className={"mr-1"} size={18} /> <Translate description={"homepage's hero section's secondary action CTA"}>Explore</Translate>{" "}
                 </Link>
               </div>
               <div>
@@ -113,7 +114,7 @@ export function Hero() {
                   )}
                   href="https://cuckoo.network/portal/airdrop"
                 >
-                  <HandCoins className={"mr-1"} size={18} /> <Translate>Earn</Translate>
+                  <HandCoins className={"mr-1"} size={18} /> <Translate description={"homepage's hero section's secondary action CTA"}>Earn</Translate>
                 </Link>
               </div>
             </div>

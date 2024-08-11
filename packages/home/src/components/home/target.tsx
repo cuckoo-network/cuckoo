@@ -1,3 +1,5 @@
+import Translate, { translate } from '@docusaurus/Translate';
+
 export default function Target() {
   return (
     <section>
@@ -6,7 +8,7 @@ export default function Target() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h3 className="h3" data-aos="fade-up">
-              From AI builders to consumers, we got you covered.
+              <Translate description={"section title for target customers"}>From AI builders to consumers, we got you covered.</Translate>
             </h3>
           </div>
 
@@ -27,7 +29,10 @@ export default function Target() {
                   style={{
                     width: "100%",
                   }}
-                  alt="Features 02"
+                  alt={translate({
+                    message: 'Features 02',
+                    description: 'Alt text for the image'
+                  })}
                 />
               </div>
 
@@ -39,7 +44,7 @@ export default function Target() {
                     data-aos="fade-up"
                     data-aos-anchor="[data-aos-id-target]"
                   >
-                    Get rewarded by contributing to Gen AI
+                    <Translate>Get rewarded by contributing to Gen AI</Translate>
                   </div>
                   <div
                     className="mt-6"
@@ -48,14 +53,13 @@ export default function Target() {
                     data-aos-anchor="[data-aos-id-target]"
                   >
                     <h4 className="h4 mb-2">
-                      <span className="text-purple-600">.</span> For AI
-                      Consumers
+                      <span className="text-purple-600">.</span>{' '}
+                      <Translate>For AI Consumers</Translate>
                     </h4>
                     <p className="text-lg text-gray-400">
-                      Access a variety of AI apps for free, by contributing to
-                      the ecosystem or using Cuckoo Pay. If one app is blocked,
-                      seamlessly switch to another coordinator within the
-                      decentralized network.
+                      <Translate>
+                        Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.
+                      </Translate>
                     </p>
                   </div>
                   <div
@@ -65,14 +69,13 @@ export default function Target() {
                     data-aos-anchor="[data-aos-id-target]"
                   >
                     <h4 className="h4 mb-2">
-                      <span className="text-teal-500">.</span> For App
-                      Builders/Coordinators
+                      <span className="text-teal-500">.</span>{' '}
+                      <Translate>For App Builders/Coordinators</Translate>
                     </h4>
                     <p className="text-lg text-gray-400">
-                      Run a coordinator node, stake to join the network, and
-                      earn staking rewards. Reduce GPU costs, expand your
-                      customer base, assign tasks to GPU miners, validate
-                      results, and distribute payments.
+                      <Translate>
+                        Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.
+                      </Translate>
                     </p>
                   </div>
                   <div
@@ -82,13 +85,13 @@ export default function Target() {
                     data-aos-anchor="[data-aos-id-target]"
                   >
                     <h4 className="h4 mb-2">
-                      <span className="text-pink-500">.</span> For GPU Miners
+                      <span className="text-pink-500">.</span>{' '}
+                      <Translate>For GPU Miners</Translate>
                     </h4>
                     <p className="text-lg text-gray-400">
-                      Run a miner node, stake to join the network, and earn
-                      staking rewards. Share your GPU resources, complete
-                      assigned tasks, and maintain reliable service to earn
-                      tokens.
+                      <Translate>
+                        Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.
+                      </Translate>
                     </p>
                   </div>
                 </div>

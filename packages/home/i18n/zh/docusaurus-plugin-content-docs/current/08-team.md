@@ -1,8 +1,8 @@
-# Team
+# 团队
 
-- Our team, led by Yale and Harvard alumni, includes founding members of leading blockchain projects and experts in machine learning.
-- We operate at the intersection of crypto, AI models, and the sharing economy.
-- We focus on multi-mode inference and blockchain, reducing inference costs and integrating tokenomics with generative AI.
+- 我们的团队由耶鲁大学和哈佛大学校友领导，包括顶级区块链项目的创始成员和机器学习专家。
+- 我们的工作领域位于加密货币、AI 模型和共享经济的交叉点。
+- 我们专注于多模式推理和区块链，致力于降低推理成本并将代币经济学与生成式 AI 相结合。
 
 <br />
 
