@@ -1,13 +1,11 @@
 import PostItem from "./post-item";
 import Link from "@docusaurus/Link";
 import Translate from "@docusaurus/Translate";
-
-const {
-  blogPosts,
-} = require("../../../.docusaurus/docusaurus-plugin-content-blog/default/blog-archive-80c.json");
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 export function News({tag}: {tag?: string}) {
-  let filtered = blogPosts;
+  const {i18n: {currentLocale}} = useDocusaurusContext();
+  let filtered = require(`../../pages/blogs/${currentLocale}`);
   if (tag) {
     filtered = filtered.filter(it => it.metadata.tags.some(t => t.label === tag));
   }
