@@ -1,4 +1,4 @@
-import Link from "@docusaurus/Link";
+import Translate, { translate } from '@docusaurus/Translate';
 
 export function Process() {
   return (
@@ -8,16 +8,20 @@ export function Process() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h3 className="h3 mb-4" data-aos="fade-up">
-              How does it work?
+              <Translate description="Section header title">
+                How does it work?
+              </Translate>
             </h3>
             <p
               className="text-xl text-gray-400"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Cuckoo incentivizes GPU miners to serve AI models to generative
-              App builders. We started with decentralized image generation but
-              aim to expand our platform to support various AI models.
+              <Translate description="Section header description">
+                Cuckoo incentivizes GPU miners to serve AI models to generative
+                App builders. We started with decentralized image generation but
+                aim to expand our platform to support various AI models.
+              </Translate>
             </p>
           </div>
 
@@ -66,12 +70,22 @@ export function Process() {
                 />
               </svg>
               <h4 className="h4 mb-2 text-center">
-                <span className="text-gray-400">1</span>. Trust
+                <span className="text-gray-400">1</span>.{" "}
+                <Translate description="Trust step title">Establish Trust</Translate>
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                GPU miners, developers, and stakers{" "}
-                <a href="/portal/staking">stake and vote</a> with blockchain
-                smart contracts to establish trust.
+                <Translate
+                  description="Trust step description"
+                  values={{
+                    stakingLink: (
+                      <a href="/portal/staking">
+                        <Translate description="Link text">stake and vote</Translate>
+                      </a>
+                    ),
+                  }}
+                >
+                  {`GPU miners, developers, and stakers {stakingLink} with blockchain smart contracts to establish trust.`}
+                </Translate>
               </p>
             </div>
 
@@ -119,11 +133,16 @@ export function Process() {
                 </g>
               </svg>
               <h4 className="h4 mb-2 text-center">
-                <span className="text-gray-400">2</span>. Tasks & Rewards
+                <span className="text-gray-400">2</span>.{" "}
+                <Translate description="Tasks & Rewards step title">
+                  Mine and Earn
+                </Translate>
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                Gen AI Apps assign tasks to GPU miners via the Cuckoo AI node,
-                with daily ERC20 payments based on results.
+                <Translate description="Tasks & Rewards step description">
+                  Gen AI Apps assign tasks to GPU miners via the Cuckoo AI node,
+                  with daily ERC20 payments based on results.
+                </Translate>
               </p>
             </div>
 
@@ -160,11 +179,16 @@ export function Process() {
                 />
               </svg>
               <h4 className="h4 mb-2 text-center">
-                <span className="text-gray-400">3</span>. Modular Support
+                <span className="text-gray-400">3</span>.{" "}
+                <Translate description="Modular Support step title">
+                  Modular AI
+                </Translate>
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                Our modular components ensure that AI remains accessible,
-                transparent, anti-censorship, and privacy-preserving.
+                <Translate description="Modular Support step description">
+                  Our modular components ensure that AI remains accessible,
+                  transparent, anti-censorship, and privacy-preserving.
+                </Translate>
               </p>
             </div>
           </div>

@@ -1,11 +1,13 @@
-const Icon01 = "/img/cuckoo-chain/integration-icon-01.svg";
-const Icon02 = "/img/cuckoo-chain/integration-icon-02.svg";
-const Icon03 = "/img/cuckoo-chain/integration-icon-03.svg";
-const Icon04 = "/img/cuckoo-chain/integration-icon-04.svg";
-const Icon05 = "/img/cuckoo-chain/integration-icon-05.svg";
-const Icon06 = "/img/cuckoo-chain/integration-icon-06.svg";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+
 
 export default function Integrations() {
+  const Icon01 = useBaseUrl("/img/cuckoo-chain/integration-icon-01.svg");
+  const Icon02 = useBaseUrl("/img/cuckoo-chain/integration-icon-02.svg");
+  const Icon03 = useBaseUrl("/img/cuckoo-chain/integration-icon-03.svg");
+  const Icon04 = useBaseUrl("/img/cuckoo-chain/integration-icon-04.svg");
+  const Icon05 = useBaseUrl("/img/cuckoo-chain/integration-icon-05.svg");
+  const Icon06 = useBaseUrl("/img/cuckoo-chain/integration-icon-06.svg");
   return (
     <section className="relative">
       {/* Bottom vertical line */}

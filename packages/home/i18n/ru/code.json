@@ -1,0 +1,751 @@
+{
+  "Cuckoo Chain: The Premier Blockchain for AI": {
+    "message": "Cuckoo Chain: Ведущий блокчейн для ИИ",
+    "description": "Page title for Cuckoo Chain homepage"
+  },
+  "Cuckoo Chain is set to transform the AI blockchain landscape. As an Arbitrum L2 in the Ethereum ecosystem, it brings streamlined AI developer experience, fast speed and efficiency to the table. This makes it a prime choice for Web3 + AI users seeking robust and scalable solutions": {
+    "message": "Cuckoo Chain призван преобразовать ландшафт блокчейнов для ИИ. Будучи Arbitrum L2 в экосистеме Ethereum, он предлагает упрощенный опыт разработки ИИ, высокую скорость и эффективность. Это делает его отличным выбором для пользователей Web3 + ИИ, ищущих надежные и масштабируемые решения.",
+    "description": "Page description for Cuckoo Chain homepage"
+  },
+  "Hero Illustration": {
+    "message": "Иллюстрация героя",
+    "description": "The alt text for the hero illustration"
+  },
+  "Cuckoo AI Onchain Creative Platform for Anime Fandom": {
+    "message": "Cuckoo AI: Креативная платформа Onchain для поклонников аниме",
+    "description": "Site tagline"
+  },
+  "Create and share your gen AI arts. Share your GPU or CPU with Gen AI App builders to generate images and perform LLM inference on Cuckoo Chain.": {
+    "message": "Создавайте и делитесь своими AI-артами. Делитесь своими GPU или CPU с разработчиками Gen AI приложений для генерации изображений и выполнения LLM-инференса на Cuckoo Chain.",
+    "description": "Site description"
+  },
+  "Newsletter iframe": {
+    "message": "Фрейм новостной рассылки",
+    "description": "The title for the newsletter iframe"
+  },
+  "It's time to join the thousands of creators, artists, and developers using Cuckoo Chain": {
+    "message": "Пора присоединиться к тысячам создателей, художников и разработчиков, использующих Cuckoo Chain",
+    "description": "CTA section main title"
+  },
+  "Explore Chain": {
+    "message": "Исследуйте Cuckoo Chain",
+    "description": "Button label to explore the Cuckoo Chain"
+  },
+  "Read Docs": {
+    "message": "Читать документацию",
+    "description": "Button label to read the Cuckoo Chain documentation"
+  },
+  "FAQs": {
+    "message": "Часто задаваемые вопросы",
+    "description": "FAQs section title"
+  },
+  "What is Cuckoo Chain?": {
+    "message": "Что такое Cuckoo Chain?",
+    "description": "Question: What is Cuckoo Chain?"
+  },
+  "Cuckoo Chain is a blockchain platform designed specifically for AI applications, operating as an Arbitrum L2 within the Ethereum ecosystem. It offers a streamlined AI developer experience with enhanced speed and efficiency.": {
+    "message": "Cuckoo Chain — это блокчейн-платформа, специально разработанная для приложений ИИ, работающая как Arbitrum L2 в экосистеме Ethereum. Она предлагает упрощенный опыт разработки ИИ с повышенной скоростью и эффективностью.",
+    "description": "Answer: What is Cuckoo Chain?"
+  },
+  "How does Cuckoo Chain integrate with the Ethereum ecosystem?": {
+    "message": "Как Cuckoo Chain интегрируется с экосистемой Ethereum?",
+    "description": "Question: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
+  },
+  "Cuckoo Chain functions as an Arbitrum Layer 2 solution, which means it inherits the security and decentralization of Ethereum while providing faster and cheaper transactions. This integration ensures seamless interoperability with the Ethereum network.": {
+    "message": "Cuckoo Chain функционирует как решение второго уровня Arbitrum, что означает, что он наследует безопасность и децентрализацию Ethereum, обеспечивая при этом более быстрые и дешевые транзакции. Эта интеграция обеспечивает бесшовную совместимость с сетью Ethereum.",
+    "description": "Answer: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
+  },
+  "What are the main benefits of using Cuckoo Chain for AI development?": {
+    "message": "Каковы основные преимущества использования Cuckoo Chain для разработки ИИ?",
+    "description": "Question: What are the main benefits of using Cuckoo Chain for AI development?"
+  },
+  "Cuckoo Chain offers unparalleled speed, efficiency, and scalability for AI development. It reduces transaction costs, accelerates processing times, and provides a robust infrastructure for deploying AI solutions on the blockchain.": {
+    "message": "Cuckoo Chain предлагает непревзойденную скорость, эффективность и масштабируемость для разработки ИИ. Он снижает затраты на транзакции, ускоряет время обработки и предоставляет надежную инфраструктуру для развертывания ИИ-решений на блокчейне.",
+    "description": "Answer: What are the main benefits of using Cuckoo Chain for AI development?"
+  },
+  "How can I get started with Cuckoo Chain?": {
+    "message": "Как начать работу с Cuckoo Chain?",
+    "description": "Question: How can I get started with Cuckoo Chain?"
+  },
+  "Getting started with Cuckoo Chain is simple. Visit our {gettingStartedGuide} for step-by-step instructions on setting up your account,\n                  integrating your applications, and deploying your first AI\n                  models on the platform.": {
+    "message": "Начать работу с Cuckoo Chain просто. Посетите наш {gettingStartedGuide} для пошаговых инструкций по настройке учетной записи,\n                  интеграции ваших приложений и развертыванию ваших первых ИИ\n                  моделей на платформе.",
+    "description": "Answer: How can I get started with Cuckoo Chain?"
+  },
+  "Getting Started Guide": {
+    "message": "Руководство по началу работы",
+    "description": "Link text for Getting Started Guide"
+  },
+  "What are some real-world use cases for Cuckoo Chain?": {
+    "message": "Какие реальные примеры использования Cuckoo Chain?",
+    "description": "Question: What are some real-world use cases for Cuckoo Chain?"
+  },
+  "Cuckoo Chain can be used in various scenarios, including decentralized AI model inference, secure data sharing, and AI-powered decentralized applications (dApps). Our platform supports diverse industries such as finance, healthcare, and supply chain management.": {
+    "message": "Cuckoo Chain можно использовать в различных сценариях, включая децентрализованный инференс моделей ИИ, безопасный обмен данными и децентрализованные приложения (dApps) на базе ИИ. Наша платформа поддерживает различные отрасли, такие как финансы, здравоохранение и управление цепочками поставок.",
+    "description": "Answer: What are some real-world use cases for Cuckoo Chain?"
+  },
+  "Where can I find support and additional resources?": {
+    "message": "Где я могу найти поддержку и дополнительные ресурсы?",
+    "description": "Question: Where can I find support and additional resources?"
+  },
+  "For support and additional resources, visit our {helpCenter} or join our community on {discord} and {telegram}. Our\n                  comprehensive documentation, tutorials, and active community\n                  are here to assist you with any questions or challenges you\n                  might encounter.": {
+    "message": "Для получения поддержки и дополнительных ресурсов посетите наш {helpCenter} или присоединяйтесь к нашему сообществу в {discord} и {telegram}. Наша\n                  полная документация, учебные пособия и активное сообщество\n                  здесь, чтобы помочь вам с любыми вопросами или проблемами,\n                  с которыми вы можете столкнуться.",
+    "description": "Answer: Where can I find support and additional resources?"
+  },
+  "Help Center": {
+    "message": "Центр поддержки",
+    "description": "Link text for Help Center"
+  },
+  "Discord": {
+    "message": "Discord",
+    "description": "Link text for Discord"
+  },
+  "Telegram": {
+    "message": "Telegram",
+    "description": "Link text for Telegram"
+  },
+  "Illustration": {
+    "message": "Иллюстрация",
+    "description": "Illustration alt text"
+  },
+  "Many tools to decentralized AI with Cuckoo Chain": {
+    "message": "Множество инструментов для децентрализованного ИИ с Cuckoo Chain",
+    "description": "Section header title"
+  },
+  "The best resources for building an end-to-end Cuckoo Chain dApp.": {
+    "message": "Лучшие ресурсы для создания полного dApp на Cuckoo Chain.",
+    "description": "Section header description"
+  },
+  "Icon 01": {
+    "message": "Иконка 01",
+    "description": "Icon 01 alt text"
+  },
+  "Cuckoo Network Bridge": {
+    "message": "Cuckoo Network Bridge",
+    "description": "Cuckoo Network Bridge title"
+  },
+  "Transfer assets seamlessly across Arbitrum One and Cuckoo Chain with minimal fees and secure transactions.": {
+    "message": "Переводите активы без проблем между Arbitrum One и Cuckoo Chain с минимальными комиссиями и безопасными транзакциями.",
+    "description": "Cuckoo Network Bridge description"
+  },
+  "Learn More": {
+    "message": "Узнать больше",
+    "description": "Home page hero section's news message's CTA"
+  },
+  "Icon 02": {
+    "message": "Иконка 02",
+    "description": "Icon 02 alt text"
+  },
+  "Thirdweb": {
+    "message": "Thirdweb",
+    "description": "Thirdweb title"
+  },
+  "Full-stack, open-source web3 development platform. Fullstack tools to build complete web3 apps.": {
+    "message": "Полноценная, открытая платформа для разработки web3. Полный набор инструментов для создания web3 приложений.",
+    "description": "Thirdweb description"
+  },
+  "Icon 03": {
+    "message": "Иконка 03",
+    "description": "Icon 03 alt text"
+  },
+  "ChainList": {
+    "message": "ChainList",
+    "description": "ChainList title"
+  },
+  "ChainList is a list of EVM networks. Users can use the info to connect their wallets and Web3 middleware providers.": {
+    "message": "ChainList — это список сетей EVM. Пользователи могут использовать информацию для подключения своих кошельков и поставщиков Web3 middleware.",
+    "description": "ChainList description"
+  },
+  "Icon 04": {
+    "message": "Иконка 04",
+    "description": "Icon 04 alt text"
+  },
+  "Cuckoo Scan": {
+    "message": "Cuckoo Scan",
+    "description": "Cuckoo Scan title"
+  },
+  "Blockchain explorer to inspect Cuckoo Chain transactions, tokens, and coins. RESTful and GraphQL API available.": {
+    "message": "Блокчейн-эксплорер для анализа транзакций, токенов и монет Cuckoo Chain. Доступны RESTful и GraphQL API.",
+    "description": "Cuckoo Scan description"
+  },
+  "Previous": {
+    "message": "Назад",
+    "description": "Aria label for previous button"
+  },
+  "Next": {
+    "message": "Далее",
+    "description": "Aria label for next button"
+  },
+  "Transforming AI with Blockchain Technology": {
+    "message": "Преобразование ИИ с помощью блокчейн-технологий",
+    "description": "Hero section main title"
+  },
+  "Cuckoo Chain, an Arbitrum L2 in the Ethereum ecosystem, revolutionizes AI development with unmatched speed, efficiency, and scalability. Perfect for Web3 + AI innovators.": {
+    "message": "Cuckoo Chain, Arbitrum L2 в экосистеме Ethereum, революционизирует разработку ИИ, предоставляя непревзойденную скорость, эффективность и масштабируемость. Идеально подходит для новаторов Web3 + ИИ.",
+    "description": "Hero section description about Cuckoo Chain and its role in AI development"
+  },
+  "Pricing Illustration": {
+    "message": "Иллюстрация цен",
+    "description": "Alt text for the pricing section illustration"
+  },
+  "Fundamentally Aligned with Ethereum": {
+    "message": "Фундаментально согласовано с Ethereum",
+    "description": "Title for the pricing section"
+  },
+  "But optimized for performance and on-chain AI": {
+    "message": "Но оптимизировано для производительности и on-chain ИИ",
+    "description": "Description for the pricing section"
+  },
+  "Monthly": {
+    "message": "Ежемесячно",
+    "description": "Label for the monthly payment option"
+  },
+  "Pay annually": {
+    "message": "Оплата ежегодно",
+    "description": "Screen reader label for toggling to pay annually"
+  },
+  "Yearly": {
+    "message": "Ежегодно",
+    "description": "Label for the yearly payment option"
+  },
+  "Infra": {
+    "message": "Инфраструктура",
+    "description": "Infra section label for mobile view"
+  },
+  "Max Theoretical TPS": {
+    "message": "Максимальная теоретическая TPS",
+    "description": "Label for maximum theoretical transactions per second in mobile view"
+  },
+  "Fastest Block Time": {
+    "message": "Самое быстрое время блока",
+    "description": "Label for the fastest block time in mobile view"
+  },
+  "Governance Model": {
+    "message": "Модель управления",
+    "description": "Label for the governance model in mobile view"
+  },
+  "Features": {
+    "message": "Особенности",
+    "description": "Label for the features section in mobile view"
+  },
+  "Avg. Gas Price": {
+    "message": "Средняя цена газа",
+    "description": "Label for the average gas price in mobile view"
+  },
+  "EVM Compatible": {
+    "message": "Совместимо с EVM",
+    "description": "Label for EVM compatibility in mobile view"
+  },
+  "Decentralized Ledger": {
+    "message": "Децентрализованный реестр",
+    "description": "Label for decentralized ledger in mobile view"
+  },
+  "\"Cuckoo Chain revolutionized our AI development with unmatched speed and efficiency. It's a game-changer for any AI-driven blockchain enterprise.\"": {
+    "message": "\"Cuckoo Chain произвел революцию в нашей разработке ИИ благодаря непревзойденной скорости и эффективности. Это прорыв для любого предприятия, работающего на блокчейне, управляемом ИИ.\"",
+    "description": "First testimonial text"
+  },
+  "Aaliyah Baker": {
+    "message": "Алия Бейкер",
+    "description": "First testimonial author name"
+  },
+  "DApper OS": {
+    "message": "DApper OS",
+    "description": "First testimonial author company"
+  },
+  "\"Integrating Cuckoo Chain was seamless. The performance boost and compatibility with Ethereum are phenomenal.\"": {
+    "message": "\"Интеграция с Cuckoo Chain прошла гладко. Увеличение производительности и совместимость с Ethereum просто феноменальны.\"",
+    "description": "Second testimonial text"
+  },
+  "Sloan Seaman": {
+    "message": "Слоан Симан",
+    "description": "Second testimonial author name"
+  },
+  "Coupang": {
+    "message": "Coupang",
+    "description": "Second testimonial author company"
+  },
+  "\"Cuckoo Chain empowered us to create fast, secure decentralized AI apps. The support team is invaluable.\"": {
+    "message": "\"Cuckoo Chain дал нам возможность создавать быстрые и безопасные децентрализованные ИИ-приложения. Команда поддержки бесценна.\"",
+    "description": "Third testimonial text"
+  },
+  "Christine Dejoux": {
+    "message": "Кристин Дежу",
+    "description": "Third testimonial author name"
+  },
+  "Glocomms": {
+    "message": "Glocomms",
+    "description": "Third testimonial author company"
+  },
+  "Experience Decentralized AI Model-Serving": {
+    "message": "Ощутите децентрализованное обслуживание моделей ИИ"
+  },
+  "Generate image now with Cuckoo Bot": {
+    "message": "Создайте изображение прямо сейчас с Cuckoo Bot"
+  },
+  "Join Discord": {
+    "message": "Присоединиться к Discord"
+  },
+  "Experience Decentralized AI Now": {
+    "message": "Ощутите децентрализованный ИИ прямо сейчас",
+    "description": "Section header title"
+  },
+  "For AI Enthusiasts": {
+    "message": "Для энтузиастов ИИ",
+    "description": "Button label for AI Enthusiasts"
+  },
+  "For Developers": {
+    "message": "Для разработчиков",
+    "description": "Button label for Developers"
+  },
+  "For Miners": {
+    "message": "Для майнеров",
+    "description": "Button label for Miners"
+  },
+  "For Token Holders": {
+    "message": "Для держателей токенов",
+    "description": "Button label for Token Holders"
+  },
+  "Cuckoo Telegram": {
+    "message": "Cuckoo Telegram",
+    "description": "Telegram Box Title"
+  },
+  "A telegram bot for texting to image and manage your CAI tokens.": {
+    "message": "Телеграм-бот для создания изображений из текста и управления вашими токенами CAI.",
+    "description": "Telegram Box Description"
+  },
+  "Cuckoo Discord": {
+    "message": "Cuckoo Discord",
+    "description": "Discord Box Title"
+  },
+  "A discord bot for texting to image and manage your CAI tokens.": {
+    "message": "Дискорд-бот для создания изображений из текста и управления вашими токенами CAI.",
+    "description": "Discord Box Description"
+  },
+  "Neon Medium": {
+    "message": "Neon Medium",
+    "description": "Medium Box Title"
+  },
+  "BlockEden.xyz": {
+    "message": "BlockEden.xyz",
+    "description": "BlockEden Box Title"
+  },
+  "RPC node, API marketplace, and staking infrastructure.": {
+    "message": "Узел RPC, торговая площадка API и инфраструктура для стекинга.",
+    "description": "BlockEden Box Description"
+  },
+  "Cuckoo Art": {
+    "message": "Cuckoo Art",
+    "description": "Cuckoo Art Box Title"
+  },
+  "Discover AI arts created in our network.": {
+    "message": "Откройте для себя ИИ-арты, созданные в нашей сети.",
+    "description": "Cuckoo Art Box Description"
+  },
+  "Karma Protocol": {
+    "message": "Karma Protocol",
+    "description": "Karma Protocol Box Title"
+  },
+  "A revolutionary prediction market, driven by Community.": {
+    "message": "Революционный рынок предсказаний, управляемый сообществом.",
+    "description": "Karma Protocol Box Description"
+  },
+  "Cuckoo Github": {
+    "message": "Cuckoo Github",
+    "description": "Cuckoo Github Box Title"
+  },
+  "Fork us on Github for open-sourced decentralized AI platform.": {
+    "message": "Форкните нас на Github для открытой децентрализованной платформы ИИ.",
+    "description": "Cuckoo Github Box Description"
+  },
+  "Cuckoo Node": {
+    "message": "Cuckoo Node",
+    "description": "Cuckoo Node Box Title"
+  },
+  "Node for mining tokens, distributed with Docker images.": {
+    "message": "Узел для майнинга токенов, распространяемый с Docker-образами.",
+    "description": "Cuckoo Node Box Description"
+  },
+  "Staking Portal": {
+    "message": "Портал для стекинга",
+    "description": "Staking Portal Box Title"
+  },
+  "Stake your token to vote for Node operators you trust": {
+    "message": "Ставьте свои токены, чтобы голосовать за операторов узлов, которым вы доверяете.",
+    "description": "Staking Portal Box Description"
+  },
+  "Introducing Cuckoo Network Airdrop Portal": {
+    "message": "Представляем портал Airdrop сети Cuckoo",
+    "description": "Home page hero section's news message"
+  },
+  "Create AI Art": {
+    "message": "Создайте ИИ-арт",
+    "description": "homepage's hero section's main action CTA"
+  },
+  "Explore": {
+    "message": "Исследуйте",
+    "description": "homepage's hero section's secondary action CTA"
+  },
+  "Earn": {
+    "message": "Зарабатывайте",
+    "description": "homepage's hero section's secondary action CTA"
+  },
+  "Refreshing news from the community": {
+    "message": "Свежие новости из сообщества",
+    "description": "Title for the news section"
+  },
+  "Read more": {
+    "message": "Читать дальше",
+    "description": "Read more link text"
+  },
+  "How does it work?": {
+    "message": "Как это работает?",
+    "description": "Section header title"
+  },
+  "Cuckoo incentivizes GPU miners to serve AI models to generative App builders. We started with decentralized image generation but aim to expand our platform to support various AI models.": {
+    "message": "Cuckoo стимулирует GPU-майнеров обслуживать ИИ-модели для разработчиков генеративных приложений. Мы начали с децентрализованной генерации изображений, но стремимся расширить нашу платформу для поддержки различных ИИ-моделей.",
+    "description": "Section header description"
+  },
+  "Establish Trust": {
+    "message": "Установите доверие",
+    "description": "Trust step title"
+  },
+  "GPU miners, developers, and stakers {stakingLink} with blockchain smart contracts to establish trust.": {
+    "message": "GPU-майнеры, разработчики и стекинг-пользователи {stakingLink} с блокчейн смарт-контрактами для установления доверия.",
+    "description": "Trust step description"
+  },
+  "stake and vote": {
+    "message": "ставьте и голосуйте",
+    "description": "Link text"
+  },
+  "Mine and Earn": {
+    "message": "Майнинг и заработок",
+    "description": "Tasks & Rewards step title"
+  },
+  "Gen AI Apps assign tasks to GPU miners via the Cuckoo AI node, with daily ERC20 payments based on results.": {
+    "message": "Генеративные ИИ-приложения назначают задачи GPU-майнерам через узел Cuckoo AI с ежедневными платежами ERC20 на основе результатов.",
+    "description": "Tasks & Rewards step description"
+  },
+  "Modular AI": {
+    "message": "Модульный ИИ",
+    "description": "Modular Support step title"
+  },
+  "Our modular components ensure that AI remains accessible, transparent, anti-censorship, and privacy-preserving.": {
+    "message": "Наши модульные компоненты обеспечивают доступность, прозрачность, защиту от цензуры и сохранение конфиденциальности ИИ.",
+    "description": "Modular Support step description"
+  },
+  "From AI builders to consumers, we got you covered.": {
+    "message": "От разработчиков ИИ до потребителей, мы вам поможем.",
+    "description": "section title for target customers"
+  },
+  "Features 02": {
+    "message": "Функции 02",
+    "description": "Alt text for the image"
+  },
+  "Get rewarded by contributing to Gen AI": {
+    "message": "Получайте вознаграждение, внося вклад в Gen AI"
+  },
+  "For AI Consumers": {
+    "message": "Для потребителей ИИ"
+  },
+  "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.": {
+    "message": "Получите доступ к различным ИИ-приложениям бесплатно, внося свой вклад в экосистему или используя Cuckoo Pay. Если одно приложение заблокировано, без проблем переключитесь на другого координатора в децентрализованной сети."
+  },
+  "For App Builders/Coordinators": {
+    "message": "Для разработчиков приложений/координаторов"
+  },
+  "Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.": {
+    "message": "Запускайте узел координатора, участвуйте в стекинге, чтобы присоединиться к сети, и зарабатывайте награды за стекинг. Снижайте затраты на GPU, расширяйте базу клиентов, назначайте задачи GPU-майнерам, проверяйте результаты и распределяйте платежи."
+  },
+  "For GPU Miners": {
+    "message": "Для GPU-майнеров"
+  },
+  "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.": {
+    "message": "Запускайте узел майнинга, участвуйте в стекинге, чтобы присоединиться к сети, и зарабатывайте награды за стекинг. Делитесь своими GPU-ресурсами, выполняйте назначенные задачи и поддерживайте надежное обслуживание для заработка токенов."
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "На странице произошёл сбой.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Прокрутка к началу",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Архив",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Архив",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Навигация по странице списка блогов",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Следующие записи",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Предыдущие записи",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Навигация по странице поста блога",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Следующий пост",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Предыдущий пост",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} запись|{count} записи|{count} записей",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} с тегом \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Посмотреть все теги",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Навигационная цепочка текущей страницы",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Переключение между темным и светлым режимом (сейчас используется {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "Тёмный режим",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "Светлый режим",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} элемент|{count} элемента|{count} элементов",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Страница документа",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Предыдущая страница",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Следующая страница",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Одна страница|{count} страницы|{count} страниц",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} с тегом \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Версия: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Это документация для будущей версии {siteTitle} {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Это документация {siteTitle} для версии {versionLabel}, которая уже не поддерживается.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Актуальная документация находится на странице {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "последней версии",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Отредактировать эту страницу",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Прямая ссылка на {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " от {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Последнее обновление{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "Страница не найдена",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Версии",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Теги:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "предупреждение",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "осторожно",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "к сведению",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "примечание",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "подсказка",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Закрыть",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Навигация по последним постам в блоге",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Скопировано",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Скопировать в буфер обмена",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Скопировать",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Переключить перенос по строкам",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Развернуть категорию в боковой панели '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Свернуть категорию в боковой панели '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Основное",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.NotFound.p1": {
+    "message": "К сожалению, мы не смогли найти запрашиваемую вами страницу.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Пожалуйста, обратитесь к владельцу сайта, с которого вы перешли на эту ссылку, чтобы сообщить ему, что ссылка не работает.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Языки",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Содержание этой страницы",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Читать дальше",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Подробнее о {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} мин. чтения",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Главная страница",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Свернуть сайдбар",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Свернуть сайдбар",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Боковая панель документов",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Закрыть панель навигации",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Перейти к главному меню",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Переключить навигационную панель",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Развернуть сайдбар",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Развернуть сайдбар",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Попробуйте ещё раз",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Перейти к основному содержимому",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Теги",
+    "description": "The title of the tag list page"
+  },
+  "theme.unlistedContent.title": {
+    "message": "Нелистинговая страница",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "Эта страница не листинговая. Поисковые системы не будут её индексировать, и только пользователи, имеющие прямую ссылку, могут получить к ней доступ.",
+    "description": "The unlisted content banner message"
+  }
+}

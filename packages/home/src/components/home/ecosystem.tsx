@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useAos } from "@site/src/hooks/use-aos";
+import Translate from '@docusaurus/Translate';
 
 export function Ecosystem() {
   const [category, setCategory] = useState<string>("1");
@@ -12,7 +13,9 @@ export function Ecosystem() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-8 md:pb-12">
             <h3 className="h3 font-uncut-sans">
-              Experience Decentralized AI Now
+              <Translate description="Section header title">
+                Experience Decentralized AI Now
+              </Translate>
             </h3>
           </div>
           {/* Content */}
@@ -39,7 +42,9 @@ export function Ecosystem() {
                       <span
                         className={`transition duration-150 ease-in-out ${category === "1" ? "text-blue-500" : "text-gray-400 group-hover:text-gray-300"}`}
                       >
-                        For AI Enthusiasts
+                        <Translate description="Button label for AI Enthusiasts">
+                          For AI Enthusiasts
+                        </Translate>
                       </span>
                     </div>
                   </button>
@@ -63,7 +68,9 @@ export function Ecosystem() {
                       <span
                         className={`transition duration-150 ease-in-out ${category === "2" ? "text-blue-500" : "text-gray-400 group-hover:text-gray-300"}`}
                       >
-                        For Developers
+                        <Translate description="Button label for Developers">
+                          For Developers
+                        </Translate>
                       </span>
                     </div>
                   </button>
@@ -87,7 +94,9 @@ export function Ecosystem() {
                       <span
                         className={`transition duration-150 ease-in-out ${category === "3" ? "text-blue-500" : "text-gray-400 group-hover:text-gray-300"}`}
                       >
-                        For Miners
+                        <Translate description="Button label for Miners">
+                          For Miners
+                        </Translate>
                       </span>
                     </div>
                   </button>
@@ -111,7 +120,9 @@ export function Ecosystem() {
                       <span
                         className={`transition duration-150 ease-in-out ${category === "4" ? "text-blue-500" : "text-gray-400 group-hover:text-gray-300"}`}
                       >
-                        For Token Holders
+                        <Translate description="Button label for Token Holders">
+                          For Token Holders
+                        </Translate>
                       </span>
                     </div>
                   </button>
@@ -140,11 +151,12 @@ export function Ecosystem() {
                   </svg>
                 </div>
                 <div className="font-uncut-sans text-xl text-gray-100 font-semibold mb-1">
-                  Cuckoo Telegram
+                  <Translate description="Telegram Box Title">Cuckoo Telegram</Translate>
                 </div>
                 <p className="text-gray-100">
-                  A telegram bot for texting to image and manage your CAI
-                  tokens.
+                  <Translate description="Telegram Box Description">
+                    A telegram bot for texting to image and manage your CAI tokens.
+                  </Translate>
                 </p>
               </a>
               {/* 2nd Box */}
@@ -167,10 +179,12 @@ export function Ecosystem() {
                   </svg>
                 </div>
                 <div className="font-uncut-sans text-xl text-gray-100 font-semibold mb-1">
-                  Cuckoo Discord
+                  <Translate description="Discord Box Title">Cuckoo Discord</Translate>
                 </div>
                 <p className="text-gray-100">
-                  A discord bot for texting to image and manage your CAI tokens.
+                  <Translate description="Discord Box Description">
+                    A discord bot for texting to image and manage your CAI tokens.
+                  </Translate>
                 </p>
               </a>
               {/* 3rd Box */}
@@ -193,7 +207,7 @@ export function Ecosystem() {
                   </svg>
                 </div>
                 <div className="font-uncut-sans text-xl text-gray-100 font-semibold mb-1">
-                  Neon Medium
+                  <Translate description="Medium Box Title">Neon Medium</Translate>
                 </div>
               </a>
               {/* 4th Box */}
@@ -218,10 +232,12 @@ export function Ecosystem() {
                   </svg>
                 </div>
                 <div className="font-uncut-sans text-xl text-gray-100 font-semibold mb-1">
-                  BlockEden.xyz
+                  <Translate description="BlockEden Box Title">BlockEden.xyz</Translate>
                 </div>
                 <p className="text-gray-100">
-                  RPC node, API marketplace, and staking infrastructure.
+                  <Translate description="BlockEden Box Description">
+                    RPC node, API marketplace, and staking infrastructure.
+                  </Translate>
                 </p>
               </a>
               {/* 5th Box */}
@@ -246,10 +262,12 @@ export function Ecosystem() {
                   </svg>
                 </div>
                 <div className="font-uncut-sans text-xl text-gray-100 font-semibold">
-                  Cuckoo Art
+                  <Translate description="Cuckoo Art Box Title">Cuckoo Art</Translate>
                 </div>
                 <p className="text-gray-100">
-                  Discover AI arts created in our network.
+                  <Translate description="Cuckoo Art Box Description">
+                    Discover AI arts created in our network.
+                  </Translate>
                 </p>
               </a>
               {/* 6th Box */}
@@ -272,13 +290,15 @@ export function Ecosystem() {
                   </svg>
                 </div>
                 <div className="font-uncut-sans text-xl text-gray-100 font-semibold mb-1">
-                  Karma Protocol
+                  <Translate description="Karma Protocol Box Title">Karma Protocol</Translate>
                 </div>
                 <p className="text-gray-100">
-                  A revolutionary prediction market, driven by Community.
+                  <Translate description="Karma Protocol Box Description">
+                    A revolutionary prediction market, driven by Community.
+                  </Translate>
                 </p>
               </a>
-              {/* 4th Box */}
+              {/* 7th Box */}
               <a
                 className={`block relative before:content-[''] before:bg-gray-800 before:absolute before:-z-10 before:inset-0 p-6 group ${!["2"].includes(category) && "hidden"}`}
                 target={"_blank"}
@@ -298,12 +318,15 @@ export function Ecosystem() {
                   </svg>
                 </div>
                 <div className="font-uncut-sans text-xl text-gray-100 font-semibold">
-                  Cuckoo Github
+                  <Translate description="Cuckoo Github Box Title">Cuckoo Github</Translate>
                 </div>
                 <p className="text-gray-100">
-                  Fork us on Github for open-sourced decentralized AI platform.
+                  <Translate description="Cuckoo Github Box Description">
+                    Fork us on Github for open-sourced decentralized AI platform.
+                  </Translate>
                 </p>
               </a>
+              {/* 8th Box */}
               <a
                 className={`block relative before:content-[''] before:bg-gray-800 before:absolute before:-z-10 before:inset-0 p-6 group ${!["3"].includes(category) && "hidden"}`}
                 target={"_blank"}
@@ -323,14 +346,15 @@ export function Ecosystem() {
                   </svg>
                 </div>
                 <div className="font-uncut-sans text-xl text-gray-100 font-semibold">
-                  Cuckoo Node
+                  <Translate description="Cuckoo Node Box Title">Cuckoo Node</Translate>
                 </div>
                 <p className="text-gray-100">
-                  Node for mining tokens, distributed with Docker images.
+                  <Translate description="Cuckoo Node Box Description">
+                    Node for mining tokens, distributed with Docker images.
+                  </Translate>
                 </p>
               </a>
-
-              {/* 4th Box */}
+              {/* 9th Box */}
               <a
                 className={`block relative before:content-[''] before:bg-gray-800 before:absolute before:-z-10 before:inset-0 p-6 group ${!["4"].includes(category) && "hidden"}`}
                 target={"_blank"}
@@ -352,10 +376,12 @@ export function Ecosystem() {
                   </svg>
                 </div>
                 <div className="font-uncut-sans text-xl text-gray-100 font-semibold">
-                  Staking Portal
+                  <Translate description="Staking Portal Box Title">Staking Portal</Translate>
                 </div>
                 <p className="text-gray-100">
-                  Stake your token to vote for Node operators you trust
+                  <Translate description="Staking Portal Box Description">
+                    Stake your token to vote for Node operators you trust
+                  </Translate>
                 </p>
               </a>
             </div>

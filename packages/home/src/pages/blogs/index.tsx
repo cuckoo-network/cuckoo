@@ -4,17 +4,22 @@ import Link from "@docusaurus/Link";
 import PostItem from "@site/src/components/home/post-item";
 import { useAos } from "@site/src/hooks/use-aos";
 import PostTags from "@site/src/components/home/post-tags";
-import React from "react";
-const {
-  blogPosts,
-} = require("../../../.docusaurus/docusaurus-plugin-content-blog/default/blog-archive-80c.json");
+
+const langPosts = {
+  ja: require("./ja.json"),
+  en: require("./en.json"),
+  vi: require("./vi.json"),
+  zh: require("./zh.json"),
+  ru: require("./ru.json"),
+}
 
 export default function Blog() {
-  const { siteConfig } = useDocusaurusContext();
-  const allPosts = blogPosts;
+  const {i18n: {currentLocale}} = useDocusaurusContext();
+
+  const allPosts = require(`./${currentLocale}.json`);
 
   const featuredPost = allPosts[0];
-  const posts = allPosts.slice(1);
+  const posts = (allPosts).slice(1);
 
   useAos();
 

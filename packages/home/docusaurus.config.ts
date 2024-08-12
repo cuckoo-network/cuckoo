@@ -32,7 +32,9 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "vi",
+      // "id", "pt",
+      "ru", "zh", "ja"],
   },
 
   plugins: [
@@ -121,6 +123,11 @@ const config: Config = {
           label: "Staking",
           position: "right",
         },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
+
       ],
     },
     footer: {

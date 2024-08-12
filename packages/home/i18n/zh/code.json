@@ -1,0 +1,751 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "页面已崩溃。",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.blog.archive.title": {
+    "message": "历史博文",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "历史博文",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "回到顶部",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "博文列表分页导航",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "较新的博文",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "较旧的博文",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "博文分页导航",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "较新一篇",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "较旧一篇",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} 篇博文",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} 含有标签「{tagName}」",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "查看所有标签",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "切换浅色/暗黑模式（当前为{mode}）",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "暗黑模式",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "浅色模式",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "页面路径",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} 个项目",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "文件选项卡",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "上一页",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "下一页",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} 篇文档带有标签",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged}「{tagName}」",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "版本：{versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "此为 {siteTitle} {versionLabel} 版尚未发行的文档。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "此为 {siteTitle} {versionLabel} 版的文档，现已不再积极维护。",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "最新的文档请参阅 {latestVersionLink} ({versionLabel})。",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新版本",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "编辑此页",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading}的直接链接",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "于 {date} ",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "由 {user} ",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "最后{byUser}{atDate}更新",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "找不到页面",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "选择版本",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "标签：",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "警告",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "危险",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "信息",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "备注",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "提示",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "注意",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "最近博文导航",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "复制成功",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "复制代码到剪贴板",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "复制",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "切换自动换行",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "展开侧边栏分类 '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "折叠侧边栏分类 '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NotFound.p1": {
+    "message": "我们找不到您要找的页面。",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "请联系原始链接来源网站的所有者，并告知他们链接已损坏。",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "主导航",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "选择语言",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "本页总览",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "阅读更多",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "阅读 {title} 的全文",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "阅读需 {readingTime} 分钟",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "主页面",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "收起侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "收起侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "文档侧边栏",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "关闭导航栏",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← 回到主菜单",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "切换导航栏",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "重试",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "跳到主要内容",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "标签",
+    "description": "The title of the tag list page"
+  },
+  "theme.unlistedContent.title": {
+    "message": "未列出页",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "此页面未列出。搜索引擎不会对其索引，只有拥有直接链接的用户才能访问。",
+    "description": "The unlisted content banner message"
+  },
+  "Newsletter iframe": {
+    "message": "Newsletter iframe",
+    "description": "The title for the newsletter iframe"
+  },
+  "Hero Illustration": {
+    "message": "Hero Illustration",
+    "description": "The alt text for the hero illustration"
+  },
+  "Introducing Cuckoo Network Airdrop Portal": {
+    "message": "介绍 Cuckoo Network 空投门户",
+    "description": "Home page hero section's news message"
+  },
+  "Learn More": {
+    "message": "了解更多",
+    "description": "Link text to learn more about Cuckoo Scan"
+  },
+  "Create AI Art": {
+    "message": "创建 AI 艺术",
+    "description": "homepage's hero section's main action CTA"
+  },
+  "Explore": {
+    "message": "探索",
+    "description": "homepage's hero section's secondary action CTA"
+  },
+  "Earn": {
+    "message": "赚取",
+    "description": "homepage's hero section's secondary action CTA"
+  },
+  "Cuckoo AI Onchain Creative Platform for Anime Fandom": {
+    "message": "Cuckoo AI 面向动漫爱好者的链上创作平台",
+    "description": "Site tagline"
+  },
+  "Cuckoo Chain: The Premier Blockchain for AI": {
+    "message": "Cuckoo Chain：首屈一指的 AI 区块链",
+    "description": "Page title for Cuckoo Chain homepage"
+  },
+  "Cuckoo Chain is set to transform the AI blockchain landscape. As an Arbitrum L2 in the Ethereum ecosystem, it brings streamlined AI developer experience, fast speed and efficiency to the table. This makes it a prime choice for Web3 + AI users seeking robust and scalable solutions": {
+    "message": "Cuckoo Chain 致力于改变 AI 区块链格局。作为以太坊生态系统中的 Arbitrum L2，它为 AI 开发者带来简化的开发体验、快速性和高效性，成为寻求强大且可扩展解决方案的 Web3 + AI 用户的首选。",
+    "description": "Page description for Cuckoo Chain homepage"
+  },
+  "Create and share your gen AI arts. Share your GPU or CPU with Gen AI App builders to generate images and perform LLM inference on Cuckoo Chain.": {
+    "message": "创建并分享您的生成式 AI 艺术。将您的 GPU 或 CPU 分享给生成式 AI 应用程序构建者，用于在 Cuckoo Chain 上生成图像并执行 LLM 推理。",
+    "description": "Site description"
+  },
+  "Experience Decentralized AI Now": {
+    "message": "现在体验去中心化 AI",
+    "description": "Section header title"
+  },
+  "For AI Enthusiasts": {
+    "message": "面向 AI 爱好者",
+    "description": "Button label for AI Enthusiasts"
+  },
+  "For Developers": {
+    "message": "面向开发者",
+    "description": "Button label for Developers"
+  },
+  "For Miners": {
+    "message": "面向矿工",
+    "description": "Button label for Miners"
+  },
+  "For Token Holders": {
+    "message": "面向代币持有者",
+    "description": "Button label for Token Holders"
+  },
+  "Cuckoo Telegram": {
+    "message": "Cuckoo Telegram",
+    "description": "Telegram Box Title"
+  },
+  "A telegram bot for texting to image and manage your CAI tokens.": {
+    "message": "一个用于文本转图像和管理您的 CAI 代币的 Telegram 机器人。",
+    "description": "Telegram Box Description"
+  },
+  "Cuckoo Discord": {
+    "message": "Cuckoo Discord",
+    "description": "Discord Box Title"
+  },
+  "A discord bot for texting to image and manage your CAI tokens.": {
+    "message": "一个用于文本转图像和管理您的 CAI 代币的 Discord 机器人。",
+    "description": "Discord Box Description"
+  },
+  "Neon Medium": {
+    "message": "Neon Medium",
+    "description": "Medium Box Title"
+  },
+  "BlockEden.xyz": {
+    "message": "BlockEden.xyz",
+    "description": "BlockEden Box Title"
+  },
+  "RPC node, API marketplace, and staking infrastructure.": {
+    "message": "RPC 节点、API 市场和质押基础设施。",
+    "description": "BlockEden Box Description"
+  },
+  "Cuckoo Art": {
+    "message": "Cuckoo Art",
+    "description": "Cuckoo Art Box Title"
+  },
+  "Discover AI arts created in our network.": {
+    "message": "探索我们网络中创建的 AI 艺术。",
+    "description": "Cuckoo Art Box Description"
+  },
+  "Karma Protocol": {
+    "message": "Karma Protocol",
+    "description": "Karma Protocol Box Title"
+  },
+  "A revolutionary prediction market, driven by Community.": {
+    "message": "一个由社区驱动的革命性预测市场。",
+    "description": "Karma Protocol Box Description"
+  },
+  "Cuckoo Github": {
+    "message": "Cuckoo Github",
+    "description": "Cuckoo Github Box Title"
+  },
+  "Fork us on Github for open-sourced decentralized AI platform.": {
+    "message": "在 Github 上复刻我们，获取开源的去中心化 AI 平台。",
+    "description": "Cuckoo Github Box Description"
+  },
+  "Cuckoo Node": {
+    "message": "Cuckoo Node",
+    "description": "Cuckoo Node Box Title"
+  },
+  "Node for mining tokens, distributed with Docker images.": {
+    "message": "用于挖矿代币的节点，通过 Docker 镜像分发。",
+    "description": "Cuckoo Node Box Description"
+  },
+  "Staking Portal": {
+    "message": "Staking Portal",
+    "description": "Staking Portal Box Title"
+  },
+  "Stake your token to vote for Node operators you trust": {
+    "message": "质押您的代币以投票支持您信任的节点运营商",
+    "description": "Staking Portal Box Description"
+  },
+  "How does it work?": {
+    "message": "它是如何工作的？",
+    "description": "Section header title"
+  },
+  "Cuckoo incentivizes GPU miners to serve AI models to generative App builders. We started with decentralized image generation but aim to expand our platform to support various AI models.": {
+    "message": "Cuckoo 通过激励 GPU 矿工为生成式应用程序构建者提供 AI 模型服务。我们从去中心化图像生成开始，但目标是扩展我们的平台以支持各种 AI 模型。",
+    "description": "Section header description"
+  },
+  "GPU miners, developers, and stakers {stakingLink} with blockchain smart contracts to establish trust.": {
+    "message": "GPU 矿工、开发者和质押者通过区块链智能合约进行 {stakingLink} ，以建立信任。",
+    "description": "Trust step description"
+  },
+  "stake and vote": {
+    "message": "stake and vote",
+    "description": "Link text"
+  },
+  "Gen AI Apps assign tasks to GPU miners via the Cuckoo AI node, with daily ERC20 payments based on results.": {
+    "message": "生成式 AI 应用程序通过 Cuckoo AI 节点向 GPU 矿工分配任务，并根据结果进行每日 ERC20 支付。",
+    "description": "Tasks & Rewards step description"
+  },
+  "Our modular components ensure that AI remains accessible, transparent, anti-censorship, and privacy-preserving.": {
+    "message": "我们的模块化组件确保 AI 保持可访问、透明、反审查和隐私保护。",
+    "description": "Modular Support step description"
+  },
+  "Establish Trust": {
+    "message": "建立信任",
+    "description": "Trust step title"
+  },
+  "Mine and Earn": {
+    "message": "挖矿并赚取",
+    "description": "Tasks & Rewards step title"
+  },
+  "Modular AI": {
+    "message": "模块化 AI",
+    "description": "Modular Support step title"
+  },
+  "From AI builders to consumers, we got you covered.": {
+    "message": "从 AI 构建者到消费者，我们为您提供全方位支持。",
+    "description": "section title for target customers"
+  },
+  "Features 02": {
+    "message": "功能 02",
+    "description": "Alt text for the image"
+  },
+  "Get rewarded by contributing to Gen AI": {
+    "message": "通过为生成式 AI 做贡献来获得奖励"
+  },
+  "For AI Consumers": {
+    "message": "面向 AI 消费者"
+  },
+  "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.": {
+    "message": "通过为生态系统做贡献或使用 Cuckoo Pay，免费访问各种 AI 应用程序。如果一个应用程序被阻止，可以无缝切换到去中心化网络中的另一个协调者。"
+  },
+  "For App Builders/Coordinators": {
+    "message": "面向应用程序构建者/协调者"
+  },
+  "Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.": {
+    "message": "运行一个协调节点，质押以加入网络，并获得质押奖励。降低 GPU 成本，扩大客户群，分配任务给 GPU 矿工，验证结果并分发支付。"
+  },
+  "For GPU Miners": {
+    "message": "面向 GPU 矿工"
+  },
+  "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.": {
+    "message": "运行矿工节点，质押以加入网络，并获得质押奖励。分享您的 GPU 资源，完成分配的任务，并保持可靠的服务以赚取代币。"
+  },
+  "Experience Decentralized AI Model-Serving": {
+    "message": "体验去中心化 AI 模型服务"
+  },
+  "Generate image now with Cuckoo Bot": {
+    "message": "立即使用 Cuckoo Bot 生成图像"
+  },
+  "Join Discord": {
+    "message": "加入 Discord"
+  },
+  "Transforming AI with Blockchain Technology": {
+    "message": "用区块链技术变革 AI",
+    "description": "Hero section main title"
+  },
+  "Cuckoo Chain, an Arbitrum L2 in the Ethereum ecosystem, revolutionizes AI development with unmatched speed, efficiency, and scalability. Perfect for Web3 + AI innovators.": {
+    "message": "Cuckoo Chain 是以太坊生态系统中的 Arbitrum L2，通过无与伦比的速度、效率和可扩展性，彻底改变了 AI 开发。是 Web3 + AI 创新者的理想选择。",
+    "description": "Hero section description about Cuckoo Chain and its role in AI development"
+  },
+  "Explore Chain": {
+    "message": "探索区块链",
+    "description": "Button label to explore the Cuckoo Chain"
+  },
+  "Read Docs": {
+    "message": "阅读文档",
+    "description": "Button label to read the Cuckoo Chain documentation"
+  },
+  "\"Cuckoo Chain revolutionized our AI development with unmatched speed and efficiency. It's a game-changer for any AI-driven blockchain enterprise.\"": {
+    "message": "\"Cuckoo Chain 以无与伦比的速度和效率彻底改变了我们的 AI 开发。这是任何 AI 驱动的区块链企业的变革者。\"",
+    "description": "First testimonial text"
+  },
+  "Aaliyah Baker": {
+    "message": "Aaliyah Baker",
+    "description": "First testimonial author name"
+  },
+  "DApper OS": {
+    "message": "DApper OS",
+    "description": "First testimonial author company"
+  },
+  "\"Integrating Cuckoo Chain was seamless. The performance boost and compatibility with Ethereum are phenomenal.\"": {
+    "message": "\"集成 Cuckoo Chain 十分顺利。性能提升和与以太坊的兼容性非常出色。\"",
+    "description": "Second testimonial text"
+  },
+  "Sloan Seaman": {
+    "message": "Sloan Seaman",
+    "description": "Second testimonial author name"
+  },
+  "Coupang": {
+    "message": "Coupang",
+    "description": "Second testimonial author company"
+  },
+  "\"Cuckoo Chain empowered us to create fast, secure decentralized AI apps. The support team is invaluable.\"": {
+    "message": "\"Cuckoo Chain 使我们能够创建快速、安全的去中心化 AI 应用程序。支持团队的帮助非常宝贵。\"",
+    "description": "Third testimonial text"
+  },
+  "Christine Dejoux": {
+    "message": "Christine Dejoux",
+    "description": "Third testimonial author name"
+  },
+  "Glocomms": {
+    "message": "Glocomms",
+    "description": "Third testimonial author company"
+  },
+  "Illustration": {
+    "message": "Illustration",
+    "description": "Illustration alt text"
+  },
+  "Many tools to decentralized AI with Cuckoo Chain": {
+    "message": "使用 Cuckoo Chain 去中心化 AI 的众多工具",
+    "description": "Section header title"
+  },
+  "The best resources for building an end-to-end Cuckoo Chain dApp.": {
+    "message": "构建端到端 Cuckoo Chain dApp 的最佳资源。",
+    "description": "Section header description"
+  },
+  "Icon 01": {
+    "message": "图标 01",
+    "description": "Icon 01 alt text"
+  },
+  "Cuckoo Network Bridge": {
+    "message": "Cuckoo Network 桥接",
+    "description": "Cuckoo Network Bridge title"
+  },
+  "Transfer assets seamlessly across Arbitrum One and Cuckoo Chain with minimal fees and secure transactions.": {
+    "message": "通过 Arbitrum One 和 Cuckoo Chain 无缝转移资产，费用低廉且交易安全。",
+    "description": "Cuckoo Network Bridge description"
+  },
+  "Icon 02": {
+    "message": "图标 02",
+    "description": "Icon 02 alt text"
+  },
+  "Thirdweb": {
+    "message": "Thirdweb",
+    "description": "Thirdweb title"
+  },
+  "Full-stack, open-source web3 development platform. Fullstack tools to build complete web3 apps.": {
+    "message": "全栈开源的 Web3 开发平台。构建完整 Web3 应用的全套工具。",
+    "description": "Thirdweb description"
+  },
+  "Icon 03": {
+    "message": "图标 03",
+    "description": "Icon 03 alt text"
+  },
+  "ChainList": {
+    "message": "ChainList",
+    "description": "ChainList title"
+  },
+  "ChainList is a list of EVM networks. Users can use the info to connect their wallets and Web3 middleware providers.": {
+    "message": "ChainList 是 EVM 网络的列表。用户可以使用这些信息连接他们的钱包和 Web3 中间件提供商。",
+    "description": "ChainList description"
+  },
+  "Icon 04": {
+    "message": "图标 04",
+    "description": "Icon 04 alt text"
+  },
+  "Cuckoo Scan": {
+    "message": "Cuckoo Scan",
+    "description": "Cuckoo Scan title"
+  },
+  "Blockchain explorer to inspect Cuckoo Chain transactions, tokens, and coins. RESTful and GraphQL API available.": {
+    "message": "用于检查 Cuckoo Chain 交易、代币和硬币的区块链浏览器。提供 RESTful 和 GraphQL API。",
+    "description": "Cuckoo Scan description"
+  },
+  "Previous": {
+    "message": "上一个",
+    "description": "Aria label for previous button"
+  },
+  "Next": {
+    "message": "下一个",
+    "description": "Aria label for next button"
+  },
+  "Pricing Illustration": {
+    "message": "定价插图",
+    "description": "Alt text for the pricing section illustration"
+  },
+  "Fundamentally Aligned with Ethereum": {
+    "message": "从根本上与以太坊保持一致",
+    "description": "Title for the pricing section"
+  },
+  "But optimized for performance and on-chain AI": {
+    "message": "但针对性能和链上 AI 进行了优化",
+    "description": "Description for the pricing section"
+  },
+  "Monthly": {
+    "message": "按月",
+    "description": "Label for the monthly payment option"
+  },
+  "Pay annually": {
+    "message": "按年支付",
+    "description": "Screen reader label for toggling to pay annually"
+  },
+  "Yearly": {
+    "message": "按年",
+    "description": "Label for the yearly payment option"
+  },
+  "Infra": {
+    "message": "基础设施",
+    "description": "Infra section label for mobile view"
+  },
+  "Max Theoretical TPS": {
+    "message": "最大理论 TPS",
+    "description": "Label for maximum theoretical transactions per second in mobile view"
+  },
+  "Fastest Block Time": {
+    "message": "最快区块时间",
+    "description": "Label for the fastest block time in mobile view"
+  },
+  "Governance Model": {
+    "message": "治理模式",
+    "description": "Label for the governance model in mobile view"
+  },
+  "Features": {
+    "message": "功能",
+    "description": "Label for the features section in mobile view"
+  },
+  "Avg. Gas Price": {
+    "message": "平均 Gas 价格",
+    "description": "Label for the average gas price in mobile view"
+  },
+  "EVM Compatible": {
+    "message": "兼容 EVM",
+    "description": "Label for EVM compatibility in mobile view"
+  },
+  "Decentralized Ledger": {
+    "message": "去中心化账本",
+    "description": "Label for decentralized ledger in mobile view"
+  },
+  "FAQs": {
+    "message": "常见问题",
+    "description": "FAQs section title"
+  },
+  "What is Cuckoo Chain?": {
+    "message": "什么是 Cuckoo Chain?",
+    "description": "Question: What is Cuckoo Chain?"
+  },
+  "Cuckoo Chain is a blockchain platform designed specifically for AI applications, operating as an Arbitrum L2 within the Ethereum ecosystem. It offers a streamlined AI developer experience with enhanced speed and efficiency.": {
+    "message": "Cuckoo Chain 是一个专为 AI 应用设计的区块链平台，作为以太坊生态系统中的 Arbitrum L2 运行。它提供了简化的 AI 开发者体验，并具有更高的速度和效率。",
+    "description": "Answer: What is Cuckoo Chain?"
+  },
+  "How does Cuckoo Chain integrate with the Ethereum ecosystem?": {
+    "message": "Cuckoo Chain 如何与以太坊生态系统集成?",
+    "description": "Question: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
+  },
+  "Cuckoo Chain functions as an Arbitrum Layer 2 solution, which means it inherits the security and decentralization of Ethereum while providing faster and cheaper transactions. This integration ensures seamless interoperability with the Ethereum network.": {
+    "message": "Cuckoo Chain 作为 Arbitrum 的二层解决方案，继承了以太坊的安全性和去中心化特性，同时提供更快和更便宜的交易。这种集成确保了与以太坊网络的无缝互操作性。",
+    "description": "Answer: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
+  },
+  "What are the main benefits of using Cuckoo Chain for AI development?": {
+    "message": "使用 Cuckoo Chain 进行 AI 开发的主要好处是什么?",
+    "description": "Question: What are the main benefits of using Cuckoo Chain for AI development?"
+  },
+  "Cuckoo Chain offers unparalleled speed, efficiency, and scalability for AI development. It reduces transaction costs, accelerates processing times, and provides a robust infrastructure for deploying AI solutions on the blockchain.": {
+    "message": "Cuckoo Chain 为 AI 开发提供了无与伦比的速度、效率和可扩展性。它降低了交易成本，加快了处理时间，并为在区块链上部署 AI 解决方案提供了强大的基础设施。",
+    "description": "Answer: What are the main benefits of using Cuckoo Chain for AI development?"
+  },
+  "How can I get started with Cuckoo Chain?": {
+    "message": "如何开始使用 Cuckoo Chain?",
+    "description": "Question: How can I get started with Cuckoo Chain?"
+  },
+  "Getting started with Cuckoo Chain is simple. Visit our {gettingStartedGuide} for step-by-step instructions on setting up your account,\n                  integrating your applications, and deploying your first AI\n                  models on the platform.": {
+    "message": "开始使用 Cuckoo Chain 非常简单。访问我们的 {gettingStartedGuide} ，获取有关设置帐户、集成应用程序和在平台上部署首个 AI 模型的分步说明。",
+    "description": "Answer: How can I get started with Cuckoo Chain?"
+  },
+  "Getting Started Guide": {
+    "message": "入门指南",
+    "description": "Link text for Getting Started Guide"
+  },
+  "What are some real-world use cases for Cuckoo Chain?": {
+    "message": "Cuckoo Chain 有哪些现实世界的应用案例?",
+    "description": "Question: What are some real-world use cases for Cuckoo Chain?"
+  },
+  "Cuckoo Chain can be used in various scenarios, including decentralized AI model inference, secure data sharing, and AI-powered decentralized applications (dApps). Our platform supports diverse industries such as finance, healthcare, and supply chain management.": {
+    "message": "Cuckoo Chain 可用于各种场景，包括去中心化 AI 模型推理、安全数据共享和 AI 驱动的去中心化应用程序（dApps）。我们的平台支持金融、医疗保健和供应链管理等各个行业。",
+    "description": "Answer: What are some real-world use cases for Cuckoo Chain?"
+  },
+  "Where can I find support and additional resources?": {
+    "message": "我在哪里可以找到支持和额外的资源?",
+    "description": "Question: Where can I find support and additional resources?"
+  },
+  "For support and additional resources, visit our {helpCenter} or join our community on {discord} and {telegram}. Our\n                  comprehensive documentation, tutorials, and active community\n                  are here to assist you with any questions or challenges you\n                  might encounter.": {
+    "message": "如需支持和额外资源，请访问我们的 {helpCenter} ，或加入我们的 {discord} 和 {telegram} 社区。我们的综合文档、教程和活跃的社区随时为您解决任何问题或挑战。",
+    "description": "Answer: Where can I find support and additional resources?"
+  },
+  "Help Center": {
+    "message": "帮助中心",
+    "description": "Link text for Help Center"
+  },
+  "Discord": {
+    "message": "Discord",
+    "description": "Link text for Discord"
+  },
+  "Telegram": {
+    "message": "Telegram",
+    "description": "Link text for Telegram"
+  },
+  "Refreshing news from the community": {
+    "message": "来自社区的新鲜新闻",
+    "description": "Title for the news section"
+  },
+  "Read more": {
+    "message": "阅读更多",
+    "description": "Read more link text"
+  },
+  "It's time to join the thousands of creators, artists, and developers using Cuckoo Chain": {
+    "message": "现在是加入使用 Cuckoo Chain 的数千名创作者、艺术家和开发者的最佳时机",
+    "description": "CTA section main title"
+  }
+}

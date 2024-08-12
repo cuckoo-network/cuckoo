@@ -1,0 +1,78 @@
+{
+  "version.label": {
+    "message": "下一步",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category. Cuckoo AI": {
+    "message": " Cuckoo AI",
+    "description": "The label for category  Cuckoo AI in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category. Cuckoo Chain": {
+    "message": " Cuckoo Chain",
+    "description": "The label for category  Cuckoo Chain in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category. Deploy Smart Contract": {
+    "message": " 部署智能合约",
+    "description": "The label for category  Deploy Smart Contract in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc. Introduction": {
+    "message": " 介绍",
+    "description": "The label for the doc item  Introduction in sidebar tutorialSidebar, linking to the doc cuckoo-network"
+  },
+  "sidebar.tutorialSidebar.doc. Vision": {
+    "message": " 愿景",
+    "description": "The label for the doc item  Vision in sidebar tutorialSidebar, linking to the doc vision"
+  },
+  "sidebar.tutorialSidebar.doc. Overview": {
+    "message": " 概述",
+    "description": "The label for the doc item  Overview in sidebar tutorialSidebar, linking to the doc Cuckoo AI/cuckoo-ai"
+  },
+  "sidebar.tutorialSidebar.doc. How to Run a Miner Node": {
+    "message": " 如何运行矿工节点",
+    "description": "The label for the doc item  How to Run a Miner Node in sidebar tutorialSidebar, linking to the doc Cuckoo AI/ai-node"
+  },
+  "sidebar.tutorialSidebar.doc. Network Details": {
+    "message": " 网络详情",
+    "description": "The label for the doc item  Network Details in sidebar tutorialSidebar, linking to the doc Cuckoo Chain/cuckoo-chain"
+  },
+  "sidebar.tutorialSidebar.doc. How to Run a Cuckoo Chain Node": {
+    "message": " 如何运行 Cuckoo Chain 节点",
+    "description": "The label for the doc item  How to Run a Cuckoo Chain Node in sidebar tutorialSidebar, linking to the doc Cuckoo Chain/full-node"
+  },
+  "sidebar.tutorialSidebar.doc. Cuckoo Bridge": {
+    "message": " Cuckoo 桥接",
+    "description": "The label for the doc item  Cuckoo Bridge in sidebar tutorialSidebar, linking to the doc Cuckoo Chain/bridge"
+  },
+  "sidebar.tutorialSidebar.doc.Using Hardhat": {
+    "message": "使用 Hardhat",
+    "description": "The label for the doc item Using Hardhat in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-hardhat"
+  },
+  "sidebar.tutorialSidebar.doc.Using Thirdweb": {
+    "message": "使用 Thirdweb",
+    "description": "The label for the doc item Using Thirdweb in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-thirdweb"
+  },
+  "sidebar.tutorialSidebar.doc.Using Foundry": {
+    "message": "使用 Foundry",
+    "description": "The label for the doc item Using Foundry in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-foundry"
+  },
+  "sidebar.tutorialSidebar.doc.Using Remix": {
+    "message": "使用 Remix",
+    "description": "The label for the doc item Using Remix in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-remix"
+  },
+  "sidebar.tutorialSidebar.doc. How does Cuckoo work": {
+    "message": " Cuckoo 如何工作",
+    "description": "The label for the doc item  How does Cuckoo work in sidebar tutorialSidebar, linking to the doc How does Cuckoo work"
+  },
+  "sidebar.tutorialSidebar.doc. $CAI": {
+    "message": " $CAI",
+    "description": "The label for the doc item  $CAI in sidebar tutorialSidebar, linking to the doc token"
+  },
+  "sidebar.tutorialSidebar.doc. Roadmap": {
+    "message": " 路线图",
+    "description": "The label for the doc item  Roadmap in sidebar tutorialSidebar, linking to the doc roadmap"
+  },
+  "sidebar.tutorialSidebar.doc. Team": {
+    "message": " 团队",
+    "description": "The label for the doc item  Team in sidebar tutorialSidebar, linking to the doc team"
+  }
+}
