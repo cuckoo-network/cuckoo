@@ -1,8 +1,5 @@
 # Roadmap
 
-> Check our roadmap releases at https://cuckoo.network/blog/tags/roadmap.
-> Check our future releases at https://github.com/cuckoo-network/cuckoo/tree/main/packages/home/src/pages/future-releases.
-
 ## Q3/2024 Current Focus
 
 - [ ] Mainnet Basics 2024-Q3
@@ -15,9 +12,9 @@
   - [x] [How Cuckoo AI Grows After the Cuckoo Chain Launch](/blog/2024/06/28/how-does-cuckoo-grow-after-cuckoo-chain-launch)
   - [ ] DeAI users
 
-    - [ ] Cuckoo Art (2024-07-A)
+    - [x] Cuckoo Art (2024-07-A)
     - [ ] Onboard one AI project to Cuckoo Pay
-    - [ ] [The Future of AI Anime: Cuckoo Art Business Plan](/future-releases/generative-art)
+    - [x] [The Future of AI Anime: Cuckoo Art Business Plan](/future-releases/generative-art)
 
   - [ ] Node operator program (2024-07-B)
 
@@ -27,11 +24,11 @@
     - [ ] Network Stats Monitor
       - [ ] version management
       - [ ] Authorization
-      - [ ] webp compression
+      - [x] webp compression
 
   - [ ] Holder's Airdrop Portal and Referral Program (2024-08-A)
     - [x] [Airdrop Portal](/blog/2024/07/25/cuckoo-network-airdrop-portal)
-    - [ ] Telegram integration
+    - [x] Telegram integration
 
 ## Future
 
@@ -41,6 +38,8 @@
   - [ ] ecosystem and grants
   - [ ] hackathons
   - [ ] native stablecoin
+- [ ] Cuckoo Pay
+  - [Case Study - Loyalty Program](/future-releases/cuckoo-pay-loyalty-program.md)
 
 ## Q2/2024
 
