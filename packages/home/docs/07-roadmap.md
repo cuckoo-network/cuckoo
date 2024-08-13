@@ -39,7 +39,7 @@
   - [ ] hackathons
   - [ ] native stablecoin
 - [ ] Cuckoo Pay
-  - [Case Study - Loyalty Program](/future-releases/cuckoo-pay-loyalty-program.md)
+  - [Case Study - Loyalty Program](/future-releases/cuckoo-pay-loyalty-program)
 
 ## Q2/2024
 
