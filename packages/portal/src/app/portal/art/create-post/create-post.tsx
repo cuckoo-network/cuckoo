@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useFindOneTextToImageItem } from "@/app/portal/art/text-to-image/history/hooks/use-text-to-image-history";
 import { selectTtih } from "@/app/portal/art/text-to-image/selectors/select-ttih";
+import { useTranslation } from "@/lib/i18n-client-use-translation";
 
 function useTtihQueryParam() {
   const searchParams = useSearchParams();
@@ -103,19 +104,20 @@ export function CreatePost() {
       setLoading(false);
     }
   };
+  const { t } = useTranslation();
 
   return (
     <Authenticated>
-      <div className="">
+      <div>
         <div className="flex flex-col md:gap-8 lg:flex-row lg:gap-16">
           <UploadButton
             onImageUpload={handleImageUpload}
             initialImgUrl={ttih?.photoMedia[0]?.readUrl}
           />
           <div className="relative flex grow flex-col justify-between self-stretch">
-            <div className={"flex flex-col"}>
-              <div className="">
-                <label className="block mb-2 text-sm">Title</label>
+            <div className="flex flex-col">
+              <div>
+                <label className="block mb-2 text-sm">{t("art_title")}</label>
                 <input
                   type="text"
                   value={title}
@@ -124,7 +126,9 @@ export function CreatePost() {
                 />
               </div>
               <div className="mt-4">
-                <label className="block mb-2 text-sm">Description</label>
+                <label className="block mb-2 text-sm">
+                  {t("art_description")}
+                </label>
                 <textarea
                   value={description}
                   onChange={(e) => setDescription(e.target.value)}
@@ -132,7 +136,9 @@ export function CreatePost() {
                 />
               </div>
               <div className="mt-4 hidden">
-                <label className="block mb-2 text-sm">Add Hashtag</label>
+                <label className="block mb-2 text-sm">
+                  {t("art_addHashtag")}
+                </label>
                 <input
                   type="text"
                   value={hashtags}
@@ -147,7 +153,7 @@ export function CreatePost() {
                   onChange={(e) => setIsSensitive(e.target.checked)}
                   className="mr-2"
                 />
-                <label className="text-sm">Sensitive</label>
+                <label className="text-sm">{t("art_sensitive")}</label>
               </div>
             </div>
             <div className="mt-6 flex justify-end">
@@ -156,7 +162,7 @@ export function CreatePost() {
                 disabled={loading}
                 isLoading={loading}
               >
-                Create Post
+                {t("art_createPost")}
               </Button>
             </div>
           </div>

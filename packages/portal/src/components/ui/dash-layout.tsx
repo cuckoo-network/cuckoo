@@ -23,17 +23,27 @@ import {
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { usePathname } from "next/navigation";
 import { useIsLoggedIn } from "@/containers/authentication/hooks/use-is-logged-in";
-
-const navigationItems = [
-  { href: "/portal/art", label: "Cuckoo Art", icon: FileImage },
-  { href: "/portal/airdrop", label: "Airdrop", icon: HandCoins },
-  { href: "/portal/staking", label: "Staking", icon: GemIcon },
-  { href: "/portal/mining", label: "Mining", icon: Pickaxe },
-  { href: "/portal/faucet", label: "Testnet Faucet", icon: Droplet },
-];
+import { useTranslation } from "@/lib/i18n-client-use-translation";
 
 export function DashLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
+  const { t } = useTranslation("", "common");
+
+  const navigationItems = [
+    { href: "/portal/art", label: t("navigation_cuckoo_art"), icon: FileImage },
+    {
+      href: "/portal/airdrop",
+      label: t("navigation_airdrop"),
+      icon: HandCoins,
+    },
+    { href: "/portal/staking", label: t("navigation_staking"), icon: GemIcon },
+    { href: "/portal/mining", label: t("navigation_mining"), icon: Pickaxe },
+    {
+      href: "/portal/faucet",
+      label: t("navigation_testnet_faucet"),
+      icon: Droplet,
+    },
+  ];
 
   const { isLoggedIn, isLoggedInLoading } = useIsLoggedIn();
 
@@ -44,7 +54,7 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
           <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
             <Link href="/" className="flex items-center gap-2 font-semibold">
               <Bird className="h-6 w-6" />
-              <span className="">Cuckoo Portal</span>
+              <span className="">{t("navigation_cuckoo_portal")}</span>
             </Link>
             <Button
               variant="outline"
@@ -54,7 +64,9 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
               href={"https://cuckoo.network/blogs"}
             >
               <Bell className="h-4 w-4" />
-              <span className="sr-only">Toggle notifications</span>
+              <span className="sr-only">
+                {t("buttons_toggle_notifications")}
+              </span>
             </Button>
           </div>
           <div className="flex-1">
@@ -78,10 +90,9 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
           <div className="mt-auto p-4">
             <Card x-chunk="dashboard-02-chunk-0">
               <CardHeader className="p-2 pt-0 md:p-4">
-                <CardTitle>Discord and Forums</CardTitle>
+                <CardTitle>{t("card_discord_forums_title")}</CardTitle>
                 <CardDescription>
-                  Unlock all potentials and get unlimited access to our
-                  community.
+                  {t("card_discord_forums_description")}
                 </CardDescription>
               </CardHeader>
               <CardContent className="p-2 pt-0 md:p-4 md:pt-0">
@@ -92,7 +103,7 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
                   target={"_blank"}
                   href={"https://cuckoo.network/dc"}
                 >
-                  Join
+                  {t("buttons_join")}
                 </Button>
               </CardContent>
             </Card>
@@ -110,7 +121,9 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
                 className="shrink-0 md:hidden"
               >
                 <Menu className="h-5 w-5" />
-                <span className="sr-only">Toggle navigation menu</span>
+                <span className="sr-only">
+                  {t("buttons_toggle_navigation_menu")}
+                </span>
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="flex flex-col">
@@ -120,7 +133,9 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
                   className="flex items-center gap-2 text-lg font-semibold"
                 >
                   <Bird className="h-6 w-6" />
-                  <span className="sr-only">Cuckoo Portal</span>
+                  <span className="sr-only">
+                    {t("navigation_cuckoo_portal")}
+                  </span>
                 </Link>
 
                 {navigationItems.map((item) => (
@@ -141,15 +156,14 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
               <div className="mt-auto">
                 <Card>
                   <CardHeader>
-                    <CardTitle>Discord and Forums</CardTitle>
+                    <CardTitle>{t("card.discord_forums_title")}</CardTitle>
                     <CardDescription>
-                      Unlock all potentials and get unlimited access to our
-                      community.
+                      {t("card_discord_forums_description")}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <Button size="sm" className="w-full">
-                      Join
+                      {t("buttons_join")}
                     </Button>
                   </CardContent>
                 </Card>
@@ -169,11 +183,11 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
 
           {!isLoggedInLoading && isLoggedIn ? (
             <Button variant="ghost" href={"/portal/logout"}>
-              Logout
+              {t("buttons_logout")}
             </Button>
           ) : (
             <Button variant="ghost" href={"/portal/login"}>
-              Login
+              {t("buttons_login")}
             </Button>
           )}
         </header>

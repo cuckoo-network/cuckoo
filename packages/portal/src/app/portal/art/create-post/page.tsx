@@ -4,6 +4,7 @@ import { CardDescription, CardTitle } from "@/components/ui/card";
 import { Metadata } from "next";
 import { CreatePost } from "@/app/portal/art/create-post/create-post";
 import { Suspense } from "react";
+import { CreatePostTitle } from "@/app/portal/art/create-post-title";
 
 const cfg = {
   title: "Create Post - Cuckoo AI",
@@ -21,12 +22,7 @@ export const metadata: Metadata = {
 export default function CreatePostPage() {
   return (
     <DashLayout>
-      <div className="flex flex-col">
-        <CardTitle className="text-lg font-semibold md:text-2xl">
-          Create Post
-        </CardTitle>
-        <CardDescription>Upload a image to cuckoo network</CardDescription>
-      </div>
+      <CreatePostTitle />
 
       <Suspense>
         <CreatePost />

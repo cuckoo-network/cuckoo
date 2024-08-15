@@ -8,6 +8,8 @@ description: 2024年6月のCuckoo Networkエアドロップに参加して、30,
 
 Cuckoo Networkは、2024年6月のエアドロップを発表します。合計30,000 $CAIトークンが、[Alpha](https://scan.cuckoo.network/)および[Sepoliaテストネット](https://testnet-scan.cuckoo.network/)と積極的に連携するユーザーに配布されます。あなたのサポートと参加に対して報酬を得る絶好の機会です。
 
+> 8月の更新: 最新のクエストと報酬については、専用の [Cuckoo Network エアドロップポータル](https://cuckoo.network/portal/airdrop) にアクセスしてください。
+
 > 7月3日の更新: 2024年6月のエアドロップの報酬は、[0x17...E2](https://scan.cuckoo.network/address/0x17Ee826fB6E9Cf7Bc1433a50215A62Ff49999CE2)および[0xE9...b4](https://scan.cuckoo.network/address/0xE92f753D70B650424677B206Afd616A895D32eb4)を通じて配布されました。ご支援ありがとうございました！今後のエアドロップについてはhttps://cuckoo.network/xでフォローしてください！
 
 ## 参加方法

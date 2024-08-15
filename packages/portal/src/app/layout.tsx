@@ -10,15 +10,21 @@ import { apolloClient } from "@/lib/apollo-client";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Provider } from "jotai";
 import { Toaster } from "@/components/ui/toaster";
+import { dir } from "i18next";
+import { useTranslation } from "@/lib/i18n-client-use-translation";
 
 const inter = Inter({ subsets: ["latin"] });
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const {
+    i18n: { language },
+  } = useTranslation();
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={language} dir={dir(language)} suppressHydrationWarning>
       <body className={inter.className}>
         <ApolloProvider client={apolloClient}>
           <ThirdwebProvider

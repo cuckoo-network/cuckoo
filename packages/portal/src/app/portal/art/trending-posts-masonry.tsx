@@ -12,6 +12,7 @@ import {
 import Image from "next/image";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { PostDetails } from "@/app/portal/art/post-details/post-details";
+import { useTranslation } from "@/lib/i18n-client-use-translation";
 
 function selectSocialPosts(dataTrendingPosts: SocialPostsQuery | undefined) {
   return dataTrendingPosts?.socialPosts.edges.map((ed) => ed.node) || [];
@@ -73,6 +74,8 @@ export const TrendingPostsMasonry = () => {
     }
   }, [endCursor, hasNext, fetchMoreSocialPosts]);
 
+  const { t } = useTranslation();
+
   if (loadingTrendingPosts) {
     return <></>;
   }
@@ -80,11 +83,11 @@ export const TrendingPostsMasonry = () => {
     <>
       <div className={"flex gap-1"}>
         <Button variant={"secondary"} href={"/portal/art/create-post"}>
-          <ImagePlus className={"mr-1"} size={18} /> Creat Post
+          <ImagePlus className={"mr-1"} size={18} /> {t("buttons_create_post")}
         </Button>
 
         <Button variant={"secondary"} href={"/portal/art/text-to-image"}>
-          <Sparkles className={"mr-1"} size={18} /> Text to Image
+          <Sparkles className={"mr-1"} size={18} /> {t("buttons_text_to_image")}
         </Button>
       </div>
 

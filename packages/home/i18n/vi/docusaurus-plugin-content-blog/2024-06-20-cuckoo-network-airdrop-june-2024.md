@@ -8,6 +8,8 @@ description: Tham gia Airdrop của Cuckoo Network vào tháng 6 năm 2024. Tư�
 
 Cuckoo Network rất hân hạnh thông báo về chương trình airdrop của chúng tôi vào tháng 6 năm 2024. Tổng cộng 30,000 token $CAI sẽ được phân phối cho những người dùng tích cực tham gia vào [Alpha](https://scan.cuckoo.network/) và [Sepolia Testnets](https://testnet-scan.cuckoo.network/). Đây là cơ hội để bạn được thưởng cho sự hỗ trợ và tham gia của mình.
 
+> Cập nhật tháng 8: Truy cập [Cổng thông tin Airdrop Cuckoo Network](https://cuckoo.network/portal/airdrop) của chúng tôi để nhận các nhiệm vụ và phần thưởng mới nhất.
+
 > Cập nhật ngày 3 tháng 7: Phần thưởng của Airdrop tháng 6 năm 2024 đã được phân phối qua [0x17...E2](https://scan.cuckoo.network/address/0x17Ee826fB6E9Cf7Bc1433a50215A62Ff49999CE2) và [0xE9...b4](https://scan.cuckoo.network/address/0xE92f753D70B650424677B206Afd616A895D32eb4). Cảm ơn sự hỗ trợ của các bạn! Theo dõi chúng tôi trên https://cuckoo.network/x để cập nhật các airdrop trong tương lai!
 
 ## Cách Tham Gia

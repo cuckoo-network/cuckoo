@@ -1,0 +1,31 @@
+{
+  "navigation_cuckoo_art": "Cuckoo Art",
+  "navigation_airdrop": "Airdrop",
+  "navigation_staking": "Staking",
+  "navigation_mining": "Mining",
+  "navigation_testnet_faucet": "Testnet Faucet",
+  "navigation_cuckoo_portal": "Cuckoo Portal",
+  "buttons_toggle_notifications": "Toggle notifications",
+  "buttons_toggle_navigation_menu": "Toggle navigation menu",
+  "buttons_join": "Join",
+  "buttons_login": "Login",
+  "buttons_logout": "Logout",
+  "card_discord_forums_title": "Discord and Forums",
+  "card_discord_forums_description": "Unlock all potentials and get unlimited access to our community.",
+  "art_discover": "Discover",
+  "art_ai_arts_description": "AI arts created in our network.",
+
+  "buttons_create_post": "Create Post",
+  "buttons_text_to_image": "Text to Image",
+  "art_title": "Title",
+  "art_description": "Description",
+  "art_addHashtag": "Add Hashtag",
+  "art_sensitive": "Sensitive",
+  "art_createPost": "Create Post",
+  "art_upload": "Upload a image to cuckoo network",
+  "art_selected_image_alt": "Selected image",
+  "art_upload_button": "Click + to upload photos or videos",
+  "art_upload_rules": "Make sure the content you upload adheres to our rules.",
+
+  "art_text_to_image_subtitle": "Create AI art by prompting."
+}

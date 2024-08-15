@@ -36,6 +36,7 @@
 - [ ] Incentivize DeFi Infras
 - [ ] Ecosystem
   - [ ] ecosystem and grants
+    - [ ] Bridged USDC
   - [ ] hackathons
   - [ ] native stablecoin
 - [ ] Cuckoo Pay

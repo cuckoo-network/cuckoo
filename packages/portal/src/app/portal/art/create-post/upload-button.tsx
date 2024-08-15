@@ -1,6 +1,7 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "@/lib/i18n-client-use-translation";
 
 interface UploadButtonProps {
   onImageUpload: (
@@ -14,6 +15,7 @@ const UploadButton: React.FC<UploadButtonProps> = ({
   onImageUpload,
   initialImgUrl,
 }) => {
+  const { t } = useTranslation();
   const [selectedImage, setSelectedImage] = useState<string | null>("");
   const [imageDimensions, setImageDimensions] = useState<{
     width: number;
@@ -50,18 +52,16 @@ const UploadButton: React.FC<UploadButtonProps> = ({
       {selectedImage ? (
         <img
           src={selectedImage}
-          alt="Selected"
+          alt={t("art_selected_image_alt")}
           className="inset-0 w-full h-full object-contain"
           ref={imageRef}
         />
       ) : (
         <>
           <button className="p-2 text-gray-600">
-            Click + to upload photos or videos
+            {t("art_upload_button")}
           </button>
-          <p className="text-sm text-gray-400">
-            Make sure the content you upload adheres to our rules.
-          </p>
+          <p className="text-sm text-gray-400">{t("art_upload_rules")}</p>
         </>
       )}
       <input

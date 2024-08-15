@@ -1,8 +1,8 @@
 import React from "react";
 import { DashLayout } from "@/components/ui/dash-layout";
 import { TrendingPostsMasonry } from "@/app/portal/art/trending-posts-masonry";
-import { CardDescription, CardTitle } from "@/components/ui/card";
 import { Metadata } from "next";
+import { ArtTitle } from "@/app/portal/art/art-title";
 
 const cfg = {
   title: "Cuckoo Art",
@@ -17,15 +17,10 @@ export const metadata: Metadata = {
   openGraph: cfg,
 };
 
-export default function ArtPage() {
+export default async function ArtPage() {
   return (
     <DashLayout>
-      <div className="flex flex-col">
-        <CardTitle className="text-lg font-semibold md:text-2xl">
-          Discover
-        </CardTitle>
-        <CardDescription>AI arts created in our network.</CardDescription>
-      </div>
+      <ArtTitle />
       <TrendingPostsMasonry />
     </DashLayout>
   );

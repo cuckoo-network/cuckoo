@@ -8,6 +8,8 @@ description: 参与Cuckoo Network 2024年6月的空投活动。通过与Alpha和
 
 Cuckoo Network很高兴地宣布2024年6月的空投活动。总共将分发30,000 $CAI代币给那些积极参与我们[Alpha](https://scan.cuckoo.network/)和[Sepolia测试网](https://testnet-scan.cuckoo.network/)的用户。这是您因支持和参与而获得奖励的机会。
 
+> 8月更新：请访问我们的专用 [Cuckoo Network 空投门户](https://cuckoo.network/portal/airdrop) 以获取最新任务和奖励。
+
 > 7月3日更新：2024年6月空投的奖励已通过[0x17...E2](https://scan.cuckoo.network/address/0x17Ee826fB6E9Cf7Bc1433a50215A62Ff49999CE2)和[0xE9...b4](https://scan.cuckoo.network/address/0xE92f753D70B650424677B206Afd616A895D32eb4)分发。感谢您的支持！请关注https://cuckoo.network/x 以获取未来空投信息！
 
 ## 如何参与
