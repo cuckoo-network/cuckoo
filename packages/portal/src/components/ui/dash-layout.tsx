@@ -156,7 +156,7 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
               <div className="mt-auto">
                 <Card>
                   <CardHeader>
-                    <CardTitle>{t("card.discord_forums_title")}</CardTitle>
+                    <CardTitle>{t("card_discord_forums_title")}</CardTitle>
                     <CardDescription>
                       {t("card_discord_forums_description")}
                     </CardDescription>
