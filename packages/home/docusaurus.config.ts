@@ -126,8 +126,17 @@ const config: Config = {
         {
           type: 'localeDropdown',
           position: 'right',
+          dropdownItemsAfter: [
+            {
+              type: 'html',
+              value: '<hr style="margin: 0.3rem 0;">',
+            },
+            {
+              href: 'https://github.com/cuckoo-network/cuckoo/issues/12',
+              label: 'Help Us Translate',
+            },
+          ],
         },
-
       ],
     },
     footer: {
