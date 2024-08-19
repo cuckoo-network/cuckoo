@@ -21,7 +21,7 @@ function selectSocialPosts(dataTrendingPosts: SocialPostsQuery | undefined) {
 function PostItem(props: { photo: any; post: SocialPost }) {
   return (
     <PostDetails post={props.post}>
-      <div className={"mb-4"}>
+      <div className={"mb-8"}>
         {props.photo?.width && props.photo?.height ? (
           <Image
             alt={props.post.title || ""}
@@ -36,15 +36,15 @@ function PostItem(props: { photo: any; post: SocialPost }) {
             alt=""
           />
         )}
-        <div className="break-word w-full text-white no-underline">
+        <div className="break-word w-full text-white no-underline font-bold mt-3 mb-2 mx-3">
           {props.post.title}
         </div>
 
-        <div className="mt-2 flex max-w-[calc(100%-65px)] items-center gap-1">
+        <div className="flex max-w-[calc(100%-65px)] items-center gap-1 text-muted-foreground text-sm mx-3">
           <Image
-            className="h-6 w-6 shrink-0 rounded-full object-cover sm:h-8 sm:w-8"
-            width={32}
-            height={32}
+            className="h-6 w-6 shrink-0 rounded-full object-cover sm:h-4 sm:w-4"
+            width={24}
+            height={24}
             alt={props.post.profile.name}
             src={props.post.profile.profilePhoto.url}
           />
