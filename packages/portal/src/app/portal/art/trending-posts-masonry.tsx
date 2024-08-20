@@ -1,26 +1,22 @@
 "use client";
 
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback } from "react";
 import { useSocialPosts } from "@/app/portal/art/hooks/use-social-posts";
 import { Button } from "@/components/ui/button";
 import { ImagePlus, Sparkles } from "lucide-react";
-import {
-  SocialPost,
-  SocialPostsQuery,
-  TextToImageHistoryQueryVariables,
-} from "@/gql/graphql";
+import { SocialPost, SocialPostsQuery } from "@/gql/graphql";
 import Image from "next/image";
 import InfiniteScroll from "react-infinite-scroll-component";
-import { PostDetails } from "@/app/portal/art/post-details/post-details";
+import { PostDetailsDialog } from "@/app/portal/art/post-details/post-details-dialog";
 import { useTranslation } from "@/lib/i18n-client-use-translation";
 
 function selectSocialPosts(dataTrendingPosts: SocialPostsQuery | undefined) {
   return dataTrendingPosts?.socialPosts.edges.map((ed) => ed.node) || [];
 }
 
-function PostItem(props: { photo: any; post: SocialPost }) {
+function PostMasonryItem(props: { photo: any; post: SocialPost }) {
   return (
-    <PostDetails post={props.post}>
+    <PostDetailsDialog post={props.post}>
       <div className={"mb-8"}>
         {props.photo?.width && props.photo?.height ? (
           <Image
@@ -52,21 +48,19 @@ function PostItem(props: { photo: any; post: SocialPost }) {
           {props.post.profile.name}
         </div>
       </div>
-    </PostDetails>
+    </PostDetailsDialog>
   );
 }
 
 const pageSize = 20;
 
 export const TrendingPostsMasonry = () => {
-  const { dataTrendingPosts, loadingTrendingPosts, fetchMoreSocialPosts } =
+  const { dataSocialPosts, loadingSocialPosts, fetchMoreSocialPosts } =
     useSocialPosts(pageSize, "0");
 
-  const postGroups = groupIntertwined(
-    selectSocialPosts(dataTrendingPosts) || [],
-  );
-  const endCursor = dataTrendingPosts?.socialPosts.pageInfo.endCursor || "";
-  const hasNext = !!dataTrendingPosts?.socialPosts.pageInfo.hasNextPage;
+  const postGroups = groupIntertwined(selectSocialPosts(dataSocialPosts) || []);
+  const endCursor = dataSocialPosts?.socialPosts.pageInfo.endCursor || "";
+  const hasNext = !!dataSocialPosts?.socialPosts.pageInfo.hasNextPage;
 
   const loadMoreItems = useCallback(async () => {
     if (hasNext) {
@@ -76,7 +70,7 @@ export const TrendingPostsMasonry = () => {
 
   const { t } = useTranslation();
 
-  if (loadingTrendingPosts) {
+  if (loadingSocialPosts) {
     return <></>;
   }
   return (
@@ -99,14 +93,18 @@ export const TrendingPostsMasonry = () => {
                 <InfiniteScroll
                   dataLength={group.length}
                   next={loadMoreItems}
-                  hasMore={
-                    !!dataTrendingPosts?.socialPosts.pageInfo.hasNextPage
-                  }
+                  hasMore={!!dataSocialPosts?.socialPosts.pageInfo.hasNextPage}
                   loader={<h4>Loading...</h4>}
                 >
                   {group.map((post) => {
                     const photo = post.photoMedia?.at(0);
-                    return <PostItem key={post.id} photo={photo} post={post} />;
+                    return (
+                      <PostMasonryItem
+                        key={post.id}
+                        photo={photo}
+                        post={post}
+                      />
+                    );
                   })}
                 </InfiniteScroll>
               </div>
@@ -117,7 +115,9 @@ export const TrendingPostsMasonry = () => {
             <div className="gap-4" key={ii}>
               {group.map((post) => {
                 const photo = post.photoMedia?.at(0);
-                return <PostItem key={post.id} photo={photo} post={post} />;
+                return (
+                  <PostMasonryItem key={post.id} photo={photo} post={post} />
+                );
               })}
             </div>
           );

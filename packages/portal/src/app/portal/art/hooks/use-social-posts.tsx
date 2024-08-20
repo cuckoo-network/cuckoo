@@ -14,9 +14,9 @@ export const useSocialPosts = (first: number, after: string) => {
     },
   );
   return {
-    loadingTrendingPosts: loading,
-    dataTrendingPosts: data,
-    errorTrendingPosts: error,
+    loadingSocialPosts: loading,
+    dataSocialPosts: data,
+    errorSocialPosts: error,
     fetchMoreSocialPosts: (first: number, after: string) => {
       return fetchMore({
         variables: {
@@ -46,13 +46,13 @@ export const useSocialPost = (id?: string) => {
         id,
       },
       skip: !id,
-      fetchPolicy: "network-only",
+      fetchPolicy: "cache-first",
     },
   );
   return {
-    loadingTrendingPost: loading,
-    dataTrendingPost: data,
-    errorTrendingPost: error,
-    fetchTrendingPost: refetch,
+    loadingSocialPost: loading,
+    dataSocialPost: data,
+    errorSocialPost: error,
+    fetchSocialPost: refetch,
   };
 };

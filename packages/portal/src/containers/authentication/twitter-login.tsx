@@ -90,7 +90,7 @@ const LoginInner = ({ isLoading }: { isLoading: boolean }) => {
         ) : (
           <Twitter className="mr-2 h-4 w-4" />
         )}{" "}
-        Continue with Twitter
+        Continue with 𝕏 / Twitter
       </Button>
     </>
   );
