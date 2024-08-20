@@ -80,3 +80,9 @@ em {
   color: black;
   font-style: normal;
 }
+
+.hidden-link {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}

@@ -47,6 +47,9 @@ function PostMasonryItem(props: { photo: any; post: SocialPost }) {
 
           {props.post.profile.name}
         </div>
+
+        <a href={`/portal/art/${props.post.id}`} className="hidden-link" aria-hidden="true">Hidden Link</a>
+
       </div>
     </PostDetailsDialog>
   );
