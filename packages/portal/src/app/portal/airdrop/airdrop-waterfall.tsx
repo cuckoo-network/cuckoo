@@ -63,7 +63,7 @@ export const AirdropWaterfall = () => {
     linkAccountLoading ||
     loadingUser;
 
-  const referLink = `https://cuckoo.network/portal/airdrop?referer=${dataUser?.user.username}`;
+  const referLink = `https://cuckoo.network/portal/airdrop?referer=${dataUser?.user.username || "CuckooNetworkHQ"}`;
 
   const copyToClipboard = async (text: string): Promise<void> => {
     await navigator.clipboard.writeText(text);
