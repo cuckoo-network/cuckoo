@@ -27,14 +27,12 @@
 
 🌊 For Developers, Get Cuckoo Testnet Token
 
-- Visit the [Faucet](https://cuckoo.network/tg)
-- Use the `/faucet` command
-- Check your transaction at [Cuckoo Scan](https://scan.cuckoo.network/)
-- Generate images with `/imagine a cute dog`
+- Visit the [Faucet](https://cuckoo.network/portal/faucet)
 
 🔗 Useful links:
 
-- Website: https://cuckoo.network/
+- Cuckoo Art: https://cuckoo.network/portal/art
+- Home Website: https://cuckoo.network/
 - Blogs: https://cuckoo.network/blogs
 - X: https://cuckoo.network/x
 - WP: https://cuckoo.network/docs/cuckoo-network

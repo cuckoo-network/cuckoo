@@ -25,16 +25,14 @@
 - Nhận $CAI miễn phí từ https://cuckoo.network/portal/airdrop?referer=CuckooNetworkHQ
 - Giới thiệu bạn bè với liên kết giới thiệu của bạn, nhận _30%_ airdrop của họ.
 
-🌊 Dành cho Nhà Phát Triển, Nhận Token Testnet của Cuckoo
+🌊 Dành cho Nhà Phát Triển, Nhận Token Testnet Cuckoo
 
-- Truy cập [Faucet](https://cuckoo.network/tg)
-- Sử dụng lệnh `/faucet`
-- Kiểm tra giao dịch của bạn tại [Cuckoo Scan](https://scan.cuckoo.network/)
-- Tạo hình ảnh với lệnh `/imagine a cute dog`
+- Truy cập [Faucet](https://cuckoo.network/portal/faucet)
 
 🔗 Liên kết hữu ích:
 
-- Trang web: https://cuckoo.network/
+- Nghệ thuật Cuckoo: https://cuckoo.network/portal/art
+- Trang chủ: https://cuckoo.network/
 - Blogs: https://cuckoo.network/blogs
 - X: https://cuckoo.network/x
 - WP: https://cuckoo.network/docs/cuckoo-network

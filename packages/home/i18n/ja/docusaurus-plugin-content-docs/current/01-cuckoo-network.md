@@ -25,16 +25,14 @@
 - https://cuckoo.network/portal/airdrop?referer=CuckooNetworkHQ から無料の$CAIを獲得
 - あなたのリファーラルリンクで友達を紹介し、彼らのエアドロップの_30%_を獲得
 
-🌊 開発者向け：Cuckooテストネットトークンを取得
+🌊 開発者向け：Cuckooテストネットトークンを入手
 
-- [Faucet](https://cuckoo.network/tg) にアクセス
-- `/faucet` コマンドを使用
-- [Cuckoo Scan](https://scan.cuckoo.network/) でトランザクションを確認
-- `/imagine a cute dog` で画像を生成
+- [ファウセット](https://cuckoo.network/portal/faucet)にアクセス
 
-🔗 便利なリンク:
+🔗 便利なリンク：
 
-- ウェブサイト: https://cuckoo.network/
+- Cuckooアート：https://cuckoo.network/portal/art
+- ホームページ：https://cuckoo.network/
 - ブログ: https://cuckoo.network/blogs
 - X: https://cuckoo.network/x
 - WP: https://cuckoo.network/docs/cuckoo-network

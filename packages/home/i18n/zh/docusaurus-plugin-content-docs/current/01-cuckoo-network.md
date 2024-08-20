@@ -25,16 +25,14 @@
 - 从 https://cuckoo.network/portal/airdrop?referer=CuckooNetworkHQ 获取免费 $CAI
 - 使用你的推荐链接邀请朋友，获得他们空投的 _30%_
 
-🌊 开发者，请获取 Cuckoo 测试网代币
+🌊 对于开发者，获取 Cuckoo 测试网代币
 
-- 访问 [水龙头](https://cuckoo.network/tg)
-- 使用 `/faucet` 命令
-- 在 [Cuckoo Scan](https://scan.cuckoo.network/) 查看你的交易
-- 使用 `/imagine a cute dog` 生成图像
+- 访问 [水龙头](https://cuckoo.network/portal/faucet)
 
 🔗 有用的链接：
 
-- 网站：https://cuckoo.network/
+- Cuckoo 艺术：https://cuckoo.network/portal/art
+- 官网：https://cuckoo.network/
 - 博客：https://cuckoo.network/blogs
 - X：https://cuckoo.network/x
 - 白皮书：https://cuckoo.network/docs/cuckoo-network
