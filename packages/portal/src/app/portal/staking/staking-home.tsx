@@ -12,6 +12,7 @@ import { chainConfigs } from "@/lib/chain-configs";
 import { ConnectWallet, ThirdwebProvider } from "@thirdweb-dev/react";
 import { YourVotes } from "@/app/portal/staking/your-votes";
 import { TestnetBadge } from "@/components/testnet-badge";
+import { StakingFaq } from "@/app/portal/staking/staking-faq";
 
 type Props = {
   isTestnet?: boolean;
@@ -69,6 +70,7 @@ export function StakingHome({ isTestnet }: Props) {
         <YourVotes />
       </div>
       <MinerTable />
+      <StakingFaq />
     </ThirdwebProvider>
   );
 }
