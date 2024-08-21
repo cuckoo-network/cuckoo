@@ -13,6 +13,7 @@ import { ConnectWallet, ThirdwebProvider } from "@thirdweb-dev/react";
 import { YourVotes } from "@/app/portal/staking/your-votes";
 import { TestnetBadge } from "@/components/testnet-badge";
 import { StakingFaq } from "@/app/portal/staking/staking-faq";
+import { GetCaiBanner } from "@/components/get-cai-banner";
 
 type Props = {
   isTestnet?: boolean;
@@ -48,6 +49,7 @@ export function StakingHome({ isTestnet }: Props) {
         </div>
       )}
       <ConnectWalletWrapper />
+      <GetCaiBanner />
       <h4 className={"text-lg"}>
         {
           "To start staking and earning, you'll need WCAI. Don't have WCAI? Convert your CAI to WCAI."

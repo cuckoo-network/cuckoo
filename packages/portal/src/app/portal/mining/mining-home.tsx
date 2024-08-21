@@ -2,6 +2,7 @@
 
 import { MinerTable } from "@/app/portal/staking/miner-table";
 import { Button } from "@/components/ui/button";
+import { GetCaiBanner } from "@/components/get-cai-banner";
 
 export const MiningHome = () => {
   return (
@@ -11,6 +12,8 @@ export const MiningHome = () => {
       </blockquote>
 
       <Banner />
+
+      <GetCaiBanner />
 
       <MinerTable />
     </>

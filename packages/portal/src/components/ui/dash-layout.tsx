@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import {
+  ArrowRightLeft,
   Bell,
   Bird,
   Droplet,
@@ -11,6 +12,7 @@ import {
   History,
   Menu,
   Pickaxe,
+  SquareArrowOutUpRight,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -42,6 +44,11 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
       href: "/portal/faucet",
       label: t("navigation_testnet_faucet"),
       icon: Droplet,
+    },
+    {
+      href: "https://bridge.cuckoo.network/",
+      label: t("navigation_bridge"),
+      icon: ArrowRightLeft,
     },
   ];
 
@@ -75,6 +82,7 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
                 <Link
                   key={item.label}
                   href={item.href}
+                  target={item.href.startsWith("http") ? "_blank" : undefined}
                   className={`flex items-center gap-3 rounded-lg px-3 py-2 transition-all ${
                     pathname === item.href
                       ? "bg-muted px-3 py-2 text-primary"
@@ -83,6 +91,9 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
                 >
                   <item.icon className="h-4 w-4" />
                   {item.label}
+                  {item.href.startsWith("http") ? (
+                    <SquareArrowOutUpRight className={"h-4 w-4"} />
+                  ) : undefined}
                 </Link>
               ))}
             </nav>
@@ -142,6 +153,7 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
                   <Link
                     key={item.label}
                     href={item.href}
+                    target={item.href.startsWith("http") ? "_blank" : undefined}
                     className={`mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 ${
                       pathname === item.href
                         ? "bg-muted px-3 py-2 text-primary"
@@ -150,6 +162,9 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
                   >
                     <item.icon className="h-5 w-5" />
                     {item.label}
+                    {item.href.startsWith("http") ? (
+                      <SquareArrowOutUpRight />
+                    ) : undefined}
                   </Link>
                 ))}
               </nav>

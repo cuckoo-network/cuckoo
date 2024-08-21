@@ -4,6 +4,8 @@ import { Metadata } from "next";
 import { AirdropWaterfall } from "@/app/portal/airdrop/airdrop-waterfall";
 import { AirdropOverallStats } from "@/app/portal/airdrop/airdrop-overall-stats";
 import { Suspense } from "react";
+import Image from "next/image";
+import { GetCaiBanner } from "@/components/get-cai-banner";
 
 const cfg = {
   title: "Cuckoo Network Airdrop",
@@ -29,6 +31,9 @@ export default function AirdropPage() {
       </div>
 
       <AirdropOverallStats />
+
+      <GetCaiBanner />
+
       <Suspense>
         <AirdropWaterfall />
       </Suspense>

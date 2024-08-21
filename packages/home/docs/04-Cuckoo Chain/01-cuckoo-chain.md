@@ -22,6 +22,7 @@ Contracts
 | WCAI wrapped token contract | <pre>[0x142AB2B626cB26A1F2584b166D4eEd0c47cEB9ac](https://scan.cuckoo.network/address/0x142AB2B626cB26A1F2584b166D4eEd0c47cEB9ac)</pre> |
 | Staking contract            | <pre>[0x47EC8202018447B424C8F6B4f6e5b603Be0c35CD](https://scan.cuckoo.network/address/0x47EC8202018447B424C8F6B4f6e5b603Be0c35CD)</pre> |
 | Voting contract             | <pre>[0x376bcdBcc649Df441B5F5AE420D6b79a2fCe92A3](https://scan.cuckoo.network/address/0x376bcdBcc649Df441B5F5AE420D6b79a2fCe92A3)</pre> |
+| CAI Bridged to Arbitrum     | <pre>[0x9e3C88E95811DB0db93B675f9985faFf3972C615](https://arbiscan.io/address/0x9e3C88E95811DB0db93B675f9985faFf3972C615)</pre>         |
 
 ## Cuckoo Alpha Testnet
 

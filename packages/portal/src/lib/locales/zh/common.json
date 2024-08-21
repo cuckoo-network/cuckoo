@@ -5,6 +5,7 @@
   "navigation_mining": "挖矿",
   "navigation_testnet_faucet": "测试网水龙头",
   "navigation_cuckoo_portal": "布谷门户",
+  "navigation_bridge": "桥",
   "buttons_toggle_notifications": "切换通知",
   "buttons_toggle_navigation_menu": "切换导航菜单",
   "buttons_join": "加入",
@@ -25,5 +26,9 @@
   "art_selected_image_alt": "已选择的图片",
   "art_upload_button": "点击 + 上传照片或视频",
   "art_upload_rules": "确保您上传的内容符合我们的规则。",
-  "art_text_to_image_subtitle": "通过提示创建AI艺术。"
+  "art_text_to_image_subtitle": "通过提示创建AI艺术。",
+
+  "components_need_more_cai": "需要更多 $CAI？从 Arbitrum 上的 Uniswap 获取，然后桥接到 Cuckoo Network",
+  "components_uniswap_alt": "uniswap",
+  "components_cuckoo_bridge_alt": "cuckoo 桥接"
 }
