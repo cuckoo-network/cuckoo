@@ -11,12 +11,12 @@
     "message": "Hình minh họa chính",
     "description": "The alt text for the hero illustration"
   },
-  "Cuckoo AI Onchain Creative Platform for Anime Fandom": {
-    "message": "Nền tảng Sáng tạo AI Onchain Cuckoo cho người hâm mộ Anime",
+  "Onchain Creative Platform for Creators and Builders": {
+    "message": "Nền tảng Sáng tạo Onchain cho Người sáng tạo và Nhà phát triển",
     "description": "Site tagline"
   },
-  "Create and share your gen AI arts. Share your GPU or CPU with Gen AI App builders to generate images and perform LLM inference on Cuckoo Chain.": {
-    "message": "Tạo và chia sẻ nghệ thuật AI của bạn. Chia sẻ GPU hoặc CPU của bạn với các nhà phát triển ứng dụng Gen AI để tạo hình ảnh và thực hiện suy luận LLM trên Cuckoo Chain.",
+  "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
+    "message": "Tạo ra nghệ thuật AI tuyệt đẹp và cung cấp năng lượng cho các ứng dụng Gen AI bằng GPU hoặc CPU của bạn trên Cuckoo Chain. Chia sẻ, tạo ra và khai phá sức mạnh của AI phi tập trung.",
     "description": "Site description"
   },
   "Newsletter iframe": {

@@ -5,10 +5,10 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 const config: Config = {
   title: "Cuckoo AI",
-  tagline: "Cuckoo AI Onchain Creative Platform for Anime Fandom",
+  tagline: "Onchain Creative Platform for Creators and Builders",
   customFields: {
     description:
-      "Create and share your gen AI arts. Share your GPU or CPU with Gen AI App builders to generate images and perform LLM inference on Cuckoo Chain.",
+      "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.",
   },
   titleDelimiter: "-",
   favicon: "img/favicon.png",
@@ -92,7 +92,7 @@ const config: Config = {
     navbar: {
       title: "",
       logo: {
-        alt: "Cuckoo Network Logo",
+        alt: "Cuckoo AI Logo",
         src: "https://cuckoo-network.b-cdn.net/white-full-logo.svg",
       },
       items: [

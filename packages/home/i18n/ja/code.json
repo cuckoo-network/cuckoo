@@ -11,12 +11,12 @@
     "message": "ヒーローイラスト",
     "description": "The alt text for the hero illustration"
   },
-  "Cuckoo AI Onchain Creative Platform for Anime Fandom": {
-    "message": "アニメファンのためのCuckoo AIオンチェーンクリエイティブプラットフォーム",
+  "Onchain Creative Platform for Creators and Builders": {
+    "message": "クリエイターとビルダーのためのオンチェーン創作プラットフォーム",
     "description": "Site tagline"
   },
-  "Create and share your gen AI arts. Share your GPU or CPU with Gen AI App builders to generate images and perform LLM inference on Cuckoo Chain.": {
-    "message": "生成AIアートを作成して共有しましょう。Cuckoo Chain上で画像を生成し、LLM推論を行うために、生成AIアプリ開発者とGPUまたはCPUを共有してください。",
+  "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
+    "message": "Cuckoo Chainで驚異的なAIアートを作成し、GPUやCPUで生成AIアプリを強化しましょう。分かち合い、生成し、分散型AIの力を解き放ちましょう。",
     "description": "Site description"
   },
   "Newsletter iframe": {

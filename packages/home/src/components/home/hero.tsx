@@ -62,7 +62,7 @@ export function Hero() {
               data-aos-delay="100"
             >
               {translate({
-                message: "Cuckoo AI Onchain Creative Platform for Anime Fandom",
+                message: "Onchain Creative Platform for Creators and Builders",
                 description: 'Site tagline'
               })}
             </h1>
@@ -72,7 +72,7 @@ export function Hero() {
               data-aos-delay="200"
             >
               {translate({
-                message: "Create and share your gen AI arts. Share your GPU or CPU with Gen AI App builders to generate images and perform LLM inference on Cuckoo Chain.",
+                message: "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.",
                 description: 'Site description'
               })}
             </p>

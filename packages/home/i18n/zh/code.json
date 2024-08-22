@@ -314,8 +314,8 @@
     "message": "赚取",
     "description": "homepage's hero section's secondary action CTA"
   },
-  "Cuckoo AI Onchain Creative Platform for Anime Fandom": {
-    "message": "Cuckoo AI 面向动漫爱好者的链上创作平台",
+  "Onchain Creative Platform for Creators and Builders": {
+    "message": "链上创作平台，为创作者和开发者而生",
     "description": "Site tagline"
   },
   "Cuckoo Chain: The Premier Blockchain for AI": {
@@ -326,8 +326,8 @@
     "message": "Cuckoo Chain 致力于改变 AI 区块链格局。作为以太坊生态系统中的 Arbitrum L2，它为 AI 开发者带来简化的开发体验、快速性和高效性，成为寻求强大且可扩展解决方案的 Web3 + AI 用户的首选。",
     "description": "Page description for Cuckoo Chain homepage"
   },
-  "Create and share your gen AI arts. Share your GPU or CPU with Gen AI App builders to generate images and perform LLM inference on Cuckoo Chain.": {
-    "message": "创建并分享您的生成式 AI 艺术。将您的 GPU 或 CPU 分享给生成式 AI 应用程序构建者，用于在 Cuckoo Chain 上生成图像并执行 LLM 推理。",
+  "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
+    "message": "在 Cuckoo 链上创建令人惊叹的 AI 艺术，并使用您的 GPU 或 CPU 为生成式 AI 应用程序提供动力。分享、生成并释放去中心化 AI 的力量。",
     "description": "Site description"
   },
   "Experience Decentralized AI Now": {

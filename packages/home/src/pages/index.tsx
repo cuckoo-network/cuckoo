@@ -15,11 +15,11 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={translate({
-        message: "Cuckoo AI Onchain Creative Platform for Anime Fandom",
+        message: "Cuckoo AI Onchain Creative Platform for Creators and Builders",
         description: 'The site tagline',
       })}
       description={translate({
-        message: "Create and share your gen AI arts. Share your GPU or CPU with Gen AI App builders to generate images and perform LLM inference on Cuckoo Chain.",
+        message: "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.",
         description: 'The site description',
       })}
     >
