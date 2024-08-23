@@ -3,6 +3,7 @@ import Image from "next/image";
 import { SocialPost } from "@/gql/graphql";
 import { useUser } from "@/containers/authentication/hooks/use-user";
 import { ShareToTwitter } from "@/app/portal/art/post-details/share-to-twitter";
+import { DeleteButton } from "@/app/portal/art/post-details/delete-button";
 
 export const PostDetailsContent = ({
   post,
@@ -242,6 +243,8 @@ export const PostDetailsContent = ({
           </div>
 
           <ShareToTwitter post={post} />
+
+          <DeleteButton isAdmin={dataUser?.user.isAdmin} postId={post?.id} />
         </div>
         <div className="w-full hidden">
           <p className="mb-3 font-bold text-primaryText">Comments (105)</p>
