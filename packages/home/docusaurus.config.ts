@@ -60,6 +60,10 @@ const config: Config = {
             from: ["/dc"],
             to: "https://discord.gg/W5nbdn7yye",
           },
+          {
+            from: ["/reddit"],
+            to: "https://www.reddit.com/r/CuckooAI/",
+          }
         ],
       },
     ],
@@ -215,7 +219,7 @@ const config: Config = {
             },
             {
               label: "Reddit",
-              href: "https://www.reddit.com/r/CuckooAI/",
+              href: "https://cuckoo.network/reddit",
             },
             {
               label: "Email: hello@cuckoo.network",
