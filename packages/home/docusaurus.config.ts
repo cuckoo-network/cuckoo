@@ -32,9 +32,14 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "vi",
+    locales: [
+      "en",
+      "vi",
       // "id", "pt",
-      "ru", "zh", "ja"],
+      "ru",
+      "zh",
+      "ja",
+    ],
   },
 
   plugins: [
@@ -124,16 +129,16 @@ const config: Config = {
           position: "right",
         },
         {
-          type: 'localeDropdown',
-          position: 'right',
+          type: "localeDropdown",
+          position: "right",
           dropdownItemsAfter: [
             {
-              type: 'html',
+              type: "html",
               value: '<hr style="margin: 0.3rem 0;">',
             },
             {
-              href: 'https://github.com/cuckoo-network/cuckoo/issues/12',
-              label: 'Help Us Translate',
+              href: "https://github.com/cuckoo-network/cuckoo/issues/12",
+              label: "Help Us Translate",
             },
           ],
         },
@@ -207,6 +212,10 @@ const config: Config = {
             {
               label: "𝕏",
               href: "https://cuckoo.network/x",
+            },
+            {
+              label: "Reddit",
+              href: "https://www.reddit.com/r/CuckooAI/",
             },
             {
               label: "Email: hello@cuckoo.network",
