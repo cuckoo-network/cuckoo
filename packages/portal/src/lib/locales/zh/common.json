@@ -28,7 +28,7 @@
   "art_upload_rules": "确保您上传的内容符合我们的规则。",
   "art_text_to_image_subtitle": "通过提示创建AI艺术。",
 
-  "components_need_more_cai": "需要更多 $CAI？从 Arbitrum 上的 Uniswap 获取，然后桥接到 Cuckoo Network",
+  "components_need_more_cai": "需要更多 $CAI？从 Arbitrum 上的 Uniswap 或者 Ave.ai 获取，然后桥接到 Cuckoo Network",
   "components_uniswap_alt": "uniswap",
   "components_cuckoo_bridge_alt": "cuckoo 桥接"
 }

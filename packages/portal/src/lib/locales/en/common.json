@@ -30,7 +30,7 @@
 
   "art_text_to_image_subtitle": "Create AI art by prompting.",
 
-  "components_need_more_cai": "Need more $CAI? Get from Uniswap on Arbitrum and then bridge to Cuckoo Network",
+  "components_need_more_cai": "Need more $CAI? Get from Uniswap or Ave.ai on Arbitrum and then bridge to Cuckoo Network",
   "components_uniswap_alt": "uniswap",
   "components_cuckoo_bridge_alt": "cuckoo bridge"
 }
