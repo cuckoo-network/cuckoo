@@ -58,4 +58,4 @@ A: This feature increases exposure for our artists, potentially attracts new use
 
 A: Currently, the sharing feature focuses on the artwork itself and doesn't directly integrate with blockchain tokens. However, we're exploring potential future features that could allow users to mint their Cuckoo Art creations as ERC721 NFTs or associate them with ERC20 meme tokens. These tokens could potentially be referenced or showcased when sharing to X/Twitter, adding an extra layer of blockchain integration and value to the shared content. Stay tuned for updates on this exciting possibility!
 
-For more information about Cuckoo Art and its features, visit [website URL].
+For more information about Cuckoo Art and its features, visit [website URL](https://cuckoo.network/portal/art).
