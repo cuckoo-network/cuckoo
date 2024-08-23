@@ -8,7 +8,13 @@ Trong hành trình phi tập trung hóa trí tuệ nhân tạo về mặt kỹ t
 
 Cuckoo AI tận dụng công nghệ blockchain để tạo ra một nền tảng phi tập trung, nơi các nhiệm vụ AI được phân phối cho một mạng lưới thợ đào, trong khi các nhà xây dựng ứng dụng và điều phối viên đảm bảo chất lượng và tính phù hợp của đầu ra AI. Hệ sinh thái này được hỗ trợ bởi Cuckoo Pay, một hệ thống thanh toán dựa trên blockchain, tạo điều kiện cho các giao dịch trong nền tảng.
 
+## Tech Stack
+
+![Cuckoo AI Tech Stack](https://cuckoo-network.b-cdn.net/cuckoo-tech-stack-img.webp "Cuckoo AI Tech Stack")
+
 ### Các thành phần chính
+
+![Our Better Way](https://cuckoo-network.b-cdn.net/depin-layer-key-components.webp)
 
 1. **Thợ đào:** Cá nhân hoặc tổ chức cung cấp tài nguyên tính toán để thực hiện các nhiệm vụ AI.
 2. **Nhà xây dựng ứng dụng (Nút điều phối):** Các nhà phát triển tạo ra các ứng dụng AI trên nền tảng Cuckoo AI, chịu trách nhiệm phân phối nhiệm vụ và kiểm soát chất lượng.

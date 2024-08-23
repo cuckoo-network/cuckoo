@@ -8,7 +8,13 @@
 
 Cuckoo AI 利用区块链技术创建了一个去中心化平台，在该平台中，AI 任务被分配给矿工网络，而应用构建者和协调者则确保 AI 输出的质量和相关性。该生态系统由 Cuckoo Pay 提供支持，这是一种基于区块链的支付系统，用于平台内的交易。
 
+## Tech Stack
+
+![Cuckoo AI Tech Stack](https://cuckoo-network.b-cdn.net/cuckoo-tech-stack-img.webp "Cuckoo AI Tech Stack")
+
 ### 关键组件
+
+![Our Better Way](https://cuckoo-network.b-cdn.net/depin-layer-key-components.webp)
 
 1. **矿工：** 运行计算资源以执行 AI 任务的个人或实体。
 2. **应用构建者（协调节点）：** 在 Cuckoo AI 上创建 AI 应用程序的开发者，负责任务分配和质量控制。

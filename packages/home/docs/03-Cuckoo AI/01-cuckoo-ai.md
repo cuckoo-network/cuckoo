@@ -1,6 +1,6 @@
 # Cuckoo AI
 
-**Decentralized Model Serving **
+**Decentralized Model Serving**
 
 As we embark on the journey to decentralize artificial intelligence technically, this document aims to provide a comprehensive guide to developers, Miners, app builders, and stakeholders involved in the Cuckoo AI ecosystem. Here, we outline the core components, interactions, and procedures critical to ensuring a seamless and trustworthy decentralized AI network.
 
@@ -8,7 +8,13 @@ As we embark on the journey to decentralize artificial intelligence technically,
 
 Cuckoo AI leverages blockchain technology to create a decentralized platform where AI tasks are distributed among a network of Miners, while app builders and coordinators ensure the quality and relevance of AI outputs. This ecosystem is powered by the Cuckoo Pay, a blockchain-based payment system facilitating transactions within the platform.
 
-### Key Components
+## Tech Stack
+
+![Cuckoo AI Tech Stack](https://cuckoo-network.b-cdn.net/cuckoo-tech-stack-img.webp "Cuckoo AI Tech Stack")
+
+### DePIN Layer Key Components
+
+![Our Better Way](https://cuckoo-network.b-cdn.net/depin-layer-key-components.webp)
 
 1. **Miners:** Individuals or entities running computation resources to execute AI tasks.
 2. **App Builders (Coordinator Nodes):** Developers creating AI applications on top of Cuckoo AI, overseeing task distribution and quality control.

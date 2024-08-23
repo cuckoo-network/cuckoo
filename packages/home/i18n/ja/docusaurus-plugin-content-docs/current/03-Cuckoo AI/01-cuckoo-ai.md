@@ -8,7 +8,13 @@
 
 Cuckoo AIは、ブロックチェーン技術を活用して、AIタスクをマイナーのネットワークに分散させる分散型プラットフォームを作り出します。一方で、アプリビルダーとコーディネーターはAI出力の品質と関連性を確保します。このエコシステムは、プラットフォーム内での取引を促進するブロックチェーンベースの支払いシステムであるCuckoo Payによって支えられています。
 
+## Tech Stack
+
+![Cuckoo AI Tech Stack](https://cuckoo-network.b-cdn.net/cuckoo-tech-stack-img.webp "Cuckoo AI Tech Stack")
+
 ### 主要コンポーネント
+
+![Our Better Way](https://cuckoo-network.b-cdn.net/depin-layer-key-components.webp)
 
 1. **マイナー:** AIタスクを実行するための計算リソースを運用する個人または団体。
 2. **アプリビルダー（コーディネーターノード）:** Cuckoo AI上にAIアプリケーションを構築し、タスクの配分と品質管理を担当する開発者。
