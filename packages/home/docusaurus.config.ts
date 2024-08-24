@@ -5,7 +5,7 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 const config: Config = {
   title: "Cuckoo AI",
-  tagline: "Onchain Creative Platform for Creators and Builders",
+  tagline: "Decentralized AI Creative Platform for Creators & Builders",
   customFields: {
     description:
       "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.",

@@ -62,7 +62,7 @@ export function Hero() {
               data-aos-delay="100"
             >
               {translate({
-                message: "Onchain Creative Platform for Creators and Builders",
+                message: "Decentralized AI Creative Platform for Creators & Builders",
                 description: 'Site tagline'
               })}
             </h1>

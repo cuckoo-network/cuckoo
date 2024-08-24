@@ -15,7 +15,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={translate({
-        message: "Cuckoo AI Onchain Creative Platform for Creators and Builders",
+        message: "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders",
         description: 'The site tagline',
       })}
       description={translate({

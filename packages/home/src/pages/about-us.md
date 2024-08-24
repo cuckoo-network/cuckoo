@@ -6,8 +6,8 @@ image: https://cuckoo-network.b-cdn.net/cuckoo-social-card.png
 <head>
   <meta name="twitter:site" content="@CuckooNetworkHQ"/>
   <meta name="twitter:title" content="About Us - Cuckoo AI Network"/>
-  <meta name="twitter:description" content="Cuckoo AI is an Onchain Creative Platform for Creators and Builders."/>
-  <meta name="og:description" content="Cuckoo AI is an Onchain Creative Platform for Creators and Builders."/>
+  <meta name="twitter:description" content="Cuckoo AI is a Decentralized AI Creative Platform for Creators & Builders."/>
+  <meta name="og:description" content="Cuckoo AI is a Decentralized AI Creative Platform for Creators & Builders."/>
   <meta
     property="og:image"
     content="https://cuckoo-network.b-cdn.net/cuckoo-social-card.png"
