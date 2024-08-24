@@ -10,7 +10,10 @@ import { GetCaiBanner } from "@/components/get-cai-banner";
 const cfg = {
   title: "Cuckoo Network Airdrop",
   site: "@CuckooNetworkHQ",
-  images: ["https://cuckoo-network.b-cdn.net/cuckoo-social-card.webp"],
+  images: ["https://cuckoo-network.b-cdn.net/2024-07-25-cuckoo-network-airdrop-portal.webp"],
+  openGraph: {
+    images: ["https://cuckoo-network.b-cdn.net/2024-07-25-cuckoo-network-airdrop-portal.webp"],
+  },
   description: "Get $CAI cuckoo network tokens for free",
 };
 
