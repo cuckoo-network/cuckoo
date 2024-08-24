@@ -17,17 +17,21 @@ export default function useMobileDevice() {
     checkMobile(); // Check on mount
 
     // Throttle function to limit the rate at which `checkMobile` is invoked
-    let timeoutId;
+    let timeoutId: number | undefined;
     const handleResize = () => {
-      clearTimeout(timeoutId);
-      timeoutId = setTimeout(checkMobile, 150); // Adjust the delay as needed
+      if (timeoutId !== undefined) {
+        clearTimeout(timeoutId);
+      }
+      timeoutId = window.setTimeout(checkMobile, 150); // Adjust the delay as needed
     };
 
     window.addEventListener("resize", handleResize);
 
     return () => {
       window.removeEventListener("resize", handleResize);
-      clearTimeout(timeoutId);
+      if (timeoutId !== undefined) {
+        clearTimeout(timeoutId);
+      }
     };
   }, []);
 
