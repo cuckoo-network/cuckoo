@@ -6,7 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { CircleHelp, Dices } from "lucide-react";
+import { CircleHelp } from "lucide-react";
 import {
   Popover,
   PopoverContent,
@@ -30,7 +30,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { useRandomPrompt } from "@/app/portal/art/text-to-image/hooks/use-random-prompt";
 
 interface PromptFormProps {
   onSubmit: (params: {
@@ -59,9 +58,6 @@ export const PromptForm: React.FC<PromptFormProps> = ({
   loading,
   ttih,
 }) => {
-  const { randomPromptData, randomPromptRefetch, randomPromptLoading } =
-    useRandomPrompt();
-
   const formRef = useRef<HTMLFormElement>(null);
   const [negativePrompt, setNegativePrompt] = useState(
     ttih?.negativePrompt || defaultPrompt.negativePrompt,
@@ -76,13 +72,8 @@ export const PromptForm: React.FC<PromptFormProps> = ({
       setNegativePrompt(ttih.negativePrompt || defaultPrompt.negativePrompt);
       setPrompt(ttih.prompt || defaultPrompt.prompt);
       setCanvasSize(getKeyBySize(ttih));
-    } else {
-      setNegativePrompt(
-        randomPromptData?.randomPrompt.prompt || defaultPrompt.negativePrompt,
-      );
-      setPrompt(randomPromptData?.randomPrompt.prompt || defaultPrompt.prompt);
     }
-  }, [randomPromptData, ttih]);
+  }, [ttih]);
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
@@ -110,17 +101,6 @@ export const PromptForm: React.FC<PromptFormProps> = ({
               Text that will be used to create an image.
             </PopoverContent>
           </Popover>
-          <Button
-            isLoading={randomPromptLoading}
-            size={"icon"}
-            variant={"secondary"}
-            onClick={async (e) => {
-              e.preventDefault();
-              await randomPromptRefetch();
-            }}
-          >
-            <Dices />
-          </Button>
         </label>
         <Textarea
           id="prompt"
