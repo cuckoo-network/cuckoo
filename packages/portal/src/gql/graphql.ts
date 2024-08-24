@@ -237,6 +237,7 @@ export type Query = {
   /** is the server healthy? */
   health: Scalars["String"]["output"];
   miners: Array<MinerInfo>;
+  randomPrompt: RandomPromptResponse;
   socialPosts: PostConnection;
   textToImageHistory: TextToImageHistoryItemConnection;
   user: User;
@@ -253,6 +254,12 @@ export type QueryTextToImageHistoryArgs = {
   after?: InputMaybe<Scalars["String"]["input"]>;
   first?: InputMaybe<Scalars["Float"]["input"]>;
   id?: InputMaybe<Scalars["ID"]["input"]>;
+};
+
+export type RandomPromptResponse = {
+  __typename?: "RandomPromptResponse";
+  negativePrompt: Scalars["String"]["output"];
+  prompt: Scalars["String"]["output"];
 };
 
 export type RequestAirdropInput = {
@@ -603,6 +610,17 @@ export type CreateTextToImageMutation = {
       postId?: string | null;
       textToImageId?: string | null;
     }>;
+  };
+};
+
+export type RandomPromptQueryVariables = Exact<{ [key: string]: never }>;
+
+export type RandomPromptQuery = {
+  __typename?: "Query";
+  randomPrompt: {
+    __typename?: "RandomPromptResponse";
+    prompt: string;
+    negativePrompt: string;
   };
 };
 
@@ -1536,6 +1554,35 @@ export const CreateTextToImageDocument = {
   CreateTextToImageMutation,
   CreateTextToImageMutationVariables
 >;
+export const RandomPromptDocument = {
+  kind: "Document",
+  definitions: [
+    {
+      kind: "OperationDefinition",
+      operation: "query",
+      name: { kind: "Name", value: "RandomPrompt" },
+      selectionSet: {
+        kind: "SelectionSet",
+        selections: [
+          {
+            kind: "Field",
+            name: { kind: "Name", value: "randomPrompt" },
+            selectionSet: {
+              kind: "SelectionSet",
+              selections: [
+                { kind: "Field", name: { kind: "Name", value: "prompt" } },
+                {
+                  kind: "Field",
+                  name: { kind: "Name", value: "negativePrompt" },
+                },
+              ],
+            },
+          },
+        ],
+      },
+    },
+  ],
+} as unknown as DocumentNode<RandomPromptQuery, RandomPromptQueryVariables>;
 export const TextToImageHistoryDocument = {
   kind: "Document",
   definitions: [

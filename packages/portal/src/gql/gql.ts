@@ -29,7 +29,7 @@ const documents = {
     types.CreatePostDocument,
   "\n  query SocialPosts($after: String, $first: Float, $id: ID) {\n    socialPosts(after: $after, first: $first, id: $id) {\n      pageInfo {\n        hasNextPage\n        endCursor\n        hasPreviousPage\n        startCursor\n      }\n      edges {\n        node {\n          id\n          userId\n          title\n          description\n          postState\n          contentRating\n          photoMedia {\n            id\n            url\n            sortOrder\n            width\n            height\n          }\n          hashtags\n          likes\n          collects\n          comments\n          profile {\n            name\n            profilePhoto {\n              id\n              url\n              sortOrder\n              width\n              height\n            }\n            following\n          }\n          liked\n          deletedAt\n          createdAt\n          updatedAt\n        }\n        cursor\n      }\n    }\n  }\n":
     types.SocialPostsDocument,
-  "mutation InteractWithPost($data: InteractWithPostInput!) {\n  interactWithPost(data: $data)\n}":
+  "\n  mutation InteractWithPost($data: InteractWithPostInput!) {\n    interactWithPost(data: $data)\n  }\n":
     types.InteractWithPostDocument,
   "\n  mutation CreatePhotoMedia($data: PhotoMediaInput2!) {\n    createPhotoMedia(data: $data) {\n      id\n      sortOrder\n      width\n      height\n      readUrl\n      writeUrl\n      postId\n      textToImageId\n    }\n  }\n":
     types.CreatePhotoMediaDocument,
@@ -37,6 +37,8 @@ const documents = {
     types.SetPhotoUploadedDocument,
   "\n  mutation CreateTextToImage($data: TextToImageInput!) {\n    createTextToImage(data: $data) {\n      id\n      prompt\n      negativePrompt\n      samplingSteps\n      width\n      height\n      createdAt\n      photoMedia {\n        id\n        sortOrder\n        width\n        height\n        readUrl\n        writeUrl\n        postId\n        textToImageId\n      }\n    }\n  }\n":
     types.CreateTextToImageDocument,
+  "query RandomPrompt {\n  randomPrompt {\n    prompt\n    negativePrompt\n  }\n}":
+    types.RandomPromptDocument,
   "\n  query TextToImageHistory($after: String, $first: Float, $id: ID) {\n    textToImageHistory(after: $after, first: $first, id: $id) {\n      pageInfo {\n        hasNextPage\n        endCursor\n        hasPreviousPage\n        startCursor\n      }\n      edges {\n        cursor\n        node {\n          id\n          prompt\n          negativePrompt\n          samplingSteps\n          width\n          height\n          createdAt\n          photoMedia {\n            id\n            sortOrder\n            width\n            height\n            readUrl\n            writeUrl\n            postId\n            textToImageId\n          }\n        }\n      }\n    }\n  }\n":
     types.TextToImageHistoryDocument,
   "\n  mutation RequestTokens($address: String!) {\n    requestTokens(address: $address) {\n      erc20TokenTransferHash\n      nativeTokenTransferHash\n    }\n  }\n":
@@ -114,8 +116,8 @@ export function graphql(
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
 export function graphql(
-  source: "mutation InteractWithPost($data: InteractWithPostInput!) {\n  interactWithPost(data: $data)\n}",
-): (typeof documents)["mutation InteractWithPost($data: InteractWithPostInput!) {\n  interactWithPost(data: $data)\n}"];
+  source: "\n  mutation InteractWithPost($data: InteractWithPostInput!) {\n    interactWithPost(data: $data)\n  }\n",
+): (typeof documents)["\n  mutation InteractWithPost($data: InteractWithPostInput!) {\n    interactWithPost(data: $data)\n  }\n"];
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
@@ -134,6 +136,12 @@ export function graphql(
 export function graphql(
   source: "\n  mutation CreateTextToImage($data: TextToImageInput!) {\n    createTextToImage(data: $data) {\n      id\n      prompt\n      negativePrompt\n      samplingSteps\n      width\n      height\n      createdAt\n      photoMedia {\n        id\n        sortOrder\n        width\n        height\n        readUrl\n        writeUrl\n        postId\n        textToImageId\n      }\n    }\n  }\n",
 ): (typeof documents)["\n  mutation CreateTextToImage($data: TextToImageInput!) {\n    createTextToImage(data: $data) {\n      id\n      prompt\n      negativePrompt\n      samplingSteps\n      width\n      height\n      createdAt\n      photoMedia {\n        id\n        sortOrder\n        width\n        height\n        readUrl\n        writeUrl\n        postId\n        textToImageId\n      }\n    }\n  }\n"];
+/**
+ * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
+ */
+export function graphql(
+  source: "query RandomPrompt {\n  randomPrompt {\n    prompt\n    negativePrompt\n  }\n}",
+): (typeof documents)["query RandomPrompt {\n  randomPrompt {\n    prompt\n    negativePrompt\n  }\n}"];
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
