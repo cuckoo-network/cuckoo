@@ -78,7 +78,7 @@ export const PromptForm: React.FC<PromptFormProps> = ({
       setCanvasSize(getKeyBySize(ttih));
     } else {
       setNegativePrompt(
-        randomPromptData?.randomPrompt.prompt || defaultPrompt.negativePrompt,
+        randomPromptData?.randomPrompt.negativePrompt || defaultPrompt.negativePrompt,
       );
       setPrompt(randomPromptData?.randomPrompt.prompt || defaultPrompt.prompt);
     }
