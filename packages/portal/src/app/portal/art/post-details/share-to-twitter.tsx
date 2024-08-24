@@ -14,6 +14,7 @@ export const ShareToTwitter = ({ post }: { post?: SocialPost }) => {
       variant="secondary"
       href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`${post.title ? `${post.title} - ` : ""}${post.description} https://cuckoo.network/portal/art/${post.id}`)}`}
       data-size="large"
+      target={"_blank"}
     >
       <Twitter className="mr-2 h-4 w-4" />
       Tweet

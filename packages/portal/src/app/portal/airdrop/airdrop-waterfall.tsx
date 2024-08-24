@@ -26,6 +26,8 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useUser } from "@/containers/authentication/hooks/use-user";
 import { useReferQueryParams } from "@/containers/authentication/hooks/use-referer-query-param";
+import { Twitter } from "lucide-react";
+import * as React from "react";
 
 export const AirdropWaterfall = () => {
   const { loadingUser, dataUser } = useUser();
@@ -108,13 +110,23 @@ export const AirdropWaterfall = () => {
               {referLink}
             </p>
           </CardContent>
-          <CardFooter>
+          <CardFooter className={"gap-2"}>
+            <Button
+              className="w-full"
+              variant="secondary"
+              target={"_blank"}
+              href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`🚀 Join the Cuckoo Network #Airdrop now to create decentralized AI art! Earn 100 $CAI when you sign up with ${referLink}—limited spots available. 🔥 Join thousands already earning and get more by sharing with friends!`)}`}
+              data-size="large"
+            >
+              <Twitter className="mr-2 h-4 w-4" />
+              Tweet now
+            </Button>
             <Button
               className="w-full"
               variant="secondary"
               onClick={() => copyToClipboard(referLink)}
             >
-              Copy your referral link
+              Copy referral link
             </Button>
           </CardFooter>
         </Card>
