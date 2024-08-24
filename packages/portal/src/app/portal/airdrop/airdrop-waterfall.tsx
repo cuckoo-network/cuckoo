@@ -115,7 +115,7 @@ export const AirdropWaterfall = () => {
               className="w-full"
               variant="secondary"
               target={"_blank"}
-              href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`🚀 Join the Cuckoo Network #Airdrop now to create decentralized AI art! Earn 100 $CAI when you sign up with ${referLink}—limited spots available. 🔥 Join thousands already earning and get more by sharing with friends!`)}`}
+              href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`🚀 Join the Cuckoo Network #Airdrop now to create decentralized AI art! Earn 500 $CAI when you sign up with ${referLink}—limited spots available. 🔥 Join thousands already earning and get more by sharing with friends!`)}`}
               data-size="large"
             >
               <Twitter className="mr-2 h-4 w-4" />
