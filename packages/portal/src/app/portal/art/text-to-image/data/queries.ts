@@ -23,3 +23,12 @@ export const mutateCreateText2Image = gql`
     }
   }
 `;
+
+export const queryRandomPrompt = gql`
+  query RandomPrompt {
+    randomPrompt {
+      prompt
+      negativePrompt
+    }
+  }
+`;
