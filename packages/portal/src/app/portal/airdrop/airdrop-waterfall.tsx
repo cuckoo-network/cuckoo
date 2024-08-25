@@ -154,6 +154,17 @@ export const AirdropWaterfall = () => {
             </p>
           </CardContent>
         </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Bridge to Cuckoo Chain</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p>
+              Quest unavailable. Stay tuned on our social channels for updates!
+            </p>
+          </CardContent>
+        </Card>
       </div>
       <div className="grid gap-4">
         <Card>
