@@ -50,8 +50,10 @@ export type AirdropHistoryItem = {
 
 export type AirdropStats = {
   __typename?: "AirdropStats";
+  payeeRankedByRewards: Array<RankedPayee>;
   recentAirdrops: Array<AirdropHistoryItem>;
   totalRewards: Scalars["Float"]["output"];
+  usersRecentlyJoined: Array<UserRecentlyJoined>;
 };
 
 /** The type of airdrop action */
@@ -67,6 +69,13 @@ export enum AirdropType {
   Refer = "REFER",
   StakeCai = "STAKE_CAI",
 }
+
+export type AvatarProfile = {
+  __typename?: "AvatarProfile";
+  following: Scalars["Boolean"]["output"];
+  name: Scalars["String"]["output"];
+  profilePhoto: PhotoMedia;
+};
 
 export type CreateSocialPostInput = {
   description?: InputMaybe<Scalars["String"]["input"]>;
@@ -262,6 +271,15 @@ export type RandomPromptResponse = {
   prompt: Scalars["String"]["output"];
 };
 
+export type RankedPayee = {
+  __typename?: "RankedPayee";
+  name: Scalars["String"]["output"];
+  payeeUserId: Scalars["ID"]["output"];
+  profilePhoto: PhotoMedia;
+  totalRewards: Scalars["String"]["output"];
+  username: Scalars["String"]["output"];
+};
+
 export type RequestAirdropInput = {
   amount?: InputMaybe<Scalars["Float"]["input"]>;
   type: AirdropType;
@@ -286,8 +304,8 @@ export type SocialPost = {
   likes: Scalars["Float"]["output"];
   photoMedia?: Maybe<Array<PhotoMedia>>;
   postState: Scalars["String"]["output"];
-  profile: UserProfile;
-  textToImageHistoryItemId: Scalars["ID"]["output"];
+  profile: AvatarProfile;
+  textToImageHistoryItemId?: Maybe<Scalars["String"]["output"]>;
   title?: Maybe<Scalars["String"]["output"]>;
   updatedAt: Scalars["DateTimeISO"]["output"];
   userId: Scalars["String"]["output"];
@@ -380,11 +398,15 @@ export type User = {
   username?: Maybe<Scalars["String"]["output"]>;
 };
 
-export type UserProfile = {
-  __typename?: "UserProfile";
-  following: Scalars["Boolean"]["output"];
-  name: Scalars["String"]["output"];
+export type UserRecentlyJoined = {
+  __typename?: "UserRecentlyJoined";
+  createdAt: Scalars["DateTimeISO"]["output"];
+  id: Scalars["ID"]["output"];
+  name?: Maybe<Scalars["String"]["output"]>;
   profilePhoto: PhotoMedia;
+  refererName?: Maybe<Scalars["String"]["output"]>;
+  refererUsername?: Maybe<Scalars["String"]["output"]>;
+  username?: Maybe<Scalars["String"]["output"]>;
 };
 
 export type WalletAccountResponse = {
@@ -439,6 +461,38 @@ export type AirdropStatsQuery = {
       type: AirdropType;
       rewards: string;
       receiptUrl?: string | null;
+    }>;
+    payeeRankedByRewards: Array<{
+      __typename?: "RankedPayee";
+      payeeUserId: string;
+      name: string;
+      username: string;
+      totalRewards: string;
+      profilePhoto: {
+        __typename?: "PhotoMedia";
+        id: string;
+        url: string;
+        sortOrder: number;
+        width?: number | null;
+        height?: number | null;
+      };
+    }>;
+    usersRecentlyJoined: Array<{
+      __typename?: "UserRecentlyJoined";
+      createdAt: any;
+      id: string;
+      name?: string | null;
+      username?: string | null;
+      refererName?: string | null;
+      refererUsername?: string | null;
+      profilePhoto: {
+        __typename?: "PhotoMedia";
+        id: string;
+        url: string;
+        sortOrder: number;
+        width?: number | null;
+        height?: number | null;
+      };
     }>;
   };
 };
@@ -522,7 +576,7 @@ export type SocialPostsQuery = {
         deletedAt?: any | null;
         createdAt: any;
         updatedAt: any;
-        textToImageHistoryItemId: string;
+        textToImageHistoryItemId?: string | null;
         photoMedia?: Array<{
           __typename?: "PhotoMedia";
           id: string;
@@ -532,7 +586,7 @@ export type SocialPostsQuery = {
           height?: number | null;
         }> | null;
         profile: {
-          __typename?: "UserProfile";
+          __typename?: "AvatarProfile";
           name: string;
           following: boolean;
           profilePhoto: {
@@ -911,6 +965,113 @@ export const AirdropStatsDocument = {
                 {
                   kind: "Field",
                   name: { kind: "Name", value: "totalRewards" },
+                },
+                {
+                  kind: "Field",
+                  name: { kind: "Name", value: "payeeRankedByRewards" },
+                  selectionSet: {
+                    kind: "SelectionSet",
+                    selections: [
+                      {
+                        kind: "Field",
+                        name: { kind: "Name", value: "payeeUserId" },
+                      },
+                      { kind: "Field", name: { kind: "Name", value: "name" } },
+                      {
+                        kind: "Field",
+                        name: { kind: "Name", value: "username" },
+                      },
+                      {
+                        kind: "Field",
+                        name: { kind: "Name", value: "totalRewards" },
+                      },
+                      {
+                        kind: "Field",
+                        name: { kind: "Name", value: "profilePhoto" },
+                        selectionSet: {
+                          kind: "SelectionSet",
+                          selections: [
+                            {
+                              kind: "Field",
+                              name: { kind: "Name", value: "id" },
+                            },
+                            {
+                              kind: "Field",
+                              name: { kind: "Name", value: "url" },
+                            },
+                            {
+                              kind: "Field",
+                              name: { kind: "Name", value: "sortOrder" },
+                            },
+                            {
+                              kind: "Field",
+                              name: { kind: "Name", value: "width" },
+                            },
+                            {
+                              kind: "Field",
+                              name: { kind: "Name", value: "height" },
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  },
+                },
+                {
+                  kind: "Field",
+                  name: { kind: "Name", value: "usersRecentlyJoined" },
+                  selectionSet: {
+                    kind: "SelectionSet",
+                    selections: [
+                      {
+                        kind: "Field",
+                        name: { kind: "Name", value: "createdAt" },
+                      },
+                      { kind: "Field", name: { kind: "Name", value: "id" } },
+                      { kind: "Field", name: { kind: "Name", value: "name" } },
+                      {
+                        kind: "Field",
+                        name: { kind: "Name", value: "username" },
+                      },
+                      {
+                        kind: "Field",
+                        name: { kind: "Name", value: "refererName" },
+                      },
+                      {
+                        kind: "Field",
+                        name: { kind: "Name", value: "refererUsername" },
+                      },
+                      {
+                        kind: "Field",
+                        name: { kind: "Name", value: "profilePhoto" },
+                        selectionSet: {
+                          kind: "SelectionSet",
+                          selections: [
+                            {
+                              kind: "Field",
+                              name: { kind: "Name", value: "id" },
+                            },
+                            {
+                              kind: "Field",
+                              name: { kind: "Name", value: "url" },
+                            },
+                            {
+                              kind: "Field",
+                              name: { kind: "Name", value: "sortOrder" },
+                            },
+                            {
+                              kind: "Field",
+                              name: { kind: "Name", value: "width" },
+                            },
+                            {
+                              kind: "Field",
+                              name: { kind: "Name", value: "height" },
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  },
                 },
               ],
             },

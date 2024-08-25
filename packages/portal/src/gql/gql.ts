@@ -19,7 +19,7 @@ const documents = {
     types.UpdateAccountDocument,
   "\n  mutation SendTransaction($transaction: TransactionRequest!) {\n    sendTransaction(transaction: $transaction) {\n      hash\n    }\n  }\n":
     types.SendTransactionDocument,
-  "\n  query AirdropStats {\n    airdropStats {\n      recentAirdrops {\n        id\n        type\n        rewards\n        receiptUrl\n      }\n      totalRewards\n    }\n  }\n":
+  "\n  query AirdropStats {\n    airdropStats {\n      recentAirdrops {\n        id\n        type\n        rewards\n        receiptUrl\n      }\n      totalRewards\n      payeeRankedByRewards {\n        payeeUserId\n        name\n        username\n        totalRewards\n        profilePhoto {\n          id\n          url\n          sortOrder\n          width\n          height\n        }\n      }\n      usersRecentlyJoined {\n\n        createdAt\n        id\n        name\n        username\n        refererName\n        refererUsername\n        profilePhoto {\n          id\n          url\n          sortOrder\n          width\n          height\n        }\n      }\n    }\n  }\n":
     types.AirdropStatsDocument,
   "\n  query AirdropHistory {\n    airdropHistory {\n      id\n      type\n      rewards\n      receiptUrl\n      createdAt\n    }\n  }\n":
     types.AirdropHistoryDocument,
@@ -86,8 +86,8 @@ export function graphql(
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
 export function graphql(
-  source: "\n  query AirdropStats {\n    airdropStats {\n      recentAirdrops {\n        id\n        type\n        rewards\n        receiptUrl\n      }\n      totalRewards\n    }\n  }\n",
-): (typeof documents)["\n  query AirdropStats {\n    airdropStats {\n      recentAirdrops {\n        id\n        type\n        rewards\n        receiptUrl\n      }\n      totalRewards\n    }\n  }\n"];
+  source: "\n  query AirdropStats {\n    airdropStats {\n      recentAirdrops {\n        id\n        type\n        rewards\n        receiptUrl\n      }\n      totalRewards\n      payeeRankedByRewards {\n        payeeUserId\n        name\n        username\n        totalRewards\n        profilePhoto {\n          id\n          url\n          sortOrder\n          width\n          height\n        }\n      }\n      usersRecentlyJoined {\n\n        createdAt\n        id\n        name\n        username\n        refererName\n        refererUsername\n        profilePhoto {\n          id\n          url\n          sortOrder\n          width\n          height\n        }\n      }\n    }\n  }\n",
+): (typeof documents)["\n  query AirdropStats {\n    airdropStats {\n      recentAirdrops {\n        id\n        type\n        rewards\n        receiptUrl\n      }\n      totalRewards\n      payeeRankedByRewards {\n        payeeUserId\n        name\n        username\n        totalRewards\n        profilePhoto {\n          id\n          url\n          sortOrder\n          width\n          height\n        }\n      }\n      usersRecentlyJoined {\n\n        createdAt\n        id\n        name\n        username\n        refererName\n        refererUsername\n        profilePhoto {\n          id\n          url\n          sortOrder\n          width\n          height\n        }\n      }\n    }\n  }\n"];
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */

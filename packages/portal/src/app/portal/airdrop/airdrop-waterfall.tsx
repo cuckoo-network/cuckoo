@@ -143,6 +143,17 @@ export const AirdropWaterfall = () => {
             <EmailVerifyOtpDialog done={addEmail} isLoading={isLoading} />
           </CardFooter>
         </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Star and Follow Github</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p>
+              Quest unavailable. Stay tuned on our social channels for updates!
+            </p>
+          </CardContent>
+        </Card>
       </div>
       <div className="grid gap-4">
         <Card>
@@ -225,6 +236,17 @@ export const AirdropWaterfall = () => {
               {create1stImage ? "Claimed" : "Claim"}
             </Button>
           </CardFooter>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Create AI arts daily</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p>
+              Quest unavailable. Stay tuned on our social channels for updates!
+            </p>
+          </CardContent>
         </Card>
       </div>
 
@@ -313,36 +335,14 @@ export const AirdropWaterfall = () => {
           </CardFooter>
         </Card>
 
-
-
-
-      </div>
-
-      <div className="grid gap-4">
-        <Card>
-          <CardHeader>
-            <CardTitle>Star and Follow Github</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p>Quest unavailable. Stay tuned on our social channels for updates!</p>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <CardTitle>Create AI arts daily</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p>Quest unavailable. Stay tuned on our social channels for updates!</p>
-          </CardContent>
-        </Card>
-
         <Card>
           <CardHeader>
             <CardTitle>Tweet your AI Art</CardTitle>
           </CardHeader>
           <CardContent>
-            <p>Quest unavailable. Stay tuned on our social channels for updates!</p>
+            <p>
+              Quest unavailable. Stay tuned on our social channels for updates!
+            </p>
           </CardContent>
         </Card>
       </div>

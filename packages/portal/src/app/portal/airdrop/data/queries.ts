@@ -10,6 +10,34 @@ export const queryAirdropStats = gql`
         receiptUrl
       }
       totalRewards
+      payeeRankedByRewards {
+        payeeUserId
+        name
+        username
+        totalRewards
+        profilePhoto {
+          id
+          url
+          sortOrder
+          width
+          height
+        }
+      }
+      usersRecentlyJoined {
+        createdAt
+        id
+        name
+        username
+        refererName
+        refererUsername
+        profilePhoto {
+          id
+          url
+          sortOrder
+          width
+          height
+        }
+      }
     }
   }
 `;
