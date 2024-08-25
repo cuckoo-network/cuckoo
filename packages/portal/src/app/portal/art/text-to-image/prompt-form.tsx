@@ -6,7 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { CircleHelp, Dices } from "lucide-react";
+import { CircleHelp, Dices, Sparkles } from "lucide-react";
 import {
   Popover,
   PopoverContent,
@@ -78,7 +78,8 @@ export const PromptForm: React.FC<PromptFormProps> = ({
       setCanvasSize(getKeyBySize(ttih));
     } else {
       setNegativePrompt(
-        randomPromptData?.randomPrompt.negativePrompt || defaultPrompt.negativePrompt,
+        randomPromptData?.randomPrompt.negativePrompt ||
+          defaultPrompt.negativePrompt,
       );
       setPrompt(randomPromptData?.randomPrompt.prompt || defaultPrompt.prompt);
     }
@@ -175,8 +176,10 @@ export const PromptForm: React.FC<PromptFormProps> = ({
           type="submit"
           disabled={loading}
           isLoading={loading}
-          className="px-4 py-2 bg-pink-600 text-white rounded-md"
+          variant="ghost"
+          className="px-4 py-2 bg-pink-600 hover:bg-pink-700 text-white rounded-md"
         >
+          {!loading && <Sparkles className={"mr-1"} size={18} />}
           {loading ? "Generating..." : "Generate"}
         </Button>
       </div>

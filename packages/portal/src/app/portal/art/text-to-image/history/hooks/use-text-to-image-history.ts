@@ -6,6 +6,7 @@ export const useTextToImageHistory = (first: number, after: string) => {
   const { data, loading, error, fetchMore } = useQuery<TextToImageHistoryQuery>(
     queryTextToImageHistory,
     {
+      fetchPolicy: "network-only",
       variables: {
         first,
         after,

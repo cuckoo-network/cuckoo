@@ -287,6 +287,7 @@ export type SocialPost = {
   photoMedia?: Maybe<Array<PhotoMedia>>;
   postState: Scalars["String"]["output"];
   profile: UserProfile;
+  textToImageHistoryItemId: Scalars["ID"]["output"];
   title?: Maybe<Scalars["String"]["output"]>;
   updatedAt: Scalars["DateTimeISO"]["output"];
   userId: Scalars["String"]["output"];
@@ -521,6 +522,7 @@ export type SocialPostsQuery = {
         deletedAt?: any | null;
         createdAt: any;
         updatedAt: any;
+        textToImageHistoryItemId: string;
         photoMedia?: Array<{
           __typename?: "PhotoMedia";
           id: string;
@@ -1283,6 +1285,13 @@ export const SocialPostsDocument = {
                             {
                               kind: "Field",
                               name: { kind: "Name", value: "updatedAt" },
+                            },
+                            {
+                              kind: "Field",
+                              name: {
+                                kind: "Name",
+                                value: "textToImageHistoryItemId",
+                              },
                             },
                           ],
                         },

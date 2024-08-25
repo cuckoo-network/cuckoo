@@ -43,6 +43,7 @@ export const querySocialPosts = gql`
           deletedAt
           createdAt
           updatedAt
+          textToImageHistoryItemId
         }
         cursor
       }

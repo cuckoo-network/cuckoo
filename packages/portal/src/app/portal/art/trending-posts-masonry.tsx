@@ -25,6 +25,7 @@ function PostMasonryItem(props: { photo: any; post: SocialPost }) {
         <div className={"mb-8"}>
           {props.photo?.width && props.photo?.height ? (
             <Image
+              className={"rounded-lg"}
               alt={props.post.title || ""}
               width={props.photo.width}
               height={props.photo.height}
@@ -70,6 +71,7 @@ function PostMasonryItem(props: { photo: any; post: SocialPost }) {
       <div className={"mb-8"}>
         {props.photo?.width && props.photo?.height ? (
           <Image
+            className={"rounded-lg"}
             alt={props.post.title || ""}
             width={props.photo.width}
             height={props.photo.height}
@@ -133,12 +135,16 @@ export const TrendingPostsMasonry = () => {
   }
   return (
     <>
-      <div className={"flex gap-1"}>
+      <div className={"flex gap-2"}>
         <Button variant={"secondary"} href={"/portal/art/create-post"}>
           <ImagePlus className={"mr-1"} size={18} /> {t("buttons_create_post")}
         </Button>
 
-        <Button variant={"secondary"} href={"/portal/art/text-to-image"}>
+        <Button
+          className={"bg-pink-600 hover:bg-pink-700 text-white rounded-md"}
+          variant={"secondary"}
+          href={"/portal/art/text-to-image"}
+        >
           <Sparkles className={"mr-1"} size={18} /> {t("buttons_text_to_image")}
         </Button>
       </div>
