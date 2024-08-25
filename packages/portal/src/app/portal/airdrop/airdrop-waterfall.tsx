@@ -5,6 +5,7 @@ import { useRedirectLogin } from "@/containers/authentication/hooks/use-redirect
 import { useRequestAirdrop } from "@/app/portal/airdrop/hooks/use-request-airdrop";
 import { useToast } from "@/components/ui/use-toast";
 import { EmailVerifyOtpDialog } from "@/app/portal/airdrop/email-verify-otp-dialog";
+import { DailyCheckInDialog } from "@/app/portal/airdrop/daily-check-in-dialog";
 import {
   AirdropType,
   selectHistoryItems,
@@ -180,15 +181,7 @@ export const AirdropWaterfall = () => {
             <p>0 ~ 5 $CAI Randomly </p>
           </CardContent>
           <CardFooter>
-            <Button
-              onClick={() => onClaim(AirdropType.DAILY_CLAIM)}
-              className={getDoneBtnStyle(dailyClaim)}
-              variant="secondary"
-              isLoading={isLoading}
-              disabled={dailyClaim}
-            >
-              {dailyClaim ? "Claimed" : "Claim"}
-            </Button>
+            <DailyCheckInDialog done={dailyClaim} isLoading={isLoading} />
           </CardFooter>
         </Card>
 

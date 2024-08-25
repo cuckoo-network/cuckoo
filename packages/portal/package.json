@@ -47,6 +47,7 @@
     "react-infinite-scroll-component": "^6.1.0",
     "react-oauth2-code-pkce": "^1.20.1",
     "react-top-loading-bar": "^2.3.1",
+    "react-wheel-of-prizes": "1.0.9",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"
   },
