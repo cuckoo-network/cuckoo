@@ -3,6 +3,7 @@ import { Image as ImageIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import { TextToImageHistoryItem } from "@/gql/graphql";
+import Image from "next/image";
 
 interface ArtDisplayProps {
   ttih?: TextToImageHistoryItem;
@@ -14,12 +15,14 @@ export const ArtDisplay: React.FC<ArtDisplayProps> = ({ ttih, loading }) => {
   return (
     <>
       <div className="mt-4 border rounded md:flex">
-        <div className="relative grow flex-col items-center">
+        <div className="relative grow flex flex-col items-center justify-center">
           {!loading && ttih ? (
-            <img
+            <Image
+              width={ttih.photoMedia[0].width}
+              height={ttih.photoMedia[0].height}
               src={ttih.photoMedia[0].readUrl}
               alt="Generated Art"
-              className="w-full h-auto rounded"
+              className="rounded"
             />
           ) : (
             <div className="inset-0 w-full h-full object-contain group relative flex grow items-center justify-center overflow-hidden rounded-xl bg-secondaryBg min-h-[175px]">
