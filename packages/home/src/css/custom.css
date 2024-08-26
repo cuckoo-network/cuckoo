@@ -81,3 +81,11 @@ blockquote {
   border: 0;
   color: var(--ifm-font-color-base);
 }
+
+.pagination-nav__link--prev .pagination-nav__label:before {
+  content: "\2190"; /* Left arrow */
+}
+
+.pagination-nav__link--next .pagination-nav__label:after {
+  content: " \2192"; /* Right arrow */
+}
