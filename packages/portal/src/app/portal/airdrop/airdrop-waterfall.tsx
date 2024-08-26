@@ -82,7 +82,7 @@ export const AirdropWaterfall = () => {
             <CardTitle>Login</CardTitle>
             <CardDescription>First-time sign up or sign in</CardDescription>
           </CardHeader>
-          <CardContent>1 ~ 10 $CAI randomly</CardContent>
+          <CardContent>1 ~ 2 $CAI randomly</CardContent>
 
           <CardFooter>
             <Button
@@ -137,7 +137,7 @@ export const AirdropWaterfall = () => {
             <CardDescription>Receive latest news and benefits</CardDescription>
           </CardHeader>
           <CardContent>
-            <p>10 $CAI</p>
+            <p>2 $CAI</p>
           </CardContent>
           <CardFooter>
             <EmailVerifyOtpDialog done={addEmail} isLoading={isLoading} />
@@ -175,7 +175,7 @@ export const AirdropWaterfall = () => {
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <p>5 $CAI</p>
+            <p>0.01 $CAI</p>
           </CardContent>
           <CardFooter>
             <Button
@@ -199,7 +199,7 @@ export const AirdropWaterfall = () => {
             <CardDescription>Get your $CAI Daily</CardDescription>
           </CardHeader>
           <CardContent>
-            <p>0 ~ 5 $CAI Randomly </p>
+            <p>0 ~ 1 $CAI Randomly </p>
           </CardContent>
           <CardFooter>
             <Button
@@ -223,7 +223,7 @@ export const AirdropWaterfall = () => {
           </CardHeader>
           <CardContent>
             <p>
-              10 $CAI. If you haven&apos;t create your first gen AI art, go to
+              1 $CAI. If you haven&apos;t create your first gen AI art, go to
               create image first and then claim your reward.
             </p>
           </CardContent>
@@ -270,7 +270,7 @@ export const AirdropWaterfall = () => {
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <p>20 $CAI</p>
+            <p>5 $CAI</p>
           </CardContent>
           <CardFooter className={"gap-2"}>
             {!stakeCai && (
@@ -302,7 +302,7 @@ export const AirdropWaterfall = () => {
             <CardDescription>Follow us on X to stay connected</CardDescription>
           </CardHeader>
           <CardContent>
-            <p>5 $CAI</p>
+            <p>0.01 $CAI</p>
           </CardContent>
           <CardFooter>
             <Button
@@ -328,7 +328,7 @@ export const AirdropWaterfall = () => {
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <p>5 $CAI</p>
+            <p>0.01 $CAI</p>
           </CardContent>
           <CardFooter>
             <Button

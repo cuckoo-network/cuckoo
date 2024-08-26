@@ -12,6 +12,21 @@ The Cuckoo Network Airdrop Portal is here. Engage, earn, and become part of the 
 
 ![](https://cuckoo-network.b-cdn.net/2024-07-25-cuckoo-network-airdrop-portal.webp)
 
+> Update (August 26, 2024): Due to an increase in fraudulent activity, we are adjusting the reward values listed below. We remain committed to fairly rewarding genuine participation while ensuring the integrity of our airdrop program. Here is a revised version:
+
+> | Action                 | Rewards in $CAI            | Description                                    |
+> | ---------------------- | -------------------------- | ---------------------------------------------- |
+> | Login                  | 1 ~ 2                      | First-time sign up or sign in                  |
+> | Refer                  | _30% of referee's rewards_ | Earn a percentage of your referee's rewards    |
+> | Add Email              | 2                          | Receive latest news and benefits               |
+> | Daily Claim            | 0 ~ 1 Daily                | Stay updated on the mission of onchain AI      |
+> | Follow X               | 0.01                       | Follow us on X to stay connected               |
+> | Bind Discord           | 0.01                       | Join and link your Discord account             |
+> | Bind Telegram          | 0.01                       | Join and link your Telegram account            |
+> | Create 1st Image       | 1                          | Showcase your creativity with your first image |
+> | Stake $CAI             | 5                          | Strengthen the network by staking $CAI         |
+> | 1st-Time Mine with GPU | 300                        | Dive into GPU mining for substantial rewards   |
+
 ## What is the Airdrop Portal?
 
 The Airdrop Portal is designed to reward you for your engagement and support. Every interaction you make with the portal helps grow the Cuckoo Network, while you earn valuable $CAI tokens.
