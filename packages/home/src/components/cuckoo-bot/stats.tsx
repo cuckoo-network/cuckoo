@@ -19,7 +19,7 @@ export default function Stats() {
                 className="text-4xl font-bold leading-tight tracking-tighter text-purple-600 mb-2"
                 data-aos="fade-up"
               >
-                179K
+                5K
               </div>
               <div
                 className="text-lg text-gray-400"
@@ -52,16 +52,16 @@ export default function Stats() {
                 className="text-4xl font-bold leading-tight tracking-tighter text-purple-600 mb-2"
                 data-aos="fade-up"
               >
-                $97K
+                $20M
               </div>
               <div
                 className="text-lg text-gray-400"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                Value Generated
+                Value Locked
                 <br />
-                Increase output while minimizing costs.
+                Secure transactions onchain.
               </div>
             </div>
           </div>
