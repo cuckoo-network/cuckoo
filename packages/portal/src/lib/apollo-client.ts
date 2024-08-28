@@ -41,7 +41,7 @@ export const apolloClient = new ApolloClient({
       Query: {
         fields: {
           socialPosts: {
-            keyArgs: false,
+            keyArgs: ["id"],
             merge(existing = {}, incoming) {
               if (!existing.edges) {
                 return incoming;
