@@ -36,5 +36,24 @@ export const apolloClient = new ApolloClient({
       },
     }),
   ),
-  cache: new InMemoryCache(),
+  cache: new InMemoryCache({
+    typePolicies: {
+      Query: {
+        fields: {
+          socialPosts: {
+            keyArgs: false,
+            merge(existing = {}, incoming) {
+              if (!existing.edges) {
+                return incoming;
+              }
+              return {
+                ...incoming,
+                edges: [...existing.edges, ...incoming.edges],
+              };
+            },
+          },
+        },
+      },
+    },
+  }),
 });
