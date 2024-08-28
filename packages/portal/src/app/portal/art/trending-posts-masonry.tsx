@@ -28,6 +28,20 @@ function debounce(func: Function, wait: number) {
   };
 }
 
+function getGridColsClass(columns: number) {
+  switch (columns) {
+    case 6:
+      return "grid-cols-6";
+
+    case 5:
+      return "grid-cols-5";
+    case 4:
+      return "grid-cols-4";
+    default:
+      return "grid-cols-2";
+  }
+}
+
 export const TrendingPostsMasonry = () => {
   const { dataSocialPosts, loadingSocialPosts, fetchMoreSocialPosts } =
     useSocialPosts(pageSize, "0");
@@ -38,7 +52,7 @@ export const TrendingPostsMasonry = () => {
   const updateColumns = useCallback(
     debounce(() => {
       if (window.innerWidth >= 1536) {
-        setColumns(5);
+        setColumns(6);
       } else if (window.innerWidth >= 1280) {
         setColumns(5);
       } else if (window.innerWidth >= 1024) {
@@ -93,7 +107,7 @@ export const TrendingPostsMasonry = () => {
         </Button>
       </div>
 
-      <div className={`grid grid-cols-${columns} gap-4`}>
+      <div className={`grid ${getGridColsClass(columns)} gap-4`}>
         {postGroups.map((group, ii) => {
           if (ii === 0) {
             return (
