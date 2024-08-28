@@ -13,6 +13,7 @@ import {
   Menu,
   Pickaxe,
   SquareArrowOutUpRight,
+  LinkIcon,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -53,7 +54,7 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
     {
       href: "https://scan.cuckoo.network/",
       label: t("navigation_explorer"),
-      icon: ArrowRightLeft,
+      icon: LinkIcon,
     },
   ];
 
