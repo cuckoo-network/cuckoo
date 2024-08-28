@@ -32,9 +32,9 @@ export function Cta() {
               <a
                 className="hover:text-white btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full group shadow-lg"
                 target="_blank"
-                href="https://cuckoo.network/dc"
+                href="https://cuckoo.network/portal/art"
               >
-                <Translate>Join Discord</Translate>{" "}
+                <Translate>Explore</Translate>{" "}
                 <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                   -&gt;
                 </span>

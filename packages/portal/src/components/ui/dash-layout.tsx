@@ -50,6 +50,11 @@ export function DashLayout({ children }: { children: React.ReactNode }) {
       label: t("navigation_bridge"),
       icon: ArrowRightLeft,
     },
+    {
+      href: "https://scan.cuckoo.network/",
+      label: t("navigation_explorer"),
+      icon: ArrowRightLeft,
+    },
   ];
 
   const { isLoggedIn, isLoggedInLoading } = useIsLoggedIn();
