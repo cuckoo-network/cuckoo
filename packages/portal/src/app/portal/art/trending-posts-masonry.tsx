@@ -118,6 +118,7 @@ export const TrendingPostsMasonry = () => {
                   hasMore={hasNext}
                   loader={<h4>Loading...</h4>}
                   className="gap-4"
+                  style={{ overflowY: "auto", overflowX: "hidden" }}
                 >
                   {group.map((post) => {
                     const photo = post.photoMedia?.at(0);
