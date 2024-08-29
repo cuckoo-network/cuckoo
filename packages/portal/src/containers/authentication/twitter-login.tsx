@@ -26,6 +26,9 @@ const LoginInner = ({ isLoading }: { isLoading: boolean }) => {
       (async () => {
         if (idToken && typeof localStorage !== "undefined") {
           logOut();
+          try {
+            window.postMessage(JSON.stringify({ authToken: idToken }));
+          } catch (_) {}
           localStorage.setItem("cuckoo:token", idToken);
           let postLoginPath = "/portal/art";
           const prevPosition = localStorage.getItem("cuckoo:prevLocation");
