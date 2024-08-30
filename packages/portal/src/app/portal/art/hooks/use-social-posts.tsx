@@ -10,7 +10,7 @@ export const useSocialPosts = (first: number, after: string) => {
         first,
         after,
       },
-      fetchPolicy: "cache-and-network",
+      fetchPolicy: "network-only",
     },
   );
 
