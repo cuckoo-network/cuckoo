@@ -6,6 +6,7 @@ export const useSocialPosts = (first: number, after: string) => {
   const { loading, data, error, fetchMore } = useQuery<SocialPostsQuery>(
     querySocialPosts,
     {
+      pollInterval: 5 * 60 * 1000,
       variables: {
         first,
         after,
