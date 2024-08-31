@@ -10,7 +10,19 @@ import { useTranslation } from "@/lib/i18n-client-use-translation";
 import { PostMasonryItem } from "@/app/portal/art/post-masonry-item";
 
 function selectSocialPosts(dataTrendingPosts: SocialPostsQuery | undefined) {
-  return dataTrendingPosts?.socialPosts.edges.map((ed) => ed.node) || [];
+  const seenIds = new Set<string>();
+  return (
+    dataTrendingPosts?.socialPosts.edges
+      .map((ed) => ed.node)
+      .filter((node) => {
+        if (seenIds.has(node.id)) {
+          return false;
+        } else {
+          seenIds.add(node.id);
+          return true;
+        }
+      }) || []
+  );
 }
 
 const pageSize = 20;
