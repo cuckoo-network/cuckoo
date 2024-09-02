@@ -183,7 +183,7 @@ func NewJSONRPCHandler(params HandlerParams) Handler {
 	sharedHandlers := []HandlerCfg{
 		{
 			methodName:           "reward",
-			underlyingHandler:    methods.NewRewardHandler(gps, rwd),
+			underlyingHandler:    methods.NewRewardHandler(gps, rwd, stk),
 			longName:             "reward",
 			queueLimit:           uint(1000),
 			requestDurationLimit: 5 * time.Minute,

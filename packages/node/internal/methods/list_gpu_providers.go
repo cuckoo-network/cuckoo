@@ -8,7 +8,9 @@ import (
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/plugins/sd/sdcli"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/staking"
 	"github.com/cuckoo-network/cuckoo/packages/node/internal/store"
+	"math/big"
 	"os"
+	"sort"
 	"time"
 )
 
@@ -73,6 +75,14 @@ func ListGPUProviders(gps *store.GPUProviderStore, stk *staking.Staking, wk plug
 				IP:              p.IP,
 			}
 		}
+
+		// Sort miners by Votes in descending order
+		sort.Slice(miners, func(i, j int) bool {
+			votesI, _ := new(big.Int).SetString(miners[i].Votes, 10)
+			votesJ, _ := new(big.Int).SetString(miners[j].Votes, 10)
+			return votesI.Cmp(votesJ) > 0
+		})
+
 		return miners, nil
 	})
 }
