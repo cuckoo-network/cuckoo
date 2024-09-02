@@ -8,7 +8,10 @@ export const MiningHome = () => {
   return (
     <>
       <blockquote className="border-l-4 border-blue-500 pl-4 italic">
-        The Mining Portal is still work in progress.
+        The Mining Portal is under development. For the latest updates, visit{" "}
+        <a className="underline" href={"https://cuckoo.network/blog/tags/mining"}>our blog</a>.
+        Rewards are distributed daily at 07:00 AM UTC to the top 10 miners.
+        Please note that rewards and schedules may change.
       </blockquote>
 
       <Banner />
