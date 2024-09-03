@@ -21,7 +21,7 @@ export const PostDetailsContent = ({
 
   return (
     <div className="relative grid w-full min-w-0 grid-cols-1 gap-4 break-words px-4 md:grid-cols-2 md:gap-8 false">
-      <div className="flex justify-between md:hidden ml-9">
+      <div className="flex justify-between md:hidden">
         <div>
           <div className="relative flex items-center text-primaryText">
             <img
@@ -86,7 +86,7 @@ export const PostDetailsContent = ({
         </div>
       </div>
       <div>
-        <div className="mb-6 items-center justify-between gap-4 md:flex">
+        <div className="hidden mb-6 items-center justify-between gap-4 md:flex">
           <div>
             <div className="relative flex items-center text-primaryText">
               <img
