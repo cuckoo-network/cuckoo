@@ -32,7 +32,7 @@ export const apolloClient = new ApolloClient({
               authorization: `Bearer ${process.env.NEXT_PUBLIC_USER_AUTH_TOKEN}`,
             }
           : {}),
-        ["x-test"]: "deal",
+        ["x-test"]: "bill",
       },
     }),
   ),
