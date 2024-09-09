@@ -9,7 +9,7 @@
 
   - [x] 初期リリース (2024-06)
 
-    - [x] [Cuckoo Chain: The Premier Blockchain for AI](/blog/2024/06/24/cuckoo-the-blockchain-for-ai)
+    - [x] [Cuckoo Chain: Decentralized AI Blockchain](/blog/2024/06/24/cuckoo-the-blockchain-for-ai)
     - [x] スマートコントラクトのチュートリアル
 
   - [x] [Cuckoo AIがCuckoo Chainのリリース後に成長する方法](/blog/2024/06/28/how-does-cuckoo-grow-after-cuckoo-chain-launch)

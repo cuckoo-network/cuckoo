@@ -7,9 +7,8 @@ import Cta from "@site/src/components/cuckoo-chain/cta";
 import Layout from "@theme/Layout";
 import { useAos } from "@site/src/hooks/use-aos";
 import { News } from "@site/src/components/home/news";
-import Translate, { translate } from '@docusaurus/Translate';
+import Translate, { translate } from "@docusaurus/Translate";
 import useBaseUrl from "@docusaurus/useBaseUrl";
-
 
 export default function Home() {
   const Illustration = useBaseUrl("/img/cuckoo-chain/hero-illustration.svg");
@@ -17,7 +16,7 @@ export default function Home() {
   return (
     <Layout
       title={translate({
-        message: "Cuckoo Chain: The Premier Blockchain for AI",
+        message: "Cuckoo Chain: Decentralized AI Blockchain",
         description: "Page title for Cuckoo Chain homepage",
       })}
       description={translate({
