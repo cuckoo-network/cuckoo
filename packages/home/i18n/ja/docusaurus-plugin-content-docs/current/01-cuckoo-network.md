@@ -48,7 +48,7 @@
 1. **AIアートを作成:** [Cuckoo Art](https://cuckoo.network/portal/art)にアクセスして、最初のAI生成アート作品でクリエイティブな旅を始めましょう。
 2. **$CAIを請求:** エアドロップに参加して、限定された期間で$CAIトークンを受け取りましょう。
    - **紹介ボーナス:** 友達を招待して30％以上を獲得し、革命を広めましょう。
-3. **Cuckooで開発:** [テストネットトークン](https://cuckoo.network/portal/faucet)を取得し、[ドキュメント](https://cuckoo.network/docs/Cuckoo Chain/cuckoo-chain)を調べてAIをDAppに統合しましょう。
+3. **Cuckooで開発:** [テストネットトークン](https://cuckoo.network/portal/faucet)を取得し、[ドキュメント](https://cuckoo.network/docs/Cuckoo%20Chain/cuckoo-chain)を調べてAIをDAppに統合しましょう。
 
 ## 🌍 よくある質問
 
