@@ -40,6 +40,27 @@ To become a validator, you need to stake a specific amount of Cuckoo AI tokens (
 
 For more resources and support, join our community on [Discord](https://cuckoo.network/dc), or explore our [Documentation](/docs/cuckoo-network). Our community and extensive resources are here to help you with any questions or issues.
 
+### How to add Cuckoo Chain to MetaMask?
+
+- Option 1. Go to https://scan.cuckoo.network/, scroll to the bottom, and click "Add Cuckoo Chain".
+
+- Option 2. Follow instructions in [MetaMask's official support article](https://support.metamask.io/networks-and-sidechains/managing-networks/how-to-add-a-custom-network-rpc/#:~:text=Tap%20the%20network%20selector%20at,the%20bottom%20of%20the%20screen.) using the following setup:
+  - Name: Cuckoo Chain
+  - Chain ID: 1200
+  - Currency Symbol: CAI
+  - Official RPC: https://mainnet-rpc.cuckoo.network
+  - Explorer: https://scan.cuckoo.network
+
+### How to add Cuckoo Chain to Trust Wallet?
+
+Follow instructions in [Trust community](https://community.trustwallet.com/t/how-to-add-a-custom-network-on-the-trust-wallet-mobile-app/626781) with the following info
+
+- Name: Cuckoo Chain
+- Chain ID: 1200
+- Symbol: CAI
+- Node URL: https://mainnet-rpc.cuckoo.network
+- Explorer URL: https://scan.cuckoo.network
+
 ## Building on Cuckoo Chain
 
 Building on Cuckoo Chain can be challenging. Here are some development-focused spaces with experienced Cuckoo Chain developers who are happy to help:
