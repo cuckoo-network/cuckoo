@@ -1,4 +1,4 @@
-# Delete Your Cuckoo Network Account
+# Delete Your Cuckoo AI Account
 
 At Cuckoo Network, we respect your right to data privacy and control over your personal information. This page outlines the process to request the deletion of your account and associated data.
 
