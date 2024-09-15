@@ -64,6 +64,10 @@ const config: Config = {
             from: ["/reddit"],
             to: "https://www.reddit.com/r/CuckooAI/",
           },
+          {
+            from: ["/appstore"],
+            to: "https://onelink.to/38sr93",
+          }
         ],
       },
     ],

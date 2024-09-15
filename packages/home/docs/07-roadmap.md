@@ -1,32 +1,28 @@
 # Roadmap
 
+## Q4/2024
+
+* [ ] LLM and agents
+* [ ] Inspire content creation
+* [ ] Monetization and payment
+* [ ] Onboard more creators
+
 ## Q3/2024 Current Focus
 
-- [ ] Mainnet Basics 2024-Q3
-
+- [x] Mainnet Basics 2024-Q3
   - [x] Initial Launch (2024-06)
-
     - [x] [Cuckoo Chain: The Premier Blockchain for AI](/blog/2024/06/24/cuckoo-the-blockchain-for-ai)
     - [x] Smart contract tutorials
-
   - [x] [How Cuckoo AI Grows After the Cuckoo Chain Launch](/blog/2024/06/28/how-does-cuckoo-grow-after-cuckoo-chain-launch)
-  - [ ] DeAI users
-
+  - [x] DeAI users
     - [x] Cuckoo Art (2024-07-A)
-    - [ ] Onboard one AI project to Cuckoo Pay
     - [x] [The Future of AI Anime: Cuckoo Art Business Plan](/future-releases/generative-art)
-
-  - [ ] Node operator program (2024-07-B)
-
+    - [x] Fraud control
+    - [x] Mobile App
+  - [x] Node operator program (2024-07-B)
     - [x] [Cuckoo network mining with GPU](/blog/2024/07/15/cuckoo-network-mining-gpu-july-2024)
-    - [ ] [Node registration on Cuckoo Portal](/future-releases/cuckoo-network-node-leaderboard)
-    - [ ] Cuckoo Chain Developer
-    - [ ] Network Stats Monitor
-      - [ ] version management
-      - [ ] Authorization
-      - [x] webp compression
-
-  - [ ] Holder's Airdrop Portal and Referral Program (2024-08-A)
+    - [x] webp compression
+  - [x] Holder's Airdrop Portal and Referral Program (2024-08-A)
     - [x] [Airdrop Portal](/blog/2024/07/25/cuckoo-network-airdrop-portal)
     - [x] Telegram integration
 
@@ -39,8 +35,18 @@
     - [ ] Bridged USDC
   - [ ] hackathons
   - [ ] native stablecoin
+- [ ] Node operator program
+  - [ ] [Node registration on Cuckoo Portal](/future-releases/cuckoo-network-node-leaderboard)
+
+- [ ] Cuckoo Chain Developer
 - [ ] Cuckoo Pay
   - [Case Study - Loyalty Program](/future-releases/cuckoo-pay-loyalty-program)
+  - [ ] Node operator program
+    - [ ] [Node registration on Cuckoo Portal](/future-releases/cuckoo-network-node-leaderboard)
+    - [ ] Cuckoo Chain Developer
+    - [ ] Network Stats Monitor
+      - [ ] version management
+
 
 ## Q2/2024
 
