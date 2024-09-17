@@ -1,6 +1,6 @@
 ---
 title: "التعدين باستخدام GPU في شبكة Cuckoo يوليو 2024"
-authors: [لارك]
+authors: [lark]
 tags: [سلسلة كوكو، التعدين]
 image: https://cuckoo-network.b-cdn.net/2024-07-15-cuckoo-network-mining-gpu-july-2024.webp
 description: بدءًا من يوليو 2024، تقدم شبكة Cuckoo مكافآت يومية بقيمة 300 $CAI لكل GPU للمعدنين. تعرف على كيفية إعداد عقدة التعدين الخاصة بك وابدأ في كسب المكافآت.

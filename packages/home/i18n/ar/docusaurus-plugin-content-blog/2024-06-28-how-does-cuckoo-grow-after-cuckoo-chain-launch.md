@@ -1,6 +1,6 @@
 ---
 title: "كيف تنمو Cuckoo AI بعد إطلاق Cuckoo Chain"
-authors: [لارك]
+authors: [lark]
 tags: [الشركة، خارطة الطريق]
 image: https://cuckoo-network.b-cdn.net/how-does-cuckoo-grow-after-cuckoo-chain-launch.webp
 description: منذ إطلاق سلسلة Cuckoo، شهدت شبكة Cuckoo نموًا ملحوظًا. يستكشف هذا المقال التجارب المحسّنة لحاملي التوكنات والمعدنين وبناة DeAI التي تقود هذا التحول.

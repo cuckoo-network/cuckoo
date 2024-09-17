@@ -1,80 +1,78 @@
-```json
 {
-"version.label": {
-"message": "Siguiente",
-"description": "The label for version current"
-},
-"sidebar.tutorialSidebar.category. Cuckoo AI": {
-"message": "Cuckoo AI",
-"description": "The label for category Cuckoo AI in sidebar tutorialSidebar"
-},
-"sidebar.tutorialSidebar.category. Cuckoo Chain": {
-"message": "Cuckoo Chain",
-"description": "The label for category Cuckoo Chain in sidebar tutorialSidebar"
-},
-"sidebar.tutorialSidebar.category. Deploy Smart Contract": {
-"message": "Desplegar Contrato Inteligente",
-"description": "The label for category Deploy Smart Contract in sidebar tutorialSidebar"
-},
-"sidebar.tutorialSidebar.doc. Introduction": {
-"message": "Introducción",
-"description": "The label for the doc item Introduction in sidebar tutorialSidebar, linking to the doc cuckoo-network"
-},
-"sidebar.tutorialSidebar.doc. Vision": {
-"message": "Visión",
-"description": "The label for the doc item Vision in sidebar tutorialSidebar, linking to the doc vision"
-},
-"sidebar.tutorialSidebar.doc. Overview": {
-"message": "Resumen",
-"description": "The label for the doc item Overview in sidebar tutorialSidebar, linking to the doc Cuckoo AI/cuckoo-ai"
-},
-"sidebar.tutorialSidebar.doc. How to Run a Miner Node": {
-"message": "Cómo Ejecutar un Nodo de Minero",
-"description": "The label for the doc item How to Run a Miner Node in sidebar tutorialSidebar, linking to the doc Cuckoo AI/ai-node"
-},
-"sidebar.tutorialSidebar.doc. Network Details": {
-"message": "Detalles de la Red",
-"description": "The label for the doc item Network Details in sidebar tutorialSidebar, linking to the doc Cuckoo Chain/cuckoo-chain"
-},
-"sidebar.tutorialSidebar.doc. How to Run a Cuckoo Chain Node": {
-"message": "Cómo Ejecutar un Nodo de Cuckoo Chain",
-"description": "The label for the doc item How to Run a Cuckoo Chain Node in sidebar tutorialSidebar, linking to the doc Cuckoo Chain/full-node"
-},
-"sidebar.tutorialSidebar.doc. Cuckoo Bridge": {
-"message": "Cuckoo Bridge",
-"description": "The label for the doc item Cuckoo Bridge in sidebar tutorialSidebar, linking to the doc Cuckoo Chain/bridge"
-},
-"sidebar.tutorialSidebar.doc.Using Hardhat": {
-"message": "Usando Hardhat",
-"description": "The label for the doc item Using Hardhat in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-hardhat"
-},
-"sidebar.tutorialSidebar.doc.Using Thirdweb": {
-"message": "Usando Thirdweb",
-"description": "The label for the doc item Using Thirdweb in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-thirdweb"
-},
-"sidebar.tutorialSidebar.doc.Using Foundry": {
-"message": "Usando Foundry",
-"description": "The label for the doc item Using Foundry in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-foundry"
-},
-"sidebar.tutorialSidebar.doc.Using Remix": {
-"message": "Usando Remix",
-"description": "The label for the doc item Using Remix in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-remix"
-},
-"sidebar.tutorialSidebar.doc. How does Cuckoo work": {
-"message": "Cómo Funciona Cuckoo",
-"description": "The label for the doc item How does Cuckoo work in sidebar tutorialSidebar, linking to the doc How does Cuckoo work"
-},
-"sidebar.tutorialSidebar.doc. $CAI": {
-"message": "$CAI",
-"description": "The label for the doc item $CAI in sidebar tutorialSidebar, linking to the doc token"
-},
-"sidebar.tutorialSidebar.doc. Roadmap": {
-"message": "Hoja de Ruta",
-"description": "The label for the doc item Roadmap in sidebar tutorialSidebar, linking to the doc roadmap"
-},
-"sidebar.tutorialSidebar.doc. Team": {
-"message": "Equipo",
-"description": "The label for the doc item Team in sidebar tutorialSidebar, linking to the doc team"
+  "version.label": {
+    "message": "Siguiente",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category. Cuckoo AI": {
+    "message": "Cuckoo AI",
+    "description": "The label for category Cuckoo AI in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category. Cuckoo Chain": {
+    "message": "Cuckoo Chain",
+    "description": "The label for category Cuckoo Chain in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category. Deploy Smart Contract": {
+    "message": "Desplegar Contrato Inteligente",
+    "description": "The label for category Deploy Smart Contract in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc. Introduction": {
+    "message": "Introducción",
+    "description": "The label for the doc item Introduction in sidebar tutorialSidebar, linking to the doc cuckoo-network"
+  },
+  "sidebar.tutorialSidebar.doc. Vision": {
+    "message": "Visión",
+    "description": "The label for the doc item Vision in sidebar tutorialSidebar, linking to the doc vision"
+  },
+  "sidebar.tutorialSidebar.doc. Overview": {
+    "message": "Resumen",
+    "description": "The label for the doc item Overview in sidebar tutorialSidebar, linking to the doc Cuckoo AI/cuckoo-ai"
+  },
+  "sidebar.tutorialSidebar.doc. How to Run a Miner Node": {
+    "message": "Cómo Ejecutar un Nodo de Minero",
+    "description": "The label for the doc item How to Run a Miner Node in sidebar tutorialSidebar, linking to the doc Cuckoo AI/ai-node"
+  },
+  "sidebar.tutorialSidebar.doc. Network Details": {
+    "message": "Detalles de la Red",
+    "description": "The label for the doc item Network Details in sidebar tutorialSidebar, linking to the doc Cuckoo Chain/cuckoo-chain"
+  },
+  "sidebar.tutorialSidebar.doc. How to Run a Cuckoo Chain Node": {
+    "message": "Cómo Ejecutar un Nodo de Cuckoo Chain",
+    "description": "The label for the doc item How to Run a Cuckoo Chain Node in sidebar tutorialSidebar, linking to the doc Cuckoo Chain/full-node"
+  },
+  "sidebar.tutorialSidebar.doc. Cuckoo Bridge": {
+    "message": "Cuckoo Bridge",
+    "description": "The label for the doc item Cuckoo Bridge in sidebar tutorialSidebar, linking to the doc Cuckoo Chain/bridge"
+  },
+  "sidebar.tutorialSidebar.doc.Using Hardhat": {
+    "message": "Usando Hardhat",
+    "description": "The label for the doc item Using Hardhat in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-hardhat"
+  },
+  "sidebar.tutorialSidebar.doc.Using Thirdweb": {
+    "message": "Usando Thirdweb",
+    "description": "The label for the doc item Using Thirdweb in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-thirdweb"
+  },
+  "sidebar.tutorialSidebar.doc.Using Foundry": {
+    "message": "Usando Foundry",
+    "description": "The label for the doc item Using Foundry in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-foundry"
+  },
+  "sidebar.tutorialSidebar.doc.Using Remix": {
+    "message": "Usando Remix",
+    "description": "The label for the doc item Using Remix in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-remix"
+  },
+  "sidebar.tutorialSidebar.doc. How does Cuckoo work": {
+    "message": "Cómo Funciona Cuckoo",
+    "description": "The label for the doc item How does Cuckoo work in sidebar tutorialSidebar, linking to the doc How does Cuckoo work"
+  },
+  "sidebar.tutorialSidebar.doc. $CAI": {
+    "message": "$CAI",
+    "description": "The label for the doc item $CAI in sidebar tutorialSidebar, linking to the doc token"
+  },
+  "sidebar.tutorialSidebar.doc. Roadmap": {
+    "message": "Hoja de Ruta",
+    "description": "The label for the doc item Roadmap in sidebar tutorialSidebar, linking to the doc roadmap"
+  },
+  "sidebar.tutorialSidebar.doc. Team": {
+    "message": "Equipo",
+    "description": "The label for the doc item Team in sidebar tutorialSidebar, linking to the doc team"
+  }
 }
-}
-```

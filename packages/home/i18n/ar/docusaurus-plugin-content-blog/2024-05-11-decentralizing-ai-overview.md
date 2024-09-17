@@ -1,6 +1,6 @@
 ---
 title: "لامركزية الذكاء الاصطناعي: نظرة عامة"
-authors: [دورا]
+authors: [lark]
 tags: [بحث]
 image: https://cuckoo-network.b-cdn.net/decentralizing-ai-an-overview.png
 ---

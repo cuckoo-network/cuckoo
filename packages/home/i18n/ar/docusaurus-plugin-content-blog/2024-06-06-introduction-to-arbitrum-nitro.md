@@ -1,6 +1,6 @@
 ---
 title: "مقدمة في بنية Arbitrum Nitro"
-authors: [لارك]
+authors: [lark]
 tags: [الهندسة، البحث]
 image: https://cuckoo-network.b-cdn.net/introduction-to-arbitrum-nitro.webp
 ---

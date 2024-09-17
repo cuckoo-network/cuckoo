@@ -1,8 +1,6 @@
-_Created with [AIMONEYGEN.COM - "Visit GPTS Collection "](https://aimoneygen.com/gpts-collection/)_
-
 ---
 title: "إعلان عن Airdrop شبكة Cuckoo: يونيو 2024"
-authors: [لارك]
+authors: [lark]
 tags: [التوزيع المجاني، سلسلة كوكو]
 image: "https://cuckoo-network.b-cdn.net/cuckoo-network-airdrop-june-2024.webp"
 description: شارك في Airdrop شبكة Cuckoo هذا يونيو 2024. تفاعل مع شبكات اختبار Alpha وSepolia لتحصل على نصيبك من 30,000 توكن $CAI. لا تفوت الفرصة!

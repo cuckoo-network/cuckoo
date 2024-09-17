@@ -1,6 +1,6 @@
 ---
 title: "الإعلان عن Cuckoo Sepolia V2 على Arbitrum"
-authors: [دورا]
+authors: [lark]
 tags: [المنتج، سلسلة كوكو، خارطة الطريق]
 image: https://cuckoo-network.b-cdn.net/cuckoo-sepolia-v2.webp
 ---

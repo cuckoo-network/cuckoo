@@ -1,6 +1,6 @@
 ---
 title: Cuckoo Art تقدم خاصية المشاركة بنقرة واحدة إلى X/Twitter
-authors: [لارك]
+authors: [lark]
 tags: [المنتج]
 image: https://cuckoo-network.b-cdn.net/cuckoo-art-x-twitter-sharing.webp
 description: أطلقت Cuckoo Art خاصية المشاركة بنقرة واحدة إلى X/Twitter، مما يتيح للفنانين عرض أعمالهم الفنية المولدة بالذكاء الاصطناعي على مستوى عالمي. تربط هذه الخاصية بين الإبداع ووسائل التواصل الاجتماعي، مما يزيد من التفاعل المجتمعي.

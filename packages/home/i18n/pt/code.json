@@ -277,11 +277,11 @@
   },
   "Experience Decentralized AI Model-Serving": {
     "message": "Experimente o Serviço de Modelos de IA Descentralizados",
-    "description": ""
+    "description": "x"
   },
   "Generate image now with Cuckoo Bot": {
     "message": "Gere imagens agora com o Cuckoo Bot",
-    "description": ""
+    "description": "x"
   },
   "Explore": {
     "message": "Explorar",
@@ -445,31 +445,31 @@
   },
   "Get rewarded by contributing to Gen AI": {
     "message": "Seja recompensado por contribuir para a Gen AI",
-    "description": ""
+    "description": "x"
   },
   "For AI Consumers": {
     "message": "Para Consumidores de IA",
-    "description": ""
+    "description": "x"
   },
   "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.": {
     "message": "Acesse uma variedade de aplicativos de IA gratuitamente, contribuindo para o ecossistema ou usando o Cuckoo Pay. Se um aplicativo for bloqueado, alterne facilmente para outro coordenador dentro da rede descentralizada.",
-    "description": ""
+    "description": "x"
   },
   "For App Builders/Coordinators": {
     "message": "Para Criadores de Apps/Coordenadores",
-    "description": ""
+    "description": "x"
   },
   "Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.": {
     "message": "Execute um nó coordenador, faça staking para ingressar na rede e ganhe recompensas. Reduza os custos de GPU, expanda sua base de clientes, atribua tarefas a mineradores de GPU, valide resultados e distribua pagamentos.",
-    "description": ""
+    "description": "x"
   },
   "For GPU Miners": {
     "message": "Para Mineradores de GPU",
-    "description": ""
+    "description": "x"
   },
   "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.": {
     "message": "Execute um nó de mineração, faça staking para ingressar na rede e ganhe recompensas. Compartilhe seus recursos de GPU, complete as tarefas atribuídas e mantenha um serviço confiável para ganhar tokens.",
-    "description": ""
+    "description": "x"
   },
   "theme.ErrorPageContent.title": {
     "message": "Esta página deu erro.",
