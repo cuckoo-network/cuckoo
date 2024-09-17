@@ -1,0 +1,30 @@
+{
+  "logo.alt": {
+    "message": "कुकू एआई लोगो",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Airdrop": {
+    "message": "एयरड्रॉप",
+    "description": "Navbar item with label Airdrop"
+  },
+  "item.label.Docs": {
+    "message": "दस्तावेज़",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Blogs": {
+    "message": "ब्लॉग्स",
+    "description": "Navbar item with label Blogs"
+  },
+  "item.label.Image Gen": {
+    "message": "छवि जनरेशन",
+    "description": "Navbar item with label Image Gen"
+  },
+  "item.label.Blockchain": {
+    "message": "ब्लॉकचेन",
+    "description": "Navbar item with label Blockchain"
+  },
+  "item.label.Staking": {
+    "message": "स्टेकिंग",
+    "description": "Navbar item with label Staking"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "logo.alt": {
+    "message": "لوگوی Cuckoo AI",
+    "description": "متن جایگزین لوگوی نوار ناوبری"
+  },
+  "item.label.Airdrop": {
+    "message": "ایردراپ",
+    "description": "آیتم نوار ناوبری با برچسب Airdrop"
+  },
+  "item.label.Docs": {
+    "message": "مستندات",
+    "description": "آیتم نوار ناوبری با برچسب Docs"
+  },
+  "item.label.Blogs": {
+    "message": "وبلاگ‌ها",
+    "description": "آیتم نوار ناوبری با برچسب Blogs"
+  },
+  "item.label.Image Gen": {
+    "message": "تولید تصویر",
+    "description": "آیتم نوار ناوبری با برچسب Image Gen"
+  },
+  "item.label.Blockchain": {
+    "message": "بلاک‌چین",
+    "description": "آیتم نوار ناوبری با برچسب Blockchain"
+  },
+  "item.label.Staking": {
+    "message": "سهام‌گذاری",
+    "description": "آیتم نوار ناوبری با برچسب Staking"
+  }
+}

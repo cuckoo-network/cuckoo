@@ -1,0 +1,30 @@
+{
+  "logo.alt": {
+    "message": "شعار Cuckoo AI",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Airdrop": {
+    "message": "التوزيع المجاني",
+    "description": "Navbar item with label Airdrop"
+  },
+  "item.label.Docs": {
+    "message": "الوثائق",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Blogs": {
+    "message": "المدونات",
+    "description": "Navbar item with label Blogs"
+  },
+  "item.label.Image Gen": {
+    "message": "توليد الصور",
+    "description": "Navbar item with label Image Gen"
+  },
+  "item.label.Blockchain": {
+    "message": "البلوكتشين",
+    "description": "Navbar item with label Blockchain"
+  },
+  "item.label.Staking": {
+    "message": "التخزين",
+    "description": "Navbar item with label Staking"
+  }
+}

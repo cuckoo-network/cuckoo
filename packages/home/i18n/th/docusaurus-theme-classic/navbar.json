@@ -1,0 +1,30 @@
+{
+  "logo.alt": {
+    "message": "โลโก้ Cuckoo AI",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Airdrop": {
+    "message": "Airdrop",
+    "description": "Navbar item with label Airdrop"
+  },
+  "item.label.Docs": {
+    "message": "เอกสาร",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Blogs": {
+    "message": "บล็อก",
+    "description": "Navbar item with label Blogs"
+  },
+  "item.label.Image Gen": {
+    "message": "การสร้างภาพ",
+    "description": "Navbar item with label Image Gen"
+  },
+  "item.label.Blockchain": {
+    "message": "บล็อกเชน",
+    "description": "Navbar item with label Blockchain"
+  },
+  "item.label.Staking": {
+    "message": "การเดิมพัน",
+    "description": "Navbar item with label Staking"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "logo.alt": {
+    "message": "Cuckoo AI Logosu",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Airdrop": {
+    "message": "Airdrop",
+    "description": "Navbar item with label Airdrop"
+  },
+  "item.label.Docs": {
+    "message": "Dokümanlar",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Blogs": {
+    "message": "Bloglar",
+    "description": "Navbar item with label Blogs"
+  },
+  "item.label.Image Gen": {
+    "message": "Görüntü Üretimi",
+    "description": "Navbar item with label Image Gen"
+  },
+  "item.label.Blockchain": {
+    "message": "Blok Zinciri",
+    "description": "Navbar item with label Blockchain"
+  },
+  "item.label.Staking": {
+    "message": "Stake Etme",
+    "description": "Navbar item with label Staking"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "Cuckoo Chain: Decentralized AI Blockchain": {
+    "message": "Cuckoo Chain: Blockchain AI Terdesentralisasi",
+    "description": "Page title for Cuckoo Chain homepage"
+  },
+  "Cuckoo Chain is set to transform the AI blockchain landscape. As an Arbitrum L2 in the Ethereum ecosystem, it brings streamlined AI developer experience, fast speed and efficiency to the table. This makes it a prime choice for Web3 + AI users seeking robust and scalable solutions": {
+    "message": "Cuckoo Chain siap mengubah lanskap blockchain AI. Sebagai Arbitrum L2 di ekosistem Ethereum, ia menghadirkan pengalaman pengembang AI yang efisien, kecepatan tinggi, dan efisiensi. Ini menjadikannya pilihan utama bagi pengguna Web3 + AI yang mencari solusi yang kuat dan skalabel.",
+    "description": "Page description for Cuckoo Chain homepage"
+  },
+  "Hero Illustration": {
+    "message": "Ilustrasi Pahlawan",
+    "description": "The alt text for the hero illustration"
+  },
+  "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders": {
+    "message": "Cuckoo AI: Platform Kreatif AI Terdesentralisasi untuk Kreator & Pembuat",
+    "description": "The site tagline"
+  },
+  "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
+    "message": "Buat karya seni AI menakjubkan dan tenagai aplikasi Gen AI Anda dengan GPU atau CPU di Cuckoo Chain. Bagikan, hasilkan, dan buka kekuatan AI terdesentralisasi.",
+    "description": "Site description"
+  },
+  "Newsletter iframe": {
+    "message": "Newsletter iframe",
+    "description": "The title for the newsletter iframe"
+  },
+  "It's time to join the thousands of creators, artists, and developers using Cuckoo Chain": {
+    "message": "Sudah waktunya bergabung dengan ribuan kreator, seniman, dan pengembang yang menggunakan Cuckoo Chain",
+    "description": "CTA section main title"
+  },
+  "Explore Chain": {
+    "message": "Jelajahi Rantai",
+    "description": "Button label to explore the Cuckoo Chain"
+  },
+  "Read Docs": {
+    "message": "Baca Dokumen",
+    "description": "Button label to read the Cuckoo Chain documentation"
+  },
+  "FAQs": {
+    "message": "Pertanyaan yang Sering Diajukan",
+    "description": "FAQs section title"
+  },
+  "What is Cuckoo Chain?": {
+    "message": "Apa itu Cuckoo Chain?",
+    "description": "Question: What is Cuckoo Chain?"
+  },
+  "Cuckoo Chain is a blockchain platform designed specifically for AI applications, operating as an Arbitrum L2 within the Ethereum ecosystem. It offers a streamlined AI developer experience with enhanced speed and efficiency.": {
+    "message": "Cuckoo Chain adalah platform blockchain yang dirancang khusus untuk aplikasi AI, beroperasi sebagai Arbitrum L2 di dalam ekosistem Ethereum. Ini menawarkan pengalaman pengembang AI yang disederhanakan dengan kecepatan dan efisiensi yang lebih tinggi.",
+    "description": "Answer: What is Cuckoo Chain?"
+  },
+  "How does Cuckoo Chain integrate with the Ethereum ecosystem?": {
+    "message": "Bagaimana Cuckoo Chain terintegrasi dengan ekosistem Ethereum?",
+    "description": "Question: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
+  },
+  "Cuckoo Chain functions as an Arbitrum Layer 2 solution, which means it inherits the security and decentralization of Ethereum while providing faster and cheaper transactions. This integration ensures seamless interoperability with the Ethereum network.": {
+    "message": "Cuckoo Chain berfungsi sebagai solusi Arbitrum Layer 2, yang berarti ia mewarisi keamanan dan desentralisasi Ethereum sambil menyediakan transaksi yang lebih cepat dan lebih murah. Integrasi ini memastikan interoperabilitas yang mulus dengan jaringan Ethereum.",
+    "description": "Answer: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
+  },
+  "What are the main benefits of using Cuckoo Chain for AI development?": {
+    "message": "Apa manfaat utama menggunakan Cuckoo Chain untuk pengembangan AI?",
+    "description": "Question: What are the main benefits of using Cuckoo Chain for AI development?"
+  },
+  "Cuckoo Chain offers unparalleled speed, efficiency, and scalability for AI development. It reduces transaction costs, accelerates processing times, and provides a robust infrastructure for deploying AI solutions on the blockchain.": {
+    "message": "Cuckoo Chain menawarkan kecepatan, efisiensi, dan skalabilitas yang tak tertandingi untuk pengembangan AI. Ini mengurangi biaya transaksi, mempercepat waktu pemrosesan, dan menyediakan infrastruktur yang kuat untuk menerapkan solusi AI di blockchain.",
+    "description": "Answer: What are the main benefits of using Cuckoo Chain for AI development?"
+  },
+  "How can I get started with Cuckoo Chain?": {
+    "message": "Bagaimana cara memulai dengan Cuckoo Chain?",
+    "description": "Question: How can I get started with Cuckoo Chain?"
+  },
+  "Getting started with Cuckoo Chain is simple. Visit our {gettingStartedGuide} for step-by-step instructions on setting up your account,\n                  integrating your applications, and deploying your first AI\n                  models on the platform.": {
+    "message": "Memulai dengan Cuckoo Chain sangat mudah. Kunjungi {gettingStartedGuide} kami untuk panduan langkah demi langkah tentang cara menyiapkan akun Anda, mengintegrasikan aplikasi Anda, dan menerapkan model AI pertama Anda di platform.",
+    "description": "Answer: How can I get started with Cuckoo Chain?"
+  },
+  "Getting Started Guide": {
+    "message": "Panduan Memulai",
+    "description": "Link text for Getting Started Guide"
+  },
+  "What are some real-world use cases for Cuckoo Chain?": {
+    "message": "Apa saja kasus penggunaan dunia nyata untuk Cuckoo Chain?",
+    "description": "Question: What are some real-world use cases for Cuckoo Chain?"
+  },
+  "Cuckoo Chain can be used in various scenarios, including decentralized AI model inference, secure data sharing, and AI-powered decentralized applications (dApps). Our platform supports diverse industries such as finance, healthcare, and supply chain management.": {
+    "message": "Cuckoo Chain dapat digunakan dalam berbagai skenario, termasuk inferensi model AI terdesentralisasi, berbagi data yang aman, dan aplikasi terdesentralisasi (dApps) yang didukung AI. Platform kami mendukung berbagai industri seperti keuangan, perawatan kesehatan, dan manajemen rantai pasokan.",
+    "description": "Answer: What are some real-world use cases for Cuckoo Chain?"
+  },
+  "Where can I find support and additional resources?": {
+    "message": "Di mana saya bisa menemukan dukungan dan sumber daya tambahan?",
+    "description": "Question: Where can I find support and additional resources?"
+  },
+  "For support and additional resources, visit our {helpCenter} or join our community on {discord} and {telegram}. Our\n                  comprehensive documentation, tutorials, and active community\n                  are here to assist you with any questions or challenges you\n                  might encounter.": {
+    "message": "Untuk dukungan dan sumber daya tambahan, kunjungi {helpCenter} kami atau bergabunglah dengan komunitas kami di {discord} dan {telegram}. Dokumentasi kami yang komprehensif, tutorial, dan komunitas aktif kami siap membantu Anda dengan pertanyaan atau tantangan apa pun yang mungkin Anda hadapi.",
+    "description": "Answer: Where can I find support and additional resources?"
+  },
+  "Help Center": {
+    "message": "Pusat Bantuan",
+    "description": "Link text for Help Center"
+  },
+  "Discord": {
+    "message": "Discord",
+    "description": "Link text for Discord"
+  },
+  "Telegram": {
+    "message": "Telegram",
+    "description": "Link text for Telegram"
+  },
+  "Illustration": {
+    "message": "Ilustrasi",
+    "description": "Illustration alt text"
+  },
+  "Many tools to decentralized AI with Cuckoo Chain": {
+    "message": "Banyak alat untuk AI terdesentralisasi dengan Cuckoo Chain",
+    "description": "Section header title"
+  },
+  "The best resources for building an end-to-end Cuckoo Chain dApp.": {
+    "message": "Sumber daya terbaik untuk membangun dApp Cuckoo Chain end-to-end.",
+    "description": "Section header description"
+  },
+  "Icon 01": {
+    "message": "Ikon 01",
+    "description": "Icon 01 alt text"
+  },
+  "Cuckoo Network Bridge": {
+    "message": "Jembatan Cuckoo Network",
+    "description": "Cuckoo Network Bridge title"
+  },
+  "Transfer assets seamlessly across Arbitrum One and Cuckoo Chain with minimal fees and secure transactions.": {
+    "message": "Transfer aset dengan mulus di seluruh Arbitrum One dan Cuckoo Chain dengan biaya minimal dan transaksi yang aman.",
+    "description": "Cuckoo Network Bridge description"
+  },
+  "Learn More": {
+    "message": "Pelajari Leb
+
+    ih
+    Lanjut
+    ",
+    "description": "Home page hero section's news message's CTA"
+  },
+  "Icon 02": {
+    "message": "Ikon 02",
+    "description": "Icon 02 alt text"
+  },
+  "Thirdweb": {
+    "message": "Thirdweb",
+    "description": "Thirdweb title"
+  },
+  "Full-stack, open-source web3 development platform. Fullstack tools to build complete web3 apps.": {
+    "message": "Platform pengembangan web3 sumber terbuka full-stack. Alat full-stack untuk membangun aplikasi web3 lengkap.",
+    "description": "Thirdweb description"
+  },
+  "Icon 03": {
+    "message": "Ikon 03",
+    "description": "Icon 03 alt text"
+  },
+  "ChainList": {
+    "message": "ChainList",
+    "description": "ChainList title"
+  },
+  "ChainList is a list of EVM networks. Users can use the info to connect their wallets and Web3 middleware providers.": {
+    "message": "ChainList adalah daftar jaringan EVM. Pengguna dapat menggunakan info tersebut untuk menghubungkan dompet mereka dan penyedia middleware Web3.",
+    "description": "ChainList description"
+  },
+  "Icon 04": {
+    "message": "Ikon 04",
+    "description": "Icon 04 alt text"
+  },
+  "Cuckoo Scan": {
+    "message": "Cuckoo Scan",
+    "description": "Cuckoo Scan title"
+  },
+  "Blockchain explorer to inspect Cuckoo Chain transactions, tokens, and coins. RESTful and GraphQL API available.": {
+    "message": "Explorer blockchain untuk memeriksa transaksi Cuckoo Chain, token, dan koin. API RESTful dan GraphQL tersedia.",
+    "description": "Cuckoo Scan description"
+  },
+  "Previous": {
+    "message": "Sebelumnya",
+    "description": "Aria label for previous button"
+  },
+  "Next": {
+    "message": "Berikutnya",
+    "description": "Aria label for next button"
+  },
+  "Transforming AI with Blockchain Technology": {
+    "message": "Mengubah AI dengan Teknologi Blockchain",
+    "description": "Hero section main title"
+  },
+  "Cuckoo Chain, an Arbitrum L2 in the Ethereum ecosystem, revolutionizes AI development with unmatched speed, efficiency, and scalability. Perfect for Web3 + AI innovators.": {
+    "message": "Cuckoo Chain, sebuah Arbitrum L2 di ekosistem Ethereum, merevolusi pengembangan AI dengan kecepatan, efisiensi, dan skalabilitas yang tak tertandingi. Sempurna untuk inovator Web3 + AI.",
+    "description": "Hero section description about Cuckoo Chain and its role in AI development"
+  },
+  "Pricing Illustration": {
+    "message": "Ilustrasi Harga",
+    "description": "Alt text for the pricing section illustration"
+  },
+  "Fundamentally Aligned with Ethereum": {
+    "message": "Secara Fundamental Selaras dengan Ethereum",
+    "description": "Title for the pricing section"
+  },
+  "But optimized for performance and on-chain AI": {
+    "message": "Namun dioptimalkan untuk kinerja dan AI on-chain",
+    "description": "Description for the pricing section"
+  },
+  "Monthly": {
+    "message": "Bulanan",
+    "description": "Label for the monthly payment option"
+  },
+  "Pay annually": {
+    "message": "Bayar tahunan",
+    "description": "Screen reader label for toggling to pay annually"
+  },
+  "Yearly": {
+    "message": "Tahunan",
+    "description": "Label for the yearly payment option"
+  },
+  "Infra": {
+    "message": "Infrastruktur",
+    "description": "Infra section label for mobile view"
+  },
+  "Max Theoretical TPS": {
+    "message": "TPS Teoretis Maksimum",
+    "description": "Label for maximum theoretical transactions per second in mobile view"
+  },
+  "Fastest Block Time": {
+    "message": "Waktu Blok Tercepat",
+    "description": "Label for the fastest block time in mobile view"
+  },
+  "Governance Model": {
+    "message": "Model Tata Kelola",
+    "description": "Label for the governance model in mobile view"
+  },
+  "Features": {
+    "message": "Fitur",
+    "description": "Label for the features section in mobile view"
+  },
+  "Avg. Gas Price": {
+    "message": "Harga Gas Rata-rata",
+    "description": "Label for the average gas price in mobile view"
+  },
+  "EVM Compatible": {
+    "message": "Kompatibel dengan EVM",
+    "description": "Label for EVM compatibility in mobile view"
+  },
+  "Decentralized Ledger": {
+    "message": "Buku Besar Terdesentralisasi",
+    "description": "Label for decentralized ledger in mobile view"
+  },
+  "\"Cuckoo Chain revolutionized our AI development with unmatched speed and efficiency. It's a game-changer for any AI-driven blockchain enterprise.\"": {
+    "message": "\"Cuckoo Chain merevolusi pengembangan AI kami dengan kecepatan dan efisiensi yang tak tertandingi. Ini adalah pengubah permainan untuk setiap perusahaan blockchain yang didorong oleh AI.\"",
+    "description": "First testimonial text"
+  },
+  "Aaliyah Baker": {
+    "message": "Aaliyah Baker",
+    "description": "First testimonial author name"
+  },
+  "DApper OS": {
+    "message": "DApper OS",
+    "description": "First testimonial author company"
+  },
+  "\"Integrating Cuckoo Chain was seamless. The performance boost and compatibility with Ethereum are phenomenal.\"": {
+    "message": "\"Mengintegrasikan Cuckoo Chain sangat mulus. Peningkatan kinerja dan kompatibilitasnya dengan Ethereum luar biasa.\"",
+    "description": "Second testimonial text"
+  },
+  "Sloan Seaman": {
+    "message": "Sloan Seaman",
+    "description": "Second testimonial author name"
+  },
+  "Coupang": {
+    "message": "Coupang",
+    "description": "Second testimonial author company"
+  },
+  "\"Cuckoo Chain empowered us to create fast, secure decentralized AI apps. The support team is invaluable.\"": {
+    "message": "\"Cuckoo Chain memberi kami kekuatan untuk membuat aplikasi AI terdesentralisasi yang cepat dan aman. Tim dukungan sangat berharga.\"",
+    "description": "Third testimonial text"
+  },
+  "Christine Dejoux": {
+    "message": "Christine Dejoux",
+    "description": "Third testimonial author name"
+  },
+  "Glocomms": {
+    "message": "Glocomms",
+    "description": "Third testimonial author company"
+  }
+}

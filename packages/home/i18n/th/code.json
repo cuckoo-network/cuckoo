@@ -1,0 +1,752 @@
+{
+  "Cuckoo Chain: Decentralized AI Blockchain": {
+    "message": "Cuckoo Chain: บล็อกเชน AI แบบกระจายศูนย์",
+    "description": "Page title for Cuckoo Chain homepage"
+  },
+  "Cuckoo Chain is set to transform the AI blockchain landscape. As an Arbitrum L2 in the Ethereum ecosystem, it brings streamlined AI developer experience, fast speed and efficiency to the table. This makes it a prime choice for Web3 + AI users seeking robust and scalable solutions": {
+    "message": "Cuckoo Chain พร้อมที่จะเปลี่ยนแปลงภูมิทัศน์บล็อกเชน AI โดยเป็น Arbitrum L2 ในระบบนิเวศของ Ethereum ซึ่งนำเสนอประสบการณ์การพัฒนาที่ราบรื่น ความเร็วและประสิทธิภาพที่รวดเร็ว ทำให้เป็นตัวเลือกที่ดีที่สุดสำหรับผู้ใช้ Web3 + AI ที่ต้องการโซลูชันที่แข็งแกร่งและปรับขนาดได้",
+    "description": "Page description for Cuckoo Chain homepage"
+  },
+  "Hero Illustration": {
+    "message": "ภาพประกอบฮีโร่",
+    "description": "The alt text for the hero illustration"
+  },
+  "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders": {
+    "message": "Cuckoo AI แพลตฟอร์มสร้างสรรค์ AI แบบกระจายศูนย์สำหรับผู้สร้างและผู้พัฒนา",
+    "description": "The site tagline"
+  },
+  "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
+    "message": "สร้างงานศิลปะ AI ที่น่าทึ่งและเติมพลังให้กับแอป Gen AI ด้วย GPU หรือ CPU ของคุณบน Cuckoo Chain แชร์ สร้าง และปลดล็อกพลังของ AI แบบกระจายศูนย์",
+    "description": "Site description"
+  },
+  "Newsletter iframe": {
+    "message": "iframe จดหมายข่าว",
+    "description": "The title for the newsletter iframe"
+  },
+  "It's time to join the thousands of creators, artists, and developers using Cuckoo Chain": {
+    "message": "ถึงเวลาเข้าร่วมกับผู้สร้าง ศิลปิน และนักพัฒนาหมื่นคนที่ใช้ Cuckoo Chain",
+    "description": "CTA section main title"
+  },
+  "Explore Chain": {
+    "message": "สำรวจ Chain",
+    "description": "Button label to explore the Cuckoo Chain"
+  },
+  "Read Docs": {
+    "message": "อ่านเอกสาร",
+    "description": "Button label to read the Cuckoo Chain documentation"
+  },
+  "FAQs": {
+    "message": "คำถามที่พบบ่อย",
+    "description": "FAQs section title"
+  },
+  "What is Cuckoo Chain?": {
+    "message": "Cuckoo Chain คืออะไร?",
+    "description": "Question: What is Cuckoo Chain?"
+  },
+  "Cuckoo Chain is a blockchain platform designed specifically for AI applications, operating as an Arbitrum L2 within the Ethereum ecosystem. It offers a streamlined AI developer experience with enhanced speed and efficiency.": {
+    "message": "Cuckoo Chain เป็นแพลตฟอร์มบล็อกเชนที่ออกแบบมาโดยเฉพาะสำหรับแอปพลิเคชัน AI ทำงานเป็น Arbitrum L2 ภายในระบบนิเวศของ Ethereum โดยนำเสนอประสบการณ์การพัฒนาที่ราบรื่นด้วยความเร็วและประสิทธิภาพที่เพิ่มขึ้น",
+    "description": "Answer: What is Cuckoo Chain?"
+  },
+  "How does Cuckoo Chain integrate with the Ethereum ecosystem?": {
+    "message": "Cuckoo Chain รวมเข้ากับระบบนิเวศของ Ethereum ได้อย่างไร?",
+    "description": "Question: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
+  },
+  "Cuckoo Chain functions as an Arbitrum Layer 2 solution, which means it inherits the security and decentralization of Ethereum while providing faster and cheaper transactions. This integration ensures seamless interoperability with the Ethereum network.": {
+    "message": "Cuckoo Chain ทำหน้าที่เป็นโซลูชัน Arbitrum Layer 2 ซึ่งหมายความว่ามันสืบทอดความปลอดภัยและการกระจายอำนาจของ Ethereum ในขณะที่ให้การทำธุรกรรมที่รวดเร็วและราคาถูกกว่า การรวมนี้ทำให้มั่นใจได้ถึงการทำงานร่วมกันอย่างราบรื่นกับเครือข่าย Ethereum",
+    "description": "Answer: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
+  },
+  "What are the main benefits of using Cuckoo Chain for AI development?": {
+    "message": "ข้อดีหลักของการใช้ Cuckoo Chain สำหรับการพัฒนา AI คืออะไร?",
+    "description": "Question: What are the main benefits of using Cuckoo Chain for AI development?"
+  },
+  "Cuckoo Chain offers unparalleled speed, efficiency, and scalability for AI development. It reduces transaction costs, accelerates processing times, and provides a robust infrastructure for deploying AI solutions on the blockchain.": {
+    "message": "Cuckoo Chain มอบความเร็ว ประสิทธิภาพ และความสามารถในการปรับขนาดที่ไม่มีใครเทียบได้สำหรับการพัฒนา AI ลดต้นทุนการทำธุรกรรม เร่งเวลาในการประมวลผล และให้โครงสร้างพื้นฐานที่แข็งแกร่งสำหรับการปรับใช้โซลูชัน AI บนบล็อกเชน",
+    "description": "Answer: What are the main benefits of using Cuckoo Chain for AI development?"
+  },
+  "How can I get started with Cuckoo Chain?": {
+    "message": "ฉันจะเริ่มต้นกับ Cuckoo Chain ได้อย่างไร?",
+    "description": "Question: How can I get started with Cuckoo Chain?"
+  },
+  "Getting started with Cuckoo Chain is simple. Visit our {gettingStartedGuide} for step-by-step instructions on setting up your account,\n                  integrating your applications, and deploying your first AI\n                  models on the platform.": {
+    "message": "การเริ่มต้นกับ Cuckoo Chain นั้นง่ายมาก เยี่ยมชม {gettingStartedGuide} ของเราเพื่อดูคำแนะนำทีละขั้นตอนในการตั้งค่าบัญชีของคุณ,\n                  รวมแอปพลิเคชันของคุณ และปรับใช้โมเดล AI ตัวแรกของคุณบนแพลตฟอร์ม",
+    "description": "Answer: How can I get started with Cuckoo Chain?"
+  },
+  "Getting Started Guide": {
+    "message": "คู่มือเริ่มต้น",
+    "description": "Link text for Getting Started Guide"
+  },
+  "What are some real-world use cases for Cuckoo Chain?": {
+    "message": "กรณีการใช้งานจริงบางอย่างสำหรับ Cuckoo Chain คืออะไร?",
+    "description": "Question: What are some real-world use cases for Cuckoo Chain?"
+  },
+  "Cuckoo Chain can be used in various scenarios, including decentralized AI model inference, secure data sharing, and AI-powered decentralized applications (dApps). Our platform supports diverse industries such as finance, healthcare, and supply chain management.": {
+    "message": "Cuckoo Chain สามารถใช้ในหลายสถานการณ์ รวมถึงการอนุมานโมเดล AI แบบกระจายศูนย์ การแชร์ข้อมูลอย่างปลอดภัย และแอปพลิเคชันแบบกระจายศูนย์ที่ขับเคลื่อนด้วย AI (dApps) แพลตฟอร์มของเราสนับสนุนอุตสาหกรรมที่หลากหลาย เช่น การเงิน การดูแลสุขภาพ และการจัดการห่วงโซ่อุปทาน",
+    "description": "Answer: What are some real-world use cases for Cuckoo Chain?"
+  },
+  "Where can I find support and additional resources?": {
+    "message": "ฉันจะหาการสนับสนุนและทรัพยากรเพิ่มเติมได้ที่ไหน?",
+    "description": "Question: Where can I find support and additional resources?"
+  },
+  "For support and additional resources, visit our {helpCenter} or join our community on {discord} and {telegram}. Our\n                  comprehensive documentation, tutorials, and active community\n                  are here to assist you with any questions or challenges you\n                  might encounter.": {
+    "message": "สำหรับการสนับสนุนและทรัพยากรเพิ่มเติม โปรดเยี่ยมชม {helpCenter} ของเราหรือเข้าร่วมชุมชนของเราบน {discord} และ {telegram} เอกสารที่ครอบคลุม บทช่วยสอน และชุมชนที่กระตือรือร้นของเราพร้อมที่จะช่วยคุณในทุกคำถามหรือความท้าทายที่คุณอาจพบเจอ",
+    "description": "Answer: Where can I find support and additional resources?"
+  },
+  "Help Center": {
+    "message": "ศูนย์ช่วยเหลือ",
+    "description": "Link text for Help Center"
+  },
+  "Discord": {
+    "message": "Discord",
+    "description": "Link text for Discord"
+  },
+  "Telegram": {
+    "message": "Telegram",
+    "description": "Link text for Telegram"
+  },
+  "Illustration": {
+    "message": "ภาพประกอบ",
+    "description": "Illustration alt text"
+  },
+  "Many tools to decentralized AI with Cuckoo Chain": {
+    "message": "เครื่องมือมากมายสำหรับ AI แบบกระจายศูนย์ด้วย Cuckoo Chain",
+    "description": "Section header title"
+  },
+  "The best resources for building an end-to-end Cuckoo Chain dApp.": {
+    "message": "ทรัพยากรที่ดีที่สุดสำหรับการสร้าง dApp Cuckoo Chain แบบ end-to-end",
+    "description": "Section header description"
+  },
+  "Icon 01": {
+    "message": "ไอคอน 01",
+    "description": "Icon 01 alt text"
+  },
+  "Cuckoo Network Bridge": {
+    "message": "สะพาน Cuckoo Network",
+    "description": "Cuckoo Network Bridge title"
+  },
+  "Transfer assets seamlessly across Arbitrum One and Cuckoo Chain with minimal fees and secure transactions.": {
+    "message": "โอนสินทรัพย์อย่างราบรื่นระหว่าง Arbitrum One และ Cuckoo Chain โดยมีค่าธรรมเนียมต่ำสุดและการทำธุรกรรมที่ปลอดภัย",
+    "description": "Cuckoo Network Bridge description"
+  },
+  "Learn More": {
+    "message": "เรียนรู้เพิ่มเติม",
+    "description": "Home page hero section's news message's CTA"
+  },
+  "Icon 02": {
+    "message": "ไอคอน 02",
+    "description": "Icon 02 alt text"
+  },
+  "Thirdweb": {
+    "message": "Thirdweb",
+    "description": "Thirdweb title"
+  },
+  "Full-stack, open-source web3 development platform. Fullstack tools to build complete web3 apps.": {
+    "message": "แพลตฟอร์มการพัฒนา web3 แบบเต็มรูปแบบและโอเพนซอร์ส เครื่องมือ Fullstack สำหรับสร้างแอป web3 แบบครบวงจร",
+    "description": "Thirdweb description"
+  },
+  "Icon 03": {
+    "message": "ไอคอน 03",
+    "description": "Icon 03 alt text"
+  },
+  "ChainList": {
+    "message": "ChainList",
+    "description": "ChainList title"
+  },
+  "ChainList is a list of EVM networks. Users can use the info to connect their wallets and Web3 middleware providers.": {
+    "message": "ChainList คือรายการของเครือข่าย EVM ผู้ใช้สามารถใช้ข้อมูลเพื่อเชื่อมต่อกระเป๋าเงินและผู้ให้บริการ Web3 middleware",
+    "description": "ChainList description"
+  },
+  "Icon 04": {
+    "message": "ไอคอน 04",
+    "description": "Icon 04 alt text"
+  },
+  "Cuckoo Scan": {
+    "message": "Cuckoo Scan",
+    "description": "Cuckoo Scan title"
+  },
+  "Blockchain explorer to inspect Cuckoo Chain transactions, tokens, and coins. RESTful and GraphQL API available.": {
+    "message": "เครื่องมือสำรวจบล็อกเชนเพื่อตรวจสอบธุรกรรม โทเค็น และเหรียญใน Cuckoo Chain มี RESTful และ GraphQL API ให้บริการ",
+    "description": "Cuckoo Scan description"
+  },
+  "Previous": {
+    "message": "ก่อนหน้า",
+    "description": "Aria label for previous button"
+  },
+  "Next": {
+    "message": "ถัดไป",
+    "description": "Aria label for next button"
+  },
+  "Transforming AI with Blockchain Technology": {
+    "message": "การเปลี่ยนแปลง AI ด้วยเทคโนโลยีบล็อกเชน",
+    "description": "Hero section main title"
+  },
+  "Cuckoo Chain, an Arbitrum L2 in the Ethereum ecosystem, revolutionizes AI development with unmatched speed, efficiency, and scalability. Perfect for Web3 + AI innovators.": {
+    "message": "Cuckoo Chain ซึ่งเป็น Arbitrum L2 ในระบบนิเวศของ Ethereum ปฏิวัติการพัฒนา AI ด้วยความเร็ว ประสิทธิภาพ และความสามารถในการปรับขนาดที่ไม่มีใครเทียบได้ เหมาะสำหรับนักนวัตกรรม Web3 + AI",
+    "description": "Hero section description about Cuckoo Chain and its role in AI development"
+  },
+  "Pricing Illustration": {
+    "message": "ภาพประกอบราคา",
+    "description": "Alt text for the pricing section illustration"
+  },
+  "Fundamentally Aligned with Ethereum": {
+    "message": "สอดคล้องกับ Ethereum อย่างพื้นฐาน",
+    "description": "Title for the pricing section"
+  },
+  "But optimized for performance and on-chain AI": {
+    "message": "แต่ปรับให้เหมาะสมสำหรับประสิทธิภาพและ AI บนบล็อกเชน",
+    "description": "Description for the pricing section"
+  },
+  "Monthly": {
+    "message": "รายเดือน",
+    "description": "Label for the monthly payment option"
+  },
+  "Pay annually": {
+    "message": "ชำระรายปี",
+    "description": "Screen reader label for toggling to pay annually"
+  },
+  "Yearly": {
+    "message": "รายปี",
+    "description": "Label for the yearly payment option"
+  },
+  "Infra": {
+    "message": "โครงสร้างพื้นฐาน",
+    "description": "Infra section label for mobile view"
+  },
+  "Max Theoretical TPS": {
+    "message": "TPS สูงสุดตามทฤษฎี",
+    "description": "Label for maximum theoretical transactions per second in mobile view"
+  },
+  "Fastest Block Time": {
+    "message": "เวลาบล็อกที่เร็วที่สุด",
+    "description": "Label for the fastest block time in mobile view"
+  },
+  "Governance Model": {
+    "message": "โมเดลการกำกับดูแล",
+    "description": "Label for the governance model in mobile view"
+  },
+  "Features": {
+    "message": "ฟีเจอร์",
+    "description": "Label for the features section in mobile view"
+  },
+  "Avg. Gas Price": {
+    "message": "ราคาแก๊สเฉลี่ย",
+    "description": "Label for the average gas price in mobile view"
+  },
+  "EVM Compatible": {
+    "message": "เข้ากันได้กับ EVM",
+    "description": "Label for EVM compatibility in mobile view"
+  },
+  "Decentralized Ledger": {
+    "message": "บัญชีแยกประเภทแบบกระจายศูนย์",
+    "description": "Label for decentralized ledger in mobile view"
+  },
+  "\"Cuckoo Chain revolutionized our AI development with unmatched speed and efficiency. It's a game-changer for any AI-driven blockchain enterprise.\"": {
+    "message": "\"Cuckoo Chain ปฏิวัติการพัฒนา AI ของเราอย่างไม่มีใครเทียบได้ด้วยความเร็วและประสิทธิภาพที่ไม่มีใครเทียบได้ มันเป็นการเปลี่ยนเกมสำหรับธุรกิจบล็อกเชนที่ขับเคลื่อนด้วย AI ใด ๆ\"",
+    "description": "First testimonial text"
+  },
+  "Aaliyah Baker": {
+    "message": "Aaliyah Baker",
+    "description": "First testimonial author name"
+  },
+  "DApper OS": {
+    "message": "DApper OS",
+    "description": "First testimonial author company"
+  },
+  "\"Integrating Cuckoo Chain was seamless. The performance boost and compatibility with Ethereum are phenomenal.\"": {
+    "message": "\"การรวม Cuckoo Chain เป็นไปอย่างราบรื่น การเพิ่มประสิทธิภาพและความเข้ากันได้กับ Ethereum นั้นยอดเยี่ยมมาก\"",
+    "description": "Second testimonial text"
+  },
+  "Sloan Seaman": {
+    "message": "Sloan Seaman",
+    "description": "Second testimonial author name"
+  },
+  "Coupang": {
+    "message": "Coupang",
+    "description": "Second testimonial author company"
+  },
+  "\"Cuckoo Chain empowered us to create fast, secure decentralized AI apps. The support team is invaluable.\"": {
+    "message": "\"Cuckoo Chain ทำให้เราสามารถสร้างแอป AI แบบกระจายศูนย์ที่รวดเร็วและปลอดภัย ทีมสนับสนุนมีคุณค่าอย่างยิ่ง\"",
+    "description": "Third testimonial text"
+  },
+  "Christine Dejoux": {
+    "message": "Christine Dejoux",
+    "description": "Third testimonial author name"
+  },
+  "Glocomms": {
+    "message": "Glocomms",
+    "description": "Third testimonial author company"
+  },
+  "Experience Decentralized AI Model-Serving": {
+    "message": "สัมผัสการให้บริการโมเดล AI แบบกระจายศูนย์"
+  },
+  "Generate image now with Cuckoo Bot": {
+    "message": "สร้างภาพตอนนี้ด้วย Cuckoo Bot"
+  },
+  "Explore": {
+    "message": "สำรวจ",
+    "description": "homepage's hero section's secondary action CTA"
+  },
+  "Experience Decentralized AI Now": {
+    "message": "สัมผัส AI แบบกระจายศูนย์ตอนนี้",
+    "description": "Section header title"
+  },
+  "For AI Enthusiasts": {
+    "message": "สำหรับผู้ที่ชื่นชอบ AI",
+    "description": "Button label for AI Enthusiasts"
+  },
+  "For Developers": {
+    "message": "สำหรับนักพัฒนา",
+    "description": "Button label for Developers"
+  },
+  "For Miners": {
+    "message": "สำหรับนักขุด",
+    "description": "Button label for Miners"
+  },
+  "For Token Holders": {
+    "message": "สำหรับผู้ถือโทเค็น",
+    "description": "Button label for Token Holders"
+  },
+  "Cuckoo Telegram": {
+    "message": "Cuckoo Telegram",
+    "description": "Telegram Box Title"
+  },
+  "A telegram bot for texting to image and manage your CAI tokens.": {
+    "message": "บอท Telegram สำหรับการส่งข้อความไปยังภาพและจัดการโทเค็น CAI ของคุณ",
+    "description": "Telegram Box Description"
+  },
+  "Cuckoo Discord": {
+    "message": "Cuckoo Discord",
+    "description": "Discord Box Title"
+  },
+  "A discord bot for texting to image and manage your CAI tokens.": {
+    "message": "บอท Discord สำหรับการส่งข้อความไปยังภาพและจัดการโทเค็น CAI ของคุณ",
+    "description": "Discord Box Description"
+  },
+  "Neon Medium": {
+    "message": "Neon Medium",
+    "description": "Medium Box Title"
+  },
+  "BlockEden.xyz": {
+    "message": "BlockEden.xyz",
+    "description": "BlockEden Box Title"
+  },
+  "RPC node, API marketplace, and staking infrastructure.": {
+    "message": "โหนด RPC, ตลาด API และโครงสร้างพื้นฐานการ staking",
+    "description": "BlockEden Box Description"
+  },
+  "Cuckoo Art": {
+    "message": "Cuckoo Art",
+    "description": "Cuckoo Art Box Title"
+  },
+  "Discover AI arts created in our network.": {
+    "message": "ค้นพบงานศิลปะ AI ที่สร้างขึ้นในเครือข่ายของเรา",
+    "description": "Cuckoo Art Box Description"
+  },
+  "Karma Protocol": {
+    "message": "Karma Protocol",
+    "description": "Karma Protocol Box Title"
+  },
+  "A revolutionary prediction market, driven by Community.": {
+    "message": "ตลาดการคาดการณ์ที่ปฏิวัติ โดยได้รับการขับเคลื่อนจากชุมชน",
+    "description": "Karma Protocol Box Description"
+  },
+  "Cuckoo Github": {
+    "message": "Cuckoo Github",
+    "description": "Cuckoo Github Box Title"
+  },
+  "Fork us on Github for open-sourced decentralized AI platform.": {
+    "message": "Fork เราบน Github สำหรับแพลตฟอร์ม AI แบบกระจายศูนย์ที่เป็นโอเพนซอร์ส",
+    "description": "Cuckoo Github Box Description"
+  },
+  "Cuckoo Node": {
+    "message": "Cuckoo Node",
+    "description": "Cuckoo Node Box Title"
+  },
+  "Node for mining tokens, distributed with Docker images.": {
+    "message": "โหนดสำหรับการขุดโทเค็น แจกจ่ายด้วยภาพ Docker",
+    "description": "Cuckoo Node Box Description"
+  },
+  "Staking Portal": {
+    "message": "พอร์ทัลการ staking",
+    "description": "Staking Portal Box Title"
+  },
+  "Stake your token to vote for Node operators you trust": {
+    "message": "วางโทเค็นของคุณเพื่อลงคะแนนให้กับผู้ดำเนินการโหนดที่คุณไว้วางใจ",
+    "description": "Staking Portal Box Description"
+  },
+  "Introducing Cuckoo Network Airdrop Portal": {
+    "message": "ขอแนะนำพอร์ทัล Airdrop ของ Cuckoo Network",
+    "description": "Home page hero section's news message"
+  },
+  "Decentralized AI Creative Platform for Creators & Builders": {
+    "message": "แพลตฟอร์มสร้างสรรค์ AI แบบกระจายศูนย์สำหรับผู้สร้างและผู้พัฒนา",
+    "description": "Site tagline"
+  },
+  "Create AI Art": {
+    "message": "สร้างงานศิลปะ AI",
+    "description": "homepage's hero section's main action CTA"
+  },
+  "Earn": {
+    "message": "รับรายได้",
+    "description": "homepage's hero section's secondary action CTA"
+  },
+  "Refreshing news from the community": {
+    "message": "ข่าวสารที่สดชื่นจากชุมชน",
+    "description": "Title for the news section"
+  },
+  "Read more": {
+    "message": "อ่านเพิ่มเติม",
+    "description": "Read more link text"
+  },
+  "How does it work?": {
+    "message": "มันทำงานอย่างไร?",
+    "description": "Section header title"
+  },
+  "Cuckoo incentivizes GPU miners to serve AI models to generative App builders. We started with decentralized image generation but aim to expand our platform to support various AI models.": {
+    "message": "Cuckoo ให้รางวัลนักขุด GPU เพื่อให้บริการโมเดล AI แก่ผู้สร้างแอปที่สร้างสรรค์ เราเริ่มต้นด้วยการสร้างภาพแบบกระจายศูนย์ แต่ตั้งเป้าที่จะขยายแพลตฟอร์มของเราเพื่อสนับสนุนโมเดล AI ที่หลากหลาย",
+    "description": "Section header description"
+  },
+  "Establish Trust": {
+    "message": "สร้างความไว้วางใจ",
+    "description": "Trust step title"
+  },
+  "GPU miners, developers, and stakers {stakingLink} with blockchain smart contracts to establish trust.": {
+    "message": "นักขุด GPU นักพัฒนา และผู้ถือหุ้น {stakingLink} ด้วยสัญญาอัจฉริยะของบล็อกเชนเพื่อสร้างความไว้วางใจ",
+    "description": "Trust step description"
+  },
+  "stake and vote": {
+    "message": "วางและลงคะแนน",
+    "description": "Link text"
+  },
+  "Mine and Earn": {
+    "message": "ขุดและรับรายได้",
+    "description": "Tasks & Rewards step title"
+  },
+  "Gen AI Apps assign tasks to GPU miners via the Cuckoo AI node, with daily ERC20 payments based on results.": {
+    "message": "แอป Gen AI มอบหมายงานให้กับนักขุด GPU ผ่านโหนด Cuckoo AI โดยมีการชำระเงิน ERC20 รายวันตามผลลัพธ์",
+    "description": "Tasks & Rewards step description"
+  },
+  "Modular AI": {
+    "message": "AI โมดูลาร์",
+    "description": "Modular Support step title"
+  },
+  "Our modular components ensure that AI remains accessible, transparent, anti-censorship, and privacy-preserving.": {
+    "message": "ส่วนประกอบโมดูลาร์ของเราช่วยให้ AI ยังคงเข้าถึงได้ โปร่งใส ต่อต้านการเซ็นเซอร์ และรักษาความเป็นส่วนตัว",
+    "description": "Modular Support step description"
+  },
+  "From AI builders to consumers, we got you covered.": {
+    "message": "จากผู้สร้าง AI ถึงผู้บริโภค เรามีทุกอย่างที่คุณต้องการ",
+    "description": "section title for target customers"
+  },
+  "Features 02": {
+    "message": "ฟีเจอร์ 02",
+    "description": "Alt text for the image"
+  },
+  "Get rewarded by contributing to Gen AI": {
+    "message": "รับรางวัลจากการมีส่วนร่วมกับ Gen AI"
+  },
+  "For AI Consumers": {
+    "message": "สำหรับผู้บริโภค AI"
+  },
+  "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.": {
+    "message": "เข้าถึงแอป AI ที่หลากหลายได้ฟรี โดยการมีส่วนร่วมในระบบนิเวศหรือใช้ Cuckoo Pay หากแอปหนึ่งถูกบล็อก ให้เปลี่ยนไปยังผู้ประสานงานอื่นภายในเครือข่ายแบบกระจายศูนย์ได้อย่างราบรื่น"
+  },
+  "For App Builders/Coordinators": {
+    "message": "สำหรับผู้สร้าง/ผู้ประสานงานแอป"
+  },
+  "Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.": {
+    "message": "ดำเนินการโหนดผู้ประสานงาน วางเพื่อเข้าร่วมเครือข่าย และรับรางวัลการ staking ลดต้นทุน GPU ขยายฐานลูกค้าของคุณ มอบหมายงานให้กับนักขุด GPU ตรวจสอบผลลัพธ์ และแจกจ่ายการชำระเงิน"
+  },
+  "For GPU Miners": {
+    "message": "สำหรับนักขุด GPU"
+  },
+  "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.": {
+    "message": "ดำเนินการโหนดนักขุด วางเพื่อเข้าร่วมเครือข่าย และรับรางวัลการ staking แบ่งปันทรัพยากร GPU ของคุณ ทำงานที่ได้รับมอบหมายให้เสร็จสิ้น และรักษาบริการที่เชื่อถือได้เพื่อรับโทเค็น"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "หน้านี้ล่ม.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "เลื่อนกลับไปที่ด้านบน",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "คลัง",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "คลัง",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "การนำทางหน้าโพสต์บล็อก",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "รายการใหม่กว่า",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "รายการเก่ากว่า",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "การนำทางหน้าโพสต์บล็อก",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "โพสต์ใหม่กว่า",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "โพสต์เก่ากว่า",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "โพสต์หนึ่งโพสต์|{count} โพสต์",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} ที่ติดแท็กด้วย \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "ดูแท็กทั้งหมด",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "สลับระหว่างโหมดมืดและโหมดสว่าง (ปัจจุบัน {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "โหมดมืด",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "โหมดสว่าง",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "เส้นทางนำทาง",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} รายการ",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "หน้าเอกสาร",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "ก่อนหน้า",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "ถัดไป",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "เอกสารหนึ่งฉบับที่ติดแท็ก|{count} เอกสารที่ติดแท็ก",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} ที่ติดแท็กด้วย \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "นี่คือเอกสารที่ยังไม่ได้เผยแพร่สำหรับ {siteTitle} เวอร์ชัน {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "นี่คือเอกสารสำหรับ {siteTitle} เวอร์ชัน {versionLabel} ซึ่งไม่ถูกดูแลอย่างต่อเนื่องอีกต่อไป.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "สำหรับเอกสารที่ทันสมัย โปรดดูที่ {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "เวอร์ชันล่าสุด",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "เวอร์ชัน: {versionLabel}"
+  },
+  "theme.common.editThisPage": {
+    "message": "แก้ไขหน้านี้",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "ลิงก์โดยตรงไปยัง {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " เมื่อ {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " โดย {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "อัปเดตล่าสุด{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "ไม่พบหน้า",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "เวอร์ชัน",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "แท็ก:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "ปิด",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "คำเตือน",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "อันตราย",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "ข้อมูล",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "หมายเหตุ",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "เคล็ดลับ",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "คำเตือน",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "การนำทางโพสต์บล็อกล่าสุด",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "คัดลอกแล้ว",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "คัดลอกโค้ดไปยังคลิปบอร์ด",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "คัดลอก",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "สลับการห่อคำ",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "ขยายหมวดหมู่แถบด้านข้าง '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "ยุบหมวดหมู่แถบด้านข้าง '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "หลัก",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.NotFound.p1": {
+    "message": "เราไม่สามารถค้นหาสิ่งที่คุณกำลังมองหา.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "โปรดติดต่อเจ้าของเว็บไซต์ที่เชื่อมโยงคุณไปยัง URL ดั้งเดิมและแจ้งให้พวกเขาทราบว่าลิงก์ของพวกเขาเสีย.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "ภาษา",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "ในหน้านี้",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "อ่านเพิ่มเติม",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "อ่านเพิ่มเติมเกี่ยวกับ {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "อ่านหนึ่งนาที|{readingTime} นาทีอ่าน",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "หน้าแรก",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "ยุบแถบด้านข้าง",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "ยุบแถบด้านข้าง",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "แถบด้านข้างเอกสาร",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "ปิดแถบการนำทาง",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← กลับไปยังเมนูหลัก",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "สลับแถบการนำทาง",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "ขยายแถบด้านข้าง",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "ขยายแถบด้านข้าง",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "ลองอีกครั้ง",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "ข้ามไปยังเนื้อหาหลัก",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "แท็ก",
+    "description": "The title of the tag list page"
+  },
+  "theme.unlistedContent.title": {
+    "message": "หน้าที่ไม่ได้ระบุ",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "หน้านี้ไม่ได้ระบุ เสิร์ชเอนจินจะไม่ทำการจัดทำดัชนี และผู้ใช้ที่มีลิงก์โดยตรงเท่านั้นที่สามารถเข้าถึงได้.",
+    "description": "The unlisted content banner message"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "مدونة",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "مدونة",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "المشاركات الأخيرة",
+    "description": "The label for the left sidebar"
+  }
+}

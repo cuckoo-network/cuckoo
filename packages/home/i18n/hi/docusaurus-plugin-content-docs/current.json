@@ -1,0 +1,78 @@
+{
+  "version.label": {
+    "message": "अगला",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category. Cuckoo AI": {
+    "message": " Cuckoo AI",
+    "description": "The label for category  Cuckoo AI in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category. Cuckoo Chain": {
+    "message": " Cuckoo Chain",
+    "description": "The label for category  Cuckoo Chain in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category. Deploy Smart Contract": {
+    "message": " स्मार्ट कॉन्ट्रैक्ट डिप्लॉय करें",
+    "description": "The label for category  Deploy Smart Contract in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc. Introduction": {
+    "message": " परिचय",
+    "description": "The label for the doc item  Introduction in sidebar tutorialSidebar, linking to the doc cuckoo-network"
+  },
+  "sidebar.tutorialSidebar.doc. Vision": {
+    "message": " दृष्टि",
+    "description": "The label for the doc item  Vision in sidebar tutorialSidebar, linking to the doc vision"
+  },
+  "sidebar.tutorialSidebar.doc. Overview": {
+    "message": " अवलोकन",
+    "description": "The label for the doc item  Overview in sidebar tutorialSidebar, linking to the doc Cuckoo AI/cuckoo-ai"
+  },
+  "sidebar.tutorialSidebar.doc. How to Run a Miner Node": {
+    "message": " माइनर नोड कैसे चलाएं",
+    "description": "The label for the doc item  How to Run a Miner Node in sidebar tutorialSidebar, linking to the doc Cuckoo AI/ai-node"
+  },
+  "sidebar.tutorialSidebar.doc. Network Details": {
+    "message": " नेटवर्क विवरण",
+    "description": "The label for the doc item  Network Details in sidebar tutorialSidebar, linking to the doc Cuckoo Chain/cuckoo-chain"
+  },
+  "sidebar.tutorialSidebar.doc. How to Run a Cuckoo Chain Node": {
+    "message": " Cuckoo Chain नोड कैसे चलाएं",
+    "description": "The label for the doc item  How to Run a Cuckoo Chain Node in sidebar tutorialSidebar, linking to the doc Cuckoo Chain/full-node"
+  },
+  "sidebar.tutorialSidebar.doc. Cuckoo Bridge": {
+    "message": " Cuckoo ब्रिज",
+    "description": "The label for the doc item  Cuckoo Bridge in sidebar tutorialSidebar, linking to the doc Cuckoo Chain/bridge"
+  },
+  "sidebar.tutorialSidebar.doc.Using Hardhat": {
+    "message": "Hardhat का उपयोग करें",
+    "description": "The label for the doc item Using Hardhat in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-hardhat"
+  },
+  "sidebar.tutorialSidebar.doc.Using Thirdweb": {
+    "message": "Thirdweb का उपयोग करें",
+    "description": "The label for the doc item Using Thirdweb in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-thirdweb"
+  },
+  "sidebar.tutorialSidebar.doc.Using Foundry": {
+    "message": "Foundry का उपयोग करें",
+    "description": "The label for the doc item Using Foundry in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-foundry"
+  },
+  "sidebar.tutorialSidebar.doc.Using Remix": {
+    "message": "Remix का उपयोग करें",
+    "description": "The label for the doc item Using Remix in sidebar tutorialSidebar, linking to the doc deploy-smart-contract/using-remix"
+  },
+  "sidebar.tutorialSidebar.doc. How does Cuckoo work": {
+    "message": " Cuckoo कैसे काम करता है",
+    "description": "The label for the doc item  How does Cuckoo work in sidebar tutorialSidebar, linking to the doc How does Cuckoo work"
+  },
+  "sidebar.tutorialSidebar.doc. $CAI": {
+    "message": " $CAI",
+    "description": "The label for the doc item  $CAI in sidebar tutorialSidebar, linking to the doc token"
+  },
+  "sidebar.tutorialSidebar.doc. Roadmap": {
+    "message": " रोडमैप",
+    "description": "The label for the doc item  Roadmap in sidebar tutorialSidebar, linking to the doc roadmap"
+  },
+  "sidebar.tutorialSidebar.doc. Team": {
+    "message": " टीम",
+    "description": "The label for the doc item  Team in sidebar tutorialSidebar, linking to the doc team"
+  }
+}
