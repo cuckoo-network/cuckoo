@@ -47,7 +47,7 @@ const config: Config = {
       "fr",
       // "pt",
       "th",
-      "tr"
+      "tr",
     ],
   },
 
@@ -76,7 +76,7 @@ const config: Config = {
           {
             from: ["/appstore"],
             to: "https://onelink.to/38sr93",
-          }
+          },
         ],
       },
     ],
@@ -109,6 +109,14 @@ const config: Config = {
   ],
 
   themeConfig: {
+    metadata: [
+      {
+        name: "keywords",
+        content:
+          "Cuckoo Network, blockchain, AI, decentralized AI, Cuckoo AI, GPU mining, Cuckoo Chain, CAI token, airdrop, staking, Web3, Arbitrum, Layer 2, smart contracts, DeFi, NFTs, AI inference, decentralized computing, crypto, tokenomics, Proof of Sampling, Proof of Inference, LLMs, machine learning, Ethereum",
+      },
+    ],
+
     // Replace with your project's social card
     image: "img/cuckoo-social-card.webp",
     navbar: {
