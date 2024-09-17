@@ -1,0 +1,30 @@
+{
+  "logo.alt": {
+    "message": "Cuckoo AI 로고",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Airdrop": {
+    "message": "에어드랍",
+    "description": "Navbar item with label Airdrop"
+  },
+  "item.label.Docs": {
+    "message": "문서",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Blogs": {
+    "message": "블로그",
+    "description": "Navbar item with label Blogs"
+  },
+  "item.label.Image Gen": {
+    "message": "이미지 생성",
+    "description": "Navbar item with label Image Gen"
+  },
+  "item.label.Blockchain": {
+    "message": "블록체인",
+    "description": "Navbar item with label Blockchain"
+  },
+  "item.label.Staking": {
+    "message": "스테이킹",
+    "description": "Navbar item with label Staking"
+  }
+}

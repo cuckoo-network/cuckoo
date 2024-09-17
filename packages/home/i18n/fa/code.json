@@ -1,0 +1,58 @@
+{
+  "Cuckoo Chain: Decentralized AI Blockchain": {
+    "message": "Cuckoo Chain: بلاکچین هوش مصنوعی غیرمتمرکز",
+    "description": "عنوان صفحه اصلی Cuckoo Chain"
+  },
+  "Cuckoo Chain is set to transform the AI blockchain landscape. As an Arbitrum L2 in the Ethereum ecosystem, it brings streamlined AI developer experience, fast speed and efficiency to the table. This makes it a prime choice for Web3 + AI users seeking robust and scalable solutions": {
+    "message": "Cuckoo Chain آماده است تا چشم‌انداز بلاکچین هوش مصنوعی را تغییر دهد. به عنوان یک Arbitrum L2 در اکوسیستم اتریوم، تجربه توسعه‌دهندگان هوش مصنوعی را ساده‌تر، سرعت بیشتر و کارایی بالاتر را ارائه می‌دهد. این آن را به انتخاب اصلی برای کاربران Web3 + AI که به دنبال راه‌حل‌های قوی و مقیاس‌پذیر هستند، تبدیل می‌کند.",
+    "description": "توضیحات صفحه اصلی Cuckoo Chain"
+  },
+  "Hero Illustration": {
+    "message": "تصویر قهرمان",
+    "description": "متن جایگزین برای تصویر قهرمان"
+  },
+  "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders": {
+    "message": "پلتفرم خلاق هوش مصنوعی غیرمتمرکز Cuckoo برای خالقان و سازندگان",
+    "description": "شعار سایت"
+  },
+  "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
+    "message": "هنر شگفت‌انگیز هوش مصنوعی بسازید و برنامه‌های Gen AI خود را با GPU یا CPU روی Cuckoo Chain تقویت کنید. به اشتراک بگذارید، ایجاد کنید و قدرت هوش مصنوعی غیرمتمرکز را باز کنید.",
+    "description": "توضیحات سایت"
+  },
+  "Newsletter iframe": {
+    "message": "کادر خبرنامه",
+    "description": "عنوان کادر خبرنامه"
+  },
+  "It's time to join the thousands of creators, artists, and developers using Cuckoo Chain": {
+    "message": "زمان آن فرا رسیده است که به هزاران خالق، هنرمند و توسعه‌دهنده‌ای که از Cuckoo Chain استفاده می‌کنند بپیوندید",
+    "description": "عنوان اصلی بخش CTA"
+  },
+  "Explore Chain": {
+    "message": "زنجیره را کشف کنید",
+    "description": "برچسب دکمه برای کاوش زنجیره Cuckoo"
+  },
+  "Read Docs": {
+    "message": "مستندات را بخوانید",
+    "description": "برچسب دکمه برای خواندن مستندات Cuckoo Chain"
+  },
+  "FAQs": {
+    "message": "پرسش‌های متداول",
+    "description": "عنوان بخش پرسش‌های متداول"
+  },
+  "What is Cuckoo Chain?": {
+    "message": "Cuckoo Chain چیست؟",
+    "description": "سوال: Cuckoo Chain چیست؟"
+  },
+  "Cuckoo Chain is a blockchain platform designed specifically for AI applications, operating as an Arbitrum L2 within the Ethereum ecosystem. It offers a streamlined AI developer experience with enhanced speed and efficiency.": {
+    "message": "Cuckoo Chain یک پلتفرم بلاکچین است که به‌طور خاص برای برنامه‌های هوش مصنوعی طراحی شده و به عنوان یک Arbitrum L2 در اکوسیستم اتریوم عمل می‌کند. این پلتفرم تجربه توسعه‌دهندگان هوش مصنوعی را با سرعت و کارایی بیشتری بهینه می‌کند.",
+    "description": "پاسخ: Cuckoo Chain چیست؟"
+  },
+  "How does Cuckoo Chain integrate with the Ethereum ecosystem?": {
+    "message": "Cuckoo Chain چگونه با اکوسیستم اتریوم یکپارچه می‌شود؟",
+    "description": "سوال: Cuckoo Chain چگونه با اکوسیستم اتریوم یکپارچه می‌شود؟"
+  },
+  "Cuckoo Chain functions as an Arbitrum Layer 2 solution, which means it inherits the security and decentralization of Ethereum while providing faster and cheaper transactions. This integration ensures seamless interoperability with the Ethereum network.": {
+    "message": "Cuckoo Chain به عنوان یک راه‌حل لایه ۲ Arbitrum عمل می‌کند، به این معنی که امنیت و غیرمتمرکز بودن اتریوم را به ارث می‌برد و در عین حال تراکنش‌های سریع‌تر و ارزان‌تری را فراهم می‌کند. این یکپارچگی باعث می‌شود تا تعامل بدون مشکل با شبکه اتریوم تضمین شود.",
+    "description": "پاسخ: Cuckoo Chain چگونه با اکوسیستم اتریوم یکپارچه می‌شود؟"
+  }
+}

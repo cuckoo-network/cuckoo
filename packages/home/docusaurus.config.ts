@@ -34,11 +34,20 @@ const config: Config = {
     defaultLocale: "en",
     locales: [
       "en",
-      "vi",
-      // "id", "pt",
-      "ru",
-      "zh",
+      "ko",
       "ja",
+      "id",
+      "zh",
+      "vi",
+      "hi",
+      "ru",
+      "ar",
+      "es",
+      "fa",
+      "fr",
+      // "pt",
+      "th",
+      "tr"
     ],
   },
 
@@ -64,6 +73,10 @@ const config: Config = {
             from: ["/reddit"],
             to: "https://www.reddit.com/r/CuckooAI/",
           },
+          {
+            from: ["/appstore"],
+            to: "https://onelink.to/38sr93",
+          }
         ],
       },
     ],

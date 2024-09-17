@@ -1,0 +1,30 @@
+{
+  "logo.alt": {
+    "message": "Logotipo de Cuckoo AI",
+    "description": "El texto alternativo del logotipo en la barra de navegación"
+  },
+  "item.label.Airdrop": {
+    "message": "Airdrop",
+    "description": "Elemento de la barra de navegación con la etiqueta Airdrop"
+  },
+  "item.label.Docs": {
+    "message": "Documentación",
+    "description": "Elemento de la barra de navegación con la etiqueta Documentación"
+  },
+  "item.label.Blogs": {
+    "message": "Blogs",
+    "description": "Elemento de la barra de navegación con la etiqueta Blogs"
+  },
+  "item.label.Image Gen": {
+    "message": "Generador de Imágenes",
+    "description": "Elemento de la barra de navegación con la etiqueta Generador de Imágenes"
+  },
+  "item.label.Blockchain": {
+    "message": "Blockchain",
+    "description": "Elemento de la barra de navegación con la etiqueta Blockchain"
+  },
+  "item.label.Staking": {
+    "message": "Staking",
+    "description": "Elemento de la barra de navegación con la etiqueta Staking"
+  }
+}

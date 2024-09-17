@@ -1,0 +1,278 @@
+{
+  "Cuckoo Chain: Decentralized AI Blockchain": {
+    "message": "Cuckoo Chain: 탈중앙화 AI 블록체인",
+    "description": "Page title for Cuckoo Chain homepage"
+  },
+  "Cuckoo Chain is set to transform the AI blockchain landscape. As an Arbitrum L2 in the Ethereum ecosystem, it brings streamlined AI developer experience, fast speed and efficiency to the table. This makes it a prime choice for Web3 + AI users seeking robust and scalable solutions": {
+    "message": "Cuckoo Chain은 AI 블록체인 환경을 혁신할 준비가 되어 있습니다. 이더리움 생태계의 Arbitrum L2로서, 간소화된 AI 개발자 경험, 빠른 속도 및 효율성을 제공합니다. 이는 강력하고 확장 가능한 솔루션을 찾는 Web3 + AI 사용자들에게 최적의 선택이 됩니다.",
+    "description": "Page description for Cuckoo Chain homepage"
+  },
+  "Hero Illustration": {
+    "message": "히어로 일러스트",
+    "description": "The alt text for the hero illustration"
+  },
+  "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders": {
+    "message": "Cuckoo AI 탈중앙화 AI 창작 플랫폼: 창작자와 개발자를 위한",
+    "description": "The site tagline"
+  },
+  "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
+    "message": "Cuckoo Chain에서 GPU 또는 CPU를 사용해 멋진 AI 아트를 만들고 Gen AI 앱에 동력을 제공하세요. 탈중앙화된 AI의 힘을 공유하고 생성하며 잠금 해제하세요.",
+    "description": "Site description"
+  },
+  "Newsletter iframe": {
+    "message": "뉴스레터 iframe",
+    "description": "The title for the newsletter iframe"
+  },
+  "It's time to join the thousands of creators, artists, and developers using Cuckoo Chain": {
+    "message": "수천 명의 창작자, 예술가, 개발자들과 함께 Cuckoo Chain을 사용해보세요",
+    "description": "CTA section main title"
+  },
+  "Explore Chain": {
+    "message": "체인 탐색",
+    "description": "Button label to explore the Cuckoo Chain"
+  },
+  "Read Docs": {
+    "message": "문서 읽기",
+    "description": "Button label to read the Cuckoo Chain documentation"
+  },
+  "FAQs": {
+    "message": "자주 묻는 질문",
+    "description": "FAQs section title"
+  },
+  "What is Cuckoo Chain?": {
+    "message": "Cuckoo Chain이란 무엇인가요?",
+    "description": "Question: What is Cuckoo Chain?"
+  },
+  "Cuckoo Chain is a blockchain platform designed specifically for AI applications, operating as an Arbitrum L2 within the Ethereum ecosystem. It offers a streamlined AI developer experience with enhanced speed and efficiency.": {
+    "message": "Cuckoo Chain은 AI 애플리케이션을 위해 설계된 블록체인 플랫폼으로, 이더리움 생태계 내의 Arbitrum L2로 운영됩니다. 향상된 속도와 효율성을 제공하며 AI 개발자에게 간소화된 경험을 제공합니다.",
+    "description": "Answer: What is Cuckoo Chain?"
+  },
+  "How does Cuckoo Chain integrate with the Ethereum ecosystem?": {
+    "message": "Cuckoo Chain은 이더리움 생태계와 어떻게 통합되나요?",
+    "description": "Question: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
+  },
+  "Cuckoo Chain functions as an Arbitrum Layer 2 solution, which means it inherits the security and decentralization of Ethereum while providing faster and cheaper transactions. This integration ensures seamless interoperability with the Ethereum network.": {
+    "message": "Cuckoo Chain은 Arbitrum 레이어 2 솔루션으로 기능하며, 이더리움의 보안성과 탈중앙성을 유지하면서도 더 빠르고 저렴한 거래를 제공합니다. 이 통합은 이더리움 네트워크와의 원활한 상호 운용성을 보장합니다.",
+    "description": "Answer: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
+  },
+  "What are the main benefits of using Cuckoo Chain for AI development?": {
+    "message": "AI 개발에 Cuckoo Chain을 사용하면 주된 이점은 무엇인가요?",
+    "description": "Question: What are the main benefits of using Cuckoo Chain for AI development?"
+  },
+  "Cuckoo Chain offers unparalleled speed, efficiency, and scalability for AI development. It reduces transaction costs, accelerates processing times, and provides a robust infrastructure for deploying AI solutions on the blockchain.": {
+    "message": "Cuckoo Chain은 AI 개발에 있어 뛰어난 속도, 효율성 및 확장성을 제공합니다. 거래 비용을 줄이고 처리 시간을 단축하며, 블록체인에서 AI 솔루션을 배포하기 위한 강력한 인프라를 제공합니다.",
+    "description": "Answer: What are the main benefits of using Cuckoo Chain for AI development?"
+  },
+  "How can I get started with Cuckoo Chain?": {
+    "message": "Cuckoo Chain을 시작하려면 어떻게 해야 하나요?",
+    "description": "Question: How can I get started with Cuckoo Chain?"
+  },
+  "Getting started with Cuckoo Chain is simple. Visit our {gettingStartedGuide} for step-by-step instructions on setting up your account,\n                  integrating your applications, and deploying your first AI\n                  models on the platform.": {
+    "message": "Cuckoo Chain을 시작하는 것은 간단합니다. 계정 설정, 애플리케이션 통합 및 첫 AI 모델을 플랫폼에 배포하는 단계별 지침은 {gettingStartedGuide}에서 확인하세요.",
+    "description": "Answer: How can I get started with Cuckoo Chain?"
+  },
+  "Getting Started Guide": {
+    "message": "시작 가이드",
+    "description": "Link text for Getting Started Guide"
+  },
+  "What are some real-world use cases for Cuckoo Chain?": {
+    "message": "Cuckoo Chain의 실제 활용 사례는 무엇인가요?",
+    "description": "Question: What are some real-world use cases for Cuckoo Chain?"
+  },
+  "Cuckoo Chain can be used in various scenarios, including decentralized AI model inference, secure data sharing, and AI-powered decentralized applications (dApps). Our platform supports diverse industries such as finance, healthcare, and supply chain management.": {
+    "message": "Cuckoo Chain은 탈중앙화된 AI 모델 추론, 안전한 데이터 공유, 그리고 AI 기반의 탈중앙화 애플리케이션(dApps) 등 다양한 시나리오에서 사용할 수 있습니다. 우리 플랫폼은 금융, 헬스케어, 공급망 관리 등 다양한 산업을 지원합니다.",
+    "description": "Answer: What are some real-world use cases for Cuckoo Chain?"
+  },
+  "Where can I find support and additional resources?": {
+    "message": "지원 및 추가 리소스는 어디에서 찾을 수 있나요?",
+    "description": "Question: Where can I find support and additional resources?"
+  },
+  "For support and additional resources, visit our {helpCenter} or join our community on {discord} and {telegram}. Our\n                  comprehensive documentation, tutorials, and active community\n                  are here to assist you with any questions or challenges you\n                  might encounter.": {
+    "message": "지원 및 추가 리소스는 {helpCenter}를 방문하거나 {discord}, {telegram} 커뮤니티에 참여하세요. 포괄적인 문서, 튜토리얼 및 활발한 커뮤니티가 여러분의 질문이나 문제 해결을 도울 것입니다.",
+    "description": "Answer: Where can I find support and additional resources?"
+  },
+  "Help Center": {
+    "message": "도움말 센터",
+    "description": "Link text for Help Center"
+  },
+  "Discord": {
+    "message": "디스코드",
+    "description": "Link text for Discord"
+  },
+  "Telegram": {
+    "message": "텔레그램",
+    "description": "Link text for Telegram"
+  },
+  "Illustration": {
+    "message": "일러스트레이션",
+    "description": "Illustration alt text"
+  },
+  "Many tools to decentralized AI with Cuckoo Chain": {
+    "message": "Cuckoo Chain으로 탈중앙화 AI를 위한 다양한 도구",
+    "description": "Section header title"
+  },
+  "The best resources for building an end-to-end Cuckoo Chain dApp.": {
+    "message": "완벽한 Cuckoo Chain dApp을 구축하기 위한 최고의 리소스.",
+    "description": "Section header description"
+  },
+  "Icon 01": {
+    "message": "아이콘 01",
+    "description": "Icon 01 alt text"
+  },
+  "Cuckoo Network Bridge": {
+    "message": "Cuckoo 네트워크 브리지",
+    "description": "Cuckoo Network Bridge title"
+  },
+  "Transfer assets seamlessly across Arbitrum One and Cuckoo Chain with minimal fees and secure transactions.": {
+    "message": "최소한의 수수료와 안전한 거래로 Arbitrum One과 Cuckoo Chain 간에 자산을 원활하게 전송하세요.",
+    "description": "Cuckoo Network Bridge description"
+  },
+  "Learn More": {
+    "message": "더 알아보기",
+    "description": "Home page hero section's news message's CTA"
+  },
+  "Icon 02": {
+    "message": "아이콘 02",
+    "description": "Icon 02 alt text"
+  },
+  "Thirdweb": {
+    "message": "Thirdweb",
+    "description": "Thirdweb title"
+  },
+  "Full-stack, open-source web3 development platform. Fullstack tools to build complete web3 apps.": {
+    "message": "풀스택, 오픈소스 웹3 개발 플랫폼. 완전한 웹3 앱을 구축하기 위한 풀스택 도구.",
+    "description": "Thirdweb description"
+  },
+  "Icon 03": {
+    "message": "아이콘 03",
+    "description": "Icon 03 alt text"
+  },
+  "ChainList": {
+    "message": "ChainList",
+    "description": "ChainList title"
+  },
+  "ChainList is a list of EVM networks. Users can use the info to connect their wallets and Web3 middleware providers.": {
+    "message": "ChainList는 EVM 네트워크 목록입니다. 사용자는 이 정보를 통해 지갑과 Web3 미들웨어 제공업체에 연결할 수 있습니다.",
+    "description": "ChainList description"
+  },
+  "Icon 04": {
+    "message": "아이콘 04",
+    "description": "Icon 04 alt text"
+  },
+  "Cuckoo Scan": {
+    "message": "Cuckoo 스캔",
+    "description": "Cuckoo Scan title"
+  },
+  "Blockchain explorer to inspect Cuckoo Chain transactions, tokens, and coins. RESTful and GraphQL API available.": {
+    "message": "Cuckoo Chain의 거래, 토큰 및 코인을 검사하기 위한 블록체인 탐색기. RESTful 및 GraphQL API 사용 가능.",
+    "description": "Cuckoo Scan description"
+  },
+  "Previous": {
+    "message": "이전",
+    "description": "Aria label for previous button"
+  },
+  "Next": {
+    "message": "다음",
+    "description": "Aria label for next button"
+  },
+  "Transforming AI with Blockchain Technology": {
+    "message": "블록체인 기술로 AI 혁신",
+    "description": "Hero section main title"
+  },
+  "Cuckoo Chain, an Arbitrum L2 in the Ethereum ecosystem, revolutionizes AI development with unmatched speed, efficiency, and scalability. Perfect for Web3 + AI innovators.": {
+    "message": "Cuckoo Chain은 이더리움 생태계의 Arbitrum L2로, AI 개발을 독보적인 속도, 효율성, 확장성으로 혁신합니다. Web3 + AI 혁신가들에게 완벽한 선택입니다.",
+    "description": "Hero section description about Cuckoo Chain and its role in AI development"
+  },
+  "Pricing Illustration": {
+    "message": "가격 책정 일러스트레이션",
+    "description": "Alt text for the pricing section illustration"
+  },
+  "Fundamentally Aligned with Ethereum": {
+    "message": "기본적으로 이더리움과 일치",
+    "description": "Title for the pricing section"
+  },
+  "But optimized for performance and on-chain AI": {
+    "message": "그러나 성능 및 온체인 AI에 최적화됨",
+    "description": "Description for the pricing section"
+  },
+  "Monthly": {
+    "message": "월간",
+    "description": "Label for the monthly payment option"
+  },
+  "Pay annually": {
+    "message": "연간 결제",
+    "description": "Screen reader label for toggling to pay annually"
+  },
+  "Yearly": {
+    "message": "연간",
+    "description": "Label for the yearly payment option"
+  },
+  "Infra": {
+    "message": "인프라",
+    "description": "Infra section label for mobile view"
+  },
+  "Max Theoretical TPS": {
+    "message": "최대 이론적 TPS",
+    "description": "Label for maximum theoretical transactions per second in mobile view"
+  },
+  "Fastest Block Time": {
+    "message": "최단 블록 시간",
+    "description": "Label for the fastest block time in mobile view"
+  },
+  "Governance Model": {
+    "message": "거버넌스 모델",
+    "description": "Label for the governance model in mobile view"
+  },
+  "Features": {
+    "message": "기능",
+    "description": "Label for the features section in mobile view"
+  },
+  "Avg. Gas Price": {
+    "message": "평균 가스 가격",
+    "description": "Label for the average gas price in mobile view"
+  },
+  "EVM Compatible": {
+    "message": "EVM 호환",
+    "description": "Label for EVM compatibility in mobile view"
+  },
+  "Decentralized Ledger": {
+    "message": "탈중앙화 원장",
+    "description": "Label for decentralized ledger in mobile view"
+  },
+  "\"Cuckoo Chain revolutionized our AI development with unmatched speed and efficiency. It's a game-changer for any AI-driven blockchain enterprise.\"": {
+    "message": "\"Cuckoo Chain은 독보적인 속도와 효율성으로 우리의 AI 개발을 혁신했습니다. AI 기반 블록체인 기업에 있어 게임 체인저입니다.\"",
+    "description": "First testimonial text"
+  },
+  "Aaliyah Baker": {
+    "message": "알리야 베이커",
+    "description": "First testimonial author name"
+  },
+  "DApper OS": {
+    "message": "DApper OS",
+    "description": "First testimonial author company"
+  },
+  "\"Integrating Cuckoo Chain was seamless. The performance boost and compatibility with Ethereum are phenomenal.\"": {
+    "message": "\"Cuckoo Chain을 통합하는 과정은 매끄러웠습니다. 성능 향상과 이더리움과의 호환성은 놀라울 정도입니다.\"",
+    "description": "Second testimonial text"
+  },
+  "Sloan Seaman": {
+    "message": "슬론 시먼",
+    "description": "Second testimonial author name"
+  },
+  "Coupang": {
+    "message": "쿠팡",
+    "description": "Second testimonial author company"
+  },
+  "\"Cuckoo Chain empowered us to create fast, secure decentralized AI apps. The support team is invaluable.\"": {
+    "message": "\"Cuckoo Chain 덕분에 빠르고 안전한 탈중앙화 AI 앱을 만들 수 있었습니다. 지원팀은 정말 귀중한 자산입니다.\"",
+    "description": "Third testimonial text"
+  },
+  "Christine Dejoux": {
+    "message": "크리스틴 데주",
+    "description": "Third testimonial author name"
+  },
+  "Glocomms": {
+    "message": "글로콤즈",
+    "description": "Third testimonial author company"
+  }
+}

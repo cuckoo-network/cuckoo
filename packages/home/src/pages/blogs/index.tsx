@@ -5,14 +5,6 @@ import PostItem from "@site/src/components/home/post-item";
 import { useAos } from "@site/src/hooks/use-aos";
 import PostTags from "@site/src/components/home/post-tags";
 
-const langPosts = {
-  ja: require("./ja.json"),
-  en: require("./en.json"),
-  vi: require("./vi.json"),
-  zh: require("./zh.json"),
-  ru: require("./ru.json"),
-}
-
 export default function Blog() {
   const {i18n: {currentLocale}} = useDocusaurusContext();
 

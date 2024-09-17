@@ -1,0 +1,142 @@
+{
+  "link.title.Navigate": {
+    "message": "นำทาง",
+    "description": "The title of the footer links column with title=Navigate in the footer"
+  },
+  "link.title.Contact": {
+    "message": "ติดต่อ",
+    "description": "The title of the footer links column with title=Contact in the footer"
+  },
+  "link.title.Resources": {
+    "message": "แหล่งข้อมูล",
+    "description": "The title of the footer links column with title=Resources in the footer"
+  },
+  "link.title.Ecosystem Showcase": {
+    "message": "การแสดงผลระบบนิเวศ",
+    "description": "The title of the footer links column with title=Ecosystem Showcase in the footer"
+  },
+  "link.item.label.Staking": {
+    "message": "การวางเดิมพัน",
+    "description": "The label of footer link with label=Staking linking to https://cuckoo.network/portal/staking"
+  },
+  "link.item.label.Faucet": {
+    "message": "ก๊อกน้ำ",
+    "description": "The label of footer link with label=Faucet linking to https://cuckoo.network/portal/faucet"
+  },
+  "link.item.label.Bridge": {
+    "message": "สะพาน",
+    "description": "The label of footer link with label=Bridge linking to https://bridge.cuckoo.network/"
+  },
+  "link.item.label.About Us": {
+    "message": "เกี่ยวกับเรา",
+    "description": "The label of footer link with label=About Us linking to /about-us"
+  },
+  "link.item.label.Cuckoo Scan (Mainnet)": {
+    "message": "Cuckoo Scan (Mainnet)",
+    "description": "The label of footer link with label=Cuckoo Scan (Mainnet) linking to https://scan.cuckoo.network/"
+  },
+  "link.item.label.Cuckoo Sepolia Scan (Testnet)": {
+    "message": "Cuckoo Sepolia Scan (Testnet)",
+    "description": "The label of footer link with label=Cuckoo Sepolia Scan (Testnet) linking to https://testnet-scan.cuckoo.network/"
+  },
+  "link.item.label.FAQ": {
+    "message": "คำถามที่พบบ่อย",
+    "description": "The label of footer link with label=FAQ linking to /faq"
+  },
+  "link.item.label.Roadmap": {
+    "message": "แผนที่",
+    "description": "The label of footer link with label=Roadmap linking to /docs/roadmap"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://cuckoo.network/dc"
+  },
+  "link.item.label.Github": {
+    "message": "Github",
+    "description": "The label of footer link with label=Github linking to https://github.com/cuckoo-network/cuckoo"
+  },
+  "link.item.label.Forum": {
+    "message": "ฟอรัม",
+    "description": "The label of footer link with label=Forum linking to https://github.com/orgs/cuckoo-network/discussions"
+  },
+  "link.item.label.Telegram": {
+    "message": "Telegram",
+    "description": "The label of footer link with label=Telegram linking to https://cuckoo.network/tg"
+  },
+  "link.item.label.𝕏": {
+    "message": "𝕏",
+    "description": "The label of footer link with label=𝕏 linking to https://cuckoo.network/x"
+  },
+  "link.item.label.Reddit": {
+    "message": "Reddit",
+    "description": "The label of footer link with label=Reddit linking to https://cuckoo.network/reddit"
+  },
+  "link.item.label.Email: hello@cuckoo.network": {
+    "message": "อีเมล: hello@cuckoo.network",
+    "description": "The label of footer link with label=Email: hello@cuckoo.network linking to mailto:hello@cuckoo.network"
+  },
+  "link.item.label.Careers": {
+    "message": "อาชีพ",
+    "description": "The label of footer link with label=Careers linking to /careers"
+  },
+  "link.item.label.Brand Assets": {
+    "message": "ทรัพย์สินของแบรนด์",
+    "description": "The label of footer link with label=Brand Assets linking to /brand-assets"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/cuckoo-network/cuckoo"
+  },
+  "link.item.label.Documentation": {
+    "message": "เอกสาร",
+    "description": "The label of footer link with label=Documentation linking to /docs/cuckoo-network"
+  },
+  "link.item.label.Blogs": {
+    "message": "บล็อก",
+    "description": "The label of footer link with label=Blogs linking to /blogs"
+  },
+  "link.item.label.Help Center": {
+    "message": "ศูนย์ช่วยเหลือ",
+    "description": "The label of footer link with label=Help Center linking to /help-center"
+  },
+  "link.item.label.Privacy Policy": {
+    "message": "นโยบายความเป็นส่วนตัว",
+    "description": "The label of footer link with label=Privacy Policy linking to /privacy-policy"
+  },
+  "link.item.label.Airdrop Terms of Service": {
+    "message": "เงื่อนไขการให้บริการ Airdrop",
+    "description": "The label of footer link with label=Airdrop Terms of Service linking to /airdrop-terms-of-service"
+  },
+  "link.item.label.Terms of Service": {
+    "message": "เงื่อนไขการให้บริการ",
+    "description": "The label of footer link with label=Terms of Service linking to /terms-of-service"
+  },
+  "link.item.label.BlockEden.xyz": {
+    "message": "BlockEden.xyz",
+    "description": "The label of footer link with label=BlockEden.xyz linking to https://blockeden.xyz/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz"
+  },
+  "link.item.label.Karma Protocol": {
+    "message": "Karma Protocol",
+    "description": "The label of footer link with label=Karma Protocol linking to https://karmapi.ai/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz"
+  },
+  "link.item.label.Beancount": {
+    "message": "Beancount",
+    "description": "The label of footer link with label=Beancount linking to https://beancount.io/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz"
+  },
+  "link.item.label.Miners": {
+    "message": "นักขุด",
+    "description": "The label of footer link with label=Miners linking to https://cuckoo.network/portal/mining"
+  },
+  "link.item.label.Cuckoo Art": {
+    "message": "ศิลปะ Cuckoo",
+    "description": "The label of footer link with label=Cuckoo Art linking to https://cuckoo.network/portal/art"
+  },
+  "copyright": {
+    "message": "ลิขสิทธิ์ © 2024 Cuckoo",
+    "description": "The footer copyright"
+  },
+  "logo.alt": {
+    "message": "BlockEden.xyz",
+    "description": "The alt text of footer logo"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "version.label": {
+    "message": "بعدی",
+    "description": "برچسب برای نسخه جاری"
+  },
+  "sidebar.tutorialSidebar.category. Cuckoo AI": {
+    "message": "Cuckoo AI",
+    "description": "برچسب برای دسته Cuckoo AI در نوار کناری آموزش‌ها"
+  },
+  "sidebar.tutorialSidebar.category. Cuckoo Chain": {
+    "message": "Cuckoo Chain",
+    "description": "برچسب برای دسته Cuckoo Chain در نوار کناری آموزش‌ها"
+  },
+  "sidebar.tutorialSidebar.category. Deploy Smart Contract": {
+    "message": "پیاده‌سازی قرارداد هوشمند",
+    "description": "برچسب برای دسته پیاده‌سازی قرارداد هوشمند در نوار کناری آموزش‌ها"
+  },
+  "sidebar.tutorialSidebar.doc. Introduction": {
+    "message": "مقدمه",
+    "description": "برچسب برای آیتم مستندات مقدمه در نوار کناری آموزش‌ها، لینک‌دهی به مستندات cuckoo-network"
+  },
+  "sidebar.tutorialSidebar.doc. Vision": {
+    "message": "چشم‌انداز",
+    "description": "برچسب برای آیتم مستندات چشم‌انداز در نوار کناری آموزش‌ها، لینک‌دهی به مستندات vision"
+  },
+  "sidebar.tutorialSidebar.doc. Overview": {
+    "message": "بررسی کلی",
+    "description": "برچسب برای آیتم مستندات بررسی کلی در نوار کناری آموزش‌ها، لینک‌دهی به مستندات Cuckoo AI/cuckoo-ai"
+  },
+  "sidebar.tutorialSidebar.doc. How to Run a Miner Node": {
+    "message": "چگونه نود ماینر اجرا کنیم",
+    "description": "برچسب برای آیتم مستندات چگونه نود ماینر اجرا کنیم در نوار کناری آموزش‌ها، لینک‌دهی به مستندات Cuckoo AI/ai-node"
+  },
+  "sidebar.tutorialSidebar.doc. Network Details": {
+    "message": "جزئیات شبکه",
+    "description": "برچسب برای آیتم مستندات جزئیات شبکه در نوار کناری آموزش‌ها، لینک‌دهی به مستندات Cuckoo Chain/cuckoo-chain"
+  },
+  "sidebar.tutorialSidebar.doc. How to Run a Cuckoo Chain Node": {
+    "message": "چگونه نود Cuckoo Chain اجرا کنیم",
+    "description": "برچسب برای آیتم مستندات چگونه نود Cuckoo Chain اجرا کنیم در نوار کناری آموزش‌ها، لینک‌دهی به مستندات Cuckoo Chain/full-node"
+  },
+  "sidebar.tutorialSidebar.doc. Cuckoo Bridge": {
+    "message": "Cuckoo Bridge",
+    "description": "برچسب برای آیتم مستندات Cuckoo Bridge در نوار کناری آموزش‌ها، لینک‌دهی به مستندات Cuckoo Chain/bridge"
+  },
+  "sidebar.tutorialSidebar.doc.Using Hardhat": {
+    "message": "استفاده از Hardhat",
+    "description": "برچسب برای آیتم مستندات استفاده از Hardhat در نوار کناری آموزش‌ها، لینک‌دهی به مستندات deploy-smart-contract/using-hardhat"
+  },
+  "sidebar.tutorialSidebar.doc.Using Thirdweb": {
+    "message": "استفاده از Thirdweb",
+    "description": "برچسب برای آیتم مستندات استفاده از Thirdweb در نوار کناری آموزش‌ها، لینک‌دهی به مستندات deploy-smart-contract/using-thirdweb"
+  },
+  "sidebar.tutorialSidebar.doc.Using Foundry": {
+    "message": "استفاده از Foundry",
+    "description": "برچسب برای آیتم مستندات استفاده از Foundry در نوار کناری آموزش‌ها، لینک‌دهی به مستندات deploy-smart-contract/using-foundry"
+  },
+  "sidebar.tutorialSidebar.doc.Using Remix": {
+    "message": "استفاده از Remix",
+    "description": "برچسب برای آیتم مستندات استفاده از Remix در نوار کناری آموزش‌ها، لینک‌دهی به مستندات deploy-smart-contract/using-remix"
+  },
+  "sidebar.tutorialSidebar.doc. How does Cuckoo work": {
+    "message": "Cuckoo چگونه کار می‌کند",
+    "description": "برچسب برای آیتم مستندات Cuckoo چگونه کار می‌کند در نوار کناری آموزش‌ها، لینک‌دهی به مستندات How does Cuckoo work"
+  },
+  "sidebar.tutorialSidebar.doc. $CAI": {
+    "message": "$CAI",
+    "description": "برچسب برای آیتم مستندات $CAI در نوار کناری آموزش‌ها، لینک‌دهی به مستندات token"
+  },
+  "sidebar.tutorialSidebar.doc. Roadmap": {
+    "message": "نقشه راه",
+    "description": "برچسب برای آیتم مستندات نقشه راه در نوار کناری آموزش‌ها، لینک‌دهی به مستندات roadmap"
+  },
+  "sidebar.tutorialSidebar.doc. Team": {
+    "message": "تیم",
+    "description": "برچسب برای آیتم مستندات تیم در نوار کناری آموزش‌ها، لینک‌دهی به مستندات team"
+  }
+}

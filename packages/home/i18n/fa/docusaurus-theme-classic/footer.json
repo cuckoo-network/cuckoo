@@ -1,0 +1,142 @@
+{
+  "link.title.Navigate": {
+    "message": "ناوبری",
+    "description": "عنوان ستون لینک‌های فوتر با عنوان=Navigate در فوتر"
+  },
+  "link.title.Contact": {
+    "message": "تماس",
+    "description": "عنوان ستون لینک‌های فوتر با عنوان=Contact در فوتر"
+  },
+  "link.title.Resources": {
+    "message": "منابع",
+    "description": "عنوان ستون لینک‌های فوتر با عنوان=Resources در فوتر"
+  },
+  "link.title.Ecosystem Showcase": {
+    "message": "نمایش اکوسیستم",
+    "description": "عنوان ستون لینک‌های فوتر با عنوان=Ecosystem Showcase در فوتر"
+  },
+  "link.item.label.Staking": {
+    "message": "سهام‌گذاری",
+    "description": "برچسب لینک فوتر با عنوان=Staking پیوند به https://cuckoo.network/portal/staking"
+  },
+  "link.item.label.Faucet": {
+    "message": "فاست",
+    "description": "برچسب لینک فوتر با عنوان=Faucet پیوند به https://cuckoo.network/portal/faucet"
+  },
+  "link.item.label.Bridge": {
+    "message": "پل",
+    "description": "برچسب لینک فوتر با عنوان=Bridge پیوند به https://bridge.cuckoo.network/"
+  },
+  "link.item.label.About Us": {
+    "message": "درباره ما",
+    "description": "برچسب لینک فوتر با عنوان=About Us پیوند به /about-us"
+  },
+  "link.item.label.Cuckoo Scan (Mainnet)": {
+    "message": "Cuckoo Scan (Mainnet)",
+    "description": "برچسب لینک فوتر با عنوان=Cuckoo Scan (Mainnet) پیوند به https://scan.cuckoo.network/"
+  },
+  "link.item.label.Cuckoo Sepolia Scan (Testnet)": {
+    "message": "Cuckoo Sepolia Scan (Testnet)",
+    "description": "برچسب لینک فوتر با عنوان=Cuckoo Sepolia Scan (Testnet) پیوند به https://testnet-scan.cuckoo.network/"
+  },
+  "link.item.label.FAQ": {
+    "message": "سؤالات متداول",
+    "description": "برچسب لینک فوتر با عنوان=FAQ پیوند به /faq"
+  },
+  "link.item.label.Roadmap": {
+    "message": "نقشه راه",
+    "description": "برچسب لینک فوتر با عنوان=Roadmap پیوند به /docs/roadmap"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "برچسب لینک فوتر با عنوان=Discord پیوند به https://cuckoo.network/dc"
+  },
+  "link.item.label.Github": {
+    "message": "Github",
+    "description": "برچسب لینک فوتر با عنوان=Github پیوند به https://github.com/cuckoo-network/cuckoo"
+  },
+  "link.item.label.Forum": {
+    "message": "Forum",
+    "description": "برچسب لینک فوتر با عنوان=Forum پیوند به https://github.com/orgs/cuckoo-network/discussions"
+  },
+  "link.item.label.Telegram": {
+    "message": "تلگرام",
+    "description": "برچسب لینک فوتر با عنوان=Telegram پیوند به https://cuckoo.network/tg"
+  },
+  "link.item.label.𝕏": {
+    "message": "𝕏",
+    "description": "برچسب لینک فوتر با عنوان=𝕏 پیوند به https://cuckoo.network/x"
+  },
+  "link.item.label.Reddit": {
+    "message": "Reddit",
+    "description": "برچسب لینک فوتر با عنوان=Reddit پیوند به https://cuckoo.network/reddit"
+  },
+  "link.item.label.Email: hello@cuckoo.network": {
+    "message": "ایمیل: hello@cuckoo.network",
+    "description": "برچسب لینک فوتر با عنوان=Email: hello@cuckoo.network پیوند به mailto:hello@cuckoo.network"
+  },
+  "link.item.label.Careers": {
+    "message": "فرصت‌های شغلی",
+    "description": "برچسب لینک فوتر با عنوان=Careers پیوند به /careers"
+  },
+  "link.item.label.Brand Assets": {
+    "message": "دارایی‌های برند",
+    "description": "برچسب لینک فوتر با عنوان=Brand Assets پیوند به /brand-assets"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "برچسب لینک فوتر با عنوان=GitHub پیوند به https://github.com/cuckoo-network/cuckoo"
+  },
+  "link.item.label.Documentation": {
+    "message": "مستندات",
+    "description": "برچسب لینک فوتر با عنوان=Documentation پیوند به /docs/cuckoo-network"
+  },
+  "link.item.label.Blogs": {
+    "message": "وبلاگ‌ها",
+    "description": "برچسب لینک فوتر با عنوان=Blogs پیوند به /blogs"
+  },
+  "link.item.label.Help Center": {
+    "message": "مرکز راهنما",
+    "description": "برچسب لینک فوتر با عنوان=Help Center پیوند به /help-center"
+  },
+  "link.item.label.Privacy Policy": {
+    "message": "سیاست حفظ حریم خصوصی",
+    "description": "برچسب لینک فوتر با عنوان=Privacy Policy پیوند به /privacy-policy"
+  },
+  "link.item.label.Airdrop Terms of Service": {
+    "message": "شرایط خدمات Airdrop",
+    "description": "برچسب لینک فوتر با عنوان=Airdrop Terms of Service پیوند به /airdrop-terms-of-service"
+  },
+  "link.item.label.Terms of Service": {
+    "message": "شرایط استفاده از خدمات",
+    "description": "برچسب لینک فوتر با عنوان=Terms of Service پیوند به /terms-of-service"
+  },
+  "link.item.label.BlockEden.xyz": {
+    "message": "BlockEden.xyz",
+    "description": "برچسب لینک فوتر با عنوان=BlockEden.xyz پیوند به https://blockeden.xyz/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz"
+  },
+  "link.item.label.Karma Protocol": {
+    "message": "پروتکل Karma",
+    "description": "برچسب لینک فوتر با عنوان=Karma Protocol پیوند به https://karmapi.ai/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz"
+  },
+  "link.item.label.Beancount": {
+    "message": "Beancount",
+    "description": "برچسب لینک فوتر با عنوان=Beancount پیوند به https://beancount.io/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz"
+  },
+  "link.item.label.Miners": {
+    "message": "ماینرها",
+    "description": "برچسب لینک فوتر با عنوان=Miners پیوند به https://cuckoo.network/portal/mining"
+  },
+  "link.item.label.Cuckoo Art": {
+    "message": "هنر Cuckoo",
+    "description": "برچسب لینک فوتر با عنوان=Cuckoo Art پیوند به https://cuckoo.network/portal/art"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 Cuckoo",
+    "description": "حق کپی‌رایت فوتر"
+  },
+  "logo.alt": {
+    "message": "BlockEden.xyz",
+    "description": "متن جایگزین لوگوی فوتر"
+  }
+}

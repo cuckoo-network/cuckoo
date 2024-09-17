@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "وبلاگ",
+    "description": "عنوان وبلاگ که برای SEO استفاده می‌شود"
+  },
+  "description": {
+    "message": "وبلاگ",
+    "description": "توضیحات وبلاگ که برای SEO استفاده می‌شود"
+  },
+  "sidebar.title": {
+    "message": "پست‌های اخیر",
+    "description": "برچسب برای نوار کناری چپ"
+  }
+}
