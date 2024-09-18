@@ -2,6 +2,14 @@
 
 ## September 2024
 
+### [Toolsapp](https://toolsapp.cc/)
+
+Discover the best AI tools of 2024 on ToolsApp AI Tools Directory. Stay updated with the latest AI tools, refreshed daily by GPT-4. Find your favorites and explore innovative solutions on ToolsApp.
+
+### [Zzo AI tools directory](https://zzo.ai/)
+
+Explore cutting-edge AI tools in the Zzo AI Tools Directory. Discover innovative solutions and stay ahead in the world of AI by browsing through a comprehensive collection of advanced tools on Zzo.ai.
+
 ### [Bika.ai](https://bika.ai/)
 
 [Bika.ai](https://bika.ai/) is a leading no-code AI software company based in Canada and Hong Kong, dedicated to simplifying AI automation for everyone. Our mission is to empower billions of people by creating easy-to-use AI tools that drive human progress and unlock the full potential of artificial intelligence.
