@@ -2,7 +2,7 @@
 title: "Enter the World of Anime with Cuckoo Chat: Powered by AI and Web3"
 authors: [lark]
 tags: [ai, product, cuckoo chat]
-image: https://cuckoo-network.b-cdn.net/2024-09-02-cuckoo-network-rewards-top-gpu-miners-after-successful-pilot.webp
+image: https://cuckoo-network.b-cdn.net/2024-09-16-introducing-cuckoo-chat-converse-with-your-favorite-anime-characters.webp
 description: Discover Cuckoo Chat, a groundbreaking feature on Cuckoo Network that lets you engage in real-time conversations with 17 iconic anime characters. Harnessing cutting-edge AI and Web3 technology, Cuckoo Chat offers an authentic and immersive experience for anime fans everywhere. Start chatting now at cuckoo.network/portal/chat!
 keywords:
   [
