@@ -39,18 +39,18 @@ export default function PostItem({ ...props }) {
         <Link href={props.metadata.authors[0].url}>
           <img
             className="rounded-full shrink-0 mr-4"
-            src={props.metadata.authors[0].imageURL}
+            src={props.metadata.authors[0]?.imageURL}
             width={40}
             height={40}
-            alt={props.metadata.authors[0].name}
+            alt={props.metadata.authors[0]?.name}
           />
         </Link>
         <div className="font-medium">
           <Link
-            href={props.metadata.authors[0].url}
+            href={props.metadata.authors[0]?.url}
             className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
           >
-            {props.metadata.authors[0].name}
+            {props.metadata.authors[0]?.name}
           </Link>
           <span className="text-gray-700"> - </span>
           <span className="text-gray-500">{props.metadata.formattedDate}</span>

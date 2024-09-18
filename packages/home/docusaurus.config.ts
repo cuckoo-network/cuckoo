@@ -45,7 +45,7 @@ const config: Config = {
       "es",
       "fa",
       "fr",
-      // "pt",
+      "pt",
       "th",
       "tr",
     ],
