@@ -2,6 +2,10 @@
 
 ## September 2024
 
+### [Opencord AI](https://opencord.ai)
+
+[Opencord AI](https://opencord.ai) is a 24/7 targeted social engagement tool. Imagine having a smart assistant that works 24/7 to find the right customers, start conversations, and turn those interactions into sales. Our AI Agent helps you define your social media goals and targets key keywords. It tracks KOLs and trending topics, analyzes mentions for relevance and engagement, then crafts personalized messages that highlight your brand. Finally, it continuously monitors trends to keep your strategy updated.We work 24/7 to find new customers, while you focus on what matters.
+
 ### [Toolsapp](https://toolsapp.cc/)
 
 Discover the best AI tools of 2024 on ToolsApp AI Tools Directory. Stay updated with the latest AI tools, refreshed daily by GPT-4. Find your favorites and explore innovative solutions on ToolsApp.
