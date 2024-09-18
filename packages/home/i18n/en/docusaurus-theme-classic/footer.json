@@ -134,5 +134,9 @@
   "logo.alt": {
     "message": "BlockEden.xyz",
     "description": "The alt text of footer logo"
+  },
+  "link.item.label.Reddit": {
+    "message": "Reddit",
+    "description": "The label of footer link with label=Reddit linking to https://cuckoo.network/reddit"
   }
 }

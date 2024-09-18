@@ -3,14 +3,14 @@ const fs = require('fs').promises;
 const path = require('path');
 
 // Function to read, translate, and write file content
-async function translateFile(filePath) {
+async function translateFile(filePath, locale) {
   try {
     // Read the file content
     const fileContent = await fs.readFile(filePath, 'utf-8');
     console.log('File content read successfully.');
 
     // Call the OpenAI API to translate the content
-    const translatedContent = await translateText(fileContent);
+    const translatedContent = await translateText(fileContent, locale);
 
     // Write the translated content back to the file
     await fs.writeFile(filePath, translatedContent, 'utf-8');
@@ -21,7 +21,7 @@ async function translateFile(filePath) {
 }
 
 // Function to send content to OpenAI and get translation
-async function translateText(text) {
+async function translateText(text, locale) {
   const openaiApiKey = process.env.OPENAI_API_KEY;
 
   if (!openaiApiKey) {
@@ -37,7 +37,17 @@ async function translateText(text) {
         messages: [{
           role: "user",
           content: `[no prose]
-Translate the following text to th. If it is a json, translate the message field only, keep the key and description as they were. If the content is a markdown file, translate the entire file while keeping the metadata translated only when necessary. \n\n\`\`\`${text}\`\`\``,
+I want you to act as a SaaS copywriter, Web3 expert, and professional website translator. Please translate the following text into ${locale}. Ensure proper spacing between symbols and text in the translated content.
+
+- **For JSON files**: Only translate the 'message' field. Keep the keys and descriptions unchanged.
+- **For Markdown files**: Translate the entire file but only modify metadata when necessary.
+
+Below is the content to translate:
+
+\`\`\`
+${text}
+\`\`\`
+`,
         }],
         max_tokens: 16384,  // Adjust based on your need
         temperature: 0.3,
@@ -59,10 +69,12 @@ Translate the following text to th. If it is a json, translate the message field
   }
 }
 
-// Ensure the file path is passed as an argument
+// Ensure the file path and locale are passed as arguments
 const filePath = process.argv[2];
-if (!filePath) {
-  console.error('Please provide the path to the file as an argument.');
+const locale = process.argv[3];
+
+if (!filePath || !locale) {
+  console.error('Please provide the path to the file and the locale as arguments.');
   process.exit(1);
 }
 
@@ -70,7 +82,7 @@ if (!filePath) {
 const resolvedFilePath = path.resolve(filePath);
 
 // Execute the translation process
-translateFile(resolvedFilePath);
+translateFile(resolvedFilePath, locale);
 
 function stripJSONTags(str) {
   return str

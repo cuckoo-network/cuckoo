@@ -1,58 +1,755 @@
 {
+  "theme.ErrorPageContent.title": {
+    "message": "این صفحه خراب شد.",
+    "description": "عنوان صفحه پشتیبان زمانی که صفحه خراب شد"
+  },
+  "theme.blog.archive.title": {
+    "message": "آرشیو",
+    "description": "عنوان صفحه و قهرمان صفحه آرشیو وبلاگ"
+  },
+  "theme.blog.archive.description": {
+    "message": "آرشیو",
+    "description": "توضیحات صفحه و قهرمان صفحه آرشیو وبلاگ"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "به بالا بروید",
+    "description": "برچسب ARIA برای دکمه بازگشت به بالا"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "ناوبری صفحه لیست وبلاگ",
+    "description": "برچسب ARIA برای صفحه بندی وبلاگ"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "ورودی‌های جدیدتر",
+    "description": "برچسبی که برای ناوبری به صفحه پست‌های جدیدتر وبلاگ استفاده می‌شود (صفحه قبلی)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "ورودی‌های قدیمی‌تر",
+    "description": "برچسبی که برای ناوبری به صفحه پست‌های قدیمی‌تر وبلاگ استفاده می‌شود (صفحه بعدی)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "ناوبری صفحه پست وبلاگ",
+    "description": "برچسب ARIA برای صفحه بندی پست‌های وبلاگ"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "پست جدیدتر",
+    "description": "برچسب دکمه پست وبلاگ برای ناوبری به پست جدیدتر/قبلی"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "پست قدیمی‌تر",
+    "description": "برچسب دکمه پست وبلاگ برای ناوبری به پست قدیمی‌تر/بعدی"
+  },
+  "theme.blog.post.plurals": {
+    "message": "یک پست|{count} پست",
+    "description": "برچسب جمع برای \"{count} پست\". از هر تعداد فرم جمع (جدا شده با \"|\") که زبان شما پشتیبانی می‌کند استفاده کنید (به https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html مراجعه کنید)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} با برچسب \"{tagName}\"",
+    "description": "عنوان صفحه برای یک برچسب وبلاگ"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "مشاهده تمام برچسب‌ها",
+    "description": "برچسب لینک هدف‌گذاری شده به صفحه لیست برچسب‌ها"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "تغییر بین حالت تاریک و روشن (در حال حاضر {mode})",
+    "description": "برچسب ARIA برای تغییر حالت رنگ نوار ناوبری"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "حالت تاریک",
+    "description": "نام برای حالت رنگ تاریک"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "حالت روشن",
+    "description": "نام برای حالت رنگ روشن"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "نوار ناوبری",
+    "description": "برچسب ARIA برای نوار ناوبری"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} مورد",
+    "description": "توضیحات پیش‌فرض برای یک کارت دسته در فهرست تولید شده در مورد تعداد مواردی که این دسته شامل می‌شود"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "صفحات مستندات",
+    "description": "برچسب ARIA برای صفحه بندی مستندات"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "قبلی",
+    "description": "برچسبی که برای ناوبری به مستند قبلی استفاده می‌شود"
+  },
+  "theme.docs.paginator.next": {
+    "message": "بعدی",
+    "description": "برچسبی که برای ناوبری به مستند بعدی استفاده می‌شود"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "نسخه: {versionLabel}"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "یک مستند با برچسب|{count} مستند با برچسب",
+    "description": "برچسب جمع برای \"{count} مستند با برچسب\". از هر تعداد فرم جمع (جدا شده با \"|\") که زبان شما پشتیبانی می‌کند استفاده کنید (به https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html مراجعه کنید)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} با \"{tagName}\"",
+    "description": "عنوان صفحه برای یک برچسب مستند"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "این مستندات منتشر نشده برای {siteTitle} نسخه {versionLabel} است.",
+    "description": "برچسبی که برای اطلاع به کاربر استفاده می‌شود که در حال مرور نسخه مستند منتشر نشده است"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "این مستندات برای {siteTitle} نسخه {versionLabel} است که دیگر به‌طور فعال نگهداری نمی‌شود.",
+    "description": "برچسبی که برای اطلاع به کاربر استفاده می‌شود که در حال مرور نسخه مستند غیر نگهداری شده است"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "برای مستندات به‌روز، به {latestVersionLink} ({versionLabel}) مراجعه کنید.",
+    "description": "برچسبی که برای اطلاع به کاربر استفاده می‌شود تا آخرین نسخه را بررسی کند"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "آخرین نسخه",
+    "description": "برچسبی که برای برچسب لینک پیشنهاد آخرین نسخه استفاده می‌شود"
+  },
+  "theme.common.editThisPage": {
+    "message": "این صفحه را ویرایش کنید",
+    "description": "برچسب لینک برای ویرایش صفحه فعلی"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "لینک مستقیم به {heading}",
+    "description": "عنوان برای لینک به عنوان"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " در {date}",
+    "description": "کلمات استفاده شده برای توصیف اینکه یک صفحه در چه تاریخی آخرین بار به‌روزرسانی شده است"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " توسط {user}",
+    "description": "کلمات استفاده شده برای توصیف اینکه صفحه آخرین بار توسط چه کسی به‌روزرسانی شده است"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "آخرین به‌روزرسانی{atDate}{byUser}",
+    "description": "جمله‌ای که برای نمایش زمان آخرین به‌روزرسانی یک صفحه و توسط چه کسی استفاده می‌شود"
+  },
+  "theme.NotFound.title": {
+    "message": "صفحه پیدا نشد",
+    "description": "عنوان صفحه 404"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "نسخه‌ها",
+    "description": "برچسب برای منوی کشویی نسخه‌ها در نمای موبایل"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "برچسب‌ها:",
+    "description": "برچسب در کنار لیست برچسب‌ها"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "بستن",
+    "description": "برچسب ARIA برای دکمه بستن نوار اعلان"
+  },
+  "theme.admonition.caution": {
+    "message": "احتیاط",
+    "description": "برچسب پیش‌فرض استفاده شده برای احتیاط (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "خطر",
+    "description": "برچسب پیش‌فرض استفاده شده برای خطر (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "اطلاعات",
+    "description": "برچسب پیش‌فرض استفاده شده برای اطلاعات (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "یادداشت",
+    "description": "برچسب پیش‌فرض استفاده شده برای یادداشت (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "نکته",
+    "description": "برچسب پیش‌فرض استفاده شده برای نکته (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "هشدار",
+    "description": "برچسب پیش‌فرض استفاده شده برای هشدار (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "ناوبری پست‌های اخیر وبلاگ",
+    "description": "برچسب ARIA برای پست‌های اخیر در نوار کناری وبلاگ"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "کپی شد",
+    "description": "برچسب دکمه کپی در بلوک‌های کد"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "کپی کد به کلیپ بورد",
+    "description": "برچسب ARIA برای دکمه کپی بلوک‌های کد"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "کپی",
+    "description": "برچسب دکمه کپی در بلوک‌های کد"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "تغییر خط به خط",
+    "description": "ویژگی عنوان برای دکمه تغییر خط به خط بلوک‌های کد"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "گسترش دسته نوار کناری '{label}'",
+    "description": "برچسب ARIA برای گسترش دسته نوار کناری"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "جمع کردن دسته نوار کناری '{label}'",
+    "description": "برچسب ARIA برای جمع کردن دسته نوار کناری"
+  },
+  "theme.NotFound.p1": {
+    "message": "ما نتوانستیم آنچه را که به دنبالش بودید پیدا کنیم.",
+    "description": "پاراگراف اول صفحه 404"
+  },
+  "theme.NotFound.p2": {
+    "message": "لطفاً با مالک سایتی که شما را به URL اصلی لینک کرده است تماس بگیرید و به آنها اطلاع دهید که لینک آنها خراب است.",
+    "description": "پاراگراف دوم صفحه 404"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "اصلی",
+    "description": "برچسب ARIA برای ناوبری اصلی"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "زبان‌ها",
+    "description": "برچسب برای منوی کشویی زبان در موبایل"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "در این صفحه",
+    "description": "برچسب استفاده شده توسط دکمه در مؤلفه TOC قابل جمع شدن"
+  },
+  "theme.blog.post.readMore": {
+    "message": "بیشتر بخوانید",
+    "description": "برچسب استفاده شده در گزیده‌های پست وبلاگ برای لینک به پست‌های کامل وبلاگ"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "بیشتر درباره {title} بخوانید",
+    "description": "برچسب ARIA برای لینک به پست‌های کامل وبلاگ از گزیده‌ها"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "یک دقیقه خواندن|{readingTime} دقیقه خواندن",
+    "description": "برچسب جمع برای \"{readingTime} دقیقه خواندن\". از هر تعداد فرم جمع (جدا شده با \"|\") که زبان شما پشتیبانی می‌کند استفاده کنید (به https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html مراجعه کنید)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "صفحه اصلی",
+    "description": "برچسب ARIA برای صفحه اصلی در نوار ناوبری"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "جمع کردن نوار کناری",
+    "description": "ویژگی عنوان برای دکمه جمع کردن نوار کناری مستندات"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "جمع کردن نوار کناری",
+    "description": "ویژگی عنوان برای دکمه جمع کردن نوار کناری مستندات"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "نوار کناری مستندات",
+    "description": "برچسب ARIA برای ناوبری نوار کناری"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "بستن نوار ناوبری",
+    "description": "برچسب ARIA برای دکمه بستن نوار کناری موبایل"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← بازگشت به منوی اصلی",
+    "description": "برچسب دکمه بازگشت به منوی اصلی، در داخل منوی جانبی ثانویه نوار ناوبری موبایل (به‌ویژه برای نمایش نوار کناری مستندات استفاده می‌شود)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "تغییر نوار ناوبری",
+    "description": "برچسب ARIA برای دکمه منوی همبرگری نوار ناوبری موبایل"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "گسترش نوار کناری",
+    "description": "برچسب ARIA و ویژگی عنوان برای دکمه گسترش نوار کناری مستندات"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "گسترش نوار کناری",
+    "description": "برچسب ARIA و ویژگی عنوان برای دکمه گسترش نوار کناری مستندات"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "دوباره تلاش کنید",
+    "description": "برچسب دکمه برای دوباره تلاش کردن در هنگامیکه مرز خطای React یک خطا را ضبط می‌کند"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "پرش به محتوای اصلی",
+    "description": "برچسب پرش به محتوا که برای دسترسی استفاده می‌شود، اجازه می‌دهد به سرعت با ناوبری کلید tab/enter به محتوای اصلی بروید"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "برچسب‌ها",
+    "description": "عنوان صفحه لیست برچسب‌ها"
+  },
+  "theme.unlistedContent.title": {
+    "message": "صفحه غیر فهرست شده",
+    "description": "عنوان بنر محتوای غیر فهرست شده"
+  },
+  "theme.unlistedContent.message": {
+    "message": "این صفحه غیر فهرست شده است. موتورهای جستجو آن را ایندکس نخواهند کرد و فقط کاربرانی که لینک مستقیم دارند می‌توانند به آن دسترسی پیدا کنند.",
+    "description": "پیام بنر محتوای غیر فهرست شده"
+  },
   "Cuckoo Chain: Decentralized AI Blockchain": {
-    "message": "Cuckoo Chain: بلاکچین هوش مصنوعی غیرمتمرکز",
-    "description": "عنوان صفحه اصلی Cuckoo Chain"
+    "message": "زنجیره ککویی: بلاکچین هوش مصنوعی غیرمتمرکز",
+    "description": "عنوان صفحه برای صفحه اصلی زنجیره ککویی"
   },
   "Cuckoo Chain is set to transform the AI blockchain landscape. As an Arbitrum L2 in the Ethereum ecosystem, it brings streamlined AI developer experience, fast speed and efficiency to the table. This makes it a prime choice for Web3 + AI users seeking robust and scalable solutions": {
-    "message": "Cuckoo Chain آماده است تا چشم‌انداز بلاکچین هوش مصنوعی را تغییر دهد. به عنوان یک Arbitrum L2 در اکوسیستم اتریوم، تجربه توسعه‌دهندگان هوش مصنوعی را ساده‌تر، سرعت بیشتر و کارایی بالاتر را ارائه می‌دهد. این آن را به انتخاب اصلی برای کاربران Web3 + AI که به دنبال راه‌حل‌های قوی و مقیاس‌پذیر هستند، تبدیل می‌کند.",
-    "description": "توضیحات صفحه اصلی Cuckoo Chain"
+    "message": "زنجیره ککویی قرار است چشم‌انداز بلاکچین هوش مصنوعی را متحول کند. به عنوان یک L2 آربیتوم در اکوسیستم اتریوم، تجربه توسعه‌دهنده هوش مصنوعی را ساده می‌کند و سرعت و کارایی بالایی را به ارمغان می‌آورد. این آن را به یک انتخاب اصلی برای کاربران Web3 + AI که به دنبال راه‌حل‌های قوی و مقیاس‌پذیر هستند، تبدیل می‌کند.",
+    "description": "توضیحات صفحه برای صفحه اصلی زنجیره ککویی"
   },
   "Hero Illustration": {
     "message": "تصویر قهرمان",
-    "description": "متن جایگزین برای تصویر قهرمان"
+    "description": "متن alt برای تصویر قهرمان"
   },
   "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "پلتفرم خلاق هوش مصنوعی غیرمتمرکز Cuckoo برای خالقان و سازندگان",
+    "message": "زنجیره ککویی: پلتفرم خلاق هوش مصنوعی غیرمتمرکز برای خالقان و سازندگان",
     "description": "شعار سایت"
   },
   "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
-    "message": "هنر شگفت‌انگیز هوش مصنوعی بسازید و برنامه‌های Gen AI خود را با GPU یا CPU روی Cuckoo Chain تقویت کنید. به اشتراک بگذارید، ایجاد کنید و قدرت هوش مصنوعی غیرمتمرکز را باز کنید.",
+    "message": "هنر هوش مصنوعی خیره‌کننده ایجاد کنید و برنامه‌های هوش مصنوعی نسل را با GPU یا CPU خود در زنجیره ککویی تأمین کنید. به اشتراک بگذارید، تولید کنید و قدرت هوش مصنوعی غیرمتمرکز را آزاد کنید.",
     "description": "توضیحات سایت"
   },
   "Newsletter iframe": {
-    "message": "کادر خبرنامه",
-    "description": "عنوان کادر خبرنامه"
+    "message": "فریم‌ iframe خبرنامه",
+    "description": "عنوان برای فریم‌ iframe خبرنامه"
   },
   "It's time to join the thousands of creators, artists, and developers using Cuckoo Chain": {
-    "message": "زمان آن فرا رسیده است که به هزاران خالق، هنرمند و توسعه‌دهنده‌ای که از Cuckoo Chain استفاده می‌کنند بپیوندید",
+    "message": "زمان آن رسیده است که به هزاران خالق، هنرمند و توسعه‌دهنده‌ای که از زنجیره ککویی استفاده می‌کنند بپیوندید",
     "description": "عنوان اصلی بخش CTA"
   },
   "Explore Chain": {
-    "message": "زنجیره را کشف کنید",
-    "description": "برچسب دکمه برای کاوش زنجیره Cuckoo"
+    "message": "زنجیره را کاوش کنید",
+    "description": "برچسب دکمه برای کاوش زنجیره ککویی"
   },
   "Read Docs": {
     "message": "مستندات را بخوانید",
-    "description": "برچسب دکمه برای خواندن مستندات Cuckoo Chain"
+    "description": "برچسب دکمه برای خواندن مستندات زنجیره ککویی"
   },
   "FAQs": {
-    "message": "پرسش‌های متداول",
-    "description": "عنوان بخش پرسش‌های متداول"
+    "message": "سؤالات متداول",
+    "description": "عنوان بخش سؤالات متداول"
   },
   "What is Cuckoo Chain?": {
-    "message": "Cuckoo Chain چیست؟",
-    "description": "سوال: Cuckoo Chain چیست؟"
+    "message": "زنجیره ککویی چیست؟",
+    "description": "سؤال: زنجیره ککویی چیست؟"
   },
   "Cuckoo Chain is a blockchain platform designed specifically for AI applications, operating as an Arbitrum L2 within the Ethereum ecosystem. It offers a streamlined AI developer experience with enhanced speed and efficiency.": {
-    "message": "Cuckoo Chain یک پلتفرم بلاکچین است که به‌طور خاص برای برنامه‌های هوش مصنوعی طراحی شده و به عنوان یک Arbitrum L2 در اکوسیستم اتریوم عمل می‌کند. این پلتفرم تجربه توسعه‌دهندگان هوش مصنوعی را با سرعت و کارایی بیشتری بهینه می‌کند.",
-    "description": "پاسخ: Cuckoo Chain چیست؟"
+    "message": "زنجیره ککویی یک پلتفرم بلاکچین است که به‌طور خاص برای برنامه‌های هوش مصنوعی طراحی شده و به عنوان یک L2 آربیتوم در اکوسیستم اتریوم عمل می‌کند. این تجربه توسعه‌دهنده هوش مصنوعی ساده‌شده‌ای با سرعت و کارایی بالاتر ارائه می‌دهد.",
+    "description": "پاسخ: زنجیره ککویی چیست؟"
   },
   "How does Cuckoo Chain integrate with the Ethereum ecosystem?": {
-    "message": "Cuckoo Chain چگونه با اکوسیستم اتریوم یکپارچه می‌شود؟",
-    "description": "سوال: Cuckoo Chain چگونه با اکوسیستم اتریوم یکپارچه می‌شود؟"
+    "message": "زنجیره ککویی چگونه با اکوسیستم اتریوم یکپارچه می‌شود؟",
+    "description": "سؤال: زنجیره ککویی چگونه با اکوسیستم اتریوم یکپارچه می‌شود؟"
   },
   "Cuckoo Chain functions as an Arbitrum Layer 2 solution, which means it inherits the security and decentralization of Ethereum while providing faster and cheaper transactions. This integration ensures seamless interoperability with the Ethereum network.": {
-    "message": "Cuckoo Chain به عنوان یک راه‌حل لایه ۲ Arbitrum عمل می‌کند، به این معنی که امنیت و غیرمتمرکز بودن اتریوم را به ارث می‌برد و در عین حال تراکنش‌های سریع‌تر و ارزان‌تری را فراهم می‌کند. این یکپارچگی باعث می‌شود تا تعامل بدون مشکل با شبکه اتریوم تضمین شود.",
-    "description": "پاسخ: Cuckoo Chain چگونه با اکوسیستم اتریوم یکپارچه می‌شود؟"
+    "message": "زنجیره ککویی به عنوان یک راه‌حل لایه 2 آربیتوم عمل می‌کند، به این معنی که امنیت و غیرمتمرکز بودن اتریوم را به ارث می‌برد در حالی که معاملات سریع‌تر و ارزان‌تری را ارائه می‌دهد. این یکپارچگی اطمینان می‌دهد که تعامل‌پذیری بدون درز با شبکه اتریوم وجود دارد.",
+    "description": "پاسخ: زنجیره ککویی چگونه با اکوسیستم اتریوم یکپارچه می‌شود؟"
+  },
+  "What are the main benefits of using Cuckoo Chain for AI development?": {
+    "message": "مزایای اصلی استفاده از زنجیره ککویی برای توسعه هوش مصنوعی چیست؟",
+    "description": "سؤال: مزایای اصلی استفاده از زنجیره ککویی برای توسعه هوش مصنوعی چیست؟"
+  },
+  "Cuckoo Chain offers unparalleled speed, efficiency, and scalability for AI development. It reduces transaction costs, accelerates processing times, and provides a robust infrastructure for deploying AI solutions on the blockchain.": {
+    "message": "زنجیره ککویی سرعت، کارایی و مقیاس‌پذیری بی‌نظیری برای توسعه هوش مصنوعی ارائه می‌دهد. این هزینه‌های معاملاتی را کاهش می‌دهد، زمان‌های پردازش را تسریع می‌کند و زیرساختی قوی برای استقرار راه‌حل‌های هوش مصنوعی در بلاکچین فراهم می‌کند.",
+    "description": "پاسخ: مزایای اصلی استفاده از زنجیره ککویی برای توسعه هوش مصنوعی چیست؟"
+  },
+  "How can I get started with Cuckoo Chain?": {
+    "message": "چگونه می‌توانم با زنجیره ککویی شروع کنم؟",
+    "description": "سؤال: چگونه می‌توانم با زنجیره ککویی شروع کنم؟"
+  },
+  "Getting started with Cuckoo Chain is simple. Visit our {gettingStartedGuide} for step-by-step instructions on setting up your account,\n                  integrating your applications, and deploying your first AI\n                  models on the platform.": {
+    "message": "شروع با زنجیره ککویی ساده است. به {gettingStartedGuide} ما مراجعه کنید برای دستورالعمل‌های مرحله به مرحله در مورد راه‌اندازی حساب کاربری خود،\n                  ادغام برنامه‌های خود و استقرار اولین مدل‌های هوش مصنوعی خود\n                  در این پلتفرم.",
+    "description": "پاسخ: چگونه می‌توانم با زنجیره ککویی شروع کنم؟"
+  },
+  "Getting Started Guide": {
+    "message": "راهنمای شروع به کار",
+    "description": "متن لینک برای راهنمای شروع به کار"
+  },
+  "What are some real-world use cases for Cuckoo Chain?": {
+    "message": "برخی از موارد استفاده واقعی برای زنجیره ککویی چیست؟",
+    "description": "سؤال: برخی از موارد استفاده واقعی برای زنجیره ککویی چیست؟"
+  },
+  "Cuckoo Chain can be used in various scenarios, including decentralized AI model inference, secure data sharing, and AI-powered decentralized applications (dApps). Our platform supports diverse industries such as finance, healthcare, and supply chain management.": {
+    "message": "زنجیره ککویی می‌تواند در سناریوهای مختلفی استفاده شود، از جمله استنتاج مدل هوش مصنوعی غیرمتمرکز، اشتراک‌گذاری امن داده‌ها و برنامه‌های غیرمتمرکز (dApps) مبتنی بر هوش مصنوعی. پلتفرم ما از صنایع مختلفی مانند مالی، بهداشت و درمان و مدیریت زنجیره تأمین پشتیبانی می‌کند.",
+    "description": "پاسخ: برخی از موارد استفاده واقعی برای زنجیره ککویی چیست؟"
+  },
+  "Where can I find support and additional resources?": {
+    "message": "کجا می‌توانم پشتیبانی و منابع اضافی پیدا کنم؟",
+    "description": "سؤال: کجا می‌توانم پشتیبانی و منابع اضافی پیدا کنم؟"
+  },
+  "For support and additional resources, visit our {helpCenter} or join our community on {discord} and {telegram}. Our\n                  comprehensive documentation, tutorials, and active community\n                  are here to assist you with any questions or challenges you\n                  might encounter.": {
+    "message": "برای پشتیبانی و منابع اضافی، به {helpCenter} ما مراجعه کنید یا به جامعه ما در {discord} و {telegram} بپیوندید. مستندات جامع، آموزش‌ها و جامعه فعال ما\n                  در اینجا هستند تا به شما در هر سؤالی یا چالشی که ممکن است با آن مواجه شوید کمک کنند.",
+    "description": "پاسخ: کجا می‌توانم پشتیبانی و منابع اضافی پیدا کنم؟"
+  },
+  "Help Center": {
+    "message": "مرکز کمک",
+    "description": "متن لینک برای مرکز کمک"
+  },
+  "Discord": {
+    "message": "دیسکورد",
+    "description": "متن لینک برای دیسکورد"
+  },
+  "Telegram": {
+    "message": "تلگرام",
+    "description": "متن لینک برای تلگرام"
+  },
+  "Illustration": {
+    "message": "تصویر",
+    "description": "متن alt تصویر"
+  },
+  "Many tools to decentralized AI with Cuckoo Chain": {
+    "message": "ابزارهای زیادی برای هوش مصنوعی غیرمتمرکز با زنجیره ککویی",
+    "description": "عنوان بخش"
+  },
+  "The best resources for building an end-to-end Cuckoo Chain dApp.": {
+    "message": "بهترین منابع برای ساخت یک dApp زنجیره ککویی از ابتدا تا انتها.",
+    "description": "توضیحات بخش"
+  },
+  "Icon 01": {
+    "message": "آیکون 01",
+    "description": "متن alt آیکون 01"
+  },
+  "Cuckoo Network Bridge": {
+    "message": "پل شبکه ککویی",
+    "description": "عنوان پل شبکه ککویی"
+  },
+  "Transfer assets seamlessly across Arbitrum One and Cuckoo Chain with minimal fees and secure transactions.": {
+    "message": "انتقال دارایی‌ها به‌طور یکپارچه بین Arbitrum One و زنجیره ککویی با حداقل هزینه‌ها و معاملات امن.",
+    "description": "توضیحات پل شبکه ککویی"
+  },
+  "Learn More": {
+    "message": "بیشتر بیاموزید",
+    "description": "پیام CTA بخش اخبار صفحه اصلی"
+  },
+  "Icon 02": {
+    "message": "آیکون 02",
+    "description": "متن alt آیکون 02"
+  },
+  "Thirdweb": {
+    "message": "Thirdweb",
+    "description": "عنوان Thirdweb"
+  },
+  "Full-stack, open-source web3 development platform. Fullstack tools to build complete web3 apps.": {
+    "message": "پلتفرم توسعه وب3 متن‌باز و تمام‌پشته. ابزارهای تمام‌پشته برای ساخت برنامه‌های کامل وب3.",
+    "description": "توضیحات Thirdweb"
+  },
+  "Icon 03": {
+    "message": "آیکون 03",
+    "description": "متن alt آیکون 03"
+  },
+  "ChainList": {
+    "message": "ChainList",
+    "description": "عنوان ChainList"
+  },
+  "ChainList is a list of EVM networks. Users can use the info to connect their wallets and Web3 middleware providers.": {
+    "message": "ChainList فهرستی از شبکه‌های EVM است. کاربران می‌توانند از اطلاعات برای اتصال کیف پول‌های خود و ارائه‌دهندگان میانه Web3 استفاده کنند.",
+    "description": "توضیحات ChainList"
+  },
+  "Icon 04": {
+    "message": "آیکون 04",
+    "description": "متن alt آیکون 04"
+  },
+  "Cuckoo Scan": {
+    "message": "Cuckoo Scan",
+    "description": "عنوان Cuckoo Scan"
+  },
+  "Blockchain explorer to inspect Cuckoo Chain transactions, tokens, and coins. RESTful and GraphQL API available.": {
+    "message": "کاوشگر بلاکچین برای بررسی معاملات، توکن‌ها و سکه‌های زنجیره ککویی. API RESTful و GraphQL در دسترس است.",
+    "description": "توضیحات Cuckoo Scan"
+  },
+  "Previous": {
+    "message": "قبلی",
+    "description": "برچسب aria برای دکمه قبلی"
+  },
+  "Next": {
+    "message": "بعدی",
+    "description": "برچسب aria برای دکمه بعدی"
+  },
+  "Transforming AI with Blockchain Technology": {
+    "message": "تبدیل هوش مصنوعی با فناوری بلاکچین",
+    "description": "عنوان اصلی بخش قهرمان"
+  },
+  "Cuckoo Chain, an Arbitrum L2 in the Ethereum ecosystem, revolutionizes AI development with unmatched speed, efficiency, and scalability. Perfect for Web3 + AI innovators.": {
+    "message": "زنجیره ککویی، یک L2 آربیتوم در اکوسیستم اتریوم، توسعه هوش مصنوعی را با سرعت، کارایی و مقیاس‌پذیری بی‌نظیر متحول می‌کند. مناسب برای نوآوران Web3 + AI.",
+    "description": "توضیحات بخش قهرمان درباره زنجیره ککویی و نقش آن در توسعه هوش مصنوعی"
+  },
+  "Pricing Illustration": {
+    "message": "تصویر قیمت‌گذاری",
+    "description": "متن alt برای تصویر بخش قیمت‌گذاری"
+  },
+  "Fundamentally Aligned with Ethereum": {
+    "message": "به‌طور بنیادی با اتریوم هم‌راستا",
+    "description": "عنوان برای بخش قیمت‌گذاری"
+  },
+  "But optimized for performance and on-chain AI": {
+    "message": "اما بهینه‌سازی شده برای عملکرد و هوش مصنوعی زنجیره‌ای",
+    "description": "توضیحات برای بخش قیمت‌گذاری"
+  },
+  "Monthly": {
+    "message": "ماهانه",
+    "description": "برچسب برای گزینه پرداخت ماهانه"
+  },
+  "Pay annually": {
+    "message": "سالانه پرداخت کنید",
+    "description": "برچسب خواننده صفحه برای تغییر به پرداخت سالانه"
+  },
+  "Yearly": {
+    "message": "سالانه",
+    "description": "برچسب برای گزینه پرداخت سالانه"
+  },
+  "Infra": {
+    "message": "زیرساخت",
+    "description": "برچسب بخش زیرساخت برای نمای موبایل"
+  },
+  "Max Theoretical TPS": {
+    "message": "حداکثر TPS نظری",
+    "description": "برچسب برای حداکثر معاملات نظری در ثانیه در نمای موبایل"
+  },
+  "Fastest Block Time": {
+    "message": "سریع‌ترین زمان بلاک",
+    "description": "برچسب برای سریع‌ترین زمان بلاک در نمای موبایل"
+  },
+  "Governance Model": {
+    "message": "مدل حکمرانی",
+    "description": "برچسب برای مدل حکمرانی در نمای موبایل"
+  },
+  "Features": {
+    "message": "ویژگی‌ها",
+    "description": "برچسب برای بخش ویژگی‌ها در نمای موبایل"
+  },
+  "Avg. Gas Price": {
+    "message": "میانگین قیمت گاز",
+    "description": "برچسب برای میانگین قیمت گاز در نمای موبایل"
+  },
+  "EVM Compatible": {
+    "message": "سازگار با EVM",
+    "description": "برچسب برای سازگاری با EVM در نمای موبایل"
+  },
+  "Decentralized Ledger": {
+    "message": "دفتر غیرمتمرکز",
+    "description": "برچسب برای دفتر غیرمتمرکز در نمای موبایل"
+  },
+  "\"Cuckoo Chain revolutionized our AI development with unmatched speed and efficiency. It's a game-changer for any AI-driven blockchain enterprise.\"": {
+    "message": "\"زنجیره ککویی توسعه هوش مصنوعی ما را با سرعت و کارایی بی‌نظیر متحول کرد. این یک تغییر دهنده بازی برای هر شرکت بلاکچین مبتنی بر هوش مصنوعی است.\"",
+    "description": "متن اولین نظر"
+  },
+  "Aaliyah Baker": {
+    "message": "علیه باکر",
+    "description": "نام نویسنده اولین نظر"
+  },
+  "DApper OS": {
+    "message": "DApper OS",
+    "description": "شرکت نویسنده اولین نظر"
+  },
+  "\"Integrating Cuckoo Chain was seamless. The performance boost and compatibility with Ethereum are phenomenal.\"": {
+    "message": "\"یکپارچه‌سازی زنجیره ککویی بدون مشکل بود. افزایش عملکرد و سازگاری با اتریوم فوق‌العاده است.\"",
+    "description": "متن دومین نظر"
+  },
+  "Sloan Seaman": {
+    "message": "اسلون سیمن",
+    "description": "نام نویسنده دومین نظر"
+  },
+  "Coupang": {
+    "message": "کاپانگ",
+    "description": "شرکت نویسنده دومین نظر"
+  },
+  "\"Cuckoo Chain empowered us to create fast, secure decentralized AI apps. The support team is invaluable.\"": {
+    "message": "\"زنجیره ککویی به ما قدرت داد تا برنامه‌های هوش مصنوعی غیرمتمرکز سریع و امن ایجاد کنیم. تیم پشتیبانی بی‌نظیر است.\"",
+    "description": "متن سومین نظر"
+  },
+  "Christine Dejoux": {
+    "message": "کریستین دژو",
+    "description": "نام نویسنده سومین نظر"
+  },
+  "Glocomms": {
+    "message": "گلوکامس",
+    "description": "شرکت نویسنده سومین نظر"
+  },
+  "Experience Decentralized AI Model-Serving": {
+    "message": "تجربه خدمات‌دهی مدل هوش مصنوعی غیرمتمرکز"
+  },
+  "Generate image now with Cuckoo Bot": {
+    "message": "اکنون با ربات ککویی تصویر تولید کنید"
+  },
+  "Explore": {
+    "message": "کاوش کنید",
+    "description": "عملکرد ثانویه بخش قهرمان صفحه اصلی"
+  },
+  "Experience Decentralized AI Now": {
+    "message": "اکنون هوش مصنوعی غیرمتمرکز را تجربه کنید",
+    "description": "عنوان بخش"
+  },
+  "For AI Enthusiasts": {
+    "message": "برای علاقه‌مندان به هوش مصنوعی",
+    "description": "برچسب دکمه برای علاقه‌مندان به هوش مصنوعی"
+  },
+  "For Developers": {
+    "message": "برای توسعه‌دهندگان",
+    "description": "برچسب دکمه برای توسعه‌دهندگان"
+  },
+  "For Miners": {
+    "message": "برای ماینرها",
+    "description": "برچسب دکمه برای ماینرها"
+  },
+  "For Token Holders": {
+    "message": "برای دارندگان توکن",
+    "description": "برچسب دکمه برای دارندگان توکن"
+  },
+  "Cuckoo Telegram": {
+    "message": "تلگرام ککویی",
+    "description": "عنوان جعبه تلگرام"
+  },
+  "A telegram bot for texting to image and manage your CAI tokens.": {
+    "message": "یک ربات تلگرام برای ارسال متن به تصویر و مدیریت توکن‌های CAI شما.",
+    "description": "توضیحات جعبه تلگرام"
+  },
+  "Cuckoo Discord": {
+    "message": "دیستورد ککویی",
+    "description": "عنوان جعبه دیسکورد"
+  },
+  "A discord bot for texting to image and manage your CAI tokens.": {
+    "message": "یک ربات دیسکورد برای ارسال متن به تصویر و مدیریت توکن‌های CAI شما.",
+    "description": "توضیحات جعبه دیسکورد"
+  },
+  "Neon Medium": {
+    "message": "نئون مدیوم",
+    "description": "عنوان جعبه مدیوم"
+  },
+  "BlockEden.xyz": {
+    "message": "BlockEden.xyz",
+    "description": "عنوان جعبه BlockEden"
+  },
+  "RPC node, API marketplace, and staking infrastructure.": {
+    "message": "نود RPC، بازار API و زیرساخت استیکینگ.",
+    "description": "توضیحات جعبه BlockEden"
+  },
+  "Cuckoo Art": {
+    "message": "هنر ککویی",
+    "description": "عنوان جعبه هنر ککویی"
+  },
+  "Discover AI arts created in our network.": {
+    "message": "هنرهای هوش مصنوعی ایجاد شده در شبکه ما را کشف کنید.",
+    "description": "توضیحات جعبه هنر ککویی"
+  },
+  "Karma Protocol": {
+    "message": "پروتکل کارما",
+    "description": "عنوان جعبه پروتکل کارما"
+  },
+  "A revolutionary prediction market, driven by Community.": {
+    "message": "یک بازار پیش‌بینی انقلابی، به‌وسیله جامعه هدایت می‌شود.",
+    "description": "توضیحات جعبه پروتکل کارما"
+  },
+  "Cuckoo Github": {
+    "message": "گیت‌هاب ککویی",
+    "description": "عنوان جعبه گیت‌هاب ککویی"
+  },
+  "Fork us on Github for open-sourced decentralized AI platform.": {
+    "message": "ما را در گیت‌هاب فورک کنید برای پلتفرم هوش مصنوعی غیرمتمرکز متن‌باز.",
+    "description": "توضیحات جعبه گیت‌هاب ککویی"
+  },
+  "Cuckoo Node": {
+    "message": "نود ککویی",
+    "description": "عنوان جعبه نود ککویی"
+  },
+  "Node for mining tokens, distributed with Docker images.": {
+    "message": "نودی برای استخراج توکن‌ها، توزیع شده با تصاویر داکر.",
+    "description": "توضیحات جعبه نود ککویی"
+  },
+  "Staking Portal": {
+    "message": "پورتال استیکینگ",
+    "description": "عنوان جعبه پورتال استیکینگ"
+  },
+  "Stake your token to vote for Node operators you trust": {
+    "message": "توکن خود را استیک کنید تا برای اپراتورهای نود مورد اعتماد خود رأی دهید",
+    "description": "توضیحات جعبه پورتال استیکینگ"
+  },
+  "Introducing Cuckoo Network Airdrop Portal": {
+    "message": "معرفی پورتال ایردراپ شبکه ککویی",
+    "description": "پیام اخبار بخش قهرمان صفحه اصلی"
+  },
+  "Decentralized AI Creative Platform for Creators & Builders": {
+    "message": "پلتفرم خلاق هوش مصنوعی غیرمتمرکز برای خالقان و سازندگان",
+    "description": "شعار سایت"
+  },
+  "Create AI Art": {
+    "message": "هنر هوش مصنوعی ایجاد کنید",
+    "description": "عملکرد اصلی بخش قهرمان صفحه اصلی"
+  },
+  "Earn": {
+    "message": "کسب درآمد",
+    "description": "عملکرد ثانویه بخش قهرمان صفحه اصلی"
+  },
+  "Refreshing news from the community": {
+    "message": "اخبار تازه از جامعه",
+    "description": "عنوان برای بخش اخبار"
+  },
+  "Read more": {
+    "message": "بیشتر بخوانید",
+    "description": "متن لینک بیشتر بخوانید"
+  },
+  "How does it work?": {
+    "message": "چگونه کار می‌کند؟",
+    "description": "عنوان بخش"
+  },
+  "Cuckoo incentivizes GPU miners to serve AI models to generative App builders. We started with decentralized image generation but aim to expand our platform to support various AI models.": {
+    "message": "زنجیره ککویی به ماینرهای GPU انگیزه می‌دهد تا مدل‌های هوش مصنوعی را به سازندگان برنامه‌های تولیدی ارائه دهند. ما با تولید تصویر غیرمتمرکز شروع کردیم اما هدف ما گسترش پلتفرم خود برای پشتیبانی از مدل‌های مختلف هوش مصنوعی است.",
+    "description": "توضیحات بخش"
+  },
+  "Establish Trust": {
+    "message": "ایجاد اعتماد",
+    "description": "عنوان مرحله اعتماد"
+  },
+  "GPU miners, developers, and stakers {stakingLink} with blockchain smart contracts to establish trust.": {
+    "message": "ماینرهای GPU، توسعه‌دهندگان و استیکرها {stakingLink} با قراردادهای هوشمند بلاکچین برای ایجاد اعتماد.",
+    "description": "توضیحات مرحله اعتماد"
+  },
+  "stake and vote": {
+    "message": "استیک و رأی‌گیری",
+    "description": "متن لینک"
+  },
+  "Mine and Earn": {
+    "message": "استخراج و کسب درآمد",
+    "description": "عنوان مرحله وظایف و جوایز"
+  },
+  "Gen AI Apps assign tasks to GPU miners via the Cuckoo AI node, with daily ERC20 payments based on results.": {
+    "message": "برنامه‌های هوش مصنوعی نسل وظایف را به ماینرهای GPU از طریق نود هوش مصنوعی ککویی اختصاص می‌دهند و پرداخت‌های روزانه ERC20 بر اساس نتایج انجام می‌شود.",
+    "description": "توضیحات مرحله وظایف و جوایز"
+  },
+  "Modular AI": {
+    "message": "هوش مصنوعی مدولار",
+    "description": "عنوان مرحله پشتیبانی مدولار"
+  },
+  "Our modular components ensure that AI remains accessible, transparent, anti-censorship, and privacy-preserving.": {
+    "message": "اجزای مدولار ما اطمینان می‌دهند که هوش مصنوعی در دسترس، شفاف، ضد سانسور و حفظ حریم خصوصی باقی بماند.",
+    "description": "توضیحات مرحله پشتیبانی مدولار"
+  },
+  "From AI builders to consumers, we got you covered.": {
+    "message": "از سازندگان هوش مصنوعی تا مصرف‌کنندگان، ما شما را پوشش می‌دهیم.",
+    "description": "عنوان بخش برای مشتریان هدف"
+  },
+  "Features 02": {
+    "message": "ویژگی‌ها 02",
+    "description": "متن alt برای تصویر"
+  },
+  "Get rewarded by contributing to Gen AI": {
+    "message": "با مشارکت در هوش مصنوعی نسل پاداش بگیرید"
+  },
+  "For AI Consumers": {
+    "message": "برای مصرف‌کنندگان هوش مصنوعی"
+  },
+  "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.": {
+    "message": "به مجموعه‌ای از برنامه‌های هوش مصنوعی به‌صورت رایگان دسترسی پیدا کنید، با مشارکت در اکوسیستم یا استفاده از Cuckoo Pay. اگر یک برنامه مسدود شود، به‌طور یکپارچه به هماهنگ‌کننده دیگری در شبکه غیرمتمرکز سوئیچ کنید.",
+    "description": "x"
+  },
+  "For App Builders/Coordinators": {
+    "message": "برای سازندگان/هماهنگ‌کنندگان برنامه"
+  },
+  "Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.": {
+    "message": "یک نود هماهنگ‌کننده راه‌اندازی کنید، استیک کنید تا به شبکه بپیوندید و پاداش‌های استیکینگ کسب کنید. هزینه‌های GPU را کاهش دهید، پایگاه مشتریان خود را گسترش دهید، وظایف را به ماینرهای GPU اختصاص دهید، نتایج را تأیید کنید و پرداخت‌ها را توزیع کنید.",
+    "description": "x"
+  },
+  "For GPU Miners": {
+    "message": "برای ماینرهای GPU"
+  },
+  "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.": {
+    "message": "یک نود ماینر راه‌اندازی کنید، استیک کنید تا به شبکه بپیوندید و پاداش‌های استیکینگ کسب کنید. منابع GPU خود را به اشتراک بگذارید، وظایف اختصاص داده شده را کامل کنید و خدمات قابل اعتماد را برای کسب توکن‌ها حفظ کنید.",
+    "description": "x"
   }
 }

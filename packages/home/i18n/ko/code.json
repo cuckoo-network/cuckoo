@@ -1,22 +1,309 @@
 {
+  "theme.ErrorPageContent.title": {
+    "message": "이 페이지가 중단되었습니다.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.blog.archive.title": {
+    "message": "아카이브",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "아카이브",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "맨 위로 스크롤",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "블로그 목록 페이지 탐색",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "새로운 항목",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "이전 항목",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "블로그 게시물 페이지 탐색",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "새로운 게시물",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "이전 게시물",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "하나의 게시물|{count}개의 게시물",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "\"{tagName}\" 태그가 붙은 {nPosts}",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "모든 태그 보기",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "어두운 모드와 밝은 모드 간 전환 (현재 {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "어두운 모드",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "밝은 모드",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "빵 부스러기",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} 항목",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "문서 페이지",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "이전",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "다음",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "버전: {versionLabel}"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "하나의 문서 태그|{count}개의 문서 태그",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "\"{tagName}\" 태그가 붙은 {nDocsTagged}",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "이것은 {siteTitle} {versionLabel} 버전의 미발표 문서입니다.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "이것은 더 이상 적극적으로 유지 관리되지 않는 {siteTitle} {versionLabel} 문서입니다.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "최신 문서를 보려면 {latestVersionLink} ({versionLabel})을 확인하세요.",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "최신 버전",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "이 페이지 편집",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading}로의 직접 링크",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " {date}에",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " {user}에 의해",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "마지막 업데이트{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "페이지를 찾을 수 없습니다.",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "버전",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "태그:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "닫기",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "주의",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "위험",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "정보",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "노트",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "팁",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "경고",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "블로그 최근 게시물 탐색",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "복사됨",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "코드를 클립보드에 복사",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "복사",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "단어 줄 바꿈 전환",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "'{label}' 사이드바 카테고리 확장",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "'{label}' 사이드바 카테고리 축소",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NotFound.p1": {
+    "message": "찾고 있는 내용을 찾을 수 없습니다.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "원래 URL에 링크된 사이트의 소유자에게 연락하여 링크가 끊어졌음을 알려주세요.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "메인",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "언어",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "이 페이지에서",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "더 읽기",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "{title}에 대한 더 읽기",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "1분 읽기|{readingTime}분 읽기",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "홈 페이지",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "사이드바 축소",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "사이드바 축소",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "문서 사이드바",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "탐색 바 닫기",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← 메인 메뉴로 돌아가기",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "탐색 바 전환",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "사이드바 확장",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "사이드바 확장",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "다시 시도",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "주 콘텐츠로 건너뛰기",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "태그",
+    "description": "The title of the tag list page"
+  },
+  "theme.unlistedContent.title": {
+    "message": "비공식 페이지",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "이 페이지는 비공식입니다. 검색 엔진이 색인화하지 않으며, 직접 링크가 있는 사용자만 접근할 수 있습니다.",
+    "description": "The unlisted content banner message"
+  },
   "Cuckoo Chain: Decentralized AI Blockchain": {
-    "message": "Cuckoo Chain: 탈중앙화 AI 블록체인",
+    "message": "Cuckoo Chain: 분산형 AI 블록체인",
     "description": "Page title for Cuckoo Chain homepage"
   },
   "Cuckoo Chain is set to transform the AI blockchain landscape. As an Arbitrum L2 in the Ethereum ecosystem, it brings streamlined AI developer experience, fast speed and efficiency to the table. This makes it a prime choice for Web3 + AI users seeking robust and scalable solutions": {
-    "message": "Cuckoo Chain은 AI 블록체인 환경을 혁신할 준비가 되어 있습니다. 이더리움 생태계의 Arbitrum L2로서, 간소화된 AI 개발자 경험, 빠른 속도 및 효율성을 제공합니다. 이는 강력하고 확장 가능한 솔루션을 찾는 Web3 + AI 사용자들에게 최적의 선택이 됩니다.",
+    "message": "Cuckoo Chain은 AI 블록체인 환경을 혁신할 준비가 되어 있습니다. 이더리움 생태계의 Arbitrum L2로서, 간소화된 AI 개발자 경험과 빠른 속도 및 효율성을 제공합니다. 이는 강력하고 확장 가능한 솔루션을 찾는 Web3 + AI 사용자에게 최적의 선택이 됩니다.",
     "description": "Page description for Cuckoo Chain homepage"
   },
   "Hero Illustration": {
-    "message": "히어로 일러스트",
+    "message": "영웅 일러스트레이션",
     "description": "The alt text for the hero illustration"
   },
   "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "Cuckoo AI 탈중앙화 AI 창작 플랫폼: 창작자와 개발자를 위한",
+    "message": "Cuckoo AI: 창작자 및 제작자를 위한 분산형 AI 창작 플랫폼",
     "description": "The site tagline"
   },
   "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
-    "message": "Cuckoo Chain에서 GPU 또는 CPU를 사용해 멋진 AI 아트를 만들고 Gen AI 앱에 동력을 제공하세요. 탈중앙화된 AI의 힘을 공유하고 생성하며 잠금 해제하세요.",
+    "message": "놀라운 AI 아트를 만들고 Cuckoo Chain에서 GPU 또는 CPU로 Gen AI 앱에 연료를 공급하세요. 분산형 AI의 힘을 공유하고 생성하며 잠금 해제하세요.",
     "description": "Site description"
   },
   "Newsletter iframe": {
@@ -24,7 +311,7 @@
     "description": "The title for the newsletter iframe"
   },
   "It's time to join the thousands of creators, artists, and developers using Cuckoo Chain": {
-    "message": "수천 명의 창작자, 예술가, 개발자들과 함께 Cuckoo Chain을 사용해보세요",
+    "message": "Cuckoo Chain을 사용하는 수천 명의 창작자, 예술가 및 개발자와 함께할 시간입니다.",
     "description": "CTA section main title"
   },
   "Explore Chain": {
@@ -44,7 +331,7 @@
     "description": "Question: What is Cuckoo Chain?"
   },
   "Cuckoo Chain is a blockchain platform designed specifically for AI applications, operating as an Arbitrum L2 within the Ethereum ecosystem. It offers a streamlined AI developer experience with enhanced speed and efficiency.": {
-    "message": "Cuckoo Chain은 AI 애플리케이션을 위해 설계된 블록체인 플랫폼으로, 이더리움 생태계 내의 Arbitrum L2로 운영됩니다. 향상된 속도와 효율성을 제공하며 AI 개발자에게 간소화된 경험을 제공합니다.",
+    "message": "Cuckoo Chain은 AI 애플리케이션을 위해 특별히 설계된 블록체인 플랫폼으로, 이더리움 생태계 내에서 Arbitrum L2로 운영됩니다. 향상된 속도와 효율성을 갖춘 간소화된 AI 개발자 경험을 제공합니다.",
     "description": "Answer: What is Cuckoo Chain?"
   },
   "How does Cuckoo Chain integrate with the Ethereum ecosystem?": {
@@ -52,35 +339,35 @@
     "description": "Question: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
   },
   "Cuckoo Chain functions as an Arbitrum Layer 2 solution, which means it inherits the security and decentralization of Ethereum while providing faster and cheaper transactions. This integration ensures seamless interoperability with the Ethereum network.": {
-    "message": "Cuckoo Chain은 Arbitrum 레이어 2 솔루션으로 기능하며, 이더리움의 보안성과 탈중앙성을 유지하면서도 더 빠르고 저렴한 거래를 제공합니다. 이 통합은 이더리움 네트워크와의 원활한 상호 운용성을 보장합니다.",
+    "message": "Cuckoo Chain은 Arbitrum Layer 2 솔루션으로 작동하며, 이는 이더리움의 보안성과 분산성을 상속받으면서 더 빠르고 저렴한 거래를 제공합니다. 이 통합은 이더리움 네트워크와의 원활한 상호 운용성을 보장합니다.",
     "description": "Answer: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
   },
   "What are the main benefits of using Cuckoo Chain for AI development?": {
-    "message": "AI 개발에 Cuckoo Chain을 사용하면 주된 이점은 무엇인가요?",
+    "message": "AI 개발을 위해 Cuckoo Chain을 사용할 때의 주요 이점은 무엇인가요?",
     "description": "Question: What are the main benefits of using Cuckoo Chain for AI development?"
   },
   "Cuckoo Chain offers unparalleled speed, efficiency, and scalability for AI development. It reduces transaction costs, accelerates processing times, and provides a robust infrastructure for deploying AI solutions on the blockchain.": {
-    "message": "Cuckoo Chain은 AI 개발에 있어 뛰어난 속도, 효율성 및 확장성을 제공합니다. 거래 비용을 줄이고 처리 시간을 단축하며, 블록체인에서 AI 솔루션을 배포하기 위한 강력한 인프라를 제공합니다.",
+    "message": "Cuckoo Chain은 AI 개발을 위한 비할 데 없는 속도, 효율성 및 확장성을 제공합니다. 거래 비용을 줄이고 처리 시간을 단축하며 블록체인에 AI 솔루션을 배포하기 위한 강력한 인프라를 제공합니다.",
     "description": "Answer: What are the main benefits of using Cuckoo Chain for AI development?"
   },
   "How can I get started with Cuckoo Chain?": {
-    "message": "Cuckoo Chain을 시작하려면 어떻게 해야 하나요?",
+    "message": "Cuckoo Chain을 어떻게 시작할 수 있나요?",
     "description": "Question: How can I get started with Cuckoo Chain?"
   },
   "Getting started with Cuckoo Chain is simple. Visit our {gettingStartedGuide} for step-by-step instructions on setting up your account,\n                  integrating your applications, and deploying your first AI\n                  models on the platform.": {
-    "message": "Cuckoo Chain을 시작하는 것은 간단합니다. 계정 설정, 애플리케이션 통합 및 첫 AI 모델을 플랫폼에 배포하는 단계별 지침은 {gettingStartedGuide}에서 확인하세요.",
+    "message": "Cuckoo Chain을 시작하는 것은 간단합니다. 계정을 설정하고,\n                  애플리케이션을 통합하며,\n                  플랫폼에서 첫 번째 AI 모델을 배포하는 단계별 지침은 {gettingStartedGuide}를 방문하세요.",
     "description": "Answer: How can I get started with Cuckoo Chain?"
   },
   "Getting Started Guide": {
-    "message": "시작 가이드",
+    "message": "시작하기 가이드",
     "description": "Link text for Getting Started Guide"
   },
   "What are some real-world use cases for Cuckoo Chain?": {
-    "message": "Cuckoo Chain의 실제 활용 사례는 무엇인가요?",
+    "message": "Cuckoo Chain의 실제 사용 사례는 무엇인가요?",
     "description": "Question: What are some real-world use cases for Cuckoo Chain?"
   },
   "Cuckoo Chain can be used in various scenarios, including decentralized AI model inference, secure data sharing, and AI-powered decentralized applications (dApps). Our platform supports diverse industries such as finance, healthcare, and supply chain management.": {
-    "message": "Cuckoo Chain은 탈중앙화된 AI 모델 추론, 안전한 데이터 공유, 그리고 AI 기반의 탈중앙화 애플리케이션(dApps) 등 다양한 시나리오에서 사용할 수 있습니다. 우리 플랫폼은 금융, 헬스케어, 공급망 관리 등 다양한 산업을 지원합니다.",
+    "message": "Cuckoo Chain은 분산형 AI 모델 추론, 안전한 데이터 공유 및 AI 기반 분산 애플리케이션(dApps)을 포함한 다양한 시나리오에서 사용될 수 있습니다. 우리 플랫폼은 금융, 의료 및 공급망 관리와 같은 다양한 산업을 지원합니다.",
     "description": "Answer: What are some real-world use cases for Cuckoo Chain?"
   },
   "Where can I find support and additional resources?": {
@@ -88,11 +375,11 @@
     "description": "Question: Where can I find support and additional resources?"
   },
   "For support and additional resources, visit our {helpCenter} or join our community on {discord} and {telegram}. Our\n                  comprehensive documentation, tutorials, and active community\n                  are here to assist you with any questions or challenges you\n                  might encounter.": {
-    "message": "지원 및 추가 리소스는 {helpCenter}를 방문하거나 {discord}, {telegram} 커뮤니티에 참여하세요. 포괄적인 문서, 튜토리얼 및 활발한 커뮤니티가 여러분의 질문이나 문제 해결을 도울 것입니다.",
+    "message": "지원 및 추가 리소스는 {helpCenter}를 방문하거나 {discord} 및 {telegram}에서 우리 커뮤니티에 참여하세요. 우리의\n                  포괄적인 문서, 튜토리얼 및 활발한 커뮤니티가\n                  여러분이 겪을 수 있는 질문이나 문제를 도와드립니다.",
     "description": "Answer: Where can I find support and additional resources?"
   },
   "Help Center": {
-    "message": "도움말 센터",
+    "message": "지원 센터",
     "description": "Link text for Help Center"
   },
   "Discord": {
@@ -108,11 +395,11 @@
     "description": "Illustration alt text"
   },
   "Many tools to decentralized AI with Cuckoo Chain": {
-    "message": "Cuckoo Chain으로 탈중앙화 AI를 위한 다양한 도구",
+    "message": "Cuckoo Chain으로 분산형 AI를 위한 많은 도구",
     "description": "Section header title"
   },
   "The best resources for building an end-to-end Cuckoo Chain dApp.": {
-    "message": "완벽한 Cuckoo Chain dApp을 구축하기 위한 최고의 리소스.",
+    "message": "엔드 투 엔드 Cuckoo Chain dApp 구축을 위한 최고의 리소스.",
     "description": "Section header description"
   },
   "Icon 01": {
@@ -124,11 +411,11 @@
     "description": "Cuckoo Network Bridge title"
   },
   "Transfer assets seamlessly across Arbitrum One and Cuckoo Chain with minimal fees and secure transactions.": {
-    "message": "최소한의 수수료와 안전한 거래로 Arbitrum One과 Cuckoo Chain 간에 자산을 원활하게 전송하세요.",
+    "message": "Arbitrum One과 Cuckoo Chain 간에 최소한의 수수료와 안전한 거래로 자산을 원활하게 전송하세요.",
     "description": "Cuckoo Network Bridge description"
   },
   "Learn More": {
-    "message": "더 알아보기",
+    "message": "자세히 알아보기",
     "description": "Home page hero section's news message's CTA"
   },
   "Icon 02": {
@@ -140,7 +427,7 @@
     "description": "Thirdweb title"
   },
   "Full-stack, open-source web3 development platform. Fullstack tools to build complete web3 apps.": {
-    "message": "풀스택, 오픈소스 웹3 개발 플랫폼. 완전한 웹3 앱을 구축하기 위한 풀스택 도구.",
+    "message": "풀스택, 오픈 소스 웹3 개발 플랫폼. 완전한 웹3 앱을 구축하기 위한 풀스택 도구.",
     "description": "Thirdweb description"
   },
   "Icon 03": {
@@ -148,11 +435,11 @@
     "description": "Icon 03 alt text"
   },
   "ChainList": {
-    "message": "ChainList",
+    "message": "체인리스트",
     "description": "ChainList title"
   },
   "ChainList is a list of EVM networks. Users can use the info to connect their wallets and Web3 middleware providers.": {
-    "message": "ChainList는 EVM 네트워크 목록입니다. 사용자는 이 정보를 통해 지갑과 Web3 미들웨어 제공업체에 연결할 수 있습니다.",
+    "message": "ChainList는 EVM 네트워크 목록입니다. 사용자는 정보를 사용하여 지갑과 Web3 미들웨어 제공업체에 연결할 수 있습니다.",
     "description": "ChainList description"
   },
   "Icon 04": {
@@ -164,7 +451,7 @@
     "description": "Cuckoo Scan title"
   },
   "Blockchain explorer to inspect Cuckoo Chain transactions, tokens, and coins. RESTful and GraphQL API available.": {
-    "message": "Cuckoo Chain의 거래, 토큰 및 코인을 검사하기 위한 블록체인 탐색기. RESTful 및 GraphQL API 사용 가능.",
+    "message": "Cuckoo Chain 거래, 토큰 및 코인을 검사하기 위한 블록체인 탐색기. RESTful 및 GraphQL API 사용 가능.",
     "description": "Cuckoo Scan description"
   },
   "Previous": {
@@ -176,11 +463,11 @@
     "description": "Aria label for next button"
   },
   "Transforming AI with Blockchain Technology": {
-    "message": "블록체인 기술로 AI 혁신",
+    "message": "블록체인 기술로 AI 혁신하기",
     "description": "Hero section main title"
   },
   "Cuckoo Chain, an Arbitrum L2 in the Ethereum ecosystem, revolutionizes AI development with unmatched speed, efficiency, and scalability. Perfect for Web3 + AI innovators.": {
-    "message": "Cuckoo Chain은 이더리움 생태계의 Arbitrum L2로, AI 개발을 독보적인 속도, 효율성, 확장성으로 혁신합니다. Web3 + AI 혁신가들에게 완벽한 선택입니다.",
+    "message": "Cuckoo Chain은 이더리움 생태계의 Arbitrum L2로서 비할 데 없는 속도, 효율성 및 확장성으로 AI 개발을 혁신합니다. Web3 + AI 혁신가에게 완벽합니다.",
     "description": "Hero section description about Cuckoo Chain and its role in AI development"
   },
   "Pricing Illustration": {
@@ -188,11 +475,11 @@
     "description": "Alt text for the pricing section illustration"
   },
   "Fundamentally Aligned with Ethereum": {
-    "message": "기본적으로 이더리움과 일치",
+    "message": "이더리움과 근본적으로 일치",
     "description": "Title for the pricing section"
   },
   "But optimized for performance and on-chain AI": {
-    "message": "그러나 성능 및 온체인 AI에 최적화됨",
+    "message": "하지만 성능 및 온체인 AI에 최적화됨",
     "description": "Description for the pricing section"
   },
   "Monthly": {
@@ -200,7 +487,7 @@
     "description": "Label for the monthly payment option"
   },
   "Pay annually": {
-    "message": "연간 결제",
+    "message": "연간 지불",
     "description": "Screen reader label for toggling to pay annually"
   },
   "Yearly": {
@@ -216,7 +503,7 @@
     "description": "Label for maximum theoretical transactions per second in mobile view"
   },
   "Fastest Block Time": {
-    "message": "최단 블록 시간",
+    "message": "가장 빠른 블록 시간",
     "description": "Label for the fastest block time in mobile view"
   },
   "Governance Model": {
@@ -236,15 +523,15 @@
     "description": "Label for EVM compatibility in mobile view"
   },
   "Decentralized Ledger": {
-    "message": "탈중앙화 원장",
+    "message": "분산 원장",
     "description": "Label for decentralized ledger in mobile view"
   },
   "\"Cuckoo Chain revolutionized our AI development with unmatched speed and efficiency. It's a game-changer for any AI-driven blockchain enterprise.\"": {
-    "message": "\"Cuckoo Chain은 독보적인 속도와 효율성으로 우리의 AI 개발을 혁신했습니다. AI 기반 블록체인 기업에 있어 게임 체인저입니다.\"",
+    "message": "\"Cuckoo Chain은 비할 데 없는 속도와 효율성으로 우리의 AI 개발을 혁신했습니다. 이는 AI 기반 블록체인 기업에 있어 게임 체인저입니다.\"",
     "description": "First testimonial text"
   },
   "Aaliyah Baker": {
-    "message": "알리야 베이커",
+    "message": "Aaliyah Baker",
     "description": "First testimonial author name"
   },
   "DApper OS": {
@@ -252,11 +539,11 @@
     "description": "First testimonial author company"
   },
   "\"Integrating Cuckoo Chain was seamless. The performance boost and compatibility with Ethereum are phenomenal.\"": {
-    "message": "\"Cuckoo Chain을 통합하는 과정은 매끄러웠습니다. 성능 향상과 이더리움과의 호환성은 놀라울 정도입니다.\"",
+    "message": "\"Cuckoo Chain 통합은 원활했습니다. 성능 향상과 이더리움과의 호환성은 놀랍습니다.\"",
     "description": "Second testimonial text"
   },
   "Sloan Seaman": {
-    "message": "슬론 시먼",
+    "message": "Sloan Seaman",
     "description": "Second testimonial author name"
   },
   "Coupang": {
@@ -264,15 +551,198 @@
     "description": "Second testimonial author company"
   },
   "\"Cuckoo Chain empowered us to create fast, secure decentralized AI apps. The support team is invaluable.\"": {
-    "message": "\"Cuckoo Chain 덕분에 빠르고 안전한 탈중앙화 AI 앱을 만들 수 있었습니다. 지원팀은 정말 귀중한 자산입니다.\"",
+    "message": "\"Cuckoo Chain은 우리가 빠르고 안전한 분산형 AI 앱을 만들 수 있도록 해주었습니다. 지원 팀은 매우 소중합니다.\"",
     "description": "Third testimonial text"
   },
   "Christine Dejoux": {
-    "message": "크리스틴 데주",
+    "message": "Christine Dejoux",
     "description": "Third testimonial author name"
   },
   "Glocomms": {
-    "message": "글로콤즈",
+    "message": "글로컴스",
     "description": "Third testimonial author company"
+  },
+  "Experience Decentralized AI Model-Serving": {
+    "message": "분산형 AI 모델 제공 체험하기"
+  },
+  "Generate image now with Cuckoo Bot": {
+    "message": "지금 Cuckoo Bot으로 이미지를 생성하세요"
+  },
+  "Explore": {
+    "message": "탐색",
+    "description": "homepage's hero section's secondary action CTA"
+  },
+  "Experience Decentralized AI Now": {
+    "message": "지금 분산형 AI 체험하기",
+    "description": "Section header title"
+  },
+  "For AI Enthusiasts": {
+    "message": "AI 애호가를 위한"
+  },
+  "For Developers": {
+    "message": "개발자를 위한"
+  },
+  "For Miners": {
+    "message": "채굴자를 위한"
+  },
+  "For Token Holders": {
+    "message": "토큰 보유자를 위한"
+  },
+  "Cuckoo Telegram": {
+    "message": "Cuckoo 텔레그램",
+    "description": "Telegram Box Title"
+  },
+  "A telegram bot for texting to image and manage your CAI tokens.": {
+    "message": "이미지로 텍스트를 전송하고 CAI 토큰을 관리하는 텔레그램 봇입니다.",
+    "description": "Telegram Box Description"
+  },
+  "Cuckoo Discord": {
+    "message": "Cuckoo 디스코드",
+    "description": "Discord Box Title"
+  },
+  "A discord bot for texting to image and manage your CAI tokens.": {
+    "message": "이미지로 텍스트를 전송하고 CAI 토큰을 관리하는 디스코드 봇입니다.",
+    "description": "Discord Box Description"
+  },
+  "Neon Medium": {
+    "message": "네온 미디엄",
+    "description": "Medium Box Title"
+  },
+  "BlockEden.xyz": {
+    "message": "BlockEden.xyz",
+    "description": "BlockEden Box Title"
+  },
+  "RPC node, API marketplace, and staking infrastructure.": {
+    "message": "RPC 노드, API 마켓플레이스 및 스테이킹 인프라.",
+    "description": "BlockEden Box Description"
+  },
+  "Cuckoo Art": {
+    "message": "Cuckoo 아트",
+    "description": "Cuckoo Art Box Title"
+  },
+  "Discover AI arts created in our network.": {
+    "message": "우리 네트워크에서 생성된 AI 아트를 발견하세요.",
+    "description": "Cuckoo Art Box Description"
+  },
+  "Karma Protocol": {
+    "message": "카르마 프로토콜",
+    "description": "Karma Protocol Box Title"
+  },
+  "A revolutionary prediction market, driven by Community.": {
+    "message": "커뮤니티에 의해 구동되는 혁신적인 예측 시장.",
+    "description": "Karma Protocol Box Description"
+  },
+  "Cuckoo Github": {
+    "message": "Cuckoo 깃허브",
+    "description": "Cuckoo Github Box Title"
+  },
+  "Fork us on Github for open-sourced decentralized AI platform.": {
+    "message": "오픈 소스 분산형 AI 플랫폼을 위해 깃허브에서 포크하세요.",
+    "description": "Cuckoo Github Box Description"
+  },
+  "Cuckoo Node": {
+    "message": "Cuckoo 노드",
+    "description": "Cuckoo Node Box Title"
+  },
+  "Node for mining tokens, distributed with Docker images.": {
+    "message": "토큰을 채굴하기 위한 노드, Docker 이미지로 배포됩니다.",
+    "description": "Cuckoo Node Box Description"
+  },
+  "Staking Portal": {
+    "message": "스테이킹 포털",
+    "description": "Staking Portal Box Title"
+  },
+  "Stake your token to vote for Node operators you trust": {
+    "message": "신뢰하는 노드 운영자에게 투표하기 위해 토큰을 스테이킹하세요.",
+    "description": "Staking Portal Box Description"
+  },
+  "Introducing Cuckoo Network Airdrop Portal": {
+    "message": "Cuckoo 네트워크 에어드랍 포털 소개",
+    "description": "Home page hero section's news message"
+  },
+  "Decentralized AI Creative Platform for Creators & Builders": {
+    "message": "창작자 및 제작자를 위한 분산형 AI 창작 플랫폼",
+    "description": "Site tagline"
+  },
+  "Create AI Art": {
+    "message": "AI 아트 생성하기",
+    "description": "homepage's hero section's main action CTA"
+  },
+  "Earn": {
+    "message": "수익",
+    "description": "homepage's hero section's secondary action CTA"
+  },
+  "Refreshing news from the community": {
+    "message": "커뮤니티의 신선한 소식",
+    "description": "Title for the news section"
+  },
+  "Read more": {
+    "message": "더 읽기",
+    "description": "Read more link text"
+  },
+  "How does it work?": {
+    "message": "어떻게 작동하나요?",
+    "description": "Section header title"
+  },
+  "Cuckoo incentivizes GPU miners to serve AI models to generative App builders. We started with decentralized image generation but aim to expand our platform to support various AI models.": {
+    "message": "Cuckoo는 GPU 채굴자에게 AI 모델을 생성형 앱 제작자에게 제공하도록 인센티브를 제공합니다. 우리는 분산형 이미지 생성으로 시작했지만 다양한 AI 모델을 지원하기 위해 플랫폼을 확장할 계획입니다.",
+    "description": "Section header description"
+  },
+  "Establish Trust": {
+    "message": "신뢰 구축하기",
+    "description": "Trust step title"
+  },
+  "GPU miners, developers, and stakers {stakingLink} with blockchain smart contracts to establish trust.": {
+    "message": "GPU 채굴자, 개발자 및 스테이커가 신뢰를 구축하기 위해 블록체인 스마트 계약으로 {stakingLink}합니다.",
+    "description": "Trust step description"
+  },
+  "stake and vote": {
+    "message": "스테이킹하고 투표하기",
+    "description": "Link text"
+  },
+  "Mine and Earn": {
+    "message": "채굴하고 수익 얻기",
+    "description": "Tasks & Rewards step title"
+  },
+  "Gen AI Apps assign tasks to GPU miners via the Cuckoo AI node, with daily ERC20 payments based on results.": {
+    "message": "Gen AI 앱은 Cuckoo AI 노드를 통해 GPU 채굴자에게 작업을 할당하며, 결과에 따라 매일 ERC20 결제를 진행합니다.",
+    "description": "Tasks & Rewards step description"
+  },
+  "Modular AI": {
+    "message": "모듈형 AI",
+    "description": "Modular Support step title"
+  },
+  "Our modular components ensure that AI remains accessible, transparent, anti-censorship, and privacy-preserving.": {
+    "message": "우리의 모듈형 구성 요소는 AI가 접근 가능하고, 투명하며, 검열에 저항하고, 개인 정보를 보호하도록 보장합니다.",
+    "description": "Modular Support step description"
+  },
+  "From AI builders to consumers, we got you covered.": {
+    "message": "AI 제작자부터 소비자까지, 여러분을 지원합니다.",
+    "description": "section title for target customers"
+  },
+  "Features 02": {
+    "message": "기능 02",
+    "description": "Alt text for the image"
+  },
+  "Get rewarded by contributing to Gen AI": {
+    "message": "Gen AI에 기여하여 보상을 받으세요."
+  },
+  "For AI Consumers": {
+    "message": "AI 소비자를 위한"
+  },
+  "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.": {
+    "message": "생태계에 기여하거나 Cuckoo Pay를 사용하여 다양한 AI 앱에 무료로 접근하세요. 하나의 앱이 차단되면 분산 네트워크 내에서 원활하게 다른 조정자로 전환하세요."
+  },
+  "For App Builders/Coordinators": {
+    "message": "앱 제작자/조정자를 위한"
+  },
+  "Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.": {
+    "message": "조정자 노드를 운영하고, 네트워크에 참여하기 위해 스테이킹하며, 스테이킹 보상을 받으세요. GPU 비용을 줄이고, 고객 기반을 확장하며, GPU 채굴자에게 작업을 할당하고, 결과를 검증하며, 결제를 분배하세요."
+  },
+  "For GPU Miners": {
+    "message": "GPU 채굴자를 위한"
+  },
+  "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.": {
+    "message": "채굴자 노드를 운영하고, 네트워크에 참여하기 위해 스테이킹하며, 스테이킹 보상을 받으세요. GPU 자원을 공유하고, 할당된 작업을 완료하며, 신뢰할 수 있는 서비스를 유지하여 토큰을 얻으세요."
   }
 }

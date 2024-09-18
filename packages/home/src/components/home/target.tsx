@@ -44,7 +44,7 @@ export default function Target() {
                     data-aos="fade-up"
                     data-aos-anchor="[data-aos-id-target]"
                   >
-                    <Translate>Get rewarded by contributing to Gen AI</Translate>
+                    <Translate description={"a card description to explain what to do"}>Get rewarded by contributing to Gen AI</Translate>
                   </div>
                   <div
                     className="mt-6"
@@ -54,10 +54,10 @@ export default function Target() {
                   >
                     <h4 className="h4 mb-2">
                       <span className="text-purple-600">.</span>{' '}
-                      <Translate>For AI Consumers</Translate>
+                      <Translate description={"a card title for a group of user"}>For AI Consumers</Translate>
                     </h4>
                     <p className="text-lg text-gray-400">
-                      <Translate>
+                      <Translate description={"a card description to explain what to do"}>
                         Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.
                       </Translate>
                     </p>
@@ -86,10 +86,10 @@ export default function Target() {
                   >
                     <h4 className="h4 mb-2">
                       <span className="text-pink-500">.</span>{' '}
-                      <Translate>For GPU Miners</Translate>
+                      <Translate description={"a card description to a specific user group"}>For GPU Miners</Translate>
                     </h4>
                     <p className="text-lg text-gray-400">
-                      <Translate>
+                      <Translate description={"a card description to explain what to do"}>
                         Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.
                       </Translate>
                     </p>
