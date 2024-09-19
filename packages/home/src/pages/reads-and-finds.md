@@ -2,6 +2,20 @@
 
 ## September 2024
 
+### [Flux Image AI](https://flux-ai.io/)
+
+[Flux Image AI](https://flux-ai.io/): AI-powered image generation technology, supports natural language to image conversion, multiple artistic style options, high-resolution output, and batch generation capabilities.
+Benefits: Intuitive user interface, rapid generation of high-quality images, suitable for creative design and visual content creation, no professional drawing skills required.
+Comparison with MidJourney: Like MidJourney, Flux focuses on image generation rather than text conversations, providing a unique AI-assisted tool for visual creation.
+
+### [Tap4 AI](https://tap4.ai/discover)
+
+[Tap4 AI (tap4.ai)](https://tap4.ai/discover) is the best place to discover and access your favorite AI tools for free. Whether you need AI writing tools, marketing tools, paraphrasing tools, SEO tools, study tools, generator tools, research tools, art tools, music tools, video tools, coding tools, photo tools, and more, you can find them all here. Is there an AI for that? Tap4 AI Tools Directory has it covered.
+
+### Chat o1
+
+[Chat O1](https://chat4o.ai/) harnesses the capabilities of OpenAI o1 and GPT-4o to deliver advanced AI solutions for complex reasoning in science, coding, and mathematics, along with enhanced safety and commercial potential.
+
 ### [Opencord AI](https://opencord.ai)
 
 [Opencord AI](https://opencord.ai) is a 24/7 targeted social engagement tool. Imagine having a smart assistant that works 24/7 to find the right customers, start conversations, and turn those interactions into sales. Our AI Agent helps you define your social media goals and targets key keywords. It tracks KOLs and trending topics, analyzes mentions for relevance and engagement, then crafts personalized messages that highlight your brand. Finally, it continuously monitors trends to keep your strategy updated.We work 24/7 to find new customers, while you focus on what matters.
