@@ -2,6 +2,11 @@
 
 ## September 2024
 
+## [Sensei AI](https://www.senseicopilot.com)
+
+[Sensei AI](https://www.senseicopilot.com) is an AI interview copilot for job seekers. The product works by listening to your interviews, detecting the questions, and outputting answers by referencing your resume and other information, all in real time. Sensei AI has helped tens of thousands of candidates landing jobs at top companies.
+With its unmatched speed, accuracy, and ability to customize answers, Sensei AI delivers a seamless interview experience while maintaining the highest standards of security and privacy, ensuring that you stay focused on what matters most—acing your interview. Sensei AI is also integrated with all major video conferencing tools.
+
 ### [Flux Image AI](https://flux-ai.io/)
 
 [Flux Image AI](https://flux-ai.io/): AI-powered image generation technology, supports natural language to image conversion, multiple artistic style options, high-resolution output, and batch generation capabilities.
