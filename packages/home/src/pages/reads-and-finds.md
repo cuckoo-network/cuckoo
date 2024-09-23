@@ -2,7 +2,11 @@
 
 ## September 2024
 
-## [Sensei AI](https://www.senseicopilot.com)
+### [Indie Feel](https://www.indiefeel.com)
+
+[Indie Feel](https://www.indiefeel.com) is a vibrant platform dedicated to celebrating independent music and fostering creativity within the artistic community. It offers a unique space for artists to showcase their work, connect with fans, and participate in exciting initiatives like the AI Songwriting Contest, which features substantial prizes. With curated lists of top tracks in various languages and exclusive interviews with industry leaders, Indie Feel is a must-visit destination for music enthusiasts and creators alike. Whether you're looking to discover new sounds or engage with fellow artists, Indie Feel provides the tools and inspiration to elevate your musical journey.
+
+### [Sensei AI](https://www.senseicopilot.com)
 
 [Sensei AI](https://www.senseicopilot.com) is an AI interview copilot for job seekers. The product works by listening to your interviews, detecting the questions, and outputting answers by referencing your resume and other information, all in real time. Sensei AI has helped tens of thousands of candidates landing jobs at top companies.
 With its unmatched speed, accuracy, and ability to customize answers, Sensei AI delivers a seamless interview experience while maintaining the highest standards of security and privacy, ensuring that you stay focused on what matters most—acing your interview. Sensei AI is also integrated with all major video conferencing tools.
