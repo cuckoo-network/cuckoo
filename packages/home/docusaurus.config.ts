@@ -2,8 +2,6 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 import tailwindPlugin from "./plugins/tailwind-config.cjs";
-import commit from "./src/latest-commit.json";
-import { formatDistanceToNow } from "date-fns";
 
 const config: Config = {
   title: "Cuckoo AI",
@@ -356,7 +354,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Cuckoo Network (${commit.hash.slice(0, 7)} / Updated ${formatDistanceToNow(new Date(commit.date), { addSuffix: true })})`,
+      copyright: `Copyright © ${new Date().getFullYear()} Cuckoo`,
     },
 
     prism: {

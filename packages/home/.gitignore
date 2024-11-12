@@ -60,4 +60,3 @@ src/client/stylesheets/components/route_prefix.scss
 .docusaurus
 
 build
-src/latest-commit.json
