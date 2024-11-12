@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build && yarn generate",
+    "start": "./pre-build.sh && docusaurus start",
+    "build": "./pre-build.sh && docusaurus build && yarn generate",
     "generate": "node ./src/scripts/generate-blog-snippets.js",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -25,6 +25,7 @@
     "autoprefixer": "^10.4.16",
     "axios": "^1.7.7",
     "clsx": "^2.0.0",
+    "date-fns": "^4.1.0",
     "lucide-react": "^0.417.0",
     "postcss": "^8.4.33",
     "prettier": "^3.3.2",
