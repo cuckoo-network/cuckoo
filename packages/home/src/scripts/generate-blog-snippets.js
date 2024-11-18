@@ -1,24 +1,24 @@
 const fs = require("fs");
 const langPosts = {
-  ja: require("../../.docusaurus/docusaurus-plugin-content-blog/default/ja-blog-archive-e5c.json"),
-  en: require("../../.docusaurus/docusaurus-plugin-content-blog/default/blog-archive-80c.json"),
-  vi: require("../../.docusaurus/docusaurus-plugin-content-blog/default/vi-blog-archive-827.json"),
-  zh: require("../../.docusaurus/docusaurus-plugin-content-blog/default/zh-blog-archive-8d7.json"),
-  ru: require("../../.docusaurus/docusaurus-plugin-content-blog/default/ru-blog-archive-6e1.json"),
-  ar: require("../../.docusaurus/docusaurus-plugin-content-blog/default/ar-blog-archive-a89.json"),
-  es: require("../../.docusaurus/docusaurus-plugin-content-blog/default/es-blog-archive-4d8.json"),
-  fa: require("../../.docusaurus/docusaurus-plugin-content-blog/default/fa-blog-archive-2d7.json"),
-  fr: require("../../.docusaurus/docusaurus-plugin-content-blog/default/fr-blog-archive-c6a.json"),
-  hi: require("../../.docusaurus/docusaurus-plugin-content-blog/default/hi-blog-archive-096.json"),
-  id: require("../../.docusaurus/docusaurus-plugin-content-blog/default/id-blog-archive-8fd.json"),
-  ko: require("../../.docusaurus/docusaurus-plugin-content-blog/default/ko-blog-archive-ca4.json"),
-  pt: require("../../.docusaurus/docusaurus-plugin-content-blog/default/pt-blog-archive-b3e.json"),
-  th: require("../../.docusaurus/docusaurus-plugin-content-blog/default/th-blog-archive-5f6.json"),
-  tr: require("../../.docusaurus/docusaurus-plugin-content-blog/default/tr-blog-archive-52b.json"),
+  en: require("../../.docusaurus/docusaurus-plugin-content-blog/default/p/blog-archive-f05.json"),
+  ru: require("../../.docusaurus/docusaurus-plugin-content-blog/default/p/ru-blog-archive-5aa.json"),
+  vi: require("../../.docusaurus/docusaurus-plugin-content-blog/default/p/vi-blog-archive-e94.json"),
+  zh: require("../../.docusaurus/docusaurus-plugin-content-blog/default/p/zh-blog-archive-310.json"),
+  ar: require("../../.docusaurus/docusaurus-plugin-content-blog/default/p/ar-blog-archive-627.json"),
+  es: require("../../.docusaurus/docusaurus-plugin-content-blog/default/p/es-blog-archive-ea1.json"),
+  fa: require("../../.docusaurus/docusaurus-plugin-content-blog/default/p/fa-blog-archive-c37.json"),
+  fr: require("../../.docusaurus/docusaurus-plugin-content-blog/default/p/fr-blog-archive-881.json"),
+  hi: require("../../.docusaurus/docusaurus-plugin-content-blog/default/p/hi-blog-archive-8e6.json"),
+  id: require("../../.docusaurus/docusaurus-plugin-content-blog/default/p/id-blog-archive-ff7.json"),
+  ja: require("../../.docusaurus/docusaurus-plugin-content-blog/default/p/ja-blog-archive-b9d.json"),
+  ko: require("../../.docusaurus/docusaurus-plugin-content-blog/default/p/ko-blog-archive-6e0.json"),
+  pt: require("../../.docusaurus/docusaurus-plugin-content-blog/default/p/pt-blog-archive-8f1.json"),
+  th: require("../../.docusaurus/docusaurus-plugin-content-blog/default/p/th-blog-archive-ac3.json"),
+  tr: require("../../.docusaurus/docusaurus-plugin-content-blog/default/p/tr-blog-archive-f64.json"),
 };
 
 for (const key of Object.keys(langPosts)) {
-  const posts = langPosts[key].blogPosts;
+  const posts = langPosts[key].archive.blogPosts;
   const updatedPosts = posts.map((p) => ({ ...p, content: "" }));
   fs.writeFileSync(
     `${__dirname}/../pages/blogs/${key}.json`,
