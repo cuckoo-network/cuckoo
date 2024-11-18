@@ -131,10 +131,6 @@
     "message": "هنر Cuckoo",
     "description": "برچسب لینک فوتر با عنوان=Cuckoo Art پیوند به https://cuckoo.network/portal/art"
   },
-  "copyright": {
-    "message": "Copyright © 2024 Cuckoo",
-    "description": "حق کپی‌رایت فوتر"
-  },
   "logo.alt": {
     "message": "BlockEden.xyz",
     "description": "متن جایگزین لوگوی فوتر"

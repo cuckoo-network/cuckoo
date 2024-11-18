@@ -17,9 +17,10 @@
     "translate": "node src/scripts/translate.js"
   },
   "dependencies": {
-    "@docusaurus/core": "3.1.1",
-    "@docusaurus/plugin-client-redirects": "^3.1.1",
-    "@docusaurus/preset-classic": "3.1.1",
+    "@docusaurus/core": "3.5.2",
+    "@docusaurus/plugin-client-redirects": "3.5.2",
+    "@docusaurus/preset-classic": "3.5.2",
+    "@giscus/react": "^3.0.0",
     "@mdx-js/react": "^3.0.0",
     "aos": "^3.0.0-beta.6",
     "autoprefixer": "^10.4.16",
@@ -37,10 +38,10 @@
     "tailwindcss": "^3.4.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.1.1",
-    "@docusaurus/tsconfig": "3.1.1",
-    "@docusaurus/types": "3.1.1",
-    "typescript": "~5.2.2"
+    "@docusaurus/module-type-aliases": "3.5.2",
+    "@docusaurus/tsconfig": "3.5.2",
+    "@docusaurus/types": "3.5.2",
+    "typescript": "5.5.2"
   },
   "browserslist": {
     "production": [

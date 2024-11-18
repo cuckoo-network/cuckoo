@@ -2,10 +2,12 @@
 
 ## Q4/2024
 
-* [ ] LLM and agents
+* [x] LLM and agents
+* [ ] Image-gen performance improvement
 * [ ] Inspire content creation
 * [ ] Monetization and payment
 * [ ] Onboard more creators
+* [ ] Cuckoo Mobile App
 
 ## Q3/2024 Current Focus
 

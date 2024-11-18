@@ -1,761 +1,798 @@
 {
-  "Cuckoo Chain: Decentralized AI Blockchain": {
-    "message": "Cuckoo Chain: 分散型AIブロックチェーン",
-    "description": "Page title for Cuckoo Chain homepage"
-  },
-  "Cuckoo Chain is set to transform the AI blockchain landscape. As an Arbitrum L2 in the Ethereum ecosystem, it brings streamlined AI developer experience, fast speed and efficiency to the table. This makes it a prime choice for Web3 + AI users seeking robust and scalable solutions": {
-    "message": "Cuckoo ChainはAIブロックチェーンの風景を一変させます。EthereumエコシステムのArbitrum L2として、効率的なAI開発者体験、高速性、効率性を提供します。これにより、堅牢でスケーラブルなソリューションを求めるWeb3 + AIユーザーに最適な選択肢となります。",
-    "description": "Page description for Cuckoo Chain homepage"
-  },
-  "Hero Illustration": {
-    "message": "ヒーローイラスト",
-    "description": "The alt text for the hero illustration"
-  },
-  "Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "クリエイターとビルダーのための分散型AIクリエイティブプラットフォーム",
-    "description": "Site tagline"
-  },
-  "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
-    "message": "Cuckoo Chainで驚異的なAIアートを作成し、GPUやCPUで生成AIアプリを強化しましょう。分かち合い、生成し、分散型AIの力を解き放ちましょう。",
-    "description": "Site description"
-  },
-  "Newsletter iframe": {
-    "message": "ニュースレター iframe",
-    "description": "The title for the newsletter iframe"
-  },
-  "It's time to join the thousands of creators, artists, and developers using Cuckoo Chain": {
-    "message": "Cuckoo Chainを使用している数千のクリエイター、アーティスト、開発者に参加する時が来ました",
-    "description": "CTA section main title"
-  },
-  "Explore Chain": {
-    "message": "チェーンを探索する",
-    "description": "Button label to explore the Cuckoo Chain"
-  },
-  "Read Docs": {
-    "message": "ドキュメントを読む",
-    "description": "Button label to read the Cuckoo Chain documentation"
-  },
-  "FAQs": {
-    "message": "よくある質問",
-    "description": "FAQs section title"
-  },
-  "What is Cuckoo Chain?": {
-    "message": "Cuckoo Chainとは何ですか？",
-    "description": "Question: What is Cuckoo Chain?"
-  },
-  "Cuckoo Chain is a blockchain platform designed specifically for AI applications, operating as an Arbitrum L2 within the Ethereum ecosystem. It offers a streamlined AI developer experience with enhanced speed and efficiency.": {
-    "message": "Cuckoo ChainはAIアプリケーション専用に設計されたブロックチェーンプラットフォームで、Ethereumエコシステム内でArbitrum L2として機能します。高速かつ効率的なAI開発者体験を提供します。",
-    "description": "Answer: What is Cuckoo Chain?"
-  },
-  "How does Cuckoo Chain integrate with the Ethereum ecosystem?": {
-    "message": "Cuckoo ChainはEthereumエコシステムとどのように統合されていますか？",
-    "description": "Question: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
-  },
-  "Cuckoo Chain functions as an Arbitrum Layer 2 solution, which means it inherits the security and decentralization of Ethereum while providing faster and cheaper transactions. This integration ensures seamless interoperability with the Ethereum network.": {
-    "message": "Cuckoo ChainはArbitrum Layer 2ソリューションとして機能し、Ethereumのセキュリティと分散化を受け継ぎながら、より高速で安価な取引を提供します。この統合により、Ethereumネットワークとのシームレスな相互運用性が確保されます。",
-    "description": "Answer: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
-  },
-  "What are the main benefits of using Cuckoo Chain for AI development?": {
-    "message": "Cuckoo ChainをAI開発に使用する主な利点は何ですか？",
-    "description": "Question: What are the main benefits of using Cuckoo Chain for AI development?"
-  },
-  "Cuckoo Chain offers unparalleled speed, efficiency, and scalability for AI development. It reduces transaction costs, accelerates processing times, and provides a robust infrastructure for deploying AI solutions on the blockchain.": {
-    "message": "Cuckoo Chainは、AI開発において比類のない速度、効率、スケーラビリティを提供します。取引コストを削減し、処理時間を短縮し、ブロックチェーン上でAIソリューションを展開するための堅牢なインフラを提供します。",
-    "description": "Answer: What are the main benefits of using Cuckoo Chain for AI development?"
-  },
-  "How can I get started with Cuckoo Chain?": {
-    "message": "Cuckoo Chainを始めるにはどうすればよいですか？",
-    "description": "Question: How can I get started with Cuckoo Chain?"
-  },
-  "Getting started with Cuckoo Chain is simple. Visit our {gettingStartedGuide} for step-by-step instructions on setting up your account,\n                  integrating your applications, and deploying your first AI\n                  models on the platform.": {
-    "message": "Cuckoo Chainの始め方は簡単です。アカウントの設定、アプリケーションの統合、およびプラットフォーム上での最初のAIモデルの展開に関するステップバイステップの手順については、{gettingStartedGuide}をご覧ください。",
-    "description": "Answer: How can I get started with Cuckoo Chain?"
-  },
-  "Getting Started Guide": {
-    "message": "スタートガイド",
-    "description": "Link text for Getting Started Guide"
-  },
-  "What are some real-world use cases for Cuckoo Chain?": {
-    "message": "Cuckoo Chainの実際のユースケースは何ですか？",
-    "description": "Question: What are some real-world use cases for Cuckoo Chain?"
-  },
-  "Cuckoo Chain can be used in various scenarios, including decentralized AI model inference, secure data sharing, and AI-powered decentralized applications (dApps). Our platform supports diverse industries such as finance, healthcare, and supply chain management.": {
-    "message": "Cuckoo Chainは、分散型AIモデルの推論、セキュアなデータ共有、AIによる分散型アプリケーション（dApps）など、さまざまなシナリオで使用できます。当プラットフォームは、金融、医療、サプライチェーン管理など、さまざまな業界をサポートしています。",
-    "description": "Answer: What are some real-world use cases for Cuckoo Chain?"
-  },
-  "Where can I find support and additional resources?": {
-    "message": "サポートや追加リソースはどこで見つけられますか？",
-    "description": "Question: Where can I find support and additional resources?"
-  },
-  "For support and additional resources, visit our {helpCenter} or join our community on {discord} and {telegram}. Our\n                  comprehensive documentation, tutorials, and active community\n                  are here to assist you with any questions or challenges you\n                  might encounter.": {
-    "message": "サポートや追加リソースについては、{helpCenter}をご覧いただくか、{discord}および{telegram}でコミュニティに参加してください。\n私たちの包括的なドキュメント、チュートリアル、そして活発なコミュニティが、\nあなたの疑問や課題に対応します。",
-    "description": "Answer: Where can I find support and additional resources?"
-  },
-  "Help Center": {
-    "message": "ヘルプセンター",
-    "description": "Link text for Help Center"
-  },
-  "Discord": {
-    "message": "ディスコード",
-    "description": "Link text for Discord"
-  },
-  "Telegram": {
-    "message": "テレグラム",
-    "description": "Link text for Telegram"
-  },
-  "Illustration": {
-    "message": "イラストレーション",
-    "description": "Illustration alt text"
-  },
-  "Many tools to decentralized AI with Cuckoo Chain": {
-    "message": "Cuckoo ChainでAIを分散化するための多くのツール",
-    "description": "Section header title"
-  },
-  "The best resources for building an end-to-end Cuckoo Chain dApp.": {
-    "message": "Cuckoo ChainのエンドツーエンドdAppを構築するための最高のリソース。",
-    "description": "Section header description"
-  },
-  "Icon 01": {
-    "message": "アイコン01",
-    "description": "Icon 01 alt text"
-  },
-  "Cuckoo Network Bridge": {
-    "message": "Cuckoo ネットワーク ブリッジ",
-    "description": "Cuckoo Network Bridge title"
-  },
-  "Transfer assets seamlessly across Arbitrum One and Cuckoo Chain with minimal fees and secure transactions.": {
-    "message": "Arbitrum OneとCuckoo Chain間で資産をシームレスに転送し、手数料を最小限に抑え、安全な取引を実現します。",
-    "description": "Cuckoo Network Bridge description"
-  },
-  "Learn More": {
-    "message": "詳細はこちら",
-    "description": "Home page hero section's news message's CTA"
-  },
-  "Icon 02": {
-    "message": "アイコン02",
-    "description": "Icon 02 alt text"
-  },
-  "Thirdweb": {
-    "message": "Thirdweb",
-    "description": "Thirdweb title"
-  },
-  "Full-stack, open-source web3 development platform. Fullstack tools to build complete web3 apps.": {
-    "message": "フルスタックのオープンソースweb3開発プラットフォーム。完全なweb3アプリを構築するためのフルスタックツール。",
-    "description": "Thirdweb description"
-  },
-  "Icon 03": {
-    "message": "アイコン03",
-    "description": "Icon 03 alt text"
-  },
-  "ChainList": {
-    "message": "チェーンリスト",
-    "description": "ChainList title"
-  },
-  "ChainList is a list of EVM networks. Users can use the info to connect their wallets and Web3 middleware providers.": {
-    "message": "ChainListはEVMネットワークのリストです。ユーザーはこの情報を使用して、ウォレットやWeb3ミドルウェアプロバイダーに接続できます。",
-    "description": "ChainList description"
-  },
-  "Icon 04": {
-    "message": "アイコン04",
-    "description": "Icon 04 alt text"
-  },
-  "Cuckoo Scan": {
-    "message": "Cuckooスキャン",
-    "description": "Cuckoo Scan title"
-  },
-  "Blockchain explorer to inspect Cuckoo Chain transactions, tokens, and coins. RESTful and GraphQL API available.": {
-    "message": "Cuckoo Chainのトランザクション、トークン、コインを検査するためのブロックチェーンエクスプローラー。RESTfulおよびGraphQL APIが利用可能です。",
-    "description": "Cuckoo Scan description"
-  },
-  "Previous": {
-    "message": "前へ",
-    "description": "Aria label for previous button"
-  },
-  "Next": {
-    "message": "次へ",
-    "description": "Aria label for next button"
-  },
-  "Transforming AI with Blockchain Technology": {
-    "message": "ブロックチェーン技術でAIを変革する",
-    "description": "Hero section main title"
-  },
-  "Cuckoo Chain, an Arbitrum L2 in the Ethereum ecosystem, revolutionizes AI development with unmatched speed, efficiency, and scalability. Perfect for Web3 + AI innovators.": {
-    "message": "Cuckoo Chainは、Ethereumエコシステム内のArbitrum L2として、比類のない速度、効率性、スケーラビリティでAI開発を革新します。Web3 + AIのイノベーターに最適です。",
-    "description": "Hero section description about Cuckoo Chain and its role in AI development"
-  },
-  "Pricing Illustration": {
-    "message": "価格のイラストレーション",
-    "description": "Alt text for the pricing section illustration"
-  },
-  "Fundamentally Aligned with Ethereum": {
-    "message": "根本的にEthereumと整合している",
-    "description": "Title for the pricing section"
-  },
-  "But optimized for performance and on-chain AI": {
-    "message": "ただし、パフォーマンスとオンチェーンAIに最適化されています",
-    "description": "Description for the pricing section"
-  },
-  "Monthly": {
-    "message": "月額",
-    "description": "Label for the monthly payment option"
-  },
-  "Pay annually": {
-    "message": "年払い",
-    "description": "Screen reader label for toggling to pay annually"
-  },
-  "Yearly": {
-    "message": "年額",
-    "description": "Label for the yearly payment option"
-  },
-  "Infra": {
-    "message": "インフラ",
-    "description": "Infra section label for mobile view"
-  },
-  "Max Theoretical TPS": {
-    "message": "最大理論TPS",
-    "description": "Label for maximum theoretical transactions per second in mobile view"
-  },
-  "Fastest Block Time": {
-    "message": "最速ブロックタイム",
-    "description": "Label for the fastest block time in mobile view"
-  },
-  "Governance Model": {
-    "message": "ガバナンスモデル",
-    "description": "Label for the governance model in mobile view"
-  },
-  "Features": {
-    "message": "機能",
-    "description": "Label for the features section in mobile view"
-  },
-  "Avg. Gas Price": {
-    "message": "平均ガス価格",
-    "description": "Label for the average gas price in mobile view"
-  },
-  "EVM Compatible": {
-    "message": "EVM互換性",
-    "description": "Label for EVM compatibility in mobile view"
-  },
-  "Decentralized Ledger": {
-    "message": "分散型元帳",
-    "description": "Label for decentralized ledger in mobile view"
-  },
-  "\"Cuckoo Chain revolutionized our AI development with unmatched speed and efficiency. It's a game-changer for any AI-driven blockchain enterprise.\"": {
-    "message": "\"Cuckoo Chainは比類のない速度と効率性で私たちのAI開発を革新しました。AI駆動型ブロックチェーン企業にとってのゲームチェンジャーです。\"",
-    "description": "First testimonial text"
-  },
-  "Aaliyah Baker": {
-    "message": "アリーヤ・ベイカー",
-    "description": "First testimonial author name"
-  },
-  "DApper OS": {
-    "message": "DApper OS",
-    "description": "First testimonial author company"
-  },
-  "\"Integrating Cuckoo Chain was seamless. The performance boost and compatibility with Ethereum are phenomenal.\"": {
-    "message": "\"Cuckoo Chainの統合はシームレスでした。パフォーマンスの向上とEthereumとの互換性は素晴らしいです。\"",
-    "description": "Second testimonial text"
-  },
-  "Sloan Seaman": {
-    "message": "スローン・シーマン",
-    "description": "Second testimonial author name"
-  },
-  "Coupang": {
-    "message": "クーパン",
-    "description": "Second testimonial author company"
-  },
-  "\"Cuckoo Chain empowered us to create fast, secure decentralized AI apps. The support team is invaluable.\"": {
-    "message": "\"Cuckoo Chainは、私たちが迅速で安全な分散型AIアプリを作成する力を与えてくれました。サポートチームは非常に貴重です。\"",
-    "description": "Third testimonial text"
-  },
-  "Christine Dejoux": {
-    "message": "クリスティン・デジュ",
-    "description": "Third testimonial author name"
-  },
-  "Glocomms": {
-    "message": "グロコムズ",
-    "description": "Third testimonial author company"
-  },
-  "Experience Decentralized AI Model-Serving": {
-    "message": "分散型AIモデル提供を体験する",
-    "description": "Section header title"
-  },
-  "Generate image now with Cuckoo Bot": {
-    "message": "今すぐCuckoo Botで画像を生成",
-    "description": "CTA for generating an image with Cuckoo Bot"
-  },
-  "Join Discord": {
-    "message": "ディスコードに参加",
-    "description": "CTA to join Discord"
-  },
-  "Experience Decentralized AI Now": {
-    "message": "今すぐ分散型AIを体験する",
-    "description": "Section header title"
-  },
-  "For AI Enthusiasts": {
-    "message": "AI愛好者向け",
-    "description": "Button label for AI Enthusiasts"
-  },
-  "For Developers": {
-    "message": "開発者向け",
-    "description": "Button label for Developers"
-  },
-  "For Miners": {
-    "message": "マイナー向け",
-    "description": "Button label for Miners"
-  },
-  "For Token Holders": {
-    "message": "トークン所有者向け",
-    "description": "Button label for Token Holders"
-  },
-  "Cuckoo Telegram": {
-    "message": "Cuckooテレグラム",
-    "description": "Telegram Box Title"
-  },
-  "A telegram bot for texting to image and manage your CAI tokens.": {
-    "message": "CAIトークンを管理し、画像に変換するためのテキストを処理するテレグラムボット。",
-    "description": "Telegram Box Description"
-  },
-  "Cuckoo Discord": {
-    "message": "Cuckooディスコード",
-    "description": "Discord Box Title"
-  },
-  "A discord bot for texting to image and manage your CAI tokens.": {
-    "message": "CAIトークンを管理し、画像に変換するためのテキストを処理するディスコードボット。",
-    "description": "Discord Box Description"
-  },
-  "Neon Medium": {
-    "message": "ネオンミディアム",
-    "description": "Medium Box Title"
-  },
-  "BlockEden.xyz": {
-    "message": "BlockEden.xyz",
-    "description": "BlockEden Box Title"
-  },
-  "RPC node, API marketplace, and staking infrastructure.": {
-    "message": "RPCノード、APIマーケットプレイス、ステーキングインフラ。",
-    "description": "BlockEden Box Description"
-  },
-  "Cuckoo Art": {
-    "message": "Cuckooアート",
-    "description": "Cuckoo Art Box Title"
-  },
-  "Discover AI arts created in our network.": {
-    "message": "私たちのネットワークで作成されたAIアートを発見してください。",
-    "description": "Cuckoo Art Box Description"
-  },
-  "Karma Protocol": {
-    "message": "カルマプロトコル",
-    "description": "Karma Protocol Box Title"
-  },
-  "A revolutionary prediction market, driven by Community.": {
-    "message": "コミュニティ主導の革新的な予測市場。",
-    "description": "Karma Protocol Box Description"
-  },
-  "Cuckoo Github": {
-    "message": "Cuckoo Github",
-    "description": "Cuckoo Github Box Title"
-  },
-  "Fork us on Github for open-sourced decentralized AI platform.": {
-    "message": "オープンソースの分散型AIプラットフォームのために、GitHubでフォークしてください。",
-    "description": "Cuckoo Github Box Description"
-  },
-  "Cuckoo Node": {
-    "message": "Cuckooノード",
-    "description": "Cuckoo Node Box Title"
-  },
-  "Node for mining tokens, distributed with Docker images.": {
-    "message": "Dockerイメージで配布されるトークンをマイニングするためのノード。",
-    "description": "Cuckoo Node Box Description"
-  },
-  "Staking Portal": {
-    "message": "ステーキングポータル",
-    "description": "Staking Portal Box Title"
-  },
-  "Stake your token to vote for Node operators you trust": {
-    "message": "信頼できるノードオペレーターに投票するためにトークンをステークする",
-    "description": "Staking Portal Box Description"
-  },
-  "Introducing Cuckoo Network Airdrop Portal": {
-    "message": "Cuckoo Network エアドロップポータルの紹介",
-    "description": "Home page hero section's news message"
-  },
-  "Create AI Art": {
-    "message": "AIアートを作成",
-    "description": "homepage's hero section's main action CTA"
-  },
-  "Explore": {
-    "message": "探索する",
-    "description": "homepage's hero section's secondary action CTA"
-  },
-  "Earn": {
-    "message": "稼ぐ",
-    "description": "homepage's hero section's secondary action CTA"
-  },
-  "Refreshing news from the community": {
-    "message": "コミュニティからの新鮮なニュース",
-    "description": "Title for the news section"
-  },
-  "Read more": {
-    "message": "もっと読む",
-    "description": "Read more link text"
-  },
-  "How does it work?": {
-    "message": "どのように機能しますか？",
-    "description": "Section header title"
-  },
-  "Cuckoo incentivizes GPU miners to serve AI models to generative App builders. We started with decentralized image generation but aim to expand our platform to support various AI models.": {
-    "message": "Cuckooは、GPUマイナーに対して生成アプリ開発者にAIモデルを提供するインセンティブを提供します。私たちは分散型の画像生成から始めましたが、さまざまなAIモデルをサポートするためにプラットフォームを拡張することを目指しています。",
-    "description": "Section header description"
-  },
-  "Establish Trust": {
-    "message": "信頼を確立する",
-    "description": "Trust step title"
-  },
-  "GPU miners, developers, and stakers {stakingLink} with blockchain smart contracts to establish trust.": {
-    "message": "GPUマイナー、開発者、ステーカーは、ブロックチェーンスマートコントラクトを使用して信頼を確立します。",
-    "description": "Trust step description"
-  },
-  "stake and vote": {
-    "message": "ステークして投票する",
-    "description": "Link text"
-  },
-  "Mine and Earn": {
-    "message": "マイニングして稼ぐ",
-    "description": "Tasks & Rewards step title"
-  },
-  "Gen AI Apps assign tasks to GPU miners via the Cuckoo AI node, with daily ERC20 payments based on results.": {
-    "message": "生成AIアプリは、Cuckoo AIノードを介してGPUマイナーにタスクを割り当て、結果に基づいてERC20で日々支払います。",
-    "description": "Tasks & Rewards step description"
-  },
-  "Modular AI": {
-    "message": "モジュラーAI",
-    "description": "Modular Support step title"
-  },
-  "Our modular components ensure that AI remains accessible, transparent, anti-censorship, and privacy-preserving.": {
-    "message": "私たちのモジュラーコンポーネントは、AIがアクセス可能で透明性があり、検閲に対抗し、プライバシーを保護することを保証します。",
-    "description": "Modular Support step description"
-  },
-  "From AI builders to consumers, we got you covered.": {
-    "message": "AI開発者から消費者まで、私たちがサポートします。",
-    "description": "section title for target customers"
-  },
-  "Features 02": {
-    "message": "特徴02",
-    "description": "Alt text for the image"
-  },
-  "Get rewarded by contributing to Gen AI": {
-    "message": "生成AIに貢献して報酬を得る",
-    "description": "CTA for contributing to Gen AI"
-  },
-  "For AI Consumers": {
-    "message": "AI消費者向け",
-    "description": "CTA for AI Consumers"
-  },
-  "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.": {
-    "message": "エコシステムに貢献するか、Cuckoo Payを使用して、さまざまなAIアプリに無料でアクセスできます。一つのアプリがブロックされた場合でも、分散型ネットワーク内で別のコーディネーターにシームレスに切り替えることができます。",
-    "description": "Description for AI Consumers"
-  },
-  "For App Builders/Coordinators": {
-    "message": "アプリ開発者/コーディネーター向け",
-    "description": "CTA for App Builders/Coordinators"
-  },
-  "Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.": {
-    "message": "コーディネーターノードを運営し、ネットワークに参加してステーキング報酬を得ましょう。GPUコストを削減し、顧客基盤を拡大し、GPUマイナーにタスクを割り当て、結果を検証し、支払いを分配します。",
-    "description": "Description for App Builders/Coordinators"
-  },
-  "For GPU Miners": {
-    "message": "GPUマイナー向け",
-    "description": "CTA for GPU Miners"
-  },
-  "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.": {
-    "message": "マイナーノードを運営し、ネットワークに参加してステーキング報酬を得ましょう。GPUリソースを共有し、割り当てられたタスクを完了し、信頼性の高いサービスを維持してトークンを獲得しましょう。",
-    "description": "Description for GPU Miners"
-  },
   "theme.ErrorPageContent.title": {
-    "message": "エラーが発生しました",
-    "description": "The title of the fallback page when the page crashed"
-  },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "先頭へ戻る",
-    "description": "The ARIA label for the back to top button"
+    "message": "このページはクラッシュしました。",
+    "description": "ページがクラッシュしたときのフォールバックページのタイトル"
   },
   "theme.blog.archive.title": {
     "message": "アーカイブ",
-    "description": "The page & hero title of the blog archive page"
+    "description": "ブログアーカイブページのページおよびヒーロータイトル"
   },
   "theme.blog.archive.description": {
     "message": "アーカイブ",
-    "description": "The page & hero description of the blog archive page"
+    "description": "ブログアーカイブページのページおよびヒーローの説明"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "トップに戻る",
+    "description": "トップに戻るボタンのARIAラベル"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "ブログ記事一覧のナビゲーション",
-    "description": "The ARIA label for the blog pagination"
+    "message": "ブログリストページのナビゲーション",
+    "description": "ブログのページネーションのARIAラベル"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "新しい記事",
-    "description": "The label used to navigate to the newer blog posts page (previous page)"
+    "message": "新しいエントリー",
+    "description": "新しいブログ投稿ページ（前のページ）に移動するために使用されるラベル"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "過去の記事",
-    "description": "The label used to navigate to the older blog posts page (next page)"
+    "message": "古いエントリー",
+    "description": "古いブログ投稿ページ（次のページ）に移動するために使用されるラベル"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "ブログ記事のナビゲーション",
-    "description": "The ARIA label for the blog posts pagination"
+    "message": "ブログ投稿ページのナビゲーション",
+    "description": "ブログ投稿のページネーションのARIAラベル"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "新しい記事",
-    "description": "The blog post button label to navigate to the newer/previous post"
+    "message": "新しい投稿",
+    "description": "新しい/前の投稿に移動するためのブログ投稿ボタンラベル"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "過去の記事",
-    "description": "The blog post button label to navigate to the older/next post"
+    "message": "古い投稿",
+    "description": "古い/次の投稿に移動するためのブログ投稿ボタンラベル"
   },
   "theme.blog.post.plurals": {
-    "message": "{count}件",
-    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "message": "1 投稿|{count} 投稿",
+    "description": "\"{count} 投稿\"のための複数形ラベル。あなたの言語がサポートする限り、複数形の形式を使用してください（https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.htmlを参照）"
   },
   "theme.blog.tagTitle": {
-    "message": "「{tagName}」タグの記事が{nPosts}件あります",
-    "description": "The title of the page for a blog tag"
+    "message": "\"{tagName}\"でタグ付けされた{nPosts}",
+    "description": "ブログタグのページタイトル"
   },
   "theme.tags.tagsPageLink": {
-    "message": "全てのタグを見る",
-    "description": "The label of the link targeting the tag list page"
+    "message": "すべてのタグを見る",
+    "description": "タグリストページを対象としたリンクのラベル"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "ダークモードを切り替える(現在は{mode})",
-    "description": "The ARIA label for the navbar color mode toggle"
+    "message": "ダークモードとライトモードを切り替え（現在のモードは{mode}）",
+    "description": "ナビゲーションバーのカラーモード切り替えのARIAラベル"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
     "message": "ダークモード",
-    "description": "The name for the dark color mode"
+    "description": "ダークカラーモードの名前"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
     "message": "ライトモード",
-    "description": "The name for the light color mode"
+    "description": "ライトカラーモードの名前"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "パンくずリストのナビゲーション",
-    "description": "The ARIA label for the breadcrumbs"
+    "message": "パンくずリスト",
+    "description": "パンくずリストのARIAラベル"
   },
   "theme.docs.DocCard.categoryDescription": {
-    "message": "{count}項目",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
+    "message": "{count} アイテム",
+    "description": "このカテゴリに含まれるアイテム数に関する生成されたインデックスのカテゴリカードのデフォルト説明"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "ドキュメントページ",
-    "description": "The ARIA label for the docs pagination"
+    "description": "ドキュメントのページネーションのARIAラベル"
   },
   "theme.docs.paginator.previous": {
-    "message": "前へ",
-    "description": "The label used to navigate to the previous doc"
+    "message": "前",
+    "description": "前のドキュメントに移動するために使用されるラベル"
   },
   "theme.docs.paginator.next": {
-    "message": "次へ",
-    "description": "The label used to navigate to the next doc"
-  },
-  "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "{count}記事",
-    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.docs.tagDocListPageTitle": {
-    "message": "「{tagName}」タグのついた{nDocsTagged}",
-    "description": "The title of the page for a docs tag"
+    "message": "次",
+    "description": "次のドキュメントに移動するために使用されるラベル"
   },
   "theme.docs.versionBadge.label": {
     "message": "バージョン: {versionLabel}"
   },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "1 ドキュメントにタグ付け|{count} ドキュメントにタグ付け",
+    "description": "\"{count} ドキュメントにタグ付け\"のための複数形ラベル。あなたの言語がサポートする限り、複数形の形式を使用してください（https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.htmlを参照）"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "\"{tagName}\"での{nDocsTagged}",
+    "description": "ドキュメントタグのページタイトル"
+  },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "これはリリース前のバージョン{versionLabel}の{siteTitle}のドキュメントです。",
-    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+    "message": "これは{siteTitle} {versionLabel}バージョンの未公開ドキュメントです。",
+    "description": "ユーザーに未公開のドキュメントバージョンを閲覧していることを伝えるために使用されるラベル"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "これはバージョン{versionLabel}の{siteTitle}のドキュメントで現在はメンテナンスされていません",
-    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+    "message": "これは{siteTitle} {versionLabel}のドキュメントで、もはや積極的にメンテナンスされていません。",
+    "description": "ユーザーに未メンテナンスのドキュメントバージョンを閲覧していることを伝えるために使用されるラベル"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "最新のドキュメントは{latestVersionLink} ({versionLabel}) を見てください",
-    "description": "The label used to tell the user to check the latest version"
+    "message": "最新のドキュメントについては、{latestVersionLink}（{versionLabel}）を参照してください。",
+    "description": "ユーザーに最新バージョンを確認するように伝えるために使用されるラベル"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "最新バージョン",
-    "description": "The label used for the latest version suggestion link label"
+    "description": "最新バージョンの提案リンクラベルに使用されるラベル"
   },
   "theme.common.editThisPage": {
     "message": "このページを編集",
-    "description": "The link label to edit the current page"
+    "description": "現在のページを編集するためのリンクラベル"
   },
   "theme.common.headingLinkTitle": {
-    "message": "{heading} への直接リンク",
-    "description": "Title for link to heading"
+    "message": "{heading}への直接リンク",
+    "description": "見出しへのリンクのタイトル"
   },
   "theme.lastUpdated.atDate": {
     "message": "{date}に",
-    "description": "The words used to describe on which date a page has been last updated"
+    "description": "ページが最後に更新された日付を説明するために使用される言葉"
   },
   "theme.lastUpdated.byUser": {
-    "message": "{user}が",
-    "description": "The words used to describe by who the page has been last updated"
+    "message": "{user}によって",
+    "description": "ページが最後に更新された人を説明するために使用される言葉"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
-    "message": "{atDate}{byUser}最終更新",
-    "description": "The sentence used to display when a page has been last updated, and by who"
-  },
-  "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "他のバージョン",
-    "description": "The label for the navbar versions dropdown on mobile view"
+    "message": "最終更新{atDate}{byUser}",
+    "description": "ページが最後に更新された日時と更新者を表示するために使用される文"
   },
   "theme.NotFound.title": {
     "message": "ページが見つかりません",
-    "description": "The title of the 404 page"
+    "description": "404ページのタイトル"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "バージョン",
+    "description": "モバイルビューのナビゲーションバーのバージョンドロップダウンのラベル"
   },
   "theme.tags.tagsListLabel": {
     "message": "タグ:",
-    "description": "The label alongside a tag list"
-  },
-  "theme.admonition.caution": {
-    "message": "注意",
-    "description": "The default label used for the Caution admonition (:::caution)"
-  },
-  "theme.admonition.danger": {
-    "message": "危険",
-    "description": "The default label used for the Danger admonition (:::danger)"
-  },
-  "theme.admonition.info": {
-    "message": "備考",
-    "description": "The default label used for the Info admonition (:::info)"
-  },
-  "theme.admonition.note": {
-    "message": "注記",
-    "description": "The default label used for the Note admonition (:::note)"
-  },
-  "theme.admonition.tip": {
-    "message": "ヒント",
-    "description": "The default label used for the Tip admonition (:::tip)"
-  },
-  "theme.admonition.warning": {
-    "message": "警告",
-    "description": "The default label used for the Warning admonition (:::warning)"
+    "description": "タグリストに付随するラベル"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
     "message": "閉じる",
-    "description": "The ARIA label for close button of announcement bar"
+    "description": "アナウンスバーの閉じるボタンのARIAラベル"
+  },
+  "theme.admonition.caution": {
+    "message": "注意",
+    "description": "注意の警告に使用されるデフォルトラベル（:::caution）"
+  },
+  "theme.admonition.danger": {
+    "message": "危険",
+    "description": "危険の警告に使用されるデフォルトラベル（:::danger）"
+  },
+  "theme.admonition.info": {
+    "message": "情報",
+    "description": "情報の警告に使用されるデフォルトラベル（:::info）"
+  },
+  "theme.admonition.note": {
+    "message": "ノート",
+    "description": "ノートの警告に使用されるデフォルトラベル（:::note）"
+  },
+  "theme.admonition.tip": {
+    "message": "ヒント",
+    "description": "ヒントの警告に使用されるデフォルトラベル（:::tip）"
+  },
+  "theme.admonition.warning": {
+    "message": "警告",
+    "description": "警告の警告に使用されるデフォルトラベル（:::warning）"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "最近のブログ記事のナビゲーション",
-    "description": "The ARIA label for recent posts in the blog sidebar"
+    "message": "ブログ最近の投稿ナビゲーション",
+    "description": "ブログサイドバーの最近の投稿のARIAラベル"
   },
   "theme.CodeBlock.copied": {
     "message": "コピーしました",
-    "description": "The copied button label on code blocks"
+    "description": "コードブロックのコピーされたボタンラベル"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "クリップボードにコードをコピー",
-    "description": "The ARIA label for copy code blocks button"
+    "message": "コードをクリップボードにコピー",
+    "description": "コードブロックのコピーコードボタンのARIAラベル"
   },
   "theme.CodeBlock.copy": {
     "message": "コピー",
-    "description": "The copy button label on code blocks"
+    "description": "コードブロックのコピーされたボタンラベル"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "折り返し",
-    "description": "The title attribute for toggle word wrapping button of code block lines"
+    "message": "ワードラップを切り替える",
+    "description": "コードブロックの行のワードラッピングボタンのタイトル属性"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Expand sidebar category '{label}'",
-    "description": "The ARIA label to expand the sidebar category"
+    "message": "サイドバーカテゴリ '{label}' を展開",
+    "description": "サイドバーカテゴリを展開するためのARIAラベル"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Collapse sidebar category '{label}'",
-    "description": "The ARIA label to collapse the sidebar category"
-  },
-  "theme.NavBar.navAriaLabel": {
-    "message": "メインナビゲーション",
-    "description": "The ARIA label for the main navigation"
-  },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "他の言語",
-    "description": "The label for the mobile language switcher dropdown"
+    "message": "サイドバーカテゴリ '{label}' を折りたたむ",
+    "description": "サイドバーカテゴリを折りたたむためのARIAラベル"
   },
   "theme.NotFound.p1": {
-    "message": "お探しのページが見つかりませんでした",
-    "description": "The first paragraph of the 404 page"
+    "message": "お探しのものが見つかりませんでした。",
+    "description": "404ページの最初の段落"
   },
   "theme.NotFound.p2": {
-    "message": "このページにリンクしているサイトの所有者にリンクが壊れていることを伝えてください",
-    "description": "The 2nd paragraph of the 404 page"
+    "message": "元のURLにリンクしているサイトの所有者に連絡し、リンクが壊れていることを知らせてください。",
+    "description": "404ページの2番目の段落"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "メイン",
+    "description": "メインナビゲーションのARIAラベル"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "言語",
+    "description": "モバイル言語スイッチャードロップダウンのラベル"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "このページの見出し",
-    "description": "The label used by the button on the collapsible TOC component"
+    "message": "このページで",
+    "description": "折りたたみ可能なTOCコンポーネントのボタンに使用されるラベル"
   },
   "theme.blog.post.readMore": {
-    "message": "もっと見る",
-    "description": "The label used in blog post item excerpts to link to full blog posts"
+    "message": "続きを読む",
+    "description": "ブログ投稿アイテムの抜粋でフルブログ投稿へのリンクに使用されるラベル"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "{title}についてもっと見る",
-    "description": "The ARIA label for the link to full blog posts from excerpts"
+    "message": "{title}についてもっと読む",
+    "description": "抜粋からフルブログ投稿へのリンクのARIAラベル"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "約{readingTime}分",
-    "description": "Pluralized label for \"{readingTime} min read\"."
+    "message": "1 分読了|{readingTime} 分読了",
+    "description": "\"{readingTime} 分読了\"のための複数形ラベル。あなたの言語がサポートする限り、複数形の形式を使用してください（https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.htmlを参照）"
   },
   "theme.docs.breadcrumbs.home": {
     "message": "ホームページ",
-    "description": "The ARIA label for the home page in the breadcrumbs"
+    "description": "パンくずリストのホームページのARIAラベル"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "サイドバーを隠す",
-    "description": "The title attribute for collapse button of doc sidebar"
+    "message": "サイドバーを折りたたむ",
+    "description": "ドキュメントサイドバーの折りたたみボタンのタイトル属性"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "サイドバーを隠す",
-    "description": "The title attribute for collapse button of doc sidebar"
+    "message": "サイドバーを折りたたむ",
+    "description": "ドキュメントサイドバーの折りたたみボタンのARIAラベル"
   },
   "theme.docs.sidebar.navAriaLabel": {
     "message": "ドキュメントサイドバー",
-    "description": "The ARIA label for the sidebar navigation"
+    "description": "サイドバーナビゲーションのARIAラベル"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "ナビゲーションバーを閉じる",
-    "description": "The ARIA label for close button of mobile sidebar"
+    "description": "モバイルサイドバーの閉じるボタンのARIAラベル"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
     "message": "← メインメニューに戻る",
-    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+    "description": "モバイルナビゲーションバーサイドバーのセカンダリーメニュー内でメインメニューに戻るためのボタンのラベル（特にドキュメントサイドバーを表示するために使用される）"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "ナビゲーションバーの切り替え",
-    "description": "The ARIA label for hamburger menu button of mobile navigation"
+    "message": "ナビゲーションバーを切り替える",
+    "description": "モバイルナビゲーションのハンバーガーメニューボタンのARIAラベル"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "サイドバーを開く",
-    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+    "message": "サイドバーを展開",
+    "description": "ドキュメントサイドバーの展開ボタンのARIAラベルとタイトル属性"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "サイドバーを開く",
-    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+    "message": "サイドバーを展開",
+    "description": "ドキュメントサイドバーの展開ボタンのARIAラベルとタイトル属性"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "もう一度試してください",
-    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+    "message": "もう一度試す",
+    "description": "Reactエラーバウンダリがエラーをキャッチしたときに再レンダリングを試みるボタンのラベル"
   },
   "theme.common.skipToMainContent": {
-    "message": "メインコンテンツまでスキップ",
-    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+    "message": "メインコンテンツにスキップ",
+    "description": "アクセシビリティのために使用されるコンテンツスキップラベルで、キーボードのタブ/エンターでメインコンテンツに迅速に移動できるようにする"
   },
   "theme.tags.tagsPageTitle": {
     "message": "タグ",
-    "description": "The title of the tag list page"
+    "description": "タグリストページのタイトル"
   },
   "theme.unlistedContent.title": {
-    "message": "未掲載ページ",
-    "description": "The unlisted content banner title"
+    "message": "非公開ページ",
+    "description": "非公開コンテンツバナーのタイトル"
   },
   "theme.unlistedContent.message": {
-    "message": "このページは未掲載です。検索エンジンはインデックスしません。直接リンクを持つユーザーのみがアクセスできます。",
-    "description": "The unlisted content banner message"
+    "message": "このページは非公開です。検索エンジンはインデックスしません。直接リンクを持つユーザーのみがアクセスできます。",
+    "description": "非公開コンテンツバナーのメッセージ"
+  },
+  "Cuckoo Chain: Decentralized AI Blockchain": {
+    "message": "Cuckoo Chain: 分散型AIブロックチェーン",
+    "description": "Cuckoo Chainホームページのページタイトル"
+  },
+  "Cuckoo Chain is set to transform the AI blockchain landscape. As an Arbitrum L2 in the Ethereum ecosystem, it brings streamlined AI developer experience, fast speed and efficiency to the table. This makes it a prime choice for Web3 + AI users seeking robust and scalable solutions": {
+    "message": "Cuckoo ChainはAIブロックチェーンの風景を変革する準備が整っています。Ethereumエコシステム内のArbitrum L2として、効率的なAI開発者体験、高速な速度と効率を提供します。これは、堅牢でスケーラブルなソリューションを求めるWeb3 + AIユーザーにとって最適な選択です。",
+    "description": "Cuckoo Chainホームページのページ説明"
+  },
+  "Hero Illustration": {
+    "message": "ヒーローイラスト",
+    "description": "ヒーローイラストの代替テキスト"
+  },
+  "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders": {
+    "message": "Cuckoo AI 分散型AIクリエイティブプラットフォーム for Creators & Builders",
+    "description": "サイトのタグライン"
+  },
+  "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
+    "message": "Cuckoo ChainでGPUまたはCPUを使用して驚くべきAIアートを作成し、Gen AIアプリを活用します。分散型AIの力を共有、生成、解放します。",
+    "description": "サイトの説明"
+  },
+  "Newsletter iframe": {
+    "message": "ニュースレターiframe",
+    "description": "ニュースレターiframeのタイトル"
+  },
+  "It's time to join the thousands of creators, artists, and developers using Cuckoo Chain": {
+    "message": "Cuckoo Chainを使用している何千人ものクリエイター、アーティスト、開発者に参加する時です。",
+    "description": "CTAセクションのメインタイトル"
+  },
+  "Explore Chain": {
+    "message": "チェーンを探る",
+    "description": "Cuckoo Chainを探るためのボタンラベル"
+  },
+  "Read Docs": {
+    "message": "ドキュメントを読む",
+    "description": "Cuckoo Chainのドキュメントを読むためのボタンラベル"
+  },
+  "FAQs": {
+    "message": "よくある質問",
+    "description": "FAQsセクションのタイトル"
+  },
+  "What is Cuckoo Chain?": {
+    "message": "Cuckoo Chainとは何ですか？",
+    "description": "質問: Cuckoo Chainとは何ですか？"
+  },
+  "Cuckoo Chain is a blockchain platform designed specifically for AI applications, operating as an Arbitrum L2 within the Ethereum ecosystem. It offers a streamlined AI developer experience with enhanced speed and efficiency.": {
+    "message": "Cuckoo ChainはAIアプリケーション専用に設計されたブロックチェーンプラットフォームで、Ethereumエコシステム内のArbitrum L2として機能します。効率的なAI開発者体験を提供し、高速で効率的です。",
+    "description": "回答: Cuckoo Chainとは何ですか？"
+  },
+  "How does Cuckoo Chain integrate with the Ethereum ecosystem?": {
+    "message": "Cuckoo ChainはEthereumエコシステムとどのように統合されていますか？",
+    "description": "質問: Cuckoo ChainはEthereumエコシステムとどのように統合されていますか？"
+  },
+  "Cuckoo Chain functions as an Arbitrum Layer 2 solution, which means it inherits the security and decentralization of Ethereum while providing faster and cheaper transactions. This integration ensures seamless interoperability with the Ethereum network.": {
+    "message": "Cuckoo ChainはArbitrum Layer 2ソリューションとして機能し、Ethereumのセキュリティと分散化を引き継ぎながら、より迅速で安価なトランザクションを提供します。この統合により、Ethereumネットワークとのシームレスな相互運用性が確保されます。",
+    "description": "回答: Cuckoo ChainはEthereumエコシステムとどのように統合されていますか？"
+  },
+  "What are the main benefits of using Cuckoo Chain for AI development?": {
+    "message": "Cuckoo ChainをAI開発に使用する主な利点は何ですか？",
+    "description": "質問: Cuckoo ChainをAI開発に使用する主な利点は何ですか？"
+  },
+  "Cuckoo Chain offers unparalleled speed, efficiency, and scalability for AI development. It reduces transaction costs, accelerates processing times, and provides a robust infrastructure for deploying AI solutions on the blockchain.": {
+    "message": "Cuckoo ChainはAI開発において比類のない速度、効率、スケーラビリティを提供します。トランザクションコストを削減し、処理時間を短縮し、ブロックチェーン上でAIソリューションを展開するための堅牢なインフラを提供します。",
+    "description": "回答: Cuckoo ChainをAI開発に使用する主な利点は何ですか？"
+  },
+  "How can I get started with Cuckoo Chain?": {
+    "message": "Cuckoo Chainを始めるにはどうすればよいですか？",
+    "description": "質問: Cuckoo Chainを始めるにはどうすればよいですか？"
+  },
+  "Getting started with Cuckoo Chain is simple. Visit our {gettingStartedGuide} for step-by-step instructions on setting up your account,\n                  integrating your applications, and deploying your first AI\n                  models on the platform.": {
+    "message": "Cuckoo Chainを始めるのは簡単です。アカウントの設定、アプリケーションの統合、プラットフォーム上での最初のAIモデルの展開に関するステップバイステップの指示については、{gettingStartedGuide}をご覧ください。",
+    "description": "回答: Cuckoo Chainを始めるにはどうすればよいですか？"
+  },
+  "Getting Started Guide": {
+    "message": "はじめにガイド",
+    "description": "はじめにガイドのリンクテキスト"
+  },
+  "What are some real-world use cases for Cuckoo Chain?": {
+    "message": "Cuckoo Chainの実際のユースケースは何ですか？",
+    "description": "質問: Cuckoo Chainの実際のユースケースは何ですか？"
+  },
+  "Cuckoo Chain can be used in various scenarios, including decentralized AI model inference, secure data sharing, and AI-powered decentralized applications (dApps). Our platform supports diverse industries such as finance, healthcare, and supply chain management.": {
+    "message": "Cuckoo Chainは、分散型AIモデル推論、安全なデータ共有、AI駆動の分散型アプリケーション（dApps）など、さまざまなシナリオで使用できます。当社のプラットフォームは、金融、ヘルスケア、サプライチェーン管理などの多様な業界をサポートしています。",
+    "description": "回答: Cuckoo Chainの実際のユースケースは何ですか？"
+  },
+  "Where can I find support and additional resources?": {
+    "message": "どこでサポートや追加リソースを見つけることができますか？",
+    "description": "質問: どこでサポートや追加リソースを見つけることができますか？"
+  },
+  "For support and additional resources, visit our {helpCenter} or join our community on {discord} and {telegram}. Our\n                  comprehensive documentation, tutorials, and active community\n                  are here to assist you with any questions or challenges you\n                  might encounter.": {
+    "message": "サポートや追加リソースについては、{helpCenter}をご覧いただくか、{discord}や{telegram}でコミュニティに参加してください。包括的なドキュメント、チュートリアル、活発なコミュニティが、あなたが直面する可能性のある質問や課題をサポートします。",
+    "description": "回答: どこでサポートや追加リソースを見つけることができますか？"
+  },
+  "Help Center": {
+    "message": "ヘルプセンター",
+    "description": "ヘルプセンターのリンクテキスト"
+  },
+  "Discord": {
+    "message": "ディスコード",
+    "description": "ディスコードのリンクテキスト"
+  },
+  "Telegram": {
+    "message": "テレグラム",
+    "description": "テレグラムのリンクテキスト"
+  },
+  "Illustration": {
+    "message": "イラスト",
+    "description": "イラストの代替テキスト"
+  },
+  "Many tools to decentralized AI with Cuckoo Chain": {
+    "message": "Cuckoo Chainでの分散型AIのための多くのツール",
+    "description": "セクションヘッダーのタイトル"
+  },
+  "The best resources for building an end-to-end Cuckoo Chain dApp.": {
+    "message": "エンドツーエンドのCuckoo Chain dAppを構築するための最高のリソース。",
+    "description": "セクションヘッダーの説明"
+  },
+  "Icon 01": {
+    "message": "アイコン 01",
+    "description": "アイコン 01の代替テキスト"
+  },
+  "Cuckoo Network Bridge": {
+    "message": "Cuckooネットワークブリッジ",
+    "description": "Cuckooネットワークブリッジのタイトル"
+  },
+  "Transfer assets seamlessly across Arbitrum One and Cuckoo Chain with minimal fees and secure transactions.": {
+    "message": "Arbitrum OneとCuckoo Chain間で、最小限の手数料と安全なトランザクションで資産をシームレスに移転します。",
+    "description": "Cuckooネットワークブリッジの説明"
+  },
+  "Learn More": {
+    "message": "もっと学ぶ",
+    "description": "Cuckoo Scanについてもっと学ぶためのリンクテキスト"
+  },
+  "Icon 02": {
+    "message": "アイコン 02",
+    "description": "アイコン 02の代替テキスト"
+  },
+  "Thirdweb": {
+    "message": "サードウェブ",
+    "description": "サードウェブのタイトル"
+  },
+  "Full-stack, open-source web3 development platform. Fullstack tools to build complete web3 apps.": {
+    "message": "フルスタックのオープンソースWeb3開発プラットフォーム。完全なWeb3アプリを構築するためのフルスタックツール。",
+    "description": "サードウェブの説明"
+  },
+  "Icon 03": {
+    "message": "アイコン 03",
+    "description": "アイコン 03の代替テキスト"
+  },
+  "ChainList": {
+    "message": "チェーンリスト",
+    "description": "チェーンリストのタイトル"
+  },
+  "ChainList is a list of EVM networks. Users can use the info to connect their wallets and Web3 middleware providers.": {
+    "message": "ChainListはEVMネットワークのリストです。ユーザーはこの情報を使用して、ウォレットやWeb3ミドルウェアプロバイダーに接続できます。",
+    "description": "チェーンリストの説明"
+  },
+  "Icon 04": {
+    "message": "アイコン 04",
+    "description": "アイコン 04の代替テキスト"
+  },
+  "Cuckoo Scan": {
+    "message": "Cuckooスキャン",
+    "description": "Cuckooスキャンのタイトル"
+  },
+  "Blockchain explorer to inspect Cuckoo Chain transactions, tokens, and coins. RESTful and GraphQL API available.": {
+    "message": "Cuckoo Chainのトランザクション、トークン、コインを検査するためのブロックチェーンエクスプローラー。RESTfulおよびGraphQL APIが利用可能です。",
+    "description": "Cuckooスキャンの説明"
+  },
+  "Previous": {
+    "message": "前",
+    "description": "前のボタンのARIAラベル"
+  },
+  "Next": {
+    "message": "次",
+    "description": "次のボタンのARIAラベル"
+  },
+  "Transforming AI with Blockchain Technology": {
+    "message": "ブロックチェーン技術でAIを変革する",
+    "description": "ヒーローセクションのメインタイトル"
+  },
+  "Cuckoo Chain, an Arbitrum L2 in the Ethereum ecosystem, revolutionizes AI development with unmatched speed, efficiency, and scalability. Perfect for Web3 + AI innovators.": {
+    "message": "Cuckoo ChainはEthereumエコシステム内のArbitrum L2で、比類のない速度、効率、スケーラビリティでAI開発を革命化します。Web3 + AIの革新者に最適です。",
+    "description": "Cuckoo ChainとそのAI開発における役割についてのヒーローセクションの説明"
+  },
+  "Pricing Illustration": {
+    "message": "価格設定イラスト",
+    "description": "価格セクションのイラストの代替テキスト"
+  },
+  "Fundamentally Aligned with Ethereum": {
+    "message": "Ethereumと根本的に整合している",
+    "description": "価格セクションのタイトル"
+  },
+  "But optimized for performance and on-chain AI": {
+    "message": "しかし、パフォーマンスとオンチェーンAIに最適化されています",
+    "description": "価格セクションの説明"
+  },
+  "Monthly": {
+    "message": "月額",
+    "description": "月額支払いオプションのラベル"
+  },
+  "Pay annually": {
+    "message": "年払い",
+    "description": "年払いに切り替えるためのスクリーンリーダーラベル"
+  },
+  "Yearly": {
+    "message": "年額",
+    "description": "年額支払いオプションのラベル"
+  },
+  "Infra": {
+    "message": "インフラ",
+    "description": "モバイルビューのインフラセクションラベル"
+  },
+  "Max Theoretical TPS": {
+    "message": "最大理論TPS",
+    "description": "モバイルビューの最大理論トランザクション毎秒のラベル"
+  },
+  "Fastest Block Time": {
+    "message": "最速ブロック時間",
+    "description": "モバイルビューの最速ブロック時間のラベル"
+  },
+  "Governance Model": {
+    "message": "ガバナンスモデル",
+    "description": "モバイルビューのガバナンスモデルのラベル"
+  },
+  "Features": {
+    "message": "機能",
+    "description": "モバイルビューの機能セクションのラベル"
+  },
+  "Avg. Gas Price": {
+    "message": "平均ガス価格",
+    "description": "モバイルビューの平均ガス価格のラベル"
+  },
+  "EVM Compatible": {
+    "message": "EVM互換",
+    "description": "モバイルビューのEVM互換性のラベル"
+  },
+  "Decentralized Ledger": {
+    "message": "分散型台帳",
+    "description": "モバイルビューの分散型台帳のラベル"
+  },
+  "\"Cuckoo Chain revolutionized our AI development with unmatched speed and efficiency. It's a game-changer for any AI-driven blockchain enterprise.\"": {
+    "message": "\"Cuckoo Chainは、比類のない速度と効率で私たちのAI開発を革命化しました。これは、AI駆動のブロックチェーン企業にとってゲームチェンジャーです。\"",
+    "description": "最初のテストモニアルテキスト"
+  },
+  "Aaliyah Baker": {
+    "message": "アリーヤ・ベイカー",
+    "description": "最初のテストモニアル著者名"
+  },
+  "DApper OS": {
+    "message": "DApper OS",
+    "description": "最初のテストモニアル著者会社"
+  },
+  "\"Integrating Cuckoo Chain was seamless. The performance boost and compatibility with Ethereum are phenomenal.\"": {
+    "message": "\"Cuckoo Chainの統合はシームレスでした。パフォーマンスの向上とEthereumとの互換性は素晴らしいです。\"",
+    "description": "2番目のテストモニアルテキスト"
+  },
+  "Sloan Seaman": {
+    "message": "スローン・シーマン",
+    "description": "2番目のテストモニアル著者名"
+  },
+  "Coupang": {
+    "message": "クーパン",
+    "description": "2番目のテストモニアル著者会社"
+  },
+  "\"Cuckoo Chain empowered us to create fast, secure decentralized AI apps. The support team is invaluable.\"": {
+    "message": "\"Cuckoo Chainは、迅速で安全な分散型AIアプリを作成する力を与えてくれました。サポートチームは非常に貴重です。\"",
+    "description": "3番目のテストモニアルテキスト"
+  },
+  "Christine Dejoux": {
+    "message": "クリスティーヌ・デジュ",
+    "description": "3番目のテストモニアル著者名"
+  },
+  "Glocomms": {
+    "message": "グロコムス",
+    "description": "3番目のテストモニアル著者会社"
+  },
+  "Experience Decentralized AI Model-Serving": {
+    "message": "分散型AIモデル提供を体験する"
+  },
+  "Generate image now with Cuckoo Bot": {
+    "message": "今すぐCuckoo Botで画像を生成"
+  },
+  "Explore": {
+    "message": "探る",
+    "description": "ホームページのヒーローセクションのセカンダリーアクションCTA"
+  },
+  "Experience Decentralized AI Now": {
+    "message": "今すぐ分散型AIを体験する",
+    "description": "セクションヘッダーのタイトル"
+  },
+  "For AI Enthusiasts": {
+    "message": "AI愛好者のために",
+    "description": "AI愛好者のためのボタンラベル"
+  },
+  "For Developers": {
+    "message": "開発者のために",
+    "description": "開発者のためのボタンラベル"
+  },
+  "For Miners": {
+    "message": "マイナーのために",
+    "description": "マイナーのためのボタンラベル"
+  },
+  "For Token Holders": {
+    "message": "トークン保有者のために",
+    "description": "トークン保有者のためのボタンラベル"
+  },
+  "Cuckoo Telegram": {
+    "message": "Cuckooテレグラム",
+    "description": "テレグラムボックスのタイトル"
+  },
+  "A telegram bot for texting to image and manage your CAI tokens.": {
+    "message": "画像にテキストを送信し、CAIトークンを管理するためのテレグラムボットです。",
+    "description": "テレグラムボックスの説明"
+  },
+  "Cuckoo Discord": {
+    "message": "Cuckooディスコード",
+    "description": "ディスコードボックスのタイトル"
+  },
+  "A discord bot for texting to image and manage your CAI tokens.": {
+    "message": "画像にテキストを送信し、CAIトークンを管理するためのディスコードボットです。",
+    "description": "ディスコードボックスの説明"
+  },
+  "Neon Medium": {
+    "message": "ネオンミディアム",
+    "description": "ミディアムボックスのタイトル"
+  },
+  "BlockEden.xyz": {
+    "message": "BlockEden.xyz",
+    "description": "BlockEdenボックスのタイトル"
+  },
+  "RPC node, API marketplace, and staking infrastructure.": {
+    "message": "RPCノード、APIマーケットプレイス、ステーキングインフラ。",
+    "description": "BlockEdenボックスの説明"
+  },
+  "Cuckoo Art": {
+    "message": "Cuckooアート",
+    "description": "Cuckooアートボックスのタイトル"
+  },
+  "Discover AI arts created in our network.": {
+    "message": "私たちのネットワークで作成されたAIアートを発見してください。",
+    "description": "Cuckooアートボックスの説明"
+  },
+  "Karma Protocol": {
+    "message": "カルマプロトコル",
+    "description": "カルマプロトコルボックスのタイトル"
+  },
+  "A revolutionary prediction market, driven by Community.": {
+    "message": "コミュニティによって推進される革命的な予測市場。",
+    "description": "カルマプロトコルボックスの説明"
+  },
+  "Cuckoo Github": {
+    "message": "Cuckoo GitHub",
+    "description": "Cuckoo GitHubボックスのタイトル"
+  },
+  "Fork us on Github for open-sourced decentralized AI platform.": {
+    "message": "オープンソースの分散型AIプラットフォームのためにGitHubでフォークしてください。",
+    "description": "Cuckoo GitHubボックスの説明"
+  },
+  "Cuckoo Node": {
+    "message": "Cuckooノード",
+    "description": "Cuckooノードボックスのタイトル"
+  },
+  "Node for mining tokens, distributed with Docker images.": {
+    "message": "トークンをマイニングするためのノード、Dockerイメージで配布されます。",
+    "description": "Cuckooノードボックスの説明"
+  },
+  "Staking Portal": {
+    "message": "ステーキングポータル",
+    "description": "ステーキングポータルボックスのタイトル"
+  },
+  "Stake your token to vote for Node operators you trust": {
+    "message": "信頼できるノードオペレーターに投票するためにトークンをステークしてください",
+    "description": "ステーキングポータルボックスの説明"
+  },
+  "Introducing Cuckoo Network Airdrop Portal": {
+    "message": "Cuckooネットワークエアドロップポータルを紹介します",
+    "description": "ホームページのヒーローセクションのニュースメッセージ"
+  },
+  "Decentralized AI Creative Platform for Creators & Builders": {
+    "message": "クリエイターとビルダーのための分散型AIクリエイティブプラットフォーム",
+    "description": "サイトのタグライン"
+  },
+  "Create AI Art": {
+    "message": "AIアートを作成する",
+    "description": "ホームページのヒーローセクションのメインアクションCTA"
+  },
+  "Earn": {
+    "message": "稼ぐ",
+    "description": "ホームページのヒーローセクションのセカンダリーアクションCTA"
+  },
+  "Refreshing news from the community": {
+    "message": "コミュニティからの新鮮なニュース",
+    "description": "ニュースセクションのタイトル"
+  },
+  "Read more": {
+    "message": "続きを読む",
+    "description": "続きを読むリンクテキスト"
+  },
+  "How does it work?": {
+    "message": "どのように機能しますか？",
+    "description": "セクションヘッダーのタイトル"
+  },
+  "Cuckoo incentivizes GPU miners to serve AI models to generative App builders. We started with decentralized image generation but aim to expand our platform to support various AI models.": {
+    "message": "CuckooはGPUマイナーにAIモデルを生成アプリビルダーに提供するよう奨励します。私たちは分散型画像生成から始めましたが、さまざまなAIモデルをサポートするためにプラットフォームを拡張することを目指しています。",
+    "description": "セクションヘッダーの説明"
+  },
+  "Establish Trust": {
+    "message": "信頼を確立する",
+    "description": "信頼ステップのタイトル"
+  },
+  "GPU miners, developers, and stakers {stakingLink} with blockchain smart contracts to establish trust.": {
+    "message": "GPUマイナー、開発者、ステーカーは、信頼を確立するためにブロックチェーンスマートコントラクトと{stakingLink}します。",
+    "description": "信頼ステップの説明"
+  },
+  "stake and vote": {
+    "message": "ステークして投票する",
+    "description": "リンクテキスト"
+  },
+  "Mine and Earn": {
+    "message": "マイニングして稼ぐ",
+    "description": "タスクと報酬ステップのタイトル"
+  },
+  "Gen AI Apps assign tasks to GPU miners via the Cuckoo AI node, with daily ERC20 payments based on results.": {
+    "message": "Gen AIアプリはCuckoo AIノードを介してGPUマイナーにタスクを割り当て、結果に基づいて毎日ERC20で支払いを行います。",
+    "description": "タスクと報酬ステップの説明"
+  },
+  "Modular AI": {
+    "message": "モジュラーAI",
+    "description": "モジュラーサポートステップのタイトル"
+  },
+  "Our modular components ensure that AI remains accessible, transparent, anti-censorship, and privacy-preserving.": {
+    "message": "私たちのモジュラーコンポーネントは、AIがアクセス可能で透明性があり、検閲に対抗し、プライバシーを保護することを保証します。",
+    "description": "モジュラーサポートステップの説明"
+  },
+  "From AI builders to consumers, we got you covered.": {
+    "message": "AIビルダーから消費者まで、私たちはあなたをサポートします。",
+    "description": "ターゲット顧客のためのセクションタイトル"
+  },
+  "Features 02": {
+    "message": "機能 02",
+    "description": "画像の代替テキスト"
+  },
+  "Get rewarded by contributing to Gen AI": {
+    "message": "Gen AIに貢献して報酬を得る",
+    "description": "何をすべきかを説明するカードの説明"
+  },
+  "For AI Consumers": {
+    "message": "AI消費者のために",
+    "description": "ユーザーグループのためのカードのタイトル"
+  },
+  "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.": {
+    "message": "エコシステムに貢献するか、Cuckoo Payを使用することで、さまざまなAIアプリに無料でアクセスできます。1つのアプリがブロックされている場合は、分散型ネットワーク内の別のコーディネーターにシームレスに切り替えてください。",
+    "description": "何をすべきかを説明するカードの説明"
+  },
+  "For App Builders/Coordinators": {
+    "message": "アプリビルダー/コーディネーターのために"
+  },
+  "Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.": {
+    "message": "コーディネーターノードを実行し、ネットワークに参加するためにステークし、ステーキング報酬を得ます。GPUコストを削減し、顧客基盤を拡大し、GPUマイナーにタスクを割り当て、結果を検証し、支払いを分配します。"
+  },
+  "For GPU Miners": {
+    "message": "GPUマイナーのために",
+    "description": "特定のユーザーグループに対するカードの説明"
+  },
+  "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.": {
+    "message": "マイナーノードを実行し、ネットワークに参加するためにステークし、ステーキング報酬を得ます。GPUリソースを共有し、割り当てられたタスクを完了し、信頼性のあるサービスを維持してトークンを獲得します。",
+    "description": "何をすべきかを説明するカードの説明"
+  },
+  "footer.aboutTitle": {
+    "message": "Cuckoo AIについて"
+  },
+  "footer.aboutDescription": {
+    "message": "Cuckoo Networkは分散化を通じてAIインフラを革命化しています。ArbitrumとEthereumに基づいて構築された先駆的なブロックチェーンプラットフォームとして、私たちはGPUマイナー、開発者、AI愛好者が公正で透明なエコシステムに参加できるようにします。当社のネットワークは、コスト効果の高いAIモデル提供、Cuckoo Chainを通じた安全なトランザクション、$CAIトークンを通じたコミュニティ主導の成長を可能にします。"
+  },
+  "footer.subscribeTitle": {
+    "message": "最新情報を今すぐ受け取る"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 アイテム|{count} アイテム",
+    "description": "このカテゴリに含まれるアイテム数に関する生成されたインデックスのカテゴリカードのデフォルト説明"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "ブログ著者のページのタイトル"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "著者",
+    "description": "著者ページのタイトル"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "すべての著者を見る",
+    "description": "ブログ著者ページを対象としたリンクのラベル"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "非公開ページ",
+    "description": "非公開コンテンツバナーのタイトル"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "このページは非公開です。検索エンジンはインデックスしません。直接リンクを持つユーザーのみがアクセスできます。",
+    "description": "非公開コンテンツバナーのメッセージ"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "ドラフトページ",
+    "description": "ドラフトコンテンツバナーのタイトル"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "このページはドラフトです。開発中のみ表示され、プロダクションビルドから除外されます。",
+    "description": "ドラフトコンテンツバナーのメッセージ"
   }
 }

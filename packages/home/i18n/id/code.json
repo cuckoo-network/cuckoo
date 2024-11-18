@@ -64,7 +64,7 @@
     "description": "The name for the light color mode"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Jalur Navigasi",
+    "message": "Roti Tawar",
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription": {
@@ -103,7 +103,7 @@
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "Untuk dokumentasi terbaru, lihat {latestVersionLink} ({versionLabel}).",
+    "message": "Untuk dokumentasi terkini, lihat {latestVersionLink} ({versionLabel}).",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
@@ -203,7 +203,7 @@
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Silakan hubungi pemilik situs yang mengarahkan Anda ke URL asli dan beri tahu mereka bahwa tautan mereka rusak.",
+    "message": "Silakan hubungi pemilik situs yang menghubungkan Anda ke URL asli dan beri tahu mereka bahwa tautan mereka rusak.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.NavBar.navAriaLabel": {
@@ -271,7 +271,7 @@
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "Lompati ke konten utama",
+    "message": "Lewati ke konten utama",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
@@ -279,7 +279,7 @@
     "description": "The title of the tag list page"
   },
   "theme.unlistedContent.title": {
-    "message": "Halaman Tidak Terdaftar",
+    "message": "Halaman tidak terdaftar",
     "description": "The unlisted content banner title"
   },
   "theme.unlistedContent.message": {
@@ -291,7 +291,7 @@
     "description": "Page title for Cuckoo Chain homepage"
   },
   "Cuckoo Chain is set to transform the AI blockchain landscape. As an Arbitrum L2 in the Ethereum ecosystem, it brings streamlined AI developer experience, fast speed and efficiency to the table. This makes it a prime choice for Web3 + AI users seeking robust and scalable solutions": {
-    "message": "Cuckoo Chain siap untuk mengubah lanskap blockchain AI. Sebagai Arbitrum L2 dalam ekosistem Ethereum, ia membawa pengalaman pengembang AI yang terintegrasi, kecepatan dan efisiensi yang cepat. Ini menjadikannya pilihan utama bagi pengguna Web3 + AI yang mencari solusi yang kuat dan dapat diskalakan.",
+    "message": "Cuckoo Chain siap untuk mengubah lanskap blockchain AI. Sebagai Arbitrum L2 dalam ekosistem Ethereum, ia membawa pengalaman pengembang AI yang efisien, kecepatan cepat, dan efisiensi ke meja. Ini menjadikannya pilihan utama bagi pengguna Web3 + AI yang mencari solusi yang kuat dan dapat diskalakan.",
     "description": "Page description for Cuckoo Chain homepage"
   },
   "Hero Illustration": {
@@ -299,19 +299,19 @@
     "description": "The alt text for the hero illustration"
   },
   "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "Cuckoo AI Platform Kreatif AI Terdesentralisasi untuk Pembuat & Pengembang",
+    "message": "Cuckoo AI Platform Kreatif AI Terdesentralisasi untuk Pencipta & Pembuat",
     "description": "The site tagline"
   },
   "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
-    "message": "Buat seni AI yang menakjubkan dan dukung aplikasi Gen AI dengan GPU atau CPU Anda di Cuckoo Chain. Bagikan, hasilkan, dan buka kekuatan AI terdesentralisasi.",
+    "message": "Buat seni AI yang menakjubkan dan dorong aplikasi Gen AI dengan GPU atau CPU Anda di Cuckoo Chain. Bagikan, hasilkan, dan buka kekuatan AI terdesentralisasi.",
     "description": "Site description"
   },
   "Newsletter iframe": {
-    "message": "iframe Buletin",
+    "message": "Iframe Buletin",
     "description": "The title for the newsletter iframe"
   },
   "It's time to join the thousands of creators, artists, and developers using Cuckoo Chain": {
-    "message": "Saatnya bergabung dengan ribuan pembuat, seniman, dan pengembang yang menggunakan Cuckoo Chain",
+    "message": "Saatnya bergabung dengan ribuan pencipta, seniman, dan pengembang yang menggunakan Cuckoo Chain",
     "description": "CTA section main title"
   },
   "Explore Chain": {
@@ -331,7 +331,7 @@
     "description": "Question: What is Cuckoo Chain?"
   },
   "Cuckoo Chain is a blockchain platform designed specifically for AI applications, operating as an Arbitrum L2 within the Ethereum ecosystem. It offers a streamlined AI developer experience with enhanced speed and efficiency.": {
-    "message": "Cuckoo Chain adalah platform blockchain yang dirancang khusus untuk aplikasi AI, beroperasi sebagai Arbitrum L2 dalam ekosistem Ethereum. Ini menawarkan pengalaman pengembang AI yang terintegrasi dengan kecepatan dan efisiensi yang lebih baik.",
+    "message": "Cuckoo Chain adalah platform blockchain yang dirancang khusus untuk aplikasi AI, beroperasi sebagai Arbitrum L2 dalam ekosistem Ethereum. Ini menawarkan pengalaman pengembang AI yang efisien dengan kecepatan dan efisiensi yang ditingkatkan.",
     "description": "Answer: What is Cuckoo Chain?"
   },
   "How does Cuckoo Chain integrate with the Ethereum ecosystem?": {
@@ -339,7 +339,7 @@
     "description": "Question: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
   },
   "Cuckoo Chain functions as an Arbitrum Layer 2 solution, which means it inherits the security and decentralization of Ethereum while providing faster and cheaper transactions. This integration ensures seamless interoperability with the Ethereum network.": {
-    "message": "Cuckoo Chain berfungsi sebagai solusi Arbitrum Layer 2, yang berarti ia mewarisi keamanan dan desentralisasi Ethereum sambil menyediakan transaksi yang lebih cepat dan lebih murah. Integrasi ini memastikan interoperabilitas yang mulus dengan jaringan Ethereum.",
+    "message": "Cuckoo Chain berfungsi sebagai solusi Layer 2 Arbitrum, yang berarti ia mewarisi keamanan dan desentralisasi Ethereum sambil menyediakan transaksi yang lebih cepat dan lebih murah. Integrasi ini memastikan interoperabilitas yang mulus dengan jaringan Ethereum.",
     "description": "Answer: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
   },
   "What are the main benefits of using Cuckoo Chain for AI development?": {
@@ -347,7 +347,7 @@
     "description": "Question: What are the main benefits of using Cuckoo Chain for AI development?"
   },
   "Cuckoo Chain offers unparalleled speed, efficiency, and scalability for AI development. It reduces transaction costs, accelerates processing times, and provides a robust infrastructure for deploying AI solutions on the blockchain.": {
-    "message": "Cuckoo Chain menawarkan kecepatan, efisiensi, dan skalabilitas yang tak tertandingi untuk pengembangan AI. Ini mengurangi biaya transaksi, mempercepat waktu pemrosesan, dan menyediakan infrastruktur yang kuat untuk menerapkan solusi AI di blockchain.",
+    "message": "Cuckoo Chain menawarkan kecepatan, efisiensi, dan skalabilitas yang tiada tara untuk pengembangan AI. Ini mengurangi biaya transaksi, mempercepat waktu pemrosesan, dan menyediakan infrastruktur yang kuat untuk menerapkan solusi AI di blockchain.",
     "description": "Answer: What are the main benefits of using Cuckoo Chain for AI development?"
   },
   "How can I get started with Cuckoo Chain?": {
@@ -375,7 +375,7 @@
     "description": "Question: Where can I find support and additional resources?"
   },
   "For support and additional resources, visit our {helpCenter} or join our community on {discord} and {telegram}. Our\n                  comprehensive documentation, tutorials, and active community\n                  are here to assist you with any questions or challenges you\n                  might encounter.": {
-    "message": "Untuk dukungan dan sumber daya tambahan, kunjungi {helpCenter} kami atau bergabunglah dengan komunitas kami di {discord} dan {telegram}. Dokumentasi kami yang komprehensif, tutorial, dan komunitas aktif kami\n                  ada di sini untuk membantu Anda dengan pertanyaan atau tantangan yang mungkin Anda\n                  temui.",
+    "message": "Untuk dukungan dan sumber daya tambahan, kunjungi {helpCenter} kami atau bergabunglah dengan komunitas kami di {discord} dan {telegram}. Dokumentasi, tutorial, dan komunitas aktif kami\n                  ada di sini untuk membantu Anda dengan pertanyaan atau tantangan yang\n                  mungkin Anda hadapi.",
     "description": "Answer: Where can I find support and additional resources?"
   },
   "Help Center": {
@@ -399,7 +399,7 @@
     "description": "Section header title"
   },
   "The best resources for building an end-to-end Cuckoo Chain dApp.": {
-    "message": "Sumber daya terbaik untuk membangun dApp Cuckoo Chain dari ujung ke ujung.",
+    "message": "Sumber daya terbaik untuk membangun dApp Cuckoo Chain end-to-end.",
     "description": "Section header description"
   },
   "Icon 01": {
@@ -416,7 +416,7 @@
   },
   "Learn More": {
     "message": "Pelajari Lebih Lanjut",
-    "description": "Home page hero section's news message's CTA"
+    "description": "Link text to learn more about Cuckoo Scan"
   },
   "Icon 02": {
     "message": "Ikon 02",
@@ -439,7 +439,7 @@
     "description": "ChainList title"
   },
   "ChainList is a list of EVM networks. Users can use the info to connect their wallets and Web3 middleware providers.": {
-    "message": "ChainList adalah daftar jaringan EVM. Pengguna dapat menggunakan informasi ini untuk menghubungkan dompet mereka dan penyedia middleware Web3.",
+    "message": "ChainList adalah daftar jaringan EVM. Pengguna dapat menggunakan informasi untuk menghubungkan dompet mereka dan penyedia middleware Web3.",
     "description": "ChainList description"
   },
   "Icon 04": {
@@ -467,7 +467,7 @@
     "description": "Hero section main title"
   },
   "Cuckoo Chain, an Arbitrum L2 in the Ethereum ecosystem, revolutionizes AI development with unmatched speed, efficiency, and scalability. Perfect for Web3 + AI innovators.": {
-    "message": "Cuckoo Chain, sebuah Arbitrum L2 dalam ekosistem Ethereum, merevolusi pengembangan AI dengan kecepatan, efisiensi, dan skalabilitas yang tak tertandingi. Sempurna untuk inovator Web3 + AI.",
+    "message": "Cuckoo Chain, sebuah Arbitrum L2 dalam ekosistem Ethereum, merevolusi pengembangan AI dengan kecepatan, efisiensi, dan skalabilitas yang tiada tara. Sempurna untuk inovator Web3 + AI.",
     "description": "Hero section description about Cuckoo Chain and its role in AI development"
   },
   "Pricing Illustration": {
@@ -475,7 +475,7 @@
     "description": "Alt text for the pricing section illustration"
   },
   "Fundamentally Aligned with Ethereum": {
-    "message": "Secara Fundamental Selaras dengan Ethereum",
+    "message": "Fundamentally Aligned with Ethereum",
     "description": "Title for the pricing section"
   },
   "But optimized for performance and on-chain AI": {
@@ -491,7 +491,7 @@
     "description": "Screen reader label for toggling to pay annually"
   },
   "Yearly": {
-    "message": "Tahun",
+    "message": "Tahunan",
     "description": "Label for the yearly payment option"
   },
   "Infra": {
@@ -527,7 +527,7 @@
     "description": "Label for decentralized ledger in mobile view"
   },
   "\"Cuckoo Chain revolutionized our AI development with unmatched speed and efficiency. It's a game-changer for any AI-driven blockchain enterprise.\"": {
-    "message": "\"Cuckoo Chain merevolusi pengembangan AI kami dengan kecepatan dan efisiensi yang tak tertandingi. Ini adalah pengubah permainan bagi setiap perusahaan blockchain yang didorong oleh AI.\"",
+    "message": "\"Cuckoo Chain merevolusi pengembangan AI kami dengan kecepatan dan efisiensi yang tiada tara. Ini adalah pengubah permainan bagi setiap perusahaan blockchain yang didorong oleh AI.\"",
     "description": "First testimonial text"
   },
   "Aaliyah Baker": {
@@ -563,7 +563,7 @@
     "description": "Third testimonial author company"
   },
   "Experience Decentralized AI Model-Serving": {
-    "message": "Rasakan Penyajian Model AI Terdesentralisasi"
+    "message": "Rasakan Pelayanan Model AI Terdesentralisasi"
   },
   "Generate image now with Cuckoo Bot": {
     "message": "Hasilkan gambar sekarang dengan Cuckoo Bot"
@@ -597,7 +597,7 @@
     "description": "Telegram Box Title"
   },
   "A telegram bot for texting to image and manage your CAI tokens.": {
-    "message": "Bot telegram untuk mengubah teks menjadi gambar dan mengelola token CAI Anda.",
+    "message": "Bot telegram untuk mengirim pesan ke gambar dan mengelola token CAI Anda.",
     "description": "Telegram Box Description"
   },
   "Cuckoo Discord": {
@@ -605,7 +605,7 @@
     "description": "Discord Box Title"
   },
   "A discord bot for texting to image and manage your CAI tokens.": {
-    "message": "Bot discord untuk mengubah teks menjadi gambar dan mengelola token CAI Anda.",
+    "message": "Bot discord untuk mengirim pesan ke gambar dan mengelola token CAI Anda.",
     "description": "Discord Box Description"
   },
   "Neon Medium": {
@@ -625,7 +625,7 @@
     "description": "Cuckoo Art Box Title"
   },
   "Discover AI arts created in our network.": {
-    "message": "Temukan seni AI yang dibuat di jaringan kami.",
+    "message": "Temukan seni AI yang dibuat dalam jaringan kami.",
     "description": "Cuckoo Art Box Description"
   },
   "Karma Protocol": {
@@ -633,7 +633,7 @@
     "description": "Karma Protocol Box Title"
   },
   "A revolutionary prediction market, driven by Community.": {
-    "message": "Pasar prediksi yang revolusioner, didorong oleh Komunitas.",
+    "message": "Pasar prediksi revolusioner, didorong oleh Komunitas.",
     "description": "Karma Protocol Box Description"
   },
   "Cuckoo Github": {
@@ -641,7 +641,7 @@
     "description": "Cuckoo Github Box Title"
   },
   "Fork us on Github for open-sourced decentralized AI platform.": {
-    "message": "Fork kami di Github untuk platform AI terdesentralisasi yang open-sourced.",
+    "message": "Fork kami di Github untuk platform AI terdesentralisasi yang bersumber terbuka.",
     "description": "Cuckoo Github Box Description"
   },
   "Cuckoo Node": {
@@ -665,7 +665,7 @@
     "description": "Home page hero section's news message"
   },
   "Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "Platform Kreatif AI Terdesentralisasi untuk Pembuat & Pengembang",
+    "message": "Platform Kreatif AI Terdesentralisasi untuk Pencipta & Pembuat",
     "description": "Site tagline"
   },
   "Create AI Art": {
@@ -689,7 +689,7 @@
     "description": "Section header title"
   },
   "Cuckoo incentivizes GPU miners to serve AI models to generative App builders. We started with decentralized image generation but aim to expand our platform to support various AI models.": {
-    "message": "Cuckoo memberikan insentif kepada penambang GPU untuk melayani model AI kepada pembangun aplikasi generatif. Kami memulai dengan generasi gambar terdesentralisasi tetapi bertujuan untuk memperluas platform kami untuk mendukung berbagai model AI.",
+    "message": "Cuckoo memberikan insentif kepada penambang GPU untuk melayani model AI kepada pembangun aplikasi generatif. Kami mulai dengan generasi gambar terdesentralisasi tetapi bertujuan untuk memperluas platform kami untuk mendukung berbagai model AI.",
     "description": "Section header description"
   },
   "Establish Trust": {
@@ -729,27 +729,70 @@
     "description": "Alt text for the image"
   },
   "Get rewarded by contributing to Gen AI": {
-    "message": "Dapatkan imbalan dengan berkontribusi pada Gen AI"
+    "message": "Dapatkan imbalan dengan berkontribusi pada Gen AI",
+    "description": "a card description to explain what to do"
   },
   "For AI Consumers": {
-    "message": "Untuk Konsumen AI"
+    "message": "Untuk Konsumen AI",
+    "description": "a card title for a group of user"
   },
   "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.": {
     "message": "Akses berbagai aplikasi AI secara gratis, dengan berkontribusi pada ekosistem atau menggunakan Cuckoo Pay. Jika satu aplikasi diblokir, beralihlah dengan mulus ke koordinator lain dalam jaringan terdesentralisasi.",
-    "description": "description"
+    "description": "a card description to explain what to do"
   },
   "For App Builders/Coordinators": {
-    "message": "Untuk Pembuat/Koordinator Aplikasi"
+    "message": "Untuk Pembuat Aplikasi/Koordinator"
   },
   "Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.": {
-    "message": "Jalankan node koordinator, stake untuk bergabung dengan jaringan, dan dapatkan imbalan staking. Kurangi biaya GPU, perluas basis pelanggan Anda, berikan tugas kepada penambang GPU, validasi hasil, dan distribusikan pembayaran.",
-    "description": "description"
+    "message": "Jalankan node koordinator, stake untuk bergabung dengan jaringan, dan dapatkan imbalan staking. Kurangi biaya GPU, perluas basis pelanggan Anda, berikan tugas kepada penambang GPU, validasi hasil, dan distribusikan pembayaran."
   },
   "For GPU Miners": {
-    "message": "Untuk Penambang GPU"
+    "message": "Untuk Penambang GPU",
+    "description": "a card description to a specific user group"
   },
   "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.": {
     "message": "Jalankan node penambang, stake untuk bergabung dengan jaringan, dan dapatkan imbalan staking. Bagikan sumber daya GPU Anda, selesaikan tugas yang diberikan, dan pertahankan layanan yang dapat diandalkan untuk mendapatkan token.",
-    "description": "description"
+    "description": "a card description to explain what to do"
+  },
+  "footer.aboutTitle": {
+    "message": "Tentang Cuckoo AI"
+  },
+  "footer.aboutDescription": {
+    "message": "Jaringan Cuckoo merevolusi infrastruktur AI melalui desentralisasi. Sebagai platform blockchain perintis yang dibangun di atas Arbitrum dan Ethereum, kami memberdayakan penambang GPU, pengembang, dan penggemar AI untuk berpartisipasi dalam ekosistem yang adil dan transparan. Jaringan kami memungkinkan penyajian model AI yang hemat biaya, transaksi yang aman melalui Cuckoo Chain, dan pertumbuhan yang didorong oleh komunitas melalui token $CAI."
+  },
+  "footer.subscribeTitle": {
+    "message": "Tetap terupdate hari ini"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 item|{count} item",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Penulis",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "Lihat semua penulis",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Halaman tidak terdaftar",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Halaman ini tidak terdaftar. Mesin pencari tidak akan mengindeksnya, dan hanya pengguna yang memiliki tautan langsung yang dapat mengaksesnya.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Halaman draf",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "Halaman ini adalah draf. Ini hanya akan terlihat di dev dan akan dikecualikan dari build produksi.",
+    "description": "The draft content banner message"
   }
 }

@@ -1,301 +1,799 @@
 {
+  "theme.ErrorPageContent.title": {
+    "message": "Bu sayfa çöktü.",
+    "description": "Sayfa çöktüğünde geri dönüş sayfasının başlığı"
+  },
+  "theme.blog.archive.title": {
+    "message": "Arşiv",
+    "description": "Blog arşiv sayfasının sayfa ve kahraman başlığı"
+  },
+  "theme.blog.archive.description": {
+    "message": "Arşiv",
+    "description": "Blog arşiv sayfasının sayfa ve kahraman açıklaması"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Yukarı kaydır",
+    "description": "Yukarı dön butonu için ARIA etiketi"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Blog listesi sayfası navigasyonu",
+    "description": "Blog sayfalama için ARIA etiketi"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Daha Yeni Girişler",
+    "description": "Daha yeni blog gönderileri sayfasına (önceki sayfa) gitmek için kullanılan etiket"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Daha Eski Girişler",
+    "description": "Daha eski blog gönderileri sayfasına (sonraki sayfa) gitmek için kullanılan etiket"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Blog gönderisi sayfası navigasyonu",
+    "description": "Blog gönderileri sayfalama için ARIA etiketi"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Daha Yeni Gönderi",
+    "description": "Daha yeni/önceki gönderiye gitmek için blog gönderisi buton etiketi"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Daha Eski Gönderi",
+    "description": "Daha eski/sonraki gönderiye gitmek için blog gönderisi buton etiketi"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Bir gönderi|{count} gönderi",
+    "description": "\"{count} gönderi\" için çoğul etiket. Dillerinizin desteklediği kadar çok çoğul form kullanın (https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html adresine bakın)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "\"{tagName}\" ile etiketlenmiş {nPosts}",
+    "description": "Bir blog etiketinin sayfasının başlığı"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Tüm Etiketleri Görüntüle",
+    "description": "Etiket listesi sayfasına yönlendiren bağlantının etiketi"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Karanlık ve aydınlık mod arasında geçiş yap (şu anda {mode})",
+    "description": "Navigasyon çubuğu renk modu geçişi için ARIA etiketi"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "karanlık mod",
+    "description": "Karanlık renk modu için isim"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "aydınlık mod",
+    "description": "Aydınlık renk modu için isim"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "İzlekler",
+    "description": "İzlekler için ARIA etiketi"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} öğe",
+    "description": "Bu kategorinin kaç öğe içerdiği hakkında oluşturulan dizin için varsayılan açıklama"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Belgeler sayfaları",
+    "description": "Belgeler sayfalama için ARIA etiketi"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Önceki",
+    "description": "Önceki belgeye gitmek için kullanılan etiket"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Sonraki",
+    "description": "Sonraki belgeye gitmek için kullanılan etiket"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Sürüm: {versionLabel}"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Bir belge etiketli|{count} belge etiketli",
+    "description": "\"{count} belge etiketli\" için çoğul etiket. Dillerinizin desteklediği kadar çok çoğul form kullanın (https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html adresine bakın)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "\"{tagName}\" ile {nDocsTagged}",
+    "description": "Belgeler etiketi sayfasının başlığı"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "{siteTitle} {versionLabel} sürümü için yayımlanmamış belgeler.",
+    "description": "Kullanıcıya yayımlanmamış bir belge sürümünü gezindiğini bildirmek için kullanılan etiket"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "{siteTitle} {versionLabel} için artık aktif olarak bakım yapılmayan belgeler.",
+    "description": "Kullanıcıya bakım yapılmayan bir belge sürümünü gezindiğini bildirmek için kullanılan etiket"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Güncel belgeler için {latestVersionLink} ({versionLabel}) adresine bakın.",
+    "description": "Kullanıcıya en son sürümü kontrol etmesi için kullanılan etiket"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "en son sürüm",
+    "description": "En son sürüm öneri bağlantısı etiketi için kullanılan etiket"
+  },
+  "theme.common.editThisPage": {
+    "message": "Bu sayfayı düzenle",
+    "description": "Mevcut sayfayı düzenlemek için bağlantı etiketi"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading} başlığına doğrudan bağlantı",
+    "description": "Başlığa bağlantı için başlık"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " {date} tarihinde",
+    "description": "Bir sayfanın en son ne zaman güncellendiğini tanımlamak için kullanılan kelimeler"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " {user} tarafından",
+    "description": "Bir sayfanın en son kim tarafından güncellendiğini tanımlamak için kullanılan kelimeler"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Son güncelleme{atDate}{byUser}",
+    "description": "Bir sayfanın en son ne zaman güncellendiğini ve kim tarafından güncellendiğini göstermek için kullanılan cümle"
+  },
+  "theme.NotFound.title": {
+    "message": "Sayfa Bulunamadı",
+    "description": "404 sayfasının başlığı"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Sürümler",
+    "description": "Mobil görünümdeki navigasyon çubuğu sürümler açılır menüsü için etiket"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Etiketler:",
+    "description": "Bir etiket listesi yanında bulunan etiket"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Kapat",
+    "description": "Duyuru çubuğunun kapatma butonu için ARIA etiketi"
+  },
+  "theme.admonition.caution": {
+    "message": "dikkat",
+    "description": "Dikkat uyarısı için varsayılan etiket (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "tehlike",
+    "description": "Tehlike uyarısı için varsayılan etiket (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "bilgi",
+    "description": "Bilgi uyarısı için varsayılan etiket (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "not",
+    "description": "Not uyarısı için varsayılan etiket (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "ipucu",
+    "description": "İpucu uyarısı için varsayılan etiket (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "uyarı",
+    "description": "Uyarı uyarısı için varsayılan etiket (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog son gönderiler navigasyonu",
+    "description": "Blog yan menüsündeki son gönderiler için ARIA etiketi"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Kopyalandı",
+    "description": "Kod bloklarındaki kopyalanmış buton etiketi"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Kodu panoya kopyala",
+    "description": "Kod blokları butonu için ARIA etiketi"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Kopyala",
+    "description": "Kod bloklarındaki kopyala buton etiketi"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Kelime sarma geçişini aç/kapat",
+    "description": "Kod bloğu satırlarının kelime sarma butonu için başlık niteliği"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "'{label}' yan menü kategorisini genişlet",
+    "description": "Yan menü kategorisini genişletmek için ARIA etiketi"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "'{label}' yan menü kategorisini daralt",
+    "description": "Yan menü kategorisini daraltmak için ARIA etiketi"
+  },
+  "theme.NotFound.p1": {
+    "message": "Aradığınız şeyi bulamadık.",
+    "description": "404 sayfasının ilk paragrafı"
+  },
+  "theme.NotFound.p2": {
+    "message": "Lütfen sizi orijinal URL'ye yönlendiren sitenin sahibine ulaşın ve bağlantısının bozuk olduğunu bildirin.",
+    "description": "404 sayfasının 2. paragrafı"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Ana",
+    "description": "Ana navigasyon için ARIA etiketi"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Diller",
+    "description": "Mobil dil değiştirici açılır menüsü için etiket"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Bu sayfada",
+    "description": "Kapsayıcı TOC bileşenindeki buton için kullanılan etiket"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Daha Fazla Oku",
+    "description": "Blog gönderisi özetlerinde tam blog gönderilerine bağlantı vermek için kullanılan etiket"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "{title} hakkında daha fazla oku",
+    "description": "Özetlerden tam blog gönderilerine bağlantı için ARIA etiketi"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Bir dakikalık okuma|{readingTime} dakikalık okuma",
+    "description": "\"{readingTime} dakikalık okuma\" için çoğul etiket. Dillerinizin desteklediği kadar çok çoğul form kullanın (https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html adresine bakın)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Ana sayfa",
+    "description": "İzleklerde ana sayfa için ARIA etiketi"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Yan menüyü daralt",
+    "description": "Belge yan menüsünün daraltma butonu için başlık niteliği"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Yan menüyü daralt",
+    "description": "Belge yan menüsünün daraltma butonu için başlık niteliği"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Belgeler yan menüsü",
+    "description": "Yan menü navigasyonu için ARIA etiketi"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Navigasyon çubuğunu kapat",
+    "description": "Mobil yan menünün kapatma butonu için ARIA etiketi"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Ana menüye geri dön",
+    "description": "Mobil navigasyon çubuğu yan menüsündeki ana menüye geri dön butonunun etiketi (özellikle belgeler yan menüsünü görüntülemek için kullanılır)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Navigasyon çubuğunu aç/kapat",
+    "description": "Mobil navigasyonun hamburger menü butonu için ARIA etiketi"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Yan menüyü genişlet",
+    "description": "Belge yan menüsünün genişletme butonu için ARIA etiketi ve başlık niteliği"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Yan menüyü genişlet",
+    "description": "Belge yan menüsünün genişletme butonu için ARIA etiketi ve başlık niteliği"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Tekrar dene",
+    "description": "React hata sınırının bir hata yakaladığı zaman yeniden render etmek için kullanılan butonun etiketi"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Ana içeriğe atla",
+    "description": "Erişilebilirlik için kullanılan ana içeriğe hızlıca geçiş yapmayı sağlayan atlama etiketi"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Etiketler",
+    "description": "Etiket listesi sayfasının başlığı"
+  },
+  "theme.unlistedContent.title": {
+    "message": "Listelenmemiş sayfa",
+    "description": "Listelenmemiş içerik banner başlığı"
+  },
+  "theme.unlistedContent.message": {
+    "message": "Bu sayfa listelenmemiştir. Arama motorları bunu dizine almayacak ve yalnızca doğrudan bağlantıya sahip kullanıcılar erişebilir.",
+    "description": "Listelenmemiş içerik banner mesajı"
+  },
   "Cuckoo Chain: Decentralized AI Blockchain": {
-    "message": "Cuckoo Zinciri: Merkeziyetsiz AI Blockchain",
-    "description": "Page title for Cuckoo Chain homepage"
+    "message": "Cuckoo Chain: Merkezi Olmayan AI Blockchain",
+    "description": "Cuckoo Chain ana sayfası için sayfa başlığı"
   },
   "Cuckoo Chain is set to transform the AI blockchain landscape. As an Arbitrum L2 in the Ethereum ecosystem, it brings streamlined AI developer experience, fast speed and efficiency to the table. This makes it a prime choice for Web3 + AI users seeking robust and scalable solutions": {
-    "message": "Cuckoo Zinciri, AI blockchain manzarasını dönüştürmeye hazırlanıyor. Ethereum ekosisteminde bir Arbitrum L2 olarak, AI geliştirici deneyimini, hızlı hız ve verimliliği masaya getiriyor. Bu, sağlam ve ölçeklenebilir çözümler arayan Web3 + AI kullanıcıları için birinci sınıf bir seçenek yapar.",
-    "description": "Page description for Cuckoo Chain homepage"
+    "message": "Cuckoo Chain, AI blockchain manzarasını dönüştürmeye hazırlanıyor. Ethereum ekosisteminde bir Arbitrum L2 olarak, akıcı bir AI geliştirici deneyimi, hızlı hız ve verimlilik sunuyor. Bu, sağlam ve ölçeklenebilir çözümler arayan Web3 + AI kullanıcıları için birinci sınıf bir seçim yapıyor.",
+    "description": "Cuckoo Chain ana sayfası için sayfa açıklaması"
   },
   "Hero Illustration": {
     "message": "Kahraman İllüstrasyonu",
-    "description": "The alt text for the hero illustration"
+    "description": "Kahraman illüstrasyonu için alternatif metin"
   },
   "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "Cuckoo AI Merkeziyetsiz AI Yaratıcı Platformu Yaratıcılar ve Yapıcılar İçin",
-    "description": "The site tagline"
+    "message": "Cuckoo AI Merkezi Olmayan AI Yaratıcı Platformu Yaratıcılar ve Geliştiriciler için",
+    "description": "Site sloganı"
   },
   "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
-    "message": "Cuckoo Zinciri üzerinde GPU veya CPU'nuzla çarpıcı AI sanatı oluşturun ve Gen AI uygulamalarını besleyin. Merkeziyetsiz AI gücünü paylaşın, oluşturun ve açığa çıkarın.",
-    "description": "Site description"
+    "message": "Cuckoo Chain üzerinde GPU veya CPU'nuzla etkileyici AI sanatı oluşturun ve Gen AI uygulamalarını besleyin. Paylaşın, üretin ve merkezi olmayan AI'nın gücünü açığa çıkarın.",
+    "description": "Site açıklaması"
   },
   "Newsletter iframe": {
     "message": "Bülten iframe",
-    "description": "The title for the newsletter iframe"
-  },
-  "Experience Decentralized AI Model-Serving": {
-    "message": "Merkeziyetsiz AI Model Sunumunu Deneyimleyin"
-  },
-  "Generate image now with Cuckoo Bot": {
-    "message": "Şimdi Cuckoo Bot ile görüntü oluşturun"
-  },
-  "Explore": {
-    "message": "Keşfet",
-    "description": "homepage's hero section's secondary action CTA"
-  },
-  "Experience Decentralized AI Now": {
-    "message": "Şimdi Merkeziyetsiz AI Deneyimleyin",
-    "description": "Section header title"
-  },
-  "For AI Enthusiasts": {
-    "message": "AI Meraklıları İçin",
-    "description": "Button label for AI Enthusiasts"
-  },
-  "For Developers": {
-    "message": "Geliştiriciler İçin",
-    "description": "Button label for Developers"
-  },
-  "For Miners": {
-    "message": "Madenciler İçin",
-    "description": "Button label for Miners"
-  },
-  "For Token Holders": {
-    "message": "Token Sahipleri İçin",
-    "description": "Button label for Token Holders"
-  },
-  "Cuckoo Telegram": {
-    "message": "Cuckoo Telegram",
-    "description": "Telegram Box Title"
-  },
-  "A telegram bot for texting to image and manage your CAI tokens.": {
-    "message": "CAI tokenlarınızı yönetmek ve mesajdan görüntüye dönüştürmek için bir telegram botu.",
-    "description": "Telegram Box Description"
-  },
-  "Cuckoo Discord": {
-    "message": "Cuckoo Discord",
-    "description": "Discord Box Title"
-  },
-  "A discord bot for texting to image and manage your CAI tokens.": {
-    "message": "CAI tokenlarınızı yönetmek ve mesajdan görüntüye dönüştürmek için bir discord botu.",
-    "description": "Discord Box Description"
-  },
-  "Neon Medium": {
-    "message": "Neon Medium",
-    "description": "Medium Box Title"
-  },
-  "BlockEden.xyz": {
-    "message": "BlockEden.xyz",
-    "description": "BlockEden Box Title"
-  },
-  "RPC node, API marketplace, and staking infrastructure.": {
-    "message": "RPC düğümü, API pazarı ve staking altyapısı.",
-    "description": "BlockEden Box Description"
-  },
-  "Cuckoo Art": {
-    "message": "Cuckoo Sanatı",
-    "description": "Cuckoo Art Box Title"
-  },
-  "Discover AI arts created in our network.": {
-    "message": "Ağımızda oluşturulan AI sanatlarını keşfedin.",
-    "description": "Cuckoo Art Box Description"
-  },
-  "Karma Protocol": {
-    "message": "Karma Protokolü",
-    "description": "Karma Protocol Box Title"
-  },
-  "A revolutionary prediction market, driven by Community.": {
-    "message": "Topluluk tarafından yönlendirilen devrim niteliğinde bir tahmin pazarı.",
-    "description": "Karma Protocol Box Description"
-  },
-  "Cuckoo Github": {
-    "message": "Cuckoo Github",
-    "description": "Cuckoo Github Box Title"
-  },
-  "Fork us on Github for open-sourced decentralized AI platform.": {
-    "message": "Açık kaynaklı merkeziyetsiz AI platformu için Github'da bizi fork edin.",
-    "description": "Cuckoo Github Box Description"
-  },
-  "Cuckoo Node": {
-    "message": "Cuckoo Düğümü",
-    "description": "Cuckoo Node Box Title"
-  },
-  "Node for mining tokens, distributed with Docker images.": {
-    "message": "Docker görüntüleri ile dağıtılan token madenciliği düğümü.",
-    "description": "Cuckoo Node Box Description"
-  },
-  "Staking Portal": {
-    "message": "Staking Portalı",
-    "description": "Staking Portal Box Title"
-  },
-  "Stake your token to vote for Node operators you trust": {
-    "message": "Güvendiğiniz Düğüm operatörleri için oy kullanmak üzere tokenlarınızı stake edin",
-    "description": "Staking Portal Box Description"
-  },
-  "Introducing Cuckoo Network Airdrop Portal": {
-    "message": "Cuckoo Network Airdrop Portalını Tanıtıyoruz",
-    "description": "Home page hero section's news message"
-  },
-  "Learn More": {
-    "message": "Daha Fazla Bilgi Edinin",
-    "description": "Link text to learn more about Cuckoo Scan"
-  },
-  "Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "Yaratıcılar ve Yapıcılar İçin Merkeziyetsiz AI Yaratıcı Platformu",
-    "description": "Site tagline"
-  },
-  "Create AI Art": {
-    "message": "AI Sanatı Oluştur",
-    "description": "homepage's hero section's main action CTA"
-  },
-  "Earn": {
-    "message": "Kazanın",
-    "description": "homepage's hero section's secondary action CTA"
-  },
-  "Refreshing news from the community": {
-    "message": "Topluluktan taze haberler",
-    "description": "Title for the news section"
-  },
-  "Read more": {
-    "message": "Daha fazla oku",
-    "description": "Read more link text"
-  },
-  "How does it work?": {
-    "message": "Nasıl çalışır?",
-    "description": "Section header title"
-  },
-  "Cuckoo incentivizes GPU miners to serve AI models to generative App builders. We started with decentralized image generation but aim to expand our platform to support various AI models.": {
-    "message": "Cuckoo, GPU madencilerini AI modellerini üretici Uygulama geliştiricilerine sunmaları için teşvik eder. Merkeziyetsiz görüntü oluşturma ile başladık ancak platformumuzu çeşitli AI modellerini destekleyecek şekilde genişletmeyi hedefliyoruz.",
-    "description": "Section header description"
-  },
-  "Establish Trust": {
-    "message": "Güven Oluştur",
-    "description": "Trust step title"
-  },
-  "GPU miners, developers, and stakers {stakingLink} with blockchain smart contracts to establish trust.": {
-    "message": "GPU madencileri, geliştiriciler ve stakerlar, blockchain akıllı sözleşmeleri ile {stakingLink} güven oluşturur.",
-    "description": "Trust step description"
-  },
-  "stake and vote": {
-    "message": "stake ve oy kullan",
-    "description": "Link text"
-  },
-  "Mine and Earn": {
-    "message": "Madencilik Yap ve Kazan",
-    "description": "Tasks & Rewards step title"
-  },
-  "Gen AI Apps assign tasks to GPU miners via the Cuckoo AI node, with daily ERC20 payments based on results.": {
-    "message": "Gen AI Uygulamaları, Cuckoo AI düğümü aracılığıyla GPU madencilerine görevler atar ve sonuçlara dayalı olarak günlük ERC20 ödemeleri yapar.",
-    "description": "Tasks & Rewards step description"
-  },
-  "Modular AI": {
-    "message": "Modüler AI",
-    "description": "Modular Support step title"
-  },
-  "Our modular components ensure that AI remains accessible, transparent, anti-censorship, and privacy-preserving.": {
-    "message": "Modüler bileşenlerimiz, AI'nin erişilebilir, şeffaf, sansür karşıtı ve gizliliği koruyan bir yapıda kalmasını sağlar.",
-    "description": "Modular Support step description"
-  },
-  "From AI builders to consumers, we got you covered.": {
-    "message": "AI geliştiricilerinden tüketicilere kadar, sizi kapsıyoruz.",
-    "description": "section title for target customers"
-  },
-  "Features 02": {
-    "message": "Özellikler 02",
-    "description": "Alt text for the image"
-  },
-  "Get rewarded by contributing to Gen AI": {
-    "message": "Gen AI'ye katkıda bulunarak ödüller kazanın"
-  },
-  "For AI Consumers": {
-    "message": "AI Tüketicileri İçin"
-  },
-  "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.": {
-    "message": "Ekosisteme katkıda bulunarak veya Cuckoo Pay kullanarak çeşitli AI uygulamalarına ücretsiz erişin. Bir uygulama engellenirse, merkeziyetsiz ağ içinde sorunsuz bir şekilde başka bir koordinatöre geçin."
-  },
-  "For App Builders/Coordinators": {
-    "message": "Uygulama Geliştiricileri/Koordinatörler İçin"
-  },
-  "Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.": {
-    "message": "Bir koordinatör düğümü çalıştırın, ağa katılmak için stake yapın ve staking ödülleri kazanın. GPU maliyetlerini azaltın, müşteri tabanınızı genişletin, GPU madencilerine görevler atayın, sonuçları doğrulayın ve ödemeleri dağıtın."
-  },
-  "For GPU Miners": {
-    "message": "GPU Madencileri İçin"
-  },
-  "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.": {
-    "message": "Bir madenci düğümü çalıştırın, ağa katılmak için stake yapın ve staking ödülleri kazanın. GPU kaynaklarınızı paylaşın, atanan görevleri tamamlayın ve güvenilir hizmet sağlayarak token kazanın."
+    "description": "Bülten iframe için başlık"
   },
   "It's time to join the thousands of creators, artists, and developers using Cuckoo Chain": {
-    "message": "Cuckoo Zinciri kullanan binlerce yaratıcı, sanatçı ve geliştiriciye katılma zamanı",
-    "description": "CTA section main title"
+    "message": "Cuckoo Chain'i kullanan binlerce yaratıcı, sanatçı ve geliştiriciye katılma zamanı",
+    "description": "CTA bölüm ana başlığı"
   },
   "Explore Chain": {
     "message": "Zinciri Keşfet",
-    "description": "Button label to explore the Cuckoo Chain"
+    "description": "Cuckoo Chain'i keşfetmek için buton etiketi"
   },
   "Read Docs": {
-    "message": "Dokümanları Oku",
-    "description": "Button label to read the Cuckoo Chain documentation"
+    "message": "Belgeleri Oku",
+    "description": "Cuckoo Chain belgelerini okumak için buton etiketi"
   },
   "FAQs": {
     "message": "SSS",
-    "description": "FAQs section title"
+    "description": "SSS bölüm başlığı"
   },
   "What is Cuckoo Chain?": {
-    "message": "Cuckoo Zinciri nedir?",
-    "description": "Question: What is Cuckoo Chain?"
+    "message": "Cuckoo Chain nedir?",
+    "description": "Soru: Cuckoo Chain nedir?"
   },
   "Cuckoo Chain is a blockchain platform designed specifically for AI applications, operating as an Arbitrum L2 within the Ethereum ecosystem. It offers a streamlined AI developer experience with enhanced speed and efficiency.": {
-    "message": "Cuckoo Zinciri, özellikle AI uygulamaları için tasarlanmış bir blockchain platformudur ve Ethereum ekosisteminde bir Arbitrum L2 olarak çalışır. Gelişmiş hız ve verimlilik ile sadeleştirilmiş bir AI geliştirici deneyimi sunar.",
-    "description": "Answer: What is Cuckoo Chain?"
+    "message": "Cuckoo Chain, AI uygulamaları için özel olarak tasarlanmış bir blockchain platformudur ve Ethereum ekosisteminde bir Arbitrum L2 olarak çalışmaktadır. Geliştirilmiş hız ve verimlilik ile akıcı bir AI geliştirici deneyimi sunmaktadır.",
+    "description": "Cevap: Cuckoo Chain nedir?"
   },
   "How does Cuckoo Chain integrate with the Ethereum ecosystem?": {
-    "message": "Cuckoo Zinciri Ethereum ekosistemi ile nasıl entegre olur?",
-    "description": "Question: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
+    "message": "Cuckoo Chain, Ethereum ekosistemiyle nasıl entegre oluyor?",
+    "description": "Soru: Cuckoo Chain, Ethereum ekosistemiyle nasıl entegre oluyor?"
   },
   "Cuckoo Chain functions as an Arbitrum Layer 2 solution, which means it inherits the security and decentralization of Ethereum while providing faster and cheaper transactions. This integration ensures seamless interoperability with the Ethereum network.": {
-    "message": "Cuckoo Zinciri, bir Arbitrum Katman 2 çözümü olarak çalışır, yani Ethereum'un güvenliği ve merkeziyetsizliğini miras alırken daha hızlı ve ucuz işlemler sağlar. Bu entegrasyon, Ethereum ağı ile sorunsuz birlikte çalışabilirliği garanti eder.",
-    "description": "Answer: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
+    "message": "Cuckoo Chain, Ethereum'un güvenliğini ve merkeziyetsizliğini miras alırken daha hızlı ve daha ucuz işlemler sunan bir Arbitrum Layer 2 çözümü olarak çalışmaktadır. Bu entegrasyon, Ethereum ağıyla kesintisiz bir birlikte çalışabilirlik sağlar.",
+    "description": "Cevap: Cuckoo Chain, Ethereum ekosistemiyle nasıl entegre oluyor?"
   },
   "What are the main benefits of using Cuckoo Chain for AI development?": {
-    "message": "AI geliştirme için Cuckoo Zinciri kullanmanın ana faydaları nelerdir?",
-    "description": "Question: What are the main benefits of using Cuckoo Chain for AI development?"
+    "message": "Cuckoo Chain'i AI geliştirme için kullanmanın ana faydaları nelerdir?",
+    "description": "Soru: Cuckoo Chain'i AI geliştirme için kullanmanın ana faydaları nelerdir?"
   },
   "Cuckoo Chain offers unparalleled speed, efficiency, and scalability for AI development. It reduces transaction costs, accelerates processing times, and provides a robust infrastructure for deploying AI solutions on the blockchain.": {
-    "message": "Cuckoo Zinciri, AI geliştirme için benzersiz hız, verimlilik ve ölçeklenebilirlik sunar. İşlem maliyetlerini azaltır, işlem sürelerini hızlandırır ve blockchain üzerinde AI çözümlerini dağıtmak için sağlam bir altyapı sağlar.",
-    "description": "Answer: What are the main benefits of using Cuckoo Chain for AI development?"
+    "message": "Cuckoo Chain, AI geliştirme için eşsiz hız, verimlilik ve ölçeklenebilirlik sunmaktadır. İşlem maliyetlerini azaltır, işleme sürelerini hızlandırır ve blockchain üzerinde AI çözümlerini dağıtmak için sağlam bir altyapı sağlar.",
+    "description": "Cevap: Cuckoo Chain'i AI geliştirme için kullanmanın ana faydaları nelerdir?"
   },
   "How can I get started with Cuckoo Chain?": {
-    "message": "Cuckoo Zinciri ile nasıl başlayabilirim?",
-    "description": "Question: How can I get started with Cuckoo Chain?"
+    "message": "Cuckoo Chain ile nasıl başlayabilirim?",
+    "description": "Soru: Cuckoo Chain ile nasıl başlayabilirim?"
   },
   "Getting started with Cuckoo Chain is simple. Visit our {gettingStartedGuide} for step-by-step instructions on setting up your account,\n                  integrating your applications, and deploying your first AI\n                  models on the platform.": {
-    "message": "Cuckoo Zinciri ile başlamak basittir. Hesabınızı kurma, uygulamalarınızı entegre etme ve platformda ilk AI modellerinizi dağıtma konusunda adım adım talimatlar için {gettingStartedGuide} adresini ziyaret edin.",
-    "description": "Answer: How can I get started with Cuckoo Chain?"
+    "message": "Cuckoo Chain ile başlamak basittir. Hesabınızı ayarlamak, uygulamalarınızı entegre etmek ve platformda ilk AI modellerinizi dağıtmak için adım adım talimatlar için {gettingStartedGuide} adresini ziyaret edin.",
+    "description": "Cevap: Cuckoo Chain ile nasıl başlayabilirim?"
   },
   "Getting Started Guide": {
-    "message": "Başlangıç Kılavuzu",
-    "description": "Link text for Getting Started Guide"
+    "message": "Başlarken Kılavuzu",
+    "description": "Başlarken Kılavuzu için bağlantı metni"
   },
   "What are some real-world use cases for Cuckoo Chain?": {
-    "message": "Cuckoo Zinciri için bazı gerçek dünya kullanım durumları nelerdir?",
-    "description": "Question: What are some real-world use cases for Cuckoo Chain?"
+    "message": "Cuckoo Chain için bazı gerçek dünya kullanım durumları nelerdir?",
+    "description": "Soru: Cuckoo Chain için bazı gerçek dünya kullanım durumları nelerdir?"
   },
   "Cuckoo Chain can be used in various scenarios, including decentralized AI model inference, secure data sharing, and AI-powered decentralized applications (dApps). Our platform supports diverse industries such as finance, healthcare, and supply chain management.": {
-    "message": "Cuckoo Zinciri, merkeziyetsiz AI model çıkarımı, güvenli veri paylaşımı ve AI destekli merkeziyetsiz uygulamalar (dApps) dahil olmak üzere çeşitli senaryolarda kullanılabilir. Platformumuz, finans, sağlık ve tedarik zinciri yönetimi gibi çeşitli endüstrileri destekler.",
-    "description": "Answer: What are some real-world use cases for Cuckoo Chain?"
+    "message": "Cuckoo Chain, merkezi olmayan AI model çıkarımı, güvenli veri paylaşımı ve AI destekli merkezi olmayan uygulamalar (dApp'ler) gibi çeşitli senaryolarda kullanılabilir. Platformumuz, finans, sağlık hizmetleri ve tedarik zinciri yönetimi gibi çeşitli endüstrileri desteklemektedir.",
+    "description": "Cevap: Cuckoo Chain için bazı gerçek dünya kullanım durumları nelerdir?"
   },
   "Where can I find support and additional resources?": {
     "message": "Destek ve ek kaynakları nerede bulabilirim?",
-    "description": "Question: Where can I find support and additional resources?"
+    "description": "Soru: Destek ve ek kaynakları nerede bulabilirim?"
   },
   "For support and additional resources, visit our {helpCenter} or join our community on {discord} and {telegram}. Our\n                  comprehensive documentation, tutorials, and active community\n                  are here to assist you with any questions or challenges you\n                  might encounter.": {
-    "message": "Destek ve ek kaynaklar için {helpCenter} adresini ziyaret edin veya {discord} ve {telegram} topluluğumuza katılın. Kapsamlı dokümantasyonumuz, eğitimlerimiz ve aktif topluluğumuz, karşılaşabileceğiniz herhangi bir soru veya zorlukta size yardımcı olmak için burada.",
-    "description": "Answer: Where can I find support and additional resources?"
+    "message": "Destek ve ek kaynaklar için {helpCenter} adresini ziyaret edin veya {discord} ve {telegram} üzerindeki topluluğumuza katılın. Kapsamlı belgelerimiz, eğitimlerimiz ve aktif topluluğumuz, karşılaşabileceğiniz her türlü soru veya zorlukta size yardımcı olmak için burada.",
+    "description": "Cevap: Destek ve ek kaynakları nerede bulabilirim?"
   },
   "Help Center": {
     "message": "Yardım Merkezi",
-    "description": "Link text for Help Center"
+    "description": "Yardım Merkezi için bağlantı metni"
   },
   "Discord": {
     "message": "Discord",
-    "description": "Link text for Discord"
+    "description": "Discord için bağlantı metni"
   },
   "Telegram": {
     "message": "Telegram",
-    "description": "Link text for Telegram"
+    "description": "Telegram için bağlantı metni"
   },
   "Illustration": {
     "message": "İllüstrasyon",
-    "description": "Illustration"
+    "description": "İllüstrasyon alternatif metni"
+  },
+  "Many tools to decentralized AI with Cuckoo Chain": {
+    "message": "Cuckoo Chain ile merkezi olmayan AI için birçok araç",
+    "description": "Bölüm başlığı"
+  },
+  "The best resources for building an end-to-end Cuckoo Chain dApp.": {
+    "message": "Uçtan uca Cuckoo Chain dApp oluşturmak için en iyi kaynaklar.",
+    "description": "Bölüm başlığı açıklaması"
+  },
+  "Icon 01": {
+    "message": "Simge 01",
+    "description": "Simge 01 alternatif metni"
+  },
+  "Cuckoo Network Bridge": {
+    "message": "Cuckoo Network Köprüsü",
+    "description": "Cuckoo Network Köprüsü başlığı"
+  },
+  "Transfer assets seamlessly across Arbitrum One and Cuckoo Chain with minimal fees and secure transactions.": {
+    "message": "Arbitrum One ve Cuckoo Chain arasında minimum ücretlerle ve güvenli işlemlerle varlıkları sorunsuz bir şekilde transfer edin.",
+    "description": "Cuckoo Network Köprüsü açıklaması"
+  },
+  "Learn More": {
+    "message": "Daha Fazla Öğren",
+    "description": "Cuckoo Scan hakkında daha fazla bilgi edinmek için bağlantı metni"
+  },
+  "Icon 02": {
+    "message": "Simge 02",
+    "description": "Simge 02 alternatif metni"
+  },
+  "Thirdweb": {
+    "message": "Thirdweb",
+    "description": "Thirdweb başlığı"
+  },
+  "Full-stack, open-source web3 development platform. Fullstack tools to build complete web3 apps.": {
+    "message": "Tam yığın, açık kaynak web3 geliştirme platformu. Tam yığın araçlar, eksiksiz web3 uygulamaları oluşturmak için.",
+    "description": "Thirdweb açıklaması"
+  },
+  "Icon 03": {
+    "message": "Simge 03",
+    "description": "Simge 03 alternatif metni"
+  },
+  "ChainList": {
+    "message": "ChainList",
+    "description": "ChainList başlığı"
+  },
+  "ChainList is a list of EVM networks. Users can use the info to connect their wallets and Web3 middleware providers.": {
+    "message": "ChainList, EVM ağlarının bir listesidir. Kullanıcılar, cüzdanlarını ve Web3 ara katman sağlayıcılarını bağlamak için bu bilgiyi kullanabilir.",
+    "description": "ChainList açıklaması"
+  },
+  "Icon 04": {
+    "message": "Simge 04",
+    "description": "Simge 04 alternatif metni"
+  },
+  "Cuckoo Scan": {
+    "message": "Cuckoo Scan",
+    "description": "Cuckoo Scan başlığı"
+  },
+  "Blockchain explorer to inspect Cuckoo Chain transactions, tokens, and coins. RESTful and GraphQL API available.": {
+    "message": "Cuckoo Chain işlemlerini, tokenlerini ve coinlerini incelemek için blockchain gezgini. RESTful ve GraphQL API mevcuttur.",
+    "description": "Cuckoo Scan açıklaması"
+  },
+  "Previous": {
+    "message": "Önceki",
+    "description": "Önceki butonu için ARIA etiketi"
+  },
+  "Next": {
+    "message": "Sonraki",
+    "description": "Sonraki butonu için ARIA etiketi"
+  },
+  "Transforming AI with Blockchain Technology": {
+    "message": "Blockchain Teknolojisi ile AI'yi Dönüştürmek",
+    "description": "Kahraman bölüm ana başlığı"
+  },
+  "Cuckoo Chain, an Arbitrum L2 in the Ethereum ecosystem, revolutionizes AI development with unmatched speed, efficiency, and scalability. Perfect for Web3 + AI innovators.": {
+    "message": "Cuckoo Chain, Ethereum ekosisteminde bir Arbitrum L2 olarak, eşsiz hız, verimlilik ve ölçeklenebilirlik ile AI geliştirmeyi devrim niteliğinde değiştiriyor. Web3 + AI yenilikçileri için mükemmel.",
+    "description": "Cuckoo Chain ve AI geliştirmedeki rolü hakkında kahraman bölüm açıklaması"
+  },
+  "Pricing Illustration": {
+    "message": "Fiyatlandırma İllüstrasyonu",
+    "description": "Fiyatlandırma bölümünün illüstrasyonu için alternatif metin"
+  },
+  "Fundamentally Aligned with Ethereum": {
+    "message": "Ethereum ile Temel Olarak Uyumlu",
+    "description": "Fiyatlandırma bölümü için başlık"
+  },
+  "But optimized for performance and on-chain AI": {
+    "message": "Ama performans ve zincir üzerindeki AI için optimize edildi",
+    "description": "Fiyatlandırma bölümü için açıklama"
+  },
+  "Monthly": {
+    "message": "Aylık",
+    "description": "Aylık ödeme seçeneği için etiket"
+  },
+  "Pay annually": {
+    "message": "Yıllık ödeme yap",
+    "description": "Yıllık ödeme yapmak için geçiş yapma ekran okuyucu etiketi"
+  },
+  "Yearly": {
+    "message": "Yıllık",
+    "description": "Yıllık ödeme seçeneği için etiket"
+  },
+  "Infra": {
+    "message": "Altyapı",
+    "description": "Mobil görünümde altyapı bölümü etiketi"
+  },
+  "Max Theoretical TPS": {
+    "message": "Maksimum Teorik TPS",
+    "description": "Mobil görünümde maksimum teorik işlem sayısı etiketi"
+  },
+  "Fastest Block Time": {
+    "message": "En Hızlı Blok Süresi",
+    "description": "Mobil görünümde en hızlı blok süresi etiketi"
+  },
+  "Governance Model": {
+    "message": "Yönetim Modeli",
+    "description": "Mobil görünümde yönetim modeli etiketi"
+  },
+  "Features": {
+    "message": "Özellikler",
+    "description": "Mobil görünümde özellikler bölümü etiketi"
+  },
+  "Avg. Gas Price": {
+    "message": "Ortalama Gaz Fiyatı",
+    "description": "Mobil görünümde ortalama gaz fiyatı etiketi"
+  },
+  "EVM Compatible": {
+    "message": "EVM Uyumlu",
+    "description": "Mobil görünümde EVM uyumluluğu etiketi"
+  },
+  "Decentralized Ledger": {
+    "message": "Merkezi Olmayan Defter",
+    "description": "Mobil görünümde merkezi olmayan defter etiketi"
+  },
+  "\"Cuckoo Chain revolutionized our AI development with unmatched speed and efficiency. It's a game-changer for any AI-driven blockchain enterprise.\"": {
+    "message": "\"Cuckoo Chain, AI geliştirmemizi eşsiz hız ve verimlilik ile devrim niteliğinde değiştirdi. AI destekli herhangi bir blockchain işletmesi için bir oyun değiştirici.\"",
+    "description": "İlk referans metni"
+  },
+  "Aaliyah Baker": {
+    "message": "Aaliyah Baker",
+    "description": "İlk referans yazar adı"
+  },
+  "DApper OS": {
+    "message": "DApper OS",
+    "description": "İlk referans yazar şirketi"
+  },
+  "\"Integrating Cuckoo Chain was seamless. The performance boost and compatibility with Ethereum are phenomenal.\"": {
+    "message": "\"Cuckoo Chain'i entegre etmek sorunsuzdu. Performans artışı ve Ethereum ile uyumluluk harika.\"",
+    "description": "İkinci referans metni"
+  },
+  "Sloan Seaman": {
+    "message": "Sloan Seaman",
+    "description": "İkinci referans yazar adı"
+  },
+  "Coupang": {
+    "message": "Coupang",
+    "description": "İkinci referans yazar şirketi"
+  },
+  "\"Cuckoo Chain empowered us to create fast, secure decentralized AI apps. The support team is invaluable.\"": {
+    "message": "\"Cuckoo Chain, hızlı, güvenli merkezi olmayan AI uygulamaları oluşturmamıza olanak tanıdı. Destek ekibi paha biçilmez.\"",
+    "description": "Üçüncü referans metni"
+  },
+  "Christine Dejoux": {
+    "message": "Christine Dejoux",
+    "description": "Üçüncü referans yazar adı"
+  },
+  "Glocomms": {
+    "message": "Glocomms",
+    "description": "Üçüncü referans yazar şirketi"
+  },
+  "Experience Decentralized AI Model-Serving": {
+    "message": "Merkezi Olmayan AI Model Hizmeti Deneyimi"
+  },
+  "Generate image now with Cuckoo Bot": {
+    "message": "Cuckoo Bot ile şimdi görüntü oluştur"
+  },
+  "Explore": {
+    "message": "Keşfet",
+    "description": "ana sayfanın kahraman bölümünün ikincil eylem CTA'sı"
+  },
+  "Experience Decentralized AI Now": {
+    "message": "Şimdi Merkezi Olmayan AI Deneyimi",
+    "description": "Bölüm başlığı"
+  },
+  "For AI Enthusiasts": {
+    "message": "AI Tutkunları için",
+    "description": "AI Tutkunları için buton etiketi"
+  },
+  "For Developers": {
+    "message": "Geliştiriciler için",
+    "description": "Geliştiriciler için buton etiketi"
+  },
+  "For Miners": {
+    "message": "Madenciler için",
+    "description": "Madenciler için buton etiketi"
+  },
+  "For Token Holders": {
+    "message": "Token Sahipleri için",
+    "description": "Token Sahipleri için buton etiketi"
+  },
+  "Cuckoo Telegram": {
+    "message": "Cuckoo Telegram",
+    "description": "Telegram Kutusu Başlığı"
+  },
+  "A telegram bot for texting to image and manage your CAI tokens.": {
+    "message": "Görüntüye metin göndermek ve CAI tokenlerinizi yönetmek için bir telegram botu.",
+    "description": "Telegram Kutusu Açıklaması"
+  },
+  "Cuckoo Discord": {
+    "message": "Cuckoo Discord",
+    "description": "Discord Kutusu Başlığı"
+  },
+  "A discord bot for texting to image and manage your CAI tokens.": {
+    "message": "Görüntüye metin göndermek ve CAI tokenlerinizi yönetmek için bir discord botu.",
+    "description": "Discord Kutusu Açıklaması"
+  },
+  "Neon Medium": {
+    "message": "Neon Medium",
+    "description": "Medium Kutusu Başlığı"
+  },
+  "BlockEden.xyz": {
+    "message": "BlockEden.xyz",
+    "description": "BlockEden Kutusu Başlığı"
+  },
+  "RPC node, API marketplace, and staking infrastructure.": {
+    "message": "RPC düğümü, API pazarı ve staking altyapısı.",
+    "description": "BlockEden Kutusu Açıklaması"
+  },
+  "Cuckoo Art": {
+    "message": "Cuckoo Art",
+    "description": "Cuckoo Art Kutusu Başlığı"
+  },
+  "Discover AI arts created in our network.": {
+    "message": "Ağımızda oluşturulan AI sanatlarını keşfedin.",
+    "description": "Cuckoo Art Kutusu Açıklaması"
+  },
+  "Karma Protocol": {
+    "message": "Karma Protokolü",
+    "description": "Karma Protokolü Kutusu Başlığı"
+  },
+  "A revolutionary prediction market, driven by Community.": {
+    "message": "Topluluk tarafından yönlendirilen devrim niteliğinde bir tahmin pazarı.",
+    "description": "Karma Protokolü Kutusu Açıklaması"
+  },
+  "Cuckoo Github": {
+    "message": "Cuckoo Github",
+    "description": "Cuckoo Github Kutusu Başlığı"
+  },
+  "Fork us on Github for open-sourced decentralized AI platform.": {
+    "message": "Açık kaynaklı merkezi olmayan AI platformu için Github'da çatallayın.",
+    "description": "Cuckoo Github Kutusu Açıklaması"
+  },
+  "Cuckoo Node": {
+    "message": "Cuckoo Düğümü",
+    "description": "Cuckoo Düğümü Kutusu Başlığı"
+  },
+  "Node for mining tokens, distributed with Docker images.": {
+    "message": "Token madenciliği için düğüm, Docker görüntüleri ile dağıtılır.",
+    "description": "Cuckoo Düğümü Kutusu Açıklaması"
+  },
+  "Staking Portal": {
+    "message": "Staking Portalı",
+    "description": "Staking Portalı Kutusu Başlığı"
+  },
+  "Stake your token to vote for Node operators you trust": {
+    "message": "Güvendiğiniz Düğüm operatörleri için oy vermek üzere tokeninizi stake edin",
+    "description": "Staking Portalı Kutusu Açıklaması"
+  },
+  "Introducing Cuckoo Network Airdrop Portal": {
+    "message": "Cuckoo Network Airdrop Portalını Tanıtıyoruz",
+    "description": "Ana sayfa kahraman bölümünün haber mesajı"
+  },
+  "Decentralized AI Creative Platform for Creators & Builders": {
+    "message": "Yaratıcılar ve Geliştiriciler için Merkezi Olmayan AI Yaratıcı Platformu",
+    "description": "Site sloganı"
+  },
+  "Create AI Art": {
+    "message": "AI Sanatı Oluştur",
+    "description": "ana sayfanın kahraman bölümünün ana eylem CTA'sı"
+  },
+  "Earn": {
+    "message": "Kazanç",
+    "description": "ana sayfanın kahraman bölümünün ikincil eylem CTA'sı"
+  },
+  "Refreshing news from the community": {
+    "message": "Topluluktan taze haberler",
+    "description": "Haberler bölümü için başlık"
+  },
+  "Read more": {
+    "message": "Daha fazla oku",
+    "description": "Daha fazla oku bağlantı metni"
+  },
+  "How does it work?": {
+    "message": "Nasıl çalışır?",
+    "description": "Bölüm başlığı"
+  },
+  "Cuckoo incentivizes GPU miners to serve AI models to generative App builders. We started with decentralized image generation but aim to expand our platform to support various AI models.": {
+    "message": "Cuckoo, GPU madencilerini AI modellerini üretken uygulama geliştiricilerine sunmaya teşvik ediyor. Merkezi olmayan görüntü üretimi ile başladık ancak platformumuzu çeşitli AI modellerini destekleyecek şekilde genişletmeyi hedefliyoruz.",
+    "description": "Bölüm başlığı açıklaması"
+  },
+  "Establish Trust": {
+    "message": "Güveni Kur",
+    "description": "Güven adımı başlığı"
+  },
+  "GPU miners, developers, and stakers {stakingLink} with blockchain smart contracts to establish trust.": {
+    "message": "GPU madencileri, geliştiriciler ve stakerlar, güveni sağlamak için blockchain akıllı sözleşmeleri ile {stakingLink}.",
+    "description": "Güven adımı açıklaması"
+  },
+  "stake and vote": {
+    "message": "stake ve oy ver",
+    "description": "Bağlantı metni"
+  },
+  "Mine and Earn": {
+    "message": "Madencilik Yap ve Kazan",
+    "description": "Görevler ve Ödüller adımı başlığı"
+  },
+  "Gen AI Apps assign tasks to GPU miners via the Cuckoo AI node, with daily ERC20 payments based on results.": {
+    "message": "Gen AI Uygulamaları, GPU madencilerine Cuckoo AI düğümü aracılığıyla görevler atar ve sonuçlara dayalı günlük ERC20 ödemeleri yapar.",
+    "description": "Görevler ve Ödüller adımı açıklaması"
+  },
+  "Modular AI": {
+    "message": "Modüler AI",
+    "description": "Modüler Destek adımı başlığı"
+  },
+  "Our modular components ensure that AI remains accessible, transparent, anti-censorship, and privacy-preserving.": {
+    "message": "Modüler bileşenlerimiz, AI'nın erişilebilir, şeffaf, sansüre karşı ve gizliliği koruyacak şekilde kalmasını sağlar.",
+    "description": "Modüler Destek adımı açıklaması"
+  },
+  "From AI builders to consumers, we got you covered.": {
+    "message": "AI geliştiricilerinden tüketicilere, sizi kapsıyoruz.",
+    "description": "Hedef müşteriler için bölüm başlığı"
+  },
+  "Features 02": {
+    "message": "Özellikler 02",
+    "description": "Resim için alternatif metin"
+  },
+  "Get rewarded by contributing to Gen AI": {
+    "message": "Gen AI'ye katkıda bulunarak ödüller kazanın",
+    "description": "Ne yapmanız gerektiğini açıklayan bir kart açıklaması"
+  },
+  "For AI Consumers": {
+    "message": "AI Tüketicileri için",
+    "description": "Bir kullanıcı grubu için kart başlığı"
+  },
+  "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.": {
+    "message": "Ekosisteme katkıda bulunarak veya Cuckoo Pay kullanarak ücretsiz olarak çeşitli AI uygulamalarına erişin. Bir uygulama engellenirse, merkezi olmayan ağ içinde başka bir koordinatöre sorunsuz bir şekilde geçiş yapın.",
+    "description": "Ne yapmanız gerektiğini açıklayan bir kart açıklaması"
+  },
+  "For App Builders/Coordinators": {
+    "message": "Uygulama Geliştiricileri/Koordinatörler için"
+  },
+  "Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.": {
+    "message": "Bir koordinatör düğümü çalıştırın, ağa katılmak için stake edin ve staking ödülleri kazanın. GPU maliyetlerini azaltın, müşteri tabanınızı genişletin, GPU madencilerine görevler atayın, sonuçları doğrulayın ve ödemeleri dağıtın.",
+    "description": "Ne yapmanız gerektiğini açıklayan bir kart açıklaması"
+  },
+  "For GPU Miners": {
+    "message": "GPU Madencileri için",
+    "description": "Belirli bir kullanıcı grubu için kart açıklaması"
+  },
+  "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.": {
+    "message": "Bir madenci düğümü çalıştırın, ağa katılmak için stake edin ve staking ödülleri kazanın. GPU kaynaklarınızı paylaşın, atanan görevleri tamamlayın ve token kazanmak için güvenilir hizmet sağlayın.",
+    "description": "Ne yapmanız gerektiğini açıklayan bir kart açıklaması"
+  },
+  "footer.aboutTitle": {
+    "message": "Cuckoo AI Hakkında"
+  },
+  "footer.aboutDescription": {
+    "message": "Cuckoo Network, merkeziyetsizlik yoluyla AI altyapısını devrim niteliğinde değiştiriyor. Arbitrum ve Ethereum üzerinde inşa edilmiş öncü bir blockchain platformu olarak, GPU madencilerini, geliştiricileri ve AI tutkunlarını adil, şeffaf bir ekosisteme katılmaya teşvik ediyoruz. Ağımız, Cuckoo Chain aracılığıyla maliyet etkin AI model hizmeti, güvenli işlemler ve $CAI tokeni ile topluluk odaklı büyüme sağlıyor."
+  },
+  "footer.subscribeTitle": {
+    "message": "Bugün güncel kalın"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 öğe|{count} öğe",
+    "description": "Bu kategorinin kaç öğe içerdiği hakkında oluşturulan dizin için varsayılan açıklama"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "Bir blog yazarının sayfasının başlığı"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Yazarlar",
+    "description": "Yazarlar sayfasının başlığı"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "Tüm yazarları görüntüle",
+    "description": "Blog yazarları sayfasına yönlendiren bağlantının etiketi"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Listelenmemiş sayfa",
+    "description": "Listelenmemiş içerik banner başlığı"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Bu sayfa listelenmemiştir. Arama motorları bunu dizine almayacak ve yalnızca doğrudan bağlantıya sahip kullanıcılar erişebilir.",
+    "description": "Listelenmemiş içerik banner mesajı"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Taslak sayfa",
+    "description": "Taslak içerik banner başlığı"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "Bu sayfa bir taslaktır. Sadece geliştirme ortamında görünür ve üretim derlemesinden hariç tutulur.",
+    "description": "Taslak içerik banner mesajı"
   }
 }

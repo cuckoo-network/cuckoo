@@ -416,7 +416,7 @@
   },
   "Learn More": {
     "message": "Learn More",
-    "description": "Home page hero section's news message's CTA"
+    "description": "Link text to learn more about Cuckoo Scan"
   },
   "Icon 02": {
     "message": "Icon 02",
@@ -729,13 +729,16 @@
     "description": "Alt text for the image"
   },
   "Get rewarded by contributing to Gen AI": {
-    "message": "Get rewarded by contributing to Gen AI"
+    "message": "Get rewarded by contributing to Gen AI",
+    "description": "a card description to explain what to do"
   },
   "For AI Consumers": {
-    "message": "For AI Consumers"
+    "message": "For AI Consumers",
+    "description": "a card title for a group of user"
   },
   "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.": {
-    "message": "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network."
+    "message": "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.",
+    "description": "a card description to explain what to do"
   },
   "For App Builders/Coordinators": {
     "message": "For App Builders/Coordinators"
@@ -744,9 +747,52 @@
     "message": "Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments."
   },
   "For GPU Miners": {
-    "message": "For GPU Miners"
+    "message": "For GPU Miners",
+    "description": "a card description to a specific user group"
   },
   "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.": {
-    "message": "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens."
+    "message": "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.",
+    "description": "a card description to explain what to do"
+  },
+  "footer.aboutTitle": {
+    "message": "About Cuckoo AI"
+  },
+  "footer.aboutDescription": {
+    "message": "Cuckoo Network is revolutionizing AI infrastructure through decentralization. As a pioneering blockchain platform built on Arbitrum and Ethereum, we empower GPU miners, developers, and AI enthusiasts to participate in a fair, transparent ecosystem. Our network enables cost-effective AI model serving, secure transactions through Cuckoo Chain, and community-driven growth through the $CAI token."
+  },
+  "footer.subscribeTitle": {
+    "message": "Stay up to date today"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 item|{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View all authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
   }
 }

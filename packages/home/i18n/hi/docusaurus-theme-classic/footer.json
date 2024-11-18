@@ -131,10 +131,6 @@
     "message": "कुकू कला",
     "description": "The label of footer link with label=Cuckoo Art linking to https://cuckoo.network/portal/art"
   },
-  "copyright": {
-    "message": "कॉपीराइट © 2024 कुकू",
-    "description": "The footer copyright"
-  },
   "logo.alt": {
     "message": "BlockEden.xyz",
     "description": "The alt text of footer logo"

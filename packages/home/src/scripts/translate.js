@@ -38,9 +38,11 @@ async function translateText(text, locale) {
           {
             role: "user",
             content: `[no prose]
+Do not wrap response with code block.
+
 I want you to act as a SaaS copywriter, Web3 expert, and professional website translator. Please translate the following text into ${locale}. Ensure proper spacing between symbols and text in the translated content.
 
-- **For JSON files**: Only translate the 'message' field. Keep the keys and descriptions unchanged.
+- **For JSON files**: Only translate the 'message' field. Keep the keys and descriptions unchanged. Do not include "copyright" entry in the result.
 - **For Markdown files**: Translate the entire file but only modify metadata when necessary.
 
 Below is the content to translate:
@@ -62,9 +64,7 @@ ${text}
         },
       },
     );
-    const translatedText = stripJSONTags(
-      response.data.choices[0].message.content.trim(),
-    );
+    const translatedText = response.data.choices[0].message.content.trim();
     return translatedText;
   } catch (error) {
     console.error(

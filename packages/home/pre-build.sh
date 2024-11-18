@@ -4,7 +4,7 @@
 latest_hash=$(git rev-parse HEAD)
 
 # Get the latest commit date
-latest_date=$(git log -1 --format=%cd)
+latest_date=$(git log -1 --format=%cd --date=iso)
 
 # Create the JSON file
 cat <<EOF > src/latest-commit.json

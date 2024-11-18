@@ -89,3 +89,7 @@ blockquote {
 .pagination-nav__link--next .pagination-nav__label:after {
   content: " \2192"; /* Right arrow */
 }
+
+.footer__copyright {
+  font-size: 14px;
+}

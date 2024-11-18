@@ -1,297 +1,798 @@
 {
+  "theme.ErrorPageContent.title": {
+    "message": "यह पृष्ठ क्रैश हो गया।",
+    "description": "जब पृष्ठ क्रैश हो गया तो फॉलबैक पृष्ठ का शीर्षक"
+  },
+  "theme.blog.archive.title": {
+    "message": "आर्काइव",
+    "description": "ब्लॉग आर्काइव पृष्ठ का पृष्ठ और नायक शीर्षक"
+  },
+  "theme.blog.archive.description": {
+    "message": "आर्काइव",
+    "description": "ब्लॉग आर्काइव पृष्ठ का पृष्ठ और नायक विवरण"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "ऊपर स्क्रॉल करें",
+    "description": "ऊपर जाने के बटन के लिए ARIA लेबल"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "ब्लॉग सूची पृष्ठ नेविगेशन",
+    "description": "ब्लॉग पृष्ठांकन के लिए ARIA लेबल"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "नवीनतम प्रविष्टियाँ",
+    "description": "नवीन ब्लॉग पोस्ट पृष्ठ (पिछला पृष्ठ) पर जाने के लिए लेबल"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "पुरानी प्रविष्टियाँ",
+    "description": "पुरानी ब्लॉग पोस्ट पृष्ठ (अगला पृष्ठ) पर जाने के लिए लेबल"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "ब्लॉग पोस्ट पृष्ठ नेविगेशन",
+    "description": "ब्लॉग पोस्ट पृष्ठांकन के लिए ARIA लेबल"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "नवीनतम पोस्ट",
+    "description": "नवीनतम/पिछली पोस्ट पर जाने के लिए ब्लॉग पोस्ट बटन लेबल"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "पुरानी पोस्ट",
+    "description": "पुरानी/अगली पोस्ट पर जाने के लिए ब्लॉग पोस्ट बटन लेबल"
+  },
+  "theme.blog.post.plurals": {
+    "message": "एक पोस्ट|{count} पोस्ट",
+    "description": "\"{count} पोस्ट\" के लिए बहुवचनित लेबल। अपने भाषा समर्थन के अनुसार जितने भी बहुवचन रूप (\"|\") से अलग करें (देखें https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "\"{tagName}\" के साथ {nPosts} टैग किया गया",
+    "description": "ब्लॉग टैग के लिए पृष्ठ का शीर्षक"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "सभी टैग देखें",
+    "description": "टैग सूची पृष्ठ को लक्षित करने वाले लिंक का लेबल"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "अंधेरे और हल्के मोड के बीच स्विच करें (वर्तमान में {mode})",
+    "description": "नेविगेशन बार रंग मोड टॉगल के लिए ARIA लेबल"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "अंधेरा मोड",
+    "description": "अंधेरे रंग मोड का नाम"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "हल्का मोड",
+    "description": "हल्के रंग मोड का नाम"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "ब्रेडक्रंब",
+    "description": "ब्रेडक्रंब के लिए ARIA लेबल"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} आइटम",
+    "description": "निर्मित अनुक्रमणिका में श्रेणी कार्ड के लिए डिफ़ॉल्ट विवरण कि इस श्रेणी में कितने आइटम शामिल हैं"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "दस्तावेज़ पृष्ठ",
+    "description": "दस्तावेज़ पृष्ठांकन के लिए ARIA लेबल"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "पिछला",
+    "description": "पिछले दस्तावेज़ पर जाने के लिए लेबल"
+  },
+  "theme.docs.paginator.next": {
+    "message": "अगला",
+    "description": "अगले दस्तावेज़ पर जाने के लिए लेबल"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "संस्करण: {versionLabel}"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "एक दस्तावेज़ टैग किया गया|{count} दस्तावेज़ टैग किए गए",
+    "description": "\"{count} दस्तावेज़ टैग किए गए\" के लिए बहुवचनित लेबल। अपने भाषा समर्थन के अनुसार जितने भी बहुवचन रूप (\"|\") से अलग करें (देखें https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "\"{tagName}\" के साथ {nDocsTagged}",
+    "description": "दस्तावेज़ टैग के लिए पृष्ठ का शीर्षक"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "यह {siteTitle} {versionLabel} संस्करण के लिए अप्रकाशित दस्तावेज़ है।",
+    "description": "उपयोगकर्ता को बताने के लिए लेबल कि वह एक अप्रकाशित दस्तावेज़ संस्करण ब्राउज़ कर रहा है"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "यह {siteTitle} {versionLabel} के लिए दस्तावेज़ है, जिसे अब सक्रिय रूप से बनाए नहीं रखा गया है।",
+    "description": "उपयोगकर्ता को बताने के लिए लेबल कि वह एक अप्रबंधित दस्तावेज़ संस्करण ब्राउज़ कर रहा है"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "अप-टू-डेट दस्तावेज़ के लिए, {latestVersionLink} ({versionLabel}) देखें।",
+    "description": "उपयोगकर्ता को नवीनतम संस्करण की जांच करने के लिए बताने के लिए लेबल"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "नवीनतम संस्करण",
+    "description": "नवीनतम संस्करण सुझाव लिंक लेबल के लिए लेबल"
+  },
+  "theme.common.editThisPage": {
+    "message": "इस पृष्ठ को संपादित करें",
+    "description": "वर्तमान पृष्ठ को संपादित करने के लिए लिंक लेबल"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading} के लिए सीधा लिंक",
+    "description": "शीर्षक के लिए लिंक का शीर्षक"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " {date} को",
+    "description": "यह शब्द बताने के लिए कि किसी पृष्ठ को अंतिम बार किस तारीख को अपडेट किया गया था"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " {user} द्वारा",
+    "description": "यह शब्द बताने के लिए कि किसी पृष्ठ को अंतिम बार किसने अपडेट किया था"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "अंतिम बार अपडेट किया गया{atDate}{byUser}",
+    "description": "यह वाक्य बताने के लिए उपयोग किया जाता है कि किसी पृष्ठ को अंतिम बार कब अपडेट किया गया था, और किसने"
+  },
+  "theme.NotFound.title": {
+    "message": "पृष्ठ नहीं मिला",
+    "description": "404 पृष्ठ का शीर्षक"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "संस्करण",
+    "description": "मोबाइल दृश्य में नेविगेशन बार संस्करण ड्रॉपडाउन के लिए लेबल"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "टैग:",
+    "description": "टैग सूची के साथ लेबल"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "बंद करें",
+    "description": "घोषणा बार के बंद बटन के लिए ARIA लेबल"
+  },
+  "theme.admonition.caution": {
+    "message": "सावधानी",
+    "description": "सावधानी चेतावनी के लिए डिफ़ॉल्ट लेबल (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "खतरा",
+    "description": "खतरे की चेतावनी के लिए डिफ़ॉल्ट लेबल (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "जानकारी",
+    "description": "जानकारी चेतावनी के लिए डिफ़ॉल्ट लेबल (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "नोट",
+    "description": "नोट चेतावनी के लिए डिफ़ॉल्ट लेबल (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "टिप",
+    "description": "टिप चेतावनी के लिए डिफ़ॉल्ट लेबल (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "चेतावनी",
+    "description": "चेतावनी चेतावनी के लिए डिफ़ॉल्ट लेबल (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "ब्लॉग हालिया पोस्ट नेविगेशन",
+    "description": "ब्लॉग साइडबार में हालिया पोस्ट के लिए ARIA लेबल"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "कॉपी किया गया",
+    "description": "कोड ब्लॉक पर कॉपी किए गए बटन का लेबल"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "कोड को क्लिपबोर्ड पर कॉपी करें",
+    "description": "कोड ब्लॉक बटन को कॉपी करने के लिए ARIA लेबल"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "कॉपी करें",
+    "description": "कोड ब्लॉक पर कॉपी बटन का लेबल"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "शब्द लपेटने को टॉगल करें",
+    "description": "कोड ब्लॉक लाइनों के लिए शब्द लपेटने के बटन का शीर्षक विशेषता"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "'{label}' साइडबार श्रेणी का विस्तार करें",
+    "description": "साइडबार श्रेणी का विस्तार करने के लिए ARIA लेबल"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "'{label}' साइडबार श्रेणी को संकुचित करें",
+    "description": "साइडबार श्रेणी को संकुचित करने के लिए ARIA लेबल"
+  },
+  "theme.NotFound.p1": {
+    "message": "हम वह नहीं ढूंढ सके जो आप खोज रहे थे।",
+    "description": "404 पृष्ठ का पहला पैराग्राफ"
+  },
+  "theme.NotFound.p2": {
+    "message": "कृपया उस साइट के मालिक से संपर्क करें जिसने आपको मूल URL पर लिंक किया और उन्हें बताएं कि उनका लिंक टूटा हुआ है।",
+    "description": "404 पृष्ठ का दूसरा पैराग्राफ"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "मुख्य",
+    "description": "मुख्य नेविगेशन के लिए ARIA लेबल"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "भाषाएँ",
+    "description": "मोबाइल भाषा स्विचर ड्रॉपडाउन के लिए लेबल"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "इस पृष्ठ पर",
+    "description": "संक्षिप्त TOC घटक पर बटन द्वारा उपयोग किया जाने वाला लेबल"
+  },
+  "theme.blog.post.readMore": {
+    "message": "और पढ़ें",
+    "description": "पूर्ण ब्लॉग पोस्ट से लिंक करने के लिए ब्लॉग पोस्ट आइटम अंश में उपयोग किया जाने वाला लेबल"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "{title} के बारे में अधिक पढ़ें",
+    "description": "अंशों से पूर्ण ब्लॉग पोस्ट के लिए लिंक के लिए ARIA लेबल"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "एक मिनट पढ़ें|{readingTime} मिनट पढ़ें",
+    "description": "\"{readingTime} मिनट पढ़ें\" के लिए बहुवचनित लेबल। अपने भाषा समर्थन के अनुसार जितने भी बहुवचन रूप (\"|\") से अलग करें (देखें https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "मुख्य पृष्ठ",
+    "description": "ब्रेडक्रंब में मुख्य पृष्ठ के लिए ARIA लेबल"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "साइडबार को संकुचित करें",
+    "description": "दस्तावेज़ साइडबार के संकुचन बटन के लिए शीर्षक विशेषता"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "साइडबार को संकुचित करें",
+    "description": "दस्तावेज़ साइडबार के संकुचन बटन के लिए शीर्षक विशेषता"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "दस्तावेज़ साइडबार",
+    "description": "साइडबार नेविगेशन के लिए ARIA लेबल"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "नेविगेशन बार बंद करें",
+    "description": "मोबाइल साइडबार के बंद बटन के लिए ARIA लेबल"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← मुख्य मेनू पर वापस जाएं",
+    "description": "मोबाइल नेविगेशन बार साइडबार सेकेंडरी मेनू में मुख्य मेनू पर लौटने के लिए बैक बटन का लेबल (विशेष रूप से दस्तावेज़ साइडबार प्रदर्शित करने के लिए उपयोग किया जाता है)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "नेविगेशन बार को टॉगल करें",
+    "description": "मोबाइल नेविगेशन के हैमबर्गर मेनू बटन के लिए ARIA लेबल"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "साइडबार का विस्तार करें",
+    "description": "दस्तावेज़ साइडबार के विस्तार बटन के लिए ARIA लेबल और शीर्षक विशेषता"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "साइडबार का विस्तार करें",
+    "description": "दस्तावेज़ साइडबार के विस्तार बटन के लिए ARIA लेबल और शीर्षक विशेषता"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "फिर से प्रयास करें",
+    "description": "जब React त्रुटि सीमा एक त्रुटि को कैप्चर करती है तो फिर से प्रयास करने के लिए बटन का लेबल"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "मुख्य सामग्री पर जाएँ",
+    "description": "सुलभता के लिए सामग्री को छोड़ने का लेबल, कीबोर्ड टैब/एंटर नेविगेशन के साथ मुख्य सामग्री पर तेजी से नेविगेट करने की अनुमति देता है"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "टैग",
+    "description": "टैग सूची पृष्ठ का शीर्षक"
+  },
+  "theme.unlistedContent.title": {
+    "message": "अनलिस्टेड पृष्ठ",
+    "description": "अनलिस्टेड सामग्री बैनर शीर्षक"
+  },
+  "theme.unlistedContent.message": {
+    "message": "यह पृष्ठ अनलिस्टेड है। खोज इंजन इसे अनुक्रमित नहीं करेंगे, और केवल सीधे लिंक वाले उपयोगकर्ता इसे एक्सेस कर सकते हैं।",
+    "description": "अनलिस्टेड सामग्री बैनर संदेश"
+  },
   "Cuckoo Chain: Decentralized AI Blockchain": {
-    "message": "कुकू चेन: विकेंद्रीकृत एआई ब्लॉकचेन",
-    "description": "Page title for Cuckoo Chain homepage"
+    "message": "Cuckoo Chain: विकेंद्रीकृत एआई ब्लॉकचेन",
+    "description": "Cuckoo Chain होमपेज के लिए पृष्ठ शीर्षक"
   },
   "Cuckoo Chain is set to transform the AI blockchain landscape. As an Arbitrum L2 in the Ethereum ecosystem, it brings streamlined AI developer experience, fast speed and efficiency to the table. This makes it a prime choice for Web3 + AI users seeking robust and scalable solutions": {
-    "message": "कुकू चेन एआई ब्लॉकचेन लैंडस्केप को बदलने के लिए तैयार है। एथेरियम इकोसिस्टम में आर्बिट्रम L2 के रूप में, यह एआई डेवलपर अनुभव को सुगम बनाता है, तेज गति और कुशलता प्रदान करता है। यह वेब3 + एआई उपयोगकर्ताओं के लिए एक मजबूत और स्केलेबल समाधान है।",
-    "description": "Page description for Cuckoo Chain homepage"
+    "message": "Cuckoo Chain एआई ब्लॉकचेन परिदृश्य को बदलने के लिए तैयार है। एथेरियम पारिस्थितिकी तंत्र में एक Arbitrum L2 के रूप में, यह सुव्यवस्थित एआई डेवलपर अनुभव, तेज गति और दक्षता लाता है। यह मजबूत और स्केलेबल समाधानों की तलाश कर रहे Web3 + AI उपयोगकर्ताओं के लिए एक प्रमुख विकल्प बनाता है।",
+    "description": "Cuckoo Chain होमपेज के लिए पृष्ठ विवरण"
   },
   "Hero Illustration": {
     "message": "हीरो चित्रण",
-    "description": "The alt text for the hero illustration"
+    "description": "हीरो चित्रण के लिए वैकल्पिक पाठ"
   },
   "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "कुकू एआई: क्रिएटर्स और बिल्डर्स के लिए विकेंद्रीकृत एआई क्रिएटिव प्लेटफ़ॉर्म",
-    "description": "The site tagline"
+    "message": "Cuckoo AI विकेंद्रीकृत एआई क्रिएटिव प्लेटफॉर्म निर्माताओं और बिल्डरों के लिए",
+    "description": "साइट टैगलाइन"
   },
   "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
-    "message": "कुकू चेन पर अपने GPU या CPU के साथ आश्चर्यजनक एआई कला बनाएं और जेन एआई ऐप्स को शक्ति प्रदान करें। साझा करें, जनरेट करें, और विकेंद्रीकृत एआई की शक्ति को अनलॉक करें।",
-    "description": "Site description"
+    "message": "Cuckoo Chain पर अपने GPU या CPU के साथ आश्चर्यजनक एआई कला बनाएं और जन एआई ऐप्स को ईंधन दें। साझा करें, उत्पन्न करें, और विकेंद्रीकृत एआई की शक्ति को अनलॉक करें।",
+    "description": "साइट विवरण"
   },
   "Newsletter iframe": {
     "message": "न्यूज़लेटर आईफ्रेम",
-    "description": "The title for the newsletter iframe"
-  },
-  "Experience Decentralized AI Model-Serving": {
-    "message": "विकेंद्रीकृत एआई मॉडल-सर्विंग का अनुभव करें"
-  },
-  "Generate image now with Cuckoo Bot": {
-    "message": "कुकू बॉट के साथ अभी छवि जनरेट करें"
-  },
-  "Explore": {
-    "message": "एक्सप्लोर करें",
-    "description": "homepage's hero section's secondary action CTA"
-  },
-  "Experience Decentralized AI Now": {
-    "message": "अब विकेंद्रीकृत एआई का अनुभव करें",
-    "description": "Section header title"
-  },
-  "For AI Enthusiasts": {
-    "message": "एआई उत्साही लोगों के लिए",
-    "description": "Button label for AI Enthusiasts"
-  },
-  "For Developers": {
-    "message": "डेवलपर्स के लिए",
-    "description": "Button label for Developers"
-  },
-  "For Miners": {
-    "message": "माइनर्स के लिए",
-    "description": "Button label for Miners"
-  },
-  "For Token Holders": {
-    "message": "टोकन धारकों के लिए",
-    "description": "Button label for Token Holders"
-  },
-  "Cuckoo Telegram": {
-    "message": "कुकू टेलीग्राम",
-    "description": "Telegram Box Title"
-  },
-  "A telegram bot for texting to image and manage your CAI tokens.": {
-    "message": "आपके सीएआई टोकनों को प्रबंधित करने और छवियों के लिए टेक्स्टिंग के लिए टेलीग्राम बॉट।",
-    "description": "Telegram Box Description"
-  },
-  "Cuckoo Discord": {
-    "message": "कुकू डिस्कॉर्ड",
-    "description": "Discord Box Title"
-  },
-  "A discord bot for texting to image and manage your CAI tokens.": {
-    "message": "आपके सीएआई टोकनों को प्रबंधित करने और छवियों के लिए टेक्स्टिंग के लिए डिस्कॉर्ड बॉट।",
-    "description": "Discord Box Description"
-  },
-  "Neon Medium": {
-    "message": "नियॉन मीडियम",
-    "description": "Medium Box Title"
-  },
-  "BlockEden.xyz": {
-    "message": "ब्लॉकईडन.xyz",
-    "description": "BlockEden Box Title"
-  },
-  "RPC node, API marketplace, and staking infrastructure.": {
-    "message": "RPC नोड, API मार्केटप्लेस, और स्टेकिंग इंफ्रास्ट्रक्चर।",
-    "description": "BlockEden Box Description"
-  },
-  "Cuckoo Art": {
-    "message": "कुकू कला",
-    "description": "Cuckoo Art Box Title"
-  },
-  "Discover AI arts created in our network.": {
-    "message": "हमारे नेटवर्क में बनाई गई एआई कला की खोज करें।",
-    "description": "Cuckoo Art Box Description"
-  },
-  "Karma Protocol": {
-    "message": "कर्मा प्रोटोकॉल",
-    "description": "Karma Protocol Box Title"
-  },
-  "A revolutionary prediction market, driven by Community.": {
-    "message": "एक क्रांतिकारी भविष्यवाणी बाजार, जिसे समुदाय द्वारा संचालित किया गया है।",
-    "description": "Karma Protocol Box Description"
-  },
-  "Cuckoo Github": {
-    "message": "कुकू गिटहब",
-    "description": "Cuckoo Github Box Title"
-  },
-  "Fork us on Github for open-sourced decentralized AI platform.": {
-    "message": "ओपन-सोर्स विकेंद्रीकृत एआई प्लेटफ़ॉर्म के लिए गिटहब पर हमें फोर्क करें।",
-    "description": "Cuckoo Github Box Description"
-  },
-  "Cuckoo Node": {
-    "message": "कुकू नोड",
-    "description": "Cuckoo Node Box Title"
-  },
-  "Node for mining tokens, distributed with Docker images.": {
-    "message": "टोकन माइनिंग के लिए नोड, डॉकर इमेज के साथ वितरित।",
-    "description": "Cuckoo Node Box Description"
-  },
-  "Staking Portal": {
-    "message": "स्टेकिंग पोर्टल",
-    "description": "Staking Portal Box Title"
-  },
-  "Stake your token to vote for Node operators you trust": {
-    "message": "अपने टोकन को स्टेक करें ताकि आप उन नोड ऑपरेटरों को वोट कर सकें जिन पर आप भरोसा करते हैं",
-    "description": "Staking Portal Box Description"
-  },
-  "Introducing Cuckoo Network Airdrop Portal": {
-    "message": "कुकू नेटवर्क एयरड्रॉप पोर्टल की पेशकश",
-    "description": "Home page hero section's news message"
-  },
-  "Learn More": {
-    "message": "और जानें",
-    "description": "Link text to learn more about Cuckoo Scan"
-  },
-  "Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "निर्माताओं और बिल्डरों के लिए विकेंद्रीकृत एआई क्रिएटिव प्लेटफॉर्म",
-    "description": "Site tagline"
-  },
-  "Create AI Art": {
-    "message": "एआई कला बनाएं",
-    "description": "homepage's hero section's main action CTA"
-  },
-  "Earn": {
-    "message": "कमाएँ",
-    "description": "homepage's hero section's secondary action CTA"
-  },
-  "Refreshing news from the community": {
-    "message": "समुदाय से ताजा खबरें",
-    "description": "Title for the news section"
-  },
-  "Read more": {
-    "message": "और पढ़ें",
-    "description": "Read more link text"
-  },
-  "How does it work?": {
-    "message": "यह कैसे काम करता है?",
-    "description": "Section header title"
-  },
-  "Cuckoo incentivizes GPU miners to serve AI models to generative App builders. We started with decentralized image generation but aim to expand our platform to support various AI models.": {
-    "message": "कुकू जीपीयू माइनर्स को प्रेरित करता है ताकि वे जनरेटिव ऐप बिल्डरों को एआई मॉडल प्रदान कर सकें। हमने विकेंद्रीकृत छवि जनरेशन से शुरुआत की, लेकिन हमारा लक्ष्य विभिन्न एआई मॉडलों का समर्थन करने के लिए अपने प्लेटफॉर्म का विस्तार करना है।",
-    "description": "Section header description"
-  },
-  "Establish Trust": {
-    "message": "विश्वास स्थापित करें",
-    "description": "Trust step title"
-  },
-  "GPU miners, developers, and stakers {stakingLink} with blockchain smart contracts to establish trust.": {
-    "message": "जीपीयू माइनर्स, डेवलपर्स, और स्टेकर्स {stakingLink} के माध्यम से ब्लॉकचेन स्मार्ट कॉन्ट्रैक्ट्स का उपयोग करके विश्वास स्थापित करते हैं।",
-    "description": "Trust step description"
-  },
-  "stake and vote": {
-    "message": "स्टेक करें और वोट दें",
-    "description": "Link text"
-  },
-  "Mine and Earn": {
-    "message": "माइन करें और कमाएँ",
-    "description": "Tasks & Rewards step title"
-  },
-  "Gen AI Apps assign tasks to GPU miners via the Cuckoo AI node, with daily ERC20 payments based on results.": {
-    "message": "जन एआई ऐप्स कुकू एआई नोड के माध्यम से जीपीयू माइनर्स को कार्य सौंपते हैं, परिणामों के आधार पर दैनिक ईआरसी20 भुगतान के साथ।",
-    "description": "Tasks & Rewards step description"
-  },
-  "Modular AI": {
-    "message": "मॉड्यूलर एआई",
-    "description": "Modular Support step title"
-  },
-  "Our modular components ensure that AI remains accessible, transparent, anti-censorship, and privacy-preserving.": {
-    "message": "हमारे मॉड्यूलर घटक यह सुनिश्चित करते हैं कि एआई सुलभ, पारदर्शी, सेंसरशिप-रोधी और गोपनीयता-संरक्षणशील बना रहे।",
-    "description": "Modular Support step description"
-  },
-  "From AI builders to consumers, we got you covered.": {
-    "message": "एआई निर्माताओं से लेकर उपभोक्ताओं तक, हमने आपको कवर किया है।",
-    "description": "section title for target customers"
-  },
-  "Features 02": {
-    "message": "विशेषताएँ 02",
-    "description": "Alt text for the image"
-  },
-  "Get rewarded by contributing to Gen AI": {
-    "message": "जन एआई में योगदान देकर पुरस्कृत हो जाएं"
-  },
-  "For AI Consumers": {
-    "message": "एआई उपभोक्ताओं के लिए"
-  },
-  "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.": {
-    "message": "इकोसिस्टम में योगदान करके या कुकू पे का उपयोग करके विभिन्न एआई ऐप्स तक मुफ्त में पहुंच प्राप्त करें। यदि एक ऐप ब्लॉक हो जाता है, तो विकेंद्रीकृत नेटवर्क के भीतर आसानी से दूसरे कोऑर्डिनेटर पर स्विच करें।"
-  },
-  "For App Builders/Coordinators": {
-    "message": "ऐप बिल्डर्स/कोऑर्डिनेटर्स के लिए"
-  },
-  "Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.": {
-    "message": "एक कोऑर्डिनेटर नोड चलाएं, नेटवर्क में शामिल होने के लिए स्टेक करें, और स्टेकिंग रिवॉर्ड्स कमाएं। जीपीयू लागत को कम करें, अपने ग्राहक आधार का विस्तार करें, जीपीयू माइनर्स को कार्य सौंपें, परिणामों को सत्यापित करें और भुगतान वितरित करें।"
-  },
-  "For GPU Miners": {
-    "message": "जीपीयू माइनर्स के लिए"
-  },
-  "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.": {
-    "message": "एक माइनर नोड चलाएं, नेटवर्क में शामिल होने के लिए स्टेक करें, और स्टेकिंग रिवॉर्ड्स कमाएं। अपने जीपीयू संसाधनों को साझा करें, सौंपे गए कार्यों को पूरा करें, और टोकन कमाने के लिए विश्वसनीय सेवा बनाए रखें।"
+    "description": "न्यूज़लेटर आईफ्रेम के लिए शीर्षक"
   },
   "It's time to join the thousands of creators, artists, and developers using Cuckoo Chain": {
-    "message": "कुकू चेन का उपयोग करने वाले हजारों रचनाकारों, कलाकारों और डेवलपर्स में शामिल होने का समय आ गया है",
-    "description": "CTA section main title"
+    "message": "Cuckoo Chain का उपयोग करने वाले हजारों निर्माताओं, कलाकारों और डेवलपर्स में शामिल होने का समय है",
+    "description": "CTA अनुभाग मुख्य शीर्षक"
   },
   "Explore Chain": {
-    "message": "चेन को एक्सप्लोर करें",
-    "description": "Button label to explore the Cuckoo Chain"
+    "message": "चेन का अन्वेषण करें",
+    "description": "Cuckoo Chain का अन्वेषण करने के लिए बटन लेबल"
   },
   "Read Docs": {
-    "message": "डॉक्स पढ़ें",
-    "description": "Button label to read the Cuckoo Chain documentation"
+    "message": "दस्तावेज़ पढ़ें",
+    "description": "Cuckoo Chain दस्तावेज़ पढ़ने के लिए बटन लेबल"
   },
   "FAQs": {
-    "message": "अक्सर पूछे जाने वाले सवाल",
-    "description": "FAQs section title"
+    "message": "अक्सर पूछे जाने वाले प्रश्न",
+    "description": "FAQs अनुभाग शीर्षक"
   },
   "What is Cuckoo Chain?": {
-    "message": "कुकू चेन क्या है?",
-    "description": "Question: What is Cuckoo Chain?"
+    "message": "Cuckoo Chain क्या है?",
+    "description": "प्रश्न: Cuckoo Chain क्या है?"
   },
   "Cuckoo Chain is a blockchain platform designed specifically for AI applications, operating as an Arbitrum L2 within the Ethereum ecosystem. It offers a streamlined AI developer experience with enhanced speed and efficiency.": {
-    "message": "कुकू चेन एआई एप्लिकेशन के लिए विशेष रूप से डिज़ाइन किया गया एक ब्लॉकचेन प्लेटफ़ॉर्म है, जो एथेरियम इकोसिस्टम के भीतर आर्बिट्रम L2 के रूप में काम करता है। यह एक सुव्यवस्थित एआई डेवलपर अनुभव प्रदान करता है, जिसमें बढ़ी हुई गति और कुशलता होती है।",
-    "description": "Answer: What is Cuckoo Chain?"
+    "message": "Cuckoo Chain एक ब्लॉकचेन प्लेटफॉर्म है जिसे विशेष रूप से एआई अनुप्रयोगों के लिए डिज़ाइन किया गया है, जो एथेरियम पारिस्थितिकी तंत्र के भीतर एक Arbitrum L2 के रूप में कार्य करता है। यह बढ़ी हुई गति और दक्षता के साथ सुव्यवस्थित एआई डेवलपर अनुभव प्रदान करता है।",
+    "description": "उत्तर: Cuckoo Chain क्या है?"
   },
   "How does Cuckoo Chain integrate with the Ethereum ecosystem?": {
-    "message": "कुकू चेन एथेरियम इकोसिस्टम के साथ कैसे एकीकृत होता है?",
-    "description": "Question: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
+    "message": "Cuckoo Chain एथेरियम पारिस्थितिकी तंत्र के साथ कैसे एकीकृत होता है?",
+    "description": "प्रश्न: Cuckoo Chain एथेरियम पारिस्थितिकी तंत्र के साथ कैसे एकीकृत होता है?"
   },
   "Cuckoo Chain functions as an Arbitrum Layer 2 solution, which means it inherits the security and decentralization of Ethereum while providing faster and cheaper transactions. This integration ensures seamless interoperability with the Ethereum network.": {
-    "message": "कुकू चेन आर्बिट्रम लेयर 2 समाधान के रूप में कार्य करता है, जिसका अर्थ है कि यह एथेरियम की सुरक्षा और विकेंद्रीकरण को विरासत में लेता है, जबकि तेज़ और सस्ते लेनदेन प्रदान करता है। यह एकीकरण एथेरियम नेटवर्क के साथ सहज अंतःक्रियाशीलता सुनिश्चित करता है।",
-    "description": "Answer: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
+    "message": "Cuckoo Chain एक Arbitrum लेयर 2 समाधान के रूप में कार्य करता है, जिसका अर्थ है कि यह एथेरियम की सुरक्षा और विकेंद्रीकरण को विरासत में लेता है जबकि तेज और सस्ते लेनदेन प्रदान करता है। यह एकीकरण एथेरियम नेटवर्क के साथ निर्बाध अंतःक्रियाशीलता सुनिश्चित करता है।",
+    "description": "उत्तर: Cuckoo Chain एथेरियम पारिस्थितिकी तंत्र के साथ कैसे एकीकृत होता है?"
   },
   "What are the main benefits of using Cuckoo Chain for AI development?": {
-    "message": "एआई विकास के लिए कुकू चेन का उपयोग करने के मुख्य लाभ क्या हैं?",
-    "description": "Question: What are the main benefits of using Cuckoo Chain for AI development?"
+    "message": "एआई विकास के लिए Cuckoo Chain का उपयोग करने के मुख्य लाभ क्या हैं?",
+    "description": "प्रश्न: एआई विकास के लिए Cuckoo Chain का उपयोग करने के मुख्य लाभ क्या हैं?"
   },
   "Cuckoo Chain offers unparalleled speed, efficiency, and scalability for AI development. It reduces transaction costs, accelerates processing times, and provides a robust infrastructure for deploying AI solutions on the blockchain.": {
-    "message": "कुकू चेन एआई विकास के लिए बेजोड़ गति, कुशलता और स्केलेबिलिटी प्रदान करता है। यह लेन-देन की लागत को कम करता है, प्रसंस्करण समय को तेज करता है, और ब्लॉकचेन पर एआई समाधान तैनात करने के लिए एक मजबूत बुनियादी ढांचा प्रदान करता है।",
-    "description": "Answer: What are the main benefits of using Cuckoo Chain for AI development?"
+    "message": "Cuckoo Chain एआई विकास के लिए बेजोड़ गति, दक्षता और स्केलेबिलिटी प्रदान करता है। यह लेनदेन की लागत को कम करता है, प्रसंस्करण समय को तेज करता है, और ब्लॉकचेन पर एआई समाधानों को तैनात करने के लिए एक मजबूत बुनियादी ढांचा प्रदान करता है।",
+    "description": "उत्तर: एआई विकास के लिए Cuckoo Chain का उपयोग करने के मुख्य लाभ क्या हैं?"
   },
   "How can I get started with Cuckoo Chain?": {
-    "message": "मैं कुकू चेन के साथ कैसे शुरुआत कर सकता हूं?",
-    "description": "Question: How can I get started with Cuckoo Chain?"
+    "message": "मैं Cuckoo Chain के साथ कैसे शुरू कर सकता हूँ?",
+    "description": "प्रश्न: मैं Cuckoo Chain के साथ कैसे शुरू कर सकता हूँ?"
   },
   "Getting started with Cuckoo Chain is simple. Visit our {gettingStartedGuide} for step-by-step instructions on setting up your account,\n                  integrating your applications, and deploying your first AI\n                  models on the platform.": {
-    "message": "कुकू चेन के साथ शुरुआत करना सरल है। हमारे {gettingStartedGuide} पर जाएं, अपने खाते को सेट अप करने, अपने एप्लिकेशन को एकीकृत करने और प्लेटफ़ॉर्म पर अपना पहला एआई मॉडल तैनात करने के लिए चरण-दर-चरण निर्देश प्राप्त करने के लिए।",
-    "description": "Answer: How can I get started with Cuckoo Chain?"
+    "message": "Cuckoo Chain के साथ शुरू करना सरल है। अपने खाते को सेट करने, अपने अनुप्रयोगों को एकीकृत करने और प्लेटफॉर्म पर अपने पहले एआई मॉडल को तैनात करने के लिए चरण-दर-चरण निर्देशों के लिए हमारे {gettingStartedGuide} पर जाएँ।",
+    "description": "उत्तर: मैं Cuckoo Chain के साथ कैसे शुरू कर सकता हूँ?"
   },
   "Getting Started Guide": {
-    "message": "आरंभिक गाइड",
-    "description": "Link text for Getting Started Guide"
+    "message": "शुरू करने के लिए मार्गदर्शिका",
+    "description": "शुरू करने के लिए मार्गदर्शिका के लिए लिंक पाठ"
   },
   "What are some real-world use cases for Cuckoo Chain?": {
-    "message": "कुकू चेन के कुछ वास्तविक उपयोग के मामले क्या हैं?",
-    "description": "Question: What are some real-world use cases for Cuckoo Chain?"
+    "message": "Cuckoo Chain के लिए कुछ वास्तविक दुनिया के उपयोग के मामले क्या हैं?",
+    "description": "प्रश्न: Cuckoo Chain के लिए कुछ वास्तविक दुनिया के उपयोग के मामले क्या हैं?"
   },
   "Cuckoo Chain can be used in various scenarios, including decentralized AI model inference, secure data sharing, and AI-powered decentralized applications (dApps). Our platform supports diverse industries such as finance, healthcare, and supply chain management.": {
-    "message": "कुकू चेन का उपयोग विभिन्न परिदृश्यों में किया जा सकता है, जिनमें विकेंद्रीकृत एआई मॉडल अनुमान, सुरक्षित डेटा साझाकरण और एआई-संचालित विकेंद्रीकृत एप्लिकेशन (dApps) शामिल हैं। हमारा प्लेटफ़ॉर्म वित्त, स्वास्थ्य सेवा और आपूर्ति श्रृंखला प्रबंधन जैसी विविध उद्योगों का समर्थन करता है।",
-    "description": "Answer: What are some real-world use cases for Cuckoo Chain?"
+    "message": "Cuckoo Chain का उपयोग विभिन्न परिदृश्यों में किया जा सकता है, जिसमें विकेंद्रीकृत एआई मॉडल अनुमान, सुरक्षित डेटा साझाकरण, और एआई-संचालित विकेंद्रीकृत अनुप्रयोग (dApps) शामिल हैं। हमारा प्लेटफॉर्म वित्त, स्वास्थ्य देखभाल, और आपूर्ति श्रृंखला प्रबंधन जैसे विविध उद्योगों का समर्थन करता है।",
+    "description": "उत्तर: Cuckoo Chain के लिए कुछ वास्तविक दुनिया के उपयोग के मामले क्या हैं?"
   },
   "Where can I find support and additional resources?": {
-    "message": "मुझे समर्थन और अतिरिक्त संसाधन कहां मिल सकते हैं?",
-    "description": "Question: Where can I find support and additional resources?"
+    "message": "मैं सहायता और अतिरिक्त संसाधन कहाँ पा सकता हूँ?",
+    "description": "प्रश्न: मैं सहायता और अतिरिक्त संसाधन कहाँ पा सकता हूँ?"
   },
   "For support and additional resources, visit our {helpCenter} or join our community on {discord} and {telegram}. Our\n                  comprehensive documentation, tutorials, and active community\n                  are here to assist you with any questions or challenges you\n                  might encounter.": {
-    "message": "सहायता और अतिरिक्त संसाधनों के लिए, हमारे {helpCenter} पर जाएं या {discord} और {telegram} पर हमारे समुदाय में शामिल हों। हमारी व्यापक दस्तावेज़ीकरण, ट्यूटोरियल, और सक्रिय समुदाय किसी भी प्रश्न या चुनौतियों के लिए आपकी सहायता के लिए यहां हैं।",
-    "description": "Answer: Where can I find support and additional resources?"
+    "message": "सहायता और अतिरिक्त संसाधनों के लिए, हमारे {helpCenter} पर जाएँ या {discord} और {telegram} पर हमारे समुदाय में शामिल हों। हमारी\n                  व्यापक दस्तावेज़ीकरण, ट्यूटोरियल, और सक्रिय समुदाय\n                  आपके किसी भी प्रश्न या चुनौतियों में आपकी सहायता के लिए यहाँ हैं।",
+    "description": "उत्तर: मैं सहायता और अतिरिक्त संसाधन कहाँ पा सकता हूँ?"
   },
   "Help Center": {
     "message": "सहायता केंद्र",
-    "description": "Link text for Help Center"
+    "description": "सहायता केंद्र के लिए लिंक पाठ"
   },
   "Discord": {
     "message": "डिस्कॉर्ड",
-    "description": "Link text for Discord"
+    "description": "डिस्कॉर्ड के लिए लिंक पाठ"
   },
   "Telegram": {
     "message": "टेलीग्राम",
-    "description": "Link text for Telegram"
+    "description": "टेलीग्राम के लिए लिंक पाठ"
+  },
+  "Illustration": {
+    "message": "चित्रण",
+    "description": "चित्रण वैकल्पिक पाठ"
+  },
+  "Many tools to decentralized AI with Cuckoo Chain": {
+    "message": "Cuckoo Chain के साथ विकेंद्रीकृत एआई के लिए कई उपकरण",
+    "description": "अनुभाग शीर्षक"
+  },
+  "The best resources for building an end-to-end Cuckoo Chain dApp.": {
+    "message": "एक एंड-टू-एंड Cuckoo Chain dApp बनाने के लिए सर्वश्रेष्ठ संसाधन।",
+    "description": "अनुभाग शीर्षक विवरण"
+  },
+  "Icon 01": {
+    "message": "आइकन 01",
+    "description": "आइकन 01 वैकल्पिक पाठ"
+  },
+  "Cuckoo Network Bridge": {
+    "message": "Cuckoo नेटवर्क ब्रिज",
+    "description": "Cuckoo नेटवर्क ब्रिज शीर्षक"
+  },
+  "Transfer assets seamlessly across Arbitrum One and Cuckoo Chain with minimal fees and secure transactions.": {
+    "message": "न्यूनतम शुल्क और सुरक्षित लेनदेन के साथ Arbitrum One और Cuckoo Chain के बीच संपत्तियों को निर्बाध रूप से स्थानांतरित करें।",
+    "description": "Cuckoo नेटवर्क ब्रिज विवरण"
+  },
+  "Learn More": {
+    "message": "अधिक जानें",
+    "description": "Cuckoo Scan के बारे में अधिक जानने के लिए लिंक पाठ"
+  },
+  "Icon 02": {
+    "message": "आइकन 02",
+    "description": "आइकन 02 वैकल्पिक पाठ"
+  },
+  "Thirdweb": {
+    "message": "Thirdweb",
+    "description": "Thirdweb शीर्षक"
+  },
+  "Full-stack, open-source web3 development platform. Fullstack tools to build complete web3 apps.": {
+    "message": "पूर्ण-स्टैक, ओपन-सोर्स वेब3 विकास प्लेटफॉर्म। पूर्ण स्टैक उपकरणों के साथ पूर्ण वेब3 ऐप्स बनाएं।",
+    "description": "Thirdweb विवरण"
+  },
+  "Icon 03": {
+    "message": "आइकन 03",
+    "description": "आइकन 03 वैकल्पिक पाठ"
+  },
+  "ChainList": {
+    "message": "ChainList",
+    "description": "ChainList शीर्षक"
+  },
+  "ChainList is a list of EVM networks. Users can use the info to connect their wallets and Web3 middleware providers.": {
+    "message": "ChainList EVM नेटवर्कों की एक सूची है। उपयोगकर्ता अपने वॉलेट और Web3 मिडलवेयर प्रदाताओं से कनेक्ट करने के लिए जानकारी का उपयोग कर सकते हैं।",
+    "description": "ChainList विवरण"
+  },
+  "Icon 04": {
+    "message": "आइकन 04",
+    "description": "आइकन 04 वैकल्पिक पाठ"
+  },
+  "Cuckoo Scan": {
+    "message": "Cuckoo स्कैन",
+    "description": "Cuckoo स्कैन शीर्षक"
+  },
+  "Blockchain explorer to inspect Cuckoo Chain transactions, tokens, and coins. RESTful and GraphQL API available.": {
+    "message": "Cuckoo Chain लेनदेन, टोकन और सिक्कों का निरीक्षण करने के लिए ब्लॉकचेन अन्वेषक। RESTful और GraphQL API उपलब्ध।",
+    "description": "Cuckoo स्कैन विवरण"
+  },
+  "Previous": {
+    "message": "पिछला",
+    "description": "पिछले बटन के लिए ARIA लेबल"
+  },
+  "Next": {
+    "message": "अगला",
+    "description": "अगले बटन के लिए ARIA लेबल"
+  },
+  "Transforming AI with Blockchain Technology": {
+    "message": "ब्लॉकचेन प्रौद्योगिकी के साथ एआई को बदलना",
+    "description": "हीरो अनुभाग मुख्य शीर्षक"
+  },
+  "Cuckoo Chain, an Arbitrum L2 in the Ethereum ecosystem, revolutionizes AI development with unmatched speed, efficiency, and scalability. Perfect for Web3 + AI innovators.": {
+    "message": "Cuckoo Chain, एथेरियम पारिस्थितिकी तंत्र में एक Arbitrum L2, बेजोड़ गति, दक्षता और स्केलेबिलिटी के साथ एआई विकास में क्रांति लाता है। Web3 + AI नवप्रवर्तकों के लिए आदर्श।",
+    "description": "Cuckoo Chain और एआई विकास में इसकी भूमिका के बारे में हीरो अनुभाग विवरण"
+  },
+  "Pricing Illustration": {
+    "message": "मूल्य निर्धारण चित्रण",
+    "description": "मूल्य निर्धारण अनुभाग चित्रण के लिए वैकल्पिक पाठ"
+  },
+  "Fundamentally Aligned with Ethereum": {
+    "message": "एथेरियम के साथ मौलिक रूप से संरेखित",
+    "description": "मूल्य निर्धारण अनुभाग के लिए शीर्षक"
+  },
+  "But optimized for performance and on-chain AI": {
+    "message": "लेकिन प्रदर्शन और ऑन-चेन एआई के लिए अनुकूलित",
+    "description": "मूल्य निर्धारण अनुभाग के लिए विवरण"
+  },
+  "Monthly": {
+    "message": "मासिक",
+    "description": "मासिक भुगतान विकल्प के लिए लेबल"
+  },
+  "Pay annually": {
+    "message": "वार्षिक भुगतान करें",
+    "description": "वार्षिक भुगतान करने के लिए टॉगल करने के लिए स्क्रीन रीडर लेबल"
+  },
+  "Yearly": {
+    "message": "वार्षिक",
+    "description": "वार्षिक भुगतान विकल्प के लिए लेबल"
+  },
+  "Infra": {
+    "message": "इन्फ्रा",
+    "description": "मोबाइल दृश्य के लिए इन्फ्रा अनुभाग लेबल"
+  },
+  "Max Theoretical TPS": {
+    "message": "अधिकतम सैद्धांतिक TPS",
+    "description": "मोबाइल दृश्य में प्रति सेकंड अधिकतम सैद्धांतिक लेनदेन के लिए लेबल"
+  },
+  "Fastest Block Time": {
+    "message": "सबसे तेज़ ब्लॉक समय",
+    "description": "मोबाइल दृश्य में सबसे तेज़ ब्लॉक समय के लिए लेबल"
+  },
+  "Governance Model": {
+    "message": "शासन मॉडल",
+    "description": "मोबाइल दृश्य में शासन मॉडल के लिए लेबल"
+  },
+  "Features": {
+    "message": "विशेषताएँ",
+    "description": "मोबाइल दृश्य में विशेषताओं के अनुभाग के लिए लेबल"
+  },
+  "Avg. Gas Price": {
+    "message": "औसत गैस मूल्य",
+    "description": "मोबाइल दृश्य में औसत गैस मूल्य के लिए लेबल"
+  },
+  "EVM Compatible": {
+    "message": "EVM संगत",
+    "description": "मोबाइल दृश्य में EVM संगतता के लिए लेबल"
+  },
+  "Decentralized Ledger": {
+    "message": "विकेंद्रीकृत लेजर",
+    "description": "मोबाइल दृश्य में विकेंद्रीकृत लेजर के लिए लेबल"
+  },
+  "\"Cuckoo Chain revolutionized our AI development with unmatched speed and efficiency. It's a game-changer for any AI-driven blockchain enterprise.\"": {
+    "message": "\"Cuckoo Chain ने हमारी एआई विकास को बेजोड़ गति और दक्षता के साथ क्रांतिकारी बना दिया। यह किसी भी एआई-संचालित ब्लॉकचेन उद्यम के लिए एक गेम-चेंजर है।\"",
+    "description": "पहली प्रशंसा पाठ"
+  },
+  "Aaliyah Baker": {
+    "message": "Aaliyah Baker",
+    "description": "पहली प्रशंसा लेखक का नाम"
+  },
+  "DApper OS": {
+    "message": "DApper OS",
+    "description": "पहली प्रशंसा लेखक कंपनी"
+  },
+  "\"Integrating Cuckoo Chain was seamless. The performance boost and compatibility with Ethereum are phenomenal.\"": {
+    "message": "\"Cuckoo Chain को एकीकृत करना निर्बाध था। प्रदर्शन में वृद्धि और एथेरियम के साथ संगतता अद्भुत है।\"",
+    "description": "दूसरी प्रशंसा पाठ"
+  },
+  "Sloan Seaman": {
+    "message": "Sloan Seaman",
+    "description": "दूसरी प्रशंसा लेखक का नाम"
+  },
+  "Coupang": {
+    "message": "Coupang",
+    "description": "दूसरी प्रशंसा लेखक कंपनी"
+  },
+  "\"Cuckoo Chain empowered us to create fast, secure decentralized AI apps. The support team is invaluable.\"": {
+    "message": "\"Cuckoo Chain ने हमें तेज, सुरक्षित विकेंद्रीकृत एआई ऐप्स बनाने में सक्षम बनाया। समर्थन टीम अमूल्य है।\"",
+    "description": "तीसरी प्रशंसा पाठ"
+  },
+  "Christine Dejoux": {
+    "message": "Christine Dejoux",
+    "description": "तीसरी प्रशंसा लेखक का नाम"
+  },
+  "Glocomms": {
+    "message": "Glocomms",
+    "description": "तीसरी प्रशंसा लेखक कंपनी"
+  },
+  "Experience Decentralized AI Model-Serving": {
+    "message": "विकेंद्रीकृत एआई मॉडल-सेवा का अनुभव करें"
+  },
+  "Generate image now with Cuckoo Bot": {
+    "message": "अब Cuckoo Bot के साथ छवि उत्पन्न करें"
+  },
+  "Explore": {
+    "message": "अन्वेषण करें",
+    "description": "होमपेज के हीरो अनुभाग की द्वितीयक क्रिया CTA"
+  },
+  "Experience Decentralized AI Now": {
+    "message": "अब विकेंद्रीकृत एआई का अनुभव करें",
+    "description": "अनुभाग शीर्षक"
+  },
+  "For AI Enthusiasts": {
+    "message": "एआई उत्साही लोगों के लिए",
+    "description": "एआई उत्साही लोगों के लिए बटन लेबल"
+  },
+  "For Developers": {
+    "message": "डेवलपर्स के लिए",
+    "description": "डेवलपर्स के लिए बटन लेबल"
+  },
+  "For Miners": {
+    "message": "खननकर्ताओं के लिए",
+    "description": "खननकर्ताओं के लिए बटन लेबल"
+  },
+  "For Token Holders": {
+    "message": "टोकन धारकों के लिए",
+    "description": "टोकन धारकों के लिए बटन लेबल"
+  },
+  "Cuckoo Telegram": {
+    "message": "Cuckoo टेलीग्राम",
+    "description": "टेलीग्राम बॉक्स शीर्षक"
+  },
+  "A telegram bot for texting to image and manage your CAI tokens.": {
+    "message": "छवि के लिए टेक्स्टिंग और अपने CAI टोकन प्रबंधित करने के लिए एक टेलीग्राम बॉट।",
+    "description": "टेलीग्राम बॉक्स विवरण"
+  },
+  "Cuckoo Discord": {
+    "message": "Cuckoo डिस्कॉर्ड",
+    "description": "डिस्कॉर्ड बॉक्स शीर्षक"
+  },
+  "A discord bot for texting to image and manage your CAI tokens.": {
+    "message": "छवि के लिए टेक्स्टिंग और अपने CAI टोकन प्रबंधित करने के लिए एक डिस्कॉर्ड बॉट।",
+    "description": "डिस्कॉर्ड बॉक्स विवरण"
+  },
+  "Neon Medium": {
+    "message": "Neon मीडियम",
+    "description": "मीडियम बॉक्स शीर्षक"
+  },
+  "BlockEden.xyz": {
+    "message": "BlockEden.xyz",
+    "description": "BlockEden बॉक्स शीर्षक"
+  },
+  "RPC node, API marketplace, and staking infrastructure.": {
+    "message": "RPC नोड, API मार्केटप्लेस, और स्टेकिंग बुनियादी ढांचा।",
+    "description": "BlockEden बॉक्स विवरण"
+  },
+  "Cuckoo Art": {
+    "message": "Cuckoo कला",
+    "description": "Cuckoo कला बॉक्स शीर्षक"
+  },
+  "Discover AI arts created in our network.": {
+    "message": "हमारे नेटवर्क में बनाई गई एआई कलाओं की खोज करें।",
+    "description": "Cuckoo कला बॉक्स विवरण"
+  },
+  "Karma Protocol": {
+    "message": "Karma प्रोटोकॉल",
+    "description": "Karma प्रोटोकॉल बॉक्स शीर्षक"
+  },
+  "A revolutionary prediction market, driven by Community.": {
+    "message": "एक क्रांतिकारी भविष्यवाणी बाजार, समुदाय द्वारा संचालित।",
+    "description": "Karma प्रोटोकॉल बॉक्स विवरण"
+  },
+  "Cuckoo Github": {
+    "message": "Cuckoo गिटहब",
+    "description": "Cuckoo गिटहब बॉक्स शीर्षक"
+  },
+  "Fork us on Github for open-sourced decentralized AI platform.": {
+    "message": "ओपन-सोर्स विकेंद्रीकृत एआई प्लेटफॉर्म के लिए हमें गिटहब पर फोर्क करें।",
+    "description": "Cuckoo गिटहब बॉक्स विवरण"
+  },
+  "Cuckoo Node": {
+    "message": "Cuckoo नोड",
+    "description": "Cuckoo नोड बॉक्स शीर्षक"
+  },
+  "Node for mining tokens, distributed with Docker images.": {
+    "message": "टोकन खनन के लिए नोड, डॉकर छवियों के साथ वितरित।",
+    "description": "Cuckoo नोड बॉक्स विवरण"
+  },
+  "Staking Portal": {
+    "message": "स्टेकिंग पोर्टल",
+    "description": "स्टेकिंग पोर्टल बॉक्स शीर्षक"
+  },
+  "Stake your token to vote for Node operators you trust": {
+    "message": "अपने टोकन को उन नोड ऑपरेटरों के लिए वोट देने के लिए स्टेक करें जिन पर आप भरोसा करते हैं",
+    "description": "स्टेकिंग पोर्टल बॉक्स विवरण"
+  },
+  "Introducing Cuckoo Network Airdrop Portal": {
+    "message": "Cuckoo नेटवर्क एयरड्रॉप पोर्टल का परिचय",
+    "description": "होम पृष्ठ के हीरो अनुभाग का समाचार संदेश"
+  },
+  "Decentralized AI Creative Platform for Creators & Builders": {
+    "message": "निर्माताओं और बिल्डरों के लिए विकेंद्रीकृत एआई क्रिएटिव प्लेटफॉर्म",
+    "description": "साइट टैगलाइन"
+  },
+  "Create AI Art": {
+    "message": "एआई कला बनाएं",
+    "description": "होमपृष्ठ के हीरो अनुभाग की मुख्य क्रिया CTA"
+  },
+  "Earn": {
+    "message": "कमाएँ",
+    "description": "होमपृष्ठ के हीरो अनुभाग की द्वितीयक क्रिया CTA"
+  },
+  "Refreshing news from the community": {
+    "message": "समुदाय से ताज़ा समाचार",
+    "description": "समाचार अनुभाग के लिए शीर्षक"
+  },
+  "Read more": {
+    "message": "अधिक पढ़ें",
+    "description": "अधिक पढ़ने के लिए लिंक पाठ"
+  },
+  "How does it work?": {
+    "message": "यह कैसे काम करता है?",
+    "description": "अनुभाग शीर्षक"
+  },
+  "Cuckoo incentivizes GPU miners to serve AI models to generative App builders. We started with decentralized image generation but aim to expand our platform to support various AI models.": {
+    "message": "Cuckoo GPU खनिकों को जनरेटिव ऐप बिल्डरों के लिए एआई मॉडल सेवा देने के लिए प्रोत्साहित करता है। हमने विकेंद्रीकृत छवि उत्पादन से शुरुआत की लेकिन हमारे प्लेटफॉर्म का विस्तार विभिन्न एआई मॉडलों का समर्थन करने के लिए करने का लक्ष्य है।",
+    "description": "अनुभाग शीर्षक विवरण"
+  },
+  "Establish Trust": {
+    "message": "विश्वास स्थापित करें",
+    "description": "विश्वास चरण शीर्षक"
+  },
+  "GPU miners, developers, and stakers {stakingLink} with blockchain smart contracts to establish trust.": {
+    "message": "GPU खनिक, डेवलपर्स, और स्टेकर्स {stakingLink} के साथ विश्वास स्थापित करने के लिए ब्लॉकचेन स्मार्ट अनुबंध।",
+    "description": "विश्वास चरण विवरण"
+  },
+  "stake and vote": {
+    "message": "स्टेक करें और वोट करें",
+    "description": "लिंक पाठ"
+  },
+  "Mine and Earn": {
+    "message": "खनन करें और कमाएँ",
+    "description": "कार्य और पुरस्कार चरण शीर्षक"
+  },
+  "Gen AI Apps assign tasks to GPU miners via the Cuckoo AI node, with daily ERC20 payments based on results.": {
+    "message": "जन एआई ऐप्स Cuckoo एआई नोड के माध्यम से GPU खनिकों को कार्य सौंपते हैं, परिणामों के आधार पर दैनिक ERC20 भुगतान के साथ।",
+    "description": "कार्य और पुरस्कार चरण विवरण"
+  },
+  "Modular AI": {
+    "message": "मॉड्यूलर एआई",
+    "description": "मॉड्यूलर समर्थन चरण शीर्षक"
+  },
+  "Our modular components ensure that AI remains accessible, transparent, anti-censorship, and privacy-preserving.": {
+    "message": "हमारे मॉड्यूलर घटक सुनिश्चित करते हैं कि एआई सुलभ, पारदर्शी, सेंसरशिप-रोधी, और गोपनीयता-रक्षा करने वाला बना रहे।",
+    "description": "मॉड्यूलर समर्थन चरण विवरण"
+  },
+  "From AI builders to consumers, we got you covered.": {
+    "message": "एआई निर्माताओं से लेकर उपभोक्ताओं तक, हम आपकी सहायता के लिए यहाँ हैं।",
+    "description": "लक्षित ग्राहकों के लिए अनुभाग शीर्षक"
+  },
+  "Features 02": {
+    "message": "विशेषताएँ 02",
+    "description": "छवि के लिए वैकल्पिक पाठ"
+  },
+  "Get rewarded by contributing to Gen AI": {
+    "message": "जन एआई में योगदान देकर पुरस्कार प्राप्त करें",
+    "description": "क्या करना है यह समझाने के लिए एक कार्ड विवरण"
+  },
+  "For AI Consumers": {
+    "message": "एआई उपभोक्ताओं के लिए",
+    "description": "उपयोगकर्ताओं के एक समूह के लिए कार्ड शीर्षक"
+  },
+  "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.": {
+    "message": "पारिस्थितिकी तंत्र में योगदान देकर या Cuckoo Pay का उपयोग करके मुफ्त में विभिन्न एआई ऐप्स तक पहुँचें। यदि एक ऐप अवरुद्ध है, तो विकेंद्रीकृत नेटवर्क के भीतर निर्बाध रूप से दूसरे समन्वयक पर स्विच करें।",
+    "description": "क्या करना है यह समझाने के लिए एक कार्ड विवरण"
+  },
+  "For App Builders/Coordinators": {
+    "message": "ऐप बिल्डरों/समन्वयकों के लिए"
+  },
+  "Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.": {
+    "message": "एक समन्वयक नोड चलाएँ, नेटवर्क में शामिल होने के लिए स्टेक करें, और स्टेकिंग पुरस्कार प्राप्त करें। GPU लागत को कम करें, अपने ग्राहक आधार का विस्तार करें, GPU खनिकों को कार्य सौंपें, परिणामों को मान्य करें, और भुगतान वितरित करें।"
+  },
+  "For GPU Miners": {
+    "message": "GPU खनिकों के लिए",
+    "description": "विशिष्ट उपयोगकर्ता समूह के लिए कार्ड विवरण"
+  },
+  "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.": {
+    "message": "एक खनिक नोड चलाएँ, नेटवर्क में शामिल होने के लिए स्टेक करें, और स्टेकिंग पुरस्कार प्राप्त करें। अपने GPU संसाधनों को साझा करें, सौंपे गए कार्यों को पूरा करें, और टोकन कमाने के लिए विश्वसनीय सेवा बनाए रखें।",
+    "description": "क्या करना है यह समझाने के लिए एक कार्ड विवरण"
+  },
+  "footer.aboutTitle": {
+    "message": "Cuckoo AI के बारे में"
+  },
+  "footer.aboutDescription": {
+    "message": "Cuckoo नेटवर्क विकेंद्रीकरण के माध्यम से एआई बुनियादी ढांचे में क्रांति ला रहा है। Arbitrum और एथेरियम पर निर्मित एक अग्रणी ब्लॉकचेन प्लेटफॉर्म के रूप में, हम GPU खनिकों, डेवलपर्स, और एआई उत्साही लोगों को एक निष्पक्ष, पारदर्शी पारिस्थितिकी तंत्र में भाग लेने के लिए सशक्त बनाते हैं। हमारा नेटवर्क लागत-कुशल एआई मॉडल सेवा, Cuckoo Chain के माध्यम से सुरक्षित लेनदेन, और $CAI टोकन के माध्यम से सामुदायिक-संचालित विकास को सक्षम करता है।"
+  },
+  "footer.subscribeTitle": {
+    "message": "आज ही अपडेट रहें"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 आइटम|{count} आइटम",
+    "description": "निर्मित अनुक्रमणिका में श्रेणी कार्ड के लिए डिफ़ॉल्ट विवरण कि इस श्रेणी में कितने आइटम शामिल हैं"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "ब्लॉग लेखक के लिए पृष्ठ का शीर्षक"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "लेखक",
+    "description": "लेखकों के पृष्ठ का शीर्षक"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "सभी लेखकों को देखें",
+    "description": "ब्लॉग लेखकों के पृष्ठ को लक्षित करने वाले लिंक का लेबल"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "अनलिस्टेड पृष्ठ",
+    "description": "अनलिस्टेड सामग्री बैनर शीर्षक"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "यह पृष्ठ अनलिस्टेड है। खोज इंजन इसे अनुक्रमित नहीं करेंगे, और केवल सीधे लिंक वाले उपयोगकर्ता इसे एक्सेस कर सकते हैं।",
+    "description": "अनलिस्टेड सामग्री बैनर संदेश"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "ड्राफ्ट पृष्ठ",
+    "description": "ड्राफ्ट सामग्री बैनर शीर्षक"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "यह पृष्ठ एक ड्राफ्ट है। यह केवल विकास में दिखाई देगा और उत्पादन निर्माण से बाहर रखा जाएगा।",
+    "description": "ड्राफ्ट सामग्री बैनर संदेश"
   }
 }

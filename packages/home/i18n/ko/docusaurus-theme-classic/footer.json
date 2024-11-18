@@ -131,10 +131,6 @@
     "message": "Cuckoo 아트",
     "description": "The label of footer link with label=Cuckoo Art linking to https://cuckoo.network/portal/art"
   },
-  "copyright": {
-    "message": "저작권 © 2024 Cuckoo",
-    "description": "The footer copyright"
-  },
   "logo.alt": {
     "message": "BlockEden.xyz",
     "description": "The alt text of footer logo"

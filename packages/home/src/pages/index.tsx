@@ -31,22 +31,6 @@ export default function Home(): JSX.Element {
         <Target />
         <News />
         <Cta />
-        <section>
-          <div className="max-w-6xl mx-auto px-4 sm:px-6">
-            <iframe
-              src="https://cuckoonetwork.substack.com/embed"
-              width={"100%"}
-              height={320}
-              style={{ border: "0px solid #EEE", background: "#111827" }}
-              frameBorder={0}
-              scrolling="no"
-              title={translate({
-                message: 'Newsletter iframe',
-                description: 'The title for the newsletter iframe',
-              })}
-            />
-          </div>
-        </section>
       </main>
       <br />
     </Layout>

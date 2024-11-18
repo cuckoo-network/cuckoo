@@ -1,752 +1,798 @@
 {
   "theme.ErrorPageContent.title": {
     "message": "Esta página se ha caído.",
-    "description": "The title of the fallback page when the page crashed"
+    "description": "El título de la página de respaldo cuando la página se ha caído"
   },
   "theme.blog.archive.title": {
     "message": "Archivo",
-    "description": "The page & hero title of the blog archive page"
+    "description": "El título de la página y del héroe de la página de archivo del blog"
   },
   "theme.blog.archive.description": {
     "message": "Archivo",
-    "description": "The page & hero description of the blog archive page"
+    "description": "La descripción de la página y del héroe de la página de archivo del blog"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
     "message": "Desplazarse de nuevo a la parte superior",
-    "description": "The ARIA label for the back to top button"
+    "description": "La etiqueta ARIA para el botón de volver a la parte superior"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Navegación de la lista de blogs",
-    "description": "The ARIA label for the blog pagination"
+    "message": "Navegación de la lista del blog",
+    "description": "La etiqueta ARIA para la paginación del blog"
   },
   "theme.blog.paginator.newerEntries": {
     "message": "Entradas más nuevas",
-    "description": "The label used to navigate to the newer blog posts page (previous page)"
+    "description": "La etiqueta utilizada para navegar a la página de publicaciones de blog más nuevas (página anterior)"
   },
   "theme.blog.paginator.olderEntries": {
     "message": "Entradas más antiguas",
-    "description": "The label used to navigate to the older blog posts page (next page)"
+    "description": "La etiqueta utilizada para navegar a la página de publicaciones de blog más antiguas (página siguiente)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
     "message": "Navegación de la página de publicaciones del blog",
-    "description": "The ARIA label for the blog posts pagination"
+    "description": "La etiqueta ARIA para la paginación de publicaciones del blog"
   },
   "theme.blog.post.paginator.newerPost": {
     "message": "Publicación más nueva",
-    "description": "The blog post button label to navigate to the newer/previous post"
+    "description": "La etiqueta del botón de publicación del blog para navegar a la publicación más nueva/anterior"
   },
   "theme.blog.post.paginator.olderPost": {
     "message": "Publicación más antigua",
-    "description": "The blog post button label to navigate to the older/next post"
+    "description": "La etiqueta del botón de publicación del blog para navegar a la publicación más antigua/siguiente"
   },
   "theme.blog.post.plurals": {
     "message": "Una publicación|{count} publicaciones",
-    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "description": "Etiqueta pluralizada para \"{count} publicaciones\". Usa tantas formas plurales (separadas por \"|\") como tu idioma soporte (ver https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
     "message": "{nPosts} etiquetados con \"{tagName}\"",
-    "description": "The title of the page for a blog tag"
+    "description": "El título de la página para una etiqueta de blog"
   },
   "theme.tags.tagsPageLink": {
     "message": "Ver todas las etiquetas",
-    "description": "The label of the link targeting the tag list page"
+    "description": "La etiqueta del enlace que apunta a la página de lista de etiquetas"
   },
   "theme.colorToggle.ariaLabel": {
     "message": "Cambiar entre modo oscuro y claro (actualmente {mode})",
-    "description": "The ARIA label for the navbar color mode toggle"
+    "description": "La etiqueta ARIA para el interruptor de modo de color de la barra de navegación"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
     "message": "modo oscuro",
-    "description": "The name for the dark color mode"
+    "description": "El nombre para el modo de color oscuro"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
     "message": "modo claro",
-    "description": "The name for the light color mode"
+    "description": "El nombre para el modo de color claro"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
     "message": "Migajas de pan",
-    "description": "The ARIA label for the breadcrumbs"
+    "description": "La etiqueta ARIA para las migajas de pan"
   },
   "theme.docs.DocCard.categoryDescription": {
     "message": "{count} elementos",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
+    "description": "La descripción predeterminada para una tarjeta de categoría en el índice generado sobre cuántos elementos incluye esta categoría"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Páginas de documentos",
-    "description": "The ARIA label for the docs pagination"
+    "description": "La etiqueta ARIA para la paginación de documentos"
   },
   "theme.docs.paginator.previous": {
     "message": "Anterior",
-    "description": "The label used to navigate to the previous doc"
+    "description": "La etiqueta utilizada para navegar al documento anterior"
   },
   "theme.docs.paginator.next": {
     "message": "Siguiente",
-    "description": "The label used to navigate to the next doc"
+    "description": "La etiqueta utilizada para navegar al siguiente documento"
   },
   "theme.docs.versionBadge.label": {
     "message": "Versión: {versionLabel}"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
     "message": "Un documento etiquetado|{count} documentos etiquetados",
-    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "description": "Etiqueta pluralizada para \"{count} documentos etiquetados\". Usa tantas formas plurales (separadas por \"|\") como tu idioma soporte (ver https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
     "message": "{nDocsTagged} con \"{tagName}\"",
-    "description": "The title of the page for a docs tag"
+    "description": "El título de la página para una etiqueta de documentos"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "Esta es documentación no publicada para la versión {versionLabel} de {siteTitle}.",
-    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+    "description": "La etiqueta utilizada para informar al usuario que está navegando por una versión de documento no publicada"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "Esta es la documentación para la versión {versionLabel} de {siteTitle}, que ya no se mantiene activamente.",
-    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+    "message": "Esta es documentación para la versión {versionLabel} de {siteTitle}, que ya no se mantiene activamente.",
+    "description": "La etiqueta utilizada para informar al usuario que está navegando por una versión de documento no mantenida"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "Para documentación actualizada, consulte la {latestVersionLink} ({versionLabel}).",
-    "description": "The label used to tell the user to check the latest version"
+    "message": "Para documentación actualizada, consulta la {latestVersionLink} ({versionLabel}).",
+    "description": "La etiqueta utilizada para informar al usuario que consulte la última versión"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "última versión",
-    "description": "The label used for the latest version suggestion link label"
+    "description": "La etiqueta utilizada para la etiqueta del enlace de sugerencia de la última versión"
   },
   "theme.common.editThisPage": {
     "message": "Editar esta página",
-    "description": "The link label to edit the current page"
+    "description": "La etiqueta del enlace para editar la página actual"
   },
   "theme.common.headingLinkTitle": {
     "message": "Enlace directo a {heading}",
-    "description": "Title for link to heading"
+    "description": "Título para el enlace al encabezado"
   },
   "theme.lastUpdated.atDate": {
     "message": " el {date}",
-    "description": "The words used to describe on which date a page has been last updated"
+    "description": "Las palabras utilizadas para describir en qué fecha se actualizó por última vez una página"
   },
   "theme.lastUpdated.byUser": {
     "message": " por {user}",
-    "description": "The words used to describe by who the page has been last updated"
+    "description": "Las palabras utilizadas para describir por quién se actualizó por última vez la página"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
     "message": "Última actualización{atDate}{byUser}",
-    "description": "The sentence used to display when a page has been last updated, and by who"
+    "description": "La frase utilizada para mostrar cuándo se actualizó por última vez una página, y por quién"
   },
   "theme.NotFound.title": {
     "message": "Página No Encontrada",
-    "description": "The title of the 404 page"
+    "description": "El título de la página 404"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
     "message": "Versiones",
-    "description": "The label for the navbar versions dropdown on mobile view"
+    "description": "La etiqueta para el menú desplegable de versiones de la barra de navegación en vista móvil"
   },
   "theme.tags.tagsListLabel": {
     "message": "Etiquetas:",
-    "description": "The label alongside a tag list"
+    "description": "La etiqueta junto a una lista de etiquetas"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
     "message": "Cerrar",
-    "description": "The ARIA label for close button of announcement bar"
+    "description": "La etiqueta ARIA para el botón de cerrar de la barra de anuncios"
   },
   "theme.admonition.caution": {
     "message": "cuidado",
-    "description": "The default label used for the Caution admonition (:::caution)"
+    "description": "La etiqueta predeterminada utilizada para la admonición de Cuidado (:::caution)"
   },
   "theme.admonition.danger": {
     "message": "peligro",
-    "description": "The default label used for the Danger admonition (:::danger)"
+    "description": "La etiqueta predeterminada utilizada para la admonición de Peligro (:::danger)"
   },
   "theme.admonition.info": {
     "message": "información",
-    "description": "The default label used for the Info admonition (:::info)"
+    "description": "La etiqueta predeterminada utilizada para la admonición de Información (:::info)"
   },
   "theme.admonition.note": {
     "message": "nota",
-    "description": "The default label used for the Note admonition (:::note)"
+    "description": "La etiqueta predeterminada utilizada para la admonición de Nota (:::note)"
   },
   "theme.admonition.tip": {
     "message": "consejo",
-    "description": "The default label used for the Tip admonition (:::tip)"
+    "description": "La etiqueta predeterminada utilizada para la admonición de Consejo (:::tip)"
   },
   "theme.admonition.warning": {
     "message": "advertencia",
-    "description": "The default label used for the Warning admonition (:::warning)"
+    "description": "La etiqueta predeterminada utilizada para la admonición de Advertencia (:::warning)"
   },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "Navegación de publicaciones recientes del blog",
-    "description": "The ARIA label for recent posts in the blog sidebar"
+    "description": "La etiqueta ARIA para publicaciones recientes en la barra lateral del blog"
   },
   "theme.CodeBlock.copied": {
     "message": "Copiado",
-    "description": "The copied button label on code blocks"
+    "description": "La etiqueta del botón copiado en bloques de código"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
     "message": "Copiar código al portapapeles",
-    "description": "The ARIA label for copy code blocks button"
+    "description": "La etiqueta ARIA para el botón de copiar bloques de código"
   },
   "theme.CodeBlock.copy": {
     "message": "Copiar",
-    "description": "The copy button label on code blocks"
+    "description": "La etiqueta del botón de copiar en bloques de código"
   },
   "theme.CodeBlock.wordWrapToggle": {
     "message": "Alternar ajuste de línea",
-    "description": "The title attribute for toggle word wrapping button of code block lines"
+    "description": "El atributo de título para el botón de alternar el ajuste de línea de las líneas del bloque de código"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
     "message": "Expandir categoría de la barra lateral '{label}'",
-    "description": "The ARIA label to expand the sidebar category"
+    "description": "La etiqueta ARIA para expandir la categoría de la barra lateral"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
     "message": "Colapsar categoría de la barra lateral '{label}'",
-    "description": "The ARIA label to collapse the sidebar category"
+    "description": "La etiqueta ARIA para colapsar la categoría de la barra lateral"
   },
   "theme.NotFound.p1": {
     "message": "No pudimos encontrar lo que estabas buscando.",
-    "description": "The first paragraph of the 404 page"
+    "description": "El primer párrafo de la página 404"
   },
   "theme.NotFound.p2": {
     "message": "Por favor, contacta al propietario del sitio que te enlazó a la URL original y házle saber que su enlace está roto.",
-    "description": "The 2nd paragraph of the 404 page"
+    "description": "El segundo párrafo de la página 404"
   },
   "theme.NavBar.navAriaLabel": {
     "message": "Principal",
-    "description": "The ARIA label for the main navigation"
+    "description": "La etiqueta ARIA para la navegación principal"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
     "message": "Idiomas",
-    "description": "The label for the mobile language switcher dropdown"
+    "description": "La etiqueta para el menú desplegable de selección de idioma móvil"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "En esta página",
-    "description": "The label used by the button on the collapsible TOC component"
+    "description": "La etiqueta utilizada por el botón en el componente TOC colapsable"
   },
   "theme.blog.post.readMore": {
-    "message": "Leer más",
-    "description": "The label used in blog post item excerpts to link to full blog posts"
+    "message": "Leer Más",
+    "description": "La etiqueta utilizada en los extractos de publicaciones del blog para enlazar a publicaciones completas del blog"
   },
   "theme.blog.post.readMoreLabel": {
     "message": "Leer más sobre {title}",
-    "description": "The ARIA label for the link to full blog posts from excerpts"
+    "description": "La etiqueta ARIA para el enlace a publicaciones completas del blog desde extractos"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "Un min de lectura|{readingTime} min de lectura",
-    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "message": "Una min de lectura|{readingTime} min de lectura",
+    "description": "Etiqueta pluralizada para \"{readingTime} min de lectura\". Usa tantas formas plurales (separadas por \"|\") como tu idioma soporte (ver https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.breadcrumbs.home": {
     "message": "Página de inicio",
-    "description": "The ARIA label for the home page in the breadcrumbs"
+    "description": "La etiqueta ARIA para la página de inicio en las migajas de pan"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "Colapsar barra lateral",
-    "description": "The title attribute for collapse button of doc sidebar"
+    "description": "El atributo de título para el botón de colapsar la barra lateral de documentos"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
     "message": "Colapsar barra lateral",
-    "description": "The title attribute for collapse button of doc sidebar"
+    "description": "El atributo de título para el botón de colapsar la barra lateral de documentos"
   },
   "theme.docs.sidebar.navAriaLabel": {
     "message": "Barra lateral de documentos",
-    "description": "The ARIA label for the sidebar navigation"
+    "description": "La etiqueta ARIA para la navegación de la barra lateral"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "Cerrar barra de navegación",
-    "description": "The ARIA label for close button of mobile sidebar"
+    "description": "La etiqueta ARIA para el botón de cerrar la barra lateral móvil"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
     "message": "← Volver al menú principal",
-    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+    "description": "La etiqueta del botón de volver al menú principal, dentro del menú secundario de la barra lateral móvil (notablemente utilizado para mostrar la barra lateral de documentos)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
     "message": "Alternar barra de navegación",
-    "description": "The ARIA label for hamburger menu button of mobile navigation"
+    "description": "La etiqueta ARIA para el botón de menú hamburguesa de navegación móvil"
   },
   "theme.docs.sidebar.expandButtonTitle": {
     "message": "Expandir barra lateral",
-    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+    "description": "La etiqueta ARIA y el atributo de título para el botón de expandir la barra lateral de documentos"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Expandir barra lateral",
-    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+    "description": "La etiqueta ARIA y el atributo de título para el botón de expandir la barra lateral de documentos"
   },
   "theme.ErrorPageContent.tryAgain": {
     "message": "Inténtalo de nuevo",
-    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+    "description": "La etiqueta del botón para intentar renderizar de nuevo cuando el límite de error de React captura un error"
   },
   "theme.common.skipToMainContent": {
     "message": "Saltar al contenido principal",
-    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+    "description": "La etiqueta de salto al contenido utilizada para accesibilidad, permitiendo navegar rápidamente al contenido principal con la navegación por teclado tab/enter"
   },
   "theme.tags.tagsPageTitle": {
     "message": "Etiquetas",
-    "description": "The title of the tag list page"
+    "description": "El título de la página de lista de etiquetas"
   },
   "theme.unlistedContent.title": {
     "message": "Página no listada",
-    "description": "The unlisted content banner title"
+    "description": "El título del banner de contenido no listado"
   },
   "theme.unlistedContent.message": {
     "message": "Esta página no está listada. Los motores de búsqueda no la indexarán, y solo los usuarios que tengan un enlace directo pueden acceder a ella.",
-    "description": "The unlisted content banner message"
+    "description": "El mensaje del banner de contenido no listado"
   },
   "Cuckoo Chain: Decentralized AI Blockchain": {
     "message": "Cuckoo Chain: Blockchain de IA descentralizada",
-    "description": "Page title for Cuckoo Chain homepage"
+    "description": "Título de la página para la página de inicio de Cuckoo Chain"
   },
   "Cuckoo Chain is set to transform the AI blockchain landscape. As an Arbitrum L2 in the Ethereum ecosystem, it brings streamlined AI developer experience, fast speed and efficiency to the table. This makes it a prime choice for Web3 + AI users seeking robust and scalable solutions": {
-    "message": "Cuckoo Chain está listo para transformar el panorama de blockchain de IA. Como un Arbitrum L2 en el ecosistema de Ethereum, ofrece una experiencia de desarrollo de IA optimizada, velocidad rápida y eficiencia. Esto lo convierte en una opción principal para los usuarios de Web3 + IA que buscan soluciones robustas y escalables.",
-    "description": "Page description for Cuckoo Chain homepage"
+    "message": "Cuckoo Chain está listo para transformar el panorama de blockchain de IA. Como un Arbitrum L2 en el ecosistema de Ethereum, ofrece una experiencia de desarrollador de IA optimizada, velocidad rápida y eficiencia. Esto lo convierte en una opción principal para los usuarios de Web3 + IA que buscan soluciones robustas y escalables.",
+    "description": "Descripción de la página para la página de inicio de Cuckoo Chain"
   },
   "Hero Illustration": {
-    "message": "Ilustración principal",
-    "description": "The alt text for the hero illustration"
+    "message": "Ilustración del héroe",
+    "description": "El texto alternativo para la ilustración del héroe"
   },
   "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders": {
     "message": "Cuckoo AI Plataforma Creativa de IA Descentralizada para Creadores y Constructores",
-    "description": "The site tagline"
+    "description": "El eslogan del sitio"
   },
   "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
-    "message": "Crea impresionantes obras de arte de IA y potencia aplicaciones de IA Gen con tu GPU o CPU en Cuckoo Chain. Comparte, genera y desbloquea el poder de la IA descentralizada.",
-    "description": "Site description"
+    "message": "Crea impresionantes obras de arte de IA y alimenta aplicaciones de IA Gen con tu GPU o CPU en Cuckoo Chain. Comparte, genera y desbloquea el poder de la IA descentralizada.",
+    "description": "Descripción del sitio"
   },
   "Newsletter iframe": {
-    "message": "iframe del boletín",
-    "description": "The title for the newsletter iframe"
+    "message": "Iframe del boletín",
+    "description": "El título para el iframe del boletín"
   },
   "It's time to join the thousands of creators, artists, and developers using Cuckoo Chain": {
     "message": "Es hora de unirse a los miles de creadores, artistas y desarrolladores que utilizan Cuckoo Chain",
-    "description": "CTA section main title"
+    "description": "Título principal de la sección CTA"
   },
   "Explore Chain": {
     "message": "Explorar Chain",
-    "description": "Button label to explore the Cuckoo Chain"
+    "description": "Etiqueta del botón para explorar Cuckoo Chain"
   },
   "Read Docs": {
     "message": "Leer Documentos",
-    "description": "Button label to read the Cuckoo Chain documentation"
+    "description": "Etiqueta del botón para leer la documentación de Cuckoo Chain"
   },
   "FAQs": {
     "message": "Preguntas Frecuentes",
-    "description": "FAQs section title"
+    "description": "Título de la sección de preguntas frecuentes"
   },
   "What is Cuckoo Chain?": {
     "message": "¿Qué es Cuckoo Chain?",
-    "description": "Question: What is Cuckoo Chain?"
+    "description": "Pregunta: ¿Qué es Cuckoo Chain?"
   },
   "Cuckoo Chain is a blockchain platform designed specifically for AI applications, operating as an Arbitrum L2 within the Ethereum ecosystem. It offers a streamlined AI developer experience with enhanced speed and efficiency.": {
-    "message": "Cuckoo Chain es una plataforma de blockchain diseñada específicamente para aplicaciones de IA, operando como un Arbitrum L2 dentro del ecosistema de Ethereum. Ofrece una experiencia de desarrollo de IA optimizada con velocidad y eficiencia mejoradas.",
-    "description": "Answer: What is Cuckoo Chain?"
+    "message": "Cuckoo Chain es una plataforma de blockchain diseñada específicamente para aplicaciones de IA, operando como un Arbitrum L2 dentro del ecosistema de Ethereum. Ofrece una experiencia de desarrollador de IA optimizada con velocidad y eficiencia mejoradas.",
+    "description": "Respuesta: ¿Qué es Cuckoo Chain?"
   },
   "How does Cuckoo Chain integrate with the Ethereum ecosystem?": {
     "message": "¿Cómo se integra Cuckoo Chain con el ecosistema de Ethereum?",
-    "description": "Question: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
+    "description": "Pregunta: ¿Cómo se integra Cuckoo Chain con el ecosistema de Ethereum?"
   },
   "Cuckoo Chain functions as an Arbitrum Layer 2 solution, which means it inherits the security and decentralization of Ethereum while providing faster and cheaper transactions. This integration ensures seamless interoperability with the Ethereum network.": {
-    "message": "Cuckoo Chain funciona como una solución de Capa 2 de Arbitrum, lo que significa que hereda la seguridad y descentralización de Ethereum mientras proporciona transacciones más rápidas y económicas. Esta integración garantiza una interoperabilidad fluida con la red de Ethereum.",
-    "description": "Answer: How does Cuckoo Chain integrate with the Ethereum ecosystem?"
+    "message": "Cuckoo Chain funciona como una solución de Capa 2 de Arbitrum, lo que significa que hereda la seguridad y descentralización de Ethereum mientras proporciona transacciones más rápidas y económicas. Esta integración garantiza una interoperabilidad fluida con la red Ethereum.",
+    "description": "Respuesta: ¿Cómo se integra Cuckoo Chain con el ecosistema de Ethereum?"
   },
   "What are the main benefits of using Cuckoo Chain for AI development?": {
     "message": "¿Cuáles son los principales beneficios de usar Cuckoo Chain para el desarrollo de IA?",
-    "description": "Question: What are the main benefits of using Cuckoo Chain for AI development?"
+    "description": "Pregunta: ¿Cuáles son los principales beneficios de usar Cuckoo Chain para el desarrollo de IA?"
   },
   "Cuckoo Chain offers unparalleled speed, efficiency, and scalability for AI development. It reduces transaction costs, accelerates processing times, and provides a robust infrastructure for deploying AI solutions on the blockchain.": {
-    "message": "Cuckoo Chain ofrece una velocidad, eficiencia y escalabilidad inigualables para el desarrollo de IA. Reduce los costos de transacción, acelera los tiempos de procesamiento y proporciona una infraestructura robusta para implementar soluciones de IA en la blockchain.",
-    "description": "Answer: What are the main benefits of using Cuckoo Chain for AI development?"
+    "message": "Cuckoo Chain ofrece una velocidad, eficiencia y escalabilidad incomparables para el desarrollo de IA. Reduce los costos de transacción, acelera los tiempos de procesamiento y proporciona una infraestructura robusta para implementar soluciones de IA en la blockchain.",
+    "description": "Respuesta: ¿Cuáles son los principales beneficios de usar Cuckoo Chain para el desarrollo de IA?"
   },
   "How can I get started with Cuckoo Chain?": {
-    "message": "¿Cómo puedo empezar con Cuckoo Chain?",
-    "description": "Question: How can I get started with Cuckoo Chain?"
+    "message": "¿Cómo puedo comenzar con Cuckoo Chain?",
+    "description": "Pregunta: ¿Cómo puedo comenzar con Cuckoo Chain?"
   },
   "Getting started with Cuckoo Chain is simple. Visit our {gettingStartedGuide} for step-by-step instructions on setting up your account,\n                  integrating your applications, and deploying your first AI\n                  models on the platform.": {
-    "message": "Empezar con Cuckoo Chain es simple. Visita nuestra {gettingStartedGuide} para obtener instrucciones paso a paso sobre cómo configurar tu cuenta,\n                  integrar tus aplicaciones y desplegar tus primeros modelos de IA\n                  en la plataforma.",
-    "description": "Answer: How can I get started with Cuckoo Chain?"
+    "message": "Comenzar con Cuckoo Chain es simple. Visita nuestra {gettingStartedGuide} para obtener instrucciones paso a paso sobre cómo configurar tu cuenta,\n                  integrar tus aplicaciones y desplegar tus primeros modelos de IA\n                  en la plataforma.",
+    "description": "Respuesta: ¿Cómo puedo comenzar con Cuckoo Chain?"
   },
   "Getting Started Guide": {
-    "message": "Guía para Empezar",
-    "description": "Link text for Getting Started Guide"
+    "message": "Guía para Comenzar",
+    "description": "Texto del enlace para la Guía para Comenzar"
   },
   "What are some real-world use cases for Cuckoo Chain?": {
     "message": "¿Cuáles son algunos casos de uso del mundo real para Cuckoo Chain?",
-    "description": "Question: What are some real-world use cases for Cuckoo Chain?"
+    "description": "Pregunta: ¿Cuáles son algunos casos de uso del mundo real para Cuckoo Chain?"
   },
   "Cuckoo Chain can be used in various scenarios, including decentralized AI model inference, secure data sharing, and AI-powered decentralized applications (dApps). Our platform supports diverse industries such as finance, healthcare, and supply chain management.": {
-    "message": "Cuckoo Chain se puede utilizar en varios escenarios, incluyendo inferencia de modelos de IA descentralizados, intercambio seguro de datos y aplicaciones descentralizadas (dApps) impulsadas por IA. Nuestra plataforma apoya diversas industrias como finanzas, salud y gestión de la cadena de suministro.",
-    "description": "Answer: What are some real-world use cases for Cuckoo Chain?"
+    "message": "Cuckoo Chain se puede utilizar en varios escenarios, incluyendo inferencia de modelos de IA descentralizados, intercambio seguro de datos y aplicaciones descentralizadas (dApps) impulsadas por IA. Nuestra plataforma apoya diversas industrias como finanzas, atención médica y gestión de la cadena de suministro.",
+    "description": "Respuesta: ¿Cuáles son algunos casos de uso del mundo real para Cuckoo Chain?"
   },
   "Where can I find support and additional resources?": {
     "message": "¿Dónde puedo encontrar soporte y recursos adicionales?",
-    "description": "Question: Where can I find support and additional resources?"
+    "description": "Pregunta: ¿Dónde puedo encontrar soporte y recursos adicionales?"
   },
   "For support and additional resources, visit our {helpCenter} or join our community on {discord} and {telegram}. Our\n                  comprehensive documentation, tutorials, and active community\n                  are here to assist you with any questions or challenges you\n                  might encounter.": {
     "message": "Para soporte y recursos adicionales, visita nuestro {helpCenter} o únete a nuestra comunidad en {discord} y {telegram}. Nuestra\n                  documentación completa, tutoriales y comunidad activa\n                  están aquí para ayudarte con cualquier pregunta o desafío que\n                  puedas encontrar.",
-    "description": "Answer: Where can I find support and additional resources?"
+    "description": "Respuesta: ¿Dónde puedo encontrar soporte y recursos adicionales?"
   },
   "Help Center": {
     "message": "Centro de Ayuda",
-    "description": "Link text for Help Center"
+    "description": "Texto del enlace para el Centro de Ayuda"
   },
   "Discord": {
     "message": "Discord",
-    "description": "Link text for Discord"
+    "description": "Texto del enlace para Discord"
   },
   "Telegram": {
     "message": "Telegram",
-    "description": "Link text for Telegram"
+    "description": "Texto del enlace para Telegram"
   },
   "Illustration": {
     "message": "Ilustración",
-    "description": "Illustration alt text"
+    "description": "Texto alternativo de la ilustración"
   },
   "Many tools to decentralized AI with Cuckoo Chain": {
     "message": "Muchas herramientas para la IA descentralizada con Cuckoo Chain",
-    "description": "Section header title"
+    "description": "Título de la sección"
   },
   "The best resources for building an end-to-end Cuckoo Chain dApp.": {
     "message": "Los mejores recursos para construir una dApp de Cuckoo Chain de extremo a extremo.",
-    "description": "Section header description"
+    "description": "Descripción de la sección"
   },
   "Icon 01": {
     "message": "Icono 01",
-    "description": "Icon 01 alt text"
+    "description": "Texto alternativo del Icono 01"
   },
   "Cuckoo Network Bridge": {
     "message": "Puente de Cuckoo Network",
-    "description": "Cuckoo Network Bridge title"
+    "description": "Título del Puente de Cuckoo Network"
   },
   "Transfer assets seamlessly across Arbitrum One and Cuckoo Chain with minimal fees and secure transactions.": {
     "message": "Transfiere activos sin problemas entre Arbitrum One y Cuckoo Chain con tarifas mínimas y transacciones seguras.",
-    "description": "Cuckoo Network Bridge description"
+    "description": "Descripción del Puente de Cuckoo Network"
   },
   "Learn More": {
     "message": "Aprender Más",
-    "description": "Home page hero section's news message's CTA"
+    "description": "Texto del enlace para aprender más sobre Cuckoo Scan"
   },
   "Icon 02": {
     "message": "Icono 02",
-    "description": "Icon 02 alt text"
+    "description": "Texto alternativo del Icono 02"
   },
   "Thirdweb": {
     "message": "Thirdweb",
-    "description": "Thirdweb title"
+    "description": "Título de Thirdweb"
   },
   "Full-stack, open-source web3 development platform. Fullstack tools to build complete web3 apps.": {
-    "message": "Plataforma de desarrollo web3 de pila completa y de código abierto. Herramientas de pila completa para construir aplicaciones web3 completas.",
-    "description": "Thirdweb description"
+    "message": "Plataforma de desarrollo web3 de código abierto y de pila completa. Herramientas de pila completa para construir aplicaciones web3 completas.",
+    "description": "Descripción de Thirdweb"
   },
   "Icon 03": {
     "message": "Icono 03",
-    "description": "Icon 03 alt text"
+    "description": "Texto alternativo del Icono 03"
   },
   "ChainList": {
     "message": "ChainList",
-    "description": "ChainList title"
+    "description": "Título de ChainList"
   },
   "ChainList is a list of EVM networks. Users can use the info to connect their wallets and Web3 middleware providers.": {
     "message": "ChainList es una lista de redes EVM. Los usuarios pueden usar la información para conectar sus billeteras y proveedores de middleware Web3.",
-    "description": "ChainList description"
+    "description": "Descripción de ChainList"
   },
   "Icon 04": {
     "message": "Icono 04",
-    "description": "Icon 04 alt text"
+    "description": "Texto alternativo del Icono 04"
   },
   "Cuckoo Scan": {
     "message": "Cuckoo Scan",
-    "description": "Cuckoo Scan title"
+    "description": "Título de Cuckoo Scan"
   },
   "Blockchain explorer to inspect Cuckoo Chain transactions, tokens, and coins. RESTful and GraphQL API available.": {
-    "message": "Explorador de blockchain para inspeccionar transacciones, tokens y monedas de Cuckoo Chain. API RESTful y GraphQL disponible.",
-    "description": "Cuckoo Scan description"
+    "message": "Explorador de blockchain para inspeccionar transacciones, tokens y monedas de Cuckoo Chain. API RESTful y GraphQL disponibles.",
+    "description": "Descripción de Cuckoo Scan"
   },
   "Previous": {
     "message": "Anterior",
-    "description": "Aria label for previous button"
+    "description": "Etiqueta ARIA para el botón anterior"
   },
   "Next": {
     "message": "Siguiente",
-    "description": "Aria label for next button"
+    "description": "Etiqueta ARIA para el botón siguiente"
   },
   "Transforming AI with Blockchain Technology": {
     "message": "Transformando la IA con Tecnología Blockchain",
-    "description": "Hero section main title"
+    "description": "Título principal de la sección del héroe"
   },
   "Cuckoo Chain, an Arbitrum L2 in the Ethereum ecosystem, revolutionizes AI development with unmatched speed, efficiency, and scalability. Perfect for Web3 + AI innovators.": {
-    "message": "Cuckoo Chain, un Arbitrum L2 en el ecosistema de Ethereum, revoluciona el desarrollo de IA con velocidad, eficiencia y escalabilidad inigualables. Perfecto para innovadores de Web3 + IA.",
-    "description": "Hero section description about Cuckoo Chain and its role in AI development"
+    "message": "Cuckoo Chain, un Arbitrum L2 en el ecosistema de Ethereum, revoluciona el desarrollo de IA con velocidad, eficiencia y escalabilidad incomparables. Perfecto para innovadores de Web3 + IA.",
+    "description": "Descripción de la sección del héroe sobre Cuckoo Chain y su papel en el desarrollo de IA"
   },
   "Pricing Illustration": {
     "message": "Ilustración de Precios",
-    "description": "Alt text for the pricing section illustration"
+    "description": "Texto alternativo para la ilustración de la sección de precios"
   },
   "Fundamentally Aligned with Ethereum": {
     "message": "Fundamentalmente Alineado con Ethereum",
-    "description": "Title for the pricing section"
+    "description": "Título para la sección de precios"
   },
   "But optimized for performance and on-chain AI": {
-    "message": "Pero optimizado para rendimiento e IA en cadena",
-    "description": "Description for the pricing section"
+    "message": "Pero optimizado para rendimiento e IA en la cadena",
+    "description": "Descripción para la sección de precios"
   },
   "Monthly": {
     "message": "Mensual",
-    "description": "Label for the monthly payment option"
+    "description": "Etiqueta para la opción de pago mensual"
   },
   "Pay annually": {
     "message": "Pagar anualmente",
-    "description": "Screen reader label for toggling to pay annually"
+    "description": "Etiqueta para lectores de pantalla para alternar a pagar anualmente"
   },
   "Yearly": {
     "message": "Anual",
-    "description": "Label for the yearly payment option"
+    "description": "Etiqueta para la opción de pago anual"
   },
   "Infra": {
     "message": "Infra",
-    "description": "Infra section label for mobile view"
+    "description": "Etiqueta de la sección Infra para vista móvil"
   },
   "Max Theoretical TPS": {
     "message": "Máx. TPS Teórico",
-    "description": "Label for maximum theoretical transactions per second in mobile view"
+    "description": "Etiqueta para transacciones teóricas máximas por segundo en vista móvil"
   },
   "Fastest Block Time": {
     "message": "Tiempo de Bloque Más Rápido",
-    "description": "Label for the fastest block time in mobile view"
+    "description": "Etiqueta para el tiempo de bloque más rápido en vista móvil"
   },
   "Governance Model": {
     "message": "Modelo de Gobernanza",
-    "description": "Label for the governance model in mobile view"
+    "description": "Etiqueta para el modelo de gobernanza en vista móvil"
   },
   "Features": {
     "message": "Características",
-    "description": "Label for the features section in mobile view"
+    "description": "Etiqueta para la sección de características en vista móvil"
   },
   "Avg. Gas Price": {
-    "message": "Precio Promedio de Gas",
-    "description": "Label for the average gas price in mobile view"
+    "message": "Precio Prom. Gas",
+    "description": "Etiqueta para el precio promedio del gas en vista móvil"
   },
   "EVM Compatible": {
     "message": "Compatible con EVM",
-    "description": "Label for EVM compatibility in mobile view"
+    "description": "Etiqueta para la compatibilidad con EVM en vista móvil"
   },
   "Decentralized Ledger": {
     "message": "Libro Mayor Descentralizado",
-    "description": "Label for decentralized ledger in mobile view"
+    "description": "Etiqueta para el libro mayor descentralizado en vista móvil"
   },
   "\"Cuckoo Chain revolutionized our AI development with unmatched speed and efficiency. It's a game-changer for any AI-driven blockchain enterprise.\"": {
-    "message": "\"Cuckoo Chain revolucionó nuestro desarrollo de IA con velocidad y eficiencia inigualables. Es un cambio de juego para cualquier empresa de blockchain impulsada por IA.\"",
-    "description": "First testimonial text"
+    "message": "\"Cuckoo Chain revolucionó nuestro desarrollo de IA con velocidad y eficiencia incomparables. Es un cambio de juego para cualquier empresa de blockchain impulsada por IA.\"",
+    "description": "Texto del primer testimonio"
   },
   "Aaliyah Baker": {
     "message": "Aaliyah Baker",
-    "description": "First testimonial author name"
+    "description": "Nombre del autor del primer testimonio"
   },
   "DApper OS": {
     "message": "DApper OS",
-    "description": "First testimonial author company"
+    "description": "Empresa del autor del primer testimonio"
   },
   "\"Integrating Cuckoo Chain was seamless. The performance boost and compatibility with Ethereum are phenomenal.\"": {
     "message": "\"Integrar Cuckoo Chain fue sin problemas. El aumento de rendimiento y la compatibilidad con Ethereum son fenomenales.\"",
-    "description": "Second testimonial text"
+    "description": "Texto del segundo testimonio"
   },
   "Sloan Seaman": {
     "message": "Sloan Seaman",
-    "description": "Second testimonial author name"
+    "description": "Nombre del autor del segundo testimonio"
   },
   "Coupang": {
     "message": "Coupang",
-    "description": "Second testimonial author company"
+    "description": "Empresa del autor del segundo testimonio"
   },
   "\"Cuckoo Chain empowered us to create fast, secure decentralized AI apps. The support team is invaluable.\"": {
     "message": "\"Cuckoo Chain nos empoderó para crear aplicaciones de IA descentralizadas rápidas y seguras. El equipo de soporte es invaluable.\"",
-    "description": "Third testimonial text"
+    "description": "Texto del tercer testimonio"
   },
   "Christine Dejoux": {
     "message": "Christine Dejoux",
-    "description": "Third testimonial author name"
+    "description": "Nombre del autor del tercer testimonio"
   },
   "Glocomms": {
     "message": "Glocomms",
-    "description": "Third testimonial author company"
+    "description": "Empresa del autor del tercer testimonio"
   },
   "Experience Decentralized AI Model-Serving": {
     "message": "Experimenta el Servicio de Modelos de IA Descentralizados"
   },
   "Generate image now with Cuckoo Bot": {
-    "message": "Generar imagen ahora con Cuckoo Bot"
+    "message": "Genera imagen ahora con Cuckoo Bot"
   },
   "Explore": {
     "message": "Explorar",
-    "description": "homepage's hero section's secondary action CTA"
+    "description": "acción secundaria CTA de la sección del héroe de la página de inicio"
   },
   "Experience Decentralized AI Now": {
     "message": "Experimenta la IA Descentralizada Ahora",
-    "description": "Section header title"
+    "description": "Título de la sección"
   },
   "For AI Enthusiasts": {
     "message": "Para Entusiastas de la IA",
-    "description": "Button label for AI Enthusiasts"
+    "description": "Etiqueta del botón para Entusiastas de la IA"
   },
   "For Developers": {
     "message": "Para Desarrolladores",
-    "description": "Button label for Developers"
+    "description": "Etiqueta del botón para Desarrolladores"
   },
   "For Miners": {
     "message": "Para Mineros",
-    "description": "Button label for Miners"
+    "description": "Etiqueta del botón para Mineros"
   },
   "For Token Holders": {
     "message": "Para Poseedores de Tokens",
-    "description": "Button label for Token Holders"
+    "description": "Etiqueta del botón para Poseedores de Tokens"
   },
   "Cuckoo Telegram": {
     "message": "Cuckoo Telegram",
-    "description": "Telegram Box Title"
+    "description": "Título del cuadro de Telegram"
   },
   "A telegram bot for texting to image and manage your CAI tokens.": {
     "message": "Un bot de telegram para enviar texto a imagen y gestionar tus tokens CAI.",
-    "description": "Telegram Box Description"
+    "description": "Descripción del cuadro de Telegram"
   },
   "Cuckoo Discord": {
     "message": "Cuckoo Discord",
-    "description": "Discord Box Title"
+    "description": "Título del cuadro de Discord"
   },
   "A discord bot for texting to image and manage your CAI tokens.": {
     "message": "Un bot de discord para enviar texto a imagen y gestionar tus tokens CAI.",
-    "description": "Discord Box Description"
+    "description": "Descripción del cuadro de Discord"
   },
   "Neon Medium": {
     "message": "Neon Medium",
-    "description": "Medium Box Title"
+    "description": "Título del cuadro de Medium"
   },
   "BlockEden.xyz": {
     "message": "BlockEden.xyz",
-    "description": "BlockEden Box Title"
+    "description": "Título del cuadro de BlockEden"
   },
   "RPC node, API marketplace, and staking infrastructure.": {
     "message": "Nodo RPC, mercado de API e infraestructura de staking.",
-    "description": "BlockEden Box Description"
+    "description": "Descripción del cuadro de BlockEden"
   },
   "Cuckoo Art": {
     "message": "Cuckoo Art",
-    "description": "Cuckoo Art Box Title"
+    "description": "Título del cuadro de Cuckoo Art"
   },
   "Discover AI arts created in our network.": {
     "message": "Descubre artes de IA creadas en nuestra red.",
-    "description": "Cuckoo Art Box Description"
+    "description": "Descripción del cuadro de Cuckoo Art"
   },
   "Karma Protocol": {
     "message": "Karma Protocol",
-    "description": "Karma Protocol Box Title"
+    "description": "Título del cuadro de Karma Protocol"
   },
   "A revolutionary prediction market, driven by Community.": {
     "message": "Un mercado de predicción revolucionario, impulsado por la Comunidad.",
-    "description": "Karma Protocol Box Description"
+    "description": "Descripción del cuadro de Karma Protocol"
   },
   "Cuckoo Github": {
     "message": "Cuckoo Github",
-    "description": "Cuckoo Github Box Title"
+    "description": "Título del cuadro de Cuckoo Github"
   },
   "Fork us on Github for open-sourced decentralized AI platform.": {
     "message": "Haz un fork de nosotros en Github para una plataforma de IA descentralizada de código abierto.",
-    "description": "Cuckoo Github Box Description"
+    "description": "Descripción del cuadro de Cuckoo Github"
   },
   "Cuckoo Node": {
     "message": "Cuckoo Node",
-    "description": "Cuckoo Node Box Title"
+    "description": "Título del cuadro de Cuckoo Node"
   },
   "Node for mining tokens, distributed with Docker images.": {
     "message": "Nodo para minar tokens, distribuido con imágenes de Docker.",
-    "description": "Cuckoo Node Box Description"
+    "description": "Descripción del cuadro de Cuckoo Node"
   },
   "Staking Portal": {
     "message": "Portal de Staking",
-    "description": "Staking Portal Box Title"
+    "description": "Título del cuadro de Portal de Staking"
   },
   "Stake your token to vote for Node operators you trust": {
     "message": "Apuesta tu token para votar por los operadores de nodo en los que confías",
-    "description": "Staking Portal Box Description"
+    "description": "Descripción del cuadro de Portal de Staking"
   },
   "Introducing Cuckoo Network Airdrop Portal": {
     "message": "Presentando el Portal de Airdrop de Cuckoo Network",
-    "description": "Home page hero section's news message"
+    "description": "Mensaje de noticias de la sección del héroe de la página de inicio"
   },
   "Decentralized AI Creative Platform for Creators & Builders": {
     "message": "Plataforma Creativa de IA Descentralizada para Creadores y Constructores",
-    "description": "Site tagline"
+    "description": "Eslogan del sitio"
   },
   "Create AI Art": {
     "message": "Crear Arte de IA",
-    "description": "homepage's hero section's main action CTA"
+    "description": "acción principal CTA de la sección del héroe de la página de inicio"
   },
   "Earn": {
     "message": "Ganar",
-    "description": "homepage's hero section's secondary action CTA"
+    "description": "acción secundaria CTA de la sección del héroe de la página de inicio"
   },
   "Refreshing news from the community": {
     "message": "Noticias refrescantes de la comunidad",
-    "description": "Title for the news section"
+    "description": "Título para la sección de noticias"
   },
   "Read more": {
     "message": "Leer más",
-    "description": "Read more link text"
+    "description": "Texto del enlace para leer más"
   },
   "How does it work?": {
     "message": "¿Cómo funciona?",
-    "description": "Section header title"
+    "description": "Título de la sección"
   },
   "Cuckoo incentivizes GPU miners to serve AI models to generative App builders. We started with decentralized image generation but aim to expand our platform to support various AI models.": {
-    "message": "Cuckoo incentiva a los mineros de GPU a servir modelos de IA a los constructores de aplicaciones generativas. Comenzamos con la generación de imágenes descentralizadas, pero nuestro objetivo es expandir nuestra plataforma para soportar varios modelos de IA.",
-    "description": "Section header description"
+    "message": "Cuckoo incentiva a los mineros de GPU a servir modelos de IA a los constructores de aplicaciones generativas. Comenzamos con la generación de imágenes descentralizadas, pero nuestro objetivo es expandir nuestra plataforma para apoyar varios modelos de IA.",
+    "description": "Descripción del encabezado de la sección"
   },
   "Establish Trust": {
     "message": "Establecer Confianza",
-    "description": "Trust step title"
+    "description": "Título del paso de confianza"
   },
   "GPU miners, developers, and stakers {stakingLink} with blockchain smart contracts to establish trust.": {
-    "message": "Los mineros de GPU, desarrolladores y apostadores {stakingLink} con contratos inteligentes de blockchain para establecer confianza.",
-    "description": "Trust step description"
+    "message": "Los mineros de GPU, desarrolladores y stakers {stakingLink} con contratos inteligentes de blockchain para establecer confianza.",
+    "description": "Descripción del paso de confianza"
   },
   "stake and vote": {
     "message": "apostar y votar",
-    "description": "Link text"
+    "description": "Texto del enlace"
   },
   "Mine and Earn": {
     "message": "Minar y Ganar",
-    "description": "Tasks & Rewards step title"
+    "description": "Título del paso de tareas y recompensas"
   },
   "Gen AI Apps assign tasks to GPU miners via the Cuckoo AI node, with daily ERC20 payments based on results.": {
     "message": "Las aplicaciones de IA Gen asignan tareas a los mineros de GPU a través del nodo de IA de Cuckoo, con pagos diarios en ERC20 basados en resultados.",
-    "description": "Tasks & Rewards step description"
+    "description": "Descripción del paso de tareas y recompensas"
   },
   "Modular AI": {
     "message": "IA Modular",
-    "description": "Modular Support step title"
+    "description": "Título del paso de soporte modular"
   },
   "Our modular components ensure that AI remains accessible, transparent, anti-censorship, and privacy-preserving.": {
     "message": "Nuestros componentes modulares aseguran que la IA siga siendo accesible, transparente, anti-censura y que preserve la privacidad.",
-    "description": "Modular Support step description"
+    "description": "Descripción del paso de soporte modular"
   },
   "From AI builders to consumers, we got you covered.": {
     "message": "Desde constructores de IA hasta consumidores, te tenemos cubierto.",
-    "description": "section title for target customers"
+    "description": "título de sección para clientes objetivo"
   },
   "Features 02": {
     "message": "Características 02",
-    "description": "Alt text for the image"
+    "description": "Texto alternativo para la imagen"
   },
   "Get rewarded by contributing to Gen AI": {
-    "message": "Recibe recompensas al contribuir a Gen IA"
+    "message": "Recibe recompensas al contribuir a Gen IA",
+    "description": "una descripción de tarjeta para explicar qué hacer"
   },
   "For AI Consumers": {
-    "message": "Para Consumidores de IA"
+    "message": "Para Consumidores de IA",
+    "description": "una tarjeta título para un grupo de usuarios"
   },
   "Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.": {
-    "message": "Accede a una variedad de aplicaciones de IA de forma gratuita, contribuyendo al ecosistema o utilizando Cuckoo Pay. Si una aplicación está bloqueada, cambia sin problemas a otro coordinador dentro de la red descentralizada."
+    "message": "Accede a una variedad de aplicaciones de IA de forma gratuita, contribuyendo al ecosistema o utilizando Cuckoo Pay. Si una aplicación está bloqueada, cambia sin problemas a otro coordinador dentro de la red descentralizada.",
+    "description": "una descripción de tarjeta para explicar qué hacer"
   },
   "For App Builders/Coordinators": {
     "message": "Para Constructores/Coordinadores de Aplicaciones"
   },
   "Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.": {
-    "message": "Ejecuta un nodo coordinador, apuesta para unirte a la red y gana recompensas de staking. Reduce los costos de GPU, expande tu base de clientes, asigna tareas a los mineros de GPU, valida resultados y distribuye pagos."
+    "message": "Ejecuta un nodo coordinador, apuesta para unirte a la red y gana recompensas por staking. Reduce los costos de GPU, expande tu base de clientes, asigna tareas a los mineros de GPU, valida resultados y distribuye pagos."
   },
   "For GPU Miners": {
-    "message": "Para Mineros de GPU"
+    "message": "Para Mineros de GPU",
+    "description": "una descripción de tarjeta para un grupo específico de usuarios"
   },
   "Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.": {
-    "message": "Ejecuta un nodo minero, apuesta para unirte a la red y gana recompensas de staking. Comparte tus recursos de GPU, completa tareas asignadas y mantén un servicio confiable para ganar tokens."
+    "message": "Ejecuta un nodo minero, apuesta para unirte a la red y gana recompensas por staking. Comparte tus recursos de GPU, completa tareas asignadas y mantén un servicio confiable para ganar tokens.",
+    "description": "una descripción de tarjeta para explicar qué hacer"
+  },
+  "footer.aboutTitle": {
+    "message": "Acerca de Cuckoo AI"
+  },
+  "footer.aboutDescription": {
+    "message": "Cuckoo Network está revolucionando la infraestructura de IA a través de la descentralización. Como una plataforma de blockchain pionera construida sobre Arbitrum y Ethereum, empoderamos a los mineros de GPU, desarrolladores y entusiastas de la IA para participar en un ecosistema justo y transparente. Nuestra red permite un servicio de modelos de IA rentable, transacciones seguras a través de Cuckoo Chain y crecimiento impulsado por la comunidad a través del token $CAI."
+  },
+  "footer.subscribeTitle": {
+    "message": "Mantente actualizado hoy"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 elemento|{count} elementos",
+    "description": "La descripción predeterminada para una tarjeta de categoría en el índice generado sobre cuántos elementos incluye esta categoría"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "El título de la página para un autor de blog"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Autores",
+    "description": "El título de la página de autores"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "Ver todos los autores",
+    "description": "La etiqueta del enlace que apunta a la página de autores del blog"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Página no listada",
+    "description": "El título del banner de contenido no listado"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Esta página no está listada. Los motores de búsqueda no la indexarán, y solo los usuarios que tengan un enlace directo pueden acceder a ella.",
+    "description": "El mensaje del banner de contenido no listado"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Página borrador",
+    "description": "El título del banner de contenido borrador"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "Esta página es un borrador. Solo será visible en desarrollo y será excluida de la construcción de producción.",
+    "description": "El mensaje del banner de contenido borrador"
   }
 }
