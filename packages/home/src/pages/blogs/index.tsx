@@ -4,6 +4,7 @@ import Link from "@docusaurus/Link";
 import PostItem from "@site/src/components/home/post-item";
 import { useAos } from "@site/src/hooks/use-aos";
 import PostTags from "@site/src/components/home/post-tags";
+import React from "react";
 
 export default function Blog() {
   const {i18n: {currentLocale}} = useDocusaurusContext();
@@ -99,9 +100,7 @@ export default function Blog() {
                         {featuredPost.metadata.authors[0].name}
                       </Link>
                       <span className="text-gray-700"> - </span>
-                      <span className="text-gray-500">
-                        {featuredPost.metadata.formattedDate}
-                      </span>
+                      <span className="text-gray-500">{featuredPost.metadata.date.slice(0, 10)}</span>
                     </div>
                   </footer>
                 </div>

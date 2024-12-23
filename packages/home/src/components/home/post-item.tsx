@@ -53,7 +53,7 @@ export default function PostItem({ ...props }) {
             {props.metadata.authors[0]?.name}
           </Link>
           <span className="text-gray-700"> - </span>
-          <span className="text-gray-500">{props.metadata.formattedDate}</span>
+          <span className="text-gray-500">{props.metadata.date.slice(0, 10)}</span>
         </div>
       </footer>
     </article>
