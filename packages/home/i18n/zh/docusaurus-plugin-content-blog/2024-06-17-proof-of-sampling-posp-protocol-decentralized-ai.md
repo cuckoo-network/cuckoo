@@ -1,106 +1,106 @@
 ---
-title: "抽样证明协议：在去中心化AI推理中激励诚实行为和惩罚不诚实行为"
+title: "Proof of Sampling Protocol: Incentivizing Honesty and Penalizing Dishonesty in Decentralized AI Inference"
 authors: [lark]
-tags: [研究]
+tags: [Research]
 image: https://cuckoo-network.b-cdn.net/proof-of-sampling-posp-protocol-decentralized-ai.webp
-description: 了解抽样证明（PoSP）协议如何通过激励诚实行为和惩罚GPU提供商中的不诚实行为，确保去中心化AI推理系统的安全性和可靠性。
+description: Learn how the Proof of Sampling (PoSP) protocol ensures the security and reliability of decentralized AI inference systems by incentivizing honest behavior and penalizing dishonest behavior among GPU providers.
 ---
 
-在去中心化AI领域，确保GPU提供商的完整性和可靠性至关重要。Holistic AI最近的研究中提出的抽样证明（PoSP）协议，提供了一种复杂的机制，通过奖励诚实行为和削减不良行为来激励良好的参与者。让我们来看看这个协议是如何工作的，它的经济激励、惩罚机制以及在去中心化AI推理中的应用。
+In the realm of decentralized AI, ensuring the integrity and reliability of GPU providers is crucial. The Proof of Sampling (PoSP) protocol proposed in recent research by Holistic AI offers a sophisticated mechanism to incentivize good actors through rewards for honest behavior and penalties for misconduct. Let's explore how this protocol works, its economic incentives, penalty mechanisms, and applications in decentralized AI inference.
 
-## 对诚实行为的激励
+## Incentives for Honest Behavior
 
-### 经济奖励
+### Economic Rewards
 
-PoSP协议的核心是设计经济激励来鼓励诚实的参与。节点作为主张者和验证者，根据他们的贡献获得奖励：
+At the core of the PoSP protocol is the design of economic incentives to encourage honest participation. Nodes act as asserters and validators, earning rewards based on their contributions:
 
-- **主张者（Asserters）**：如果他们计算的输出是正确的且未受到质疑，则会获得奖励（RA）。
-- **验证者（Validators）**：如果他们的结果与主张者的结果一致并被验证为正确，则共享奖励（RV/n）。
+- **Asserters**: Receive a reward (RA) if their computed output is correct and unchallenged.
+- **Validators**: Share a reward (RV/n) if their results match the asserter's and are verified as correct.
 
-### 独特的纳什均衡
+### Unique Nash Equilibrium
 
-PoSP协议旨在通过纯策略实现独特的纳什均衡，使所有节点都被激励去诚实行事。通过将个人利润与系统安全对齐，该协议确保诚实是参与者最有利可图的策略。
+The PoSP protocol aims to achieve a unique Nash equilibrium through pure strategies, motivating all nodes to act honestly. By aligning individual profits with system security, the protocol ensures that honesty is the most profitable strategy for participants.
 
-## 对不诚实行为的惩罚
+## Penalties for Dishonest Behavior
 
-### 削减机制
+### Slashing Mechanism
 
-为了遏制不诚实行为，PoSP协议采用削减机制。如果主张者或验证者被发现不诚实，他们将面临重大的经济惩罚（S）。这确保了不诚实的成本远远超过任何潜在的短期利益。
+To deter dishonest behavior, the PoSP protocol employs a slashing mechanism. Asserters or validators found to be dishonest face significant economic penalties (S). This ensures that the cost of dishonesty far outweighs any potential short-term gains.
 
-### 挑战机制
+### Challenge Mechanism
 
-随机挑战进一步保障了系统安全。协议会根据预定的概率（p）触发挑战，其中多个验证者将重新计算主张者的输出。如果发现差异，不诚实的参与者将受到惩罚。这种随机选择过程使得不良参与者难以勾结并在不被发现的情况下作弊。
+Random challenges further safeguard system security. The protocol triggers challenges based on a predetermined probability (p), where multiple validators recompute the asserter's output. If discrepancies are found, dishonest participants are penalized. This random selection process makes it difficult for bad actors to collude and cheat without detection.
 
-## PoSP协议的步骤
+## Steps of the PoSP Protocol
 
-1. **主张者选择**：随机选择一个节点作为主张者，计算并输出一个值。
+1. **Asserter Selection**: A node is randomly selected as the asserter to compute and output a value.
 
-2. **挑战概率**：
+2. **Challenge Probability**:
 
-   系统可能会根据预定的概率触发挑战。
+   The system may trigger a challenge based on a predetermined probability.
 
-  - **无挑战**：如果未触发挑战，主张者将获得奖励。
-  - **触发挑战**：随机选择一定数量（n）的验证者来验证主张者的输出。
+  - **No Challenge**: If no challenge is triggered, the asserter receives a reward.
+  - **Challenge Triggered**: A random number (n) of validators are selected to verify the asserter's output.
 
-3. **验证**：
+3. **Verification**:
 
-   每个验证者独立计算结果，并将其与主张者的输出进行比较。
+   Each validator independently computes the result and compares it with the asserter's output.
 
-  - **匹配**：如果所有结果匹配，则主张者和验证者都将获得奖励。
-  - **不匹配**：通过仲裁过程确定主张者和验证者的诚实性。
+  - **Match**: If all results match, both the asserter and validators receive rewards.
+  - **Mismatch**: An arbitration process determines the honesty of the asserter and validators.
 
-4. **惩罚**：不诚实的节点将受到惩罚，而诚实的验证者将获得其应得的奖励份额。
+4. **Penalties**: Dishonest nodes are penalized, while honest validators receive their rightful share of rewards.
 
-## SpML协议
+## SpML Protocol
 
-SpML（基于抽样的机器学习）协议是在去中心化AI推理网络中实现抽样证明（PoSP）协议的一种方式。
+The SpML (Sampling-based Machine Learning) protocol is a way to implement the Proof of Sampling (PoSP) protocol in decentralized AI inference networks.
 
-### 关键步骤
+### Key Steps
 
-1. **用户输入**：用户将输入发送到随机选择的服务器（主张者），并附上他们的数字签名。
-2. **服务器输出**：服务器计算输出，并将其连同结果的哈希一起发送回用户。
-3. **挑战机制**：
-  - 系统可能会根据预定的概率（p）触发挑战，随机选择另一台服务器（验证者）来验证结果。
-  - 如果未触发挑战，主张者将获得奖励（R），流程结束。
-4. **验证**：
-  - 如果触发挑战，用户将相同的输入发送给验证者。
-  - 验证者计算结果，并将其连同哈希一起发送回用户。
-5. **比较**：
-  - 用户比较主张者和验证者输出的哈希值。
-  - 如果哈希匹配，主张者和验证者都将获得奖励，用户将获得基本费用的折扣。
-  - 如果哈希不匹配，用户将两个哈希值广播到网络。
-6. **仲裁**：
-  - 网络投票决定主张者和验证者的诚实性，基于不一致的情况。
-  - 诚实的节点将获得奖励，而不诚实的节点将受到惩罚（削减）。
+1. **User Input**: The user sends input to a randomly selected server (asserter) with their digital signature.
+2. **Server Output**: The server computes the output and sends it back to the user along with a hash of the result.
+3. **Challenge Mechanism**:
+  - The system may trigger a challenge based on a predetermined probability (p), randomly selecting another server (validator) to verify the result.
+  - If no challenge is triggered, the asserter receives a reward (R), and the process ends.
+4. **Verification**:
+  - If a challenge is triggered, the user sends the same input to the validator.
+  - The validator computes the result and sends it back to the user along with the hash.
+5. **Comparison**:
+  - The user compares the hash values of the asserter and validator outputs.
+  - If the hashes match, both the asserter and validator receive rewards, and the user gets a discount on the base fee.
+  - If the hashes do not match, the user broadcasts both hashes to the network.
+6. **Arbitration**:
+  - The network votes on the honesty of the asserter and validator based on the discrepancy.
+  - Honest nodes receive rewards, while dishonest nodes are penalized (slashed).
 
-### 关键组件与机制
-- **确定性机器学习执行**：使用定点算法和基于软件的浮点库来确保结果的一致性和可重复性。
-- **无状态设计**：将每个查询视为独立的，在整个机器学习过程中保持无状态性。
-- **无许可参与**：任何人都可以加入网络，通过运行AI服务器进行贡献。
-- **链外操作**：AI推理在链外计算，以减轻区块链负载，结果和数字签名直接传递给用户。
-- **链上操作**：关键功能，如余额计算和挑战机制，在链上处理，以确保透明性和安全性。
+### Key Components and Mechanisms
+- **Deterministic Machine Learning Execution**: Ensures consistency and reproducibility of results using fixed-point algorithms and software-based floating-point libraries.
+- **Stateless Design**: Treats each query independently, maintaining statelessness throughout the machine learning process.
+- **Permissionless Participation**: Allows anyone to join the network and contribute by running AI servers.
+- **Off-chain Operations**: AI inference is computed off-chain to reduce blockchain load, with results and digital signatures directly delivered to users.
+- **On-chain Operations**: Key functions, such as balance calculations and challenge mechanisms, are handled on-chain to ensure transparency and security.
 
-### SpML的优势
-- **高安全性**：通过经济激励实现安全性，确保节点因不诚实行为的潜在惩罚而诚实行事。
-- **低计算开销**：验证者在大多数情况下只需比较哈希值，减少验证过程中的计算负担。
-- **可扩展性**：可以处理大量的网络活动而不会显著降低性能。
-- **简易性**：保持实现过程的简易性，增强集成和维护的便捷性。
+### Advantages of SpML
+- **High Security**: Achieves security through economic incentives, ensuring nodes act honestly due to potential penalties for dishonest behavior.
+- **Low Computational Overhead**: Validators primarily compare hash values, reducing computational burden during the verification process.
+- **Scalability**: Capable of handling large volumes of network activity without significant performance degradation.
+- **Simplicity**: Maintains simplicity in implementation, enhancing ease of integration and maintenance.
 
-### 与其他协议的比较
-- **乐观欺诈证明（opML）**：
-  - 依赖经济惩罚机制来防止欺诈行为，并通过争议解决机制进行处理。
-  - 如果没有足够多的验证者是诚实的，可能容易受到欺诈行为的攻击。
-- **零知识证明（zkML）**：
-  - 通过密码学证明确保高安全性。
-  - 由于高计算开销，面临可扩展性和效率的挑战。
-- **SpML**：
-  - 通过经济激励结合高安全性、低计算开销和高可扩展性。
-  - 简化验证过程，专注于哈希值比较，减少挑战过程中的复杂计算需求。
+### Comparison with Other Protocols
+- **Optimistic Fraud Proofs (opML)**:
+  - Relies on economic penalties to deter fraud, handled through a dispute resolution mechanism.
+  - May be vulnerable to fraudulent behavior if not enough validators are honest.
+- **Zero-Knowledge Proofs (zkML)**:
+  - Ensures high security through cryptographic proofs.
+  - Faces scalability and efficiency challenges due to high computational overhead.
+- **SpML**:
+  - Combines high security, low computational overhead, and high scalability through economic incentives.
+  - Simplifies the verification process by focusing on hash comparisons, reducing complex computations during challenges.
 
-## 总结
+## Conclusion
 
-抽样证明（PoSP）协议有效地平衡了激励良好参与者和遏制不良行为的需求，确保了去中心化系统的整体安全性和可靠性。通过结合经济奖励和严格的惩罚措施，PoSP营造了一个鼓励诚实行为的环境，并使其成为成功的必要条件。随着去中心化AI的不断发展，像PoSP这样的协议将对维护这些先进系统的完整性和可信度至关重要。
+The Proof of Sampling (PoSP) protocol effectively balances the need to incentivize good actors and deter bad behavior, ensuring the overall security and reliability of decentralized systems. By combining economic rewards with stringent penalties, PoSP creates an environment where honest behavior is encouraged and necessary for success. As decentralized AI continues to evolve, protocols like PoSP will be crucial in maintaining the integrity and credibility of these advanced systems.
 
-- 来源: https://cuckoo.network/blog/2024/06/17/proof-of-sampling-posp-protocol-decentralized-ai
+- Source: https://cuckoo.network/blog/2024/06/17/proof-of-sampling-posp-protocol-decentralized-ai
 - Telegram: https://cuckoo.network/tg
 - Discord: https://cuckoo.network/dc

@@ -33,7 +33,7 @@ async function translateText(text, locale) {
     const response = await axios.post(
       "https://api.openai.com/v1/chat/completions",
       {
-        model: "gpt-4o-mini", // You can change the model if required
+        model: "gpt-4o", // You can change the model if required
         messages: [
           {
             role: "user",
@@ -44,6 +44,7 @@ I want you to act as a SaaS copywriter, Web3 expert, and professional website tr
 
 - **For JSON files**: Only translate the 'message' field. Keep the keys and descriptions unchanged. Do not include "copyright" entry in the result.
 - **For Markdown files**: Translate the entire file but only modify metadata when necessary.
+  - for the field image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title= you should use the translated title as the value of the image param.
 
 Below is the content to translate:
 
@@ -75,26 +76,35 @@ ${text}
   }
 }
 
-// Ensure the file path and locale are passed as arguments
-const filePath = process.argv[2];
-const locale = process.argv[3];
-
-if (!filePath || !locale) {
-  console.error(
-    "Please provide the path to the file and the locale as arguments.",
-  );
-  process.exit(1);
-}
-
-// Resolve the file path relative to the current working directory
-const resolvedFilePath = path.resolve(filePath);
-
-// Execute the translation process
-translateFile(resolvedFilePath, locale);
-
 function stripCodeBlockTags(str) {
   return str
     .replace(/```[^\n]*\n?/g, "") // Matches any opening ``` followed by optional language identifier
     .replace(/```/g, "") // Matches closing ```
     .trim();
+}
+
+// Export the translateFile function for reuse
+module.exports = {
+  translateFile,
+  stripCodeBlockTags,
+};
+
+// Only execute the translation if this file is run directly
+if (require.main === module) {
+  // Ensure the file path and locale are passed as arguments
+  const filePath = process.argv[2];
+  const locale = process.argv[3];
+
+  if (!filePath || !locale) {
+    console.error(
+      "Please provide the path to the file and the locale as arguments.",
+    );
+    process.exit(1);
+  }
+
+  // Resolve the file path relative to the current working directory
+  const resolvedFilePath = path.resolve(filePath);
+
+  // Execute the translation process
+  translateFile(resolvedFilePath, locale);
 }

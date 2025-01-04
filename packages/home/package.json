@@ -15,7 +15,8 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
     "translate": "node src/scripts/translate.js",
-    "fm": "node src/scripts/prepend-front-matter.js"
+    "fm": "node src/scripts/prepend-front-matter.js",
+    "i18n": "node src/scripts/i18n.js"
   },
   "dependencies": {
     "@docusaurus/core": "3.5.2",

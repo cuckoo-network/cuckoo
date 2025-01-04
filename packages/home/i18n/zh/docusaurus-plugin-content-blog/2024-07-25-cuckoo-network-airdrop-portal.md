@@ -1,5 +1,5 @@
 ---
-title: "Cuckoo Network Airdrop Portal 推出"
+title: "Cuckoo Network Airdrop Portal Launch"
 authors: [lark]
 tags: [空投, cuckoo chain, 路线图]
 image: https://cuckoo-network.b-cdn.net/2024-07-25-cuckoo-network-airdrop-portal.webp

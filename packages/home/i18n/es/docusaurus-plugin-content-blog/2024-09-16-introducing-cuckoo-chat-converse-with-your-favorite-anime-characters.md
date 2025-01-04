@@ -1,36 +1,36 @@
 ---
-title: "Ingresa al Mundo del Anime con Cuckoo Chat: Impulsado por IA y Web3"
+title: "Enter the Anime World with Cuckoo Chat: Powered by AI and Web3"
 authors: [lark]
-tags: [ia, producto, cuckoo chat]
+tags: [ai, product, cuckoo chat]
 image: https://cuckoo-network.b-cdn.net/2024-09-16-introducing-cuckoo-chat-converse-with-your-favorite-anime-characters.webp
-description: Descubre Cuckoo Chat, una característica innovadora en Cuckoo Network que te permite participar en conversaciones en tiempo real con 17 personajes icónicos del anime. Aprovechando la tecnología de IA y Web3 de vanguardia, Cuckoo Chat ofrece una experiencia auténtica e inmersiva para los fanáticos del anime en todas partes. ¡Comienza a chatear ahora en cuckoo.network/portal/chat!
+description: Discover Cuckoo Chat, an innovative feature in Cuckoo Network that allows you to engage in real-time conversations with 17 iconic anime characters. Leveraging cutting-edge AI and Web3 technology, Cuckoo Chat offers an authentic and immersive experience for anime fans everywhere. Start chatting now at cuckoo.network/portal/chat!
 keywords:
   [
     Cuckoo Chat,
-    IA,
+    AI,
     Web3,
-    personajes de anime,
-    IA descentralizada,
-    fandom del anime,
+    anime characters,
+    decentralized AI,
+    anime fandom,
     Cuckoo Network,
-    IA conversacional,
+    conversational AI,
     Llama,
-    minería de GPU,
+    GPU mining,
     NFTs,
-    recompensas,
+    rewards,
     Naruto,
     Son Goku,
     Saitama,
     Light Yagami,
-    infraestructura descentralizada,
-    chat de anime,
-    experiencia inmersiva,
+    decentralized infrastructure,
+    anime chat,
+    immersive experience,
   ]
 ---
 
 En Cuckoo Network, estamos emocionados de presentar **Cuckoo Chat**, una fusión innovadora de IA, Web3 y fandom del anime. Imagina hablar con Naruto sobre técnicas ninja o preguntarle a Light Yagami sobre su sentido de la justicia. Ahora, todo es posible—directamente desde el portal de Cuckoo Network.
 
-![Ingresa al Mundo del Anime con Cuckoo Chat: Impulsado por IA y Web3](https://cuckoo-network.b-cdn.net/2024-09-16-introducing-cuckoo-chat-converse-with-your-favorite-anime-characters.webp "Ingresa al Mundo del Anime con Cuckoo Chat: Impulsado por IA y Web3")
+![Enter the Anime World with Cuckoo Chat: Powered by AI and Web3](https://cuckoo-network.b-cdn.net/2024-09-16-introducing-cuckoo-chat-converse-with-your-favorite-anime-characters.webp "Enter the Anime World with Cuckoo Chat: Powered by AI and Web3")
 
 Con **Cuckoo Chat**, hemos traído a la vida a 17 de los personajes de anime más queridos a través de una avanzada IA conversacional, construida sobre Llama y potenciada por nuestra infraestructura descentralizada web3. Ya seas un espectador casual o un fanático acérrimo del anime, Cuckoo Chat ofrece una experiencia inmersiva y única que te permite participar en conversaciones en tiempo real con tus personajes favoritos.
 
