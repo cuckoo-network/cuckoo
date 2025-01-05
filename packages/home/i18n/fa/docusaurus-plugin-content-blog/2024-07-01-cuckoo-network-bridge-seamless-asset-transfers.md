@@ -2,7 +2,7 @@
 title: "معرفی پل شبکه Cuckoo: انتقال دارایی بدون درز در زنجیره‌ها"
 authors: [lark]
 tags: [محصول, نقشه راه]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=معرفی پل شبکه Cuckoo: انتقال دارایی بدون درز در زنجیره‌ها
+image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=معرفی پل شبکه Cuckoo: انتقال دارایی بدون درز در زنجیره‌ها"
 ---
 
 در وب ۳، توانایی انتقال دارایی‌ها به صورت بدون درز در شبکه‌های بلاکچین مختلف بسیار مهم است. در Cuckoo.Network، ما این موضوع را درک می‌کنیم. ما نیاز فوری به کارایی، امنیت و سادگی در این تراکنش‌ها را درک می‌کنیم. به همین دلیل است که با خوشحالی آخرین نوآوری خود را معرفی می‌کنیم: پل Cuckoo https://bridge.cuckoo.network/.

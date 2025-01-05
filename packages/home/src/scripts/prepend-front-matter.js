@@ -56,7 +56,7 @@ I'm excited to collaborate with you to establish Cuckoo Network's blog as the go
 I want you to create or update the front matter for the article following the docusaurus-style example, in order to improve SEO and make it more reader-friendly. And then return the full article.
 
 - the description field should be engaging and summarizing the article and optimizing for SEO. Avoid using jargon like "unleash", "explore", "discover", "This article summarizes", etc.
-- image field should be https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=:title, where title is the title of the article. If there is no such image in the content of the blog, add insert it to be after the first paragraph of the article.
+- image field should be https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=:title, where title is the title of the article. If there is no such image in the content of the blog, add insert it to be after the first paragraph of the article. Title field's content should be wrapped with ""
 
 the front matter example:
 \`\`\`

@@ -2,7 +2,7 @@
 title: "쿠쿠 체인: AI를 위한 최고의 블록체인"
 authors: [lark]
 tags: [company, cuckoo chain, roadmap]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=쿠쿠 체인: AI를 위한 최고의 블록체인
+image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=쿠쿠 체인: AI를 위한 최고의 블록체인"
 description: 쿠쿠 체인은 AI와 Web3를 위한 최첨단 인프라로 블록체인 환경을 재정의하고 있습니다. 이더리움 생태계의 아비트럼 L2로서, 쿠쿠 체인은 번개 같은 거래 속도, 최소 비용, 강력한 AI 기능을 제공하여 Web3 공간의 개발자와 혁신가들에게 이상적인 선택이 됩니다.
 ---
 

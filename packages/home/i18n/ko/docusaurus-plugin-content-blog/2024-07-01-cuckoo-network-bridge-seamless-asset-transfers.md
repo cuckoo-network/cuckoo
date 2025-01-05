@@ -2,7 +2,7 @@
 title: "쿠쿠 네트워크 브리지 소개: 체인 간 원활한 자산 전송"
 authors: [lark]
 tags: [product, roadmap]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=쿠쿠 네트워크 브리지 소개: 체인 간 원활한 자산 전송
+image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=쿠쿠 네트워크 브리지 소개: 체인 간 원활한 자산 전송"
 ---
 
 Web3에서 다양한 블록체인 네트워크 간에 자산을 원활하게 전송하는 능력은 매우 중요합니다. Cuckoo.Network에서는 이를 잘 이해하고 있습니다. 우리는 이러한 거래에서 효율성, 보안, 단순성의 필요성을 잘 알고 있습니다. 그래서 우리는 최신 혁신인 Cuckoo Bridge https://bridge.cuckoo.network/ 를 소개하게 되어 기쁩니다.

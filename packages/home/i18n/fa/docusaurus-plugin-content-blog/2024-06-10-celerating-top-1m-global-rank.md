@@ -2,7 +2,7 @@
 title: "جشن گرفتن یک نقطه عطف کوچک: Cuckoo.Network در میان 1 میلیون سایت برتر جهانی"
 authors: [lark]
 tags: [company]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=جشن گرفتن یک نقطه عطف کوچک: Cuckoo.Network در میان 1 میلیون سایت برتر جهانی
+image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=جشن گرفتن یک نقطه عطف کوچک: Cuckoo.Network در میان 1 میلیون سایت برتر جهانی"
 description: Cuckoo.Network یک دستاورد مهم را جشن می‌گیرد که به رتبه‌بندی در میان 1 میلیون سایت برتر جهانی رسیده است و رشد سریع و تأثیر آن در فضای AI و Web3 را نشان می‌دهد.
 ---
 
