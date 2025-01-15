@@ -1,4 +1,11 @@
 # Reads and Finds
+## January 2025
+
+### [Tenspect](https://tenspect.com/)
+
+[Tenspect](https://tenspect.com/) is an AI-powered home inspection software designed to triple your productivity.
+Revolutionize your inspection process with Tenspect's cutting-edge AI platform: complete detailed inspections in minutes, automate report generation, and seamlessly manage your business from a user-friendly dashboard. Trusted by professional inspectors and endorsed by the NJ Academy of Home Inspectors, Tenspect is your key to a smarter, faster workflow.
+
 
 ## September 2024
 
