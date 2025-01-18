@@ -351,7 +351,9 @@ viewBox="0 0 24 30" xmlns="http://www.w3.org/2000/svg">
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Cuckoo Network (${commit.hash.slice(0, 7)} / Updated ${commit.date})`,
+      copyright: `Cryptocurrency memecoins are not assets and do not possess any intrinsic utility or value. They are for entertainment purposes only and should not be considered an investment, currency, or anything of value.
+The price of memecoins can be extremely volatile and unpredictable.
+Price data in the app may be inaccurate or delayed. Copyright © ${new Date().getFullYear()} Cuckoo Network (${commit.hash.slice(0, 7)} / Updated ${commit.date})`,
     },
 
     prism: {
