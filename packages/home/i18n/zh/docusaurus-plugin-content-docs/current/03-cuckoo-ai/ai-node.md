@@ -21,29 +21,29 @@
 
 1. **克隆存储库**
 
-    ```sh
-    git clone https://github.com/cuckoo-network/stable-diffusion-miner-docker.git
-    ```
+   ```sh
+   git clone https://github.com/cuckoo-network/stable-diffusion-miner-docker.git
+   ```
 
 2. **导航到项目目录**
 
-    ```sh
-    cd stable-diffusion-miner-docker
-    ```
+   ```sh
+   cd stable-diffusion-miner-docker
+   ```
 
 3. **下载必要的文件**
 
-    ```sh
-    make download
-    ```
+   ```sh
+   make download
+   ```
 
 4. **启动矿工**
 
    将您的私钥添加到以下命令中并启动矿工：
 
-    ```sh
-    ETH_PRIVATE_KEY="" make start
-    ```
+   ```sh
+   ETH_PRIVATE_KEY="" make start
+   ```
 
 请确保您拥有所需的硬件，并仔细按照设置说明进行操作。随着我们继续开发和改进矿工节点功能，请随时关注更新。
 
@@ -78,32 +78,37 @@ make: *** [Makefile:11: start] Error 1
 2. **修改 Docker systemd 服务**
    如果 `daemon.json` 文件包含 `nvidia` 但运行 `sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi` 结果显示 `docker: Error response from daemon: unknown or invalid runtime name: nvidia.`，请修改 Docker systemd 服务文件：
 
-  1. 为 Docker 服务创建一个 systemd drop-in 目录：
-     ```bash
-     sudo mkdir -p /etc/systemd/system/docker.service.d
-     ```
+3. 为 Docker 服务创建一个 systemd drop-in 目录：
 
-  2. 在此目录中创建或编辑 `override.conf` 文件：
-     ```bash
-     sudo nano /etc/systemd/system/docker.service.d/override.conf
-     ```
+   ```bash
+   sudo mkdir -p /etc/systemd/system/docker.service.d
+   ```
 
-  3. 添加以下配置以指定自定义配置文件路径：
-     ```ini
-     [Service]
-     ExecStart=
-     ExecStart=/usr/bin/dockerd --config-file=/home/your-username/.config/docker/daemon.json
-     ```
-     将 `your-username` 替换为您的实际用户名。使用完整路径而不是 `$HOME`。
+4. 在此目录中创建或编辑 `override.conf` 文件：
 
-3. **应用更改**
+   ```bash
+   sudo nano /etc/systemd/system/docker.service.d/override.conf
+   ```
+
+5. 添加以下配置以指定自定义配置文件路径：
+
+   ```ini
+   [Service]
+   ExecStart=
+   ExecStart=/usr/bin/dockerd --config-file=/home/your-username/.config/docker/daemon.json
+   ```
+
+   将 `your-username` 替换为您的实际用户名。使用完整路径而不是 `$HOME`。
+
+6. **应用更改**
    重新加载 systemd 管理器配置并重新启动 Docker：
+
    ```bash
    sudo systemctl daemon-reload
    sudo systemctl restart docker
    ```
 
-4. **验证配置**
+7. **验证配置**
    检查 Docker 是否正在使用您的自定义配置：
    ```bash
    sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
@@ -114,12 +119,15 @@ make: *** [Makefile:11: start] Error 1
 如果遇到 `Failed to initialize NVML: Unknown Error`，请按照以下步骤操作：
 
 1. 编辑 Nvidia 容器运行时配置：
+
    ```bash
    sudo vim /etc/nvidia-container-runtime/config.toml
    ```
+
    将 `no-cgroups` 更改为 `false` 并保存文件。
 
 2. 重启 Docker 守护进程：
+
    ```bash
    sudo systemctl restart docker
    ```

@@ -8,12 +8,12 @@ Các nút thợ đào là phần không thể thiếu của mạng lưới của
 
 ### Cấu Hình Phần Cứng Tối Thiểu
 
-| Thành phần          | Yêu cầu                    |
-|---------------------|----------------------------|
-| **GPU**             | NVIDIA L4, 3080            |
-| **RAM**             | 8-16 GB                    |
-| **CPU**             | 1 lõi                      |
-| **Lưu trữ**         | Phụ thuộc vào lưu lượng truy cập |
+| Thành phần  | Yêu cầu                          |
+| ----------- | -------------------------------- |
+| **GPU**     | NVIDIA L4, 3080                  |
+| **RAM**     | 8-16 GB                          |
+| **CPU**     | 1 lõi                            |
+| **Lưu trữ** | Phụ thuộc vào lưu lượng truy cập |
 
 ### Bắt Đầu
 
@@ -21,29 +21,29 @@ Thực hiện theo các bước sau để thiết lập và chạy Thợ Đào S
 
 1. **Clone Kho Lưu Trữ**
 
-    ```sh
-    git clone https://github.com/cuckoo-network/stable-diffusion-miner-docker.git
-    ```
+   ```sh
+   git clone https://github.com/cuckoo-network/stable-diffusion-miner-docker.git
+   ```
 
 2. **Điều Hướng Tới Thư Mục Dự Án**
 
-    ```sh
-    cd stable-diffusion-miner-docker
-    ```
+   ```sh
+   cd stable-diffusion-miner-docker
+   ```
 
 3. **Tải Về Các Tệp Cần Thiết**
 
-    ```sh
-    make download
-    ```
+   ```sh
+   make download
+   ```
 
 4. **Bắt Đầu Thợ Đào**
 
    Thêm khóa riêng tư của bạn vào lệnh dưới đây và bắt đầu thợ đào:
 
-    ```sh
-    ETH_PRIVATE_KEY="" make start
-    ```
+   ```sh
+   ETH_PRIVATE_KEY="" make start
+   ```
 
 Đảm bảo bạn có phần cứng yêu cầu và làm theo hướng dẫn cài đặt một cách cẩn thận. Hãy theo dõi các bản cập nhật khi chúng tôi tiếp tục phát triển và nâng cao chức năng của nút thợ đào.
 
@@ -78,32 +78,37 @@ make: *** [Makefile:11: start] Error 1
 2. **Chỉnh Sửa Dịch Vụ Docker systemd**
    Nếu tệp `daemon.json` chứa `nvidia` nhưng khi chạy `sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi` kết quả là `docker: Error response from daemon: unknown or invalid runtime name: nvidia.`, hãy chỉnh sửa tệp dịch vụ Docker systemd:
 
-1. Tạo một thư mục drop-in systemd cho dịch vụ Docker:
+3. Tạo một thư mục drop-in systemd cho dịch vụ Docker:
+
    ```bash
    sudo mkdir -p /etc/systemd/system/docker.service.d
    ```
 
-2. Tạo hoặc chỉnh sửa tệp `override.conf` trong thư mục này:
+4. Tạo hoặc chỉnh sửa tệp `override.conf` trong thư mục này:
+
    ```bash
    sudo nano /etc/systemd/system/docker.service.d/override.conf
    ```
 
-3. Thêm cấu hình sau để chỉ định đường dẫn tệp cấu hình tùy chỉnh:
+5. Thêm cấu hình sau để chỉ định đường dẫn tệp cấu hình tùy chỉnh:
+
    ```ini
    [Service]
    ExecStart=
    ExecStart=/usr/bin/dockerd --config-file=/home/your-username/.config/docker/daemon.json
    ```
+
    Thay `your-username` bằng tên người dùng thực của bạn. Sử dụng đường dẫn đầy đủ thay vì `$HOME`.
 
-3. **Áp Dụng Thay Đổi**
+6. **Áp Dụng Thay Đổi**
    Tải lại cấu hình systemd và khởi động lại Docker:
+
    ```bash
    sudo systemctl daemon-reload
    sudo systemctl restart docker
    ```
 
-4. **Xác Minh Cấu Hình**
+7. **Xác Minh Cấu Hình**
    Kiểm tra xem Docker có sử dụng cấu hình tùy chỉnh của bạn không:
    ```bash
    sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
@@ -114,12 +119,15 @@ make: *** [Makefile:11: start] Error 1
 Nếu bạn gặp lỗi `Failed to initialize NVML: Unknown Error`, hãy làm theo các bước sau:
 
 1. Chỉnh sửa cấu hình runtime của Nvidia container:
+
    ```bash
    sudo vim /etc/nvidia-container-runtime/config.toml
    ```
+
    Thay đổi `no-cgroups` thành `false` và lưu tệp.
 
 2. Khởi động lại Docker daemon:
+
    ```bash
    sudo systemctl restart docker
    ```
@@ -130,4 +138,3 @@ Nếu bạn gặp lỗi `Failed to initialize NVML: Unknown Error`, hãy làm th
    ```
 
 </details>
-

@@ -8,12 +8,12 @@ Miner nodes are integral to our network, taking on tasks and earning rewards thr
 
 ### Minimum Hardware Configuration
 
-| Component          | Requirement               |
-|--------------------|---------------------------|
-| **GPU**            | NVIDIA L4, 3080           |
-| **RAM**            | 8-16 GB                   |
-| **CPU**            | 1 core                    |
-| **Storage**        | Depends on traffic volume |
+| Component   | Requirement               |
+| ----------- | ------------------------- |
+| **GPU**     | NVIDIA L4, 3080           |
+| **RAM**     | 8-16 GB                   |
+| **CPU**     | 1 core                    |
+| **Storage** | Depends on traffic volume |
 
 ### Getting Started
 
@@ -21,32 +21,31 @@ Follow these steps to set up and run your Stable Diffusion Miner:
 
 1. **Clone the Repository**
 
-    ```sh
-    git clone https://github.com/cuckoo-network/stable-diffusion-miner-docker.git
-    ```
+   ```sh
+   git clone https://github.com/cuckoo-network/stable-diffusion-miner-docker.git
+   ```
 
 2. **Navigate to the Project Directory**
 
-    ```sh
-    cd stable-diffusion-miner-docker
-    ```
+   ```sh
+   cd stable-diffusion-miner-docker
+   ```
 
 3. **Download the Necessary Files**
 
-    ```sh
-    make download
-    ```
+   ```sh
+   make download
+   ```
 
 4. **Start the Miner**
 
    Add your private key to the command below and start the miner:
 
-    ```sh
-    ETH_PRIVATE_KEY="" make start
-    ```
+   ```sh
+   ETH_PRIVATE_KEY="" make start
+   ```
 
 Ensure you have the required hardware and follow the setup instructions carefully. Stay tuned for updates as we continue to develop and enhance the miner node functionality.
-
 
 <details class="p-4 bg-white rounded-lg shadow hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
   <summary class="cursor-pointer text-xl font-semibold">
@@ -79,32 +78,37 @@ To use a custom configuration file for Docker, follow these steps:
 2. **Modify Docker systemd Service**
    If the `daemon.json` file contains `nvidia` but running `sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi` results in `docker: Error response from daemon: unknown or invalid runtime name: nvidia.`, modify the Docker systemd service file:
 
-  1. Create a systemd drop-in directory for the Docker service:
-     ```bash
-     sudo mkdir -p /etc/systemd/system/docker.service.d
-     ```
+3. Create a systemd drop-in directory for the Docker service:
 
-  2. Create or edit the `override.conf` file in this directory:
-     ```bash
-     sudo nano /etc/systemd/system/docker.service.d/override.conf
-     ```
+   ```bash
+   sudo mkdir -p /etc/systemd/system/docker.service.d
+   ```
 
-  3. Add the following configuration to specify the custom config file path:
-     ```ini
-     [Service]
-     ExecStart=
-     ExecStart=/usr/bin/dockerd --config-file=/home/your-username/.config/docker/daemon.json
-     ```
-     Replace `your-username` with your actual username. Use the full path instead of `$HOME`.
+4. Create or edit the `override.conf` file in this directory:
 
-3. **Apply the Changes**
+   ```bash
+   sudo nano /etc/systemd/system/docker.service.d/override.conf
+   ```
+
+5. Add the following configuration to specify the custom config file path:
+
+   ```ini
+   [Service]
+   ExecStart=
+   ExecStart=/usr/bin/dockerd --config-file=/home/your-username/.config/docker/daemon.json
+   ```
+
+   Replace `your-username` with your actual username. Use the full path instead of `$HOME`.
+
+6. **Apply the Changes**
    Reload the systemd manager configuration and restart Docker:
+
    ```bash
    sudo systemctl daemon-reload
    sudo systemctl restart docker
    ```
 
-4. **Verify Configuration**
+7. **Verify Configuration**
    Check if Docker is using your custom configuration:
    ```bash
    sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
@@ -115,12 +119,15 @@ To use a custom configuration file for Docker, follow these steps:
 If you encounter `Failed to initialize NVML: Unknown Error`, follow these steps:
 
 1. Edit the Nvidia container runtime configuration:
+
    ```bash
    sudo vim /etc/nvidia-container-runtime/config.toml
    ```
+
    Change `no-cgroups` to `false` and save the file.
 
 2. Restart the Docker daemon:
+
    ```bash
    sudo systemctl restart docker
    ```

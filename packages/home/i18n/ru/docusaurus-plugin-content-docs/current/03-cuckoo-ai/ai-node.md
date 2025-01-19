@@ -8,12 +8,12 @@
 
 ### Минимальные аппаратные требования
 
-| Компонент         | Требование                |
-|-------------------|---------------------------|
-| **GPU**           | NVIDIA L4, 3080           |
-| **RAM**           | 8-16 ГБ                   |
-| **CPU**           | 1 ядро                    |
-| **Хранилище**     | Зависит от объема трафика |
+| Компонент     | Требование                |
+| ------------- | ------------------------- |
+| **GPU**       | NVIDIA L4, 3080           |
+| **RAM**       | 8-16 ГБ                   |
+| **CPU**       | 1 ядро                    |
+| **Хранилище** | Зависит от объема трафика |
 
 ### Начало работы
 
@@ -21,32 +21,31 @@
 
 1. **Клонируйте репозиторий**
 
-    ```sh
-    git clone https://github.com/cuckoo-network/stable-diffusion-miner-docker.git
-    ```
+   ```sh
+   git clone https://github.com/cuckoo-network/stable-diffusion-miner-docker.git
+   ```
 
 2. **Перейдите в каталог проекта**
 
-    ```sh
-    cd stable-diffusion-miner-docker
-    ```
+   ```sh
+   cd stable-diffusion-miner-docker
+   ```
 
 3. **Загрузите необходимые файлы**
 
-    ```sh
-    make download
-    ```
+   ```sh
+   make download
+   ```
 
 4. **Запустите майнер**
 
    Добавьте ваш приватный ключ в команду ниже и запустите майнер:
 
-    ```sh
-    ETH_PRIVATE_KEY="" make start
-    ```
+   ```sh
+   ETH_PRIVATE_KEY="" make start
+   ```
 
 Убедитесь, что у вас есть необходимое оборудование, и внимательно следуйте инструкциям по настройке. Оставайтесь на связи для получения обновлений, так как мы продолжаем развивать и улучшать функциональность узлов майнеров.
-
 
 <details class="p-4 bg-white rounded-lg shadow hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
   <summary class="cursor-pointer text-xl font-semibold">
@@ -79,32 +78,37 @@ make: *** [Makefile:11: start] Error 1
 2. **Измените службу Docker systemd**
    Если файл `daemon.json` содержит `nvidia`, но при выполнении команды `sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi` возникает ошибка `docker: Error response from daemon: unknown or invalid runtime name: nvidia.`, измените службу Docker systemd:
 
-1. Создайте каталог для службы Docker:
+3. Создайте каталог для службы Docker:
+
    ```bash
    sudo mkdir -p /etc/systemd/system/docker.service.d
    ```
 
-2. Создайте или отредактируйте файл `override.conf` в этом каталоге:
+4. Создайте или отредактируйте файл `override.conf` в этом каталоге:
+
    ```bash
    sudo nano /etc/systemd/system/docker.service.d/override.conf
    ```
 
-3. Добавьте следующую конфигурацию, чтобы указать путь к пользовательскому файлу конфигурации:
+5. Добавьте следующую конфигурацию, чтобы указать путь к пользовательскому файлу конфигурации:
+
    ```ini
    [Service]
    ExecStart=
    ExecStart=/usr/bin/dockerd --config-file=/home/your-username/.config/docker/daemon.json
    ```
+
    Замените `your-username` на ваше фактическое имя пользователя. Используйте полный путь вместо `$HOME`.
 
-3. **Примените изменения**
+6. **Примените изменения**
    Перезагрузите конфигурацию systemd и перезапустите Docker:
+
    ```bash
    sudo systemctl daemon-reload
    sudo systemctl restart docker
    ```
 
-4. **Проверьте конфигурацию**
+7. **Проверьте конфигурацию**
    Проверьте, использует ли Docker вашу пользовательскую конфигурацию:
    ```bash
    sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
@@ -115,12 +119,15 @@ make: *** [Makefile:11: start] Error 1
 Если вы столкнулись с ошибкой `Failed to initialize NVML: Unknown Error`, выполните следующие шаги:
 
 1. Отредактируйте конфигурацию Nvidia контейнера:
+
    ```bash
    sudo vim /etc/nvidia-container-runtime/config.toml
    ```
+
    Измените параметр `no-cgroups` на `false` и сохраните файл.
 
 2. Перезапустите демон Docker:
+
    ```bash
    sudo systemctl restart docker
    ```

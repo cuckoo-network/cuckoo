@@ -21,10 +21,10 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: " Cuckoo AI",
       items: [
-        { type: "doc", id: "Cuckoo AI/cuckoo-ai", label: " Overview" },
+        { type: "doc", id: "cuckoo-ai/cuckoo-ai", label: " Overview" },
         {
           type: "doc",
-          id: "Cuckoo AI/ai-node",
+          id: "cuckoo-ai/ai-node",
           label: " How to Run a Miner Node",
         },
       ],
@@ -35,17 +35,17 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: "doc",
-          id: "Cuckoo Chain/cuckoo-chain",
+          id: "cuckoo-chain/cuckoo-chain",
           label: " Network Details",
         },
         {
           type: "doc",
-          id: "Cuckoo Chain/full-node",
+          id: "cuckoo-chain/full-node",
           label: " How to Run a Cuckoo Chain Node",
         },
         {
           type: "doc",
-          id: "Cuckoo Chain/bridge",
+          id: "cuckoo-chain/bridge",
           label: " Cuckoo Bridge",
         },
         {
