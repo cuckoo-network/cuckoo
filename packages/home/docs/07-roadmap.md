@@ -1,13 +1,23 @@
 # Roadmap
 
+## Q1/2025
+
+* Product
+  * Mobile App
+  * Agent Launchpad
+  * NFT
+* Place
+  * Listing on trackers and exchanges
+  * Bridge to other chains
+* Price
+  * Set to $0.04
+* Promotion
+  * Listing on more Quest platforms
+
 ## Q4/2024
 
-* [x] LLM and agents
-* [ ] Image-gen performance improvement
-* [ ] Inspire content creation
-* [ ] Monetization and payment
-* [ ] Onboard more creators
-* [ ] Cuckoo Mobile App
+* [x] LLM and characters
+* [x] Work with 2B customers to implement a specific AI-driven solution for professional services
 
 ## Q3/2024 Current Focus
 
@@ -30,25 +40,10 @@
 
 ## Future
 
-- [ ] DAO Gov (2024-08-B)
-- [ ] Incentivize DeFi Infras
-- [ ] Ecosystem
-  - [ ] ecosystem and grants
-    - [ ] Bridged USDC
-  - [ ] hackathons
-  - [ ] native stablecoin
-- [ ] Node operator program
-  - [ ] [Node registration on Cuckoo Portal](/future-releases/cuckoo-network-node-leaderboard)
-
+- [ ] DAO Gov
 - [ ] Cuckoo Chain Developer
 - [ ] Cuckoo Pay
   - [Case Study - Loyalty Program](/future-releases/cuckoo-pay-loyalty-program)
-  - [ ] Node operator program
-    - [ ] [Node registration on Cuckoo Portal](/future-releases/cuckoo-network-node-leaderboard)
-    - [ ] Cuckoo Chain Developer
-    - [ ] Network Stats Monitor
-      - [ ] version management
-
 
 ## Q2/2024
 
