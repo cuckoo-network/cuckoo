@@ -26,7 +26,7 @@ Madenciliğe başlamaya hazır mısınız?
 - Minimum 8GB VRAM
 - Güvenilir internet bağlantısı
 
-Ardından, [madenci yazılımı kurulum belgesini](/docs/Cuckoo%20AI/ai-node) takip edin.
+Ardından, [madenci yazılımı kurulum belgesini](/docs/cuckoo-ai/ai-node) takip edin.
 
 ### Kazançları İzleme ve Maksimize Etme
 

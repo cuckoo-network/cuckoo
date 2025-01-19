@@ -97,7 +97,7 @@ export default function Features() {
                 <div className="text-right">
                   <Link
                     className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group"
-                    href="/docs/Cuckoo%20Chain/bridge"
+                    href="/docs/cuckoo-chain/bridge"
                   >
                     <Translate description="Link text to learn more about Cuckoo Network Bridge">Learn More</Translate>{" "}
                     <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">

@@ -48,7 +48,7 @@ Cuckoo Chain is more than just a blockchain; it's a community-driven ecosystem. 
 
 Web3 and AI developers are welcomed to join our permissionless network
 
-* Run a node: https://cuckoo.network/docs/Cuckoo%20Chain/full-node
+* Run a node: https://cuckoo.network/docs/cuckoo-chain/full-node
 
 Cuckoo Chain Mainnet
 

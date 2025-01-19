@@ -2,7 +2,7 @@
 title: "Cuckoo Chain: บล็อกเชนชั้นนำสำหรับ AI"
 authors: [lark]
 tags: [company, cuckoo chain, roadmap]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Chain%3A%20%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%8A%E0%B8%99%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%99%E0%B8%B3%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%20AI
+image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=cuckoo-chain%3A%20%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%8A%E0%B8%99%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%99%E0%B8%B3%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%20AI
 description: Cuckoo Chain กำลังนิยามใหม่ให้กับภูมิทัศน์บล็อกเชนด้วยโครงสร้างพื้นฐานล้ำสมัยที่ออกแบบมาสำหรับ AI และ Web3 ในฐานะ Arbitrum L2 ในระบบนิเวศ Ethereum Cuckoo Chain มอบความเร็วในการทำธุรกรรมที่รวดเร็วทันใจ ค่าใช้จ่ายต่ำ และความสามารถด้าน AI ที่แข็งแกร่ง ทำให้เป็นตัวเลือกที่เหมาะสมที่สุดสำหรับนักพัฒนาและนวัตกรในพื้นที่ Web3
 ---
 
@@ -48,7 +48,7 @@ Cuckoo Chain เป็นมากกว่าบล็อกเชน มัน
 
 ยินดีต้อนรับนักพัฒนา Web3 และ AI เข้าร่วมเครือข่ายที่ไม่มีข้อจำกัดของเรา
 
-* รันโหนด: https://cuckoo.network/docs/Cuckoo%20Chain/full-node
+* รันโหนด: https://cuckoo.network/docs/cuckoo-chain/full-node
 
 Cuckoo Chain Mainnet
 

@@ -48,7 +48,7 @@ Cuckoo Zinciri sadece bir blockchain değil; topluluk odaklı bir ekosistemdir. 
 
 Web3 ve AI geliştiricileri, izin gerektirmeyen ağımıza katılmaya davetlidir.
 
-* Bir düğüm çalıştırın: https://cuckoo.network/docs/Cuckoo%20Chain/full-node
+* Bir düğüm çalıştırın: https://cuckoo.network/docs/cuckoo-chain/full-node
 
 Cuckoo Zinciri Ana Ağı
 

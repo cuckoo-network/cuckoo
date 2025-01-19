@@ -82,7 +82,7 @@ export default function Faqs() {
                     description="Answer: How can I get started with Cuckoo Chain?"
                     values={{
                       gettingStartedGuide: (
-                        <Link to={"/docs/Cuckoo%20Chain/cuckoo-chain"}>
+                        <Link to={"/docs/cuckoo-chain/cuckoo-chain"}>
                           <Translate description="Link text for Getting Started Guide">
                             Getting Started Guide
                           </Translate>

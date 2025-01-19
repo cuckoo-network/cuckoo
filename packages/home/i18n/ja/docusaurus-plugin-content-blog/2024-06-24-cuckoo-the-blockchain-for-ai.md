@@ -48,7 +48,7 @@ Cuckoo Chainは単なるブロックチェーンではなく、コミュニテ�
 
 Web3とAIの開発者は、私たちのパーミッションレスネットワークにぜひ参加してください。
 
-* ノードを実行する: https://cuckoo.network/docs/Cuckoo%20Chain/full-node
+* ノードを実行する: https://cuckoo.network/docs/cuckoo-chain/full-node
 
 Cuckoo Chainメインネット
 

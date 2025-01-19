@@ -26,7 +26,7 @@ Pertama-tama, Anda memerlukan GPU yang kompatibel. Jaringan Cuckoo mendukung ber
 - Minimal 8GB VRAM
 - Koneksi internet yang andal
 
-Kemudian, ikuti [dokumentasi untuk instalasi perangkat lunak penambang](/docs/Cuckoo%20AI/ai-node).
+Kemudian, ikuti [dokumentasi untuk instalasi perangkat lunak penambang](/docs/cuckoo-ai/ai-node).
 
 ### Memantau dan Memaksimalkan Penghasilan
 

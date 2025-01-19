@@ -26,7 +26,7 @@ Primero, necesitarás una GPU compatible. Cuckoo Network admite una variedad de 
 - Mínimo 8GB de VRAM
 - Conexión a internet confiable
 
-Luego, sigue la [documentación para la instalación del software de minería](/docs/Cuckoo%20AI/ai-node).
+Luego, sigue la [documentación para la instalación del software de minería](/docs/cuckoo-ai/ai-node).
 
 ### Monitoreo y Maximización de Ganancias
 

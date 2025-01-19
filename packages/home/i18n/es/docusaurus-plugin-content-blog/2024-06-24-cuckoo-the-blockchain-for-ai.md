@@ -48,7 +48,7 @@ Cuckoo Chain es más que solo una blockchain; es un ecosistema impulsado por la 
 
 Los desarrolladores de Web3 e IA son bienvenidos a unirse a nuestra red sin permisos.
 
-* Ejecuta un nodo: https://cuckoo.network/docs/Cuckoo%20Chain/full-node
+* Ejecuta un nodo: https://cuckoo.network/docs/cuckoo-chain/full-node
 
 Cuckoo Chain Mainnet
 

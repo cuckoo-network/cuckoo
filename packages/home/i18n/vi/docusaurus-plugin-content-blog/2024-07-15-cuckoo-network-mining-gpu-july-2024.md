@@ -26,7 +26,7 @@ Trước hết, bạn sẽ cần một GPU tương thích. Mạng Lưới Cuckoo
 - Tối thiểu 8GB VRAM
 - Kết nối internet ổn định
 
-Sau đó, hãy làm theo [tài liệu hướng dẫn cài đặt phần mềm khai thác](/docs/Cuckoo%20AI/ai-node).
+Sau đó, hãy làm theo [tài liệu hướng dẫn cài đặt phần mềm khai thác](/docs/cuckoo-ai/ai-node).
 
 ### Theo Dõi Và Tối Đa Hóa Thu Nhập
 

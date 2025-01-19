@@ -2,7 +2,7 @@
 title: "Cuckoo Chain: Blockchain Utama untuk AI"
 authors: [lark]
 tags: [perusahaan, cuckoo chain, roadmap]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Chain%3A%20Blockchain%20Utama%20untuk%20AI
+image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=cuckoo-chain%3A%20Blockchain%20Utama%20untuk%20AI
 description: Cuckoo Chain mendefinisikan ulang lanskap blockchain dengan infrastruktur mutakhir yang dirancang untuk AI dan Web3. Sebagai Arbitrum L2 dalam ekosistem Ethereum, Cuckoo Chain menawarkan kecepatan transaksi yang sangat cepat, biaya minimal, dan kemampuan AI yang kuat, menjadikannya pilihan ideal bagi pengembang dan inovator di ruang Web3.
 ---
 
@@ -48,7 +48,7 @@ Cuckoo Chain lebih dari sekadar blockchain; ini adalah ekosistem yang didorong o
 
 Pengembang Web3 dan AI diundang untuk bergabung dengan jaringan tanpa izin kami
 
-* Jalankan node: https://cuckoo.network/docs/Cuckoo%20Chain/full-node
+* Jalankan node: https://cuckoo.network/docs/cuckoo-chain/full-node
 
 Mainnet Cuckoo Chain
 

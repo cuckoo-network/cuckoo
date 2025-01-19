@@ -48,7 +48,7 @@ description: زنجیره کوکو با زیرساخت‌های پیشرفته�
 
 توسعه‌دهندگان وب3 و هوش مصنوعی به شبکه بدون نیاز به مجوز ما خوش‌آمد می‌گویند
 
-* اجرای یک نود: https://cuckoo.network/docs/Cuckoo%20Chain/full-node
+* اجرای یک نود: https://cuckoo.network/docs/cuckoo-chain/full-node
 
 شبکه اصلی زنجیره کوکو
 

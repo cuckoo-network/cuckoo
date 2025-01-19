@@ -48,7 +48,7 @@ Hãy tưởng tượng một thế giới nơi các rào cản sáng tạo bị 
 1. **Tạo Nghệ thuật AI:** Truy cập [Cuckoo Art](https://cuckoo.network/portal/art) để bắt đầu hành trình sáng tạo của bạn với tác phẩm nghệ thuật AI đầu tiên.
 2. **Nhận $CAI:** Tham gia airdrop của chúng tôi để nhận token $CAI, chỉ có trong thời gian giới hạn.
   - **Thưởng Giới thiệu:** Kiếm thêm 30% khi mời bạn bè—lan tỏa cuộc cách mạng.
-3. **Phát triển cùng Cuckoo:** Nhận [Token Testnet](https://cuckoo.network/portal/faucet) và khám phá [Tài liệu](https://cuckoo.network/vi/docs/Cuckoo%20Chain/cuckoo-chain) của chúng tôi để tích hợp AI vào DApp của bạn.
+3. **Phát triển cùng Cuckoo:** Nhận [Token Testnet](https://cuckoo.network/portal/faucet) và khám phá [Tài liệu](https://cuckoo.network/vi/docs/cuckoo-chain/cuckoo-chain) của chúng tôi để tích hợp AI vào DApp của bạn.
 
 ## 🌍 Câu hỏi Thường gặp
 

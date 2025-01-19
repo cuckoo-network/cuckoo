@@ -2,7 +2,7 @@
 title: "Cuckoo Chain: A Principal Blockchain para IA"
 authors: [lark]
 tags: [empresa, cuckoo chain, roteiro]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Chain%3A%20A%20Principal%20Blockchain%20para%20IA
+image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=cuckoo-chain%3A%20A%20Principal%20Blockchain%20para%20IA
 description: A Cuckoo Chain está redefinindo o cenário do blockchain com sua infraestrutura de ponta projetada para IA e Web3. Como um Arbitrum L2 no ecossistema Ethereum, a Cuckoo Chain oferece velocidades de transação ultrarrápidas, custos mínimos e capacidades robustas de IA, tornando-se a escolha ideal para desenvolvedores e inovadores no espaço Web3.
 ---
 
@@ -48,7 +48,7 @@ A Cuckoo Chain é mais do que apenas um blockchain; é um ecossistema orientado 
 
 Desenvolvedores de Web3 e IA são bem-vindos para se juntar à nossa rede sem permissão
 
-* Execute um nó: https://cuckoo.network/docs/Cuckoo%20Chain/full-node
+* Execute um nó: https://cuckoo.network/docs/cuckoo-chain/full-node
 
 Cuckoo Chain Mainnet
 

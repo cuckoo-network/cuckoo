@@ -54,7 +54,7 @@ export default function Cta() {
               <div data-aos="fade-up" data-aos-delay="200">
                 <Link
                   className="btn text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600 w-full shadow-sm uppercase hover:text-white"
-                  href="/docs/Cuckoo%20Chain/cuckoo-chain"
+                  href="/docs/cuckoo-chain/cuckoo-chain"
                 >
                   <Translate description="Button label to read the Cuckoo Chain documentation">
                     Read Docs

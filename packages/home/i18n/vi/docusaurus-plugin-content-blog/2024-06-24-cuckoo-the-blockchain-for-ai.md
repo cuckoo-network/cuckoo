@@ -48,7 +48,7 @@ Cuckoo Chain không chỉ là một chuỗi khối; đó là một hệ sinh th�
 
 Các nhà phát triển Web3 và AI được chào đón tham gia mạng lưới không cần phép của chúng tôi
 
-* Chạy một node: https://cuckoo.network/docs/Cuckoo%20Chain/full-node
+* Chạy một node: https://cuckoo.network/docs/cuckoo-chain/full-node
 
 Cuckoo Chain Mainnet
 

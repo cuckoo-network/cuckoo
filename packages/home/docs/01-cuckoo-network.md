@@ -48,7 +48,7 @@ Imagine a world where the barriers to creativity are dismantled, where anime art
 1. **Create AI Art:** Visit [Cuckoo Art](https://cuckoo.network/portal/art) to start your creative journey with your first AI-generated art.
 2. **Claim Your $CAI:** Participate in our airdrop to receive $CAI tokens, available for a limited time.
    - **Referral Bonus:** Earn 30% more by inviting friends—spread the revolution.
-3. **Develop with Cuckoo:** Get [Testnet Tokens](https://cuckoo.network/portal/faucet) and dive into our [Docs](https://cuckoo.network/docs/Cuckoo%20Chain/cuckoo-chain) to integrate AI into your DApp.
+3. **Develop with Cuckoo:** Get [Testnet Tokens](https://cuckoo.network/portal/faucet) and dive into our [Docs](https://cuckoo.network/docs/cuckoo-chain/cuckoo-chain) to integrate AI into your DApp.
 
 ## 🌍 Frequently Asked Questions
 

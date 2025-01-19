@@ -51,7 +51,7 @@
 
    - **推荐奖励：** 邀请朋友可额外获得 30% 的奖励——传播革命。
 
-3. **使用 Cuckoo 开发：** 获取 [测试网代币](https://cuckoo.network/portal/faucet) 并深入研究我们的 [文档](https://cuckoo.network/zh/docs/Cuckoo%20Chain/cuckoo-chain)，将 AI 集成到你的 DApp 中。
+3. **使用 Cuckoo 开发：** 获取 [测试网代币](https://cuckoo.network/portal/faucet) 并深入研究我们的 [文档](https://cuckoo.network/zh/docs/cuckoo-chain/cuckoo-chain)，将 AI 集成到你的 DApp 中。
 
 ## 🌍 常见问题
 

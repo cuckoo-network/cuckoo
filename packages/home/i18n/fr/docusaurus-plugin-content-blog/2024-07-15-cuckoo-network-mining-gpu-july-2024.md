@@ -26,7 +26,7 @@ Tout d'abord, vous aurez besoin d'un GPU compatible. Le réseau Cuckoo prend en 
 - Minimum 8 Go de VRAM
 - Connexion Internet fiable
 
-Ensuite, suivez la [documentation pour l'installation du logiciel de minage](/docs/Cuckoo%20AI/ai-node).
+Ensuite, suivez la [documentation pour l'installation du logiciel de minage](/docs/cuckoo-ai/ai-node).
 
 ### Surveillance et maximisation des gains
 

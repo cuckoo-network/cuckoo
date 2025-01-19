@@ -48,7 +48,7 @@ description: 쿠쿠 체인은 AI와 Web3를 위한 최첨단 인프라로 블록
 
 Web3 및 AI 개발자들은 우리의 무허가 네트워크에 참여를 환영합니다.
 
-* 노드 실행: https://cuckoo.network/docs/Cuckoo%20Chain/full-node
+* 노드 실행: https://cuckoo.network/docs/cuckoo-chain/full-node
 
 쿠쿠 체인 메인넷
 

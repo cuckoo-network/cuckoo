@@ -30,11 +30,11 @@ Transactions on Cuckoo Chain may get stuck if a lower transaction fee is submitt
 
 ### How do I develop applications on Cuckoo Chain?
 
-Developing on Cuckoo Chain is simple. Visit our [Developer Resources](/docs/Cuckoo%20Chain/cuckoo-chain) for detailed guides, tutorials, and tools to help you get started. You can also join our developer community on [Discord](https://cuckoo.network/dc) for support and collaboration.
+Developing on Cuckoo Chain is simple. Visit our [Developer Resources](/docs/cuckoo-chain/cuckoo-chain) for detailed guides, tutorials, and tools to help you get started. You can also join our developer community on [Discord](https://cuckoo.network/dc) for support and collaboration.
 
 ### How do I become a miner on Cuckoo Chain?
 
-To become a validator, you need to stake a specific amount of Cuckoo AI tokens (CAI) and set up an operator or GPU miner node. More information is available on our [Staking Page](https://cuckoo.network/portal/staking) and the [Miner Guide](/docs/Cuckoo%20AI/ai-node).
+To become a validator, you need to stake a specific amount of Cuckoo AI tokens (CAI) and set up an operator or GPU miner node. More information is available on our [Staking Page](https://cuckoo.network/portal/staking) and the [Miner Guide](/docs/cuckoo-ai/ai-node).
 
 ### Where can I find additional resources and support?
 
@@ -88,5 +88,5 @@ If your question relates to a specific tool, project, or library, most projects 
 
 If you’re running a chain node or miner, here are some communities dedicated to helping you get started:
 
-- [Cuckoo GPU Miner Node](/docs/Cuckoo%20AI/ai-node)
-- [Cuckoo Chain Node](/docs/Cuckoo%20Chain/full-node)
+- [Cuckoo GPU Miner Node](/docs/cuckoo-ai/ai-node)
+- [Cuckoo Chain Node](/docs/cuckoo-chain/full-node)

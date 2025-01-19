@@ -48,7 +48,7 @@ description: تعيد سلسلة كوكو تعريف مشهد البلوكتشي
 
 نرحب بمطوري Web3 والذكاء الاصطناعي للانضمام إلى شبكتنا المفتوحة
 
-* تشغيل عقدة: https://cuckoo.network/docs/Cuckoo%20Chain/full-node
+* تشغيل عقدة: https://cuckoo.network/docs/cuckoo-chain/full-node
 
 الشبكة الرئيسية لسلسلة كوكو
 
