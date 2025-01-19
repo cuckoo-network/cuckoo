@@ -3,16 +3,19 @@
 ## Q1/2025
 
 * Product
-  * Mobile App
-  * Agent Launchpad
-  * NFT
+  * Cuckoo Mobile App: Expand user adoption and accessibility
+  * Agent Launchpad: Capitalize on AI agent momentum and make Cuckoo the go-to platform for decentralized agent deployment
+  * NFT Expansion: Reinforce Cuckoo’s creative side while adding tangible utility
 * Place
-  * Listing on trackers and exchanges
-  * Bridge to other chains
+  * Listing on Major Trackers and Exchanges: improve token visibility & liquidity
+  * Bridge to Other Chains: Expand cross-chain operability and user base
 * Price
-  * Set to $0.04
+  * Target Price: $0.04
+  * Revisit Staking & Supply & Demand Mechanics
 * Promotion
+  * Homepage rebranding
   * Listing on more Quest platforms
+  * AI Agent Showcases: Position Cuckoo as the leading chain for AI agent innovation
 
 ## Q4/2024
 
