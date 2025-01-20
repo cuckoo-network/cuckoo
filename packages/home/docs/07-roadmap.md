@@ -8,6 +8,7 @@
   * NFT Expansion: Reinforce Cuckoo’s creative side while adding tangible utility
 * Place
   * Listing on Major Trackers and Exchanges: improve token visibility & liquidity
+  * Market making to stabilize token price
   * Bridge to Other Chains: Expand cross-chain operability and user base
 * Price
   * Target Price: $0.04

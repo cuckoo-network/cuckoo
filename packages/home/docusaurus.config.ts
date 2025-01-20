@@ -5,7 +5,7 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 import commit from "./src/latest-commit.json";
 
 const config: Config = {
-  title: "Cuckoo AI",
+  title: "Cuckoo AI Network",
   tagline: "Decentralized AI Creative Platform for Creators & Builders",
   customFields: {
     description:
@@ -111,6 +111,11 @@ const config: Config = {
 
   themeConfig: {
     metadata: [
+      { property: 'og:title', content: 'Cuckoo AI Network' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:rating', content: '4.8' },
+      { property: 'og:rating_scale', content: '5' },
+      { property: 'og:rating_count', content: '38721' },
       {
         name: "keywords",
         content:
