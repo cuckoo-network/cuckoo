@@ -2,7 +2,7 @@
 title: GPU ile Token Stake Etme ve Madencilik
 authors: [lark]
 tags: [şirket, yol haritası]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=GPU%20ile%20Token%20Stake%20Etme%20ve%20Madencilik
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=GPU%20ile%20Token%20Stake%20Etme%20ve%20Madencilik
 ---
 
 Cuckoo Network, AI meraklılarını, geliştiricileri ve GPU madencilerini kripto tokenlerle ödüllendiren ilk Merkeziyetsiz AI Model Sunum Pazarıdır. Platformumuzda, madenciler GPU'larını jeneratif AI uygulama geliştiricileri, yani koordinatörlerle paylaşarak son müşteriler için çıkarım çalıştırır, böylece tüm katkıda bulunanlar kripto token kazanabilir.

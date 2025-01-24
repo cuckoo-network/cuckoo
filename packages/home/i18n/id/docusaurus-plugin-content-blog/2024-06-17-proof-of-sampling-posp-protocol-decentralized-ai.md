@@ -2,7 +2,7 @@
 title: "Protokol Proof of Sampling: Memberikan Insentif untuk Kejujuran dan Menghukum Ketidakjujuran dalam Inferensi AI Terdesentralisasi"
 authors: [lark]
 tags: [penelitian]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Protokol%20Proof%20of%20Sampling%3A%20Memberikan%20Insentif%20untuk%20Kejujuran%20dan%20Menghukum%20Ketidakjujuran%20dalam%20Inferensi%20AI%20Terdesentralisasi
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Protokol%20Proof%20of%20Sampling%3A%20Memberikan%20Insentif%20untuk%20Kejujuran%20dan%20Menghukum%20Ketidakjujuran%20dalam%20Inferensi%20AI%20Terdesentralisasi
 description: Pelajari pendekatan unik dari protokol Proof of Sampling (PoSP) dalam memberikan insentif untuk perilaku jujur dan menghukum ketidakjujuran di antara penyedia GPU, memastikan keamanan dan keandalan sistem inferensi AI terdesentralisasi.
 ---
 

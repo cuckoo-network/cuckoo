@@ -2,7 +2,7 @@
 title: "Co-crie a Cuckoo Network: Chamando Todos os Criadores, Desenvolvedores e Inovadores!"
 authors: [lark]
 tags: [Cuckoo Chain]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Co-crie%20a%20Cuckoo%20Network%3A%20Chamando%20Todos%20os%20Criadores%2C%20Desenvolvedores%20e%20Inovadores%21
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Co-crie%20a%20Cuckoo%20Network%3A%20Chamando%20Todos%20os%20Criadores%2C%20Desenvolvedores%20e%20Inovadores%21
 description: A Cuckoo Network está convocando artistas apaixonados, desenvolvedores e inovadores para se juntarem a nós na construção do futuro das plataformas descentralizadas. Estamos em busca de co-criadores para criar arte, desenvolver tutoriais, conectar stablecoins e construir mercados de previsão na Cuckoo Chain. Se você está ansioso para causar um impacto no mundo do blockchain, esta é sua chance!
 ---
 

@@ -2,7 +2,7 @@
 title: "Desentralisasi AI: Sebuah Tinjauan"
 authors: [dora]
 tags: [penelitian]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Desentralisasi%20AI%3A%20Sebuah%20Tinjauan
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Desentralisasi%20AI%3A%20Sebuah%20Tinjauan
 ---
 
 Kombinasi antara blockchain dan AI mendapatkan perhatian pasar yang signifikan. Dengan ChatGPT yang dengan cepat mengumpulkan ratusan juta pengguna dan saham Nvidia yang melonjak delapan kali lipat pada tahun 2023, AI telah memantapkan dirinya sebagai tren dominan. Pengaruh ini meluas ke sektor-sektor terkait seperti blockchain, di mana aplikasi AI sedang dieksplorasi.

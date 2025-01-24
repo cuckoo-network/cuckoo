@@ -2,7 +2,7 @@
 title: "Penambangan Jaringan Cuckoo dengan GPU Juli 2024"
 authors: [lark]
 tags: [rantai cuckoo, penambangan]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Penambangan%20Jaringan%20Cuckoo%20dengan%20GPU%20Juli%202024
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Penambangan%20Jaringan%20Cuckoo%20dengan%20GPU%20Juli%202024
 description: Mulai Juli 2024, Jaringan Cuckoo menawarkan hadiah harian 300 $CAI per GPU untuk penambang. Pelajari panduan kami untuk mempelajari cara mengatur node penambang Anda dan mulai menghasilkan.
 ---
 

@@ -2,7 +2,7 @@
 title: "Arbitrum Nitro की वास्तुकला का परिचय"
 authors: [lark]
 tags: [engineering, research]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Arbitrum%20Nitro%20%E0%A4%95%E0%A5%80%20%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81%E0%A4%95%E0%A4%B2%E0%A4%BE%20%E0%A4%95%E0%A4%BE%20%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%AF
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Arbitrum%20Nitro%20%E0%A4%95%E0%A5%80%20%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81%E0%A4%95%E0%A4%B2%E0%A4%BE%20%E0%A4%95%E0%A4%BE%20%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%AF
 ---
 
 Arbitrum Nitro, Offchain Labs द्वारा विकसित, एक दूसरी पीढ़ी का लेयर 2 ब्लॉकचेन प्रोटोकॉल है जो थ्रूपुट, अंतिमता और विवाद समाधान को सुधारने के लिए डिज़ाइन किया गया है। यह मूल Arbitrum प्रोटोकॉल पर आधारित है, जो आधुनिक ब्लॉकचेन आवश्यकताओं को पूरा करने के लिए महत्वपूर्ण सुधार लाता है।

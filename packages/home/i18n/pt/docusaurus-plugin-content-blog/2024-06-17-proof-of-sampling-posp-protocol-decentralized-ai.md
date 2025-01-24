@@ -2,7 +2,7 @@
 title: "Protocolo de Prova de Amostragem: Incentivando a Honestidade e Penalizando a Desonestidade na Inferência de IA Descentralizada"
 authors: [lark]
 tags: [research]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Protocolo%20de%20Prova%20de%20Amostragem%3A%20Incentivando%20a%20Honestidade%20e%20Penalizando%20a%20Desonestidade%20na%20Infer%C3%AAncia%20de%20IA%20Descentralizada
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Protocolo%20de%20Prova%20de%20Amostragem%3A%20Incentivando%20a%20Honestidade%20e%20Penalizando%20a%20Desonestidade%20na%20Infer%C3%AAncia%20de%20IA%20Descentralizada
 description: Aprenda sobre a abordagem única do protocolo de Prova de Amostragem (PoSP) para incentivar o comportamento honesto e penalizar a desonestidade entre os provedores de GPU, garantindo a segurança e a confiabilidade dos sistemas de inferência de IA descentralizada.
 ---
 

@@ -2,7 +2,7 @@
 title: "Cuckoo Network และ Swan Chain ร่วมมือกันปฏิวัติ AI แบบกระจายศูนย์"
 authors: [lark]
 tags: [partnership, ai, company, product, cuckoo chat]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%20และ%20Swan%20Chain%20ร่วมมือกันปฏิวัติ%20AI%20แบบกระจายศูนย์
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20และ%20Swan%20Chain%20ร่วมมือกันปฏิวัติ%20AI%20แบบกระจายศูนย์
 description: Cuckoo Network และ Swan Chain ร่วมมือกันปฏิวัติ AI แบบกระจายศูนย์โดยการรวมทรัพยากร GPU ที่ทรงพลังเข้ากับตลาดการให้บริการโมเดล AI ของ Cuckoo ความร่วมมือนี้ช่วยเสริมศักยภาพให้กับนักพัฒนาและผู้สร้าง AI ด้วยความสามารถในการประมวลผลที่เพิ่มขึ้น ทำให้สามารถสร้างโมเดลภาษาที่ได้รับแรงบันดาลใจจากอนิเมะและขยายโอกาสในการนวัตกรรม AI แบบกระจายศูนย์
 keywords:
   [

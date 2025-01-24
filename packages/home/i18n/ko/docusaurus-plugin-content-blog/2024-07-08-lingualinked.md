@@ -2,7 +2,7 @@
 title: "LinguaLinked: 분산 대형 언어 모델로 모바일 기기를 강화하다"
 authors: [lark]
 tags: [research]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=LinguaLinked:%20%EB%B6%84%EC%82%B0%20%EB%8C%80%ED%98%95%20%EC%96%B8%EC%96%B4%20%EB%AA%A8%EB%8D%B8%EB%A1%9C%20%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EA%B8%B0%EA%B8%B0%EB%A5%BC%20%EA%B0%95%ED%99%94%ED%95%98%EB%8B%A4
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=LinguaLinked:%20%EB%B6%84%EC%82%B0%20%EB%8C%80%ED%98%95%20%EC%96%B8%EC%96%B4%20%EB%AA%A8%EB%8D%B8%EB%A1%9C%20%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EA%B8%B0%EA%B8%B0%EB%A5%BC%20%EA%B0%95%ED%99%94%ED%95%98%EB%8B%A4
 description: 대형 언어 모델(LLM)을 모바일 기기에 배포하려는 수요가 증가하고 있으며, 이는 개인정보 보호, 지연 시간 감소, 효율적인 대역폭 사용의 필요성에 의해 촉진되고 있습니다. 그러나 LLM의 광범위한 메모리 및 계산 요구 사항은 상당한 도전 과제를 제기합니다.
 ---
 

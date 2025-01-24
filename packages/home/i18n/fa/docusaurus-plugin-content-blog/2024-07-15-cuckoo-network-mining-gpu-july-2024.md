@@ -2,7 +2,7 @@
 title: "استخراج شبکه کوکو با GPU ژوئیه ۲۰۲۴"
 authors: [lark]
 tags: [زنجیره کوکو, استخراج]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=استخراج%20شبکه%20کوکو%20با%20GPU%20ژوئیه%۲۰۲۴
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=استخراج%20شبکه%20کوکو%20با%20GPU%20ژوئیه%۲۰۲۴
 description: از ژوئیه ۲۰۲۴، شبکه کوکو روزانه ۳۰۰ $CAI به ازای هر GPU به ماینرها پاداش می‌دهد. به راهنمای ما بپیوندید تا یاد بگیرید چگونه نود ماینر خود را راه‌اندازی کنید و شروع به کسب درآمد کنید.
 ---
 

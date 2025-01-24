@@ -2,7 +2,7 @@
 title: "Cuckoo Network Vai Global: Junte-se à Nossa Iniciativa de Tradução do Site"
 authors: [lark]
 tags: [Cuckoo Chain, Comunidade, Internacionalização]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%20Vai%20Global%3A%20Junte-se%20%C3%A0%20Nossa%20Iniciativa%20de%20Tradu%C3%A7%C3%A3o%20do%20Site
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20Vai%20Global%3A%20Junte-se%20%C3%A0%20Nossa%20Iniciativa%20de%20Tradu%C3%A7%C3%A3o%20do%20Site
 description: Cuckoo Network está expandindo seu alcance global! Junte-se ao nosso esforço comunitário para traduzir o site Cuckoo.Network e ganhe tokens $CAI por suas contribuições. Ajude-nos a tornar a IA descentralizada acessível a todos, em qualquer lugar.
 ---
 

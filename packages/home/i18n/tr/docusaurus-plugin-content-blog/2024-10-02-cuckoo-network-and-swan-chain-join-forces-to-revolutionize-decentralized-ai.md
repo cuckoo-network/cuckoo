@@ -2,7 +2,7 @@
 title: "Cuckoo Network ve Swan Chain, Merkeziyetsiz AI'yi Devrimleştirmek İçin Güçlerini Birleştiriyor"
 authors: [lark]
 tags: [ortaklık, ai, şirket, ürün, cuckoo chat]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%20ve%20Swan%20Chain,%20Merkeziyetsiz%20AI'yi%20Devrimleştirmek%20İçin%20Güçlerini%20Birleştiriyor
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20ve%20Swan%20Chain,%20Merkeziyetsiz%20AI'yi%20Devrimleştirmek%20İçin%20Güçlerini%20Birleştiriyor
 description: Cuckoo Network ve Swan Chain, güçlü GPU kaynaklarını Cuckoo'nun AI model sunma pazarına entegre ederek merkeziyetsiz AI'yi devrimleştirmek için ortaklık kuruyor. Bu işbirliği, AI geliştiricilerine ve yaratıcılarına gelişmiş işlem yetenekleri sunarak anime esinli dil modellerinin oluşturulmasını ve merkeziyetsiz AI inovasyonunda fırsatların genişlemesini sağlıyor.
 keywords:
   [

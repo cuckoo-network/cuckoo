@@ -2,7 +2,7 @@
 title: معرفی قابلیت اشتراک‌گذاری با یک کلیک در Cuckoo Art به X/Twitter
 authors: [lark]
 tags: [product]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=معرفی قابلیت اشتراک‌گذاری با یک کلیک در Cuckoo Art به X/Twitter
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=معرفی قابلیت اشتراک‌گذاری با یک کلیک در Cuckoo Art به X/Twitter
 description: Cuckoo Art قابلیت اشتراک‌گذاری با یک کلیک به X/Twitter را راه‌اندازی کرده است که به هنرمندان امکان می‌دهد آثار هنری تولید شده توسط هوش مصنوعی را به صورت جهانی به نمایش بگذارند. این ویژگی خلاقیت و رسانه‌های اجتماعی را به هم پیوند می‌دهد و دامنه دسترسی و تعامل جامعه را گسترش می‌دهد.
 ---
 

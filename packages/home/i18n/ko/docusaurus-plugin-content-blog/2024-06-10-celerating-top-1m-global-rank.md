@@ -2,7 +2,7 @@
 title: "작은 이정표를 기념하며: Cuckoo.Network, 전 세계 상위 1M 사이트 진입"
 authors: [lark]
 tags: [company]
-image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=작은 이정표를 기념하며: Cuckoo.Network, 전 세계 상위 1M 사이트 진입"
+image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=작은 이정표를 기념하며: Cuckoo.Network, 전 세계 상위 1M 사이트 진입"
 description: Cuckoo.Network는 AI 및 Web3 분야에서의 빠른 성장과 영향력을 보여주며 전 세계 상위 1M 사이트에 진입하는 이정표를 기념합니다.
 ---
 

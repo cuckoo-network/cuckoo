@@ -13,14 +13,14 @@ keywords:
   ]
 authors: [lark]
 description: Cuckoo Network expande sua infraestrutura de IA descentralizada para IoTeX como uma solução de Camada 2, integrando-se ao ecossistema MachineFi da IoTeX para oferecer computação de IA escalável e interoperabilidade entre cadeias. Descubra os benefícios para desenvolvedores, mineradores e usuários da IoTeX, e aprenda como participar do airdrop de tokens $CAI.
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Expans%C3%A3o%20da%20Cuckoo%20Chain%20para%20IoTeX%20como%20Camada%202
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Expans%C3%A3o%20da%20Cuckoo%20Chain%20para%20IoTeX%20como%20Camada%202
 ---
 
 # Airdrop Cuckoo × IoTeX: Expansão da Cuckoo Chain para IoTeX como Camada 2
 
 A Cuckoo Network tem o prazer de anunciar sua expansão para a IoTeX como uma solução de Camada 2, trazendo sua infraestrutura de IA descentralizada para o próspero ecossistema da IoTeX. Esta parceria estratégica combina a expertise da Cuckoo em servir modelos de IA com a robusta infraestrutura MachineFi da IoTeX, criando novas oportunidades para ambas as comunidades.
 
-![Expansão da Cuckoo Network](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Expans%C3%A3o%20da%20Cuckoo%20Chain%20para%20IoTeX%20como%20Camada%202)
+![Expansão da Cuckoo Network](https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Expans%C3%A3o%20da%20Cuckoo%20Chain%20para%20IoTeX%20como%20Camada%202)
 
 ## **A Necessidade**
 

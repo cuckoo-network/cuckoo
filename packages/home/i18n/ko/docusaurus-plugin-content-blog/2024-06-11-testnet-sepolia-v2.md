@@ -2,7 +2,7 @@
 title: "Arbitrum에서 Cuckoo Sepolia V2 발표"
 authors: [dora]
 tags: [product, cuckoo chain, roadmap]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Arbitrum에서 Cuckoo Sepolia V2 발표
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Arbitrum에서 Cuckoo Sepolia V2 발표
 ---
 Cuckoo Sepolia V2의 출시를 발표하게 되어 기쁩니다. 이는 Arbitrum 위에 구축된 업그레이드된 테스트넷입니다. 이 중요한 전환은 커뮤니티의 소중한 피드백에 대한 직접적인 응답으로, 플랫폼의 유용성과 확장성을 향상시키기 위한 것입니다.
 

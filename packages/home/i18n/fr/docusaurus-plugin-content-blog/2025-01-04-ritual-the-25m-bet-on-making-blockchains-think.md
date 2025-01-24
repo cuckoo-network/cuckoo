@@ -4,14 +4,14 @@ tags: [blockchain, IA, informatique décentralisée, contrats intelligents]
 keywords: [Ritual, IA blockchain, IA décentralisée, contrats intelligents, infrastructure Web3]
 authors: [lark]
 description: Ritual, une startup fondée par l'ancien investisseur de Polychain Niraj Pant et Akilesh Potti, est à l'avant-garde de l'intégration des capacités d'IA dans les environnements blockchain, soutenue par une série A de 25 millions de dollars. L'entreprise vise à révolutionner les contrats intelligents et les applications décentralisées avec des fonctionnalités pilotées par l'IA.
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Ritual:%20The%20$25M%20Bet%20on%20Making%20Blockchains%20Think
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual:%20The%20$25M%20Bet%20on%20Making%20Blockchains%20Think
 ---
 
 # Ritual : Le pari de 25 millions de dollars pour rendre les blockchains intelligentes
 
 Ritual, fondée en 2023 par l'ancien investisseur de Polychain Niraj Pant et Akilesh Potti, est un projet ambitieux à l'intersection de la blockchain et de l'IA. Soutenue par une série A de 25 millions de dollars dirigée par Archetype et un investissement stratégique de Polychain Capital, l'entreprise vise à combler les lacunes critiques de l'infrastructure pour permettre des interactions complexes sur et hors chaîne. Avec une équipe de 30 experts issus d'institutions et d'entreprises de premier plan, Ritual construit un protocole qui intègre directement les capacités d'IA dans les environnements blockchain, ciblant des cas d'utilisation tels que les contrats intelligents générés en langage naturel et les protocoles de prêt dynamiques basés sur le marché.
 
-![Ritual : Le pari de 25 millions de dollars pour rendre les blockchains intelligentes](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Ritual:%20The%20$25M%20Bet%20on%20Making%20Blockchains%20Think)
+![Ritual : Le pari de 25 millions de dollars pour rendre les blockchains intelligentes](https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual:%20The%20$25M%20Bet%20on%20Making%20Blockchains%20Think)
 
 ## Pourquoi les clients ont besoin du Web3 pour l'IA
 

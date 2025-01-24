@@ -2,7 +2,7 @@
 title: "Mạng Cuckoo và Chuỗi Swan Hợp Tác Để Cách Mạng Hóa AI Phi Tập Trung"
 authors: [lark]
 tags: [hợp tác, ai, công ty, sản phẩm, cuckoo chat]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Mạng%20Cuckoo%20và%20Chuỗi%20Swan%20Hợp%20Tác%20Để%20Cách%20Mạng%20Hóa%20AI%20Phi%20Tập%20Trung
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Mạng%20Cuckoo%20và%20Chuỗi%20Swan%20Hợp%20Tác%20Để%20Cách%20Mạng%20Hóa%20AI%20Phi%20Tập%20Trung
 description: Mạng Cuckoo và Chuỗi Swan hợp tác để cách mạng hóa AI phi tập trung bằng cách tích hợp các tài nguyên GPU mạnh mẽ vào thị trường phục vụ mô hình AI của Cuckoo. Sự hợp tác này trao quyền cho các nhà phát triển và sáng tạo AI với khả năng xử lý nâng cao, cho phép tạo ra các mô hình ngôn ngữ lấy cảm hứng từ anime và mở rộng cơ hội trong đổi mới AI phi tập trung.
 keywords:
   [

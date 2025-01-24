@@ -4,14 +4,14 @@ tags: [blokzincir, AI, merkeziyetsiz hesaplama, akıllı sözleşmeler]
 keywords: [Ritual, blokzincir AI, merkeziyetsiz AI, akıllı sözleşmeler, Web3 altyapısı]
 authors: [lark]
 description: Eski Polychain yatırımcısı Niraj Pant ve Akilesh Potti tarafından kurulan bir girişim olan Ritual, 25 milyon dolarlık bir Seri A yatırımı ile blokzincir ortamlarına AI yeteneklerini entegre etmeye öncülük ediyor. Şirket, AI destekli işlevselliklerle akıllı sözleşmeleri ve merkeziyetsiz uygulamaları devrim niteliğinde dönüştürmeyi hedefliyor.
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Ritual:%20Blokzincirleri%20Düşündüren%2025%20Milyon%20Dolarlık%20Bahis
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual:%20Blokzincirleri%20Düşündüren%2025%20Milyon%20Dolarlık%20Bahis
 ---
 
 # Ritual: Blokzincirleri Düşündüren 25 Milyon Dolarlık Bahis
 
 Ritual, 2023 yılında eski Polychain yatırımcısı Niraj Pant ve Akilesh Potti tarafından kurulan, blokzincir ve AI kesişiminde yer alan iddialı bir projedir. Archetype tarafından yönetilen ve Polychain Capital'den stratejik yatırım alan 25 milyon dolarlık bir Seri A ile desteklenen şirket, zincir içi ve zincir dışı karmaşık etkileşimleri mümkün kılmak için kritik altyapı boşluklarını ele almayı hedefliyor. Önde gelen kurumlar ve firmalardan 30 uzmandan oluşan bir ekiple, Ritual, doğal dil ile oluşturulan akıllı sözleşmeler ve dinamik piyasa odaklı kredi protokolleri gibi kullanım alanlarını hedefleyerek AI yeteneklerini doğrudan blokzincir ortamlarına entegre eden bir protokol inşa ediyor.
 
-![Ritual: Blokzincirleri Düşündüren 25 Milyon Dolarlık Bahis](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Ritual:%20Blokzincirleri%20Düşündüren%2025%20Milyon%20Dolarlık%20Bahis)
+![Ritual: Blokzincirleri Düşündüren 25 Milyon Dolarlık Bahis](https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual:%20Blokzincirleri%20Düşündüren%2025%20Milyon%20Dolarlık%20Bahis)
 
 ## Müşterilerin AI için Neden Web3'e İhtiyacı Var?
 

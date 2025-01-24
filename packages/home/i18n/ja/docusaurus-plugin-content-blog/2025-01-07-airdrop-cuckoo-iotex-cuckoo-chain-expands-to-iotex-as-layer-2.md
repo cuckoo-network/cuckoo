@@ -12,14 +12,14 @@ keywords:
   ]
 authors: [lark]
 description: Cuckoo Network は、IoTeX の MachineFi エコシステムと統合し、スケーラブルな AI 計算とクロスチェーン相互運用性を提供するレイヤー 2 ソリューションとして、分散型 AI インフラストラクチャを IoTeX に拡大します。開発者、マイナー、IoTeX ユーザーにとっての利点を発見し、$CAI トークンのエアドロップに参加する方法を学びましょう。
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=%E3%82%A8%E3%82%A2%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3%E3%81%8C%20IoTeX%20%E3%81%AB%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%202%20%E3%81%A8%E3%81%97%E3%81%A6%E6%8B%A1%E5%A4%A7
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=%E3%82%A8%E3%82%A2%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3%E3%81%8C%20IoTeX%20%E3%81%AB%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%202%20%E3%81%A8%E3%81%97%E3%81%A6%E6%8B%A1%E5%A4%A7
 ---
 
 # エアドロップ Cuckoo × IoTeX: Cuckoo チェーンが IoTeX にレイヤー 2 として拡大
 
 Cuckoo Network は、分散型 AI インフラストラクチャを IoTeX の活気あるエコシステムに導入するレイヤー 2 ソリューションとしての拡大を発表できることを嬉しく思います。この戦略的パートナーシップは、Cuckoo の AI モデル提供の専門知識と IoTeX の強力な MachineFi インフラストラクチャを組み合わせ、両コミュニティに新しい機会を創出します。
 
-![Cuckoo Network Expansion](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=%E3%82%A8%E3%82%A2%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3%E3%81%8C%20IoTeX%20%E3%81%AB%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%202%20%E3%81%A8%E3%81%97%E3%81%A6%E6%8B%A1%E5%A4%A7)
+![Cuckoo Network Expansion](https://cuckoo-portal-frontend.onrender.com/api/og?title=%E3%82%A8%E3%82%A2%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3%E3%81%8C%20IoTeX%20%E3%81%AB%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%202%20%E3%81%A8%E3%81%97%E3%81%A6%E6%8B%A1%E5%A4%A7)
 
 ## **ニーズ**
 

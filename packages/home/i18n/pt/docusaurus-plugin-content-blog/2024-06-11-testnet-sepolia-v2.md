@@ -2,7 +2,7 @@
 title: "Anunciando Cuckoo Sepolia V2 no Arbitrum"
 authors: [dora]
 tags: [produto, cuckoo chain, roteiro]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Anunciando Cuckoo Sepolia V2 no Arbitrum
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Anunciando Cuckoo Sepolia V2 no Arbitrum
 ---
 Estamos entusiasmados em anunciar o lançamento do Cuckoo Sepolia V2, uma testnet aprimorada construída no Arbitrum. Esta transição significativa é uma resposta direta ao valioso feedback da nossa comunidade, visando melhorar a utilidade e a escalabilidade da nossa plataforma.
 

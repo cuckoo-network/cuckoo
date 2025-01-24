@@ -2,7 +2,7 @@
 title: "LinguaLinked: वितरित बड़े भाषा मॉडल के साथ मोबाइल उपकरणों को सशक्त बनाना"
 authors: [lark]
 tags: [research]
-image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=LinguaLinked: वितरित बड़े भाषा मॉडल के साथ मोबाइल उपकरणों को सशक्त बनाना"
+image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=LinguaLinked: वितरित बड़े भाषा मॉडल के साथ मोबाइल उपकरणों को सशक्त बनाना"
 description: मोबाइल उपकरणों पर बड़े भाषा मॉडल (LLMs) को तैनात करने की मांग बढ़ रही है, जो गोपनीयता, कम विलंबता, और कुशल बैंडविड्थ उपयोग की आवश्यकता से प्रेरित है। हालांकि, LLMs की व्यापक मेमोरी और कम्प्यूटेशनल आवश्यकताएं महत्वपूर्ण चुनौतियां प्रस्तुत करती हैं।
 ---
 

@@ -2,7 +2,7 @@
 title: Staking dan menambang token dengan GPU
 authors: [lark]
 tags: [perusahaan, roadmap]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Staking%20dan%20menambang%20token%20dengan%20GPU
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Staking%20dan%20menambang%20token%20dengan%20GPU
 ---
 
 Cuckoo Network adalah Marketplace Pelayanan Model AI Terdesentralisasi pertama yang memberi penghargaan kepada penggemar AI, pengembang, dan penambang GPU dengan token kripto. Di platform kami, penambang berbagi GPU mereka dengan pembangun aplikasi AI generatif, alias koordinator, untuk menjalankan inferensi bagi pelanggan akhir, sehingga semua kontributor dapat memperoleh token kripto.

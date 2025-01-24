@@ -2,7 +2,7 @@
 title: Cuckoo ile metinden görsele üretimi merkezsizleştirmek
 authors: [lark]
 tags: [şirket, yol haritası]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20ile%20metinden%20görsele%20üretimi%20merkezsizleştirmek
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20ile%20metinden%20görsele%20üretimi%20merkezsizleştirmek
 description: Yapay Zeka (YZ) sistemleri, endüstrileri yeniden şekillendirme konusunda eşi görülmemiş bir potansiyele sahip, ancak gelişimleri merkezi çerçevelere özgü sorunlar nedeniyle engellenmiştir. Bunlar, önemli gizlilik endişelerinden hesaplama doğruluğundaki sınırlamalara ve sansüre karşı savunmasızlığa kadar uzanmaktadır.
 ---
 

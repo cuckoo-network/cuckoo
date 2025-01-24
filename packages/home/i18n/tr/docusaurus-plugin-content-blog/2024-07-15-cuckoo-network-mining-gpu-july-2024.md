@@ -2,7 +2,7 @@
 title: "GPU ile Cuckoo Network Madenciliği Temmuz 2024"
 authors: [lark]
 tags: [cuckoo zinciri, madencilik]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=GPU%20ile%20Cuckoo%20Network%20Madencili%C4%9Fi%20Temmuz%202024
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=GPU%20ile%20Cuckoo%20Network%20Madencili%C4%9Fi%20Temmuz%202024
 description: Temmuz 2024'ten itibaren, Cuckoo Network madenciler için GPU başına günlük 300 $CAI ödül sunuyor. Madenci düğümünüzü nasıl kuracağınızı öğrenmek ve kazanmaya başlamak için rehberimize dalın.
 ---
 

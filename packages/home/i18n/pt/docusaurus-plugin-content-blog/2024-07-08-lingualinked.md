@@ -2,7 +2,7 @@
 title: "LinguaLinked: Capacitando Dispositivos Móveis com Modelos de Linguagem de Grande Escala Distribuídos"
 authors: [lark]
 tags: [pesquisa]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=LinguaLinked:%20Capacitando%20Dispositivos%20M%C3%B3veis%20com%20Modelos%20de%20Linguagem%20de%20Grande%20Escala%20Distribu%C3%ADdos
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=LinguaLinked:%20Capacitando%20Dispositivos%20M%C3%B3veis%20com%20Modelos%20de%20Linguagem%20de%20Grande%20Escala%20Distribu%C3%ADdos
 description: A demanda por implantar modelos de linguagem de grande escala (LLMs) em dispositivos móveis está aumentando, impulsionada pela necessidade de privacidade, redução de latência e uso eficiente de largura de banda. No entanto, os extensos requisitos de memória e computação dos LLMs representam desafios significativos.
 ---
 

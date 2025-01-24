@@ -2,7 +2,7 @@
 title: "Arbitrum Nitro의 아키텍처 소개"
 authors: [lark]
 tags: [engineering, research]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Arbitrum%20Nitro의%20아키텍처%20소개
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Arbitrum%20Nitro의%20아키텍처%20소개
 ---
 
 Arbitrum Nitro는 Offchain Labs에서 개발한 2세대 레이어 2 블록체인 프로토콜로, 처리량, 최종성 및 분쟁 해결을 개선하기 위해 설계되었습니다. 이는 기존 Arbitrum 프로토콜을 기반으로 하여 현대 블록체인 요구를 충족하는 중요한 개선 사항을 제공합니다.

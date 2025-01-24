@@ -5,14 +5,14 @@ keywords:
   [Chuỗi Cuckoo, IoTeX, hạ tầng AI, MachineFi, khai thác GPU, AI phi tập trung]
 authors: [lark]
 description: Cuckoo Network mở rộng hạ tầng AI phi tập trung của mình đến IoTeX như một giải pháp Layer 2, tích hợp với hệ sinh thái MachineFi của IoTeX để cung cấp tính toán AI có thể mở rộng và khả năng tương tác chuỗi chéo. Khám phá lợi ích cho các nhà phát triển, thợ đào và người dùng IoTeX, và tìm hiểu cách tham gia airdrop token $CAI.
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Chu%E1%BB%97i%20Cuckoo%20M%E1%BB%9F%20R%E1%BB%99ng%20%C4%90%E1%BA%BFn%20IoTeX%20Nh%C6%B0%20M%E1%BB%99t%20Layer%202
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Chu%E1%BB%97i%20Cuckoo%20M%E1%BB%9F%20R%E1%BB%99ng%20%C4%90%E1%BA%BFn%20IoTeX%20Nh%C6%B0%20M%E1%BB%99t%20Layer%202
 ---
 
 # Airdrop Cuckoo × IoTeX: Chuỗi Cuckoo Mở Rộng Đến IoTeX Như Một Layer 2
 
 Cuckoo Network vui mừng thông báo mở rộng đến IoTeX như một giải pháp Layer 2, mang hạ tầng AI phi tập trung của mình đến hệ sinh thái đang phát triển của IoTeX. Sự hợp tác chiến lược này kết hợp chuyên môn của Cuckoo trong việc phục vụ mô hình AI với hạ tầng MachineFi mạnh mẽ của IoTeX, tạo ra cơ hội mới cho cả hai cộng đồng.
 
-![Cuckoo Network Expansion](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Chu%E1%BB%97i%20Cuckoo%20M%E1%BB%9F%20R%E1%BB%99ng%20%C4%90%E1%BA%BFn%20IoTeX%20Nh%C6%B0%20M%E1%BB%99t%20Layer%202)
+![Cuckoo Network Expansion](https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Chu%E1%BB%97i%20Cuckoo%20M%E1%BB%9F%20R%E1%BB%99ng%20%C4%90%E1%BA%BFn%20IoTeX%20Nh%C6%B0%20M%E1%BB%99t%20Layer%202)
 
 ## **Nhu Cầu**
 

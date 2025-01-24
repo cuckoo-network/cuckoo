@@ -2,7 +2,7 @@
 title: "Memperkenalkan Cuckoo Network Bridge: Transfer Aset Tanpa Hambatan Antar Rantai"
 authors: [lark]
 tags: [produk, peta jalan]
-image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Memperkenalkan Cuckoo Network Bridge: Transfer Aset Tanpa Hambatan Antar Rantai"
+image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Memperkenalkan Cuckoo Network Bridge: Transfer Aset Tanpa Hambatan Antar Rantai"
 ---
 
 Dalam Web3, kemampuan untuk mentransfer aset dengan lancar di berbagai jaringan blockchain sangat penting. Di Cuckoo.Network, kami memahaminya. Kami memahami kebutuhan mendesak akan efisiensi, keamanan, dan kesederhanaan dalam transaksi ini. Itulah mengapa kami sangat senang memperkenalkan inovasi terbaru kami: Cuckoo Bridge https://bridge.cuckoo.network/.

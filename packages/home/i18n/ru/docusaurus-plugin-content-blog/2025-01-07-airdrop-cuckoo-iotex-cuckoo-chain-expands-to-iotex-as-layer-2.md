@@ -20,14 +20,14 @@ keywords:
   ]
 authors: [lark]
 description: Cuckoo Network расширяет свою децентрализованную AI инфраструктуру на IoTeX как решение Layer 2, интегрируясь с экосистемой MachineFi IoTeX для предложения масштабируемых AI вычислений и кросс-чейн совместимости. Узнайте о преимуществах для разработчиков, майнеров и пользователей IoTeX, а также о том, как принять участие в эйрдропе токенов $CAI.
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Эйрдроп%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20расширяется%20на%20IoTeX%20как%20Layer%202
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Эйрдроп%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20расширяется%20на%20IoTeX%20как%20Layer%202
 ---
 
 # Эйрдроп Cuckoo × IoTeX: Cuckoo Chain расширяется на IoTeX как Layer 2
 
 Cuckoo Network с радостью объявляет о своем расширении на IoTeX как решение Layer 2, привнося свою децентрализованную AI инфраструктуру в процветающую экосистему IoTeX. Это стратегическое партнерство объединяет опыт Cuckoo в обслуживании AI моделей с надежной инфраструктурой MachineFi IoTeX, создавая новые возможности для обеих сообществ.
 
-![Расширение Cuckoo Network](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Эйрдроп%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20расширяется%20на%20IoTeX%20как%20Layer%202)
+![Расширение Cuckoo Network](https://cuckoo-portal-frontend.onrender.com/api/og?title=Эйрдроп%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20расширяется%20на%20IoTeX%20как%20Layer%202)
 
 ## **Необходимость**
 

@@ -2,7 +2,7 @@
 title: "쿠쿠 네트워크와 스완 체인, 분산형 AI 혁신을 위해 협력"
 authors: [lark]
 tags: [파트너십, ai, 회사, 제품, 쿠쿠 채팅]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=쿠쿠 네트워크와 스완 체인, 분산형 AI 혁신을 위해 협력
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=쿠쿠 네트워크와 스완 체인, 분산형 AI 혁신을 위해 협력
 description: 쿠쿠 네트워크와 스완 체인이 강력한 GPU 리소스를 쿠쿠의 AI 모델 서비스 마켓플레이스에 통합하여 분산형 AI를 혁신하기 위해 협력합니다. 이 협력은 AI 개발자와 창작자에게 향상된 처리 기능을 제공하여 애니메이션 영감을 받은 언어 모델을 만들고 분산형 AI 혁신의 기회를 확장합니다.
 keywords:
   [

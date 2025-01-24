@@ -2,7 +2,7 @@
 title: "การขุดเครือข่าย Cuckoo ด้วย GPU กรกฎาคม 2024"
 authors: [lark]
 tags: [cuckoo chain, mining]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=การขุดเครือข่าย Cuckoo ด้วย GPU กรกฎาคม 2024
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=การขุดเครือข่าย Cuckoo ด้วย GPU กรกฎาคม 2024
 description: เริ่มตั้งแต่กรกฎาคม 2024 เครือข่าย Cuckoo เสนอรางวัล 300 $CAI ต่อ GPU ต่อวันสำหรับนักขุด สำรวจคู่มือของเราเพื่อเรียนรู้วิธีตั้งค่าโหนดนักขุดของคุณและเริ่มรับรายได้
 ---
 

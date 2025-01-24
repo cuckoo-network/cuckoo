@@ -2,7 +2,7 @@
 title: "Cuckoo Zinciri: Yapay Zeka için Önde Gelen Blockchain"
 authors: [lark]
 tags: [şirket, cuckoo zinciri, yol haritası]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Zinciri:%20Yapay%20Zeka%20için%20Önde%20Gelen%20Blockchain
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Zinciri:%20Yapay%20Zeka%20için%20Önde%20Gelen%20Blockchain
 description: Cuckoo Zinciri, AI ve Web3 için tasarlanmış son teknoloji altyapısıyla blockchain alanını yeniden tanımlıyor. Ethereum ekosisteminde bir Arbitrum L2 olarak, Cuckoo Zinciri, yıldırım hızında işlem hızları, minimal maliyetler ve sağlam AI yetenekleri sunarak Web3 alanındaki geliştiriciler ve yenilikçiler için ideal bir seçim haline geliyor.
 ---
 

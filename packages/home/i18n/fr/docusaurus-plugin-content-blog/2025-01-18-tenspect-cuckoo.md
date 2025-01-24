@@ -4,14 +4,14 @@ tags: [IA décentralisée, inspections à domicile, blockchain, minage GPU, tech
 keywords: [Cuckoo Network, Tenspect, IA décentralisée, inspection à domicile, blockchain, minage GPU, infrastructure IA]
 authors: [lark]
 description: Cuckoo Network et Tenspect s'associent pour révolutionner l'industrie de l'inspection à domicile en intégrant une infrastructure IA décentralisée, améliorant la confidentialité et réduisant les coûts grâce à la technologie blockchain et au minage GPU.
-image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%20s%27associe%20%C3%A0%20Tenspect%20pour%20propulser%20les%20inspections%20%C3%A0%20domicile%20de%20nouvelle%20g%C3%A9n%C3%A9ration%20avec%20l%27IA"
+image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20s%27associe%20%C3%A0%20Tenspect%20pour%20propulser%20les%20inspections%20%C3%A0%20domicile%20de%20nouvelle%20g%C3%A9n%C3%A9ration%20avec%20l%27IA"
 ---
 
 # Cuckoo Network s'associe à Tenspect pour propulser les inspections à domicile de nouvelle génération avec l'IA
 
 Nous sommes ravis d'annoncer un partenariat révolutionnaire entre Cuckoo Network et Tenspect, combinant notre infrastructure IA décentralisée avec la plateforme d'inspection à domicile innovante de Tenspect. Cette collaboration marque une étape significative vers l'apport de la puissance de l'IA décentralisée à l'industrie immobilière.
 
-![Cuckoo Network s'associe à Tenspect pour propulser les inspections à domicile de nouvelle génération avec l'IA](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%20s%27associe%20%C3%A0%20Tenspect%20pour%20propulser%20les%20inspections%20%C3%A0%20domicile%20de%20nouvelle%20g%C3%A9n%C3%A9ration%20avec%20l%27IA)
+![Cuckoo Network s'associe à Tenspect pour propulser les inspections à domicile de nouvelle génération avec l'IA](https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20s%27associe%20%C3%A0%20Tenspect%20pour%20propulser%20les%20inspections%20%C3%A0%20domicile%20de%20nouvelle%20g%C3%A9n%C3%A9ration%20avec%20l%27IA)
 
 ## Pourquoi ce partenariat est important
 

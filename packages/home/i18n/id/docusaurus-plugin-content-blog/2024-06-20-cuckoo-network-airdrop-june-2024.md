@@ -2,7 +2,7 @@
 title: "Airdrop Jaringan Cuckoo: Juni 2024"
 authors: [lark]
 tags: [airdrop, cuckoo chain]
-image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Airdrop%20Jaringan%20Cuckoo%3A%20Juni%202024"
+image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Jaringan%20Cuckoo%3A%20Juni%202024"
 description: Ikuti Airdrop Jaringan Cuckoo pada Juni 2024 ini. Berinteraksi dengan Testnet Alpha dan Sepolia kami untuk mendapatkan bagian Anda dari 30.000 token $CAI. Jangan lewatkan!
 ---
 

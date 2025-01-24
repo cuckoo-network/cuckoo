@@ -2,7 +2,7 @@
 title: "Descentralizando a IA: Uma Visão Geral"
 authors: [dora]
 tags: [pesquisa]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Descentralizando%20a%20IA:%20Uma%20Vis%C3%A3o%20Geral
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Descentralizando%20a%20IA:%20Uma%20Vis%C3%A3o%20Geral
 ---
 
 A combinação de blockchain e IA está ganhando atenção significativa no mercado. Com o ChatGPT acumulando rapidamente centenas de milhões de usuários e as ações da Nvidia disparando oito vezes em 2023, a IA se estabeleceu firmemente como uma tendência dominante. Essa influência está se espalhando para setores adjacentes, como o blockchain, onde as aplicações de IA estão sendo exploradas.

@@ -2,7 +2,7 @@
 title: "Örnekleme Kanıtı Protokolü: Merkeziyetsiz AI Çıkarımında Dürüstlüğü Teşvik Etme ve Dürüst Olmayanları Cezalandırma"
 authors: [lark]
 tags: [araştırma]
-image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Örnekleme Kanıtı Protokolü: Merkeziyetsiz AI Çıkarımında Dürüstlüğü Teşvik Etme ve Dürüst Olmayanları Cezalandırma"
+image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Örnekleme Kanıtı Protokolü: Merkeziyetsiz AI Çıkarımında Dürüstlüğü Teşvik Etme ve Dürüst Olmayanları Cezalandırma"
 description: Örnekleme Kanıtı (PoSP) protokolünün GPU sağlayıcıları arasında dürüst davranışı teşvik etme ve dürüst olmayanları cezalandırma konusundaki benzersiz yaklaşımını öğrenin, merkeziyetsiz AI çıkarım sistemlerinin güvenliğini ve güvenilirliğini sağlama.
 ---
 

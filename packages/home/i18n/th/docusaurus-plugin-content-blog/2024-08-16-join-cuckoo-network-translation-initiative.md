@@ -2,7 +2,7 @@
 title: "Cuckoo Network ก้าวสู่ระดับโลก: เข้าร่วมโครงการแปลเว็บไซต์ของเรา"
 authors: [lark]
 tags: [Cuckoo Chain, Community, Internationalization]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%20%E0%B8%81%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B9%82%E0%B8%A5%E0%B8%81%3A%20%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B2
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20%E0%B8%81%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B9%82%E0%B8%A5%E0%B8%81%3A%20%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B2
 description: Cuckoo Network กำลังขยายการเข้าถึงทั่วโลก! เข้าร่วมความพยายามที่ขับเคลื่อนโดยชุมชนของเราในการแปลเว็บไซต์ Cuckoo.Network และรับโทเค็น $CAI สำหรับการมีส่วนร่วมของคุณ ช่วยเราทำให้ AI แบบกระจายศูนย์เข้าถึงได้สำหรับทุกคน ทุกที่
 ---
 

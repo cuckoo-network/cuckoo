@@ -4,14 +4,14 @@ tags: [decentralized AI, home inspections, blockchain, GPU mining, real estate t
 keywords: [Cuckoo Network, Tenspect, decentralized AI, home inspection, blockchain, GPU mining, AI infrastructure]
 authors: [lark]
 description: Cuckoo Network and Tenspect partner to revolutionize the home inspection industry by integrating decentralized AI infrastructure, enhancing privacy, and reducing costs through blockchain and GPU mining technology.
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%20Partners%20with%20Tenspect%20to%20Power%20Next-Generation%20AI%20Home%20Inspections
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20Partners%20with%20Tenspect%20to%20Power%20Next-Generation%20AI%20Home%20Inspections
 ---
 
 # Cuckoo Network Partners with Tenspect to Power Next-Generation AI Home Inspections
 
 We are thrilled to announce a groundbreaking partnership between Cuckoo Network and Tenspect, combining our decentralized AI infrastructure with Tenspect's innovative home inspection platform. This collaboration marks a significant step toward bringing the power of decentralized AI to the real estate industry.
 
-![Cuckoo Network Partners with Tenspect to Power Next-Generation AI Home Inspections](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%20Partners%20with%20Tenspect%20to%20Power%20Next-Generation%20AI%20Home%20Inspections)
+![Cuckoo Network Partners with Tenspect to Power Next-Generation AI Home Inspections](https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20Partners%20with%20Tenspect%20to%20Power%20Next-Generation%20AI%20Home%20Inspections)
 
 ## Why This Partnership Matters
 

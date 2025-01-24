@@ -2,7 +2,7 @@
 title: "Jaringan Cuckoo Memberikan Hadiah kepada Penambang Terbaik Setelah Tahap Uji Coba yang Sukses"
 authors: [lark]
 tags: [penambangan, rantai cuckoo]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Jaringan%20Cuckoo%20Memberikan%20Hadiah%20kepada%20Penambang%20Terbaik%20Setelah%20Tahap%20Uji%20Coba%20yang%20Sukses
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Jaringan%20Cuckoo%20Memberikan%20Hadiah%20kepada%20Penambang%20Terbaik%20Setelah%20Tahap%20Uji%20Coba%20yang%20Sukses
 description: Jaringan Cuckoo mendistribusikan 450.000 token CAI kepada penambang GPU uji coba dan memperkenalkan sistem hadiah baru yang berfokus pada penambang yang paling banyak dipilih. Temukan bagaimana perubahan ini akan membentuk masa depan penambangan AI terdesentralisasi.
 ---
 

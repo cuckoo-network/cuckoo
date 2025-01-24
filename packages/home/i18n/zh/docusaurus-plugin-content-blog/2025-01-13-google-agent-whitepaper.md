@@ -4,14 +4,14 @@ tags: [AI agents, cognitive architecture, Google whitepaper]
 keywords: [AI, agents, cognitive architecture, Google, AI systems]
 authors: [lark]
 description: Google 的白皮书揭示了 AI 代理的变革潜力，展示了它们感知、推理和影响现实世界的能力。通过实时信息访问、行动能力和工具集成，了解这些代理如何与传统 AI 模型不同。
-image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Google%20Agent%20白皮书"
+image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Google%20Agent%20白皮书"
 ---
 
 # Google Agent 白皮书
 
 虽然像 GPT-4 和 Gemini 这样的语言模型以其对话能力吸引了公众的注意，但更深刻的革命正在发生：AI 代理的崛起。正如 Google 最近的白皮书中详细描述的那样，这些代理不仅仅是智能聊天机器人——它们是可以主动感知、推理和影响现实世界的 AI 系统。
 
-![](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Google%20Agent%20白皮书)
+![](https://cuckoo-portal-frontend.onrender.com/api/og?title=Google%20Agent%20白皮书)
 
 ## AI 能力的演变
 

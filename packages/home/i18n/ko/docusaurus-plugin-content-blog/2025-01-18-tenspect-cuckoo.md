@@ -4,14 +4,14 @@ tags: [탈중앙화 AI, 주택 검사, 블록체인, GPU 채굴, 부동산 기�
 keywords: [Cuckoo Network, Tenspect, 탈중앙화 AI, 주택 검사, 블록체인, GPU 채굴, AI 인프라]
 authors: [lark]
 description: Cuckoo Network와 Tenspect가 탈중앙화 AI 인프라를 통합하여 주택 검사 산업을 혁신하고, 블록체인과 GPU 채굴 기술을 통해 프라이버시를 강화하고 비용을 절감합니다.
-image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%2C%20Tenspect%EC%99%80%20%ED%98%91%EB%A0%A5%ED%95%98%EC%97%AC%20%EC%B0%A8%EC%84%B8%EB%8C%80%20AI%20%EC%A3%BC%ED%83%9D%20%EA%B2%80%EC%82%AC%20%EA%B0%95%ED%99%94"
+image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%2C%20Tenspect%EC%99%80%20%ED%98%91%EB%A0%A5%ED%95%98%EC%97%AC%20%EC%B0%A8%EC%84%B8%EB%8C%80%20AI%20%EC%A3%BC%ED%83%9D%20%EA%B2%80%EC%82%AC%20%EA%B0%95%ED%99%94"
 ---
 
 # Cuckoo Network, Tenspect와 협력하여 차세대 AI 주택 검사 강화
 
 Cuckoo Network와 Tenspect 간의 획기적인 파트너십을 발표하게 되어 매우 기쁩니다. 우리의 탈중앙화 AI 인프라와 Tenspect의 혁신적인 주택 검사 플랫폼을 결합하여 부동산 산업에 탈중앙화 AI의 힘을 가져오는 중요한 단계입니다.
 
-![Cuckoo Network, Tenspect와 협력하여 차세대 AI 주택 검사 강화](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%2C%20Tenspect%EC%99%80%20%ED%98%91%EB%A0%A5%ED%95%98%EC%97%AC%20%EC%B0%A8%EC%84%B8%EB%8C%80%20AI%20%EC%A3%BC%ED%83%9D%20%EA%B2%80%EC%82%AC%20%EA%B0%95%ED%99%94)
+![Cuckoo Network, Tenspect와 협력하여 차세대 AI 주택 검사 강화](https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%2C%20Tenspect%EC%99%80%20%ED%98%91%EB%A0%A5%ED%95%98%EC%97%AC%20%EC%B0%A8%EC%84%B8%EB%8C%80%20AI%20%EC%A3%BC%ED%83%9D%20%EA%B2%80%EC%82%AC%20%EA%B0%95%ED%99%94)
 
 ## 왜 이 파트너십이 중요한가
 

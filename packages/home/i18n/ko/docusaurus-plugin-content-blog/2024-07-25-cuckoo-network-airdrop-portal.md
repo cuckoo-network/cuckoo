@@ -2,7 +2,7 @@
 title: "쿠쿠 네트워크 에어드롭 포털 소개"
 authors: [lark]
 tags: [airdrop, cuckoo chain, roadmap]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=쿠쿠 네트워크 에어드롭 포털 소개
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=쿠쿠 네트워크 에어드롭 포털 소개
 description: 쿠쿠 네트워크 에어드롭 포털을 통해 $CAI 토큰을 얻는 방법을 알아보세요. 오늘 분산형 AI에 참여하고, 지원하며, 혜택을 누리세요!
 ---
 

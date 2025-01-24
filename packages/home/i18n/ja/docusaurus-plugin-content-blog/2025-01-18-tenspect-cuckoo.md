@@ -4,14 +4,14 @@ tags: [分散型AI, ホームインスペクション, ブロックチェーン,
 keywords: [Cuckoo Network, Tenspect, 分散型AI, ホームインスペクション, ブロックチェーン, GPUマイニング, AIインフラストラクチャ]
 authors: [lark]
 description: Cuckoo NetworkとTenspectが提携し、分散型AIインフラストラクチャを統合することで、プライバシーを強化し、ブロックチェーンとGPUマイニング技術を通じてコストを削減し、ホームインスペクション業界を革新します。
-image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%E3%80%81Tenspect%E3%81%A8%E6%8F%90%E6%90%BA%E3%81%97%E6%AC%A1%E4%B8%96%E4%BB%A3AI%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E5%AE%9F%E7%8F%BE"
+image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%E3%80%81Tenspect%E3%81%A8%E6%8F%90%E6%90%BA%E3%81%97%E6%AC%A1%E4%B8%96%E4%BB%A3AI%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E5%AE%9F%E7%8F%BE"
 ---
 
 # Cuckoo Network、Tenspectと提携し次世代AIホームインスペクションを実現
 
 Cuckoo NetworkとTenspectの画期的な提携を発表できることを嬉しく思います。私たちの分散型AIインフラストラクチャとTenspectの革新的なホームインスペクションプラットフォームを組み合わせることで、不動産業界に分散型AIの力をもたらす重要な一歩となります。
 
-![Cuckoo Network、Tenspectと提携し次世代AIホームインスペクションを実現](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%E3%80%81Tenspect%E3%81%A8%E6%8F%90%E6%90%BA%E3%81%97%E6%AC%A1%E4%B8%96%E4%BB%A3AI%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E5%AE%9F%E7%8F%BE)
+![Cuckoo Network、Tenspectと提携し次世代AIホームインスペクションを実現](https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%E3%80%81Tenspect%E3%81%A8%E6%8F%90%E6%90%BA%E3%81%97%E6%AC%A1%E4%B8%96%E4%BB%A3AI%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E5%AE%9F%E7%8F%BE)
 
 ## この提携が重要な理由
 

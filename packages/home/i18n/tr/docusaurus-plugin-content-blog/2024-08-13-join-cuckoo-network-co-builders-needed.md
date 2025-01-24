@@ -2,7 +2,7 @@
 title: "Cuckoo Ağı'nı Birlikte Yaratın: Tüm Yaratıcılar, Geliştiriciler ve Yenilikçiler Çağrılıyor!"
 authors: [lark]
 tags: [Cuckoo Chain]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20A%C4%9F%C4%B1%27n%C4%B1%20Birlikte%20Yarat%C4%B1n%3A%20T%C3%BCm%20Yarat%C4%B1c%C4%B1lar%2C%20Geli%C5%9Ftiriciler%20ve%20Yenilik%C3%A7iler%20%C3%87a%C4%9Fr%C4%B1l%C4%B1yor%21
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20A%C4%9F%C4%B1%27n%C4%B1%20Birlikte%20Yarat%C4%B1n%3A%20T%C3%BCm%20Yarat%C4%B1c%C4%B1lar%2C%20Geli%C5%9Ftiriciler%20ve%20Yenilik%C3%A7iler%20%C3%87a%C4%9Fr%C4%B1l%C4%B1yor%21
 description: Cuckoo Ağı, merkezi olmayan platformların geleceğini şekillendirmek için tutkulu sanatçılar, geliştiriciler ve yenilikçileri bize katılmaya çağırıyor. Cuckoo Chain üzerinde sanat yaratacak, eğitim materyalleri geliştirecek, stablecoin köprüleri kuracak ve tahmin piyasaları oluşturacak ortak yapıcılar arıyoruz. Blockchain dünyasında etki yaratmaya hevesliyseniz, işte fırsatınız!
 ---
 

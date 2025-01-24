@@ -4,14 +4,14 @@ tags: [agents IA, architecture cognitive, livre blanc Google]
 keywords: [IA, agents, architecture cognitive, Google, systèmes IA]
 authors: [lark]
 description: Le livre blanc de Google dévoile le potentiel transformateur des agents IA, mettant en avant leur capacité à percevoir, raisonner et influencer le monde réel. Découvrez comment ces agents se distinguent des modèles IA traditionnels grâce à l'accès à l'information en temps réel, la capacité à prendre des actions et l'intégration d'outils.
-image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Livre%20blanc%20sur%20l'agent%20Google"
+image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Livre%20blanc%20sur%20l'agent%20Google"
 ---
 
 # Livre blanc sur l'agent Google
 
 Alors que les modèles de langage comme GPT-4 et Gemini ont capté l'attention du public par leurs capacités conversationnelles, une révolution plus profonde est en cours : l'essor des agents IA. Comme détaillé dans le récent livre blanc de Google, ces agents ne sont pas seulement des chatbots intelligents – ce sont des systèmes IA capables de percevoir activement, de raisonner et d'influencer le monde réel.
 
-![](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Livre%20blanc%20sur%20l'agent%20Google)
+![](https://cuckoo-portal-frontend.onrender.com/api/og?title=Livre%20blanc%20sur%20l'agent%20Google)
 
 ## L'évolution des capacités de l'IA
 

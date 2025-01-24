@@ -2,7 +2,7 @@
 title: Cuckoo를 통한 텍스트-이미지 생성의 탈중앙화
 authors: [lark]
 tags: [company, roadmap]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo를%20통한%20텍스트-이미지%20생성의%20탈중앙화
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo를%20통한%20텍스트-이미지%20생성의%20탈중앙화
 description: 인공지능(AI) 시스템은 산업을 재구성할 전례 없는 잠재력을 가지고 있지만, 중앙 집중식 프레임워크에 내재된 문제로 인해 개발이 저해되었습니다. 이는 중요한 프라이버시 문제부터 계산 정확도의 제한 및 검열에 대한 취약성까지 다양합니다.
 ---
 

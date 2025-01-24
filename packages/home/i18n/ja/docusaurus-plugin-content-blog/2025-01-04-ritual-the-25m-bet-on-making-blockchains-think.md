@@ -4,14 +4,14 @@ tags: [ブロックチェーン, AI, 分散コンピューティング, スマ�
 keywords: [Ritual, ブロックチェーンAI, 分散AI, スマートコントラクト, Web3インフラ]
 authors: [lark]
 description: 元Polychain投資家のNiraj PantとAkilesh Pottiによって設立されたスタートアップRitualは、AI機能をブロックチェーン環境に統合することを先駆けており、2,500万ドルのシリーズAで支援されています。同社はAI駆動の機能を持つスマートコントラクトと分散アプリケーションを革新することを目指しています。
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Ritual:%20ブロックチェーンに思考をもたらすための2,500万ドルの賭け
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual:%20ブロックチェーンに思考をもたらすための2,500万ドルの賭け
 ---
 
 # Ritual: ブロックチェーンに思考をもたらすための2,500万ドルの賭け
 
 Ritualは、元Polychain投資家のNiraj PantとAkilesh Pottiによって2023年に設立され、ブロックチェーンとAIの交差点にある野心的なプロジェクトです。Archetypeが主導し、Polychain Capitalからの戦略的投資を受けた2,500万ドルのシリーズAに支えられ、同社はオンチェーンおよびオフチェーンの複雑な相互作用を可能にするための重要なインフラのギャップに対処することを目指しています。主要な機関や企業からの30人の専門家チームと共に、RitualはAI機能を直接ブロックチェーン環境に統合するプロトコルを構築しており、自然言語生成スマートコントラクトや動的市場駆動型貸付プロトコルなどのユースケースを対象としています。
 
-![Ritual: ブロックチェーンに思考をもたらすための2,500万ドルの賭け](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Ritual:%20ブロックチェーンに思考をもたらすための2,500万ドルの賭け)
+![Ritual: ブロックチェーンに思考をもたらすための2,500万ドルの賭け](https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual:%20ブロックチェーンに思考をもたらすための2,500万ドルの賭け)
 
 ## なぜ顧客はAIのためにWeb3を必要とするのか
 

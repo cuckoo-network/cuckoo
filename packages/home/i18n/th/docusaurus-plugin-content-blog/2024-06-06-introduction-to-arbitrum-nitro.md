@@ -2,7 +2,7 @@
 title: "การแนะนำสถาปัตยกรรมของ Arbitrum Nitro"
 authors: [lark]
 tags: [วิศวกรรม, วิจัย]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=การแนะนำสถาปัตยกรรมของ Arbitrum Nitro
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=การแนะนำสถาปัตยกรรมของ Arbitrum Nitro
 ---
 
 Arbitrum Nitro ซึ่งพัฒนาโดย Offchain Labs เป็นโปรโตคอลบล็อกเชน Layer 2 รุ่นที่สองที่ออกแบบมาเพื่อปรับปรุงปริมาณงาน ความสมบูรณ์ และการแก้ไขข้อพิพาท มันสร้างขึ้นจากโปรโตคอล Arbitrum ดั้งเดิม โดยนำเสนอการปรับปรุงที่สำคัญเพื่อตอบสนองความต้องการของบล็อกเชนสมัยใหม่

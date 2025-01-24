@@ -2,7 +2,7 @@
 title: "Cuckoo Ağı Küresel Hale Geliyor: Web Sitesi Çeviri İnisiyatifimize Katılın"
 authors: [lark]
 tags: [Cuckoo Zinciri, Topluluk, Uluslararasılaşma]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20A%C4%9F%C4%B1%20K%C3%BCresel%20Hale%20Geliyor%3A%20Web%20Sitesi%20%C3%87eviri%20%C4%B0nisiyatifimize%20Kat%C4%B1l%C4%B1n
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20A%C4%9F%C4%B1%20K%C3%BCresel%20Hale%20Geliyor%3A%20Web%20Sitesi%20%C3%87eviri%20%C4%B0nisiyatifimize%20Kat%C4%B1l%C4%B1n
 description: Cuckoo Ağı küresel erişimini genişletiyor! Cuckoo.Network web sitesini çevirmek için topluluk odaklı çabamıza katılın ve katkılarınız için $CAI tokenları kazanın. Merkezi olmayan yapay zekayı herkes için her yerde erişilebilir hale getirmemize yardımcı olun.
 ---
 

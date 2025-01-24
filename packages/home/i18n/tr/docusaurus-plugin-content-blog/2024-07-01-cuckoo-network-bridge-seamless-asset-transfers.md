@@ -2,7 +2,7 @@
 title: "Cuckoo Network Köprüsünü Tanıtıyoruz: Zincirler Arası Sorunsuz Varlık Transferleri"
 authors: [lark]
 tags: [ürün, yol haritası]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%20Köprüsünü%20Tanıtıyoruz:%20Zincirler%20Arası%20Sorunsuz%20Varlık%20Transferleri
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20Köprüsünü%20Tanıtıyoruz:%20Zincirler%20Arası%20Sorunsuz%20Varlık%20Transferleri
 ---
 
 Web3'te, varlıkları farklı blok zinciri ağları arasında sorunsuz bir şekilde transfer edebilme yeteneği çok önemlidir. Cuckoo.Network olarak, bunu anlıyoruz. Bu işlemlerde verimlilik, güvenlik ve sadeliğin acil bir ihtiyaç olduğunu biliyoruz. Bu yüzden en son yeniliğimizi tanıtmaktan heyecan duyuyoruz: Cuckoo Köprüsü https://bridge.cuckoo.network/.

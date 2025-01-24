@@ -2,7 +2,7 @@
 title: "Cuckoo Ağı Başarılı Pilot Aşamasının Ardından En İyi Madencilere Ödül Veriyor"
 authors: [lark]
 tags: [madencilik, cuckoo zinciri]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20A%C4%9F%C4%B1%20Ba%C5%9Far%C4%B1l%C4%B1%20Pilot%20A%C5%9Famas%C4%B1n%C4%B1n%20Ard%C4%B1ndan%20En%20%C4%B0yi%20Madencilere%20%C3%96d%C3%BCl%20Veriyor
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20A%C4%9F%C4%B1%20Ba%C5%9Far%C4%B1l%C4%B1%20Pilot%20A%C5%9Famas%C4%B1n%C4%B1n%20Ard%C4%B1ndan%20En%20%C4%B0yi%20Madencilere%20%C3%96d%C3%BCl%20Veriyor
 description: Cuckoo Ağı, pilot GPU madencilerine 450.000 CAI token dağıtıyor ve en çok oy alan madencilere odaklanan yeni bir ödül sistemi tanıtıyor. Bu değişikliklerin merkeziyetsiz AI madenciliğinin geleceğini nasıl şekillendireceğini keşfedin.
 ---
 

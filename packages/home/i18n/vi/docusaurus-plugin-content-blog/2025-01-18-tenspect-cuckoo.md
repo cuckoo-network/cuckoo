@@ -4,14 +4,14 @@ tags: [AI phi tập trung, kiểm tra nhà, blockchain, khai thác GPU, công ng
 keywords: [Mạng Cuckoo, Tenspect, AI phi tập trung, kiểm tra nhà, blockchain, khai thác GPU, cơ sở hạ tầng AI]
 authors: [lark]
 description: Mạng Cuckoo và Tenspect hợp tác để cách mạng hóa ngành công nghiệp kiểm tra nhà bằng cách tích hợp cơ sở hạ tầng AI phi tập trung, nâng cao quyền riêng tư và giảm chi phí thông qua công nghệ blockchain và khai thác GPU.
-image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=M%E1%BA%A1ng%20Cuckoo%20h%E1%BB%A3p%20t%C3%A1c%20v%E1%BB%9Bi%20Tenspect%20%C4%91%E1%BB%83%20th%C3%BAc%20%C4%91%E1%BA%A9y%20ki%E1%BB%83m%20tra%20nh%C3%A0%20b%E1%BA%B1ng%20AI%20th%E1%BA%BF%20h%E1%BB%87%20m%E1%BB%9Bi"
+image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=M%E1%BA%A1ng%20Cuckoo%20h%E1%BB%A3p%20t%C3%A1c%20v%E1%BB%9Bi%20Tenspect%20%C4%91%E1%BB%83%20th%C3%BAc%20%C4%91%E1%BA%A9y%20ki%E1%BB%83m%20tra%20nh%C3%A0%20b%E1%BA%B1ng%20AI%20th%E1%BA%BF%20h%E1%BB%87%20m%E1%BB%9Bi"
 ---
 
 # Mạng Cuckoo hợp tác với Tenspect để thúc đẩy kiểm tra nhà bằng AI thế hệ mới
 
 Chúng tôi rất vui mừng thông báo về một quan hệ đối tác đột phá giữa Mạng Cuckoo và Tenspect, kết hợp cơ sở hạ tầng AI phi tập trung của chúng tôi với nền tảng kiểm tra nhà sáng tạo của Tenspect. Sự hợp tác này đánh dấu một bước quan trọng trong việc đưa sức mạnh của AI phi tập trung vào ngành bất động sản.
 
-![Mạng Cuckoo hợp tác với Tenspect để thúc đẩy kiểm tra nhà bằng AI thế hệ mới](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=M%E1%BA%A1ng%20Cuckoo%20h%E1%BB%A3p%20t%C3%A1c%20v%E1%BB%9Bi%20Tenspect%20%C4%91%E1%BB%83%20th%C3%BAc%20%C4%91%E1%BA%A9y%20ki%E1%BB%83m%20tra%20nh%C3%A0%20b%E1%BA%B1ng%20AI%20th%E1%BA%BF%20h%E1%BB%87%20m%E1%BB%9Bi)
+![Mạng Cuckoo hợp tác với Tenspect để thúc đẩy kiểm tra nhà bằng AI thế hệ mới](https://cuckoo-portal-frontend.onrender.com/api/og?title=M%E1%BA%A1ng%20Cuckoo%20h%E1%BB%A3p%20t%C3%A1c%20v%E1%BB%9Bi%20Tenspect%20%C4%91%E1%BB%83%20th%C3%BAc%20%C4%91%E1%BA%A9y%20ki%E1%BB%83m%20tra%20nh%C3%A0%20b%E1%BA%B1ng%20AI%20th%E1%BA%BF%20h%E1%BB%87%20m%E1%BB%9Bi)
 
 ## Tại sao quan hệ đối tác này quan trọng
 

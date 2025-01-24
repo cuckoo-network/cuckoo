@@ -2,7 +2,7 @@
 title: "कुक्कू चेन लॉन्च के बाद कुक्कू एआई कैसे बढ़ता है"
 authors: [lark]
 tags: [company, roadmap]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=कुक्कू चेन लॉन्च के बाद कुक्कू एआई कैसे बढ़ता है
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=कुक्कू चेन लॉन्च के बाद कुक्कू एआई कैसे बढ़ता है
 description: कुक्कू चेन के लॉन्च के बाद से, कुक्कू नेटवर्क ने महत्वपूर्ण वृद्धि का अनुभव किया है। यह ब्लॉग होल्डर, माइनर, और डीएआई बिल्डर के उन्नत अनुभवों की खोज करता है जो इस परिवर्तन को चला रहे हैं।
 ---
 

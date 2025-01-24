@@ -2,7 +2,7 @@
 title: "Pengantar Arsitektur Arbitrum Nitro"
 authors: [lark]
 tags: [engineering, research]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Pengantar%20Arsitektur%20Arbitrum%20Nitro
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Pengantar%20Arsitektur%20Arbitrum%20Nitro
 ---
 
 Arbitrum Nitro, dikembangkan oleh Offchain Labs, adalah protokol blockchain Layer 2 generasi kedua yang dirancang untuk meningkatkan throughput, finalitas, dan resolusi sengketa. Ini dibangun di atas protokol Arbitrum asli, membawa peningkatan signifikan yang memenuhi kebutuhan blockchain modern.

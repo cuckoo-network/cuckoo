@@ -2,7 +2,7 @@
 title: "Compreendendo o Protocolo de Prova de Inferência"
 authors: [lark]
 tags: [pesquisa]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Compreendendo%20o%20Protocolo%20de%20Prova%20de%20Inferência
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Compreendendo%20o%20Protocolo%20de%20Prova%20de%20Inferência
 description: Mergulhe no inovador Protocolo de Prova de Inferência, projetado para proteger e verificar a inferência de IA em redes descentralizadas. Aprenda como este protocolo aborda os desafios únicos do cálculo de IA distribuído.
 ---
 

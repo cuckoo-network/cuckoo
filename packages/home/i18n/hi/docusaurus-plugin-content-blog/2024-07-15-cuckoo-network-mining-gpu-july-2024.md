@@ -2,7 +2,7 @@
 title: "कुक्कू नेटवर्क माइनिंग विद GPU जुलाई 2024"
 authors: [lark]
 tags: [कुक्कू चेन, माइनिंग]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=कुक्कू नेटवर्क माइनिंग विद GPU जुलाई 2024
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=कुक्कू नेटवर्क माइनिंग विद GPU जुलाई 2024
 description: जुलाई 2024 से, कुक्कू नेटवर्क माइनर्स के लिए प्रति GPU 300 $CAI दैनिक पुरस्कार प्रदान कर रहा है। हमारे गाइड में जानें कि अपने माइनर नोड को कैसे सेट करें और कमाई शुरू करें।
 ---
 

@@ -4,14 +4,14 @@ tags: [去中心化 AI, 房屋检查, 区块链, GPU 挖矿, 房地产技术]
 keywords: [Cuckoo Network, Tenspect, 去中心化 AI, 房屋检查, 区块链, GPU 挖矿, AI 基础设施]
 authors: [lark]
 description: Cuckoo Network 和 Tenspect 合作，通过整合去中心化 AI 基础设施，利用区块链和 GPU 挖矿技术，提升隐私性并降低成本，彻底变革房屋检查行业。
-image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%20%E4%B8%8E%20Tenspect%20%E5%90%88%E4%BD%9C%E6%8E%A8%E5%8A%A8%E4%B8%8B%E4%B8%80%E4%BB%A3%20AI%20%E6%88%BF%E5%B1%8B%E6%A3%80%E6%9F%A5"
+image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20%E4%B8%8E%20Tenspect%20%E5%90%88%E4%BD%9C%E6%8E%A8%E5%8A%A8%E4%B8%8B%E4%B8%80%E4%BB%A3%20AI%20%E6%88%BF%E5%B1%8B%E6%A3%80%E6%9F%A5"
 ---
 
 # Cuckoo Network 与 Tenspect 合作推动下一代 AI 房屋检查
 
 我们很高兴地宣布 Cuckoo Network 与 Tenspect 之间的突破性合作，将我们的去中心化 AI 基础设施与 Tenspect 的创新房屋检查平台相结合。这一合作标志着将去中心化 AI 的力量带入房地产行业的重要一步。
 
-![Cuckoo Network 与 Tenspect 合作推动下一代 AI 房屋检查](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%20%E4%B8%8E%20Tenspect%20%E5%90%88%E4%BD%9C%E6%8E%A8%E5%8A%A8%E4%B8%8B%E4%B8%80%E4%BB%A3%20AI%20%E6%88%BF%E5%B1%8B%E6%A3%80%E6%9F%A5)
+![Cuckoo Network 与 Tenspect 合作推动下一代 AI 房屋检查](https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20%E4%B8%8E%20Tenspect%20%E5%90%88%E4%BD%9C%E6%8E%A8%E5%8A%A8%E4%B8%8B%E4%B8%80%E4%BB%A3%20AI%20%E6%88%BF%E5%B1%8B%E6%A3%80%E6%9F%A5)
 
 ## 为什么这次合作很重要
 

@@ -2,7 +2,7 @@
 title: Staking e mineração de tokens com GPU
 authors: [lark]
 tags: [empresa, roteiro]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Staking%20e%20minera%C3%A7%C3%A3o%20de%20tokens%20com%20GPU
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Staking%20e%20minera%C3%A7%C3%A3o%20de%20tokens%20com%20GPU
 ---
 
 Cuckoo Network é o primeiro Marketplace Descentralizado de Serviço de Modelos de IA que recompensa entusiastas de IA, desenvolvedores e mineradores de GPU com tokens de criptomoeda. Em nossa plataforma, os mineradores compartilham suas GPUs com construtores de aplicativos de IA generativa, também conhecidos como coordenadores, para executar inferências para clientes finais, permitindo que todos os contribuintes ganhem tokens de criptomoeda.

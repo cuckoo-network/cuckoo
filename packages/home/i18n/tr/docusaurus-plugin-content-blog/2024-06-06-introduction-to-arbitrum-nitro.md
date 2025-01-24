@@ -2,7 +2,7 @@
 title: "Arbitrum Nitro'nun Mimarisi'ne Giriş"
 authors: [lark]
 tags: [mühendislik, araştırma]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Arbitrum%20Nitro'nun%20Mimarisi'ne%20Giriş
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Arbitrum%20Nitro'nun%20Mimarisi'ne%20Giriş
 ---
 
 Offchain Labs tarafından geliştirilen Arbitrum Nitro, işlem hacmini, kesinliği ve uyuşmazlık çözümünü iyileştirmek için tasarlanmış ikinci nesil bir Katman 2 blok zinciri protokolüdür. Orijinal Arbitrum protokolü üzerine inşa edilmiştir ve modern blok zinciri ihtiyaçlarına hitap eden önemli iyileştirmeler sunar.

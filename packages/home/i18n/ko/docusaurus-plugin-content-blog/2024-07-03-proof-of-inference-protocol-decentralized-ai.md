@@ -2,7 +2,7 @@
 title: "추론 증명 프로토콜 이해하기"
 authors: [lark]
 tags: [research]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=추론 증명 프로토콜 이해하기
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=추론 증명 프로토콜 이해하기
 description: 분산 네트워크에서 AI 추론을 보호하고 검증하기 위해 설계된 혁신적인 추론 증명 프로토콜을 탐구합니다. 이 프로토콜이 분산 AI 컴퓨팅의 고유한 문제를 어떻게 해결하는지 알아보세요.
 ---
 

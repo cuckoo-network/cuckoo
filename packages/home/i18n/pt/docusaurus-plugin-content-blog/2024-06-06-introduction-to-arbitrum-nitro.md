@@ -2,7 +2,7 @@
 title: "Introdução à Arquitetura do Arbitrum Nitro"
 authors: [lark]
 tags: [engenharia, pesquisa]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Introdução%20à%20Arquitetura%20do%20Arbitrum%20Nitro
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Introdução%20à%20Arquitetura%20do%20Arbitrum%20Nitro
 ---
 
 Arbitrum Nitro, desenvolvido pela Offchain Labs, é um protocolo blockchain de segunda geração Layer 2 projetado para melhorar a capacidade de processamento, a finalização e a resolução de disputas. Ele se baseia no protocolo Arbitrum original, trazendo melhorias significativas que atendem às necessidades modernas de blockchain.

@@ -2,7 +2,7 @@
 title: Cuckoo Art Introduz Compartilhamento com Um Clique para X/Twitter
 authors: [lark]
 tags: [product]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Art%20Introduz%20Compartilhamento%20com%20Um%20Clique%20para%20X/Twitter
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Art%20Introduz%20Compartilhamento%20com%20Um%20Clique%20para%20X/Twitter
 description: Cuckoo Art lança compartilhamento com um clique para X/Twitter, permitindo que artistas exibam obras de arte geradas por IA globalmente. Este recurso conecta criatividade e mídia social, expandindo alcance e engajamento da comunidade.
 ---
 

@@ -2,7 +2,7 @@
 title: "쿠쿠 네트워크가 세계로 나아갑니다: 웹사이트 번역 이니셔티브에 참여하세요"
 authors: [lark]
 tags: [쿠쿠 체인, 커뮤니티, 국제화]
-image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=쿠쿠 네트워크가 세계로 나아갑니다: 웹사이트 번역 이니셔티브에 참여하세요"
+image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=쿠쿠 네트워크가 세계로 나아갑니다: 웹사이트 번역 이니셔티브에 참여하세요"
 description: 쿠쿠 네트워크가 글로벌 확장을 시작합니다! 쿠쿠 네트워크 웹사이트 번역에 참여하고 기여에 대한 보상으로 $CAI 토큰을 받으세요. 탈중앙화 AI를 모든 사람에게, 어디서나 접근 가능하게 만드는 데 도움을 주세요.
 ---
 

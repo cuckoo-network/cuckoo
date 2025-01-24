@@ -2,7 +2,7 @@
 title: "LinguaLinked: Dağıtılmış Büyük Dil Modelleri ile Mobil Cihazları Güçlendirme"
 authors: [lark]
 tags: [araştırma]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=LinguaLinked:%20Dağıtılmış%20Büyük%20Dil%20Modelleri%20ile%20Mobil%20Cihazları%20Güçlendirme
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=LinguaLinked:%20Dağıtılmış%20Büyük%20Dil%20Modelleri%20ile%20Mobil%20Cihazları%20Güçlendirme
 description: Büyük dil modellerinin (LLM'ler) mobil cihazlarda dağıtılması talebi, gizlilik, azaltılmış gecikme ve verimli bant genişliği kullanımı ihtiyacıyla artıyor. Ancak, LLM'lerin geniş bellek ve hesaplama gereksinimleri önemli zorluklar oluşturuyor.
 ---
 

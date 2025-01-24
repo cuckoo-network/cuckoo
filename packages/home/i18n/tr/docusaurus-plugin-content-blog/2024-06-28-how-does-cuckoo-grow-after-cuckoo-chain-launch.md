@@ -2,7 +2,7 @@
 title: "Cuckoo AI, Cuckoo Zinciri Lansmanından Sonra Nasıl Büyüyor"
 authors: [lark]
 tags: [şirket, yol haritası]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=cuckoo-ai,%20Cuckoo%20Zinciri%20Lansman%C4%B1ndan%20Sonra%20Nas%C4%B1l%20B%C3%BCy%C3%BCyor
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=cuckoo-ai,%20Cuckoo%20Zinciri%20Lansman%C4%B1ndan%20Sonra%20Nas%C4%B1l%20B%C3%BCy%C3%BCyor
 description: Cuckoo Zinciri'nin lansmanından bu yana, Cuckoo Ağı önemli bir büyüme yaşadı. Bu blog, bu dönüşümü yönlendiren geliştirilmiş Holder, Miner ve DeAI geliştirici deneyimlerini araştırıyor.
 ---
 

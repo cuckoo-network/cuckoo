@@ -2,7 +2,7 @@
 title: Cuckoo Art Tek Tıkla X/Twitter Paylaşımını Tanıtıyor
 authors: [lark]
 tags: [product]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Art%20Tek%20Tıkla%20X/Twitter%20Paylaşımını%20Tanıtıyor
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Art%20Tek%20Tıkla%20X/Twitter%20Paylaşımını%20Tanıtıyor
 description: Cuckoo Art, sanatçıların AI tarafından üretilen eserlerini küresel olarak sergilemelerini sağlayan tek tıkla X/Twitter paylaşımını başlatıyor. Bu özellik, yaratıcılığı ve sosyal medyayı birleştirerek erişimi ve topluluk etkileşimini genişletiyor.
 ---
 

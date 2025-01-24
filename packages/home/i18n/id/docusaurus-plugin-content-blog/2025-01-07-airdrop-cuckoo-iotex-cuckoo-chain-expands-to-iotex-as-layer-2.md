@@ -13,14 +13,14 @@ keywords:
   ]
 authors: [lark]
 description: Cuckoo Network memperluas infrastruktur AI terdesentralisasinya ke IoTeX sebagai solusi Layer 2, berintegrasi dengan ekosistem MachineFi IoTeX untuk menawarkan komputasi AI yang dapat diskalakan dan interoperabilitas lintas rantai. Temukan manfaatnya bagi pengembang, penambang, dan pengguna IoTeX, serta pelajari cara berpartisipasi dalam airdrop token $CAI.
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20Meluas%20ke%20IoTeX%20sebagai%20Layer%202
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20Meluas%20ke%20IoTeX%20sebagai%20Layer%202
 ---
 
 # Airdrop Cuckoo × IoTeX: Cuckoo Chain Meluas ke IoTeX sebagai Layer 2
 
 Cuckoo Network dengan bangga mengumumkan ekspansinya ke IoTeX sebagai solusi Layer 2, membawa infrastruktur AI terdesentralisasinya ke ekosistem IoTeX yang berkembang pesat. Kemitraan strategis ini menggabungkan keahlian Cuckoo dalam penyajian model AI dengan infrastruktur MachineFi yang kuat dari IoTeX, menciptakan peluang baru bagi kedua komunitas.
 
-![Ekspansi Cuckoo Network](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20Meluas%20ke%20IoTeX%20sebagai%20Layer%202)
+![Ekspansi Cuckoo Network](https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20Meluas%20ke%20IoTeX%20sebagai%20Layer%202)
 
 ## **Kebutuhan**
 

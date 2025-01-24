@@ -2,7 +2,7 @@
 title: "Cuckoo Network Premia Principais Mineradores Após Fase Piloto Bem-Sucedida"
 authors: [lark]
 tags: [mineração, cuckoo chain]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%20Premia%20Principais%20Mineradores%20Após%20Fase%20Piloto%20Bem-Sucedida
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20Premia%20Principais%20Mineradores%20Após%20Fase%20Piloto%20Bem-Sucedida
 description: Cuckoo Network distribui 450.000 tokens CAI para mineradores de GPU piloto e introduz um novo sistema de recompensas focado nos mineradores mais votados. Descubra como essas mudanças moldarão o futuro da mineração de IA descentralizada.
 ---
 

@@ -2,7 +2,7 @@
 title: "Çıkarım Kanıtı Protokolünü Anlamak"
 authors: [lark]
 tags: [araştırma]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Çıkarım Kanıtı Protokolünü Anlamak
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Çıkarım Kanıtı Protokolünü Anlamak
 description: Merkezi olmayan ağlarda AI çıkarımını güvence altına almak ve doğrulamak için tasarlanmış yenilikçi Çıkarım Kanıtı Protokolüne dalın. Bu protokolün dağıtılmış AI hesaplamasının benzersiz zorluklarını nasıl ele aldığını öğrenin.
 ---
 

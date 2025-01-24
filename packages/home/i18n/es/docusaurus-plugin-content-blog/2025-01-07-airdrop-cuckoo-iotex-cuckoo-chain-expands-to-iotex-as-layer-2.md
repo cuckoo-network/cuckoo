@@ -13,14 +13,14 @@ keywords:
   ]
 authors: [lark]
 description: Cuckoo Network expande su infraestructura de IA descentralizada a IoTeX como una solución de Capa 2, integrándose con el ecosistema MachineFi de IoTeX para ofrecer computación de IA escalable e interoperabilidad entre cadenas. Descubre los beneficios para desarrolladores, mineros y usuarios de IoTeX, y aprende cómo participar en el airdrop de tokens $CAI.
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20se%20Expande%20a%20IoTeX%20como%20Capa%202
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20se%20Expande%20a%20IoTeX%20como%20Capa%202
 ---
 
 # Airdrop Cuckoo × IoTeX: Cuckoo Chain se Expande a IoTeX como Capa 2
 
 Cuckoo Network se complace en anunciar su expansión a IoTeX como una solución de Capa 2, llevando su infraestructura de IA descentralizada al próspero ecosistema de IoTeX. Esta asociación estratégica combina la experiencia de Cuckoo en el servicio de modelos de IA con la robusta infraestructura MachineFi de IoTeX, creando nuevas oportunidades para ambas comunidades.
 
-![Cuckoo Network Expansion](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20se%20Expande%20a%20IoTeX%20como%20Capa%202)
+![Cuckoo Network Expansion](https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20se%20Expande%20a%20IoTeX%20como%20Capa%202)
 
 ## **La Necesidad**
 

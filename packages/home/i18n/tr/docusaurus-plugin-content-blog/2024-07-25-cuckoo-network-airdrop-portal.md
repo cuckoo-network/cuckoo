@@ -2,7 +2,7 @@
 title: "Cuckoo Network Airdrop Portalını Tanıtıyoruz"
 authors: [lark]
 tags: [airdrop, cuckoo zinciri, yol haritası]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Cuckoo%20Network%20Airdrop%20Portal%C4%B1n%C4%B1%20Tan%C4%B1t%C4%B1yoruz
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20Airdrop%20Portal%C4%B1n%C4%B1%20Tan%C4%B1t%C4%B1yoruz
 description: Cuckoo Network Airdrop Portalı aracılığıyla $CAI tokenleri nasıl kazanacağınızı keşfedin. Bugün merkeziyetsiz AI'yi destekleyin ve faydalanın!
 ---
 

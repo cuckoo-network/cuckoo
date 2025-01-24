@@ -2,7 +2,7 @@
 title: "कुक्कू नेटवर्क एयरड्रॉप पोर्टल का परिचय"
 authors: [lark]
 tags: [airdrop, cuckoo chain, roadmap]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=कुक्कू नेटवर्क एयरड्रॉप पोर्टल का परिचय
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=कुक्कू नेटवर्क एयरड्रॉप पोर्टल का परिचय
 description: जानें कि कैसे कुक्कू नेटवर्क एयरड्रॉप पोर्टल के माध्यम से $CAI टोकन अर्जित करें। आज ही विकेंद्रीकृत AI का समर्थन करें और लाभ उठाएं!
 ---
 

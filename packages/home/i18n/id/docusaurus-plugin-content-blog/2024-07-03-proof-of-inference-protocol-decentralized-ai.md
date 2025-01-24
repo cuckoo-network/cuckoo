@@ -2,7 +2,7 @@
 title: "Memahami Protokol Proof of Inference"
 authors: [lark]
 tags: [penelitian]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Memahami%20Protokol%20Proof%20of%20Inference
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Memahami%20Protokol%20Proof%20of%20Inference
 description: Menyelami Protokol Proof of Inference yang inovatif, dirancang untuk mengamankan dan memverifikasi inferensi AI pada jaringan terdesentralisasi. Pelajari bagaimana protokol ini mengatasi tantangan unik dari komputasi AI yang terdistribusi.
 ---
 

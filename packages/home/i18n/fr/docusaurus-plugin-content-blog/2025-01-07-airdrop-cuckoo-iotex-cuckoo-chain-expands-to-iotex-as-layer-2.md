@@ -12,14 +12,14 @@ keywords:
   ]
 authors: [lark]
 description: Cuckoo Network étend son infrastructure IA décentralisée à IoTeX en tant que solution Layer 2, s'intégrant à l'écosystème MachineFi d'IoTeX pour offrir un calcul IA évolutif et une interopérabilité inter-chaînes. Découvrez les avantages pour les développeurs, les mineurs et les utilisateurs d'IoTeX, et apprenez comment participer à l'airdrop de jetons $CAI.
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX%20:%20Cuckoo%20Chain%20s'%C3%A9tend%20%C3%A0%20IoTeX%20en%20tant%20que%20Layer%202
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX%20:%20Cuckoo%20Chain%20s'%C3%A9tend%20%C3%A0%20IoTeX%20en%20tant%20que%20Layer%202
 ---
 
 # Airdrop Cuckoo × IoTeX : Cuckoo Chain s'étend à IoTeX en tant que Layer 2
 
 Cuckoo Network est ravi d'annoncer son expansion vers IoTeX en tant que solution Layer 2, apportant son infrastructure IA décentralisée à l'écosystème florissant d'IoTeX. Ce partenariat stratégique combine l'expertise de Cuckoo dans le service de modèles IA avec l'infrastructure robuste MachineFi d'IoTeX, créant de nouvelles opportunités pour les deux communautés.
 
-![Cuckoo Network Expansion](https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX%20:%20Cuckoo%20Chain%20s'%C3%A9tend%20%C3%A0%20IoTeX%20en%20tant%20que%20Layer%202)
+![Cuckoo Network Expansion](https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX%20:%20Cuckoo%20Chain%20s'%C3%A9tend%20%C3%A0%20IoTeX%20en%20tant%20que%20Layer%202)
 
 ## **Le Besoin**
 

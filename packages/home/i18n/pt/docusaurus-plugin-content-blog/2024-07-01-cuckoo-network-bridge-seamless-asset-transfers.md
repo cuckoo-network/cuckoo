@@ -2,7 +2,7 @@
 title: "Apresentando a Ponte Cuckoo Network: Transferências de Ativos Sem Fronteiras Entre Cadeias"
 authors: [lark]
 tags: [produto, roteiro]
-image: https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=Apresentando%20a%20Ponte%20Cuckoo%20Network%3A%20Transfer%C3%AAncias%20de%20Ativos%20Sem%20Fronteiras%20Entre%20Cadeias
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Apresentando%20a%20Ponte%20Cuckoo%20Network%3A%20Transfer%C3%AAncias%20de%20Ativos%20Sem%20Fronteiras%20Entre%20Cadeias
 ---
 
 No Web3, a capacidade de transferir ativos sem fronteiras entre diferentes redes blockchain é crucial. Na Cuckoo.Network, entendemos isso. Compreendemos a necessidade urgente de eficiência, segurança e simplicidade nessas transações. É por isso que estamos entusiasmados em apresentar nossa mais recente inovação: a Cuckoo Bridge https://bridge.cuckoo.network/.

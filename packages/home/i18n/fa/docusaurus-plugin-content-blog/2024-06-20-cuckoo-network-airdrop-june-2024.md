@@ -2,7 +2,7 @@
 title: "ایردراپ شبکه Cuckoo: ژوئن ۲۰۲۴"
 authors: [lark]
 tags: [ایردراپ, زنجیره cuckoo]
-image: "https://web-dash-v2.onrender.com/api/og-cuckoo-network?title=ایردراپ شبکه Cuckoo: ژوئن ۲۰۲۴"
+image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=ایردراپ شبکه Cuckoo: ژوئن ۲۰۲۴"
 description: در ایردراپ شبکه Cuckoo در ژوئن ۲۰۲۴ شرکت کنید. با تعامل با تست‌نت‌های آلفا و سپولیا، سهم خود از ۳۰,۰۰۰ توکن $CAI را به دست آورید. این فرصت را از دست ندهید!
 ---
 
