@@ -44,8 +44,10 @@ I want you to act as a SaaS copywriter, Web3 expert, and professional website tr
 
 - **For JSON files**: Only translate the 'message' field. Keep the keys and descriptions unchanged. Do not include "copyright" entry in the result.
 - **For Markdown files**: Translate the entire file but only modify metadata when necessary.
-  - for the field image: https://cuckoo-portal-frontend.onrender.com/api/og?title= you should use the translated title as the value of the image param.
-  - the image field's value should be wrapped with "
+  - for the field image: https://cuckoo-portal-frontend.onrender.com/api/og?title=
+    - you should use the translated title as the value of the image param.
+    - you should not translate ar, fa languages
+  - the image field's value should be wrapped with ""
   - don't translate authors field
 
 Below is the content to translate:

@@ -12,14 +12,14 @@ keywords:
   ]
 authors: [lark]
 description: شبکه Cuckoo زیرساخت هوش مصنوعی غیرمتمرکز خود را به عنوان یک راه‌حل لایه ۲ به IoTeX گسترش می‌دهد و با اکوسیستم MachineFi IoTeX ادغام می‌شود تا محاسبات هوش مصنوعی مقیاس‌پذیر و قابلیت همکاری بین زنجیره‌ای را ارائه دهد. مزایای این گسترش برای توسعه‌دهندگان، استخراج‌کنندگان و کاربران IoTeX را کشف کنید و بیاموزید چگونه در ایردراپ توکن $CAI شرکت کنید.
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=ایردراپ%20Cuckoo%20%C3%97%20IoTeX:%20گسترش%20زنجیره%20Cuckoo%20به%20IoTeX%20به%20عنوان%20لایه%202
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20Expands%20to%20IoTeX%20as%20Layer%202
 ---
 
 # ایردراپ Cuckoo × IoTeX: گسترش زنجیره Cuckoo به IoTeX به عنوان لایه ۲
 
 شبکه Cuckoo با هیجان اعلام می‌کند که به عنوان یک راه‌حل لایه ۲ به IoTeX گسترش می‌یابد و زیرساخت هوش مصنوعی غیرمتمرکز خود را به اکوسیستم پررونق IoTeX می‌آورد. این همکاری استراتژیک تخصص Cuckoo در ارائه مدل‌های هوش مصنوعی را با زیرساخت قوی MachineFi IoTeX ترکیب می‌کند و فرصت‌های جدیدی برای هر دو جامعه ایجاد می‌کند.
 
-![گسترش شبکه Cuckoo](https://cuckoo-portal-frontend.onrender.com/api/og?title=ایردراپ%20Cuckoo%20%C3%97%20IoTeX:%20گسترش%20زنجیره%20Cuckoo%20به%20IoTeX%20به%20عنوان%20لایه%202)
+![گسترش شبکه Cuckoo](https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20Expands%20to%20IoTeX%20as%20Layer%202)
 
 ## **نیاز**
 

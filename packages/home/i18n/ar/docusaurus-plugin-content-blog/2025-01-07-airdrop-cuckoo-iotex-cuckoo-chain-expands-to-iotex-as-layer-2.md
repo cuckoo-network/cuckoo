@@ -13,14 +13,14 @@ keywords:
   ]
 authors: [lark]
 description: توسع شبكة Cuckoo بنيتها التحتية للذكاء الاصطناعي اللامركزي إلى IoTeX كحل طبقة 2، متكاملة مع نظام MachineFi الخاص بـ IoTeX لتقديم حسابات الذكاء الاصطناعي القابلة للتوسع والتشغيل البيني عبر السلاسل. اكتشف الفوائد للمطورين والمعدنين ومستخدمي IoTeX، وتعلم كيفية المشاركة في إيردروب رمز $CAI.
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=الإيردروب%20Cuckoo%20%C3%97%20IoTeX:%20توسع%20سلسلة%20Cuckoo%20إلى%20IoTeX%20كطبقة%202
+image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20Expands%20to%20IoTeX%20as%20Layer%202
 ---
 
 # الإيردروب Cuckoo × IoTeX: توسع سلسلة Cuckoo إلى IoTeX كطبقة 2
 
 تعلن شبكة Cuckoo عن توسيعها إلى IoTeX كحل طبقة 2، مما يجلب بنيتها التحتية للذكاء الاصطناعي اللامركزي إلى نظام IoTeX المتنامي. يجمع هذا التعاون الاستراتيجي بين خبرة Cuckoo في تقديم نماذج الذكاء الاصطناعي مع بنية MachineFi القوية لـ IoTeX، مما يخلق فرصًا جديدة لكلا المجتمعين.
 
-![توسع شبكة Cuckoo](https://cuckoo-portal-frontend.onrender.com/api/og?title=الإيردروب%20Cuckoo%20%C3%97%20IoTeX:%20توسع%20سلسلة%20Cuckoo%20إلى%20IoTeX%20كطبقة%202)
+![توسع شبكة Cuckoo](https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20Expands%20to%20IoTeX%20as%20Layer%202)
 
 ## **الحاجة**
 
