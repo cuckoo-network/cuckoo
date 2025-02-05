@@ -7,12 +7,14 @@ import PostTags from "@site/src/components/home/post-tags";
 import React from "react";
 
 export default function Blog() {
-  const {i18n: {currentLocale}} = useDocusaurusContext();
+  const {
+    i18n: { currentLocale },
+  } = useDocusaurusContext();
 
   const allPosts = require(`./${currentLocale}.json`);
 
   const featuredPost = allPosts[0];
-  const posts = (allPosts).slice(1);
+  const posts = allPosts.slice(1);
 
   useAos();
 
@@ -21,7 +23,9 @@ export default function Blog() {
   return (
     <Layout
       title={title}
-      description={"Announcements, best practices and success stories for achieving your goals with Cuckoo Network."}
+      description={
+        "Announcements, best practices and success stories for achieving your goals with Cuckoo Network."
+      }
     >
       <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -73,13 +77,13 @@ export default function Blog() {
                     <h3 className="h3 text-2xl lg:text-3xl mb-2">
                       <Link
                         href={featuredPost.metadata.permalink}
-                        className="hover:text-gray-100 transition duration-150 ease-in-out"
+                        className="dark:hover:text-gray-100 hover:text-gray-400 transition duration-150 ease-in-out"
                       >
                         {featuredPost.title}
                       </Link>
                     </h3>
                   </header>
-                  <p className="text-lg text-gray-400 grow">
+                  <p className="dark:text-lg dark:text-gray-400 text-lg text-gray-600 grow">
                     {featuredPost.metadata.description}
                   </p>
                   <footer className="flex items-center mt-4">
@@ -95,12 +99,14 @@ export default function Blog() {
                     <div>
                       <Link
                         href="#"
-                        className="font-medium text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
+                        className="font-medium dark:text-gray-200 dark:hover:text-gray-100 hover:text-gray-400 transition duration-150 ease-in-out"
                       >
                         {featuredPost.metadata.authors[0].name}
                       </Link>
                       <span className="text-gray-700"> - </span>
-                      <span className="text-gray-500">{featuredPost.metadata.date.slice(0, 10)}</span>
+                      <span className="text-gray-500">
+                        {featuredPost.metadata.date.slice(0, 10)}
+                      </span>
                     </div>
                   </footer>
                 </div>

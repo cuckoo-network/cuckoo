@@ -111,11 +111,11 @@ const config: Config = {
 
   themeConfig: {
     metadata: [
-      { property: 'og:title', content: 'Cuckoo AI Network' },
-      { property: 'og:type', content: 'website' },
-      { property: 'og:rating', content: '4.8' },
-      { property: 'og:rating_scale', content: '5' },
-      { property: 'og:rating_count', content: '38721' },
+      { property: "og:title", content: "Cuckoo AI Network" },
+      { property: "og:type", content: "website" },
+      { property: "og:rating", content: "4.8" },
+      { property: "og:rating_scale", content: "5" },
+      { property: "og:rating_count", content: "38721" },
       {
         name: "keywords",
         content:
@@ -129,7 +129,8 @@ const config: Config = {
       title: "",
       logo: {
         alt: "Cuckoo AI Logo",
-        src: "https://cuckoo-network.b-cdn.net/white-full-logo.svg",
+        src: "https://cuckoo-network.b-cdn.net/black-full-logo.svg",
+        srcDark: "https://cuckoo-network.b-cdn.net/white-full-logo.svg",
       },
       items: [
         {
@@ -362,12 +363,12 @@ Price data in the app may be inaccurate or delayed. Copyright © ${new Date().ge
     },
 
     prism: {
-      // theme: prismThemes.dracula,
+      theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
     colorMode: {
       defaultMode: "dark",
-      disableSwitch: true,
+      disableSwitch: false,
       respectPrefersColorScheme: false,
     },
   } satisfies Preset.ThemeConfig,

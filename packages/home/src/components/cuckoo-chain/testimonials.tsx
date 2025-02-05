@@ -1,11 +1,16 @@
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import Translate from '@docusaurus/Translate';
+import Translate from "@docusaurus/Translate";
 
 export default function Testimonials() {
-
-  const TestimonialsImage01 = useBaseUrl("/img/cuckoo-chain/testimonial-01.jpg");
-  const TestimonialsImage02 = useBaseUrl("/img/cuckoo-chain/testimonial-02.jpg");
-  const TestimonialsImage03 = useBaseUrl("/img/cuckoo-chain/testimonial-03.jpg");
+  const TestimonialsImage01 = useBaseUrl(
+    "/img/cuckoo-chain/testimonial-01.jpg",
+  );
+  const TestimonialsImage02 = useBaseUrl(
+    "/img/cuckoo-chain/testimonial-02.jpg",
+  );
+  const TestimonialsImage03 = useBaseUrl(
+    "/img/cuckoo-chain/testimonial-03.jpg",
+  );
 
   return (
     <section>
@@ -78,19 +83,22 @@ export default function Testimonials() {
                 </div>
               </header>
               <div className="grow mb-3">
-                <p className="text-slate-500 italic">
+                <p className="dark:text-slate-300 text-slate-500 italic">
                   <Translate description="First testimonial text">
-                    "Cuckoo Chain revolutionized our AI development with unmatched speed and efficiency. It's a game-changer for any AI-driven blockchain enterprise."
+                    "Cuckoo Chain revolutionized our AI development with
+                    unmatched speed and efficiency. It's a game-changer for any
+                    AI-driven blockchain enterprise."
                   </Translate>
                 </p>
               </div>
-              <footer className="text-sm text-slate-500 font-medium">
-                <div className="text-slate-300 hover:text-white transition duration-150 ease-in-out">
+              <footer className="text-sm dark:text-slate-300 text-slate-500 font-medium">
+                <div className="dark:text-slate-300 text-slate-500 hover:text-white transition duration-150 ease-in-out">
                   <Translate description="First testimonial author name">
                     Aaliyah Baker
                   </Translate>
                 </div>{" "}
-                - <span className="text-indigo-500">
+                -{" "}
+                <span className="text-indigo-500">
                   <Translate description="First testimonial author company">
                     DApper OS
                   </Translate>
@@ -163,19 +171,21 @@ export default function Testimonials() {
                 </div>
               </header>
               <div className="grow mb-3">
-                <p className="text-slate-500 italic">
+                <p className="dark:text-slate-300 text-slate-500 italic">
                   <Translate description="Second testimonial text">
-                    "Integrating Cuckoo Chain was seamless. The performance boost and compatibility with Ethereum are phenomenal."
+                    "Integrating Cuckoo Chain was seamless. The performance
+                    boost and compatibility with Ethereum are phenomenal."
                   </Translate>
                 </p>
               </div>
-              <footer className="text-sm text-slate-500 font-medium">
-                <div className="text-slate-300 hover:text-white transition duration-150 ease-in-out">
+              <footer className="text-sm dark:text-slate-300 text-slate-500 font-medium">
+                <div className="dark:text-slate-300 text-slate-500 hover:text-white transition duration-150 ease-in-out">
                   <Translate description="Second testimonial author name">
                     Sloan Seaman
                   </Translate>
                 </div>{" "}
-                - <span className="text-indigo-500">
+                -{" "}
+                <span className="text-indigo-500">
                   <Translate description="Second testimonial author company">
                     Coupang
                   </Translate>
@@ -248,19 +258,21 @@ export default function Testimonials() {
                 </div>
               </header>
               <div className="grow mb-3">
-                <p className="text-slate-500 italic">
+                <p className="dark:text-slate-300 text-slate-500 italic">
                   <Translate description="Third testimonial text">
-                    "Cuckoo Chain empowered us to create fast, secure decentralized AI apps. The support team is invaluable."
+                    "Cuckoo Chain empowered us to create fast, secure
+                    decentralized AI apps. The support team is invaluable."
                   </Translate>
                 </p>
               </div>
-              <footer className="text-sm text-slate-500 font-medium">
-                <div className="text-slate-300 hover:text-white transition duration-150 ease-in-out">
+              <footer className="text-sm dark:text-slate-300 text-slate-500 font-medium">
+                <div className="dark:text-slate-300 text-slate-500 hover:text-white transition duration-150 ease-in-out">
                   <Translate description="Third testimonial author name">
                     Christine Dejoux
                   </Translate>
                 </div>{" "}
-                - <span className="text-indigo-500">
+                -{" "}
+                <span className="text-indigo-500">
                   <Translate description="Third testimonial author company">
                     Glocomms
                   </Translate>

@@ -8,7 +8,7 @@ export default function CaseStudies() {
             <h2 className="h2 mb-4">
               Integrated workflow designed for product teams
             </h2>
-            <p className="text-xl text-gray-400">
+            <p className="text-xl dark:text-gray-400 text-gray-500">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit laborum — semper quis lectus nulla.
             </p>
@@ -37,13 +37,13 @@ export default function CaseStudies() {
               <div className="grow flex flex-col h-full p-6 bg-gray-800">
                 <h3 className="h4 mb-2">
                   <a
-                    className="hover:text-gray-100 transition duration-150 ease-in-out"
+                    className="dark:hover:text-gray-100 hover:text-gray-400 transition duration-150 ease-in-out"
                     href="#0"
                   >
                     How to build anything
                   </a>
                 </h3>
-                <p className="text-lg text-gray-400 grow">
+                <p className="dark:text-lg dark:text-gray-400 text-lg text-gray-600 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut et dolore magna aliqua. Ut
                   enim ad minim veniam, quis nostrud exercitation ullamco
@@ -92,13 +92,13 @@ export default function CaseStudies() {
               <div className="grow flex flex-col h-full p-6 bg-gray-800">
                 <h3 className="h4 mb-2">
                   <a
-                    className="hover:text-gray-100 transition duration-150 ease-in-out"
+                    className="dark:hover:text-gray-100 hover:text-gray-400 transition duration-150 ease-in-out"
                     href="#0"
                   >
                     How to build anything
                   </a>
                 </h3>
-                <p className="text-lg text-gray-400 grow">
+                <p className="dark:text-lg dark:text-gray-400 text-lg text-gray-600 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut et dolore magna aliqua. Ut
                   enim ad minim veniam, quis nostrud exercitation ullamco
@@ -147,13 +147,13 @@ export default function CaseStudies() {
               <div className="grow flex flex-col h-full p-6 bg-gray-800">
                 <h3 className="h4 mb-2">
                   <a
-                    className="hover:text-gray-100 transition duration-150 ease-in-out"
+                    className="dark:hover:text-gray-100 hover:text-gray-400 transition duration-150 ease-in-out"
                     href="#0"
                   >
                     How to build anything
                   </a>
                 </h3>
-                <p className="text-lg text-gray-400 grow">
+                <p className="dark:text-lg dark:text-gray-400 text-lg text-gray-600 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut et dolore magna aliqua. Ut
                   enim ad minim veniam, quis nostrud exercitation ullamco

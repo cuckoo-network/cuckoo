@@ -4,7 +4,9 @@ import { useState } from "react";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
 export default function Features02() {
-  const Illustration = useBaseUrl("/img/cuckoo-chain/features-illustration-02.svg");
+  const Illustration = useBaseUrl(
+    "/img/cuckoo-chain/features-illustration-02.svg",
+  );
   const FeaturesImage = useBaseUrl("/img/cuckoo-chain/features-image.png");
 
   const [category, setCategory] = useState<string>("1");
@@ -48,7 +50,7 @@ export default function Features02() {
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
                         category === "1"
                           ? "text-white bg-indigo-500"
-                          : "text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600"
+                          : "dark:text-slate-300 text-slate-500 bg-slate-700 hover:bg-slate-600 border-slate-600"
                       }`}
                       onClick={() => setCategory("1")}
                     >
@@ -58,7 +60,7 @@ export default function Features02() {
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
                         category === "2"
                           ? "text-white bg-indigo-500"
-                          : "text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600"
+                          : "dark:text-slate-300 text-slate-500 bg-slate-700 hover:bg-slate-600 border-slate-600"
                       }`}
                       onClick={() => setCategory("2")}
                     >
@@ -68,7 +70,7 @@ export default function Features02() {
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
                         category === "3"
                           ? "text-white bg-indigo-500"
-                          : "text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600"
+                          : "dark:text-slate-300 text-slate-500 bg-slate-700 hover:bg-slate-600 border-slate-600"
                       }`}
                       onClick={() => setCategory("3")}
                     >

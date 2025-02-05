@@ -1,5 +1,5 @@
 import Illustration from "../svg/cta-illustration.svg";
-import Translate, { translate } from '@docusaurus/Translate';
+import Translate, { translate } from "@docusaurus/Translate";
 
 export function Cta() {
   return (
@@ -20,7 +20,7 @@ export function Cta() {
           <div className="flex flex-col lg:flex-row justify-between items-center">
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
-              <h3 className="text-4xl font-bold font-uncut-sans mb-2">
+              <h3 className="text-4xl font-bold font-uncut-sans mb-2 text-white">
                 <Translate>Experience Decentralized AI Model-Serving</Translate>
               </h3>
               <p className="text-blue-200">
@@ -36,7 +36,7 @@ export function Cta() {
               >
                 <Translate>Explore</Translate>{" "}
                 <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                  -&gt;
+                  →
                 </span>
               </a>
             </div>

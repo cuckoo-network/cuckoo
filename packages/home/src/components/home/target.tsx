@@ -1,4 +1,4 @@
-import Translate, { translate } from '@docusaurus/Translate';
+import Translate, { translate } from "@docusaurus/Translate";
 
 export default function Target() {
   return (
@@ -8,7 +8,9 @@ export default function Target() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h3 className="h3" data-aos="fade-up">
-              <Translate description={"section title for target customers"}>From AI builders to consumers, we got you covered.</Translate>
+              <Translate description={"section title for target customers"}>
+                From AI builders to consumers, we got you covered.
+              </Translate>
             </h3>
           </div>
 
@@ -30,8 +32,8 @@ export default function Target() {
                     width: "100%",
                   }}
                   alt={translate({
-                    message: 'Features 02',
-                    description: 'Alt text for the image'
+                    message: "Features 02",
+                    description: "Alt text for the image",
                   })}
                 />
               </div>
@@ -44,7 +46,11 @@ export default function Target() {
                     data-aos="fade-up"
                     data-aos-anchor="[data-aos-id-target]"
                   >
-                    <Translate description={"a card description to explain what to do"}>Get rewarded by contributing to Gen AI</Translate>
+                    <Translate
+                      description={"a card description to explain what to do"}
+                    >
+                      Get rewarded by contributing to Gen AI
+                    </Translate>
                   </div>
                   <div
                     className="mt-6"
@@ -53,12 +59,21 @@ export default function Target() {
                     data-aos-anchor="[data-aos-id-target]"
                   >
                     <h4 className="h4 mb-2">
-                      <span className="text-purple-600">.</span>{' '}
-                      <Translate description={"a card title for a group of user"}>For AI Consumers</Translate>
+                      <span className="text-purple-600">.</span>{" "}
+                      <Translate
+                        description={"a card title for a group of user"}
+                      >
+                        For AI Consumers
+                      </Translate>
                     </h4>
-                    <p className="text-lg text-gray-400">
-                      <Translate description={"a card description to explain what to do"}>
-                        Access a variety of AI apps for free, by contributing to the ecosystem or using Cuckoo Pay. If one app is blocked, seamlessly switch to another coordinator within the decentralized network.
+                    <p className="dark:text-lg text-gray-400 text-lg text-gray-600">
+                      <Translate
+                        description={"a card description to explain what to do"}
+                      >
+                        Access a variety of AI apps for free, by contributing to
+                        the ecosystem or using Cuckoo Pay. If one app is
+                        blocked, seamlessly switch to another coordinator within
+                        the decentralized network.
                       </Translate>
                     </p>
                   </div>
@@ -69,12 +84,15 @@ export default function Target() {
                     data-aos-anchor="[data-aos-id-target]"
                   >
                     <h4 className="h4 mb-2">
-                      <span className="text-teal-500">.</span>{' '}
+                      <span className="text-teal-500">.</span>{" "}
                       <Translate>For App Builders/Coordinators</Translate>
                     </h4>
-                    <p className="text-lg text-gray-400">
+                    <p className="dark:text-lg text-gray-400 text-lg text-gray-600">
                       <Translate>
-                        Run a coordinator node, stake to join the network, and earn staking rewards. Reduce GPU costs, expand your customer base, assign tasks to GPU miners, validate results, and distribute payments.
+                        Run a coordinator node, stake to join the network, and
+                        earn staking rewards. Reduce GPU costs, expand your
+                        customer base, assign tasks to GPU miners, validate
+                        results, and distribute payments.
                       </Translate>
                     </p>
                   </div>
@@ -85,12 +103,23 @@ export default function Target() {
                     data-aos-anchor="[data-aos-id-target]"
                   >
                     <h4 className="h4 mb-2">
-                      <span className="text-pink-500">.</span>{' '}
-                      <Translate description={"a card description to a specific user group"}>For GPU Miners</Translate>
+                      <span className="text-pink-500">.</span>{" "}
+                      <Translate
+                        description={
+                          "a card description to a specific user group"
+                        }
+                      >
+                        For GPU Miners
+                      </Translate>
                     </h4>
-                    <p className="text-lg text-gray-400">
-                      <Translate description={"a card description to explain what to do"}>
-                        Run a miner node, stake to join the network, and earn staking rewards. Share your GPU resources, complete assigned tasks, and maintain reliable service to earn tokens.
+                    <p className="dark:text-lg text-gray-400 text-lg text-gray-600">
+                      <Translate
+                        description={"a card description to explain what to do"}
+                      >
+                        Run a miner node, stake to join the network, and earn
+                        staking rewards. Share your GPU resources, complete
+                        assigned tasks, and maintain reliable service to earn
+                        tokens.
                       </Translate>
                     </p>
                   </div>

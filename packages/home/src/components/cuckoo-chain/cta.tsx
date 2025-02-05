@@ -19,7 +19,11 @@ export default function Cta() {
         <img
           src={Illustration}
           className="max-w-none"
-          alt={Translate({id: "Features 01 Illustration", message: "Features 01 Illustration", description: "Alt text for the features illustration"})}
+          alt={Translate({
+            id: "Features 01 Illustration",
+            message: "Features 01 Illustration",
+            description: "Alt text for the features illustration",
+          })}
         />
       </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -31,7 +35,8 @@ export default function Cta() {
           >
             <h2 className="h2 font-hkgrotesk">
               <Translate description="CTA section main title">
-                It's time to join the thousands of creators, artists, and developers using Cuckoo Chain
+                It's time to join the thousands of creators, artists, and
+                developers using Cuckoo Chain
               </Translate>
             </h2>
           </div>
@@ -47,13 +52,13 @@ export default function Cta() {
                     Explore Chain
                   </Translate>{" "}
                   <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                    -&gt;
+                    →
                   </span>
                 </Link>
               </div>
               <div data-aos="fade-up" data-aos-delay="200">
                 <Link
-                  className="btn text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600 w-full shadow-sm uppercase hover:text-white"
+                  className="btn dark:text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600 w-full shadow-sm uppercase dark:hover:text-white text-white"
                   href="/docs/cuckoo-chain/cuckoo-chain"
                 >
                   <Translate description="Button label to read the Cuckoo Chain documentation">

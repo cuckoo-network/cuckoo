@@ -11,7 +11,9 @@ import Translate from "@docusaurus/Translate";
 Swiper.use([Autoplay, Navigation]);
 
 export default function Features() {
-  const Illustration = useBaseUrl("/img/cuckoo-chain/features-illustration.svg");
+  const Illustration = useBaseUrl(
+    "/img/cuckoo-chain/features-illustration.svg",
+  );
   const FeaturesIcon01 = useBaseUrl("/img/cuckoo-chain/features-icon-01.svg");
   const FeaturesIcon02 = useBaseUrl("/img/cuckoo-chain/features-icon-02.svg");
   const FeaturesIcon03 = useBaseUrl("/img/cuckoo-chain/features-icon-03.svg");
@@ -57,7 +59,11 @@ export default function Features() {
           className="max-w-none"
           width="1440"
           height="440"
-          alt={<Translate description="Illustration alt text">Illustration</Translate>}
+          alt={
+            <Translate description="Illustration alt text">
+              Illustration
+            </Translate>
+          }
         />
       </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -65,11 +71,16 @@ export default function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 font-hkgrotesk mb-4">
-              <Translate description="Section header title">Many tools to decentralized AI with Cuckoo Chain</Translate>
+              <Translate description="Section header title">
+                Many tools to decentralized AI with Cuckoo Chain
+              </Translate>
             </h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-slate-500">
-                <Translate description="Section header description">The best resources for building an end-to-end Cuckoo Chain dApp.</Translate>
+                <Translate description="Section header description">
+                  The best resources for building an end-to-end Cuckoo Chain
+                  dApp.
+                </Translate>
               </p>
             </div>
           </div>
@@ -84,14 +95,23 @@ export default function Features() {
                   src={FeaturesIcon01}
                   width={56}
                   height={56}
-                  alt={<Translate description="Icon 01 alt text">Icon 01</Translate>}
+                  alt={
+                    <Translate description="Icon 01 alt text">
+                      Icon 01
+                    </Translate>
+                  }
                 />
                 <div className="grow">
                   <div className="font-hkgrotesk font-bold text-xl">
-                    <Translate description="Cuckoo Network Bridge title">Cuckoo Network Bridge</Translate>
+                    <Translate description="Cuckoo Network Bridge title">
+                      Cuckoo Network Bridge
+                    </Translate>
                   </div>
                   <div className="text-slate-500 mb-3">
-                    <Translate description="Cuckoo Network Bridge description">Transfer assets seamlessly across Arbitrum One and Cuckoo Chain with minimal fees and secure transactions.</Translate>
+                    <Translate description="Cuckoo Network Bridge description">
+                      Transfer assets seamlessly across Arbitrum One and Cuckoo
+                      Chain with minimal fees and secure transactions.
+                    </Translate>
                   </div>
                 </div>
                 <div className="text-right">
@@ -99,9 +119,11 @@ export default function Features() {
                     className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group"
                     href="/docs/cuckoo-chain/bridge"
                   >
-                    <Translate description="Link text to learn more about Cuckoo Network Bridge">Learn More</Translate>{" "}
+                    <Translate description="Link text to learn more about Cuckoo Network Bridge">
+                      Learn More
+                    </Translate>{" "}
                     <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                      -&gt;
+                      →
                     </span>
                   </Link>
                 </div>
@@ -112,14 +134,21 @@ export default function Features() {
                   src={FeaturesIcon02}
                   width={56}
                   height={56}
-                  alt={<Translate description="Icon 02 alt text">Icon 02</Translate>}
+                  alt={
+                    <Translate description="Icon 02 alt text">
+                      Icon 02
+                    </Translate>
+                  }
                 />
                 <div className="grow">
                   <div className="font-hkgrotesk font-bold text-xl">
                     <Translate description="Thirdweb title">Thirdweb</Translate>
                   </div>
                   <div className="text-slate-500 mb-3">
-                    <Translate description="Thirdweb description">Full-stack, open-source web3 development platform. Fullstack tools to build complete web3 apps.</Translate>
+                    <Translate description="Thirdweb description">
+                      Full-stack, open-source web3 development platform.
+                      Fullstack tools to build complete web3 apps.
+                    </Translate>
                   </div>
                 </div>
                 <div className="text-right">
@@ -127,9 +156,11 @@ export default function Features() {
                     className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group"
                     href="https://thirdweb.com/cuckoo-chain"
                   >
-                    <Translate description="Link text to learn more about Thirdweb">Learn More</Translate>{" "}
+                    <Translate description="Link text to learn more about Thirdweb">
+                      Learn More
+                    </Translate>{" "}
                     <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                      -&gt;
+                      →
                     </span>
                   </Link>
                 </div>
@@ -140,14 +171,24 @@ export default function Features() {
                   src={FeaturesIcon03}
                   width={56}
                   height={56}
-                  alt={<Translate description="Icon 03 alt text">Icon 03</Translate>}
+                  alt={
+                    <Translate description="Icon 03 alt text">
+                      Icon 03
+                    </Translate>
+                  }
                 />
                 <div className="grow">
                   <div className="font-hkgrotesk font-bold text-xl">
-                    <Translate description="ChainList title">ChainList</Translate>
+                    <Translate description="ChainList title">
+                      ChainList
+                    </Translate>
                   </div>
                   <div className="text-slate-500 mb-3">
-                    <Translate description="ChainList description">ChainList is a list of EVM networks. Users can use the info to connect their wallets and Web3 middleware providers.</Translate>
+                    <Translate description="ChainList description">
+                      ChainList is a list of EVM networks. Users can use the
+                      info to connect their wallets and Web3 middleware
+                      providers.
+                    </Translate>
                   </div>
                 </div>
                 <div className="text-right">
@@ -155,9 +196,11 @@ export default function Features() {
                     className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group"
                     href="https://chainlist.org/chain/1200"
                   >
-                    <Translate description="Link text to learn more about ChainList">Learn More</Translate>{" "}
+                    <Translate description="Link text to learn more about ChainList">
+                      Learn More
+                    </Translate>{" "}
                     <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                      -&gt;
+                      →
                     </span>
                   </a>
                 </div>
@@ -168,14 +211,23 @@ export default function Features() {
                   src={FeaturesIcon04}
                   width={56}
                   height={56}
-                  alt={<Translate description="Icon 04 alt text">Icon 04</Translate>}
+                  alt={
+                    <Translate description="Icon 04 alt text">
+                      Icon 04
+                    </Translate>
+                  }
                 />
                 <div className="grow">
                   <div className="font-hkgrotesk font-bold text-xl">
-                    <Translate description="Cuckoo Scan title">Cuckoo Scan</Translate>
+                    <Translate description="Cuckoo Scan title">
+                      Cuckoo Scan
+                    </Translate>
                   </div>
                   <div className="text-slate-500 mb-3">
-                    <Translate description="Cuckoo Scan description">Blockchain explorer to inspect Cuckoo Chain transactions, tokens, and coins. RESTful and GraphQL API available.</Translate>
+                    <Translate description="Cuckoo Scan description">
+                      Blockchain explorer to inspect Cuckoo Chain transactions,
+                      tokens, and coins. RESTful and GraphQL API available.
+                    </Translate>
                   </div>
                 </div>
                 <div className="text-right">
@@ -183,9 +235,11 @@ export default function Features() {
                     className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group"
                     href="#0"
                   >
-                    <Translate description="Link text to learn more about Cuckoo Scan">Learn More</Translate>{" "}
+                    <Translate description="Link text to learn more about Cuckoo Scan">
+                      Learn More
+                    </Translate>{" "}
                     <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                      -&gt;
+                      →
                     </span>
                   </a>
                 </div>
@@ -196,7 +250,9 @@ export default function Features() {
           <div className="flex mt-12 space-x-4 justify-end">
             <button className="cursor-pointer carousel-prev relative z-20 w-14 h-14 rounded-full flex items-center justify-center group border-none border-slate-700 bg-slate-800 hover:bg-slate-700 transition duration-150 ease-in-out">
               <span className="sr-only">
-                <Translate description="Aria label for previous button">Previous</Translate>
+                <Translate description="Aria label for previous button">
+                  Previous
+                </Translate>
               </span>
               <svg
                 className="w-4 h-4 fill-slate-400 transition duration-150 ease-in-out"
@@ -208,7 +264,9 @@ export default function Features() {
             </button>
             <button className="cursor-pointer carousel-next relative z-20 w-14 h-14 rounded-full flex items-center justify-center group border-none border-slate-700 bg-slate-800 hover:bg-slate-700 transition duration-150 ease-in-out">
               <span className="sr-only">
-                <Translate description="Aria label for next button">Next</Translate>
+                <Translate description="Aria label for next button">
+                  Next
+                </Translate>
               </span>
               <svg
                 className="w-4 h-4 fill-slate-400 transition duration-150 ease-in-out"

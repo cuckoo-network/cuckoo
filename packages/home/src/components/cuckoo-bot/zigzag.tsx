@@ -9,7 +9,7 @@ export default function Zigzag() {
               Reach goals that matter
             </div>
             <h1 className="h2 mb-4">Enhanced Creativity, Reduced Costs</h1>
-            <p className="text-xl text-gray-400">
+            <p className="text-xl dark:text-gray-400 text-gray-500">
               Stay within budget while transforming text into stunning visuals.
               Cuckoo Bot enhances your workflow with innovative, decentralized
               technology.
@@ -45,12 +45,12 @@ export default function Zigzag() {
                     Instant Messaging Integration
                   </div>
                   <h3 className="h3 mb-3">Chat-Powered Creativity</h3>
-                  <p className="text-xl text-gray-400 mb-4">
+                  <p className="text-xl dark:text-gray-400 text-gray-500 mb-4">
                     Transform text to image seamlessly within Telegram or
                     Discord. Simply use commands to ignite your creative
                     process.
                   </p>
-                  <ul className="text-lg text-gray-400 -mb-2">
+                  <ul className="dark:text-lg dark:text-gray-400 text-lg text-gray-600 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
@@ -113,11 +113,11 @@ export default function Zigzag() {
                     Crypto Payment Flexibility
                   </div>
                   <h3 className="h3 mb-3">Seamless Transactions</h3>
-                  <p className="text-xl text-gray-400 mb-4">
+                  <p className="text-xl dark:text-gray-400 text-gray-500 mb-4">
                     Pay for your creative needs with your preferred
                     cryptocurrency, ensuring convenience and security.
                   </p>
-                  <ul className="text-lg text-gray-400 -mb-2">
+                  <ul className="dark:text-lg dark:text-gray-400 text-lg text-gray-600 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
@@ -180,12 +180,12 @@ export default function Zigzag() {
                     Decentralized Network Support
                   </div>
                   <h3 className="h3 mb-3">Community-Driven Power</h3>
-                  <p className="text-xl text-gray-400 mb-4">
+                  <p className="text-xl dark:text-gray-400 text-gray-500 mb-4">
                     Run a miner node to contribute to and benefit from the
                     decentralized text-to-image network, enhancing both security
                     and efficiency.
                   </p>
-                  <ul className="text-lg text-gray-400 -mb-2">
+                  <ul className="dark:text-lg dark:text-gray-400 text-lg text-gray-600 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"

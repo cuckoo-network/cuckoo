@@ -63,7 +63,7 @@ export default function Footer() {
             <ul className="text-sm space-y-2">
               <li>
                 <a
-                  className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                  className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                   href="#0"
                 >
                   Cube Manage
@@ -71,7 +71,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                  className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                   href="#0"
                 >
                   Cube Analyse
@@ -79,7 +79,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                  className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                   href="#0"
                 >
                   Cube Launch
@@ -87,7 +87,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                  className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                   href="#0"
                 >
                   Experimentation
@@ -103,7 +103,7 @@ export default function Footer() {
             <ul className="text-sm space-y-2">
               <li>
                 <a
-                  className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                  className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                   href="#0"
                 >
                   Blog
@@ -111,7 +111,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                  className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                   href="#0"
                 >
                   Cheat Sheet
@@ -119,7 +119,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                  className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                   href="#0"
                 >
                   Channel Partners
@@ -127,7 +127,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                  className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                   href="#0"
                 >
                   Affiliate Program
@@ -143,7 +143,7 @@ export default function Footer() {
             <ul className="text-sm space-y-2">
               <li>
                 <a
-                  className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                  className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                   href="#0"
                 >
                   Session Recording
@@ -151,7 +151,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                  className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                   href="#0"
                 >
                   Feature Flags
@@ -159,7 +159,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                  className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                   href="#0"
                 >
                   Heatmaps
@@ -167,7 +167,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                  className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                   href="#0"
                 >
                   Correlation Analysis
@@ -183,7 +183,7 @@ export default function Footer() {
             <ul className="text-sm space-y-2">
               <li>
                 <a
-                  className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                  className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                   href="#0"
                 >
                   About Us
@@ -191,7 +191,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                  className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                   href="#0"
                 >
                   Our Story
@@ -199,7 +199,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                  className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                   href="#0"
                 >
                   Work With Us
@@ -214,7 +214,7 @@ export default function Footer() {
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
             <li>
               <a
-                className="flex justify-center items-center text-indigo-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                className="flex justify-center items-center text-indigo-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                 href="#0"
                 aria-label="Twitter"
               >
@@ -229,7 +229,7 @@ export default function Footer() {
             </li>
             <li className="ml-2">
               <a
-                className="flex justify-center items-center text-indigo-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                className="flex justify-center items-center text-indigo-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                 href="#0"
                 aria-label="Medium"
               >
@@ -244,7 +244,7 @@ export default function Footer() {
             </li>
             <li className="ml-2">
               <a
-                className="flex justify-center items-center text-indigo-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                className="flex justify-center items-center text-indigo-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
                 href="#0"
                 aria-label="Github"
               >
@@ -261,14 +261,14 @@ export default function Footer() {
           {/* Links */}
           <div className="text-sm text-slate-600">
             <a
-              className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+              className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
               href="#0"
             >
               Terms
             </a>{" "}
             ·{" "}
             <a
-              className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out"
+              className="text-slate-500 hover:dark:text-slate-300 text-slate-500 transition duration-150 ease-in-out"
               href="#0"
             >
               Privacy Policy

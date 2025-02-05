@@ -1,5 +1,5 @@
 import Link from "@docusaurus/Link";
-import Translate from '@docusaurus/Translate';
+import Translate from "@docusaurus/Translate";
 
 export default function Hero() {
   return (
@@ -9,20 +9,16 @@ export default function Hero() {
           {/* Hero content */}
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="h1 font-hkgrotesk mb-6" data-aos="fade-up">
-              <Translate
-                description="Hero section main title"
-              >
+              <Translate description="Hero section main title">
                 Transforming AI with Blockchain Technology
               </Translate>
             </h1>
             <p
-              className="text-xl text-slate-500 mb-10"
+              className="text-xl dark:text-slate-300 text-slate-500 mb-10"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <Translate
-                description="Hero section description about Cuckoo Chain and its role in AI development"
-              >
+              <Translate description="Hero section description about Cuckoo Chain and its role in AI development">
                 Cuckoo Chain, an Arbitrum L2 in the Ethereum ecosystem,
                 revolutionizes AI development with unmatched speed, efficiency,
                 and scalability. Perfect for Web3 + AI innovators.
@@ -38,24 +34,20 @@ export default function Hero() {
                   className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group uppercase hover:text-white"
                   href="https://scan.cuckoo.network"
                 >
-                  <Translate
-                    description="Button label to explore the Cuckoo Chain"
-                  >
+                  <Translate description="Button label to explore the Cuckoo Chain">
                     Explore Chain
                   </Translate>{" "}
                   <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                    -&gt;
+                    →
                   </span>
                 </Link>
               </div>
               <div>
                 <Link
-                  className="btn text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600 w-full shadow-sm uppercase hover:text-white"
+                  className="btn dark:text-slate-300 text-white bg-slate-700 hover:bg-slate-600 border-slate-600 w-full shadow-sm uppercase hover:text-white"
                   href="/docs/cuckoo-chain/cuckoo-chain"
                 >
-                  <Translate
-                    description="Button label to read the Cuckoo Chain documentation"
-                  >
+                  <Translate description="Button label to read the Cuckoo Chain documentation">
                     Read Docs
                   </Translate>
                 </Link>

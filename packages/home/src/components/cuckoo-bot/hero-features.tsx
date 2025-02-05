@@ -51,7 +51,7 @@ export default function HeroFeatures() {
               Effortless Text-to-Image Generation
             </h1>
             <p
-              className="text-xl text-gray-400"
+              className="text-xl dark:text-gray-400 text-gray-500"
               data-aos="fade-up"
               data-aos-delay="200"
             >

@@ -11,7 +11,7 @@ export function Features() {
             <h3 className="h3 font-uncut-sans" data-aos="zoom-out">
               AI is centralized by big corporations and so is GPU resources
             </h3>
-            <p className="text-xl text-gray-400">
+            <p className="text-xl dark:text-gray-400 text-gray-500">
               Cuckoo decentralizes AI with computing resource sharing and
               tokenomics from multichain.
             </p>
@@ -73,7 +73,7 @@ export function Features() {
                 </svg>
               </div>
               <h4 className="h4 text-gray-200 text-center mb-2">What is it?</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="dark:text-lg text-gray-400 text-lg text-gray-600 text-center">
                 Decentralized model serving with shared computing resources,
                 coordinated by staking and slashing
               </p>
@@ -119,7 +119,7 @@ export function Features() {
                 </svg>
               </div>
               <h4 className="h4 text-gray-200 text-center mb-2">How to GTM?</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="dark:text-lg text-gray-400 text-lg text-gray-600 text-center">
                 We build the value chain with Web3 and AI companies and word of
                 mouth with end customers
               </p>
@@ -167,7 +167,7 @@ export function Features() {
               <h4 className="h4 text-gray-200 text-center mb-2">
                 Why choose it?
               </h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="dark:text-lg text-gray-400 text-lg text-gray-600 text-center">
                 Cuckoo enpowers AI consumers and builders in a democratized way,
                 so that everyone can contribute or earn.
               </p>

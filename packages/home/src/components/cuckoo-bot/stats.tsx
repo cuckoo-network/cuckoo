@@ -6,7 +6,7 @@ export default function Stats() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Empower Your Creative Process</h1>
-            <p className="text-xl text-gray-400">
+            <p className="text-xl dark:text-gray-400 text-gray-500">
               Designed to fit seamlessly into your team's workflow, Cuckoo Bot
               simplifies collaboration and maximizes productivity.
             </p>
@@ -22,7 +22,7 @@ export default function Stats() {
                 5K
               </div>
               <div
-                className="text-lg text-gray-400"
+                className="dark:text-lg text-gray-400 text-lg text-gray-600"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
@@ -39,7 +39,7 @@ export default function Stats() {
                 147%
               </div>
               <div
-                className="text-lg text-gray-400"
+                className="dark:text-lg text-gray-400 text-lg text-gray-600"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
@@ -55,7 +55,7 @@ export default function Stats() {
                 $20M
               </div>
               <div
-                className="text-lg text-gray-400"
+                className="dark:text-lg text-gray-400 text-lg text-gray-600"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >

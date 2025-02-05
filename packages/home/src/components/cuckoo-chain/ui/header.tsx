@@ -59,7 +59,7 @@ export default function Header({ nav = true }: { nav?: boolean }) {
               <ul className="flex grow justify-end flex-wrap items-center">
                 <li>
                   <Link
-                    className="font-medium text-slate-500 hover:text-slate-300 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                    className="font-medium text-slate-500 hover:dark:text-slate-300 text-slate-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                     href="/signin"
                   >
                     Sign in
@@ -72,7 +72,7 @@ export default function Header({ nav = true }: { nav?: boolean }) {
                   >
                     Get Started{" "}
                     <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                      -&gt;
+                      →
                     </span>
                   </Link>
                 </li>

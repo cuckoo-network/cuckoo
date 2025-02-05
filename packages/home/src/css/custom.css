@@ -1,3 +1,4 @@
+@import "./additional-styles/fonts.css";
 @import "./additional-styles/utility-patterns.css";
 @import "./additional-styles/range-slider.css";
 @import "./additional-styles/toggle-switch.css";
@@ -16,50 +17,65 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #262626;
+  --ifm-color-primary-dark: #191919;
+  --ifm-color-primary-darker: #0c0c0c;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #4c4c4c;
+  --ifm-color-primary-lighter: #666666;
+  --ifm-color-primary-lightest: #7f7f7f;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
-  --ifm-navbar-background-color: rgb(17, 24, 39);
-  --ifm-background-color: rgb(17, 24, 39) !important;
-  --ifm-footer-background-color: rgb(17, 24, 39);
-  --ifm-hero-background-color: rgb(17, 24, 39);
+  --ifm-link-color: #0366d6;
+  --ifm-link-hover-color: #0554a3;
 
-  --ifm-font-family-base: -apple-system, Inter, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Helvetica Neue", "Ubuntu", sans-serif, Microsoft YaHei !important;
+  --ifm-navbar-background-color: white;
+  --ifm-background-color: white;
+  --ifm-footer-background-color: white;
+  --ifm-hero-background-color: white;
 
-  --ifm-font-size-base: 16px;
+  --ifm-font-family-base: "SF Pro", "SF Pro Display", "SF Pro Text",
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue",
+    "Ubuntu", sans-serif, Microsoft YaHei !important;
+
+  --ifm-font-size-base: 17px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #3b82f6;
-  --ifm-color-primary-dark: #2372f5;
-  --ifm-color-primary-darker: #0b63f3;
-  --ifm-color-primary-darkest: #0a59da;
-  --ifm-color-primary-light: #5392f7;
-  --ifm-color-primary-lighter: #6ca1f8;
-  --ifm-color-primary-lightest: #84b1f9;
+  --ifm-color-primary: #7f7f7f;
+  --ifm-color-primary-dark: #666666;
+  --ifm-color-primary-darker: #4c4c4c;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #0c0c0c;
+  --ifm-color-primary-lighter: #191919;
+  --ifm-color-primary-lightest: #262626;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ifm-link-color: #0366d6;
+  --ifm-link-hover-color: #0554a3;
 
   --ifm-navbar-background-color: rgb(17, 24, 39);
   --ifm-background-color: rgb(17, 24, 39) !important;
   --ifm-footer-background-color: rgb(17, 24, 39);
   --ifm-hero-background-color: rgb(17, 24, 39);
+
+  .navbar {
+    border-bottom: 1px solid var(--ifm-color-gray-800);
+  }
+
+  .footer {
+    border-top: 1px solid var(--ifm-color-gray-800);
+  }
 }
 
 .navbar {
-  border-bottom: 1px solid var(--ifm-color-gray-800);
+  border-bottom: 1px solid var(--ifm-color-gray-500);
 }
 
 .footer {
-  border-top: 1px solid var(--ifm-color-gray-800);
+  border-top: 1px solid var(--ifm-color-gray-500);
 }
 
 a:hover {

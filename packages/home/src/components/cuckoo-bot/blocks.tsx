@@ -8,7 +8,7 @@ export default function Blocks() {
             <h2 className="h2 mb-4">
               The majority our customers do not understand their workflows.
             </h2>
-            <p className="text-xl text-gray-400">
+            <p className="text-xl dark:text-gray-400 text-gray-500">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum.
             </p>
@@ -52,7 +52,7 @@ export default function Blocks() {
                 />
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="dark:text-lg text-gray-400 text-lg text-gray-600 text-center">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat.
@@ -93,7 +93,7 @@ export default function Blocks() {
                 />
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="dark:text-lg text-gray-400 text-lg text-gray-600 text-center">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat.
@@ -145,7 +145,7 @@ export default function Blocks() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="dark:text-lg text-gray-400 text-lg text-gray-600 text-center">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat.
@@ -190,7 +190,7 @@ export default function Blocks() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="dark:text-lg text-gray-400 text-lg text-gray-600 text-center">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat.
@@ -232,7 +232,7 @@ export default function Blocks() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="dark:text-lg text-gray-400 text-lg text-gray-600 text-center">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat.
@@ -281,7 +281,7 @@ export default function Blocks() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="dark:text-lg text-gray-400 text-lg text-gray-600 text-center">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat.

@@ -3,11 +3,15 @@ import Link from "@docusaurus/Link";
 import Translate from "@docusaurus/Translate";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
-export function News({tag}: {tag?: string}) {
-  const {i18n: {currentLocale}} = useDocusaurusContext();
+export function News({ tag }: { tag?: string }) {
+  const {
+    i18n: { currentLocale },
+  } = useDocusaurusContext();
   let filtered = require(`../../pages/blogs/${currentLocale}`);
   if (tag) {
-    filtered = filtered.filter(it => it.metadata.tags.some(t => t.label === tag));
+    filtered = filtered.filter((it) =>
+      it.metadata.tags.some((t) => t.label === tag),
+    );
   }
   const posts = filtered.slice(0, 3);
 
@@ -21,9 +25,7 @@ export function News({tag}: {tag?: string}) {
               className="h3 font-uncut-sans aos-init aos-animate"
               data-aos="fade-up"
             >
-              <Translate
-                description="Title for the news section"
-              >
+              <Translate description="Title for the news section">
                 Refreshing news from the community
               </Translate>
             </h3>
@@ -38,14 +40,13 @@ export function News({tag}: {tag?: string}) {
             </div>
           </div>
 
-          <Link className="float-right hover:text-white" href={tag ? `/blog/tags/${slugify(tag)}` : "/blogs/"}>
-            <Translate
-              description="Read more link text"
-            >
-              Read more
-            </Translate>
+          <Link
+            className="float-right dark:hover:text-white hover:text-gray-700"
+            href={tag ? `/blog/tags/${slugify(tag)}` : "/blogs/"}
+          >
+            <Translate description="Read more link text">Read more</Translate>
             <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-              -&gt;
+              →
             </span>
           </Link>
         </div>
@@ -58,6 +59,6 @@ function slugify(input: string): string {
   return input
     .toLowerCase()
     .trim()
-    .replace(/[\s\W-]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+    .replace(/[\s\W-]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 }

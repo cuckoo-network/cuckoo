@@ -1,4 +1,4 @@
-import Translate, { translate } from '@docusaurus/Translate';
+import Translate, { translate } from "@docusaurus/Translate";
 
 export function Process() {
   return (
@@ -13,7 +13,7 @@ export function Process() {
               </Translate>
             </h3>
             <p
-              className="text-xl text-gray-400"
+              className="text-xl dark:text-gray-400 text-gray-500"
               data-aos="fade-up"
               data-aos-delay="200"
             >
@@ -71,15 +71,19 @@ export function Process() {
               </svg>
               <h4 className="h4 mb-2 text-center">
                 <span className="text-gray-400">1</span>.{" "}
-                <Translate description="Trust step title">Establish Trust</Translate>
+                <Translate description="Trust step title">
+                  Establish Trust
+                </Translate>
               </h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="dark:text-lg text-gray-400 text-lg text-gray-600 text-center">
                 <Translate
                   description="Trust step description"
                   values={{
                     stakingLink: (
                       <a href="/portal/staking">
-                        <Translate description="Link text">stake and vote</Translate>
+                        <Translate description="Link text">
+                          stake and vote
+                        </Translate>
                       </a>
                     ),
                   }}
@@ -138,7 +142,7 @@ export function Process() {
                   Mine and Earn
                 </Translate>
               </h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="dark:text-lg text-gray-400 text-lg text-gray-600 text-center">
                 <Translate description="Tasks & Rewards step description">
                   Gen AI Apps assign tasks to GPU miners via the Cuckoo AI node,
                   with daily ERC20 payments based on results.
@@ -184,7 +188,7 @@ export function Process() {
                   Modular AI
                 </Translate>
               </h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="dark:text-lg text-gray-400 text-lg text-gray-600 text-center">
                 <Translate description="Modular Support step description">
                   Our modular components ensure that AI remains accessible,
                   transparent, anti-censorship, and privacy-preserving.

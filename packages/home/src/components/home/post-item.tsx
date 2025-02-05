@@ -28,13 +28,15 @@ export default function PostItem({ ...props }) {
         <h3 className="h4 mb-2">
           <Link
             href={props.metadata.permalink}
-            className="hover:text-gray-100 transition duration-150 ease-in-out text-white"
+            className="dark:hover:text-gray-100 hover:text-gray-400 transition duration-150 ease-in-out dark:text-white"
           >
             {props.metadata.title}
           </Link>
         </h3>
       </header>
-      <p className="text-md text-gray-400 grow">{props.metadata.description}</p>
+      <p className="text-md dark:text-gray-400 text-gray-600 grow">
+        {props.metadata.description}
+      </p>
       <footer className="flex items-center mt-4">
         <Link href={props.metadata.authors[0].url}>
           <img
@@ -48,12 +50,14 @@ export default function PostItem({ ...props }) {
         <div className="font-medium">
           <Link
             href={props.metadata.authors[0]?.url}
-            className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
+            className="dark:text-gray-200 dark:hover:text-gray-100 hover:text-gray-400 transition duration-150 ease-in-out"
           >
             {props.metadata.authors[0]?.name}
           </Link>
           <span className="text-gray-700"> - </span>
-          <span className="text-gray-500">{props.metadata.date.slice(0, 10)}</span>
+          <span className="text-gray-500">
+            {props.metadata.date.slice(0, 10)}
+          </span>
         </div>
       </footer>
     </article>
