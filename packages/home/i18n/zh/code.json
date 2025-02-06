@@ -298,8 +298,9 @@
     "message": "英雄插图",
     "description": "英雄插图的替代文本"
   },
-  "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "Cuckoo AI 去中心化 AI 创意平台，面向创作者和建设者",
+  "Access AI apps and earn from staking and providing GPU power": {
+    "message": "访问人工智能应用，并通过质押和提供 GPU 算力赚取收益",
+
     "description": "网站标语"
   },
   "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
@@ -662,10 +663,6 @@
   "Introducing Cuckoo Network Airdrop Portal": {
     "message": "介绍 Cuckoo Network 空投门户",
     "description": "主页英雄部分的新闻消息"
-  },
-  "Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "去中心化 AI 创意平台，面向创作者和建设者",
-    "description": "网站标语"
   },
   "Create AI Art": {
     "message": "创建 AI 艺术",

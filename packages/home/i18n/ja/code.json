@@ -298,8 +298,9 @@
     "message": "ヒーローイラスト",
     "description": "ヒーローイラストの代替テキスト"
   },
-  "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "Cuckoo AI 分散型AIクリエイティブプラットフォーム for Creators & Builders",
+  "Access AI apps and earn from staking and providing GPU power": {
+    "message": "AIアプリにアクセスし、ステーキングやGPUパワーの提供で収益を得る",
+
     "description": "サイトのタグライン"
   },
   "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
@@ -663,10 +664,6 @@
   "Introducing Cuckoo Network Airdrop Portal": {
     "message": "Cuckooネットワークエアドロップポータルを紹介します",
     "description": "ホームページのヒーローセクションのニュースメッセージ"
-  },
-  "Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "クリエイターとビルダーのための分散型AIクリエイティブプラットフォーム",
-    "description": "サイトのタグライン"
   },
   "Create AI Art": {
     "message": "AIアートを作成する",

@@ -133,19 +133,6 @@ export default function Blog() {
           </div>
         </div>
       </section>
-
-      <section>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <iframe
-            src="https://cuckoonetwork.substack.com/embed"
-            width={"100%"}
-            height={320}
-            style={{ border: "0px solid #EEE", background: "#111827" }}
-            frameBorder={0}
-            scrolling="no"
-          />
-        </div>
-      </section>
     </Layout>
   );
 }

@@ -6,7 +6,7 @@ import commit from "./src/latest-commit.json";
 
 const config: Config = {
   title: "Cuckoo AI Network",
-  tagline: "Decentralized AI Creative Platform for Creators & Builders",
+  tagline: "Access AI apps and earn from staking and providing GPU power",
   customFields: {
     description:
       "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.",

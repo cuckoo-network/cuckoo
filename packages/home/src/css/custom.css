@@ -35,11 +35,118 @@
   --ifm-footer-background-color: white;
   --ifm-hero-background-color: white;
 
+  /* SF Pro optimized typography */
+  article h1 {
+    font-size: 1.875rem; /* 30px */
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 2rem 0 1rem;
+    letter-spacing: -0.015em;
+  }
+
+  article h2 {
+    font-size: 1.5rem; /* 24px */
+    font-weight: 500;
+    line-height: 1.3;
+    margin: 2rem 0 0.75rem;
+    letter-spacing: -0.01em;
+  }
+
+  article h3 {
+    font-size: 1.25rem; /* 20px */
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 2rem 0 0.75rem;
+    letter-spacing: -0.005em;
+  }
+
+  article h3 {
+    font-size: 1.125rem; /* 18px */
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 1.75rem 0 0.5rem;
+  }
+
+  article h4 {
+    font-size: 1.125rem; /* 18px */
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  article h5 {
+    font-size: 1rem; /* 16px */
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  article h6 {
+    font-size: 0.875rem; /* 14px */
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 1.5rem 0 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
   --ifm-font-family-base: "SF Pro", "SF Pro Display", "SF Pro Text",
     -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue",
     "Ubuntu", sans-serif, Microsoft YaHei !important;
 
   --ifm-font-size-base: 17px;
+}
+
+/* Card styles */
+.card-wrapper {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.card {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: all var(--ifm-transition-fast) cubic-bezier(0.4, 0, 0.2, 1);
+  height: 100%;
+  margin: 4px;
+}
+
+.card:hover {
+  border-color: var(--ifm-color-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card__header h3 {
+  margin: 0 !important;
+  color: var(--ifm-color-emphasis-900);
+  transition: color var(--ifm-transition-fast) ease;
+}
+
+.card-wrapper:hover .card__header h3 {
+  color: var(--ifm-color-primary);
+}
+
+.card__header-external {
+  display: flex;
+  align-items: center;
+}
+
+.card__header-external h3 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.external-icon {
+  width: 0.875rem;
+  height: 0.875rem;
+  margin-left: 0.25rem;
+  opacity: 0.6;
+  transition: opacity var(--ifm-transition-fast) ease;
+}
+
+.card-wrapper:hover .external-icon {
+  opacity: 1;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -80,12 +187,6 @@
 
 a:hover {
   text-decoration: none;
-}
-
-em {
-  background-color: yellow;
-  font-style: normal;
-  color: black;
 }
 
 blockquote {

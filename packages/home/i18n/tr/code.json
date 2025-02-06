@@ -298,8 +298,9 @@
     "message": "Kahraman İllüstrasyonu",
     "description": "Kahraman illüstrasyonu için alternatif metin"
   },
-  "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "Cuckoo AI Merkezi Olmayan AI Yaratıcı Platformu Yaratıcılar ve Geliştiriciler için",
+  "Access AI apps and earn from staking and providing GPU power": {
+    "message": "Yapay zeka uygulamalarına erişin ve staking ile GPU gücü sağlamaktan kazanın",
+
     "description": "Site sloganı"
   },
   "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
@@ -663,10 +664,6 @@
   "Introducing Cuckoo Network Airdrop Portal": {
     "message": "Cuckoo Network Airdrop Portalını Tanıtıyoruz",
     "description": "Ana sayfa kahraman bölümünün haber mesajı"
-  },
-  "Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "Yaratıcılar ve Geliştiriciler için Merkezi Olmayan AI Yaratıcı Platformu",
-    "description": "Site sloganı"
   },
   "Create AI Art": {
     "message": "AI Sanatı Oluştur",

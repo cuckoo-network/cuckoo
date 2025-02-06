@@ -298,8 +298,9 @@
     "message": "히어로 일러스트레이션",
     "description": "히어로 일러스트레이션의 대체 텍스트"
   },
-  "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "Cuckoo AI: 창작자 및 빌더를 위한 분산형 AI 창작 플랫폼",
+  "Access AI apps and earn from staking and providing GPU power": {
+    "message": "AI 앱에 액세스하고 스테이킹 및 GPU 전력 제공으로 수익 창출",
+
     "description": "사이트 태그라인"
   },
   "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
@@ -663,10 +664,6 @@
   "Introducing Cuckoo Network Airdrop Portal": {
     "message": "Cuckoo 네트워크 에어드랍 포털 소개",
     "description": "홈페이지 히어로 섹션의 뉴스 메시지"
-  },
-  "Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "창작자 및 빌더를 위한 분산형 AI 창작 플랫폼",
-    "description": "사이트 태그라인"
   },
   "Create AI Art": {
     "message": "AI 아트 생성하기",

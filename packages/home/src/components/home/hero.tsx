@@ -73,7 +73,7 @@ export function Hero() {
             >
               {translate({
                 message:
-                  "Decentralized AI Creative Platform for Creators & Builders",
+                  "Access AI apps and earn from staking and providing GPU power",
                 description: "Site tagline",
               })}
             </h1>

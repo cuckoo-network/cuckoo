@@ -298,8 +298,8 @@
     "message": "تصویر قهرمان",
     "description": "The alt text for the hero illustration"
   },
-  "Cuckoo AI Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "Cuckoo AI: پلتفرم خلاق هوش مصنوعی غیرمتمرکز برای خالقان و سازندگان",
+  "Access AI apps and earn from staking and providing GPU power": {
+    "message": "دسترسی به برنامه‌های هوش مصنوعی و کسب درآمد از استیکینگ و ارائه قدرت پردازشی GPU",
     "description": "The site tagline"
   },
   "Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain. Share, generate, and unlock the power of decentralized AI.": {
@@ -663,10 +663,6 @@
   "Introducing Cuckoo Network Airdrop Portal": {
     "message": "معرفی پورتال ایردراپ شبکه Cuckoo",
     "description": "Home page hero section's news message"
-  },
-  "Decentralized AI Creative Platform for Creators & Builders": {
-    "message": "پلتفرم خلاق هوش مصنوعی غیرمتمرکز برای خالقان و سازندگان",
-    "description": "Site tagline"
   },
   "Create AI Art": {
     "message": "هنر هوش مصنوعی ایجاد کنید",
