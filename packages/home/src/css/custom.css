@@ -35,66 +35,66 @@
   --ifm-footer-background-color: white;
   --ifm-hero-background-color: white;
 
-  /* SF Pro optimized typography */
-  article h1 {
-    font-size: 1.875rem; /* 30px */
-    font-weight: 600;
-    line-height: 1.3;
-    margin: 2rem 0 1rem;
-    letter-spacing: -0.015em;
-  }
-
-  article h2 {
-    font-size: 1.5rem; /* 24px */
-    font-weight: 500;
-    line-height: 1.3;
-    margin: 2rem 0 0.75rem;
-    letter-spacing: -0.01em;
-  }
-
-  article h3 {
-    font-size: 1.25rem; /* 20px */
-    font-weight: 500;
-    line-height: 1.4;
-    margin: 2rem 0 0.75rem;
-    letter-spacing: -0.005em;
-  }
-
-  article h3 {
-    font-size: 1.125rem; /* 18px */
-    font-weight: 500;
-    line-height: 1.4;
-    margin: 1.75rem 0 0.5rem;
-  }
-
-  article h4 {
-    font-size: 1.125rem; /* 18px */
-    font-weight: 500;
-    line-height: 1.5;
-    margin: 1.5rem 0 0.5rem;
-  }
-
-  article h5 {
-    font-size: 1rem; /* 16px */
-    font-weight: 500;
-    line-height: 1.5;
-    margin: 1.5rem 0 0.5rem;
-  }
-
-  article h6 {
-    font-size: 0.875rem; /* 14px */
-    font-weight: 500;
-    line-height: 1.5;
-    margin: 1.5rem 0 0.5rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-
   --ifm-font-family-base: "SF Pro", "SF Pro Display", "SF Pro Text",
     -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue",
     "Ubuntu", sans-serif, Microsoft YaHei !important;
 
   --ifm-font-size-base: 17px;
+}
+
+/* SF Pro optimized typography */
+article h1 {
+  font-size: 1.875rem; /* 30px */
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 2rem 0 1rem;
+  letter-spacing: -0.015em;
+}
+
+article h2 {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 500;
+  line-height: 1.3;
+  margin: 2rem 0 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+article h3 {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 2rem 0 0.75rem;
+  letter-spacing: -0.005em;
+}
+
+article h3 {
+  font-size: 1.125rem; /* 18px */
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 1.75rem 0 0.5rem;
+}
+
+article h4 {
+  font-size: 1.125rem; /* 18px */
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 1.5rem 0 0.5rem;
+}
+
+article h5 {
+  font-size: 1rem; /* 16px */
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 1.5rem 0 0.5rem;
+}
+
+article h6 {
+  font-size: 0.875rem; /* 14px */
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 1.5rem 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 /* Card styles */
