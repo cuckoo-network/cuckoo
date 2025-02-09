@@ -367,9 +367,9 @@ Price data in the app may be inaccurate or delayed. Copyright © ${new Date().ge
       darkTheme: prismThemes.dracula,
     },
     colorMode: {
-      defaultMode: "dark",
+      defaultMode: "light",
       disableSwitch: false,
-      respectPrefersColorScheme: false,
+      respectPrefersColorScheme: true,
     },
   } satisfies Preset.ThemeConfig,
 };
