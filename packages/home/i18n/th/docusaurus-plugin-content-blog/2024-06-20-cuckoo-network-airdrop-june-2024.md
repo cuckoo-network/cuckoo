@@ -2,7 +2,7 @@
 title: "Cuckoo Network Airdrop: มิถุนายน 2024"
 authors: [lark]
 tags: [airdrop, cuckoo chain]
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20Airdrop%3A%20มิถุนายน%202024"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%20Airdrop%3A%20มิถุนายน%202024"
 description: เข้าร่วมใน Cuckoo Network Airdrop ในเดือนมิถุนายน 2024 โต้ตอบกับ Alpha และ Sepolia Testnets ของเราเพื่อรับส่วนแบ่งของ 30,000 $CAI tokens อย่าพลาด!
 ---
 

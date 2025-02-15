@@ -2,7 +2,7 @@
 title: "カッコウネットワークとスワンチェーンが協力して分散型AIを革新"
 authors: [lark]
 tags: [パートナーシップ, ai, 会社, 製品, カッコウチャット]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=カッコウネットワークとスワンチェーンが協力して分散型AIを革新
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=カッコウネットワークとスワンチェーンが協力して分散型AIを革新
 description: カッコウネットワークとスワンチェーンが協力し、強力なGPUリソースをカッコウのAIモデル提供マーケットプレイスに統合することで、分散型AIを革新します。このコラボレーションは、AI開発者とクリエイターに強化された処理能力を提供し、アニメにインスパイアされた言語モデルの作成を可能にし、分散型AIイノベーションの機会を拡大します。
 keywords:
   [

@@ -5,7 +5,7 @@ keywords:
   [ngành công nghiệp AI, Anthropic, Google, OpenAI, Apple, AGI, hạ tầng AI]
 authors: [lark]
 description: Một phân tích sâu sắc về quỹ đạo của ngành công nghiệp AI vào năm 2025, nêu bật các cấu trúc quyền lực mới nổi, thách thức đối với các công ty đã thành lập và những cược quan trọng định hình tương lai của công nghệ.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Ph%C3%A2n%20T%C3%ADch%20Ng%C3%A0nh%20C%C3%B4ng%20Nghi%E1%BB%87p%20AI%202025:%20Ng%C6%B0%E1%BB%9Di%20Th%E1%BA%AFng,%20K%E1%BA%BB%20Thua%20v%C3%A0%20Nh%E1%BB%AFng%20C%C6%B0%E1%BB%A3c%20Quan%20Tr%E1%BB%8Dng"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Ph%C3%A2n%20T%C3%ADch%20Ng%C3%A0nh%20C%C3%B4ng%20Nghi%E1%BB%87p%20AI%202025:%20Ng%C6%B0%E1%BB%9Di%20Th%E1%BA%AFng,%20K%E1%BA%BB%20Thua%20v%C3%A0%20Nh%E1%BB%AFng%20C%C6%B0%E1%BB%A3c%20Quan%20Tr%E1%BB%8Dng"
 ---
 
 # Phân Tích Ngành Công Nghiệp AI 2025: Người Thắng, Kẻ Thua và Những Cược Quan Trọng
@@ -16,7 +16,7 @@ Bối cảnh AI đang trải qua một sự chuyển đổi lớn. Trong hai tu�
 
 Đây không chỉ là một báo cáo—nó là một bản đồ của tương lai ngành công nghiệp. Hãy cùng khám phá những người thắng, kẻ thua, và những cược quan trọng định hình năm 2025.
 
-![Phân Tích Ngành Công Nghiệp AI 2025: Người Thắng, Kẻ Thua và Những Cược Quan Trọng](https://cuckoo-portal-frontend.onrender.com/api/og?title=Ph%C3%A2n%20T%C3%ADch%20Ng%C3%A0nh%20C%C3%B4ng%20Nghi%E1%BB%87p%20AI%202025:%20Ng%C6%B0%E1%BB%9Di%20Th%E1%BA%AFng,%20K%E1%BA%BB%20Thua%20v%C3%A0%20Nh%E1%BB%AFng%20C%C6%B0%E1%BB%A3c%20Quan%20Tr%E1%BB%8Dng)
+![Phân Tích Ngành Công Nghiệp AI 2025: Người Thắng, Kẻ Thua và Những Cược Quan Trọng](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Ph%C3%A2n%20T%C3%ADch%20Ng%C3%A0nh%20C%C3%B4ng%20Nghi%E1%BB%87p%20AI%202025:%20Ng%C6%B0%E1%BB%9Di%20Th%E1%BA%AFng,%20K%E1%BA%BB%20Thua%20v%C3%A0%20Nh%E1%BB%AFng%20C%C6%B0%E1%BB%A3c%20Quan%20Tr%E1%BB%8Dng)
 
 ## Những Người Thắng: Cấu Trúc Quyền Lực Mới Đang Nổi Lên
 

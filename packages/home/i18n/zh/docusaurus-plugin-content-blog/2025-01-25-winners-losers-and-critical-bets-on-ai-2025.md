@@ -5,7 +5,7 @@ keywords:
   [AI 行业, Anthropic, Google, OpenAI, Apple, AGI, AI 基础设施]
 authors: [lark]
 description: 深入分析 2025 年 AI 行业的轨迹，突出新兴权力结构、老牌企业面临的挑战，以及塑造技术未来的关键赌注。
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=2025%20年%20AI%20行业分析：赢家、输家和关键赌注"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=2025%20年%20AI%20行业分析：赢家、输家和关键赌注"
 ---
 
 # 2025 年 AI 行业分析：赢家、输家和关键赌注
@@ -16,7 +16,7 @@ AI 领域正在经历一场剧变。在过去的两周里，我们与领先的 A
 
 这不仅仅是一份报告，而是行业未来的地图。让我们深入了解定义 2025 年的赢家、输家和关键赌注。
 
-![2025 年 AI 行业分析：赢家、输家和关键赌注](https://cuckoo-portal-frontend.onrender.com/api/og?title=2025%20年%20AI%20行业分析：赢家、输家和关键赌注)
+![2025 年 AI 行业分析：赢家、输家和关键赌注](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=2025%20年%20AI%20行业分析：赢家、输家和关键赌注)
 
 ## 赢家：新权力结构的崛起
 

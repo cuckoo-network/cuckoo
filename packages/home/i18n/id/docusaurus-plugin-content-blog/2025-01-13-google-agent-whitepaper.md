@@ -4,14 +4,14 @@ tags: [agen AI, arsitektur kognitif, makalah putih Google]
 keywords: [AI, agen, arsitektur kognitif, Google, sistem AI]
 authors: [lark]
 description: Makalah putih Google mengungkap potensi transformatif agen AI, menunjukkan kemampuan mereka untuk memahami, bernalar, dan mempengaruhi dunia nyata. Temukan bagaimana agen ini berbeda dari model AI tradisional melalui akses informasi real-time, kemampuan mengambil tindakan, dan integrasi alat.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Makalah%20Putih%20Agen%20Google"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Makalah%20Putih%20Agen%20Google"
 ---
 
 # Makalah Putih Agen Google
 
 Sementara model bahasa seperti GPT-4 dan Gemini telah menarik perhatian publik dengan kemampuan percakapannya, revolusi yang lebih mendalam sedang terjadi: kebangkitan agen AI. Seperti yang dijelaskan dalam makalah putih terbaru Google, agen ini bukan hanya chatbot pintar – mereka adalah sistem AI yang dapat secara aktif memahami, bernalar tentang, dan mempengaruhi dunia nyata.
 
-![](https://cuckoo-portal-frontend.onrender.com/api/og?title=Makalah%20Putih%20Agen%20Google)
+![](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Makalah%20Putih%20Agen%20Google)
 
 ## Evolusi Kemampuan AI
 

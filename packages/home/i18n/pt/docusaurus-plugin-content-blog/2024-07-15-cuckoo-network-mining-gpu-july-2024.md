@@ -2,7 +2,7 @@
 title: "Mineração da Rede Cuckoo com GPU Julho 2024"
 authors: [lark]
 tags: [cuckoo chain, mineração]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Mineração%20da%20Rede%20Cuckoo%20com%20GPU%20Julho%202024
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Mineração%20da%20Rede%20Cuckoo%20com%20GPU%20Julho%202024
 description: A partir de julho de 2024, a Rede Cuckoo está oferecendo recompensas diárias de 300 $CAI por GPU para mineradores. Mergulhe em nosso guia para aprender como configurar seu nó de mineração e começar a ganhar.
 ---
 

@@ -5,7 +5,7 @@ keywords:
   [AI endüstrisi, Anthropic, Google, OpenAI, Apple, AGI, AI altyapısı]
 authors: [lark]
 description: 2025'te AI endüstrisinin gidişatına derinlemesine bir bakış, ortaya çıkan güç yapıları, yerleşik oyuncular için zorluklar ve teknolojinin geleceğini şekillendiren kritik bahisler.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=2025%20AI%20End%C3%BCstri%20Analizi:%20Kazananlar,%20Kaybedenler%20ve%20Kritik%20Bahisler"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=2025%20AI%20End%C3%BCstri%20Analizi:%20Kazananlar,%20Kaybedenler%20ve%20Kritik%20Bahisler"
 ---
 
 # 2025 AI Endüstri Analizi: Kazananlar, Kaybedenler ve Kritik Bahisler
@@ -16,7 +16,7 @@ AI manzarası büyük bir değişim geçiriyor. Geçtiğimiz iki hafta boyunca, 
 
 Bu sadece bir rapor değil—endüstrinin geleceğinin bir haritası. 2025'i tanımlayan kazananlara, kaybedenlere ve kritik bahislere dalalım.
 
-![2025 AI Endüstri Analizi: Kazananlar, Kaybedenler ve Kritik Bahisler](https://cuckoo-portal-frontend.onrender.com/api/og?title=2025%20AI%20End%C3%BCstri%20Analizi:%20Kazananlar,%20Kaybedenler%20ve%20Kritik%20Bahisler)
+![2025 AI Endüstri Analizi: Kazananlar, Kaybedenler ve Kritik Bahisler](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=2025%20AI%20End%C3%BCstri%20Analizi:%20Kazananlar,%20Kaybedenler%20ve%20Kritik%20Bahisler)
 
 ## Kazananlar: Yeni Bir Güç Yapısı Ortaya Çıkıyor
 

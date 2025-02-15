@@ -5,7 +5,7 @@ keywords:
   [AI industry, Anthropic, Google, OpenAI, Apple, AGI, AI infrastructure]
 authors: [lark]
 description: An in-depth analysis of the AI industry's trajectory in 2025, highlighting emerging power structures, challenges for established players, and critical bets shaping the future of technology.
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=2025%20AI%20Industry%20Analysis:%20Winners,%20Losers,%20and%20Critical%20Bets
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=2025%20AI%20Industry%20Analysis:%20Winners,%20Losers,%20and%20Critical%20Bets
 ---
 
 # 2025 AI Industry Analysis: Winners, Losers, and Critical Bets
@@ -16,7 +16,7 @@ The AI landscape is undergoing a seismic shift. Over the past two weeks, we host
 
 This is not just a report—it's a map of the industry's future. Let’s dive into the winners, the losers, and the critical bets defining 2025.
 
-![2025 AI Industry Analysis: Winners, Losers, and Critical Bets](https://cuckoo-portal-frontend.onrender.com/api/og?title=2025%20AI%20Industry%20Analysis:%20Winners,%20Losers,%20and%20Critical%20Bets)
+![2025 AI Industry Analysis: Winners, Losers, and Critical Bets](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=2025%20AI%20Industry%20Analysis:%20Winners,%20Losers,%20and%20Critical%20Bets)
 
 ## The Winners: A New Power Structure Emerging
 

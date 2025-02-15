@@ -4,14 +4,14 @@ tags: [blockchain, AI, decentralized computing, smart contracts]
 keywords: [Ritual, blockchain AI, decentralized AI, smart contracts, Web3 infrastructure]
 authors: [lark]
 description: Ritual, a startup founded by former Polychain investor Niraj Pant and Akilesh Potti, is pioneering the integration of AI capabilities into blockchain environments, backed by a $25M Series A. The company aims to revolutionize smart contracts and decentralized applications with AI-driven functionalities.
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual:%20The%20$25M%20Bet%20on%20Making%20Blockchains%20Think
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Ritual:%20The%20$25M%20Bet%20on%20Making%20Blockchains%20Think
 ---
 
 # Ritual: The $25M Bet on Making Blockchains Think
 
 Ritual, founded in 2023 by former Polychain investor Niraj Pant and Akilesh Potti, is an ambitious project at the intersection of blockchain and AI. Backed by a $25M Series A led by Archetype and strategic investment from Polychain Capital, the company aims to address critical infrastructure gaps in enabling complex on-chain and off-chain interactions. With a team of 30 experts from leading institutions and firms, Ritual is building a protocol that integrates AI capabilities directly into blockchain environments, targeting use cases like natural-language-generated smart contracts and dynamic market-driven lending protocols.
 
-![Ritual: The $25M Bet on Making Blockchains Think](https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual:%20The%20$25M%20Bet%20on%20Making%20Blockchains%20Think)
+![Ritual: The $25M Bet on Making Blockchains Think](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Ritual:%20The%20$25M%20Bet%20on%20Making%20Blockchains%20Think)
 
 ## Why Customers Need Web3 for AI
 

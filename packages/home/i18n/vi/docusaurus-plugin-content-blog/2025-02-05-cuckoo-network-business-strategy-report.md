@@ -4,12 +4,12 @@ tags: [AI phi tập trung, blockchain, khai thác GPU, dịch vụ AI, web3]
 keywords: [Mạng Lưới Cuckoo, AI phi tập trung, công nghệ blockchain, GPU DePIN, hạ tầng AI]
 authors: [lark]
 description: Chiến lược 2025 của Mạng Lưới Cuckoo tập trung vào việc tích hợp blockchain, tính toán GPU phi tập trung và dịch vụ AI để cung cấp giải pháp toàn diện. Báo cáo này phác thảo vị trí thị trường, chiến lược kiếm tiền và lộ trình kỹ thuật để thiết lập Cuckoo như một lãnh đạo trong hạ tầng AI phi tập trung.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=B%C3%A1o%20C%C3%A1o%20Chi%E1%BA%BFn%20L%C6%B0%E1%BB%A3c%20Kinh%20Doanh%20M%E1%BA%A1ng%20L%C6%B0%E1%BB%9Bi%20Cuckoo%202025"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=B%C3%A1o%20C%C3%A1o%20Chi%E1%BA%BFn%20L%C6%B0%E1%BB%A3c%20Kinh%20Doanh%20M%E1%BA%A1ng%20L%C6%B0%E1%BB%9Bi%20Cuckoo%202025"
 ---
 
 # Báo Cáo Chiến Lược Kinh Doanh Mạng Lưới Cuckoo 2025
 
-![](https://cuckoo-portal-frontend.onrender.com/api/og?title=B%C3%A1o%20C%C3%A1o%20Chi%E1%BA%BFn%20L%C6%B0%E1%BB%A3c%20Kinh%20Doanh%20M%E1%BA%A1ng%20L%C6%B0%E1%BB%9Bi%20Cuckoo%202025)
+![](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=B%C3%A1o%20C%C3%A1o%20Chi%E1%BA%BFn%20L%C6%B0%E1%BB%A3c%20Kinh%20Doanh%20M%E1%BA%A1ng%20L%C6%B0%E1%BB%9Bi%20Cuckoo%202025)
 
 ## 1. Định Vị Thị Trường & Phân Tích Cạnh Tranh
 

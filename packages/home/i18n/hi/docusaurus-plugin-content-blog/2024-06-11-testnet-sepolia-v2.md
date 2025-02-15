@@ -2,7 +2,7 @@
 title: "Arbitrum पर Cuckoo Sepolia V2 की घोषणा"
 authors: [dora]
 tags: [product, cuckoo chain, roadmap]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Arbitrum%20%E0%A4%AA%E0%A4%B0%20Cuckoo%20Sepolia%20V2%20%E0%A4%95%E0%A5%80%20%E0%A4%98%E0%A5%8B%E0%A4%B7%E0%A4%A3%E0%A4%BE
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Arbitrum%20%E0%A4%AA%E0%A4%B0%20Cuckoo%20Sepolia%20V2%20%E0%A4%95%E0%A5%80%20%E0%A4%98%E0%A5%8B%E0%A4%B7%E0%A4%A3%E0%A4%BE
 ---
 हम Arbitrum पर निर्मित एक उन्नत टेस्टनेट, Cuckoo Sepolia V2 के लॉन्च की घोषणा करते हुए रोमांचित हैं। यह महत्वपूर्ण परिवर्तन हमारे समुदाय से प्राप्त मूल्यवान फीडबैक का प्रत्यक्ष उत्तर है, जिसका उद्देश्य हमारे प्लेटफॉर्म की उपयोगिता और स्केलेबिलिटी को बढ़ाना है।
 

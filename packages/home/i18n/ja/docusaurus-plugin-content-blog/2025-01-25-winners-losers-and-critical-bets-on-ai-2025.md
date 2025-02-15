@@ -5,7 +5,7 @@ keywords:
   [AI産業, Anthropic, Google, OpenAI, Apple, AGI, AIインフラストラクチャ]
 authors: [lark]
 description: 2025年のAI産業の軌跡を深く分析し、新たに台頭する権力構造、既存プレイヤーへの挑戦、そして未来の技術を形作る重要な賭けを強調します。
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=2025%E5%B9%B4AI%E7%94%A3%E6%A5%AD%E5%88%86%E6%9E%90%EF%BC%9A%E5%8B%9D%E8%80%85%E3%80%81%E6%95%97%E8%80%85%E3%80%81%E3%81%9D%E3%81%97%E3%81%A6%E9%87%8D%E8%A6%81%E3%81%AA%E8%B3%AD%E3%81%91"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=2025%E5%B9%B4AI%E7%94%A3%E6%A5%AD%E5%88%86%E6%9E%90%EF%BC%9A%E5%8B%9D%E8%80%85%E3%80%81%E6%95%97%E8%80%85%E3%80%81%E3%81%9D%E3%81%97%E3%81%A6%E9%87%8D%E8%A6%81%E3%81%AA%E8%B3%AD%E3%81%91"
 ---
 
 # 2025年AI産業分析：勝者、敗者、そして重要な賭け
@@ -16,7 +16,7 @@ AIの風景は大きな変化を遂げています。過去2週間にわたり�
 
 これは単なるレポートではなく、産業の未来の地図です。2025年を定義する勝者、敗者、そして重要な賭けに飛び込んでみましょう。
 
-![2025年AI産業分析：勝者、敗者、そして重要な賭け](https://cuckoo-portal-frontend.onrender.com/api/og?title=2025%20AI%20Industry%20Analysis:%20Winners,%20Losers,%20and%20Critical%20Bets)
+![2025年AI産業分析：勝者、敗者、そして重要な賭け](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=2025%20AI%20Industry%20Analysis:%20Winners,%20Losers,%20and%20Critical%20Bets)
 
 ## 勝者：新たな権力構造の出現
 

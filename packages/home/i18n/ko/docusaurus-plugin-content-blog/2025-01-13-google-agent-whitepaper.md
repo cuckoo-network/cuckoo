@@ -4,14 +4,14 @@ tags: [AI 에이전트, 인지 아키텍처, Google 백서]
 keywords: [AI, 에이전트, 인지 아키텍처, Google, AI 시스템]
 authors: [lark]
 description: Google의 백서는 AI 에이전트의 변혁적 잠재력을 공개하며, 이들이 실제 세계를 인식하고, 추론하며, 영향을 미치는 능력을 보여줍니다. 이러한 에이전트가 실시간 정보 접근, 행동 수행 능력, 도구 통합을 통해 전통적인 AI 모델과 어떻게 다른지 알아보세요.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Google%20에이전트%20백서"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Google%20에이전트%20백서"
 ---
 
 # Google 에이전트 백서
 
 GPT-4와 Gemini 같은 언어 모델이 대화 능력으로 대중의 관심을 끌고 있는 동안, 더 깊은 혁명이 일어나고 있습니다: AI 에이전트의 부상입니다. Google의 최근 백서에 자세히 설명된 바와 같이, 이러한 에이전트는 단순한 스마트 챗봇이 아니라, 실제 세계를 능동적으로 인식하고, 추론하며, 영향을 미칠 수 있는 AI 시스템입니다.
 
-![](https://cuckoo-portal-frontend.onrender.com/api/og?title=Google%20에이전트%20백서)
+![](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Google%20에이전트%20백서)
 
 ## AI 능력의 진화
 

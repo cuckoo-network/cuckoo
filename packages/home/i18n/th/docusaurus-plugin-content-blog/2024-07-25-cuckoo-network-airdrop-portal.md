@@ -2,7 +2,7 @@
 title: "แนะนำพอร์ทัล Airdrop ของ Cuckoo Network"
 authors: [lark]
 tags: [airdrop, cuckoo chain, roadmap]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=แนะนำพอร์ทัล%20Airdrop%20ของ%20Cuckoo%20Network
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=แนะนำพอร์ทัล%20Airdrop%20ของ%20Cuckoo%20Network
 description: ค้นพบวิธีรับโทเค็น $CAI ผ่านพอร์ทัล Airdrop ของ Cuckoo Network มีส่วนร่วม สนับสนุน และได้รับประโยชน์จาก AI แบบกระจายอำนาจวันนี้!
 ---
 

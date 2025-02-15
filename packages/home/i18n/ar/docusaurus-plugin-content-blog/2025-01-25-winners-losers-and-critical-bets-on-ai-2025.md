@@ -5,7 +5,7 @@ keywords:
   [صناعة الذكاء الاصطناعي, أنثروبيك, جوجل, أوبن إيه آي, أبل, الذكاء الاصطناعي العام, بنية الذكاء الاصطناعي]
 authors: [lark]
 description: تحليل معمق لمسار صناعة الذكاء الاصطناعي في عام 2025، يسلط الضوء على هياكل القوة الناشئة، التحديات التي تواجه اللاعبين الراسخين، والرهانات الحرجة التي تشكل مستقبل التكنولوجيا.
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=2025%20AI%20Industry%20Analysis:%20Winners,%20Losers,%20and%20Critical%20Bets
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=2025%20AI%20Industry%20Analysis:%20Winners,%20Losers,%20and%20Critical%20Bets
 ---
 
 # تحليل صناعة الذكاء الاصطناعي لعام 2025: الفائزون، الخاسرون، والرهانات الحرجة
@@ -16,7 +16,7 @@ image: https://cuckoo-portal-frontend.onrender.com/api/og?title=2025%20AI%20Indu
 
 هذا ليس مجرد تقرير—إنه خريطة لمستقبل الصناعة. دعونا نغوص في الفائزين، الخاسرين، والرهانات الحرجة التي تحدد عام 2025.
 
-![تحليل صناعة الذكاء الاصطناعي لعام 2025: الفائزون، الخاسرون، والرهانات الحرجة](https://cuckoo-portal-frontend.onrender.com/api/og?title=2025%20AI%20Industry%20Analysis:%20Winners,%20Losers,%20and%20Critical%20Bets)
+![تحليل صناعة الذكاء الاصطناعي لعام 2025: الفائزون، الخاسرون، والرهانات الحرجة](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=2025%20AI%20Industry%20Analysis:%20Winners,%20Losers,%20and%20Critical%20Bets)
 
 ## الفائزون: ظهور هيكل قوة جديد
 

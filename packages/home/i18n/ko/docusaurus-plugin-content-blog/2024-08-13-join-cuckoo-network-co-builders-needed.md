@@ -2,7 +2,7 @@
 title: "쿠쿠 네트워크 공동 창작: 모든 창작자, 개발자, 혁신가를 초대합니다!"
 authors: [lark]
 tags: [쿠쿠 체인]
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=쿠쿠 네트워크 공동 창작: 모든 창작자, 개발자, 혁신가를 초대합니다!"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=쿠쿠 네트워크 공동 창작: 모든 창작자, 개발자, 혁신가를 초대합니다!"
 description: 쿠쿠 네트워크는 열정적인 예술가, 개발자, 혁신가들이 탈중앙화 플랫폼의 미래를 함께 만들어갈 수 있도록 초대합니다. 우리는 예술을 창작하고, 튜토리얼을 개발하며, 스테이블코인을 연결하고, 쿠쿠 체인에서 예측 시장을 구축할 공동 창작자를 찾고 있습니다. 블록체인 세계에 영향을 미치고 싶다면, 지금이 기회입니다!
 ---
 

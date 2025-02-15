@@ -2,7 +2,7 @@
 title: "Cuckoo Sepolia V2'nin Arbitrum Üzerinde Duyurulması"
 authors: [dora]
 tags: [ürün, cuckoo zinciri, yol haritası]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Sepolia%20V2'nin%20Arbitrum%20%C3%9Czerinde%20Duyurulmas%C4%B1
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Sepolia%20V2'nin%20Arbitrum%20%C3%9Czerinde%20Duyurulmas%C4%B1
 ---
 Cuckoo Sepolia V2'nin, Arbitrum üzerinde inşa edilen yükseltilmiş testnet'inin lansmanını duyurmaktan heyecan duyuyoruz. Bu önemli geçiş, topluluğumuzdan gelen değerli geri bildirimlere doğrudan bir yanıt olup, platformumuzun faydasını ve ölçeklenebilirliğini artırmayı hedeflemektedir.
 

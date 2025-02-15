@@ -4,14 +4,14 @@ tags: [blockchain, AI, tính toán phi tập trung, hợp đồng thông minh]
 keywords: [Ritual, blockchain AI, AI phi tập trung, hợp đồng thông minh, hạ tầng Web3]
 authors: [lark]
 description: Ritual, một startup được thành lập bởi cựu nhà đầu tư Polychain Niraj Pant và Akilesh Potti, đang tiên phong trong việc tích hợp khả năng AI vào môi trường blockchain, được hỗ trợ bởi vòng gọi vốn Series A trị giá 25 triệu đô la. Công ty nhằm cách mạng hóa hợp đồng thông minh và ứng dụng phi tập trung với các chức năng điều khiển bởi AI.
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual:%20Cược%2025%20triệu%20đô%20la%20để%20làm%20cho%20Blockchain%20suy%20nghĩ
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Ritual:%20Cược%2025%20triệu%20đô%20la%20để%20làm%20cho%20Blockchain%20suy%20nghĩ
 ---
 
 # Ritual: Cược 25 triệu đô la để làm cho Blockchain suy nghĩ
 
 Ritual, được thành lập vào năm 2023 bởi cựu nhà đầu tư Polychain Niraj Pant và Akilesh Potti, là một dự án đầy tham vọng tại giao điểm của blockchain và AI. Được hỗ trợ bởi vòng gọi vốn Series A trị giá 25 triệu đô la do Archetype dẫn đầu và đầu tư chiến lược từ Polychain Capital, công ty nhằm giải quyết các khoảng trống hạ tầng quan trọng trong việc cho phép các tương tác phức tạp trên chuỗi và ngoài chuỗi. Với đội ngũ 30 chuyên gia từ các tổ chức và công ty hàng đầu, Ritual đang xây dựng một giao thức tích hợp khả năng AI trực tiếp vào môi trường blockchain, nhắm đến các trường hợp sử dụng như hợp đồng thông minh tạo ra từ ngôn ngữ tự nhiên và các giao thức cho vay động theo thị trường.
 
-![Ritual: Cược 25 triệu đô la để làm cho Blockchain suy nghĩ](https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual:%20Cược%2025%20triệu%20đô%20la%20để%20làm%20cho%20Blockchain%20suy%20nghĩ)
+![Ritual: Cược 25 triệu đô la để làm cho Blockchain suy nghĩ](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Ritual:%20Cược%2025%20triệu%20đô%20la%20để%20làm%20cho%20Blockchain%20suy%20nghĩ)
 
 ## Tại sao khách hàng cần Web3 cho AI
 

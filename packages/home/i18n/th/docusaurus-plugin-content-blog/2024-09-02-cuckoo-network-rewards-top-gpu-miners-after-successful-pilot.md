@@ -2,7 +2,7 @@
 title: "Cuckoo Network มอบรางวัลให้กับนักขุดยอดเยี่ยมหลังจากผ่านช่วงทดลองสำเร็จ"
 authors: [lark]
 tags: [mining, cuckoo chain]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo Network มอบรางวัลให้กับนักขุดยอดเยี่ยมหลังจากผ่านช่วงทดลองสำเร็จ
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo Network มอบรางวัลให้กับนักขุดยอดเยี่ยมหลังจากผ่านช่วงทดลองสำเร็จ
 description: Cuckoo Network แจกจ่ายโทเค็น CAI จำนวน 450,000 ให้กับนักขุด GPU ในช่วงทดลองและแนะนำระบบรางวัลใหม่ที่มุ่งเน้นนักขุดที่ได้รับการโหวตสูงสุด ค้นหาว่าการเปลี่ยนแปลงเหล่านี้จะกำหนดอนาคตของการขุด AI แบบกระจายศูนย์อย่างไร
 ---
 

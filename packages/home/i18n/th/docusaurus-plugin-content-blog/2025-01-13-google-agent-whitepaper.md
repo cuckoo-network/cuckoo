@@ -4,14 +4,14 @@ tags: [AI agents, สถาปัตยกรรมการรับรู้, 
 keywords: [AI, agents, สถาปัตยกรรมการรับรู้, Google, ระบบ AI]
 authors: [lark]
 description: เอกสารไวท์เปเปอร์ของ Google เปิดเผยศักยภาพที่เปลี่ยนแปลงได้ของ AI agents โดยแสดงความสามารถในการรับรู้, เหตุผล, และมีอิทธิพลต่อโลกจริง ค้นพบว่า agents เหล่านี้แตกต่างจากโมเดล AI แบบดั้งเดิมอย่างไรผ่านการเข้าถึงข้อมูลแบบเรียลไทม์, ความสามารถในการดำเนินการ, และการผสานรวมเครื่องมือ
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=เอกสารไวท์เปเปอร์ของ%20Google%20Agent"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=เอกสารไวท์เปเปอร์ของ%20Google%20Agent"
 ---
 
 # เอกสารไวท์เปเปอร์ของ Google Agent
 
 ในขณะที่โมเดลภาษาต่างๆ เช่น GPT-4 และ Gemini ได้รับความสนใจจากสาธารณชนด้วยความสามารถในการสนทนา การปฏิวัติที่ลึกซึ้งยิ่งกว่ากำลังเกิดขึ้น: การเพิ่มขึ้นของ AI agents ตามที่ระบุไว้ในเอกสารไวท์เปเปอร์ล่าสุดของ Google, agents เหล่านี้ไม่ใช่แค่แชทบอทที่ฉลาดเท่านั้น – พวกเขาเป็นระบบ AI ที่สามารถรับรู้, ใช้เหตุผล, และมีอิทธิพลต่อโลกจริงได้อย่างจริงจัง
 
-![](https://cuckoo-portal-frontend.onrender.com/api/og?title=เอกสารไวท์เปเปอร์ของ%20Google%20Agent)
+![](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=เอกสารไวท์เปเปอร์ของ%20Google%20Agent)
 
 ## วิวัฒนาการของความสามารถของ AI
 

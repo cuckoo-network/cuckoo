@@ -4,14 +4,14 @@ tags: [블록체인, AI, 탈중앙화 컴퓨팅, 스마트 계약]
 keywords: [Ritual, 블록체인 AI, 탈중앙화 AI, 스마트 계약, Web3 인프라]
 authors: [lark]
 description: 전 Polychain 투자자 Niraj Pant와 Akilesh Potti가 설립한 스타트업 Ritual은 2,500만 달러의 시리즈 A 투자를 받아 블록체인 환경에 AI 기능을 통합하는 혁신을 선도하고 있습니다. 이 회사는 AI 기반 기능을 통해 스마트 계약과 탈중앙화 애플리케이션을 혁신하려고 합니다.
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual:%20블록체인에%20사고력을%20부여하는%202,500만%20달러의%20베팅
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Ritual:%20블록체인에%20사고력을%20부여하는%202,500만%20달러의%20베팅
 ---
 
 # Ritual: 블록체인에 사고력을 부여하는 2,500만 달러의 베팅
 
 Ritual은 2023년 전 Polychain 투자자 Niraj Pant와 Akilesh Potti에 의해 설립된 블록체인과 AI의 교차점에서 야심찬 프로젝트입니다. Archetype이 주도하고 Polychain Capital의 전략적 투자를 받은 2,500만 달러의 시리즈 A로 지원받아, 이 회사는 복잡한 온체인 및 오프체인 상호작용을 가능하게 하는 중요한 인프라 격차를 해결하는 것을 목표로 하고 있습니다. 주요 기관과 기업 출신의 30명의 전문가 팀과 함께 Ritual은 자연어 생성 스마트 계약 및 동적 시장 기반 대출 프로토콜과 같은 사용 사례를 목표로 AI 기능을 블록체인 환경에 직접 통합하는 프로토콜을 구축하고 있습니다.
 
-![Ritual: 블록체인에 사고력을 부여하는 2,500만 달러의 베팅](https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual:%20블록체인에%20사고력을%20부여하는%202,500만%20달러의%20베팅)
+![Ritual: 블록체인에 사고력을 부여하는 2,500만 달러의 베팅](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Ritual:%20블록체인에%20사고력을%20부여하는%202,500만%20달러의%20베팅)
 
 ## 고객이 AI를 위해 Web3를 필요로 하는 이유
 

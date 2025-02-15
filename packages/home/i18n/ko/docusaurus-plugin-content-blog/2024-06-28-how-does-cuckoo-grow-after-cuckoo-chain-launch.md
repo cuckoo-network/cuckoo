@@ -2,7 +2,7 @@
 title: "쿠쿠 체인 출시 후 쿠쿠 AI의 성장"
 authors: [lark]
 tags: [company, roadmap]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=쿠쿠 체인 출시 후 쿠쿠 AI의 성장
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=쿠쿠 체인 출시 후 쿠쿠 AI의 성장
 description: 쿠쿠 체인 출시 이후, 쿠쿠 네트워크는 상당한 성장을 경험했습니다. 이 블로그는 이러한 변화를 이끄는 홀더, 마이너, DeAI 빌더 경험의 향상을 탐구합니다.
 ---
 

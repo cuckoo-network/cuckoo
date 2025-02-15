@@ -4,14 +4,14 @@ tags: [IA descentralizada, inspeções residenciais, blockchain, mineração de 
 keywords: [Cuckoo Network, Tenspect, IA descentralizada, inspeção residencial, blockchain, mineração de GPU, infraestrutura de IA]
 authors: [lark]
 description: Cuckoo Network e Tenspect se unem para revolucionar a indústria de inspeção residencial, integrando infraestrutura de IA descentralizada, aprimorando a privacidade e reduzindo custos por meio de tecnologia blockchain e mineração de GPU.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20faz%20parceria%20com%20Tenspect%20para%20impulsionar%20inspe%C3%A7%C3%B5es%20residenciais%20de%20pr%C3%B3xima%20gera%C3%A7%C3%A3o%20com%20IA"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%20faz%20parceria%20com%20Tenspect%20para%20impulsionar%20inspe%C3%A7%C3%B5es%20residenciais%20de%20pr%C3%B3xima%20gera%C3%A7%C3%A3o%20com%20IA"
 ---
 
 # Cuckoo Network faz parceria com Tenspect para impulsionar inspeções residenciais de próxima geração com IA
 
 Estamos entusiasmados em anunciar uma parceria inovadora entre Cuckoo Network e Tenspect, combinando nossa infraestrutura de IA descentralizada com a plataforma inovadora de inspeção residencial da Tenspect. Esta colaboração marca um passo significativo para trazer o poder da IA descentralizada para a indústria imobiliária.
 
-![Cuckoo Network faz parceria com Tenspect para impulsionar inspeções residenciais de próxima geração com IA](https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20faz%20parceria%20com%20Tenspect%20para%20impulsionar%20inspe%C3%A7%C3%B5es%20residenciais%20de%20pr%C3%B3xima%20gera%C3%A7%C3%A3o%20com%20IA)
+![Cuckoo Network faz parceria com Tenspect para impulsionar inspeções residenciais de próxima geração com IA](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%20faz%20parceria%20com%20Tenspect%20para%20impulsionar%20inspe%C3%A7%C3%B5es%20residenciais%20de%20pr%C3%B3xima%20gera%C3%A7%C3%A3o%20com%20IA)
 
 ## Por que esta parceria é importante
 

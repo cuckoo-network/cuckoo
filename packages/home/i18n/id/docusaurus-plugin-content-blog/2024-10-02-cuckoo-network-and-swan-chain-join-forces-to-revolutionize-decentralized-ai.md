@@ -2,7 +2,7 @@
 title: "Jaringan Cuckoo dan Rantai Swan Bergabung untuk Merevolusi AI Terdesentralisasi"
 authors: [lark]
 tags: [kemitraan, ai, perusahaan, produk, cuckoo chat]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Jaringan Cuckoo dan Rantai Swan Bergabung untuk Merevolusi AI Terdesentralisasi
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Jaringan Cuckoo dan Rantai Swan Bergabung untuk Merevolusi AI Terdesentralisasi
 description: Jaringan Cuckoo dan Rantai Swan bermitra untuk merevolusi AI terdesentralisasi dengan mengintegrasikan sumber daya GPU yang kuat ke dalam pasar penyajian model AI Cuckoo. Kolaborasi ini memberdayakan pengembang dan kreator AI dengan kemampuan pemrosesan yang ditingkatkan, memungkinkan pembuatan model bahasa yang terinspirasi anime dan memperluas peluang dalam inovasi AI terdesentralisasi.
 keywords:
   [

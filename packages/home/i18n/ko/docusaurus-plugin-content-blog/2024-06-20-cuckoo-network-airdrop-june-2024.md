@@ -2,7 +2,7 @@
 title: "쿠쿠 네트워크 에어드롭: 2024년 6월"
 authors: [lark]
 tags: [에어드롭, 쿠쿠 체인]
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=쿠쿠 네트워크 에어드롭: 2024년 6월"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=쿠쿠 네트워크 에어드롭: 2024년 6월"
 description: 2024년 6월에 쿠쿠 네트워크 에어드롭에 참여하세요. 알파 및 세폴리아 테스트넷과 상호작용하여 30,000 $CAI 토큰을 획득하세요. 놓치지 마세요!
 ---
 

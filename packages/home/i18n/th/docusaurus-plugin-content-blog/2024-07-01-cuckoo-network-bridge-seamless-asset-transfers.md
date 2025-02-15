@@ -2,7 +2,7 @@
 title: "แนะนำ Cuckoo Network Bridge: การโอนสินทรัพย์ที่ไร้รอยต่อข้ามเชน"
 authors: [lark]
 tags: [product, roadmap]
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=แนะนำ Cuckoo Network Bridge: การโอนสินทรัพย์ที่ไร้รอยต่อข้ามเชน"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=แนะนำ Cuckoo Network Bridge: การโอนสินทรัพย์ที่ไร้รอยต่อข้ามเชน"
 ---
 
 ใน Web3 ความสามารถในการโอนสินทรัพย์ข้ามเครือข่ายบล็อกเชนต่าง ๆ อย่างไร้รอยต่อเป็นสิ่งสำคัญ ที่ Cuckoo.Network เราเข้าใจ เราเข้าใจถึงความต้องการที่เร่งด่วนสำหรับประสิทธิภาพ ความปลอดภัย และความเรียบง่ายในธุรกรรมเหล่านี้ นั่นคือเหตุผลที่เราตื่นเต้นที่จะนำเสนอสิ่งประดิษฐ์ล่าสุดของเรา: Cuckoo Bridge https://bridge.cuckoo.network/

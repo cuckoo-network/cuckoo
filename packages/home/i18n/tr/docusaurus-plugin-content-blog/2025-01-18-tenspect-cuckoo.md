@@ -4,14 +4,14 @@ tags: [merkeziyetsiz yapay zeka, ev denetimleri, blok zinciri, GPU madenciliği,
 keywords: [Cuckoo Network, Tenspect, merkeziyetsiz yapay zeka, ev denetimi, blok zinciri, GPU madenciliği, yapay zeka altyapısı]
 authors: [lark]
 description: Cuckoo Network ve Tenspect, merkeziyetsiz yapay zeka altyapısını entegre ederek ev denetim endüstrisini devrim niteliğinde dönüştürmek, gizliliği artırmak ve blok zinciri ve GPU madenciliği teknolojisi aracılığıyla maliyetleri azaltmak için ortaklık kuruyor.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%2C%20Yeni%20Nesil%20Yapay%20Zeka%20Ev%20Denetimlerini%20G%C3%BC%C3%A7lendirmek%20%C4%B0%C3%A7in%20Tenspect%20ile%20Ortakl%C4%B1k%20Kuruyor"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%2C%20Yeni%20Nesil%20Yapay%20Zeka%20Ev%20Denetimlerini%20G%C3%BC%C3%A7lendirmek%20%C4%B0%C3%A7in%20Tenspect%20ile%20Ortakl%C4%B1k%20Kuruyor"
 ---
 
 # Cuckoo Network, Yeni Nesil Yapay Zeka Ev Denetimlerini Güçlendirmek İçin Tenspect ile Ortaklık Kuruyor
 
 Cuckoo Network ve Tenspect arasında, merkeziyetsiz yapay zeka altyapımızı Tenspect'in yenilikçi ev denetim platformuyla birleştiren çığır açıcı bir ortaklığı duyurmaktan heyecan duyuyoruz. Bu işbirliği, merkeziyetsiz yapay zekanın gücünü gayrimenkul sektörüne taşımak için önemli bir adımı temsil ediyor.
 
-![Cuckoo Network, Yeni Nesil Yapay Zeka Ev Denetimlerini Güçlendirmek İçin Tenspect ile Ortaklık Kuruyor](https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%2C%20Yeni%20Nesil%20Yapay%20Zeka%20Ev%20Denetimlerini%20G%C3%BC%C3%A7lendirmek%20%C4%B0%C3%A7in%20Tenspect%20ile%20Ortakl%C4%B1k%20Kuruyor)
+![Cuckoo Network, Yeni Nesil Yapay Zeka Ev Denetimlerini Güçlendirmek İçin Tenspect ile Ortaklık Kuruyor](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%2C%20Yeni%20Nesil%20Yapay%20Zeka%20Ev%20Denetimlerini%20G%C3%BC%C3%A7lendirmek%20%C4%B0%C3%A7in%20Tenspect%20ile%20Ortakl%C4%B1k%20Kuruyor)
 
 ## Bu Ortaklık Neden Önemli
 

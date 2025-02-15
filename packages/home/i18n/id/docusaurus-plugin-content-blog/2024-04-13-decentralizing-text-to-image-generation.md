@@ -2,7 +2,7 @@
 title: Mendesentralisasi Generasi Teks-ke-Gambar dengan Cuckoo
 authors: [lark]
 tags: [perusahaan, peta jalan]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Mendesentralisasi%20Generasi%20Teks-ke-Gambar%20dengan%20Cuckoo
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Mendesentralisasi%20Generasi%20Teks-ke-Gambar%20dengan%20Cuckoo
 description: Sistem Kecerdasan Buatan (AI) memiliki potensi yang belum pernah terjadi sebelumnya untuk membentuk ulang industri, namun pengembangannya terhambat oleh masalah yang melekat pada kerangka kerja terpusat. Ini berkisar dari kekhawatiran privasi yang signifikan hingga keterbatasan dalam akurasi komputasi dan kerentanan terhadap sensor.
 ---
 

@@ -2,7 +2,7 @@
 title: "โปรโตคอล Proof of Sampling: กระตุ้นความซื่อสัตย์และลงโทษความไม่ซื่อสัตย์ในระบบ AI แบบกระจายศูนย์"
 authors: [lark]
 tags: [research]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=โปรโตคอล%20Proof%20of%20Sampling%3A%20กระตุ้นความซื่อสัตย์และลงโทษความไม่ซื่อสัตย์ในระบบ%20AI%20แบบกระจายศูนย์
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=โปรโตคอล%20Proof%20of%20Sampling%3A%20กระตุ้นความซื่อสัตย์และลงโทษความไม่ซื่อสัตย์ในระบบ%20AI%20แบบกระจายศูนย์
 description: เรียนรู้เกี่ยวกับวิธีการเฉพาะของโปรโตคอล Proof of Sampling (PoSP) ในการกระตุ้นพฤติกรรมที่ซื่อสัตย์และลงโทษความไม่ซื่อสัตย์ในหมู่ผู้ให้บริการ GPU เพื่อให้มั่นใจในความปลอดภัยและความน่าเชื่อถือของระบบ AI แบบกระจายศูนย์
 ---
 

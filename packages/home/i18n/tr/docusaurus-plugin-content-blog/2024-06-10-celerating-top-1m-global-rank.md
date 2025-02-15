@@ -2,7 +2,7 @@
 title: "Küçük Bir Dönüm Noktasını Kutlamak: Cuckoo.Network Küresel İlk 1M Sitesi Arasında"
 authors: [lark]
 tags: [company]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Küçük%20Bir%20Dönüm%20Noktasını%20Kutlamak%3A%20Cuckoo.Network%20Küresel%20İlk%201M%20Sitesi%20Arasında
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Küçük%20Bir%20Dönüm%20Noktasını%20Kutlamak%3A%20Cuckoo.Network%20Küresel%20İlk%201M%20Sitesi%20Arasında
 description: Cuckoo.Network, küresel ilk 1M site arasına girerek hızlı büyümesini ve AI ile Web3 alanındaki etkisini sergileyen bir dönüm noktasını kutluyor.
 ---
 

@@ -4,12 +4,12 @@ tags: [탈중앙화 AI, 블록체인, GPU 마이닝, AI 서비스, 웹3]
 keywords: [쿠쿠 네트워크, 탈중앙화 AI, 블록체인 기술, GPU DePIN, AI 인프라]
 authors: [lark]
 description: 쿠쿠 네트워크의 2025년 전략은 블록체인, 탈중앙화 GPU 컴퓨팅 및 AI 서비스를 통합하여 풀스택 솔루션을 제공하는 데 중점을 둡니다. 이 보고서는 쿠쿠를 탈중앙화 AI 인프라의 선두주자로 자리매김하기 위한 시장 포지셔닝, 수익화 전략 및 기술 로드맵을 설명합니다.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=쿠쿠%20네트워크%20비즈니스%20전략%20보고서%202025"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=쿠쿠%20네트워크%20비즈니스%20전략%20보고서%202025"
 ---
 
 # 쿠쿠 네트워크 비즈니스 전략 보고서 2025
 
-![](https://cuckoo-portal-frontend.onrender.com/api/og?title=쿠쿠%20네트워크%20비즈니스%20전략%20보고서%202025)
+![](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=쿠쿠%20네트워크%20비즈니스%20전략%20보고서%202025)
 
 ## 1. 시장 포지셔닝 및 경쟁 분석
 

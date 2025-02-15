@@ -2,7 +2,7 @@
 title: GPU를 사용한 스테이킹 및 채굴 토큰
 authors: [lark]
 tags: [company, roadmap]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=GPU를%20사용한%20스테이킹%20및%20채굴%20토큰
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=GPU를%20사용한%20스테이킹%20및%20채굴%20토큰
 ---
 
 Cuckoo Network는 AI 애호가, 개발자 및 GPU 채굴자에게 암호화 토큰으로 보상하는 최초의 분산형 AI 모델 서비스 마켓플레이스입니다. 우리 플랫폼에서 채굴자들은 생성 AI 앱 빌더, 즉 코디네이터와 GPU를 공유하여 최종 고객을 위한 추론을 실행하며, 모든 기여자는 암호화 토큰을 얻을 수 있습니다.

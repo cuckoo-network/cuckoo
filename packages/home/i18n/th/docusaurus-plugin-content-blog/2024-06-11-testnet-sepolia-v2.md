@@ -2,7 +2,7 @@
 title: "ประกาศเปิดตัว Cuckoo Sepolia V2 บน Arbitrum"
 authors: [dora]
 tags: [product, cuckoo chain, roadmap]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=ประกาศเปิดตัว Cuckoo Sepolia V2 บน Arbitrum
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=ประกาศเปิดตัว Cuckoo Sepolia V2 บน Arbitrum
 ---
 เรารู้สึกตื่นเต้นที่จะประกาศเปิดตัว Cuckoo Sepolia V2 ซึ่งเป็นเครือข่ายทดสอบที่ได้รับการอัปเกรดบน Arbitrum การเปลี่ยนแปลงที่สำคัญนี้เป็นการตอบสนองโดยตรงต่อความคิดเห็นอันมีค่าจากชุมชนของเรา โดยมีเป้าหมายเพื่อเพิ่มประสิทธิภาพและความสามารถในการขยายตัวของแพลตฟอร์มของเรา
 

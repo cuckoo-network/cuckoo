@@ -5,7 +5,7 @@ keywords:
   [صنعت هوش مصنوعی, Anthropic, گوگل, OpenAI, اپل, AGI, زیرساخت هوش مصنوعی]
 authors: [lark]
 description: تحلیلی عمیق از مسیر صنعت هوش مصنوعی در سال ۲۰۲۵، با تمرکز بر ساختارهای قدرت نوظهور، چالش‌های پیش روی بازیگران قدیمی و شرط‌های حیاتی که آینده فناوری را شکل می‌دهند.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=2025%20AI%20Industry%20Analysis:%20Winners,%20Losers,%20and%20Critical%20Bets"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=2025%20AI%20Industry%20Analysis:%20Winners,%20Losers,%20and%20Critical%20Bets"
 ---
 
 # تحلیل صنعت هوش مصنوعی ۲۰۲۵: برندگان، بازندگان و شرط‌های حیاتی
@@ -16,7 +16,7 @@ image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=2025%20AI%20Ind
 
 این فقط یک گزارش نیست—بلکه نقشه‌ای از آینده صنعت است. بیایید به برندگان، بازندگان و شرط‌های حیاتی که سال ۲۰۲۵ را تعریف می‌کنند، بپردازیم.
 
-![تحلیل صنعت هوش مصنوعی ۲۰۲۵: برندگان، بازندگان و شرط‌های حیاتی](https://cuckoo-portal-frontend.onrender.com/api/og?title=2025%20AI%20Industry%20Analysis:%20Winners,%20Losers,%20and%20Critical%20Bets)
+![تحلیل صنعت هوش مصنوعی ۲۰۲۵: برندگان، بازندگان و شرط‌های حیاتی](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=2025%20AI%20Industry%20Analysis:%20Winners,%20Losers,%20and%20Critical%20Bets)
 
 ## برندگان: ظهور یک ساختار قدرت جدید
 

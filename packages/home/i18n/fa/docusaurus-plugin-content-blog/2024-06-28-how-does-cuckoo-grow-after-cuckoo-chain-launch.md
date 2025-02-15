@@ -2,7 +2,7 @@
 title: "چگونه Cuckoo AI پس از راه‌اندازی زنجیره Cuckoo رشد می‌کند"
 authors: [lark]
 tags: [شرکت, نقشه راه]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=چگونه Cuckoo AI پس از راه‌اندازی زنجیره Cuckoo رشد می‌کند
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=چگونه Cuckoo AI پس از راه‌اندازی زنجیره Cuckoo رشد می‌کند
 description: از زمان راه‌اندازی زنجیره Cuckoo، شبکه Cuckoo رشد قابل‌توجهی را تجربه کرده است. این بلاگ به بررسی تجربیات بهبود یافته‌ی دارندگان، ماینرها و سازندگان DeAI که این تحول را به پیش می‌برند، می‌پردازد.
 ---
 

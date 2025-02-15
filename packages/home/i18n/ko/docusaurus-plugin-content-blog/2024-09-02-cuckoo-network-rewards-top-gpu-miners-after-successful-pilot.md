@@ -2,7 +2,7 @@
 title: "쿠쿠 네트워크, 성공적인 파일럿 단계 후 상위 채굴자에게 보상"
 authors: [lark]
 tags: [채굴, 쿠쿠 체인]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=쿠쿠 네트워크, 성공적인 파일럿 단계 후 상위 채굴자에게 보상
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=쿠쿠 네트워크, 성공적인 파일럿 단계 후 상위 채굴자에게 보상
 description: 쿠쿠 네트워크가 파일럿 GPU 채굴자에게 450,000 CAI 토큰을 배포하고 상위 투표 채굴자에 중점을 둔 새로운 보상 시스템을 도입합니다. 이러한 변화가 탈중앙화 AI 채굴의 미래를 어떻게 형성할지 알아보세요.
 ---
 

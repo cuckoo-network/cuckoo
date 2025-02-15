@@ -4,14 +4,14 @@ tags: [AI ajanları, bilişsel mimari, Google beyaz kitap]
 keywords: [AI, ajanlar, bilişsel mimari, Google, AI sistemleri]
 authors: [lark]
 description: Google'un beyaz kitabı, AI ajanlarının dönüştürücü potansiyelini ortaya koyarak, onların gerçek dünyayı algılama, akıl yürütme ve etkileme yeteneklerini sergiliyor. Bu ajanların, gerçek zamanlı bilgi erişimi, eylem alma yetenekleri ve araç entegrasyonu ile geleneksel AI modellerinden nasıl farklılaştığını keşfedin.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Google%20Ajan%20Beyaz%20Kitap"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Google%20Ajan%20Beyaz%20Kitap"
 ---
 
 # Google Ajan Beyaz Kitap
 
 GPT-4 ve Gemini gibi dil modelleri, sohbet yetenekleriyle kamuoyunun dikkatini çekerken, daha derin bir devrim gerçekleşiyor: AI ajanlarının yükselişi. Google'un son beyaz kitabında detaylandırıldığı gibi, bu ajanlar sadece akıllı sohbet botları değil – gerçek dünyayı aktif olarak algılayabilen, akıl yürütebilen ve etkileyebilen AI sistemleridir.
 
-![](https://cuckoo-portal-frontend.onrender.com/api/og?title=Google%20Ajan%20Beyaz%20Kitap)
+![](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Google%20Ajan%20Beyaz%20Kitap)
 
 ## AI Yeteneklerinin Evrimi
 

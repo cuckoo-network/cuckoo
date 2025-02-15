@@ -12,14 +12,14 @@ keywords:
   ]
 authors: [lark]
 description: Cuckoo Network ขยายโครงสร้างพื้นฐาน AI แบบกระจายศูนย์ไปยัง IoTeX เป็นโซลูชัน Layer 2 โดยผสานรวมกับระบบนิเวศ MachineFi ของ IoTeX เพื่อเสนอการคำนวณ AI ที่ปรับขนาดได้และการทำงานร่วมกันข้ามบล็อกเชน ค้นพบประโยชน์สำหรับนักพัฒนา นักขุด และผู้ใช้ IoTeX และเรียนรู้วิธีเข้าร่วม airdrop โทเค็น $CAI
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20%E0%B8%82%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%B9%E0%B9%88%20IoTeX%20%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%20Layer%202
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20%E0%B8%82%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%B9%E0%B9%88%20IoTeX%20%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%20Layer%202
 ---
 
 # Airdrop Cuckoo × IoTeX: Cuckoo Chain ขยายสู่ IoTeX เป็น Layer 2
 
 Cuckoo Network มีความยินดีที่จะประกาศการขยายตัวสู่ IoTeX เป็นโซลูชัน Layer 2 นำโครงสร้างพื้นฐาน AI แบบกระจายศูนย์มาสู่ระบบนิเวศที่เจริญรุ่งเรืองของ IoTeX ความร่วมมือเชิงกลยุทธ์นี้รวมความเชี่ยวชาญของ Cuckoo ในการให้บริการโมเดล AI กับโครงสร้างพื้นฐาน MachineFi ที่แข็งแกร่งของ IoTeX สร้างโอกาสใหม่ ๆ สำหรับทั้งสองชุมชน
 
-![การขยายตัวของ Cuckoo Network](https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20%E0%B8%82%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%B9%E0%B9%88%20IoTeX%20%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%20Layer%202)
+![การขยายตัวของ Cuckoo Network](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Chain%20%E0%B8%82%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%B9%E0%B9%88%20IoTeX%20%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%20Layer%202)
 
 ## **ความต้องการ**
 

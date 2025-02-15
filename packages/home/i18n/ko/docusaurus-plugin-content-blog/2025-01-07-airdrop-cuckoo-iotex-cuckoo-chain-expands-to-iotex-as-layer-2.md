@@ -12,14 +12,14 @@ keywords:
   ]
 authors: [lark]
 description: Cuckoo Network가 IoTeX의 MachineFi 생태계와 통합하여 레이어 2 솔루션으로서 IoTeX에 분산형 AI 인프라를 확장합니다. 개발자, 채굴자 및 IoTeX 사용자에게 제공되는 혜택을 발견하고 $CAI 토큰 에어드랍에 참여하는 방법을 알아보세요.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=에어드랍%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20체인,%20IoTeX로%20레이어%202%20확장"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=에어드랍%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20체인,%20IoTeX로%20레이어%202%20확장"
 ---
 
 # 에어드랍 Cuckoo × IoTeX: Cuckoo 체인, IoTeX로 레이어 2 확장
 
 Cuckoo Network는 IoTeX의 번창하는 생태계에 분산형 AI 인프라를 제공하며 레이어 2 솔루션으로 IoTeX로 확장하게 되어 기쁩니다. 이 전략적 파트너십은 AI 모델 서빙에 대한 Cuckoo의 전문성과 IoTeX의 강력한 MachineFi 인프라를 결합하여 두 커뮤니티 모두에게 새로운 기회를 창출합니다.
 
-![Cuckoo Network Expansion](https://cuckoo-portal-frontend.onrender.com/api/og?title=에어드랍%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20체인,%20IoTeX로%20레이어%202%20확장)
+![Cuckoo Network Expansion](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=에어드랍%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20체인,%20IoTeX로%20레이어%202%20확장)
 
 ## **필요성**
 

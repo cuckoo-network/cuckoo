@@ -5,7 +5,7 @@ keywords:
   [industria de la IA, Anthropic, Google, OpenAI, Apple, AGI, infraestructura de IA]
 authors: [lark]
 description: Un análisis en profundidad de la trayectoria de la industria de la IA en 2025, destacando las estructuras de poder emergentes, los desafíos para los jugadores establecidos y las apuestas críticas que están moldeando el futuro de la tecnología.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=An%C3%A1lisis%20de%20la%20Industria%20de%20la%20IA%202025:%20Ganadores,%20Perdedores%20y%20Apuestas%20Cr%C3%ADticas"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=An%C3%A1lisis%20de%20la%20Industria%20de%20la%20IA%202025:%20Ganadores,%20Perdedores%20y%20Apuestas%20Cr%C3%ADticas"
 ---
 
 # Análisis de la Industria de la IA 2025: Ganadores, Perdedores y Apuestas Críticas
@@ -16,7 +16,7 @@ El panorama de la IA está experimentando un cambio sísmico. Durante las últim
 
 Esto no es solo un informe, es un mapa del futuro de la industria. Vamos a sumergirnos en los ganadores, los perdedores y las apuestas críticas que definirán 2025.
 
-![Análisis de la Industria de la IA 2025: Ganadores, Perdedores y Apuestas Críticas](https://cuckoo-portal-frontend.onrender.com/api/og?title=An%C3%A1lisis%20de%20la%20Industria%20de%20la%20IA%202025:%20Ganadores,%20Perdedores%20y%20Apuestas%20Cr%C3%ADticas)
+![Análisis de la Industria de la IA 2025: Ganadores, Perdedores y Apuestas Críticas](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=An%C3%A1lisis%20de%20la%20Industria%20de%20la%20IA%202025:%20Ganadores,%20Perdedores%20y%20Apuestas%20Cr%C3%ADticas)
 
 ## Los Ganadores: Una Nueva Estructura de Poder Emergente
 

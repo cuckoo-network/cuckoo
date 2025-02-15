@@ -4,12 +4,12 @@ tags: [去中心化 AI, 区块链, GPU 挖矿, AI 服务, web3]
 keywords: [布谷鸟网络, 去中心化 AI, 区块链技术, GPU DePIN, AI 基础设施]
 authors: [lark]
 description: 布谷鸟网络的 2025 年战略重点是整合区块链、去中心化 GPU 计算和 AI 服务，以提供全栈解决方案。该报告概述了市场定位、货币化策略和技术路线图，以确立布谷鸟作为去中心化 AI 基础设施领导者的地位。
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=布谷鸟网络商业战略报告%202025"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=布谷鸟网络商业战略报告%202025"
 ---
 
 # 布谷鸟网络商业战略报告 2025
 
-![](https://cuckoo-portal-frontend.onrender.com/api/og?title=布谷鸟网络商业战略报告%202025)
+![](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=布谷鸟网络商业战略报告%202025)
 
 ## 1. 市场定位与竞争分析
 

@@ -2,7 +2,7 @@
 title: "Yapay Zekayı Merkezsizleştirme: Bir Genel Bakış"
 authors: [dora]
 tags: [araştırma]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Yapay%20Zekayı%20Merkezsizleştirme:%20Bir%20Genel%20Bakış
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Yapay%20Zekayı%20Merkezsizleştirme:%20Bir%20Genel%20Bakış
 ---
 
 Blockchain ve yapay zeka kombinasyonu önemli bir pazar ilgisi kazanıyor. ChatGPT'nin hızla yüz milyonlarca kullanıcıya ulaşması ve Nvidia'nın hisse senetlerinin 2023'te sekiz kat artmasıyla, yapay zeka kendini baskın bir trend olarak sağlamlaştırdı. Bu etki, yapay zeka uygulamalarının araştırıldığı blockchain gibi komşu sektörlere de yayılıyor.

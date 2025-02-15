@@ -2,7 +2,7 @@
 title: "Como a Cuckoo AI Cresce Após o Lançamento da Cuckoo Chain"
 authors: [lark]
 tags: [empresa, roteiro]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Como%20a%20Cuckoo%20AI%20Cresce%20Ap%C3%B3s%20o%20Lan%C3%A7amento%20da%20Cuckoo%20Chain
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Como%20a%20Cuckoo%20AI%20Cresce%20Ap%C3%B3s%20o%20Lan%C3%A7amento%20da%20Cuckoo%20Chain
 description: Desde o lançamento da Cuckoo Chain, a Cuckoo Network experimentou um crescimento significativo. Este blog explora as experiências aprimoradas de Holder, Miner e construtor DeAI que impulsionam essa transformação.
 ---
 

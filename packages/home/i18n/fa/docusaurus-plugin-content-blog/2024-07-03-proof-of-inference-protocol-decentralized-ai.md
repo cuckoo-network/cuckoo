@@ -2,7 +2,7 @@
 title: "درک پروتکل اثبات استنتاج"
 authors: [lark]
 tags: [تحقیق]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=درک پروتکل اثبات استنتاج
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=درک پروتکل اثبات استنتاج
 description: به پروتکل نوآورانه اثبات استنتاج بپردازید که برای امنیت و تأیید استنتاج هوش مصنوعی در شبکه‌های غیرمتمرکز طراحی شده است. بیاموزید که چگونه این پروتکل به چالش‌های منحصر به فرد محاسبات توزیع‌شده هوش مصنوعی پاسخ می‌دهد.
 ---
 

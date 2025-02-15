@@ -5,7 +5,7 @@ keywords:
   [AI 산업, Anthropic, Google, OpenAI, Apple, AGI, AI 인프라]
 authors: [lark]
 description: 2025년 AI 산업의 궤적에 대한 심층 분석으로, 새로운 권력 구조의 출현, 기존 플레이어의 도전 과제, 그리고 기술의 미래를 형성하는 중요한 베팅을 강조합니다.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=2025%20AI%20산업%20분석:%20승자,%20패자,%20그리고%20중요한%20베팅"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=2025%20AI%20산업%20분석:%20승자,%20패자,%20그리고%20중요한%20베팅"
 ---
 
 # 2025 AI 산업 분석: 승자, 패자, 그리고 중요한 베팅
@@ -16,7 +16,7 @@ AI 지형은 지각 변동을 겪고 있습니다. 지난 2주 동안 우리는 
 
 이것은 단순한 보고서가 아닙니다. 산업의 미래에 대한 지도입니다. 2025년을 정의하는 승자, 패자, 그리고 중요한 베팅을 살펴보겠습니다.
 
-![2025 AI 산업 분석: 승자, 패자, 그리고 중요한 베팅](https://cuckoo-portal-frontend.onrender.com/api/og?title=2025%20AI%20산업%20분석:%20승자,%20패자,%20그리고%20중요한%20베팅)
+![2025 AI 산업 분석: 승자, 패자, 그리고 중요한 베팅](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=2025%20AI%20산업%20분석:%20승자,%20패자,%20그리고%20중요한%20베팅)
 
 ## 승자: 새로운 권력 구조의 출현
 

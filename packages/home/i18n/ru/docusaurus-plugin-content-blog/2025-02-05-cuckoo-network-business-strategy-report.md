@@ -4,12 +4,12 @@ tags: [децентрализованный ИИ, блокчейн, GPU майн
 keywords: [Cuckoo Network, децентрализованный ИИ, блокчейн технологии, GPU DePIN, ИИ инфраструктура]
 authors: [lark]
 description: Стратегия Cuckoo Network на 2025 год сосредоточена на интеграции блокчейна, децентрализованных вычислений на GPU и ИИ сервисов для предоставления полнофункционального решения. Этот отчет описывает рыночное позиционирование, стратегии монетизации и техническую дорожную карту для установления Cuckoo в качестве лидера в децентрализованной ИИ инфраструктуре.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Отчет%20о%20бизнес-стратегии%20Cuckoo%20Network%20на%202025%20год"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Отчет%20о%20бизнес-стратегии%20Cuckoo%20Network%20на%202025%20год"
 ---
 
 # Отчет о бизнес-стратегии Cuckoo Network на 2025 год
 
-![](https://cuckoo-portal-frontend.onrender.com/api/og?title=Отчет%20о%20бизнес-стратегии%20Cuckoo%20Network%20на%202025%20год)
+![](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Отчет%20о%20бизнес-стратегии%20Cuckoo%20Network%20на%202025%20год)
 
 ## 1. Рыночное позиционирование и конкурентный анализ
 

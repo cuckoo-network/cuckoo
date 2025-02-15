@@ -4,14 +4,14 @@ tags: [هوش مصنوعی غیرمتمرکز, بازرسی‌های خانگی,
 keywords: [شبکه Cuckoo, Tenspect, هوش مصنوعی غیرمتمرکز, بازرسی خانگی, بلاکچین, استخراج GPU, زیرساخت AI]
 authors: [lark]
 description: شبکه Cuckoo و Tenspect با همکاری یکدیگر صنعت بازرسی خانگی را با ادغام زیرساخت‌های هوش مصنوعی غیرمتمرکز، بهبود حریم خصوصی و کاهش هزینه‌ها از طریق فناوری بلاکچین و استخراج GPU متحول می‌کنند.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20Partners%20with%20Tenspect%20to%20Power%20Next-Generation%20AI%20Home%20Inspections"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%20Partners%20with%20Tenspect%20to%20Power%20Next-Generation%20AI%20Home%20Inspections"
 ---
 
 # شبکه Cuckoo با Tenspect برای تقویت بازرسی‌های خانگی نسل بعدی AI همکاری می‌کند
 
 ما با افتخار اعلام می‌کنیم که یک همکاری پیشگامانه بین شبکه Cuckoo و Tenspect آغاز شده است، که زیرساخت‌های هوش مصنوعی غیرمتمرکز ما را با پلتفرم نوآورانه بازرسی خانگی Tenspect ترکیب می‌کند. این همکاری گامی مهم به سوی آوردن قدرت هوش مصنوعی غیرمتمرکز به صنعت املاک و مستغلات است.
 
-![شبکه Cuckoo با Tenspect برای تقویت بازرسی‌های خانگی نسل بعدی AI همکاری می‌کند](https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20Partners%20with%20Tenspect%20to%20Power%20Next-Generation%20AI%20Home%20Inspections)
+![شبکه Cuckoo با Tenspect برای تقویت بازرسی‌های خانگی نسل بعدی AI همکاری می‌کند](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%20Partners%20with%20Tenspect%20to%20Power%20Next-Generation%20AI%20Home%20Inspections)
 
 ## چرا این همکاری مهم است
 

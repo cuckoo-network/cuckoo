@@ -4,12 +4,12 @@ tags: [decentralized AI, blockchain, GPU mining, AI services, web3]
 keywords: [Cuckoo Network, decentralized AI, blockchain technology, GPU DePIN, AI infrastructure]
 authors: [lark]
 description: Cuckoo Network's 2025 strategy focuses on integrating blockchain, decentralized GPU computing, and AI services to offer a full-stack solution. This report outlines the market positioning, monetization strategies, and technical roadmap to establish Cuckoo as a leader in decentralized AI infrastructure.
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20Business%20Strategy%20Report%202025
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%20Business%20Strategy%20Report%202025
 ---
 
 # Cuckoo Network Business Strategy Report 2025
 
-![](https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20Business%20Strategy%20Report%202025)
+![](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%20Business%20Strategy%20Report%202025)
 
 ## 1. Market Positioning & Competitive Analysis
 

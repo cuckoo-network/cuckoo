@@ -2,7 +2,7 @@
 title: "LinguaLinked: Memberdayakan Perangkat Seluler dengan Model Bahasa Besar Terdistribusi"
 authors: [lark]
 tags: [penelitian]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=LinguaLinked%3A%20Memberdayakan%20Perangkat%20Seluler%20dengan%20Model%20Bahasa%20Besar%20Terdistribusi
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=LinguaLinked%3A%20Memberdayakan%20Perangkat%20Seluler%20dengan%20Model%20Bahasa%20Besar%20Terdistribusi
 description: Permintaan untuk menerapkan model bahasa besar (LLM) pada perangkat seluler semakin meningkat, didorong oleh kebutuhan akan privasi, pengurangan latensi, dan penggunaan bandwidth yang efisien. Namun, kebutuhan memori dan komputasi yang luas dari LLM menimbulkan tantangan signifikan.
 ---
 

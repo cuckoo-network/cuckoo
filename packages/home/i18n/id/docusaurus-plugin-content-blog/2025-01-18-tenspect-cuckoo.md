@@ -4,14 +4,14 @@ tags: [AI terdesentralisasi, inspeksi rumah, blockchain, penambangan GPU, teknol
 keywords: [Cuckoo Network, Tenspect, AI terdesentralisasi, inspeksi rumah, blockchain, penambangan GPU, infrastruktur AI]
 authors: [lark]
 description: Cuckoo Network dan Tenspect bermitra untuk merevolusi industri inspeksi rumah dengan mengintegrasikan infrastruktur AI terdesentralisasi, meningkatkan privasi, dan mengurangi biaya melalui teknologi blockchain dan penambangan GPU.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20Bermitra%20dengan%20Tenspect%20untuk%20Mendukung%20Inspeksi%20Rumah%20AI%20Generasi%20Berikutnya"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%20Bermitra%20dengan%20Tenspect%20untuk%20Mendukung%20Inspeksi%20Rumah%20AI%20Generasi%20Berikutnya"
 ---
 
 # Cuckoo Network Bermitra dengan Tenspect untuk Mendukung Inspeksi Rumah AI Generasi Berikutnya
 
 Kami dengan bangga mengumumkan kemitraan revolusioner antara Cuckoo Network dan Tenspect, menggabungkan infrastruktur AI terdesentralisasi kami dengan platform inspeksi rumah inovatif dari Tenspect. Kolaborasi ini menandai langkah signifikan menuju membawa kekuatan AI terdesentralisasi ke industri real estat.
 
-![Cuckoo Network Bermitra dengan Tenspect untuk Mendukung Inspeksi Rumah AI Generasi Berikutnya](https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20Bermitra%20dengan%20Tenspect%20untuk%20Mendukung%20Inspeksi%20Rumah%20AI%20Generasi%20Berikutnya)
+![Cuckoo Network Bermitra dengan Tenspect untuk Mendukung Inspeksi Rumah AI Generasi Berikutnya](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%20Bermitra%20dengan%20Tenspect%20untuk%20Mendukung%20Inspeksi%20Rumah%20AI%20Generasi%20Berikutnya)
 
 ## Mengapa Kemitraan Ini Penting
 

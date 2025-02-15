@@ -2,7 +2,7 @@
 title: "Celebrando um Pequeno Marco: Cuckoo.Network entre os Top 1M Sites Globais"
 authors: [lark]
 tags: [company]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Celebrando%20um%20Pequeno%20Marco%3A%20Cuckoo.Network%20entre%20os%20Top%201M%20Sites%20Globais
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Celebrando%20um%20Pequeno%20Marco%3A%20Cuckoo.Network%20entre%20os%20Top%201M%20Sites%20Globais
 description: Cuckoo.Network celebra a conquista de alcançar os top 1M sites globalmente, mostrando seu rápido crescimento e impacto no espaço de IA e Web3.
 ---
 

@@ -4,14 +4,14 @@ tags: [agentes de IA, arquitetura cognitiva, whitepaper Google]
 keywords: [IA, agentes, arquitetura cognitiva, Google, sistemas de IA]
 authors: [lark]
 description: O whitepaper do Google revela o potencial transformador dos agentes de IA, mostrando sua capacidade de perceber, raciocinar e influenciar o mundo real. Descubra como esses agentes diferem dos modelos de IA tradicionais por meio do acesso a informações em tempo real, capacidade de ação e integração de ferramentas.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Whitepaper%20do%20Agente%20Google"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Whitepaper%20do%20Agente%20Google"
 ---
 
 # Whitepaper do Agente Google
 
 Enquanto modelos de linguagem como GPT-4 e Gemini capturaram a atenção pública com suas habilidades de conversação, uma revolução mais profunda está acontecendo: a ascensão dos agentes de IA. Conforme detalhado no recente whitepaper do Google, esses agentes não são apenas chatbots inteligentes – eles são sistemas de IA que podem perceber, raciocinar sobre e influenciar ativamente o mundo real.
 
-![](https://cuckoo-portal-frontend.onrender.com/api/og?title=Whitepaper%20do%20Agente%20Google)
+![](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Whitepaper%20do%20Agente%20Google)
 
 ## A Evolução das Capacidades de IA
 

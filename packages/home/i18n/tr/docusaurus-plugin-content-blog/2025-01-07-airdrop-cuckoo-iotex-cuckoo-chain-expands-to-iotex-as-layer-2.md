@@ -12,14 +12,14 @@ keywords:
   ]
 authors: [lark]
 description: Cuckoo Ağı, merkeziyetsiz AI altyapısını IoTeX'e Katman 2 çözümü olarak genişleterek IoTeX'in MachineFi ekosistemiyle entegre oluyor ve ölçeklenebilir AI hesaplaması ve zincirler arası birlikte çalışabilirlik sunuyor. Geliştiriciler, madenciler ve IoTeX kullanıcıları için faydaları keşfedin ve $CAI token airdrop'una nasıl katılacağınızı öğrenin.
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Zinciri%20IoTeX'e%20Katman%202%20Olarak%20Geni%C5%9Fliyor
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Zinciri%20IoTeX'e%20Katman%202%20Olarak%20Geni%C5%9Fliyor
 ---
 
 # Airdrop Cuckoo × IoTeX: Cuckoo Zinciri IoTeX'e Katman 2 Olarak Genişliyor
 
 Cuckoo Ağı, merkeziyetsiz AI altyapısını IoTeX'in gelişen ekosistemine getirerek Katman 2 çözümü olarak IoTeX'e genişlediğini duyurmaktan heyecan duyuyor. Bu stratejik ortaklık, Cuckoo'nun AI model sunma konusundaki uzmanlığını IoTeX'in sağlam MachineFi altyapısıyla birleştirerek her iki topluluk için de yeni fırsatlar yaratıyor.
 
-![Cuckoo Ağı Genişlemesi](https://cuckoo-portal-frontend.onrender.com/api/og?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Zinciri%20IoTeX'e%20Katman%202%20Olarak%20Geni%C5%9Fliyor)
+![Cuckoo Ağı Genişlemesi](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Airdrop%20Cuckoo%20%C3%97%20IoTeX:%20Cuckoo%20Zinciri%20IoTeX'e%20Katman%202%20Olarak%20Geni%C5%9Fliyor)
 
 ## **İhtiyaç**
 

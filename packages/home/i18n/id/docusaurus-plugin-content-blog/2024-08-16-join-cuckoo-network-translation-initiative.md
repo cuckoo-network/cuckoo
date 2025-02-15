@@ -2,7 +2,7 @@
 title: "Cuckoo Network Mendunia: Bergabunglah dengan Inisiatif Terjemahan Situs Web Kami"
 authors: [lark]
 tags: [Cuckoo Chain, Komunitas, Internasionalisasi]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20Mendunia%3A%20Bergabunglah%20dengan%20Inisiatif%20Terjemahan%20Situs%20Web%20Kami
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%20Mendunia%3A%20Bergabunglah%20dengan%20Inisiatif%20Terjemahan%20Situs%20Web%20Kami
 description: Cuckoo Network memperluas jangkauan globalnya! Bergabunglah dengan upaya komunitas kami untuk menerjemahkan situs web Cuckoo.Network dan dapatkan token $CAI untuk kontribusi Anda. Bantu kami membuat AI terdesentralisasi dapat diakses oleh semua orang, di mana saja.
 ---
 

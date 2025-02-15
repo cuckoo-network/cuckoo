@@ -2,7 +2,7 @@
 title: "एक छोटे मील का पत्थर मनाना: Cuckoo.Network शीर्ष 1M वैश्विक साइटों में"
 authors: [lark]
 tags: [company]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=एक%20छोटे%20मील%20का%20पत्थर%20मनाना:%20Cuckoo.Network%20शीर्ष%201M%20वैश्विक%20साइटों%20में
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=एक%20छोटे%20मील%20का%20पत्थर%20मनाना:%20Cuckoo.Network%20शीर्ष%201M%20वैश्विक%20साइटों%20में
 description: Cuckoo.Network वैश्विक स्तर पर शीर्ष 1M साइटों तक पहुंचने की उपलब्धि का जश्न मना रहा है, जो AI और Web3 क्षेत्र में इसकी तेजी से वृद्धि और प्रभाव को दर्शाता है।
 ---
 

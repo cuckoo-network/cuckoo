@@ -2,7 +2,7 @@
 title: "샘플링 증명 프로토콜: 탈중앙화 AI 추론에서 정직을 장려하고 부정직을 처벌하기"
 authors: [lark]
 tags: [research]
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=샘플링 증명 프로토콜: 탈중앙화 AI 추론에서 정직을 장려하고 부정직을 처벌하기"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=샘플링 증명 프로토콜: 탈중앙화 AI 추론에서 정직을 장려하고 부정직을 처벌하기"
 description: 샘플링 증명 (PoSP) 프로토콜의 독특한 접근 방식을 통해 GPU 제공자들 간의 정직한 행동을 장려하고 부정직을 처벌하여 탈중앙화 AI 추론 시스템의 보안과 신뢰성을 보장하는 방법을 알아보세요.
 ---
 

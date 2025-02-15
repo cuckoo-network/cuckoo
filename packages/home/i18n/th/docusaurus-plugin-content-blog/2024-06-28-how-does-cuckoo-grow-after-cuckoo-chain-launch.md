@@ -2,7 +2,7 @@
 title: "Cuckoo AI เติบโตอย่างไรหลังจากการเปิดตัว Cuckoo Chain"
 authors: [lark]
 tags: [company, roadmap]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=cuckoo-ai%20เติบโตอย่างไรหลังจากการเปิดตัว%20Cuckoo%20Chain
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=cuckoo-ai%20เติบโตอย่างไรหลังจากการเปิดตัว%20Cuckoo%20Chain
 description: ตั้งแต่การเปิดตัว Cuckoo Chain, Cuckoo Network ได้ประสบกับการเติบโตอย่างมีนัยสำคัญ บล็อกนี้สำรวจประสบการณ์ที่ได้รับการปรับปรุงของ Holder, Miner และ DeAI builder ที่ขับเคลื่อนการเปลี่ยนแปลงนี้
 ---
 

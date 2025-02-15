@@ -2,7 +2,7 @@
 title: "Cuckoo Network GPU 채굴 2024년 7월"
 authors: [lark]
 tags: [cuckoo chain, mining]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20GPU%20채굴%202024년%207월
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%20GPU%20채굴%202024년%207월
 description: 2024년 7월부터 Cuckoo Network는 채굴자들에게 GPU당 300 $CAI의 일일 보상을 제공합니다. 채굴 노드를 설정하고 수익을 시작하는 방법을 알아보세요.
 ---
 

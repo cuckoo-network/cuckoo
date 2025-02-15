@@ -4,14 +4,14 @@ tags: [Cuckoo Network, IoTeX, Layer 2, AI, Blockchain, Decentralized Computing]
 keywords: [Cuckoo Chain, IoTeX, AI 基础设施, MachineFi, GPU 挖矿, 去中心化 AI]
 authors: [lark]
 description: Cuckoo Network 将其去中心化 AI 基础设施扩展到 IoTeX 作为 Layer 2 解决方案，与 IoTeX 的 MachineFi 生态系统集成，提供可扩展的 AI 计算和跨链互操作性。了解开发者、矿工和 IoTeX 用户的好处，并学习如何参与 $CAI 代币空投。
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=空投%20Cuckoo%20%C3%97%20IoTeX%EF%BC%9ACuckoo%20%E9%93%BE%E6%89%A9%E5%B1%95%E8%87%B3%20IoTeX%20%E4%BD%9C%E4%B8%BA%20Layer%202
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=空投%20Cuckoo%20%C3%97%20IoTeX%EF%BC%9ACuckoo%20%E9%93%BE%E6%89%A9%E5%B1%95%E8%87%B3%20IoTeX%20%E4%BD%9C%E4%B8%BA%20Layer%202
 ---
 
 # 空投 Cuckoo × IoTeX：Cuckoo 链扩展至 IoTeX 作为 Layer 2
 
 Cuckoo Network 很高兴宣布其扩展至 IoTeX 作为 Layer 2 解决方案，将其去中心化 AI 基础设施带入 IoTeX 繁荣的生态系统。此战略合作将 Cuckoo 在 AI 模型服务方面的专业知识与 IoTeX 强大的 MachineFi 基础设施相结合，为两个社区创造了新的机会。
 
-![Cuckoo Network 扩展](https://cuckoo-portal-frontend.onrender.com/api/og?title=空投%20Cuckoo%20%C3%97%20IoTeX%EF%BC%9ACuckoo%20%E9%93%BE%E6%89%A9%E5%B1%95%E8%87%B3%20IoTeX%20%E4%BD%9C%E4%B8%BA%20Layer%202)
+![Cuckoo Network 扩展](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=空投%20Cuckoo%20%C3%97%20IoTeX%EF%BC%9ACuckoo%20%E9%93%BE%E6%89%A9%E5%B1%95%E8%87%B3%20IoTeX%20%E4%BD%9C%E4%B8%BA%20Layer%202)
 
 ## **需求**
 

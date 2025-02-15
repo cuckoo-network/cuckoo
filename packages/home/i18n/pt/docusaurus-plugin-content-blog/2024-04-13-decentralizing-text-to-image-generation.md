@@ -2,7 +2,7 @@
 title: Descentralizando a geração de texto para imagem com Cuckoo
 authors: [lark]
 tags: [empresa, roteiro]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Descentralizando%20a%20gera%C3%A7%C3%A3o%20de%20texto%20para%20imagem%20com%20Cuckoo
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Descentralizando%20a%20gera%C3%A7%C3%A3o%20de%20texto%20para%20imagem%20com%20Cuckoo
 description: Sistemas de Inteligência Artificial (IA) possuem um potencial sem precedentes para remodelar indústrias, mas seu desenvolvimento tem sido sufocado por questões inerentes a estruturas centralizadas. Estas variam de preocupações significativas com privacidade a limitações na precisão computacional e uma vulnerabilidade à censura.
 ---
 

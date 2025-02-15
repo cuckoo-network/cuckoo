@@ -4,14 +4,14 @@ tags: [AI agents, cognitive architecture, Google whitepaper]
 keywords: [AI, agents, cognitive architecture, Google, AI systems]
 authors: [lark]
 description: Google's whitepaper unveils the transformative potential of AI agents, showcasing their ability to perceive, reason, and influence the real world. Discover how these agents differ from traditional AI models through real-time information access, action-taking capabilities, and tool integration.
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Google%20Agent%20Whitepaper
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Google%20Agent%20Whitepaper
 ---
 
 # Google Agent Whitepaper
 
 While language models like GPT-4 and Gemini have captured public attention with their conversational abilities, a more profound revolution is happening: the rise of AI agents. As detailed in Google's recent whitepaper, these agents aren't just smart chatbots – they're AI systems that can actively perceive, reason about, and influence the real world.
 
-![](https://cuckoo-portal-frontend.onrender.com/api/og?title=Google%20Agent%20Whitepaper)
+![](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Google%20Agent%20Whitepaper)
 
 ## The Evolution of AI Capabilities
 

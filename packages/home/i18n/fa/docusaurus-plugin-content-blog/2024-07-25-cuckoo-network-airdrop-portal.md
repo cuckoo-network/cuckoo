@@ -2,7 +2,7 @@
 title: "معرفی پورتال ایردراپ شبکه کوکو"
 authors: [lark]
 tags: [ایردراپ, زنجیره کوکو, نقشه راه]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=معرفی پورتال ایردراپ شبکه کوکو
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=معرفی پورتال ایردراپ شبکه کوکو
 description: کشف کنید که چگونه می‌توانید توکن‌های $CAI را از طریق پورتال ایردراپ شبکه کوکو کسب کنید. امروز با هوش مصنوعی غیرمتمرکز درگیر شوید، حمایت کنید و بهره‌مند شوید!
 ---
 

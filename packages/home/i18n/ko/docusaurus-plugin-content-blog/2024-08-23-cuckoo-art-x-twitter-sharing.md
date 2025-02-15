@@ -2,7 +2,7 @@
 title: 쿠쿠 아트, X/Twitter에 원클릭 공유 기능 도입
 authors: [lark]
 tags: [product]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=쿠쿠 아트, X/Twitter에 원클릭 공유 기능 도입
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=쿠쿠 아트, X/Twitter에 원클릭 공유 기능 도입
 description: 쿠쿠 아트가 X/Twitter에 원클릭 공유 기능을 출시하여 아티스트들이 AI로 생성된 작품을 전 세계에 선보일 수 있게 합니다. 이 기능은 창의성과 소셜 미디어를 연결하여 도달 범위와 커뮤니티 참여를 확장합니다.
 ---
 

@@ -4,14 +4,14 @@ tags: [区块链, AI, 去中心化计算, 智能合约]
 keywords: [Ritual, 区块链 AI, 去中心化 AI, 智能合约, Web3 基础设施]
 authors: [lark]
 description: Ritual 是由前 Polychain 投资者 Niraj Pant 和 Akilesh Potti 创立的初创公司，正在开创将 AI 能力集成到区块链环境中的先河，并获得了 2500 万美元的 A 轮融资。该公司旨在通过 AI 驱动的功能革新智能合约和去中心化应用。
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual%EF%BC%9A%E8%AE%A9%E5%8C%BA%E5%9D%97%E9%93%BE%E6%80%9D%E8%80%83%E7%9A%84%202500%20%E4%B8%87%E7%BE%8E%E5%85%83%E8%B5%8C%E6%B3%A8
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Ritual%EF%BC%9A%E8%AE%A9%E5%8C%BA%E5%9D%97%E9%93%BE%E6%80%9D%E8%80%83%E7%9A%84%202500%20%E4%B8%87%E7%BE%8E%E5%85%83%E8%B5%8C%E6%B3%A8
 ---
 
 # Ritual：让区块链思考的 2500 万美元赌注
 
 Ritual 由前 Polychain 投资者 Niraj Pant 和 Akilesh Potti 于 2023 年创立，是一个雄心勃勃的项目，位于区块链和 AI 的交汇点。该公司获得了由 Archetype 领投、Polychain Capital 战略投资的 2500 万美元 A 轮融资，旨在解决实现复杂链上和链下交互的关键基础设施缺口。Ritual 拥有来自领先机构和公司的 30 名专家团队，正在构建一个将 AI 能力直接集成到区块链环境中的协议，目标应用包括自然语言生成的智能合约和动态市场驱动的借贷协议。
 
-![Ritual：让区块链思考的 2500 万美元赌注](https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual%EF%BC%9A%E8%AE%A9%E5%8C%BA%E5%9D%97%E9%93%BE%E6%80%9D%E8%80%83%E7%9A%84%202500%20%E4%B8%87%E7%BE%8E%E5%85%83%E8%B5%8C%E6%B3%A8)
+![Ritual：让区块链思考的 2500 万美元赌注](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Ritual%EF%BC%9A%E8%AE%A9%E5%8C%BA%E5%9D%97%E9%93%BE%E6%80%9D%E8%80%83%E7%9A%84%202500%20%E4%B8%87%E7%BE%8E%E5%85%83%E8%B5%8C%E6%B3%A8)
 
 ## 为什么客户需要 Web3 来实现 AI
 

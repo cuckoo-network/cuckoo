@@ -2,7 +2,7 @@
 title: "Mengumumkan Cuckoo Sepolia V2 di Arbitrum"
 authors: [dora]
 tags: [produk, cuckoo chain, roadmap]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Mengumumkan Cuckoo Sepolia V2 di Arbitrum
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Mengumumkan Cuckoo Sepolia V2 di Arbitrum
 ---
 Kami sangat senang mengumumkan peluncuran Cuckoo Sepolia V2, testnet yang ditingkatkan yang dibangun di atas Arbitrum. Transisi signifikan ini adalah respons langsung terhadap masukan berharga dari komunitas kami, yang bertujuan untuk meningkatkan utilitas dan skalabilitas platform kami.
 

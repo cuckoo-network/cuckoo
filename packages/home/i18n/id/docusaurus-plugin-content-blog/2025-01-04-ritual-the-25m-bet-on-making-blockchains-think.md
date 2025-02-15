@@ -4,14 +4,14 @@ tags: [blockchain, AI, komputasi terdesentralisasi, kontrak pintar]
 keywords: [Ritual, AI blockchain, AI terdesentralisasi, kontrak pintar, infrastruktur Web3]
 authors: [lark]
 description: Ritual, sebuah startup yang didirikan oleh mantan investor Polychain Niraj Pant dan Akilesh Potti, mempelopori integrasi kemampuan AI ke dalam lingkungan blockchain, didukung oleh pendanaan Seri A sebesar $25 juta. Perusahaan ini bertujuan untuk merevolusi kontrak pintar dan aplikasi terdesentralisasi dengan fungsionalitas berbasis AI.
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual:%20Taruhan%20$25%20Juta%20untuk%20Membuat%20Blockchain%20Berpikir
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Ritual:%20Taruhan%20$25%20Juta%20untuk%20Membuat%20Blockchain%20Berpikir
 ---
 
 # Ritual: Taruhan $25 Juta untuk Membuat Blockchain Berpikir
 
 Ritual, didirikan pada tahun 2023 oleh mantan investor Polychain Niraj Pant dan Akilesh Potti, adalah proyek ambisius di persimpangan blockchain dan AI. Didukung oleh pendanaan Seri A sebesar $25 juta yang dipimpin oleh Archetype dan investasi strategis dari Polychain Capital, perusahaan ini bertujuan untuk mengatasi kesenjangan infrastruktur kritis dalam memungkinkan interaksi kompleks di dalam dan di luar rantai. Dengan tim yang terdiri dari 30 ahli dari institusi dan perusahaan terkemuka, Ritual sedang membangun protokol yang mengintegrasikan kemampuan AI langsung ke dalam lingkungan blockchain, menargetkan kasus penggunaan seperti kontrak pintar yang dihasilkan dari bahasa alami dan protokol pinjaman dinamis yang digerakkan oleh pasar.
 
-![Ritual: Taruhan $25 Juta untuk Membuat Blockchain Berpikir](https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual:%20Taruhan%20$25%20Juta%20untuk%20Membuat%20Blockchain%20Berpikir)
+![Ritual: Taruhan $25 Juta untuk Membuat Blockchain Berpikir](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Ritual:%20Taruhan%20$25%20Juta%20untuk%20Membuat%20Blockchain%20Berpikir)
 
 ## Mengapa Pelanggan Membutuhkan Web3 untuk AI
 

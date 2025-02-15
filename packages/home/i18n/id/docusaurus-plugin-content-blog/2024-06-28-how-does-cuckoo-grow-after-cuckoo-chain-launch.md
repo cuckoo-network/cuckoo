@@ -2,7 +2,7 @@
 title: "Bagaimana Cuckoo AI Berkembang Setelah Peluncuran Cuckoo Chain"
 authors: [lark]
 tags: [company, roadmap]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Bagaimana%20Cuckoo%20AI%20Berkembang%20Setelah%20Peluncuran%20Cuckoo%20Chain
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Bagaimana%20Cuckoo%20AI%20Berkembang%20Setelah%20Peluncuran%20Cuckoo%20Chain
 description: Sejak peluncuran Cuckoo Chain, Cuckoo Network telah mengalami pertumbuhan signifikan. Blog ini mengeksplorasi pengalaman Holder, Miner, dan pembangun DeAI yang ditingkatkan yang mendorong transformasi ini.
 ---
 

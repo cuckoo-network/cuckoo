@@ -2,7 +2,7 @@
 title: "कुक्कू नेटवर्क एयरड्रॉप: जून 2024"
 authors: [lark]
 tags: [airdrop, cuckoo chain]
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=कुक्कू नेटवर्क एयरड्रॉप: जून 2024"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=कुक्कू नेटवर्क एयरड्रॉप: जून 2024"
 description: इस जून 2024 में कुक्कू नेटवर्क एयरड्रॉप में भाग लें। हमारे अल्फा और सेपोलिया टेस्टनेट्स के साथ इंटरैक्ट करें और 30,000 $CAI टोकन का अपना हिस्सा कमाएं। इसे मिस न करें!
 ---
 

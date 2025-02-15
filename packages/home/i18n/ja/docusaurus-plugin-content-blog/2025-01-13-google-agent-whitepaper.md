@@ -4,14 +4,14 @@ tags: [AI エージェント, 認知アーキテクチャ, Google ホワイト�
 keywords: [AI, エージェント, 認知アーキテクチャ, Google, AI システム]
 authors: [lark]
 description: Google のホワイトペーパーは、AI エージェントの変革的な可能性を明らかにし、彼らが現実世界を認識し、推論し、影響を与える能力を示しています。これらのエージェントが、リアルタイム情報アクセス、アクション実行能力、ツール統合を通じて、従来の AI モデルとどのように異なるかを発見してください。
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Google%20エージェント%20ホワイトペーパー"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Google%20エージェント%20ホワイトペーパー"
 ---
 
 # Google エージェント ホワイトペーパー
 
 GPT-4 や Gemini のような言語モデルが会話能力で注目を集めている一方で、より深い革命が進行しています。それは、AI エージェントの台頭です。Google の最近のホワイトペーパーで詳述されているように、これらのエージェントは単なるスマートチャットボットではなく、現実世界を積極的に認識し、推論し、影響を与えることができる AI システムです。
 
-![](https://cuckoo-portal-frontend.onrender.com/api/og?title=Google%20エージェント%20ホワイトペーパー)
+![](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Google%20エージェント%20ホワイトペーパー)
 
 ## AI 能力の進化
 

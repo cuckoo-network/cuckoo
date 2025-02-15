@@ -4,14 +4,14 @@ tags: [blockchain, IA, computação descentralizada, contratos inteligentes]
 keywords: [Ritual, IA blockchain, IA descentralizada, contratos inteligentes, infraestrutura Web3]
 authors: [lark]
 description: Ritual, uma startup fundada pelo ex-investidor da Polychain Niraj Pant e Akilesh Potti, está liderando a integração de capacidades de IA em ambientes de blockchain, apoiada por uma Série A de $25M. A empresa visa revolucionar contratos inteligentes e aplicativos descentralizados com funcionalidades impulsionadas por IA.
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual:%20A%20Aposta%20de%20$25M%20para%20Fazer%20Blockchains%20Pensarem
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Ritual:%20A%20Aposta%20de%20$25M%20para%20Fazer%20Blockchains%20Pensarem
 ---
 
 # Ritual: A Aposta de $25M para Fazer Blockchains Pensarem
 
 Ritual, fundada em 2023 pelo ex-investidor da Polychain Niraj Pant e Akilesh Potti, é um projeto ambicioso na interseção de blockchain e IA. Apoiada por uma Série A de $25M liderada pela Archetype e investimento estratégico da Polychain Capital, a empresa visa abordar lacunas críticas de infraestrutura para permitir interações complexas on-chain e off-chain. Com uma equipe de 30 especialistas de instituições e empresas líderes, a Ritual está construindo um protocolo que integra capacidades de IA diretamente em ambientes de blockchain, visando casos de uso como contratos inteligentes gerados por linguagem natural e protocolos de empréstimo dinâmicos orientados pelo mercado.
 
-![Ritual: A Aposta de $25M para Fazer Blockchains Pensarem](https://cuckoo-portal-frontend.onrender.com/api/og?title=Ritual:%20A%20Aposta%20de%20$25M%20para%20Fazer%20Blockchains%20Pensarem)
+![Ritual: A Aposta de $25M para Fazer Blockchains Pensarem](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Ritual:%20A%20Aposta%20de%20$25M%20para%20Fazer%20Blockchains%20Pensarem)
 
 ## Por Que os Clientes Precisam de Web3 para IA
 

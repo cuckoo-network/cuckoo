@@ -4,12 +4,12 @@ tags: [分散型AI, ブロックチェーン, GPUマイニング, AIサービス
 keywords: [Cuckoo Network, 分散型AI, ブロックチェーン技術, GPU DePIN, AIインフラストラクチャ]
 authors: [lark]
 description: Cuckoo Networkの2025年戦略は、ブロックチェーン、分散型GPUコンピューティング、AIサービスを統合し、フルスタックソリューションを提供することに焦点を当てています。このレポートでは、市場ポジショニング、収益化戦略、技術ロードマップを概説し、Cuckooを分散型AIインフラストラクチャのリーダーとして確立することを目指します。
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20ビジネス戦略レポート%202025"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%20ビジネス戦略レポート%202025"
 ---
 
 # Cuckoo Network ビジネス戦略レポート 2025
 
-![](https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20ビジネス戦略レポート%202025)
+![](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%20ビジネス戦略レポート%202025)
 
 ## 1. 市場ポジショニングと競争分析
 

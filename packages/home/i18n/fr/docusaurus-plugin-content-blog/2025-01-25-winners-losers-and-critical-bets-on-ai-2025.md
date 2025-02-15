@@ -5,7 +5,7 @@ keywords:
   [industrie de l'IA, Anthropic, Google, OpenAI, Apple, AGI, infrastructure IA]
 authors: [lark]
 description: Une analyse approfondie de la trajectoire de l'industrie de l'IA en 2025, mettant en lumière les nouvelles structures de pouvoir émergentes, les défis pour les acteurs établis, et les paris critiques qui façonnent l'avenir de la technologie.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Analyse%20de%20l'industrie%20de%20l'IA%20en%202025%20%3A%20Gagnants%2C%20Perdants%20et%20Paris%20Critiques"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Analyse%20de%20l'industrie%20de%20l'IA%20en%202025%20%3A%20Gagnants%2C%20Perdants%20et%20Paris%20Critiques"
 ---
 
 # Analyse de l'industrie de l'IA en 2025 : Gagnants, Perdants et Paris Critiques
@@ -16,7 +16,7 @@ Le paysage de l'IA subit un changement sismique. Au cours des deux dernières se
 
 Ce n'est pas seulement un rapport—c'est une carte de l'avenir de l'industrie. Plongeons dans les gagnants, les perdants et les paris critiques définissant 2025.
 
-![Analyse de l'industrie de l'IA en 2025 : Gagnants, Perdants et Paris Critiques](https://cuckoo-portal-frontend.onrender.com/api/og?title=Analyse%20de%20l'industrie%20de%20l'IA%20en%202025%20%3A%20Gagnants%2C%20Perdants%20et%20Paris%20Critiques)
+![Analyse de l'industrie de l'IA en 2025 : Gagnants, Perdants et Paris Critiques](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Analyse%20de%20l'industrie%20de%20l'IA%20en%202025%20%3A%20Gagnants%2C%20Perdants%20et%20Paris%20Critiques)
 
 ## Les Gagnants : Une Nouvelle Structure de Pouvoir Émerge
 

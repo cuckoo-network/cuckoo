@@ -2,7 +2,7 @@
 title: "Merayakan Tonggak Kecil: Cuckoo.Network dalam Top 1M Situs Global"
 authors: [lark]
 tags: [company]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Merayakan%20Tonggak%20Kecil%3A%20Cuckoo.Network%20dalam%20Top%201M%20Situs%20Global
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Merayakan%20Tonggak%20Kecil%3A%20Cuckoo.Network%20dalam%20Top%201M%20Situs%20Global
 description: Cuckoo.Network merayakan pencapaian tonggak sejarah dengan mencapai top 1M situs secara global, menunjukkan pertumbuhan pesat dan dampaknya di ruang AI dan Web3.
 ---
 

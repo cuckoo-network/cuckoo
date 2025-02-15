@@ -2,7 +2,7 @@
 title: "ร่วมสร้าง Cuckoo Network: เรียกหาผู้สร้าง นักพัฒนา และนักนวัตกรรม!"
 authors: [lark]
 tags: [Cuckoo Chain]
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=ร่วมสร้าง Cuckoo Network: เรียกหาผู้สร้าง นักพัฒนา และนักนวัตกรรม!"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=ร่วมสร้าง Cuckoo Network: เรียกหาผู้สร้าง นักพัฒนา และนักนวัตกรรม!"
 description: Cuckoo Network กำลังเรียกหาศิลปิน นักพัฒนา และนักนวัตกรรมที่มีความหลงใหลในการร่วมสร้างอนาคตของแพลตฟอร์มแบบกระจายศูนย์ เรากำลังมองหาผู้ร่วมสร้างเพื่อสร้างงานศิลปะ พัฒนาบทเรียน สะพาน stablecoins และสร้างตลาดทำนายบน Cuckoo Chain หากคุณกระตือรือร้นที่จะสร้างผลกระทบในโลกของบล็อกเชน นี่คือโอกาสของคุณ!
 ---
 

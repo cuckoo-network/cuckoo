@@ -2,7 +2,7 @@
 title: "ทำความเข้าใจโปรโตคอล Proof of Inference"
 authors: [lark]
 tags: [research]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=ทำความเข้าใจโปรโตคอล Proof of Inference
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=ทำความเข้าใจโปรโตคอล Proof of Inference
 description: เจาะลึกโปรโตคอล Proof of Inference ที่ออกแบบมาเพื่อรักษาความปลอดภัยและตรวจสอบการอนุมาน AI บนเครือข่ายแบบกระจาย เรียนรู้ว่าโปรโตคอลนี้จัดการกับความท้าทายเฉพาะของการคำนวณ AI แบบกระจายอย่างไร
 ---
 

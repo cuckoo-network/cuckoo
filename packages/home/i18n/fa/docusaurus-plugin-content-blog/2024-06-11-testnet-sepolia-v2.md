@@ -2,7 +2,7 @@
 title: "اعلامیه Cuckoo Sepolia V2 بر روی Arbitrum"
 authors: [dora]
 tags: [محصول, زنجیره کوکو, نقشه راه]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=اعلامیه Cuckoo Sepolia V2 بر روی Arbitrum
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=اعلامیه Cuckoo Sepolia V2 بر روی Arbitrum
 ---
 ما با خوشحالی اعلام می‌کنیم که Cuckoo Sepolia V2، یک تست‌نت ارتقاء یافته که بر روی Arbitrum ساخته شده است، راه‌اندازی شده است. این انتقال مهم پاسخی مستقیم به بازخوردهای ارزشمند جامعه ما است که هدف آن افزایش کارایی و مقیاس‌پذیری پلتفرم ما می‌باشد.
 

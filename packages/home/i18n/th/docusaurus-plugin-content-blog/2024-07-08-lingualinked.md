@@ -2,7 +2,7 @@
 title: "LinguaLinked: การเสริมพลังอุปกรณ์เคลื่อนที่ด้วยโมเดลภาษาขนาดใหญ่แบบกระจาย"
 authors: [lark]
 tags: [research]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=LinguaLinked%3A%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%AD%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%82%E0%B8%A1%E0%B9%80%E0%B8%94%E0%B8%A5%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B2%E0%B8%A2
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=LinguaLinked%3A%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%AD%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%82%E0%B8%A1%E0%B9%80%E0%B8%94%E0%B8%A5%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B2%E0%B8%A2
 description: ความต้องการในการใช้งานโมเดลภาษาขนาดใหญ่ (LLMs) บนอุปกรณ์เคลื่อนที่เพิ่มขึ้น เนื่องจากความต้องการความเป็นส่วนตัว ลดความหน่วง และการใช้งานแบนด์วิดธ์อย่างมีประสิทธิภาพ อย่างไรก็ตาม ความต้องการหน่วยความจำและการคำนวณที่มากของ LLMs เป็นความท้าทายที่สำคัญ
 ---
 

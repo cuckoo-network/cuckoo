@@ -4,14 +4,14 @@ tags: [IA descentralizada, inspecciones de hogares, blockchain, minería de GPU,
 keywords: [Cuckoo Network, Tenspect, IA descentralizada, inspección de hogares, blockchain, minería de GPU, infraestructura de IA]
 authors: [lark]
 description: Cuckoo Network y Tenspect se asocian para revolucionar la industria de inspección de hogares integrando infraestructura de IA descentralizada, mejorando la privacidad y reduciendo costos a través de la tecnología blockchain y minería de GPU.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20se%20asocia%20con%20Tenspect%20para%20impulsar%20inspecciones%20de%20hogares%20con%20IA%20de%20pr%C3%B3xima%20generaci%C3%B3n"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%20se%20asocia%20con%20Tenspect%20para%20impulsar%20inspecciones%20de%20hogares%20con%20IA%20de%20pr%C3%B3xima%20generaci%C3%B3n"
 ---
 
 # Cuckoo Network se asocia con Tenspect para impulsar inspecciones de hogares con IA de próxima generación
 
 Estamos emocionados de anunciar una asociación innovadora entre Cuckoo Network y Tenspect, combinando nuestra infraestructura de IA descentralizada con la plataforma innovadora de inspección de hogares de Tenspect. Esta colaboración marca un paso significativo hacia llevar el poder de la IA descentralizada a la industria inmobiliaria.
 
-![Cuckoo Network se asocia con Tenspect para impulsar inspecciones de hogares con IA de próxima generación](https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20se%20asocia%20con%20Tenspect%20para%20impulsar%20inspecciones%20de%20hogares%20con%20IA%20de%20pr%C3%B3xima%20generaci%C3%B3n)
+![Cuckoo Network se asocia con Tenspect para impulsar inspecciones de hogares con IA de próxima generación](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%20se%20asocia%20con%20Tenspect%20para%20impulsar%20inspecciones%20de%20hogares%20con%20IA%20de%20pr%C3%B3xima%20generaci%C3%B3n)
 
 ## Por qué esta asociación es importante
 

@@ -2,7 +2,7 @@
 title: "AI의 탈중앙화: 개요"
 authors: [dora]
 tags: [research]
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=AI의 탈중앙화: 개요"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=AI의 탈중앙화: 개요"
 ---
 
 블록체인과 AI의 결합은 상당한 시장의 주목을 받고 있습니다. ChatGPT가 수백만 명의 사용자를 빠르게 확보하고 Nvidia의 주가가 2023년에 여덟 배로 급등하면서, AI는 확고한 지배적 트렌드로 자리 잡았습니다. 이 영향력은 블록체인과 같은 인접 부문으로 확산되고 있으며, AI 응용 프로그램이 탐구되고 있습니다.

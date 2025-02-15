@@ -2,7 +2,7 @@
 title: "Berkolaborasi dengan Jaringan Cuckoo: Memanggil Semua Kreator, Pengembang, dan Inovator!"
 authors: [lark]
 tags: [Cuckoo Chain]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Berkolaborasi%20dengan%20Jaringan%20Cuckoo%3A%20Memanggil%20Semua%20Kreator%2C%20Pengembang%2C%20dan%20Inovator%21
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Berkolaborasi%20dengan%20Jaringan%20Cuckoo%3A%20Memanggil%20Semua%20Kreator%2C%20Pengembang%2C%20dan%20Inovator%21
 description: Jaringan Cuckoo memanggil seniman, pengembang, dan inovator yang bersemangat untuk bergabung dengan kami dalam membentuk masa depan platform terdesentralisasi. Kami mencari rekan pembangun untuk menciptakan seni, mengembangkan tutorial, menjembatani stablecoin, dan membangun pasar prediksi di Cuckoo Chain. Jika Anda ingin memberikan dampak di dunia blockchain, inilah kesempatan Anda!
 ---
 

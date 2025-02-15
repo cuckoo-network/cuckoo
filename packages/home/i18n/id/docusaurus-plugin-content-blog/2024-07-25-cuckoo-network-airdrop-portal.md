@@ -2,7 +2,7 @@
 title: "Memperkenalkan Portal Airdrop Jaringan Cuckoo"
 authors: [lark]
 tags: [airdrop, cuckoo chain, roadmap]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Memperkenalkan%20Portal%20Airdrop%20Jaringan%20Cuckoo
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Memperkenalkan%20Portal%20Airdrop%20Jaringan%20Cuckoo
 description: Temukan cara untuk mendapatkan token $CAI melalui Portal Airdrop Jaringan Cuckoo. Terlibat, dukung, dan manfaatkan AI terdesentralisasi hari ini!
 ---
 

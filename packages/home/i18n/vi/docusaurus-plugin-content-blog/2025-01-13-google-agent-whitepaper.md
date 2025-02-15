@@ -4,14 +4,14 @@ tags: [tác nhân AI, kiến trúc nhận thức, sách trắng Google]
 keywords: [AI, tác nhân, kiến trúc nhận thức, Google, hệ thống AI]
 authors: [lark]
 description: Sách trắng của Google tiết lộ tiềm năng biến đổi của các tác nhân AI, thể hiện khả năng nhận thức, lý luận và ảnh hưởng đến thế giới thực của chúng. Khám phá cách các tác nhân này khác biệt với các mô hình AI truyền thống thông qua khả năng truy cập thông tin thời gian thực, thực hiện hành động và tích hợp công cụ.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=S%C3%A1ch%20tr%E1%BA%AFng%20v%E1%BB%81%20Google%20Agent"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=S%C3%A1ch%20tr%E1%BA%AFng%20v%E1%BB%81%20Google%20Agent"
 ---
 
 # Sách trắng về Google Agent
 
 Trong khi các mô hình ngôn ngữ như GPT-4 và Gemini đã thu hút sự chú ý của công chúng với khả năng hội thoại của chúng, một cuộc cách mạng sâu sắc hơn đang diễn ra: sự trỗi dậy của các tác nhân AI. Như được mô tả chi tiết trong sách trắng gần đây của Google, những tác nhân này không chỉ là chatbot thông minh – chúng là các hệ thống AI có thể chủ động nhận thức, lý luận và ảnh hưởng đến thế giới thực.
 
-![](https://cuckoo-portal-frontend.onrender.com/api/og?title=S%C3%A1ch%20tr%E1%BA%AFng%20v%E1%BB%81%20Google%20Agent)
+![](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=S%C3%A1ch%20tr%E1%BA%AFng%20v%E1%BB%81%20Google%20Agent)
 
 ## Sự phát triển của khả năng AI
 

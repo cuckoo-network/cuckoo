@@ -2,7 +2,7 @@
 title: Cuckoo Art Memperkenalkan Berbagi Satu Klik ke X/Twitter
 authors: [lark]
 tags: [product]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Art%20Memperkenalkan%20Berbagi%20Satu%20Klik%20ke%20X/Twitter
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Art%20Memperkenalkan%20Berbagi%20Satu%20Klik%20ke%20X/Twitter
 description: Cuckoo Art meluncurkan fitur berbagi satu klik ke X/Twitter, memungkinkan seniman memamerkan karya seni yang dihasilkan AI secara global. Fitur ini menjembatani kreativitas dan media sosial, memperluas jangkauan dan keterlibatan komunitas.
 ---
 

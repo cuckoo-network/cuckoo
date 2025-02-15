@@ -2,7 +2,7 @@
 title: "Cuckoo Network e Swan Chain Unem Forças para Revolucionar a IA Descentralizada"
 authors: [lark]
 tags: [parceria, ia, empresa, produto, cuckoo chat]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Cuckoo%20Network%20e%20Swan%20Chain%20Unem%20For%C3%A7as%20para%20Revolucionar%20a%20IA%20Descentralizada
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Cuckoo%20Network%20e%20Swan%20Chain%20Unem%20For%C3%A7as%20para%20Revolucionar%20a%20IA%20Descentralizada
 description: Cuckoo Network e Swan Chain se unem para revolucionar a IA descentralizada, integrando poderosos recursos de GPU no mercado de serviços de modelos de IA da Cuckoo. Esta colaboração capacita desenvolvedores e criadores de IA com capacidades de processamento aprimoradas, permitindo a criação de modelos de linguagem inspirados em anime e expandindo as oportunidades de inovação em IA descentralizada.
 keywords:
   [

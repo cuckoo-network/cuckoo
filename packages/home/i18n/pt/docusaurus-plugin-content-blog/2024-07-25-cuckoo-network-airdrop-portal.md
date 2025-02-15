@@ -2,7 +2,7 @@
 title: "Apresentando o Portal de Airdrop da Cuckoo Network"
 authors: [lark]
 tags: [airdrop, cuckoo chain, roadmap]
-image: https://cuckoo-portal-frontend.onrender.com/api/og?title=Apresentando%20o%20Portal%20de%20Airdrop%20da%20Cuckoo%20Network
+image: https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Apresentando%20o%20Portal%20de%20Airdrop%20da%20Cuckoo%20Network
 description: Descubra como ganhar tokens $CAI através do Portal de Airdrop da Cuckoo Network. Participe, apoie e beneficie-se da IA descentralizada hoje!
 ---
 

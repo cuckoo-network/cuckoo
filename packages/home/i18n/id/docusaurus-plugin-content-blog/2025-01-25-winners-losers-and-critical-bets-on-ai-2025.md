@@ -5,7 +5,7 @@ keywords:
   [industri AI, Anthropic, Google, OpenAI, Apple, AGI, infrastruktur AI]
 authors: [lark]
 description: Analisis mendalam tentang trajektori industri AI pada tahun 2025, menyoroti struktur kekuasaan yang muncul, tantangan bagi pemain mapan, dan taruhan kritis yang membentuk masa depan teknologi.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Analisis%20Industri%20AI%202025:%20Pemenang,%20Pecundang,%20dan%20Taruhan%20Kritis"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Analisis%20Industri%20AI%202025:%20Pemenang,%20Pecundang,%20dan%20Taruhan%20Kritis"
 ---
 
 # Analisis Industri AI 2025: Pemenang, Pecundang, dan Taruhan Kritis
@@ -16,7 +16,7 @@ Lanskap AI sedang mengalami perubahan besar. Selama dua minggu terakhir, kami me
 
 Ini bukan sekadar laporan—ini adalah peta masa depan industri. Mari kita selami para pemenang, pecundang, dan taruhan kritis yang mendefinisikan tahun 2025.
 
-![Analisis Industri AI 2025: Pemenang, Pecundang, dan Taruhan Kritis](https://cuckoo-portal-frontend.onrender.com/api/og?title=Analisis%20Industri%20AI%202025:%20Pemenang,%20Pecundang,%20dan%20Taruhan%20Kritis)
+![Analisis Industri AI 2025: Pemenang, Pecundang, dan Taruhan Kritis](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Analisis%20Industri%20AI%202025:%20Pemenang,%20Pecundang,%20dan%20Taruhan%20Kritis)
 
 ## Para Pemenang: Struktur Kekuasaan Baru Muncul
 

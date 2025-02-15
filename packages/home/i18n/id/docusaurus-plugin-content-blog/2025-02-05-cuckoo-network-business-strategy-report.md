@@ -4,12 +4,12 @@ tags: [AI terdesentralisasi, blockchain, penambangan GPU, layanan AI, web3]
 keywords: [Jaringan Cuckoo, AI terdesentralisasi, teknologi blockchain, GPU DePIN, infrastruktur AI]
 authors: [lark]
 description: Strategi 2025 Jaringan Cuckoo berfokus pada integrasi blockchain, komputasi GPU terdesentralisasi, dan layanan AI untuk menawarkan solusi full-stack. Laporan ini menguraikan posisi pasar, strategi monetisasi, dan peta jalan teknis untuk menetapkan Cuckoo sebagai pemimpin dalam infrastruktur AI terdesentralisasi.
-image: "https://cuckoo-portal-frontend.onrender.com/api/og?title=Laporan%20Strategi%20Bisnis%20Jaringan%20Cuckoo%202025"
+image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Laporan%20Strategi%20Bisnis%20Jaringan%20Cuckoo%202025"
 ---
 
 # Laporan Strategi Bisnis Jaringan Cuckoo 2025
 
-![](https://cuckoo-portal-frontend.onrender.com/api/og?title=Laporan%20Strategi%20Bisnis%20Jaringan%20Cuckoo%202025)
+![](https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Laporan%20Strategi%20Bisnis%20Jaringan%20Cuckoo%202025)
 
 ## 1. Posisi Pasar & Analisis Kompetitif
 
