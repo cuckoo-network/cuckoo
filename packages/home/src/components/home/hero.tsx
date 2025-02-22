@@ -6,15 +6,23 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { HandCoins, Newspaper, Sparkles } from "lucide-react";
 import Translate, { translate } from "@docusaurus/Translate";
 import useBaseUrl from "@docusaurus/useBaseUrl";
+import { useBlurGradient } from "@site/src/hooks/use-blur-gradient";
 
 export function Hero() {
   useAos();
   const { siteConfig } = useDocusaurusContext();
+
+  useBlurGradient({
+    dom: "hero-bg",
+    colors: ["#ff000d", "#2B1E90", "#09001f", "#bc27be"],
+    loop: true,
+  });
+
   return (
     <section className="relative overflow-hidden">
-      {/* Bg gradient */}
+      <div id="hero-bg" className="absolute inset-0 -z-10" />
       <div
-        className="absolute bottom-0 left-0 right-0 bg-gradient-to-t dark:from-gray-800 dark:to-gray-900 opacity-60 h-[10rem] pointer-events-none -z-10"
+        className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/30 pointer-events-none"
         aria-hidden="true"
       />
       {/* Illustration */}
@@ -67,7 +75,7 @@ export function Hero() {
               </div>
             </div>
             <h1
-              className={clsx("h1 font-uncut-sans mb-6", styles.h1)}
+              className={clsx("h1 font-uncut-sans mb-6 text-white", styles.h1)}
               data-aos="zoom-out"
               data-aos-delay="100"
             >
@@ -78,7 +86,7 @@ export function Hero() {
               })}
             </h1>
             <p
-              className="dark:text-lg text-gray-400 text-lg text-gray-600 mb-10"
+              className="text-lg text-gray-200 mb-10"
               data-aos="zoom-out"
               data-aos-delay="200"
             >
