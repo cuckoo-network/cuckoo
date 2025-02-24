@@ -116,12 +116,12 @@ Cuckoo differentiates itself by integrating **all three critical layers – bloc
           <span class="badge badge--success">Stable</span>
         </div>
         <div class="card__body">
-          <p>API marketplace and staking node infra powering DApps of all sizes, with $50M staked, 27 APIs. Build DApp and scale faster.</p>
+          <p>Create stunning AI art and fuel Gen AI apps with your GPU or CPU on Cuckoo Chain.</p>
         </div>
         <div class="card__footer">
           <div class="avatar">
             <div class="avatar__intro">
-              <div class="avatar__subtitle">6K developers and 99.9% overall uptime</div>
+              <div class="avatar__subtitle">32K Images Generated</div>
             </div>
           </div>
         </div>
