@@ -38,7 +38,7 @@ export default function PostItem({ ...props }) {
         {props.metadata.description}
       </p>
       <footer className="flex items-center mt-4">
-        <Link href={props.metadata.authors[0].url}>
+        <Link href={props.metadata.authors[0]?.url}>
           <img
             className="rounded-full shrink-0 mr-4"
             src={props.metadata.authors[0]?.imageURL}
