@@ -17,7 +17,7 @@ Cuckoo differentiates itself by integrating **all three critical layers – bloc
 ## Crypto AI Ecosystem
 
 <div class="row margin-bottom--lg">
-  <div class="col col--4 margin-bottom--lg">
+  <div class="col col--6 margin-bottom--lg">
     <a class="card-wrapper" href="/cuckoo-chain">
       <div class="card">
         <div class="card__header">
@@ -38,7 +38,7 @@ Cuckoo differentiates itself by integrating **all three critical layers – bloc
     </a>
   </div>
 
- <div class="col col--4 margin-bottom--lg">
+ <div class="col col--6 margin-bottom--lg">
     <a class="card-wrapper" href="/cuckoo-chain">
       <div class="card">
         <div class="card__header">
@@ -59,7 +59,7 @@ Cuckoo differentiates itself by integrating **all three critical layers – bloc
     </a>
   </div>
 
-  <div class="col col--4 margin-bottom--lg">
+  <div class="col col--6 margin-bottom--lg">
     <a class="card-wrapper" href="https://cuckoo.network/portal/mining">
       <div class="card">
         <div class="card__header">
@@ -80,7 +80,7 @@ Cuckoo differentiates itself by integrating **all three critical layers – bloc
     </a>
   </div>
 
-  <div class="col col--4 margin-bottom--lg">
+  <div class="col col--6 margin-bottom--lg">
     <a class="card-wrapper" href="https://blockeden.xyz" target="_blank">
       <div class="card">
         <div class="card__header">
@@ -106,7 +106,7 @@ Cuckoo differentiates itself by integrating **all three critical layers – bloc
     </a>
   </div>
 
-  <div class="col col--4 margin-bottom--lg">
+  <div class="col col--6 margin-bottom--lg">
     <a class="card-wrapper" href="https://cuckoo.network/portal/art">
       <div class="card">
         <div class="card__header">
@@ -129,7 +129,7 @@ Cuckoo differentiates itself by integrating **all three critical layers – bloc
     </a>
   </div>
 
-  <div class="col col--4 margin-bottom--lg">
+  <div class="col col--6 margin-bottom--lg">
     <a class="card-wrapper" href="https://cuckoo.network/portal/chat">
       <div class="card">
         <div class="card__header">
@@ -151,7 +151,106 @@ Cuckoo differentiates itself by integrating **all three critical layers – bloc
       </div>
     </a>
   </div>
+
+
+  <div class="col col--6 margin-bottom--lg">
+    <a class="card-wrapper" href="https://cuckoo.network/portal/chat">
+      <div class="card">
+        <div class="card__header">
+          <div class="card__header-external">
+            <h3>Beancount.io</h3>
+          </div>
+          <span class="badge badge--success">Stable</span>
+        </div>
+        <div class="card__body">
+        <p>Double-entry bookkeeping made easy for living your best financial life.</p>
+        </div>
+        <div class="card__footer">
+          <div class="avatar">
+            <div class="avatar__intro">
+              <div class="avatar__subtitle">5K Teams' Choices</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+<div class="col col--6 margin-bottom--lg">
+    <div class="card-wrapper">
+      <div class="card">
+        <div class="card__header">
+          <div class="card__header-external">
+            <h3>Cuckoo VPN</h3>
+          </div>
+          <span class="badge badge--warning">Work in progress</span>
+        </div>
+        <div class="card__body">
+        <p>Privacy-preserving VPN connecting you to any AI app freely.</p>
+        </div>
+        <div class="card__footer">
+          <div class="avatar">
+            <div class="avatar__intro">
+              <div class="avatar__subtitle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col col--6 margin-bottom--lg">
+    <div class="card-wrapper">
+      <div class="card">
+        <div class="card__header">
+          <div class="card__header-external">
+            <h3>Payton.so</h3>
+          </div>
+          <span class="badge badge--warning">Work in progress</span>
+        </div>
+        <div class="card__body">
+        <p>Financial OS for ambitious Web3 organizations and freelancers.</p>
+        </div>
+        <div class="card__footer">
+          <div class="avatar">
+            <div class="avatar__intro">
+              <div class="avatar__subtitle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col col--6 margin-bottom--lg">
+    <div class="card-wrapper">
+      <div class="card">
+        <div class="card__header">
+          <div class="card__header-external">
+            <h3>Tenspect.com</h3>
+          </div>
+          <span class="badge badge--warning">Work in progress</span>
+        </div>
+        <div class="card__body">
+        <p>AI-Powered Home Inspection Software That Triples Your Productivity.</p>
+        </div>
+        <div class="card__footer">
+          <div class="avatar">
+            <div class="avatar__intro">
+              <div class="avatar__subtitle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+
 
 ## Why take the name Cuckoo?
 
