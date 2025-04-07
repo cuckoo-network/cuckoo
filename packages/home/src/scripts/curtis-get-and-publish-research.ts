@@ -180,8 +180,25 @@ async function createGitBranchAndPR(filePath: string, topic: string): Promise<vo
   }
 }
 
+async function updateMainBranch(): Promise<void> {
+  try {
+    console.log('Updating main branch...');
+    // Make sure we're on main branch first
+    execSync('git checkout main', { stdio: 'inherit' });
+    // Pull the latest changes
+    execSync('git pull origin main', { stdio: 'inherit' });
+    console.log('Main branch updated successfully');
+  } catch (error) {
+    console.error('Error updating main branch:', error.message);
+    process.exit(1);
+  }
+}
+
 async function main(): Promise<void> {
   try {
+    // Step 0: Update main branch
+    await updateMainBranch();
+    
     // Step 1: Get research topic
     console.log('Getting research topic...');
     const topic = await getResearchTopic();
