@@ -107,13 +107,13 @@ export function Hero() {
                     "button btn text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group uppercase",
                     styles.heroA,
                   )}
-                  href="https://cuckoo.network/portal/art/text-to-image"
+                  href="https://cuckoo.network/portal/chat"
                 >
                   <Sparkles className={"mr-1"} size={18} />{" "}
                   <Translate
                     description={"homepage's hero section's main action CTA"}
                   >
-                    Create AI Art
+                    Chat Now
                   </Translate>
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     →
