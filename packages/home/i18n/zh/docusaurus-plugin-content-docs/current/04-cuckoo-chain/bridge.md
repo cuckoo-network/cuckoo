@@ -31,7 +31,7 @@ image: https://cuckoo-network.b-cdn.net/cuckoo-network-bridge-seamless-asset-tra
 
 ## 体验资产转移的未来
 
-Cuckoo 网络桥旨在提升您在 Aribitrum 生态系统中的跨链体验。凭借无缝的互操作性、最低费用和强大的安全性，管理您的资产从未如此轻松。与 Cuckoo.Network 一起拥抱未来，今天就简化您的资产转移。
+Cuckoo 网络桥旨在提升您在 Arbitrum 生态系统中的跨链体验。凭借无缝的互操作性、最低费用和强大的安全性，管理您的资产从未如此轻松。与 Cuckoo.Network 一起拥抱未来，今天就简化您的资产转移。
 
 ## Cuckoo 网络桥常见问题
 
