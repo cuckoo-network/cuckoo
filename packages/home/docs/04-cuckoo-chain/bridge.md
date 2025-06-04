@@ -35,7 +35,7 @@ In Web3, the ability to transfer assets seamlessly across different blockchain n
 
 ## Experience the Future of Asset Transfers
 
-The Cuckoo Network Bridge is here to improve your cross-chain experience in the Aribitrum ecosystem. With seamless interoperability, minimal fees, and robust security, managing your assets has never been easier. Embrace the future with Cuckoo.Network and streamline your asset transfers today.
+The Cuckoo Network Bridge is here to improve your cross-chain experience in the Arbitrum ecosystem. With seamless interoperability, minimal fees, and robust security, managing your assets has never been easier. Embrace the future with Cuckoo.Network and streamline your asset transfers today.
 
 ## Cuckoo Network Bridge FAQs
 

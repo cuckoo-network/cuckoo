@@ -35,7 +35,7 @@ Web3'te, varlıkları farklı blok zinciri ağları arasında sorunsuz bir şeki
 
 ## Varlık Transferlerinin Geleceğini Deneyimleyin
 
-Cuckoo Network Köprüsü, Aribitrum ekosisteminde zincirler arası deneyiminizi geliştirmek için burada. Sorunsuz işlevler arası uyum, minimal ücretler ve sağlam güvenlik ile varlıklarınızı yönetmek hiç bu kadar kolay olmamıştı. Cuckoo.Network ile geleceği kucaklayın ve varlık transferlerinizi bugün kolaylaştırın.
+Cuckoo Network Köprüsü, Arbitrum ekosisteminde zincirler arası deneyiminizi geliştirmek için burada. Sorunsuz işlevler arası uyum, minimal ücretler ve sağlam güvenlik ile varlıklarınızı yönetmek hiç bu kadar kolay olmamıştı. Cuckoo.Network ile geleceği kucaklayın ve varlık transferlerinizi bugün kolaylaştırın.
 
 ## Topluluğumuza Katılın
 
