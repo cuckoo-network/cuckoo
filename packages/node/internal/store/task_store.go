@@ -252,9 +252,11 @@ func (store *InMemoryTaskStore) GetPendingTasksByWeights(weights []WalletWeight,
 	}
 
 	// Sort offers deterministically based on hash of (walletAddress + offer ID)
+	// so that different workers consistently see the tasks in the same order
+	// when the provided wallet address changes.
 	sort.SliceStable(offers, func(i, j int) bool {
-		hashI := sha256.Sum256([]byte(offers[i].Id))
-		hashJ := sha256.Sum256([]byte(offers[j].Id))
+		hashI := sha256.Sum256([]byte(walletAddress + offers[i].Id))
+		hashJ := sha256.Sum256([]byte(walletAddress + offers[j].Id))
 		return binary.BigEndian.Uint64(hashI[:]) < binary.BigEndian.Uint64(hashJ[:])
 	})
 
