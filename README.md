@@ -25,3 +25,13 @@
 Cuckoo is a Decentralized AI Platform, starting with GPU-sharing for text-to-image generation and LLM inference.
 
 Generate image now in Telegram https://cuckoo.network/tg or Discord https://cuckoo.network/dc
+
+## Setup
+
+Before running the node, copy the example environment file and update the values:
+
+```sh
+cp packages/node/.env.example packages/node/.env
+```
+
+The node reads configuration from this `.env` file.
