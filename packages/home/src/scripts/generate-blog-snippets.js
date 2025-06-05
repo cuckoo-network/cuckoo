@@ -19,7 +19,7 @@ const langPosts = {
 
 for (const key of Object.keys(langPosts)) {
   const posts = langPosts[key].archive.blogPosts;
-  const updatedPosts = posts.map((p) => ({ ...p, content: "" }));
+  const updatedPosts = posts.map((p) => ({ ...p, content: "" })).slice(0, 3);
   fs.writeFileSync(
     `${__dirname}/../pages/blogs/${key}.json`,
     JSON.stringify(updatedPosts),

@@ -258,7 +258,7 @@ Cuckoo takes its inspiration from the bird that disrupts the status quo by layin
 
 ## Be Part of the Future
 
-- [Website](https://cuckoo.network/) | [Blog](https://cuckoo.network/blogs) | [Twitter](https://cuckoo.network/x)
+- [Website](https://cuckoo.network/) | [Blog](https://cuckoo.network/blog) | [Twitter](https://cuckoo.network/x)
 - [Discord](https://cuckoo.network/dc) | [Telegram](https://cuckoo.network/tg)
 - [Whitepaper](https://cuckoo.network/docs/cuckoo-network)
 

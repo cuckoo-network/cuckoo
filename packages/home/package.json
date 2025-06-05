@@ -23,6 +23,7 @@
     "@docusaurus/plugin-client-redirects": "3.5.2",
     "@docusaurus/preset-classic": "3.5.2",
     "@giscus/react": "^3.0.0",
+    "@google/generative-ai": "^0.24.1",
     "@mdx-js/react": "^3.0.0",
     "aos": "^3.0.0-beta.6",
     "autoprefixer": "^10.4.16",

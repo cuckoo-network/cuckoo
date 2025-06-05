@@ -66,7 +66,7 @@
 
 ## 🔗 Станьте частью будущего
 
-- [Сайт](https://cuckoo.network/) | [Блог](https://cuckoo.network/blogs) | [Twitter](https://cuckoo.network/x)
+- [Сайт](https://cuckoo.network/) | [Блог](https://cuckoo.network/blog) | [Twitter](https://cuckoo.network/x)
 - [Discord](https://cuckoo.network/dc) | [Telegram](https://cuckoo.network/tg)
 - [Whitepaper](https://cuckoo.network/docs/cuckoo-network)
 

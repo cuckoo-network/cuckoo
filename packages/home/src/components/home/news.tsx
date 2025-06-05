@@ -42,7 +42,7 @@ export function News({ tag }: { tag?: string }) {
 
           <Link
             className="float-right dark:hover:text-white hover:text-gray-700"
-            href={tag ? `/blog/tags/${slugify(tag)}` : "/blogs/"}
+            href={tag ? `/blog/tags/${slugify(tag)}` : "/blog/"}
           >
             <Translate description="Read more link text">Read more</Translate>
             <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">

@@ -69,7 +69,7 @@
 
 ## 🔗 加入未来的一部分
 
-- [官网](https://cuckoo.network/) | [博客](https://cuckoo.network/blogs) | [推特](https://cuckoo.network/x)
+- [官网](https://cuckoo.network/) | [博客](https://cuckoo.network/blog) | [推特](https://cuckoo.network/x)
 - [Discord](https://cuckoo.network/dc) | [Telegram](https://cuckoo.network/tg)
 - [白皮书](https://cuckoo.network/docs/cuckoo-network)
 

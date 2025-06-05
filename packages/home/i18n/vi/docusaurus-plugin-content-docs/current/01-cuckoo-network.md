@@ -66,7 +66,7 @@ Hãy tưởng tượng một thế giới nơi các rào cản sáng tạo bị 
 
 ## 🔗 Trở thành một phần của Tương lai
 
-- [Trang chủ](https://cuckoo.network/) | [Blog](https://cuckoo.network/blogs) | [Twitter](https://cuckoo.network/x)
+- [Trang chủ](https://cuckoo.network/) | [Blog](https://cuckoo.network/blog) | [Twitter](https://cuckoo.network/x)
 - [Discord](https://cuckoo.network/dc) | [Telegram](https://cuckoo.network/tg)
 - [Sách trắng](https://cuckoo.network/docs/cuckoo-network)
 

@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 interface BlurGradientConfig {
   dom: string;
@@ -15,9 +16,10 @@ declare global {
 }
 
 export function useBlurGradient(config: BlurGradientConfig) {
+  const scriptSrc = useBaseUrl("/BlurGradientBg.min.js");
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = "/BlurGradientBg.min.js";
+    script.src = scriptSrc;
     script.async = true;
 
     script.onload = () => {

@@ -66,7 +66,7 @@
 
 ## 🔗 未来の一部になりましょう
 
-- [ウェブサイト](https://cuckoo.network/) | [ブログ](https://cuckoo.network/blogs) | [Twitter](https://cuckoo.network/x)
+- [ウェブサイト](https://cuckoo.network/) | [ブログ](https://cuckoo.network/blog) | [Twitter](https://cuckoo.network/x)
 - [Discord](https://cuckoo.network/dc) | [Telegram](https://cuckoo.network/tg)
 - [ホワイトペーパー](https://cuckoo.network/docs/cuckoo-network)
 

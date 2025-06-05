@@ -66,7 +66,7 @@ Follow instructions in [Trust community](https://community.trustwallet.com/t/how
 Building on Cuckoo Chain can be challenging. Here are some development-focused spaces with experienced Cuckoo Chain developers who are happy to help:
 
 - Website: [Cuckoo Chain](https://cuckoo.network/)
-- Blogs: [Cuckoo Chain Blogs](https://cuckoo.network/blogs)
+- Blogs: [Cuckoo Chain Blogs](https://cuckoo.network/blog)
 - X: [Cuckoo Chain on X](https://cuckoo.network/x)
 - WP: [Cuckoo Chain Whitepaper](https://cuckoo.network/docs/cuckoo-network)
 - Dc: [Cuckoo Chain Discord](https://cuckoo.network/dc)

@@ -144,7 +144,7 @@ const config: Config = {
           label: "Docs",
           position: "right",
         },
-        { to: "/blogs", label: "Blogs", position: "right" },
+        { to: "/blog", label: "Blog", position: "right" },
         {
           href: "/cuckoo-bot",
           label: "Image Gen",
@@ -310,8 +310,8 @@ viewBox="0 0 24 30" xmlns="http://www.w3.org/2000/svg">
               to: "/docs/cuckoo-network",
             },
             {
-              label: "Blogs",
-              to: "/blogs",
+              label: "Blog",
+              to: "/blog",
             },
             {
               label: "Help Center",
