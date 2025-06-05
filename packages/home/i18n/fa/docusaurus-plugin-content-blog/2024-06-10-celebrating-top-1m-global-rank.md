@@ -61,6 +61,6 @@ description: Cuckoo.Network یک دستاورد مهم را جشن می‌گیر
 
 برای به‌روزرسانی‌ها و تحولات بیشتر، با ما همراه باشید زیرا به رشد و تکامل ادامه می‌دهیم.
 
-- source: https://cuckoo.network/blog/2024/06/10/celerating-top-1m-global-rank
+- source: https://cuckoo.network/blog/2024/06/10/celebrating-top-1m-global-rank
 - telegram: https://cuckoo.network/tg
 - discord: https://cuckoo.network/dc

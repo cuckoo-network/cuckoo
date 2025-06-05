@@ -61,6 +61,6 @@ Bu yolculukta bizimle olduğunuz için teşekkür ederiz. Birlikte, merkezi olma
 
 Büyümeye ve gelişmeye devam ederken daha fazla güncelleme ve gelişme için bizi izlemeye devam edin.
 
-- kaynak: https://cuckoo.network/blog/2024/06/10/celerating-top-1m-global-rank
+- kaynak: https://cuckoo.network/blog/2024/06/10/celebrating-top-1m-global-rank
 - telegram: https://cuckoo.network/tg
 - discord: https://cuckoo.network/dc

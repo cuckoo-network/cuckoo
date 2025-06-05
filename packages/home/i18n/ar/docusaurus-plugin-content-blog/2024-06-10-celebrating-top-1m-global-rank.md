@@ -61,6 +61,6 @@ description: تحتفل شبكة كوكو بإنجاز الوصول إلى أف�
 
 ترقبوا المزيد من التحديثات والتطورات مع استمرارنا في النمو والتطور.
 
-- المصدر: https://cuckoo.network/blog/2024/06/10/celerating-top-1m-global-rank
+- المصدر: https://cuckoo.network/blog/2024/06/10/celebrating-top-1m-global-rank
 - تيليجرام: https://cuckoo.network/tg
 - ديسكورد: https://cuckoo.network/dc

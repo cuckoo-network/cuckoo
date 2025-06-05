@@ -61,6 +61,6 @@ Cuckoo.Networkでは、私たちの旅の中でのマイルストーンを報告
 
 今後も成長と進化を続けるCuckoo.Networkの最新情報にご注目ください。
 
-- ソース: https://cuckoo.network/blog/2024/06/10/celerating-top-1m-global-rank
+- ソース: https://cuckoo.network/blog/2024/06/10/celebrating-top-1m-global-rank
 - テレグラム: https://cuckoo.network/tg
 - ディスコード: https://cuckoo.network/dc

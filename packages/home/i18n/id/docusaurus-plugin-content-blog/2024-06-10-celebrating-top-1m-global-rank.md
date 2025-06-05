@@ -61,6 +61,6 @@ Terima kasih telah bersama kami dalam perjalanan ini. Bersama-sama, kita sedang 
 
 Tetaplah terhubung untuk lebih banyak pembaruan dan perkembangan saat kami terus tumbuh dan berkembang.
 
-- sumber: https://cuckoo.network/blog/2024/06/10/celerating-top-1m-global-rank
+- sumber: https://cuckoo.network/blog/2024/06/10/celebrating-top-1m-global-rank
 - telegram: https://cuckoo.network/tg
 - discord: https://cuckoo.network/dc

@@ -61,6 +61,6 @@ Gracias por estar con nosotros en este camino. Juntos, estamos construyendo un f
 
 Mantente atento a más actualizaciones y desarrollos a medida que continuamos creciendo y evolucionando.
 
-- fuente: https://cuckoo.network/blog/2024/06/10/celerating-top-1m-global-rank
+- fuente: https://cuckoo.network/blog/2024/06/10/celebrating-top-1m-global-rank
 - telegram: https://cuckoo.network/tg
 - discord: https://cuckoo.network/dc

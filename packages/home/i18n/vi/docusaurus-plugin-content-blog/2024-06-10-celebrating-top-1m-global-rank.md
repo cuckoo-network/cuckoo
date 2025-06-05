@@ -61,6 +61,6 @@ Cảm ơn bạn đã đồng hành cùng chúng tôi trong hành trình này. C�
 
 Hãy theo dõi để biết thêm những cập nhật và phát triển khi chúng tôi tiếp tục phát triển và tiến xa hơn.
 
-- nguồn: https://cuckoo.network/blog/2024/06/10/celerating-top-1m-global-rank
+- nguồn: https://cuckoo.network/blog/2024/06/10/celebrating-top-1m-global-rank
 - telegram: https://cuckoo.network/tg
 - discord: https://cuckoo.network/dc

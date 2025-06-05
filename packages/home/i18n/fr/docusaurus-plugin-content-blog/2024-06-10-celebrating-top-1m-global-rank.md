@@ -61,6 +61,6 @@ Merci de nous accompagner dans ce voyage. Ensemble, nous construisons un avenir 
 
 Restez à l'écoute pour plus de mises à jour et de développements alors que nous continuons à croître et à évoluer.
 
-- source: https://cuckoo.network/blog/2024/06/10/celerating-top-1m-global-rank
+- source: https://cuckoo.network/blog/2024/06/10/celebrating-top-1m-global-rank
 - telegram: https://cuckoo.network/tg
 - discord: https://cuckoo.network/dc
