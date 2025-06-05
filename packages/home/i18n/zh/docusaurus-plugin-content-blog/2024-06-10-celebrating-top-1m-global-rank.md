@@ -61,6 +61,6 @@ description: Cuckoo.Network庆祝跻身全球前100万网站的里程碑成就�
 
 敬请关注我们进一步的更新和发展。
 
-- 来源: https://cuckoo.network/blog/2024/06/10/celerating-top-1m-global-rank
+- 来源: https://cuckoo.network/blog/2024/06/10/celebrating-top-1m-global-rank
 - Telegram: https://cuckoo.network/tg
 - Discord: https://cuckoo.network/dc

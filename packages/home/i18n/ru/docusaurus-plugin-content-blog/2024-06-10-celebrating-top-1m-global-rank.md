@@ -61,6 +61,6 @@ description: Cuckoo.Network празднует достижение вехи, в
 
 Оставайтесь с нами, чтобы получать больше новостей и обновлений, по мере того как мы продолжаем расти и развиваться.
 
-- источник: https://cuckoo.network/blog/2024/06/10/celerating-top-1m-global-rank
+- источник: https://cuckoo.network/blog/2024/06/10/celebrating-top-1m-global-rank
 - telegram: https://cuckoo.network/tg
 - discord: https://cuckoo.network/dc

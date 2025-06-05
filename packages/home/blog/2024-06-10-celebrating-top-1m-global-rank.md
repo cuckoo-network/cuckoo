@@ -59,8 +59,8 @@ We invite you to be part of this exciting journey. Whether you're a developer, m
 
 Thank you for being with us on this journey. Together, we're building a future where decentralized AI serves as a cornerstone of innovation.
 
-Stay tuned for more updates and developments as we continue to grow and evolve.
+-Stay tuned for more updates and developments as we continue to grow and evolve.
 
-- source: https://cuckoo.network/blog/2024/06/10/celerating-top-1m-global-rank
+- source: https://cuckoo.network/blog/2024/06/10/celebrating-top-1m-global-rank
 - telegram: https://cuckoo.network/tg
 - discord: https://cuckoo.network/dc

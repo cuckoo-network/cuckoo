@@ -61,6 +61,6 @@ Cuckoo.Network에서는 우리의 여정에서 중요한 이정표를 발표하�
 
 계속 성장하고 발전함에 따라 더 많은 업데이트와 발전을 기대해 주세요.
 
-- 출처: https://cuckoo.network/blog/2024/06/10/celerating-top-1m-global-rank
+- 출처: https://cuckoo.network/blog/2024/06/10/celebrating-top-1m-global-rank
 - 텔레그램: https://cuckoo.network/tg
 - 디스코드: https://cuckoo.network/dc
