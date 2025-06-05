@@ -25,3 +25,75 @@
 Cuckoo is a Decentralized AI Platform, starting with GPU-sharing for text-to-image generation and LLM inference.
 
 Generate image now in Telegram https://cuckoo.network/tg or Discord https://cuckoo.network/dc
+
+## Prerequisites
+
+- [Go](https://go.dev/doc/install) **1.22+**
+- [Docker](https://www.docker.com/) for running nodes and miners
+- [Node.js](https://nodejs.org/) and `yarn` for the documentation site
+
+## Environment Variables
+
+The node respects a few environment variables:
+
+- `ETH_PRIVATE_KEY` – private key used for signing and staking
+- `NODE_TYPE` – set to `COORDINATOR` when running a coordinator node
+- `COORDINATOR_URL` – coordinator endpoint miners connect to
+- `SD_URL` – Stable Diffusion endpoint for GPU miners
+- `PORT` – HTTP port for the JSON RPC server (defaults to `6387`)
+
+## Building
+
+```bash
+cd packages/node
+make build        # build the binary
+# or run directly
+go run .
+```
+
+## Running Tests
+
+```bash
+cd packages/node
+make test        # runs "go test ./..."
+```
+
+## Starting the Web Docs
+
+The documentation lives in [`packages/home`](packages/home). To start the local
+website:
+
+```bash
+cd packages/home
+yarn
+yarn start
+```
+
+See [`packages/home/README.md`](packages/home/README.md) for more details.
+
+## Example: Running a Node
+
+Step-by-step instructions and example commands for running a Cuckoo Chain node
+are available in
+[`packages/home/docs/04-cuckoo-chain/02-full-node.md`](packages/home/docs/04-cuckoo-chain/02-full-node.md).
+It includes a command similar to:
+
+```bash
+docker run --rm -it -v ~/cuckoo-chain:/home/user/.arbitrum \
+  -p 0.0.0.0:8547:8547 \
+  -p 0.0.0.0:8548:8548 \
+  offchainlabs/nitro-node:v2.3.3-6a1c1a7 ...
+```
+
+## Example: Mining
+
+Instructions for GPU mining are in
+[`packages/home/docs/03-cuckoo-ai/ai-node.md`](packages/home/docs/03-cuckoo-ai/ai-node.md).
+A typical workflow is:
+
+```bash
+git clone https://github.com/cuckoo-network/stable-diffusion-miner-docker.git
+cd stable-diffusion-miner-docker
+make download
+ETH_PRIVATE_KEY="..." make start
+```
