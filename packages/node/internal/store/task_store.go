@@ -246,8 +246,8 @@ func (store *InMemoryTaskStore) GetPendingTasksByWeights(weights []WalletWeight,
 	})
 
 	total := totalWeight(weights)
-	// TODO: what if no weight at all? just return all tasks for now
-	if total.Cmp(big.NewInt(0)) == 0 {
+	// If there are no weights or they sum to zero, simply return all tasks.
+	if len(weights) == 0 || total.Cmp(big.NewInt(0)) == 0 {
 		return offers
 	}
 
