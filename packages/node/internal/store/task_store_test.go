@@ -87,6 +87,20 @@ func TestGetPendingTasksByWeightsOneTaskTwoWorkers(t *testing.T) {
 	require.Equal(t, 1, len(uniqueTasks), "The number of total unique tasks should be 1")
 }
 
+func TestGetPendingTasksByWeightsNoWeights(t *testing.T) {
+	s := store.NewInMemoryTaskStore()
+
+	task1 := &store.TaskOffer{Id: "task1", Status: store.Pending, CoinSymbol: plugins.SD, MaxOfferPrice: big.NewInt(100), CreatedAt: time.Now()}
+	task2 := &store.TaskOffer{Id: "task2", Status: store.Pending, CoinSymbol: plugins.SD, MaxOfferPrice: big.NewInt(200), CreatedAt: time.Now()}
+
+	s.Create(task1)
+	s.Create(task2)
+
+	// Empty weights should return all pending tasks
+	result := s.GetPendingTasksByWeights([]store.WalletWeight{}, "wallet1")
+	require.Equal(t, 2, len(result))
+}
+
 func parseBigInt(input string) *big.Int {
 	// Create a new big.Int instance initialized to zero
 	bigInt := new(big.Int)

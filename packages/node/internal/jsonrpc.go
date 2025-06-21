@@ -127,7 +127,8 @@ func logResponse(logger *log.Entry, reqID string, duration time.Duration, status
 // NewJSONRPCHandler constructs a Handler instance
 func NewJSONRPCHandler(params HandlerParams) Handler {
 	taskStore := params.TaskStore
-	// TODO(lark): should cleanup
+	// GPU provider store automatically cleans up outdated entries whenever
+	// providers are listed via ListGPUProviders.
 	gps := store.NewGPUProviderStore()
 	ethC, err := ethclient.Dial(rpcURL)
 	if err != nil {
@@ -340,7 +341,7 @@ func NewJSONRPCHandler(params HandlerParams) Handler {
 
 func decorateHandlers(logger *log.Entry, m handler.Map) handler.Map {
 	requestMetric := prometheus.NewSummaryVec(prometheus.SummaryOpts{
-		Namespace:  "TODO_cuckoo_node",
+		Namespace:  "cuckoo_node",
 		Subsystem:  "json_rpc",
 		Name:       "request_duration_seconds",
 		Help:       "JSON RPC request duration",
