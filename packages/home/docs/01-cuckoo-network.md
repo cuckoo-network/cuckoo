@@ -81,7 +81,7 @@ Cuckoo differentiates itself by integrating **all three critical layers – bloc
   </div>
 
   <div class="col col--6 margin-bottom--lg">
-    <a class="card-wrapper" href="https://blockeden.xyz" target="_blank">
+    <a class="card-wrapper" href="https://blockeden.xyz" target="_blank" rel="noopener noreferrer">
       <div class="card">
         <div class="card__header">
           <div class="card__header-external">

@@ -165,19 +165,19 @@ const config: Config = {
           // twitter
           value: `
 <div class="flex flex-row">
-<a target="_blank" href="https://cuckoo.network/x" class="menu__link" aria-label="Twitter">
+<a target="_blank" href="https://cuckoo.network/x" class="menu__link" aria-label="Twitter" rel="noopener noreferrer">
 <svg class="fill-current w-6 h-6"
 viewBox="0 0 24 30" xmlns="http://www.w3.org/2000/svg">
 <path d="m13.063 9 3.495 4.475L20.601 9h2.454l-5.359 5.931L24 23h-4.938l-3.866-4.893L10.771 23H8.316l5.735-6.342L8 9h5.063Zm-.74 1.347h-1.457l8.875 11.232h1.36l-8.778-11.232Z"></path>
 </svg>
 </a>
 
-<a target="_blank" href="https://cuckoo.network/tg" class="menu__link" aria-label="Telegram">
+<a target="_blank" href="https://cuckoo.network/tg" class="menu__link" aria-label="Telegram" rel="noopener noreferrer">
 <svg class="fill-current w-4 h-4"   viewBox="0 0 24 18" xmlns="http://www.w3.org/2000/svg">
 <path d="M21.956.378a.47.47 0 0 0-.32-.347 1.662 1.662 0 0 0-.866.061S1.494 6.968.393 7.73c-.236.164-.316.26-.355.371-.19.546.402.78.402.78l4.968 1.607c.084.015.17.01.252-.015 1.13-.708 11.366-7.126 11.961-7.342.092-.027.162 0 .144.069-.237.823-9.083 8.622-9.131 8.669a.181.181 0 0 0-.066.16l-.464 4.815s-.194 1.498 1.315 0a42.204 42.204 0 0 1 2.612-2.373c1.708 1.171 3.546 2.466 4.339 3.143.27.26.633.398 1.008.385a1.13 1.13 0 0 0 .964-.849s3.51-14.03 3.627-15.909c.012-.182.028-.302.03-.428a1.591 1.591 0 0 0-.043-.435Z" fill-rule="nonzero"></path>
 </svg></a>
 
-<a target="_blank" href="https://cuckoo.network/dc" class="menu__link" aria-label="Discord">
+<a target="_blank" href="https://cuckoo.network/dc" class="menu__link" aria-label="Discord" rel="noopener noreferrer">
   <svg
     class="fill-current w-4 h-4"
     viewBox="0 0 24 18"
