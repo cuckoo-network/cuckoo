@@ -35,3 +35,31 @@ cp packages/node/.env.example packages/node/.env
 ```
 
 The node reads configuration from this `.env` file.
+
+## Requirements
+
+- **Node.js** `>=18` and **Yarn** `1.x` for the website in `packages/home`
+- **Go** `>=1.22` for the node in `packages/node`
+
+## Running the node
+
+```sh
+cd packages/node
+go run .
+```
+
+Run tests with:
+
+```sh
+go test ./...
+```
+
+## Running the website
+
+```sh
+cd packages/home
+yarn
+yarn start
+```
+
+Build the static site with `yarn build` and deploy it using `yarn deploy`.
