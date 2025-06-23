@@ -46,7 +46,7 @@ Make sure to open the advanced configurations and set the EVM version to London.
 
 
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} alt="Remix compile tab" />
 
 
 
@@ -58,9 +58,9 @@ In the "Environment" dropdown menu, select "Injected Provider - MetaMask". This 
 
 Make sure to have Cuckoo Chain as your selected network in MetaMask before deploying.
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} alt="Remix deploy tab" />
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix4.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix4.webp" style={{height: "500px"}} alt="Select environment" />
 
 
 
@@ -68,7 +68,7 @@ Select the compiled contract you want to deploy and click 'Deploy'.
 
 Now, MetaMask should pop up and ask you to confirm the transaction with super low fees.
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix5.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix5.webp" style={{height: "500px"}} alt="Confirm deploy transaction" />
 
 
 
@@ -84,7 +84,7 @@ You will see your deployed smart contract below in the 'Deploy & Run Transaction
 
 We can also find our deployed smart contract in [Blockscout](https://testnet-scan.cuckoo.network/), the Cuckoo block scanner. Copy the contract address from Remix, go to [Blockscout](https://testnet-scan.cuckoo.network/), and paste it into the search bar.
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix6.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix6.webp" style={{height: "500px"}} alt="Explore contract on Blockscout" />
 
 
 
