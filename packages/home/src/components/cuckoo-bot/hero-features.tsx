@@ -64,6 +64,7 @@ export default function HeroFeatures() {
                 <Link
                   className="button btn text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group uppercase mb-4 sm:w-auto sm:mb-0 hover:text-white"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://cuckoo.network/portal/art/text-to-image"
                 >
                   Web
@@ -73,6 +74,7 @@ export default function HeroFeatures() {
                 <a
                   className="btn text-white bg-gray-700 hover:bg-gray-800 w-full mb-4 sm:w-auto uppercase sm:ml-4 sm:mb-0 hover:text-white"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://cuckoo.network/dc"
                 >
                   Discord
@@ -82,6 +84,7 @@ export default function HeroFeatures() {
                 <a
                   className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto uppercase sm:ml-4 hover:text-white"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://cuckoo.network/tg"
                 >
                   Telegram
@@ -102,6 +105,7 @@ export default function HeroFeatures() {
               <iframe
                 src="https://customer-wmy0lgubd5pjy3fx.cloudflarestream.com/fac9136c4013dbe69bd32bf070d9c945/iframe?muted=true&preload=true&loop=true&autoplay=true&poster=https%3A%2F%2Fcustomer-wmy0lgubd5pjy3fx.cloudflarestream.com%2Ffac9136c4013dbe69bd32bf070d9c945%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
                 loading="lazy"
+                title="Cuckoo Bot demo video"
                 style={{
                   border: "none",
                   position: "absolute",

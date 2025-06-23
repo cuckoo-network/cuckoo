@@ -32,6 +32,7 @@ export function Cta() {
               <a
                 className="hover:text-white btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full group shadow-lg"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://cuckoo.network/portal/art"
               >
                 <Translate>Explore</Translate>{" "}

@@ -44,7 +44,7 @@ contract Storage {
 
 Обязательно откройте дополнительные настройки и установите версию EVM на London. Это нужно для избежания проблем с операционным кодом PUSH0. Подробнее о проблеме с цепями Optimism можно прочитать [здесь](https://community.optimism.io/docs/developers/build/differences/#opcode-differences).
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} alt="Remix configuration screenshot" />
 
 ### Вкладка компилятора Solidity
 
@@ -54,15 +54,15 @@ contract Storage {
 
 Убедитесь, что в MetaMask выбрана сеть Cuckoo Chain перед развертыванием.
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} alt="Remix deploy tab screenshot" />
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix4.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix4.webp" style={{height: "500px"}} alt="Deploying contract screenshot" />
 
 Выберите скомпилированный контракт, который вы хотите развернуть, и нажмите 'Deploy'.
 
 Теперь MetaMask должен появиться и попросить вас подтвердить транзакцию с минимальными комиссиями.
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix5.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix5.webp" style={{height: "500px"}} alt="MetaMask confirmation screenshot" />
 
 **ПОЗДРАВЛЯЕМ! Вы только что развернули свой первый смарт-контракт на Cuckoo Chain.**
 
@@ -76,7 +76,7 @@ contract Storage {
 
 Мы также можем найти наш развернутый смарт-контракт в [Blockscout](https://testnet-scan.cuckoo.network/), блок-сканере Cuckoo. Скопируйте адрес контракта из Remix, перейдите на [Blockscout](https://testnet-scan.cuckoo.network/) и вставьте его в строку поиска.
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix6.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix6.webp" style={{height: "500px"}} alt="Blockscout explorer screenshot" />
 
 Скриншот ниже показывает наш развернутый смарт-контракт, где вы можете увидеть все транзакции, кошелек создателя, баланс и многое другое!
 

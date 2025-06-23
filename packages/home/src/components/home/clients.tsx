@@ -85,6 +85,7 @@ export default function Clients() {
                       width: "120px",
                       height: "26px",
                     }}
+                    alt="Stability AI logo"
                   />
                 </div>
                 <div className="swiper-slide !w-auto">
@@ -98,6 +99,7 @@ export default function Clients() {
                       width: "120px",
                       height: "36px",
                     }}
+                    alt="IoTeX logo"
                   />
                 </div>
                 <div className="swiper-slide !w-auto">

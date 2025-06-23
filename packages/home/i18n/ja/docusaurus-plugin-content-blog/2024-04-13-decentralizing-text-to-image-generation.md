@@ -14,6 +14,7 @@ description: 人工知能（AI）システムは、業界を再形成する前�
   <iframe
     src="https://customer-wmy0lgubd5pjy3fx.cloudflarestream.com/d5b2ca9a50526dd1151e5126cd212dcd/iframe?poster=https%3A%2F%2Fcustomer-wmy0lgubd5pjy3fx.cloudflarestream.com%2Fd5b2ca9a50526dd1151e5126cd212dcd%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
     loading="lazy"
+    title="Cuckoo introduction video"
     style={{
       border: "none",
       position: "absolute",
@@ -90,6 +91,7 @@ height={320}
 style={{ border: "1px solid #EEE", background: "white" }}
 frameBorder={0}
 scrolling="no"
+title="Cuckoo newsletter signup"
 />
 
 ### 結論

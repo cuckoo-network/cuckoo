@@ -46,7 +46,7 @@ Hãy chắc chắn mở các cấu hình nâng cao và đặt phiên bản EVM l
 
 
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} alt="Remix configuration screenshot" />
 
 
 
@@ -58,9 +58,9 @@ Trong menu dropdown "Environment", chọn "Injected Provider - MetaMask". Điề
 
 Hãy chắc chắn rằng bạn đã chọn mạng Cuckoo Chain trong MetaMask trước khi triển khai.
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} alt="Remix deploy tab screenshot" />
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix4.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix4.webp" style={{height: "500px"}} alt="Deploying contract screenshot" />
 
 
 
@@ -68,7 +68,7 @@ Chọn hợp đồng đã biên dịch mà bạn muốn triển khai và nhấp 
 
 Bây giờ, MetaMask sẽ bật lên và yêu cầu bạn xác nhận giao dịch với mức phí cực thấp.
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix5.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix5.webp" style={{height: "500px"}} alt="MetaMask confirmation screenshot" />
 
 
 
@@ -84,7 +84,7 @@ Bạn sẽ thấy hợp đồng thông minh đã triển khai của mình bên d
 
 Chúng ta cũng có thể tìm hợp đồng thông minh đã triển khai của mình trong [Blockscout](https://testnet-scan.cuckoo.network/), trình quét khối của Cuckoo. Sao chép địa chỉ hợp đồng từ Remix, truy cập [Blockscout](https://testnet-scan.cuckoo.network/), và dán vào thanh tìm kiếm.
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix6.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix6.webp" style={{height: "500px"}} alt="Blockscout explorer screenshot" />
 
 
 

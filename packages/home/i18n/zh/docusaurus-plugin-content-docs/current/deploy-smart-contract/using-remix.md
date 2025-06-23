@@ -44,7 +44,7 @@ contract Storage {
 
 请确保打开高级配置并将 EVM 版本设置为 London。这是为了避免与 PUSH0 操作码相关的问题。您可以在 [此处](https://community.optimism.io/docs/developers/build/differences/#opcode-differences) 阅读更多关于 Optimism 链的问题。
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} alt="Remix configuration screenshot" />
 
 ### Solidity 编译器选项卡
 
@@ -54,15 +54,15 @@ contract Storage {
 
 在部署之前，请确保在 MetaMask 中选择 Cuckoo Chain 作为您的网络。
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} alt="Remix deploy tab screenshot" />
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix4.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix4.webp" style={{height: "500px"}} alt="Deploying contract screenshot" />
 
 选择您要部署的编译好的合约，然后点击 'Deploy'。
 
 现在，MetaMask 应该会弹出，要求您确认交易，并且费用非常低。
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix5.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix5.webp" style={{height: "500px"}} alt="MetaMask confirmation screenshot" />
 
 **恭喜！您刚刚将第一个智能合约部署到 Cuckoo Chain 上。**
 
@@ -76,7 +76,7 @@ contract Storage {
 
 我们还可以在 [Blockscout](https://testnet-scan.cuckoo.network/) 中找到我们已部署的智能合约，这是 Cuckoo 的区块浏览器。将合约地址从 Remix 复制，然后访问 [Blockscout](https://testnet-scan.cuckoo.network/) 并将其粘贴到搜索栏中。
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix6.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix6.webp" style={{height: "500px"}} alt="Blockscout explorer screenshot" />
 
 下面的截图显示了我们已部署的智能合约，您可以在其中看到所有交易、创建者钱包、余额等信息！
 

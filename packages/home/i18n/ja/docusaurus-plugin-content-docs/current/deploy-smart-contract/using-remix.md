@@ -44,7 +44,7 @@ contract Storage {
 
 高度な設定を開き、EVMバージョンを「London」に設定してください。これは、PUSH0オペコードの問題を回避するためです。この問題について詳しくは、[Optimismチェーンのドキュメント](https://community.optimism.io/docs/developers/build/differences/#opcode-differences)をご覧ください。
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} alt="Remix configuration screenshot" />
 
 ### Solidity Compilerタブ
 
@@ -54,15 +54,15 @@ contract Storage {
 
 MetaMaskでCuckoo Chainを選択したネットワークとして設定してからデプロイを行ってください。
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix3.webp" style={{height: "500px"}} alt="Remix deploy tab screenshot" />
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix4.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix4.webp" style={{height: "500px"}} alt="Deploying contract screenshot" />
 
 コンパイルされたコントラクトを選択し、「Deploy」をクリックします。
 
 MetaMaskがポップアップ表示され、非常に低い手数料でトランザクションを確認するよう求められるはずです。
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix5.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix5.webp" style={{height: "500px"}} alt="MetaMask confirmation screenshot" />
 
 **おめでとうございます！Cuckoo Chainに初めてスマートコントラクトをデプロイしました。**
 
@@ -76,7 +76,7 @@ Cuckoo Chainに最初のスマートコントラクトをデプロイしたの�
 
 また、デプロイされたスマートコントラクトを[Cuckooのブロックスキャナー](https://testnet-scan.cuckoo.network/)で確認することもできます。Remixから契約アドレスをコピーし、[Blockscout](https://testnet-scan.cuckoo.network/)に移動して、検索バーにアドレスを貼り付けます。
 
-<img src="https://cuckoo-network.b-cdn.net/using-remix6.webp" style={{height: "500px"}} />
+<img src="https://cuckoo-network.b-cdn.net/using-remix6.webp" style={{height: "500px"}} alt="Blockscout explorer screenshot" />
 
 以下のスクリーンショットは、デプロイされたスマートコントラクトを示しており、すべてのトランザクション、作成者のウォレット、残高などが表示されています！
 
