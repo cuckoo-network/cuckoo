@@ -1,4 +1,13 @@
 # Reads and Finds
+
+Our "Reads and Finds" series is dedicated to highlighting groundbreaking projects and tools that we find useful, particularly in the realms of AI, blockchain, and productivity.
+
+
+## July 2025
+
+[Loyola AI](https://www.loyolaai.com) is an AI-driven loan-processing and pre-underwriting platform built for independent mortgage banks. It automates data entry, verifies borrower information, pulls third-party documents, calculates income, and instantly generates underwriting conditions—enabling teams to boost loan production by up to 40 percent and cut the application-to-close timeline by about seven days, all without adding staff. 
+
+
 ## January 2025
 
 ### [Tenspect](https://tenspect.com/)
