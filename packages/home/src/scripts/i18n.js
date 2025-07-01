@@ -66,10 +66,30 @@ async function syncAndTranslateBlogs() {
             console.log(`Copied ${file} to ${locale} directory`);
           }
 
-          // Translate the file
-          console.log(`Translating ${file} to ${locale}...`);
-          await translateFile(targetPath, locale);
-          console.log(`Successfully translated ${file} to ${locale}`);
+          // Translate the file with retry logic
+          let translated = false;
+          let lastError = null;
+          for (let attempt = 1; attempt <= 2; attempt++) {
+            try {
+              console.log(`Translating ${file} to ${locale} (attempt ${attempt})...`);
+              await translateFile(targetPath, locale);
+              console.log(`Successfully translated ${file} to ${locale}`);
+              translated = true;
+              break;
+            } catch (error) {
+              lastError = error;
+              console.error(`Translation attempt ${attempt} failed for ${file} to ${locale}:`, error.message);
+            }
+          }
+          if (!translated) {
+            // Delete the untranslated file
+            try {
+              await fs.unlink(targetPath);
+              console.error(`Failed to translate ${file} to ${locale} after 2 attempts. Deleted untranslated file.`);
+            } catch (deleteError) {
+              console.error(`Also failed to delete untranslated file ${targetPath}:`, deleteError.message);
+            }
+          }
         } catch (error) {
           console.error(`Error processing ${file} for ${locale}:`, error.message);
         }
