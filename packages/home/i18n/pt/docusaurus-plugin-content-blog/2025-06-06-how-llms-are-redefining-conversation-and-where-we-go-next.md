@@ -1,4 +1,3 @@
-```
 ---
 title: "Como os LLMs Estão Redefinindo a Conversa e Para Onde Vamos em Seguida"
 tags: [IA, LLM, Chatbots, Tecnologia, Inovação]
@@ -7,7 +6,6 @@ authors: [lark]
 description: Modelos de Linguagem Grandes (LLMs) como ChatGPT, Gemini e Claude estão transformando indústrias ao impulsionar ferramentas baseadas em chat que aprimoram a educação, o suporte ao cliente, a produtividade, a saúde mental e o e-commerce. Explore o cenário atual, identifique lacunas e descubra oportunidades no mundo em evolução da IA conversacional.
 image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=Como%20os%20LLMs%20Est%C3%A3o%20Redefinindo%20a%20Conversa%20e%20Para%20Onde%20Vamos%20em%20Seguida"
 ---
-```
 
 # Como os LLMs Estão Redefinindo a Conversa e Para Onde Vamos em Seguida
 

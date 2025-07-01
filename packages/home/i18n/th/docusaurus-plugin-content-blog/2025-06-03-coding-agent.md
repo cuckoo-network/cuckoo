@@ -1,4 +1,3 @@
-```
 ---
 title: "สถาปัตยกรรมระบบเอเจนต์ของ GitHub Copilot, Cursor และ Windsurf"
 tags: [AI, ผู้ช่วยเขียนโปรแกรม, GitHub Copilot, Cursor, Windsurf, ระบบเอเจนต์]
@@ -7,7 +6,6 @@ authors: [lark]
 description: การวิเคราะห์เชิงลึกเกี่ยวกับสถาปัตยกรรมระบบเอเจนต์ของ GitHub Copilot, Cursor และ Windsurf โดยเน้นที่ปรัชญาการออกแบบ, การแบ่งงาน, กลยุทธ์การเรียกใช้โมเดล และการจัดการบริบท เพื่อทำความเข้าใจผลกระทบของสิ่งเหล่านี้ต่อการช่วยเหลือการเขียนโปรแกรมที่ขับเคลื่อนด้วย AI
 image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=สถาปัตยกรรมระบบเอเจนต์ของ%20GitHub%20Copilot%2C%20Cursor%20และ%20Windsurf"
 ---
-```
 
 ## สถาปัตยกรรมระบบ Agent ของ GitHub Copilot, Cursor และ Windsurf
 

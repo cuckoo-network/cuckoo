@@ -1,4 +1,3 @@
-```
 ---
 title: "Yüksek Talep Gören Yapay Zeka Ajanları İçin Gelişen Oyun Kitabı"
 tags: [Yapay Zeka, blok zinciri, merkeziyetsiz hesaplama, Yapay Zeka ajanları]

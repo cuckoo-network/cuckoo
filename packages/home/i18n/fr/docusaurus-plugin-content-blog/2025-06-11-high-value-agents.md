@@ -1,4 +1,3 @@
-```
 ---
 title: "Le Guide Émergent des Agents d'IA à Forte Demande"
 tags: [IA, blockchain, calcul décentralisé, agents IA]

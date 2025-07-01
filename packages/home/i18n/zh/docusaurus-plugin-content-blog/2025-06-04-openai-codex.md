@@ -1,4 +1,3 @@
-```
 ---
 title: "OpenAI Codex：探究其在多元领域的应用与采纳"
 tags: [OpenAI, Codex, AI, 软件开发, GitHub Copilot, AI 采纳]
@@ -7,7 +6,6 @@ authors: [lark]
 description: OpenAI Codex 通过将自然语言转化为代码，正在改变软件开发，提升开发者、企业和教育机构的生产力。本文将探讨其多样化的应用、采纳趋势以及对未来 AI 辅助编码的影响。
 image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=OpenAI%20Codex%EF%BC%9A%E6%8E%A2%E7%A9%B6%E5%85%B6%E5%9C%A8%E5%A4%9A%E5%85%83%E9%A2%86%E5%9F%9F%E7%9A%84%E5%BA%94%E7%94%A8%E4%B8%8E%E9%87%87%E7%BA%B3"
 ---
-```
 
 ## OpenAI Codex：探究其在不同领域的应用与采纳
 

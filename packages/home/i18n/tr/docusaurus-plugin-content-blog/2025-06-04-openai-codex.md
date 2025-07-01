@@ -1,4 +1,3 @@
-```
 ---
 title: "OpenAI Codex: Çeşitli Sektörlerde Uygulama ve Benimsenmesinin İncelenmesi"
 tags: [OpenAI, Codex, Yapay Zeka, yazılım geliştirme, GitHub Copilot, Yapay Zeka benimsenmesi]
@@ -7,7 +6,6 @@ authors: [lark]
 description: OpenAI Codex, doğal dili koda çevirerek yazılım geliştirmeyi dönüştürüyor, geliştiriciler, şirketler ve eğitim kurumları için verimliliği artırıyor. Bu makale, çeşitli uygulamalarını, benimsenme eğilimlerini ve Yapay Zeka destekli kodlamanın geleceği üzerindeki etkilerini inceliyor.
 image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=OpenAI%20Codex%3A%20%C3%87e%C5%9Fitli%20Sekt%C3%B6rlerde%20Uygulama%20ve%20Benimsenmesinin%20%C4%B0ncelenmesi"
 ---
-```
 
 ## OpenAI Codex: Uygulaması ve Çeşitli Sektörlerde Benimsenmesinin İncelenmesi
 

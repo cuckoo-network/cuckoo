@@ -1,4 +1,3 @@
-```
 ---
 title: "AI 图像工具：高流量、隐藏痛点以及用户真正所需"
 tags: [AI, 图像处理, 用户体验, 技术鸿沟]
@@ -7,7 +6,6 @@ authors: [lark]
 description: AI 图像处理工具被广泛使用，但往往未能达到用户预期。本文探讨了流行的工具、它们的局限性，以及在各个领域满足用户需求的创新机会。
 image: "https://opengraph-image.blockeden.xyz/api/og-cuckoo-network?title=AI%20图像工具%EF%BC%9A高流量%E3%80%81隐藏痛点以及用户真正所需"
 ---
-```
 
 # AI 图像工具：高流量、隐藏的痛点以及用户真正所需
 
