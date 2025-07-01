@@ -56,14 +56,27 @@ async function syncAndTranslateBlogs() {
 
         try {
           // Check if the file exists in the target directory
+          let fileExists = false;
+          let isSameContent = false;
           try {
             await fs.access(targetPath);
-            console.log(`File ${file} already exists in ${locale}, skipping copy and translation...`);
-            continue;
+            fileExists = true;
+            // Compare file contents
+            const [sourceContent, targetContent] = await Promise.all([
+              fs.readFile(sourcePath, 'utf8'),
+              fs.readFile(targetPath, 'utf8')
+            ]);
+            isSameContent = sourceContent === targetContent;
+            if (!isSameContent) {
+              console.log(`File target: ${targetPath} already exists in locale: ${locale}, assuming already translated and skipping copy and translation...`);
+              continue;
+            } else {
+              console.log(`File target: ${targetPath} has the same content as source: ${sourcePath}, will proceed to translation.`);
+            }
           } catch {
-            // File doesn't exist, copy it
+            // File doesn't exist, copy it and translate
             await fs.copyFile(sourcePath, targetPath);
-            console.log(`Copied ${file} to ${locale} directory`);
+            console.log(`Copied source: ${sourcePath} to target: ${targetPath}`);
           }
 
           // Translate the file with retry logic
@@ -71,27 +84,27 @@ async function syncAndTranslateBlogs() {
           let lastError = null;
           for (let attempt = 1; attempt <= 2; attempt++) {
             try {
-              console.log(`Translating ${file} to ${locale} (attempt ${attempt})...`);
+              console.log(`Translating target: ${targetPath} to locale: ${locale} (attempt ${attempt})...`);
               await translateFile(targetPath, locale);
-              console.log(`Successfully translated ${file} to ${locale}`);
+              console.log(`Successfully translated target: ${targetPath} to locale: ${locale}`);
               translated = true;
               break;
             } catch (error) {
               lastError = error;
-              console.error(`Translation attempt ${attempt} failed for ${file} to ${locale}:`, error.message);
+              console.error(`Translation attempt ${attempt} failed for target: ${targetPath} to locale: ${locale}:`, error.message);
             }
           }
           if (!translated) {
             // Delete the untranslated file
             try {
               await fs.unlink(targetPath);
-              console.error(`Failed to translate ${file} to ${locale} after 2 attempts. Deleted untranslated file.`);
+              console.error(`Failed to translate target: ${targetPath} to locale: ${locale} after 2 attempts. Deleted untranslated file.`);
             } catch (deleteError) {
-              console.error(`Also failed to delete untranslated file ${targetPath}:`, deleteError.message);
+              console.error(`Also failed to delete untranslated file target: ${targetPath}:`, deleteError.message);
             }
           }
         } catch (error) {
-          console.error(`Error processing ${file} for ${locale}:`, error.message);
+          console.error(`Error processing target: ${targetPath} for locale: ${locale}:`, error.message);
         }
       }
     }
