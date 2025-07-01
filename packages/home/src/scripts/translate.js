@@ -72,6 +72,7 @@ async function translateSingleChunk(text, locale) {
     "    - you should not translate ar, fa languages\n" +
     '  - the image field\'s value should be wrapped with ""\n' +
     "  - don't translate authors field\n\n" +
+    "  - do not add ``` before and after the frontmatter\n" +
     "Below is the content to translate:\n\n" +
     "```\n" +
     text +
