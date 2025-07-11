@@ -1,0 +1,1 @@
+- [ ] rebrand to "Cuckoo: AI Life Coach / Subtitle: Gamified Habit & Web3 Badge "
