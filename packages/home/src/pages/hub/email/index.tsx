@@ -390,7 +390,7 @@ function EmailHub() {
                 </Link>
                 <Link
                   className="button button--outline button--lg"
-                  to="/chat/cuckoo-gpt?startingPrompt=help%20me%20write%20a%20professional%20email"
+                  to="https://cuckoo.network/chat/cuckoo-gpt?startingPrompt=help%20me%20write%20a%20professional%20email"
                   style={{ borderRadius: '12px', padding: '1rem 2rem', borderColor: 'white', color: 'white' }}>
                   Get AI Writing Help
                 </Link>
@@ -642,7 +642,7 @@ function EmailHub() {
               <div className="margin-top--lg">
                 <Link
                   className="button button--secondary button--lg margin-right--md"
-                  to="/chat/cuckoo-gpt?startingPrompt=help%20me%20write%20a%20professional%20email"
+                  to="https://cuckoo.network/chat/cuckoo-gpt?startingPrompt=help%20me%20write%20a%20professional%20email"
                   style={{ 
                     borderRadius: '12px', 
                     padding: '1rem 2rem',
@@ -655,7 +655,7 @@ function EmailHub() {
                 </Link>
                 <Link
                   className="button button--outline button--lg"
-                  to="/chat/cuckoo-gpt?startingPrompt=review%20and%20improve%20my%20email%20draft"
+                  to="https://cuckoo.network/chat/cuckoo-gpt?startingPrompt=review%20and%20improve%20my%20email%20draft"
                   style={{ 
                     borderRadius: '12px', 
                     padding: '1rem 2rem',
