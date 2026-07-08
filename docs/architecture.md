@@ -121,7 +121,7 @@ bex is identical locally and in prod; only the **infrastructure provider overlay
 ## Repo map
 
 ```
-operator/   Go operator (+ planned control plane & gateway): api/ internal/{build,runtime,controller,allocator,gateway} cmd/  ·  control plane = Postgres source of truth (docs/control-plane.md)
+lego/            Go workspace (types + operator + backend): operator/cmd/manager + backend/cmd/api + shared types/  ·  control plane = planned Postgres source of truth (docs/control-plane.md)
 dashboard/       Render-style human UI (TanStack Start + Ory Kratos, docs/auth.md §5): deploy/ is its own GitOps-deployed kustomize base, at dashboard.<base-domain>
 infra/           bex-infra: terraform/ clusterapi/{base,overlays/{local-capd,hetzner-caph}} local/
 deploy/          GitOps: gitops/{bootstrap,base,overlays/{local,staging,prod},charts} + opensandbox/ server configs

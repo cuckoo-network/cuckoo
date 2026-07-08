@@ -70,16 +70,16 @@ spec:
 | Deploy from git (CNB / Dockerfile) | ✅ |
 | Custom domains + TLS | ✅ |
 | Suspend / resume / restart | ✅ |
-| REST API (Render-compatible) | ✅ lifecycle verbs — create-service / deploys / logs planned |
+| REST API (Render-compatible) | ✅ lifecycle + logs + metrics + env vars + managed Postgres |
 | GraphQL (Render dashboard-compatible) | ✅ |
 | Elastic machines | ✅ manual scale — autoscaler planned |
 | Postgres control plane (tenants/auth) | 🔜 planned |
-| MCP server | 🔜 planned |
-| Managed databases | — non-goal |
+| MCP server | ✅ |
+| Managed Postgres (`/v1/postgres`) | ✅ |
 
 ## AI-native
 
-Today: a bearer-authed, Render-compatible REST + GraphQL API ([docs/bex-api.md](docs/bex-api.md)) an agent can drive end-to-end, and structured state on the App CR (`status.phase`, `status.revision`, `status.url`) that agents read without scraping. Next: an MCP server over the same verbs, deploy-from-chat (repo → URL in one call), and E2B-compatible sandboxes. The thesis and roadmap live in [docs/vision.md](docs/vision.md).
+Today: a bearer-authed, Render-compatible REST + GraphQL + MCP API ([docs/bex-api.md](docs/bex-api.md)) an agent can drive end-to-end, and structured state on the App CR (`status.phase`, `status.revision`, `status.url`) that agents read without scraping. Next: deploy-from-chat (repo → URL in one call) and E2B-compatible sandboxes. The thesis and roadmap live in [docs/vision.md](docs/vision.md).
 
 ## Architecture
 
@@ -107,7 +107,7 @@ scripts/         mock-cluster.sh · app-apply.sh · domain-add.sh · deploy-samp
 
 ## Status & roadmap
 
-Working and verified: App CRD + reconcile, kubernetes runtime (App → Deployment → pods on machines), local CAPD mock with add/remove machine, opensandbox runtime with real pause/resume, custom domains + TLS, lifecycle verbs over REST/GraphQL, and a live Hetzner deployment. Tracked next — Postgres control plane, wake activator + HMAC webhook, autoscaler wiring, in-cluster builds, MCP server: [docs/vision.md](docs/vision.md#roadmap).
+Working and verified: App CRD + reconcile, kubernetes runtime (App → Deployment → pods on machines), local CAPD mock with add/remove machine, opensandbox runtime with real pause/resume, custom domains + TLS, lifecycle verbs over REST/GraphQL/MCP (plus logs/metrics/env-vars and managed Postgres), and a live Hetzner deployment. Tracked next — Postgres control plane, wake activator + HMAC webhook, autoscaler wiring, in-cluster builds, deploy-from-chat: [docs/vision.md](docs/vision.md#roadmap).
 
 ## Contributing
 

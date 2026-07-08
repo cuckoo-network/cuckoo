@@ -24,11 +24,11 @@ Render compatibility is part of the same thesis: agents (and their toolchains) a
 | --- | --- | --- |
 | 1 | **Render-compatible REST + GraphQL** — `bex-api` serves Render's `/v1/services` shapes (verified against Render's OpenAPI spec) and its dashboard GraphQL ([bex-api.md](bex-api.md)) | ✅ shipped |
 | 2 | **Agent-readable state** — `App` CR `status.phase` / `status.revision` / `status.url`; `kubectl get apps.app.bex.co` is the dashboard. Treated as a stable contract | ✅ shipped |
-| 3 | **MCP server** — the bex-api verbs (list / get / deploy / restart / suspend / resume / logs) exposed over MCP; by design just another thin adapter over the same Core ([bex-api.md](bex-api.md)) | 🔜 planned |
+| 3 | **MCP server** — the bex-api verbs (list / get / restart / suspend / resume / logs / metrics) exposed over MCP; by design just another thin adapter over the same Core ([bex-api.md](bex-api.md)) | ✅ shipped |
 | 4 | **Deploy-from-chat** — one API call takes a repo + `bex.yml` to a live URL, so "deploy this" is a single agent action (needs the control plane, [control-plane.md](control-plane.md)) | 🔜 planned |
 | 5 | **E2B-compatible sandboxes** — the opensandbox runtime's real pause/resume as hosted execution environments for agents, with idle sandboxes hibernated ("sleep = free") | 🔜 planned |
 
-Pillars 1–2 mean an agent can already operate bex today with nothing but `curl` or `kubectl`. Pillars 3–5 make it native instead of merely possible.
+Pillars 1–3 mean an agent can already operate bex today with nothing but `curl` or `kubectl` (or MCP). Pillars 4–5 make it more native end-to-end.
 
 ## Roadmap
 
@@ -38,10 +38,10 @@ Roughly ordered — de-risk the live system, then the source-of-truth control pl
 2. **Wake activator + HMAC webhook** — push-to-deploy from Git hosting, and wake-on-request for hibernated apps.
 3. **Cluster Autoscaler wiring** — add/remove machines reactively instead of manually.
 4. **In-cluster builds** — BuildKit/kpack Jobs so build-from-git images are pullable by cluster nodes.
-5. **MCP server** — pillar 3.
+5. **Deploy-from-chat** — pillar 4.
 
 ## Non-goals
 
-- **Managed databases** — bring your own Postgres; bex deploys and runs services.
+- **A broad multi-engine DB product** — bex currently focuses on Postgres (`Database` CR + Render-compatible `/v1/postgres`) rather than every database engine.
 - **Multi-cloud abstraction layers** — bex targets Cluster API providers (Hetzner first, Docker for local dev), not a lowest-common-denominator cloud API.
 - **A closed SaaS** — the hosted offering, when it exists, runs the same code in this repo.
