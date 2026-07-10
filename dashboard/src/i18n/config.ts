@@ -1,4 +1,4 @@
-export const SUPPORTED_LANGUAGES = ["en", "zh"] as const;
+export const SUPPORTED_LANGUAGES = ["en", "zh", "ko"] as const;
 
 export type SupportedLanguage = (typeof SUPPORTED_LANGUAGES)[number];
 
@@ -7,6 +7,7 @@ export const DEFAULT_LANGUAGE: SupportedLanguage = "en";
 export const LANGUAGE_NAMES: Record<SupportedLanguage, string> = {
   en: "English",
   zh: "中文",
+  ko: "한국어",
 };
 
 /** Narrows an arbitrary string (URL param, cookie, header) to a supported language, or null. */

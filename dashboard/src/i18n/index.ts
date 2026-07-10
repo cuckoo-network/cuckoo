@@ -20,6 +20,17 @@ import zhApiKeys from "@/features/api-keys/locales/zh";
 import zhWorkspaces from "@/features/workspaces/locales/zh";
 import zhTeam from "@/features/team/locales/zh";
 import zhUsage from "@/features/usage/locales/zh";
+import koCommon from "@/common/locales/ko";
+import koAuth from "@/features/auth/locales/ko";
+import koLogs from "@/features/logs/locales/ko";
+import koMetrics from "@/features/metrics/locales/ko";
+import koServices from "@/features/services/locales/ko";
+import koDatabases from "@/features/databases/locales/ko";
+import koKeyValue from "@/features/keyvalue/locales/ko";
+import koApiKeys from "@/features/api-keys/locales/ko";
+import koWorkspaces from "@/features/workspaces/locales/ko";
+import koTeam from "@/features/team/locales/ko";
+import koUsage from "@/features/usage/locales/ko";
 import type { SupportedLanguage, TranslationEntry } from "./config";
 
 export type { SupportedLanguage, TranslationEntry } from "./config";
@@ -73,10 +84,25 @@ export const zh: Record<string, string> = {
   ...extractMessages(zhUsage),
 };
 
+export const ko: Record<string, string> = {
+  ...extractMessages(koCommon),
+  ...extractMessages(koAuth),
+  ...extractMessages(koLogs),
+  ...extractMessages(koMetrics),
+  ...extractMessages(koServices),
+  ...extractMessages(koDatabases),
+  ...extractMessages(koKeyValue),
+  ...extractMessages(koApiKeys),
+  ...extractMessages(koWorkspaces),
+  ...extractMessages(koTeam),
+  ...extractMessages(koUsage),
+};
+
 export const resources: Record<
   SupportedLanguage,
   { translation: Record<string, string> }
 > = {
   en: { translation: en },
   zh: { translation: zh },
+  ko: { translation: ko },
 };
