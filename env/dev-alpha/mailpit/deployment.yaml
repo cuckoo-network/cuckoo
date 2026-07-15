@@ -1,12 +1,11 @@
-# Mailpit — a throwaway SMTP catcher for the local mock cluster (docs/ADR012-auth.md §11).
-# Kratos's courier is pointed here (smtp://mailpit.auth.svc:1025) so recovery /
-# verification mail is observable + scriptable via Mailpit's HTTP API (:8025)
-# instead of leaving the cluster. LOCAL OVERLAY ONLY — never rendered in prod.
+# Mailpit for the dev-alpha isolated environment — copy of
+# deploy/gitops/overlays/local/mailpit/deployment.yaml, namespaced to
+# dev-alpha-auth so it never collides with the shared cluster's mailpit.
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mailpit
-  namespace: auth
+  namespace: dev-alpha-auth
   labels:
     app.kubernetes.io/name: mailpit
     app.kubernetes.io/component: mail-catcher
@@ -20,9 +19,6 @@ spec:
       labels:
         app.kubernetes.io/name: mailpit
     spec:
-      # Pin to the CAPD control-plane node — the same quirk the OpenBao/CoreDNS
-      # local pins document: this single-worker CAPD/OrbStack cluster schedules
-      # platform services reliably only on the control-plane node.
       nodeSelector:
         node-role.kubernetes.io/control-plane: ""
       tolerations:
@@ -40,12 +36,9 @@ spec:
       containers:
         - name: mailpit
           image: axllent/mailpit:v1.21.8
-          # In-memory store (no MP_DATABASE) — a catcher needs no persistence.
-          # v1.21.8 still writes a scratch sqlite file under os.TempDir() at
-          # startup regardless (crashes with "read-only file system" under
-          # readOnlyRootFilesystem without this mount — caught standing up a
-          # second mailpit instance from this same manifest; an existing
-          # long-running pod predates hitting this path).
+          # v1.21.8 writes a scratch sqlite file under os.TempDir() at startup
+          # regardless of MP_DATABASE — crashes "read-only file system" without
+          # this mount (see deploy/gitops/overlays/local/mailpit/deployment.yaml).
           env:
             - name: MP_SMTP_AUTH_ACCEPT_ANY
               value: "1"
@@ -83,12 +76,21 @@ spec:
             limits:
               cpu: 200m
               memory: 128Mi
-          # Mailpit backs its "in-memory" store with a temp sqlite file in /tmp
-          # even without MP_DATABASE; readOnlyRootFilesystem makes that open()
-          # fatal, so give it a writable emptyDir there.
-          volumeMounts:
-            - name: tmp
-              mountPath: /tmp
-      volumes:
-        - name: tmp
-          emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mailpit
+  namespace: dev-alpha-auth
+  labels:
+    app.kubernetes.io/name: mailpit
+spec:
+  selector:
+    app.kubernetes.io/name: mailpit
+  ports:
+    - name: smtp
+      port: 1025
+      targetPort: smtp
+    - name: http
+      port: 8025
+      targetPort: http
