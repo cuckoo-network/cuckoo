@@ -1,20 +1,20 @@
 #!/usr/bin/env bash
-# Bring up the dev-alpha isolated environment: its own Kratos + Hydra + Mailpit
-# (namespace dev-alpha-auth) on the shared local kind/CAPD cluster ("bex"),
+# Bring up the dev-beta isolated environment: its own Kratos + Hydra + Mailpit
+# (namespace dev-beta-auth) on the shared local kind/CAPD cluster ("bex"),
 # reusing that cluster's CNPG operator and the bex operator (already watching
 # all namespaces) — only the identity stack + a dedicated app namespace
-# (dev-alpha) are duplicated, so this never collides with another concurrent
+# (dev-beta) are duplicated, so this never collides with another concurrent
 # session using the shared "auth" namespace's Kratos on :5173/:4433.
 #
 # Then builds+runs a local bex-api pointed at this stack, and port-forwards
 # kratos-public + hydra-admin to the ports in ports.env.
 #
-# Usage: bash env/dev-alpha/up.sh
+# Usage: bash env/dev-beta/up.sh
 # Idempotent: safe to re-run (helm upgrade --install, kubectl apply, PIDs
 # re-checked before re-forking). Requires: kind, kubectl, helm, go, openssl.
 set -euo pipefail
 cd "$(dirname "$0")/../.." # repo root
-ENVDIR="env/dev-alpha"
+ENVDIR="env/dev-beta"
 # shellcheck disable=SC1091
 source "$ENVDIR/ports.env"
 
@@ -26,49 +26,49 @@ kind get kubeconfig --name bex > "$KUBECONFIG_FILE"
 export KUBECONFIG="$PWD/$KUBECONFIG_FILE"
 
 echo "==> namespaces"
-kubectl create namespace "$DEV_ALPHA_AUTH_NS" --dry-run=client -o yaml | kubectl apply -f - >/dev/null
-kubectl create namespace "$DEV_ALPHA_NS" --dry-run=client -o yaml | kubectl apply -f - >/dev/null
+kubectl create namespace "$DEV_BETA_AUTH_NS" --dry-run=client -o yaml | kubectl apply -f - >/dev/null
+kubectl create namespace "$DEV_BETA_NS" --dry-run=client -o yaml | kubectl apply -f - >/dev/null
 
-echo "==> operator RBAC for the dev-alpha apps namespace (secrets CRUD — see rbac-dev-alpha.yaml)"
-kubectl apply -f "$ENVDIR/rbac-dev-alpha.yaml" >/dev/null
+echo "==> operator RBAC for the dev-beta apps namespace (secrets CRUD — see rbac-dev-beta.yaml)"
+kubectl apply -f "$ENVDIR/rbac-dev-beta.yaml" >/dev/null
 
 echo "==> CNPG Clusters (kratos-db, hydra-db, bex-db)"
 kubectl apply -f "$ENVDIR/db/kratos-db.yaml" -f "$ENVDIR/db/hydra-db.yaml" -f "$ENVDIR/db/bex-db.yaml" >/dev/null
 for cluster in kratos-db hydra-db bex-db; do
   echo "    waiting for $cluster-app credentials secret..."
   for _ in $(seq 1 60); do
-    kubectl -n "$DEV_ALPHA_AUTH_NS" get secret "$cluster-app" >/dev/null 2>&1 && break
+    kubectl -n "$DEV_BETA_AUTH_NS" get secret "$cluster-app" >/dev/null 2>&1 && break
     sleep 5
   done
-  kubectl -n "$DEV_ALPHA_AUTH_NS" get secret "$cluster-app" >/dev/null 2>&1 \
+  kubectl -n "$DEV_BETA_AUTH_NS" get secret "$cluster-app" >/dev/null 2>&1 \
     || { echo "error: $cluster never produced its -app credentials secret"; exit 1; }
 done
 
 echo "==> mailpit"
 kubectl apply -f "$ENVDIR/mailpit/deployment.yaml" >/dev/null
-kubectl -n "$DEV_ALPHA_AUTH_NS" rollout status deployment/mailpit --timeout=120s
+kubectl -n "$DEV_BETA_AUTH_NS" rollout status deployment/mailpit --timeout=120s
 
 # dsn CLUSTER DB — postgres:// DSN for a CNPG cluster's app user (mirrors
-# scripts/auth-secrets.sh's dsn() helper, dev-alpha-auth namespace).
+# scripts/auth-secrets.sh's dsn() helper, dev-beta-auth namespace).
 dsn() {
   local cluster="$1" db="$2" user pass
-  { read -r user; read -r pass; } < <(kubectl -n "$DEV_ALPHA_AUTH_NS" get secret "$cluster-app" \
+  { read -r user; read -r pass; } < <(kubectl -n "$DEV_BETA_AUTH_NS" get secret "$cluster-app" \
     -o go-template='{{.data.username | base64decode}}{{"\n"}}{{.data.password | base64decode}}')
   printf 'postgres://%s:%s@%s-rw.%s.svc.cluster.local:5432/%s?sslmode=require' \
-    "$user" "$pass" "$cluster" "$DEV_ALPHA_AUTH_NS" "$db"
+    "$user" "$pass" "$cluster" "$DEV_BETA_AUTH_NS" "$db"
 }
 
-echo "==> out-of-band kratos/hydra secrets (freshly generated, dev-alpha-auth only)"
-kubectl create secret generic kratos -n "$DEV_ALPHA_AUTH_NS" \
+echo "==> out-of-band kratos/hydra secrets (freshly generated, dev-beta-auth only)"
+kubectl create secret generic kratos -n "$DEV_BETA_AUTH_NS" \
   --from-literal=dsn="$(dsn kratos-db kratos)" \
   --from-literal=secretsDefault="$(openssl rand -hex 16)" \
   --from-literal=secretsCookie="$(openssl rand -hex 16)" \
   --from-literal=secretsCipher="$(openssl rand -hex 16)" \
-  --from-literal=smtpConnectionURI="smtp://mailpit.$DEV_ALPHA_AUTH_NS.svc:1025/?disable_starttls=true" \
+  --from-literal=smtpConnectionURI="smtp://mailpit.$DEV_BETA_AUTH_NS.svc:1025/?disable_starttls=true" \
   --from-literal=oidc.yaml="$(printf 'selfservice:\n  methods:\n    oidc:\n      enabled: false\n')" \
   --dry-run=client -o yaml | kubectl apply -f - >/dev/null
 
-kubectl create secret generic hydra -n "$DEV_ALPHA_AUTH_NS" \
+kubectl create secret generic hydra -n "$DEV_BETA_AUTH_NS" \
   --from-literal=dsn="$(dsn hydra-db hydra)" \
   --from-literal=secretsSystem="$(openssl rand -hex 16)" \
   --from-literal=secretsCookie="$(openssl rand -hex 16)" \
@@ -80,9 +80,9 @@ helm repo add ory https://k8s.ory.sh/helm/charts >/dev/null 2>&1 || true
 helm repo update ory >/dev/null
 
 echo "==> kratos + hydra (helm upgrade --install)"
-helm upgrade --install kratos ory/kratos --version 0.62.1 -n "$DEV_ALPHA_AUTH_NS" \
+helm upgrade --install kratos ory/kratos --version 0.62.1 -n "$DEV_BETA_AUTH_NS" \
   -f deploy/gitops/base/values/kratos.values.yaml -f "$ENVDIR/values/kratos.values.yaml" --wait --timeout 5m
-helm upgrade --install hydra ory/hydra --version 0.62.1 -n "$DEV_ALPHA_AUTH_NS" \
+helm upgrade --install hydra ory/hydra --version 0.62.1 -n "$DEV_BETA_AUTH_NS" \
   -f deploy/gitops/base/values/hydra.values.yaml -f "$ENVDIR/values/hydra.values.yaml" --wait --timeout 5m
 
 kill_if_running() {
@@ -103,7 +103,7 @@ kill_if_running() {
 forward() {
   local name="$1" service="$2" ports="$3"
   kill_if_running "$ENVDIR/.pids/pf-$name.pid"
-  nohup bash -c "while true; do kubectl -n '$DEV_ALPHA_AUTH_NS' port-forward service/$service $ports; sleep 1; done" \
+  nohup bash -c "while true; do kubectl -n '$DEV_BETA_AUTH_NS' port-forward service/$service $ports; sleep 1; done" \
     > "$ENVDIR/logs/pf-$name.log" 2>&1 & echo $! > "$ENVDIR/.pids/pf-$name.pid"
 }
 
@@ -122,23 +122,23 @@ echo "==> building bex-api"
 # HOST (not in-cluster), so it can't resolve *.svc.cluster.local.
 hostDsn() {
   local cluster="$1" db="$2" port="$3" user pass
-  { read -r user; read -r pass; } < <(kubectl -n "$DEV_ALPHA_AUTH_NS" get secret "$cluster-app" \
+  { read -r user; read -r pass; } < <(kubectl -n "$DEV_BETA_AUTH_NS" get secret "$cluster-app" \
     -o go-template='{{.data.username | base64decode}}{{"\n"}}{{.data.password | base64decode}}')
   printf 'postgres://%s:%s@localhost:%s/%s?sslmode=require' "$user" "$pass" "$port" "$db"
 }
 
-echo "==> starting bex-api on :$BEX_API_PORT (namespace $DEV_ALPHA_NS)"
+echo "==> starting bex-api on :$BEX_API_PORT (namespace $DEV_BETA_NS)"
 kill_if_running "$ENVDIR/.pids/bex-api.pid"
 nohup env \
   KUBECONFIG="$PWD/$KUBECONFIG_FILE" \
   BEX_API_ADDR=":$BEX_API_PORT" \
   BEX_CP_ADDR=":$BEX_CP_PORT" \
-  BEX_API_NAMESPACE="$DEV_ALPHA_NS" \
+  BEX_API_NAMESPACE="$DEV_BETA_NS" \
   BEX_API_CORS_ORIGIN="http://localhost:$DASHBOARD_PORT" \
   BEX_KRATOS_URL="http://localhost:$KRATOS_PUBLIC_PORT" \
   BEX_HYDRA_ADMIN_URL="http://localhost:$HYDRA_ADMIN_PORT" \
   BEX_CP_DB_URI="$(hostDsn bex-db bex "$BEX_DB_PORT")" \
-  BEX_CP_APPS_NAMESPACE="$DEV_ALPHA_NS" \
+  BEX_CP_APPS_NAMESPACE="$DEV_BETA_NS" \
   BEX_BASE_DOMAIN="onbex.co" \
   "./$ENVDIR/bin/bex-api" > "$ENVDIR/logs/bex-api.log" 2>&1 & echo $! > "$ENVDIR/.pids/bex-api.pid"
 sleep 3
@@ -149,8 +149,8 @@ if ! kill -0 "$(cat "$ENVDIR/.pids/bex-api.pid")" 2>/dev/null; then
 fi
 
 echo
-echo "dev-alpha is up:"
-echo "  kubeconfig:  $KUBECONFIG_FILE (KUBECONFIG=\$PWD/$KUBECONFIG_FILE kubectl -n $DEV_ALPHA_NS get keyvalues.app.bex.co)"
+echo "dev-beta is up:"
+echo "  kubeconfig:  $KUBECONFIG_FILE (KUBECONFIG=\$PWD/$KUBECONFIG_FILE kubectl -n $DEV_BETA_NS get keyvalues.app.bex.co)"
 echo "  kratos:      http://localhost:$KRATOS_PUBLIC_PORT"
 echo "  hydra admin: http://localhost:$HYDRA_ADMIN_PORT"
 echo "  mailpit UI:  http://localhost:$MAILPIT_HTTP_PORT"
