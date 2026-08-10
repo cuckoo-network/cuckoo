@@ -150,16 +150,15 @@ func (s *PGStore) TerminateMissingSandboxMeters(ctx context.Context, workspaceID
 	if err != nil {
 		return err
 	}
+	defer rows.Close()
 	var missing []string
 	for rows.Next() {
 		var id string
 		if err := rows.Scan(&id); err != nil {
-			rows.Close()
 			return err
 		}
 		missing = append(missing, id)
 	}
-	rows.Close()
 	if err := rows.Err(); err != nil {
 		return err
 	}
