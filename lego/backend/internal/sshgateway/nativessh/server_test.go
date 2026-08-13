@@ -247,8 +247,8 @@ func TestGatewayExecPropagatesIdentityOutputExitAndAudit(t *testing.T) {
 	if string(output) != "inside-app\n" || resolver.Subject != "user-1" || resolver.Username != "srv-abcdeabcdeabcdeabcde" {
 		t.Fatalf("output/identity/target = %q %q %q", output, resolver.Subject, resolver.Username)
 	}
-	if len(executor.Command) != 3 || executor.Command[0] != "/bin/sh" || executor.Command[2] != "printf private-command" {
-		t.Fatalf("exec command = %#v", executor.Command)
+	if argv := executor.Args(); len(argv) != 3 || argv[0] != "/bin/sh" || argv[2] != "printf private-command" {
+		t.Fatalf("exec command = %#v", argv)
 	}
 	time.Sleep(20 * time.Millisecond)
 	started, ended := st.StartedSessions(), st.EndedSessions()
@@ -280,8 +280,8 @@ func TestGatewayPTYResizeAndShell(t *testing.T) {
 	if err := session.Wait(); err != nil {
 		t.Fatal(err)
 	}
-	if !executor.TTY || len(executor.Sizes) != 2 || executor.Sizes[0].Width != 80 || executor.Sizes[1].Width != 120 {
-		t.Fatalf("tty/sizes = %v %+v", executor.TTY, executor.Sizes)
+	if sizes := executor.TerminalSizes(); !executor.UsedTTY() || len(sizes) != 2 || sizes[0].Width != 80 || sizes[1].Width != 120 {
+		t.Fatalf("tty/sizes = %v %+v", executor.UsedTTY(), sizes)
 	}
 }
 
@@ -303,8 +303,8 @@ func TestGatewayRejectsTerminalDimensionsThatWouldOverflowKubernetes(t *testing.
 	if err := session.RequestPty("xterm", 24, 70000, ssh.TerminalModes{}); err == nil {
 		t.Fatal("oversized PTY width was accepted")
 	}
-	if len(executor.Command) != 0 {
-		t.Fatalf("oversized PTY reached executor: %#v", executor.Command)
+	if argv := executor.Args(); len(argv) != 0 {
+		t.Fatalf("oversized PTY reached executor: %#v", argv)
 	}
 }
 
@@ -387,8 +387,8 @@ func TestGatewayRejectsUnsupportedRequestsBeforeExec(t *testing.T) {
 	if err != nil || string(output) != "inside-app\n" {
 		t.Fatalf("valid exec after rejected requests = %q, %v", output, err)
 	}
-	if len(executor.Command) != 3 || executor.Command[2] != "true" {
-		t.Fatalf("executor received unexpected command: %#v", executor.Command)
+	if argv := executor.Args(); len(argv) != 3 || argv[2] != "true" {
+		t.Fatalf("executor received unexpected command: %#v", argv)
 	}
 }
 
@@ -412,8 +412,8 @@ func TestGatewayRejectsSCPProtocolBeforeExec(t *testing.T) {
 			if err := session.Run(command); err == nil {
 				t.Fatal("SCP protocol command unexpectedly accepted")
 			}
-			if executor.Command != nil {
-				t.Fatalf("SCP protocol reached executor: %#v", executor.Command)
+			if argv := executor.Args(); argv != nil {
+				t.Fatalf("SCP protocol reached executor: %#v", argv)
 			}
 		})
 	}

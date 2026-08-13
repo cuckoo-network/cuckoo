@@ -125,20 +125,34 @@ func (f *FakeResolver) ResolveSSHSession(ctx context.Context, username string) (
 // FakeExecutor implements Executor. In TTY mode it reads two terminal sizes
 // before writing output — both the native SSH and webshell suites depend on
 // that contract to observe resize propagation.
+//
+// Execute runs on the gateway's connection goroutine, so what it records is
+// read from a different goroutine than the one that writes it. The recorded
+// state is therefore private behind mu, like FakeStore's above, and reached
+// through Args/UsedTTY/TerminalSizes. A test that asserts on it must first
+// wait for the exec to arrive: serveSession replies to the pty/exec/subsystem
+// request BEFORE runExec calls the executor, so a client call returning is not
+// evidence that Execute has run.
 type FakeExecutor struct {
-	Command []string
-	TTY     bool
-	Sizes   []remotecommand.TerminalSize
 	Code    int
 	Err     error
 	Block   bool
 	Started chan struct{}
 	Stopped chan error
+
+	mu      sync.Mutex
+	invoked chan struct{}
+	command []string
+	tty     bool
+	sizes   []remotecommand.TerminalSize
 }
 
 func (f *FakeExecutor) Execute(ctx context.Context, _ apps.SSHInstanceTarget, command []string, tty bool, queue remotecommand.TerminalSizeQueue, _ io.Reader, stdout, _ io.Writer) (int, error) {
-	f.Command = append([]string(nil), command...)
-	f.TTY = tty
+	f.mu.Lock()
+	f.command = append([]string(nil), command...)
+	f.tty = tty
+	f.mu.Unlock()
+	f.markInvoked()
 	if f.Started != nil {
 		select {
 		case f.Started <- struct{}{}:
@@ -153,15 +167,79 @@ func (f *FakeExecutor) Execute(ctx context.Context, _ apps.SSHInstanceTarget, co
 		return 126, ctx.Err()
 	}
 	if tty {
-		if size := queue.Next(); size != nil {
-			f.Sizes = append(f.Sizes, *size)
-		}
-		if size := queue.Next(); size != nil {
-			f.Sizes = append(f.Sizes, *size)
+		for range 2 {
+			if size := queue.Next(); size != nil {
+				f.mu.Lock()
+				f.sizes = append(f.sizes, *size)
+				f.mu.Unlock()
+			}
 		}
 	}
 	if f.Err == nil {
 		_, _ = io.WriteString(stdout, "inside-app\n")
 	}
 	return f.Code, f.Err
+}
+
+// Args returns a copy of the argv the gateway last handed the executor, or nil
+// when Execute has not been reached.
+func (f *FakeExecutor) Args() []string {
+	f.mu.Lock()
+	defer f.mu.Unlock()
+	return append([]string(nil), f.command...)
+}
+
+// UsedTTY reports whether the last exec asked for a TTY.
+func (f *FakeExecutor) UsedTTY() bool {
+	f.mu.Lock()
+	defer f.mu.Unlock()
+	return f.tty
+}
+
+// TerminalSizes returns a copy of the sizes the exec stream pulled off the
+// resize queue.
+func (f *FakeExecutor) TerminalSizes() []remotecommand.TerminalSize {
+	f.mu.Lock()
+	defer f.mu.Unlock()
+	return append([]remotecommand.TerminalSize(nil), f.sizes...)
+}
+
+// WaitInvoked blocks until Execute has recorded an invocation, and reports
+// whether it arrived within timeout. It is the happens-before edge an assertion
+// on Args/UsedTTY needs when the client call it followed only proves the
+// request was ACKNOWLEDGED — the subsystem and pty paths both reply first and
+// exec after.
+func (f *FakeExecutor) WaitInvoked(timeout time.Duration) bool {
+	timer := time.NewTimer(timeout)
+	defer timer.Stop()
+	select {
+	case <-f.invokedChan():
+		return true
+	case <-timer.C:
+		return false
+	}
+}
+
+// invokedChan returns the channel closed by the first Execute call, creating it
+// on demand so a zero-value FakeExecutor stays usable.
+func (f *FakeExecutor) invokedChan() chan struct{} {
+	f.mu.Lock()
+	defer f.mu.Unlock()
+	if f.invoked == nil {
+		f.invoked = make(chan struct{})
+	}
+	return f.invoked
+}
+
+func (f *FakeExecutor) markInvoked() {
+	f.mu.Lock()
+	defer f.mu.Unlock()
+	if f.invoked == nil {
+		f.invoked = make(chan struct{})
+	}
+	select {
+	case <-f.invoked:
+	default:
+		close(f.invoked)
+	}
 }
