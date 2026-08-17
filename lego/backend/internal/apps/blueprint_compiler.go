@@ -62,6 +62,7 @@ type BlueprintSource struct {
 }
 
 var renderBlueprintSchemaOnce = sync.OnceValues(compileRenderBlueprintSchema)
+var renderBlueprintRegistryOnce = sync.OnceValues(RenderBlueprintCapabilityRegistry)
 
 // CompileBlueprintSource parses exactly one YAML document, rejects YAML forms
 // that have no unambiguous JSON meaning, validates it against the reviewed
@@ -73,7 +74,7 @@ func CompileBlueprintSource(manifest string) (*BlueprintSource, []BlueprintSourc
 	if len(problems) > 0 {
 		return source, sortBlueprintSourceProblems(problems)
 	}
-	registry, err := RenderBlueprintCapabilityRegistry()
+	registry, err := renderBlueprintRegistryOnce()
 	if err != nil {
 		return source, []BlueprintSourceProblem{{
 			Code:    "BLUEPRINT_SCHEMA_UNAVAILABLE",
@@ -119,11 +120,9 @@ func blueprintCapabilityProblems(value any, path []string, locations map[string]
 // blueprintCapabilityContext identifies the reviewed schema object currently
 // being visited. It is deliberately independent of the Go decoder structs: a
 // field must pass this gate before an adapter is allowed to approximate it.
-// base is used for inline schema objects whose registry entries are not a
-// named definition (for example serverService.scaling).
 type blueprintCapabilityContext struct {
 	kind blueprintCapabilityKind
-	base string
+	base string // Overrides kind-based pointer resolution for inline schemas (e.g., scaling, maintenanceMode)
 }
 
 type blueprintCapabilityKind string
@@ -131,6 +130,14 @@ type blueprintCapabilityKind string
 // blueprintEnvironmentPropertyPrefix is the schema pointer prefix for a
 // project environment's own (non-resource) properties.
 const blueprintEnvironmentPropertyPrefix = "#/definitions/environment/allOf/1/properties/"
+
+// appendPath returns a new path slice with element appended, leaving the original unchanged.
+func appendPath(path []string, element string) []string {
+	result := make([]string, len(path)+1)
+	copy(result, path)
+	result[len(path)] = element
+	return result
+}
 
 const (
 	blueprintCapabilityRoot               blueprintCapabilityKind = "root"
@@ -161,15 +168,22 @@ const (
 	blueprintCapabilityStaticPreviews     blueprintCapabilityKind = "staticServicePreviews"
 )
 
+// arrayItemContextResolvers maps array-item contexts that need dynamic resolution.
+var arrayItemContextResolvers = map[blueprintCapabilityKind]func(any) blueprintCapabilityContext{
+	blueprintCapabilityServices:          blueprintServiceCapabilityContext,
+	blueprintCapabilityEnvKeyValue:       blueprintEnvVarCapabilityContext,
+	blueprintCapabilityEnvDatabase:       blueprintEnvVarCapabilityContext,
+	blueprintCapabilityEnvService:        blueprintEnvVarCapabilityContext,
+	blueprintCapabilityEnvGroupReference: blueprintEnvVarCapabilityContext,
+}
+
 func blueprintCapabilityProblemsAt(value any, path []string, locations map[string]BlueprintSourceLocation, registry *BlueprintCapabilityRegistry, context blueprintCapabilityContext) []BlueprintSourceProblem {
 	if list, ok := value.([]any); ok {
-		var problems []BlueprintSourceProblem
+		problems := make([]BlueprintSourceProblem, 0, len(list))
 		for index, item := range list {
 			itemContext := context
-			if context.kind == blueprintCapabilityServices {
-				itemContext = blueprintServiceCapabilityContext(item)
-			} else if context.kind == blueprintCapabilityEnvKeyValue || context.kind == blueprintCapabilityEnvDatabase || context.kind == blueprintCapabilityEnvService || context.kind == blueprintCapabilityEnvGroupReference {
-				itemContext = blueprintEnvVarCapabilityContext(item)
+			if resolver, ok := arrayItemContextResolvers[context.kind]; ok {
+				itemContext = resolver(item)
 			}
 			problems = append(problems, blueprintCapabilityProblemsAt(item, append(path, strconv.Itoa(index)), locations, registry, itemContext)...)
 		}
@@ -179,11 +193,11 @@ func blueprintCapabilityProblemsAt(value any, path []string, locations map[strin
 	if !ok {
 		return nil
 	}
-	var problems []BlueprintSourceProblem
+	problems := make([]BlueprintSourceProblem, 0, 8)
 	problems = append(problems, blueprintPrebuiltImageProblems(object, path, locations, context)...)
 	problems = append(problems, blueprintServiceRuntimeProblems(object, path, locations, context)...)
 	for field, child := range object {
-		fieldPath := append(append([]string(nil), path...), field)
+		fieldPath := appendPath(path, field)
 		pointer := renderSchemaPointer(fieldPath)
 		location := lookupBlueprintLocation(pointer, locations)
 		problem := func(code, message string) {
@@ -242,7 +256,7 @@ func blueprintServiceRuntimeProblems(object map[string]any, path []string, locat
 		if _, declared := object[rule.field]; !declared || !rule.invalid {
 			continue
 		}
-		fieldPath := append(append([]string(nil), path...), rule.field)
+		fieldPath := appendPath(path, rule.field)
 		pointer := renderSchemaPointer(fieldPath)
 		location := lookupBlueprintLocation(pointer, locations)
 		problems = append(problems, BlueprintSourceProblem{
@@ -266,11 +280,9 @@ func blueprintNativeRuntime(runtime string) bool {
 }
 
 type prebuiltImageSourceField struct {
-	blueprintName string
-	createName    string
-	// declaredInCreate probes the direct create API's spelling of the field;
-	// nil marks a Blueprint-only field the create API does not expose.
-	declaredInCreate func(CreateRequest) bool
+	blueprintName    string
+	createName       string
+	declaredInCreate func(CreateRequest) bool // nil = Blueprint-only field not exposed by create API
 }
 
 // prebuiltImageSourceFields is the shared policy for settings that only have
@@ -322,7 +334,7 @@ func blueprintPrebuiltImageProblems(object map[string]any, path []string, locati
 				continue
 			}
 		}
-		fieldPath := append(append([]string(nil), path...), sourceField.blueprintName)
+		fieldPath := appendPath(path, sourceField.blueprintName)
 		pointer := renderSchemaPointer(fieldPath)
 		location := lookupBlueprintLocation(pointer, locations)
 		problems = append(problems, BlueprintSourceProblem{
@@ -746,7 +758,7 @@ func yamlNodeToBlueprintValue(node *yaml.Node, path []string, locations map[stri
 			return nil, breach
 		}
 		values := make([]any, len(node.Content))
-		var problems []BlueprintSourceProblem
+		problems := make([]BlueprintSourceProblem, 0, 8)
 		for i, child := range node.Content {
 			if budget.bailed {
 				break
@@ -763,7 +775,7 @@ func yamlNodeToBlueprintValue(node *yaml.Node, path []string, locations map[stri
 		}
 		values := make(map[string]any, entries)
 		seen := make(map[string]BlueprintSourceLocation, entries)
-		var problems []BlueprintSourceProblem
+		problems := make([]BlueprintSourceProblem, 0, 8)
 		for i := 0; i < len(node.Content); i += 2 {
 			if budget.bailed {
 				break
@@ -782,8 +794,8 @@ func yamlNodeToBlueprintValue(node *yaml.Node, path []string, locations map[stri
 				break
 			}
 			childPath := append(path, key.Value)
-			childPointer := renderSchemaPointer(childPath)
 			if first, duplicate := seen[key.Value]; duplicate {
+				childPointer := renderSchemaPointer(childPath)
 				problems = append(problems, BlueprintSourceProblem{
 					Code: "BLUEPRINT_DUPLICATE_KEY", Path: childPointer,
 					Message: fmt.Sprintf("duplicate key %q (first declared at line %d, column %d)", key.Value, first.Line, first.Column),
@@ -962,7 +974,12 @@ func normalizeRenderResourceContainers(document map[string]any) error {
 }
 
 func mergedBlueprintMaps[V any](groups ...map[string]V) map[string]V {
-	merged := map[string]V{}
+	// Pre-calculate total size for efficient allocation
+	size := 0
+	for _, group := range groups {
+		size += len(group)
+	}
+	merged := make(map[string]V, size)
 	for _, group := range groups {
 		for key, value := range group {
 			merged[key] = value
