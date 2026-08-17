@@ -968,6 +968,13 @@ func (s *Service) resolveUndeclaredDatabases(ctx context.Context, st parsedStack
 			return err
 		}
 	}
+
+	// Pre-compute which database names require pooler to avoid O(n²m) scans
+	// during resolution. Instead of checking requirePoolerForRefs inside the
+	// loop (which scans all services × all refs for each database), build the
+	// pooler requirement map once: O(services × refs) instead of O(databases × services × refs).
+	poolerRequired := buildPoolerRequirementMap(st)
+
 	for name := range needed {
 		found, duplicate := uniqueDatabaseByDisplayName(databases.Items, scoped, tenantID, name)
 		if duplicate {
@@ -976,31 +983,34 @@ func (s *Service) resolveUndeclaredDatabases(ctx context.Context, st parsedStack
 		if found == nil {
 			return fmt.Errorf("%w: fromDatabase references unknown database %q in this workspace", core.ErrBadRequest, name)
 		}
-		if err := requirePoolerForRefs(st, name, found); err != nil {
-			return err
+		if svc := poolerRequired[name]; svc != "" && !found.Spec.Pooler {
+			return poolerRequiredError(svc, name)
 		}
 		out[name] = found.Name
 	}
 	return nil
 }
 
-// requirePoolerForRefs fails the deploy when a service asks the named database
-// for its connectionPoolString but that database has no pooler.
-func requirePoolerForRefs(st parsedStack, name string, found *appv1alpha1.Database) error {
-	if found.Spec.Pooler {
-		return nil
-	}
+// buildPoolerRequirementMap pre-computes which database names require pooler,
+// returning a map from database name to the first service that requires it
+// (for error messages). Avoids O(n²m) scanning during resolution.
+func buildPoolerRequirementMap(st parsedStack) map[string]string {
+	poolerRequired := make(map[string]string)
 	for _, service := range st.services {
 		for _, ref := range service.databaseRefs {
-			if ref.FromDatabase != nil && ref.FromDatabase.Name == name && ref.FromDatabase.Property == dbPropertyConnectionPoolString {
-				return poolerRequiredError(service.req.Name, name)
+			if ref.FromDatabase != nil && ref.FromDatabase.Property == dbPropertyConnectionPoolString {
+				if poolerRequired[ref.FromDatabase.Name] == "" {
+					poolerRequired[ref.FromDatabase.Name] = service.req.Name
+				}
 			}
 		}
 	}
-	return nil
+	return poolerRequired
 }
 
-// resolveUndeclaredKeyValues is resolveUndeclaredDatabases' Key Value twin.
+// resolveUndeclaredKeyValues records each needed key-value name's CR identity in
+// out, fetching the workspace snapshot only if the caller had none. A name that
+// matches no key-value, or more than one, fails the deploy.
 func (s *Service) resolveUndeclaredKeyValues(ctx context.Context, needed map[string]bool, keyValues *appv1alpha1.KeyValueList, tenantID string, scoped bool, out map[string]string) error {
 	if len(needed) == 0 {
 		return nil
@@ -1014,7 +1024,7 @@ func (s *Service) resolveUndeclaredKeyValues(ctx context.Context, needed map[str
 	for name := range needed {
 		found, duplicate := uniqueKeyValueByDisplayName(keyValues.Items, scoped, tenantID, name)
 		if duplicate {
-			return fmt.Errorf("%w: fromService Key Value reference %q is ambiguous in this workspace", core.ErrConflict, name)
+			return fmt.Errorf("%w: fromService reference %q is ambiguous in this workspace", core.ErrConflict, name)
 		}
 		if found == nil {
 			return fmt.Errorf("%w: fromService references unknown Key Value %q in this workspace", core.ErrBadRequest, name)
