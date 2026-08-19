@@ -214,22 +214,9 @@ func appContainer(app *appv1alpha1.App, p deploymentParams) corev1.Container {
 	// never have to learn.
 	if !p.worker {
 		handler := healthCheckHandler(app.Spec.HealthCheckPath, p.port)
-		container.StartupProbe = &corev1.Probe{
-			ProbeHandler:     handler,
-			TimeoutSeconds:   healthCheckTimeoutSeconds,
-			PeriodSeconds:    healthCheckPeriodSeconds,
-			FailureThreshold: healthCheckStartupFailureThreshold,
-		}
-		container.ReadinessProbe = &corev1.Probe{
-			ProbeHandler:   handler,
-			TimeoutSeconds: healthCheckTimeoutSeconds,
-		}
-		container.LivenessProbe = &corev1.Probe{
-			ProbeHandler:     handler,
-			TimeoutSeconds:   healthCheckTimeoutSeconds,
-			PeriodSeconds:    healthCheckPeriodSeconds,
-			FailureThreshold: healthCheckLivenessFailureThreshold,
-		}
+		container.StartupProbe = newProbe(handler, healthCheckStartupFailureThreshold)
+		container.ReadinessProbe = newProbe(handler, 0)
+		container.LivenessProbe = newProbe(handler, healthCheckLivenessFailureThreshold)
 	}
 	return container
 }
@@ -257,6 +244,20 @@ func healthCheckHandler(path string, port int) corev1.ProbeHandler {
 	return corev1.ProbeHandler{
 		HTTPGet: &corev1.HTTPGetAction{Path: path, Port: intstr.FromInt(port)},
 	}
+}
+
+// newProbe creates a probe with common defaults. A failureThreshold of 0
+// means use Kubernetes defaults (readiness probe behavior).
+func newProbe(handler corev1.ProbeHandler, failureThreshold int32) *corev1.Probe {
+	probe := &corev1.Probe{
+		ProbeHandler:   handler,
+		TimeoutSeconds: healthCheckTimeoutSeconds,
+	}
+	if failureThreshold > 0 {
+		probe.PeriodSeconds = healthCheckPeriodSeconds
+		probe.FailureThreshold = failureThreshold
+	}
+	return probe
 }
 
 // applyDeploymentSpec projects the App onto dep's spec. It is the body of the
