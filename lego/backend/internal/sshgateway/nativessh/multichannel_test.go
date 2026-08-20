@@ -196,14 +196,20 @@ func TestSandboxAcceptsSFTPSubsystem(t *testing.T) {
 	if err := session.RequestSubsystem("sftp"); err != nil {
 		t.Fatalf("sftp subsystem should be accepted for a sandbox target: %v", err)
 	}
+	// serveSession ACKs the subsystem request and only then runs the exec, so
+	// RequestSubsystem returning does not mean the executor has been called yet.
+	if !exec.WaitInvoked(2 * time.Second) {
+		t.Fatal("sftp subsystem was accepted but never reached the executor")
+	}
 	// Started via `sh -c 'cd "$HOME" && exec …/sftp-server'` so a relative upload
 	// path (Zed's `.zed_server/…`) resolves under $HOME, not the WORKDIR (w2/m65).
-	if len(exec.Command) != 3 || exec.Command[0] != "/bin/sh" || exec.Command[1] != "-c" {
-		t.Fatalf("sftp exec argv = %#v, want [/bin/sh -c <cd $HOME && exec sftp-server>]", exec.Command)
+	argv := exec.Args()
+	if len(argv) != 3 || argv[0] != "/bin/sh" || argv[1] != "-c" {
+		t.Fatalf("sftp exec argv = %#v, want [/bin/sh -c <cd $HOME && exec sftp-server>]", argv)
 	}
-	if !strings.Contains(exec.Command[2], "/usr/lib/openssh/sftp-server") ||
-		!strings.Contains(exec.Command[2], "HOME") {
-		t.Fatalf("sftp command should cd to $HOME then exec sftp-server, got %q", exec.Command[2])
+	if !strings.Contains(argv[2], "/usr/lib/openssh/sftp-server") ||
+		!strings.Contains(argv[2], "HOME") {
+		t.Fatalf("sftp command should cd to $HOME then exec sftp-server, got %q", argv[2])
 	}
 	_ = session.Close()
 }

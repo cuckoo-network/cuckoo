@@ -117,11 +117,12 @@ func TestWebSocketShellHappyPath(t *testing.T) {
 	if exitCode != 0 {
 		t.Errorf("exit code = %d, want 0", exitCode)
 	}
-	if !exec.TTY || len(exec.Command) != 1 || exec.Command[0] != "/bin/sh" {
-		t.Errorf("executor got tty=%v command=%v, want an interactive /bin/sh", exec.TTY, exec.Command)
+	argv := exec.Args()
+	if !exec.UsedTTY() || len(argv) != 1 || argv[0] != "/bin/sh" {
+		t.Errorf("executor got tty=%v command=%v, want an interactive /bin/sh", exec.UsedTTY(), argv)
 	}
-	if len(exec.Sizes) == 0 || exec.Sizes[len(exec.Sizes)-1].Width != 100 {
-		t.Errorf("resize not delivered to the exec stream: %+v", exec.Sizes)
+	if sizes := exec.TerminalSizes(); len(sizes) == 0 || sizes[len(sizes)-1].Width != 100 {
+		t.Errorf("resize not delivered to the exec stream: %+v", sizes)
 	}
 	if resolver.Subject != "user-1" || resolver.Username != "srv-abcdeabcdeabcdeabcde" {
 		t.Errorf("resolver saw subject=%q username=%q", resolver.Subject, resolver.Username)
